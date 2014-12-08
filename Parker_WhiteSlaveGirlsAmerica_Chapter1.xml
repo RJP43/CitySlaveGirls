@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+        <div type="chapter">
+            <pb n="13"/>
+        <head><title>CHAPTER I.—FEMALE LABOR</title> 
+            <p>LIST OF TRADES IN WHICH FEMALE LABOR IS USED—PECULIAR
+                FEMALE ABILITY—AVERAGE WAGES—PAY AND PRIVILEGES OF HOUSEHOLD WORK—PITIABLE CONDITION
+                OF WORKING WOMEN AT HOME AND ABROAD—STATEMENTS FROM <placeName type="city">LONDON</placeName>,
+                    <placeName type="city">NEW YORK</placeName> AND <placeName type="city">CHICAGO</placeName>—<workingConditions category="negative">FOUL
+                FACTORIES</workingConditions> AND <livingConditions category="negative">FILTHY TENEMENTS</livingConditions>—<workingConditions category="wageDesc">A WEEK’S SALARY GONE IN FINES</workingConditions>—THE ONE DOOR OF ESCAPE—<ref to="newspaperSeries">THE ACTUAL EXPERIENCE OF A NEWSPAPER
+                    INVESTIGATOR IN THE GUISE OF A SHOP-GIRL</ref>.
+            </p>
+        </head>
+        <p><statistic info="vague">EVERY year the scope of female labor is becoming broader, the number of laborers larger,
+            the skill and the effectiveness of the working-women greater, but, unfortunately the
+            condition of the women who win their bread has not improved.</statistic> They are for the most part
+                <livingConditions category="negative">badly housed</livingConditions>, <livingConditions category="negative"
+                >insufficiently fed</livingConditions>, <livingConditions category="negative">shabbily clothed</livingConditions> and
+                <workingConditions category="wageDesc">poorly paid</workingConditions>. The trades and the callings
+            requiring skilled labor in which women are now employed in this country are mainly in
+            the production of the following articles: <industry>Artificial flowers</industry>,
+                <industry>awnings</industry>, <industry>bedding supplies</industry>, <industry>blank
+                books</industry>, <industry>paper boxes</industry>, <industry>collars and
+                cuffs</industry>, <industry>clothing</industry>, <industry>brushes</industry>,
+                <industry>buttons</industry>, <industry>canned goods</industry>,
+                <industry>caps</industry>, <industry>cards</industry>, <industry>carpets</industry>,
+                <industry>cases for jewelry</industry>, <industry>cigars and cigarettes</industry>,
+                <industry>cloaks and suits</industry>, <industry>confectionery</industry>,
+                <industry>cords and fringes</industry>, <industry>corsets</industry>,
+                <industry>dresses</industry>, <industry>embroidery</industry>,
+                <industry>envelopes</industry>, <industry>essences and extracts</industry>,
+                <industry>fancy boxes and fans</industry>, <industry>feathers</industry>,
+                <industry>flannels</industry>, <industry>flags</industry>,
+            <industry>furs</industry>, <industry>gimps</industry>, <industry>gloves</industry>,
+                <industry>gold-leaf</industry>, <industry>handkerchiefs</industry>,
+                <industry>hats</industry>, <industry>hat- sweats and hat trimmings</industry>,
+                <industry>labels</industry>, <industry>laces</industry>, <industry>lead
+                pencils</industry>, <industry>underwear</industry>, <industry>mats</industry>,
+                <industry>mattresses</industry>, <industry>medicine</industry>, <industry>morocco
+                goods</industry>, <industry>millinery</industry>, <industry>neckties</industry>,
+                <industry>paper bags</industry>, <industry>parasols</industry>,
+                <industry>perfumeries</industry>, <industry>pocket books</industry>, <industry>pearl
+                work</industry>, <industry>preserves</industry>, <industry>quilts</industry>,
+                <industry>ribbons</industry>, <industry>shirts</industry>,
+                <industry>shoes</industry>, <industry>skirts</industry>, <industry>silk</industry>,
+                <industry>soap</industry>, <industry>slippers</industry>, <industry>straw
+                goods</industry>, <industry>spices</industry>, <industry>suspendeders</industry>,
+                <industry>tags</industry>, <industry>tassels</industry>,
+                <industry>tickings</industry>, <industry>tobacco</industry>,
+                <industry>toys</industry>, <industry>trimmings</industry>,
+                <industry>twines</industry>, <industry>umbrellas</industry>,
+                <industry>upholstery</industry>, <industry>watch-cases</industry>,
+                <industry>wax-works</industry>, <industry>wigs</industry>, <industry>willow
+                ware</industry>, <industry>window-shades</industry>, <industry>woolen
+                goods</industry>, <industry>wrappers</industry>, <industry>worsted yarns</industry>.
+            In the making <pb n="14"/> of each of these articles the reader will perceive that the
+            demand has brought about the supply. <desc of="womensLabor">There was need in each case for the manual
+            dexterity, the light and careful touch and the patient and tireless application which we
+            recognize as the chief advantages of women’s work.</desc> For this peculiar ability, however,
+            it is unfortnnately true that the women are the <workingConditions category="wageDesc">worst paid
+                laborers</workingConditions> in <placeName type="country">America</placeName>. They receive <workingConditions category="wageDesc">shamefully low wages</workingConditions>, and <workingConditions category="negative">the conditions under which
+            they work are disgraceful to our boasted civilization</workingConditions>. For instance, <!-- RJP: could make this into a table titled the average wages of women employees in first-class establishments-->
+            <occupation>braid-makers</occupation> average <num type="wage" amount="5.50">$5.50</num> a week;
+            <occupation>vest-makers</occupation>, <num type="wage" amount="6.00">$6.00</num>;
+            <occupation>button-hole makers</occupation>, <num type="wage" amount="4.30">$4.30</num>;
+            <occupation>candy- makers</occupation>, <num type="wage" amount="4.75">$4.75</num>;
+            <occupation>cap-makers</occupation>, <num type="wage" amount="5.50"
+                >$5.50</num>;<occupation>tobacco-strippers</occupation>, <num type="wage" amount="5.50"
+                    >$5.50</num>; <occupation>cigar-makers</occupation>, <num type="wage" amount="5.00">$5.00</num>;
+            <occupation>dressmakers</occupation>, <num type="wage" amount="5.00">$5.00</num>;
+            <occupation>hatters</occupation>, <num type="wage" amount="6.00">$6.00</num>; <occupation>ladies’
+                hat makers</occupation>, <num type="wage" amount="4.00">$4.00</num>;<occupation>paper-
+                    makers</occupation>, <num type="wage" amount="5.00">$5.00</num>;
+            <occupation>rag-sorters</occupation>, <num type="wage" amount="3.50">$3.50</num>;
+            <occupation>shirt-makers</occupation>, <num type="wage" amount="6.00">$6.00</num>. 
+            These figures, however, come from first-class
+            establishments, which are not afraid to expose their methods of working to the light of
+            day; establishments which, unfortunately, are in a helpless minority among the employers
+            of female labor. The writer believes, from a careful study of all the facts to which he
+            could get access, that the <workingConditions category="wageDesc">average wage for female skilled labor in
+                this country, throughout, is somewhere between <num type="wage" amount="4.50">$4.50</num> and <num type="wage" amount="5.00">$5.00</num> a
+        week, and the average time worked is something
+            more than ten hours a day</workingConditions>. The reason is plain: <desc of="womensLabor">female labor is not organized,
+            it is perfectly helpless, and the weakest, under the beneficent and kindly law of
+            nature, goes to the wall.</desc> </p>
+        <p> There are classes of work done by women whose conditions can not in justice be
+            criticised as can the so-called skilled labor, and which are, if not too well paid, at
+            least comfortable, healthy, and proper; chief among these is <statistic info="specific">domestic
+                service, in which, in <date year="1888">1888</date>, more than 1,200,000
+                females are employed.</statistic> <workingConditions category="wageDesc">Their wages run between <num
+                    type="wage" amount="10.00">$10</num> and <num type="wage" amount="14.00">$14</num> a month some, of course, ranging
+                as high as <num type="wage" amount="25.00">$25</num> and <num type="wage" amount="30.00">$30</num>, and few falling below
+                    <num type="wage" amount="10.00">$10</num>, so that <num type="wage" amount="12.00">$12</num> is a conservative general
+                average. To this is of course to be added board and lodging and perquisites, easily
+                worth <num type="wage" amount="20.00">$20</num> a month more</workingConditions>. The <occupation>domestic
+                servant</occupation> is, as a rule, <livingConditions category="positive">well fed</livingConditions>,
+            <livingConditions category="positive">cleanly and comfortably lodged</livingConditions>, and <workingConditions
+                category="positive">fairly treated</workingConditions>; but <desc of="womensLabor">the idea of household work is so
+            repugnant to many women that they prefer the starvation wages of the trades and the
+            unwholesome crowding of the tenements</desc>. <industry>Laundresses and hotel
+                servants</industry> have also <workingConditions category="comparison">surroundings and lives better for than anything to be
+            found in the factories</workingConditions>, but here, too, <desc of="womensLabor">the objection of “menial service” applies, and
+            most <nationality nation="America">American-born</nationality> women will have none of
+            it.</desc></p>
+        <p> Up to within the past few years there was practically no recourse for an educated woman
+            who had her own living to make save teaching. This 
+            <pb n="15"/>
+            list has also been extended, and <occupation>type-writing</occupation>, which pays about <num type="wage" amount="10.00">$10</num> a week, <occupation>stenography</occupation> at an
+                average of <num type="wage" amount="12.00">$12</num>, and different kinds of
+                <occupation>clerical work in stores, keeping books, cash, etc., and selling
+                goods</occupation>, which are paid for at the rate of from <num
+                    type="wage" amount="5.50">$5.50</num> to <num type="wage" amount="10.00">$10</num>, and sometimes <num type="wage"
+                    amount="15.00">$15</num> a week, have been added to the list. <statistic info="vague">So that on the whole there
+            are now in <placeName type="country">America</placeName> about one hundred separate callings bidding
+            for female labor, out of which the woman who must win her bread may take her choice.</statistic>
+            That the theater for her endeavor has thus been widened is by itself a good thing. <desc of="womensLabor">The
+            chance for self-help, the possibility of independence, lifts the sex up, and as the
+            years come on we can expect to see the sphere of woman’s action broadening until it at
+            last will include all of these industries, where tactual skill, delicate manipulation,
+            and careful work are needed rather than strength.</desc> But before we congratulate ourselves
+            too much upon the high civilization which this indicates, let, us look at the reverse of
+            the picture.</p>
+        <p>It is a fact that <desc of="womensLabor">female labor the world over is in a most pitiable condition; women are
+            weak in every way, weak individually and weak in their lack of organization, and there
+            are men ready at all times to take advantage of their weakness</desc>. In
+                <placeName type="city">London</placeName> <workingConditions category="wageDesc">the average wage of the whole body of women workers
+            is, according to official figures, less than <num type="wage" amount="7">seven shillings</num> (<num type="wage" amount="1.75">$1.75</num>) a week, and out of this sum the worker must find food for herself, rags to cover her, and a
+                    place to stay when she is not struggling for these few paltry bits of silver</workingConditions>.
+            As to the effect, hear what <person>the English factory inspector</person> says as late
+            as the <date when="1888-07-01">1st of July, 1888</date>: </p>
+        <p>
+            <quote speaker="factoryInspector">“Domestic workshops, as now extended, are a great evil.
+                Instead of large factories and legally constituted
+                    workshops we have thousands of domestic
+                    workshops, <workingConditions category="negative">dark, 
+                        dirty and overcrowded</workingConditions>, and which <desc of="womensLabor">can not be improved by factory legislation, for at the time of the passing of the act the present state of things could not have been
+                contemplated. Let not keen competition bear the whole of the blame, but rather let
+                the truth be spoken, to the credit of greediness, and an unconcern for the welfare of unskilled operatives</desc>. Our
+                   <desc of="workingClass">female population are losing self-respect, for they
+                have no hope of improvement, being unskilled operatives</desc>; <desc of="workingClass"
+                    >they rush into extremes of the gratification of the senses</desc>, <desc
+                    of="workingClass">they frequent places where drink is supplied</desc>, and
+                    <desc of="workingClass">where utterances are set to music provocative,
+                    enticing and subtle, a luxurious yet sensuous gratification of untrained
+                    minds</desc>, <desc of="workingClass">unrestrained when their small earnings
+                    are paid</desc>; but in the end they are most assuredly the victims of the
+                    <italics>voluptas empta dolore</italics>.”</quote>
+        </p>
+        <p> And in the factories the conditions are such that the most callous <pb n="16"/> reader
+            must stand appalled at the details. In 424 factories where women were employed in
+            <location type="general">the east end of <placeName type="city">London</placeName></location>, <workingConditions category="negative">sewer gas
+                was present in dangerous quantities</workingConditions>, and <workingConditions category="negative">the
+                sexes were huddled together without any attempt at decency</workingConditions>. <workingConditions category="negative">The places are described as foul and filthy.</workingConditions> <statistic info="specific">Among 600
+                lost women who answered the questions put to them by the inspector, 511 had been
+                factory operatives</statistic>. The only wonder is that the proportion is not
+            greater.</p>
+        <p> But we are accustomed to look on <placeName type="city">London</placeName> as a place in another
+            world. How is it at home? Here is the condition in <placeName type="city">New York</placeName>
+            tabulated so that it may be seen at a glance : <!-- RJP: The following information is displayed in the original text as a distorted table: I think that as long as we specify in the header and on the website that the setup of tables may be altered (but the information is kept consistent) in order to make more sense of th information provided. Therefore, we could better organize the information in our own type of table -->
+            <table><tableTitle>SANITARY CONDITION OF WORKSHOPS AND FACTORIES.</tableTitle>
+                <number>1</number><question><refPoint letter="a">a</refPoint> Is there free circulation of air
+                    through and about the building in which you work ?</question><response
+                    choice="Yes">468</response><response choice="No">249</response><response
+                    choice="Blank">93</response><response choice="Optional"/>
+                <number>2</number><question><refPoint letter="b">b</refPoint> Are there offensive odors in the
+                    rooms occupied by employes; if so, from what causes?</question><response
+                    choice="Yes">342</response><response choice="No">233</response><response
+                    choice="Blank">235</response><response choice="Optional"/>
+                <number>3</number><question><refPoint letter="c">c</refPoint> Are there facilities for
+                    washing?</question><response choice="Yes">460</response><response choice="No"
+                    >124</response><response choice="Blank">226</response><response choice="Optional"/>
+                <number>5</number><question>Are seats provided, as prescribed by
+                    law?</question><response choice="Yes">320</response><response choice="No"
+                    >192</response><response choice="Blank">298</response><response choice="Optional"/>
+                <number>6</number><question><refPoint letter="d">d</refPoint> Are employes furnished with pure
+                    drinking water?</question><response choice="Yes">527</response><response choice="No"
+                    >102</response><response choice="Blank">181</response><response choice="Optional"/>
+                <number>7</number><question>Does the work require the employes to stoop
+                    over?</question><response choice="Yes">587</response><response choice="No"
+                    >116</response><response choice="Blank">107</response><response choice="Optional"/>
+                <number>8</number><question><refPoint letter="e">e</refPoint> Are there proper and separate
+                    facilities for change of dress by males and females?</question><response
+                    choice="Yes">354</response><response choice="No">221</response><response
+                    choice="Blank">235</response><response choice="Optional"/>
+                <number>9</number><question><refPoint letter="f">f</refPoint> Are there separate water-closets
+                    for males and females?</question><response choice="Yes">509</response><response
+                        choice="No"></response><refPoint letter="g">g</refPoint>126<response choice="Blank"
+                    >175</response><response choice="Optional"/>
+                <number>2</number><question>Are there stairways from the windows
+                    outside?</question><response choice="Yes">350</response><response choice="No"
+                    >318</response><response choice="Blank">148</response><response choice="Optional"/>
+                <number>4</number><question>Are the rooms supplied with water
+                    pipes?</question><response choice="Yes">266</response><response choice="No"
+                    >385</response><response choice="Blank">165</response><response choice="Optional"/>
+                <number>5</number><question>Are there hose attachments?</question><response
+                    choice="Yes">224</response><response choice="No">375</response><response
+                    choice="Blank">218</response><response choice="Optional"/>
+                <number>4</number><question><refPoint letter="h">h</refPoint> Are employes compelled to stand or
+                    sit at their work?</question><response choice="Sit">469</response><response
+                    choice="Stand">175</response><response choice="Blank">99</response><response
+                    choice="Optional">67</response>
+                <number>6</number><question>Are there water tanks and buckets on each
+                    floor?</question><response choice="Yes">236</response><response choice="No"
+                    >387</response><response choice="Blank">193</response><response choice="Optional"/>
+                <refPoint letter="a">a</refPoint>One says where she is employed there are 100 women and small
+                girls who work in a cellar without ventilation, and gas and electric lights burning
+                all day. 
+                <refPoint letter="b">b</refPoint>Eighty-one from water-closets and seventy-three from
+                various other causes. 
+                <refPoint letter="c">c</refPoint>Fourteen answered yes, but if caught
+                washing are fined. 
+                <refPoint letter="d">d</refPoint>In some cases where they have ice water in
+                the summer the employes are made to pay a stated sum per season.
+                    <refPoint letter="e">e</refPoint>A number answer that they change in the water-closet.
+                    <refPoint letter="f">f</refPoint>Yes, but very poor and not pleasant to enter.
+                    <refPoint letter="g">g</refPoint>In sight of male employer, and another case not fit to use,
+                and a breeding-plaoe ofdis- <refPoint letter="h">h</refPoint> Some are fined if caught sitting,
+                and in some instances must furnish their own seats.</table>
+        </p>
+        <!-- RJP: end of table data -->
+        <p>These are official figures, and the <person>New York Labor Commissioner</person> says
+            officially of them: <quote speaker="laborCommissioner">"It is not only proven that <workingConditions
+                    category="negative">the sanitary condition such as to cause alarm, but
+                    that, in an equally great proportion of the same buildings, means for prevention
+                    and escape in case of fire are alarmingly deficient</workingConditions>. And this is not all,
+                nor is it, from certain standpoints, a fact calculated to arouse public sentiment
+                and indignation to so great an extent, as the <workingConditions category="negative">utter
+                    lack of proper facilities for change of dress and the use of separate water
+                    closets</workingConditions>, as established by overwhelming testimony.“</quote></p>
+        <pb n="17"/>
+        <p><ref to="newspaperSeries">In <placeName type="city">Chicago</placeName>, according to the statements given with names and
+            places by the <ref to="theTimes"><italics>Times</italics> newspaper</ref>,
+            the conditions are as bad.</ref> In many places where women work there is not even a pretense
+            of cleanliness. <workingConditions category="negative">It is proven that in one factory the women
+                are locked in without any possibility of leaving the room for any purpose</workingConditions>.
+            When the <occupation>knitting girls</occupation> struck in <placeName type="city">St.
+                Louis</placeName>, it was shown that in some cases <desc of="workingClass"
+                >prostitution was one of the conditions of getting and keeping work, and that many
+                girls could not make enough money to buy bread and fuel without resorting to the
+                streets</desc>. <workingConditions category="negative">It is the general custom in almost all
+                places to discipline women workers by fining them for an infraction of the rules,
+                and there are many instances on record where the fines have taken up the whole of
+                the week's wages, although the employer got the whole of the week’s work</workingConditions>. Can
+            anyone wonder that <statistic info="specific">out of 2,000 women of the town in <placeName type="state">New
+                    York</placeName>, 1,820 had been working girls before they took to,the
+                streets</statistic>? <desc of="workingClass">Can anyone wonder why
+                    <location type="streetName">Madison street, in <placeName type="city">Chicago</placeName></location>, is nightly crowded with unfortunates</desc>? </p>
+        <p>But it will be well to give here in detail some of the results of <ref
+                to="newspaperSeries">the <ref to="theTimes"><italics>Times</italics></ref>' investigations of the
+                conditions surrounding female labor in <placeName type="city">Chicago</placeName></ref>. They have additional value
+            from the fact that they were made for <ref to="theTimes">a responsible newspaper</ref> by <ref to="nellNelson">a woman who shows in every line of her work her fitness for the task</ref>. <ref to="newspaperSeries">It has not
+                been deemed advisable here to give the names of the firms and corporations, but
+                those sufficiently interested may peruse the files of <ref to="theTimes">the Chicago
+                    <italics>Times</italics></ref>, beginning with <date when="1888-07-30">July 30,
+                    1888</date>, and there read the articles, under the heading <ref to="newspaperSeries">“City Slave Girls,”</ref>
+                which should make the <italics>nom de plume</italics> of the writer, <ref to="nellNelson">“Nell Nelson,”</ref>
+                forever dear to all toiling womankind</ref>: </p>
+       <!--RJP: from this point on McEnnis references Nelson's series-->
+   
+        <div type="articleReference">
+            <p><date when="1888-07-10">Tuesday, July 10</date>, according to instructions, I made up
+                for the role of shop-girl, and with a list of factories in one hand, and gentle
+                peace in the other, sailed <version change="variance"><location type="general">down town</location></version> under a brown baize veil as impenetrable as an
+                iron mask.</p>
+            <p> I did not realize the <desc of="workingClass">ignominious position of respectable poverty</desc> till I reached a
+                    <company name="unidentified">cloak factory</company> on <location type="streetName">Madison street</location>, where <desc
+                    of="workingClass">labor is bondage, the laborer a slave, and flesh and blood
+                    cheaper than needles and thread</desc>. Corporations are said to be without
+                heart, but this concern is a commercial inquisition. It puts its help on the plane
+                of slavery, and nothing but civil law prevents the use of the lash. </p>
+            <p> The factory is on the third floor of a large brick building. <workingConditions
+                    category="negative">Elevator? No, indeed. An elevator is a luxury, and
+                    luxuries have no place here</workingConditions>. You will be short of breath when you reach
+                the top of the fourth flight, but in recovering you have time to take in the <pb
+                    n="18"/> surroundings—<workingConditions category="negative">a great barn of a place,
+                    with the single charm of good light. There is plenty of vacant room, but the
+                    women are huddled together, elbows touching, along the line of machines</workingConditions>.
+                <workingConditions category="negative">Into the west windows pours the odor of <placeName type="city">Chicago</placeName>’s
+                    famous sewer river</workingConditions>; at <workingConditions category="negative">the south end of the
+                    room, not ten feet from the crowded table, is a tier of closets, and on hot days
+                    the combined odor of the two is shocking</workingConditions>. <desc of="workingClass">Nobody
+                    dare complain about smells, cold, heat, work, wages or rules. But whoever
+                    heard of martyrs complaining?</desc></p>
+            <p> My experience began at 7:50 a.m. and lasted just three hours. When I climbed the
+                dusty stairs I took a ten-minute rest at the top. Everybody was at work but
+                    <person who="employer" gender="male">a hungry-looking man about twenty-seven years old, with skin the color
+                    of a Russia turnip, and thin, peaked features. He was dressed in a pair of
+                    heelless slippers, a white shirt, and a pair of shop pants that some poor slave
+                    had received eighteen cents for making. Neither collar, vest, coat, nor
+                    suspenders burdened his emaciated form. He moved among the workers with
+                a cat-like tread, his shoulders drooping and his knees opening and shutting with a
+                sort of accordion movement at every step</person>. <workingConditions category="negative">He passed me several times as I stood at
+                the desk, and eyed me so unpleasantly that I
+                turned my back to him.</workingConditions></p>
+            <p>After waiting at the desk for three-quarters of an hour, I asked <person who="workingGirl" gender="female">the clerk, a
+                    sweet little girl of sixteen years, with pretty red cheeks and dark eyelashes
+                    and hair</person>, for work, and was told to wait till the <person who="forePerson" gender="female">forelady</person> came round.
+                A dozen girls were waiting, too, some with <factoryItem>cloaks</factoryItem>, others with check-books and
+                tickets, and a few with <factoryItem>hand-made fringe</factoryItem>. The <person who="workingGirl" gender="female">fringe girl</person> I spoke
+                to. She told me <workingConditions category="wageDesc">she received <num type="wage" amount=".05">5 cents</num>
+                    a yard for making an imitation of seal-ball fringe, such as winter cloaks are
+                    trimmed with</workingConditions>. <desc of="workingClass">She had a piece three yards and a
+                    quarter long that had taken her all the previous day to make. Here was a child
+                    of fifteen working nine and a half hours a day for a competence of <num type="wage" amount=".1625">16 1/4
+                    cents</num></desc>. Will the <location type="streetName">Prairie Avenue</location> woman who, at the suggestion of
+                    <persName>Mrs. Ormison Chant</persName>, is trying to find a hundred girls who
+                are earning less than <num type="wage" amount=".28">28 cents</num> a
+                    day, please enter <persName>Maggie W----</persName> on the list, and will
+                the women of the <orgName>Protective Agency</orgName> who want a new field of
+                inquiry, call and see the <person who="employer">slim, snake-gaited, jaundice-faced creature who
+                    has charge of this <workingConditions category="negative">human mill</workingConditions></person>?</p>
+            <p><persName>Maggie</persName>’s <factoryItem>fringe</factoryItem> being measured and her book checked, she was
+                given another box of material, and went off to weave it into <factoryItem>tassel-trimming</factoryItem>. The
+                girl who took her place would not be interviewed. She <femVoice who="workingGirl" connotation="intimidated">"didn’t know how much
+                stitchers earned, and wouldn’t tell nobody how much a week she could make."</femVoice> She was,
+                possibly, twenty-five years old, with a <desc of="workingClass">deathly pale face,
+                    and looked as though she hadn’t eaten any breakfast</desc>. <pb n="19"/> Her
+                successor was less reticent. <femVoice who="workingGirl" connotation="negative">"I'm here since
+                        <date month="--05">May</date>, but I don’t like it. <person who="employer" gender="male">The boss is a horrid
+                        thing</person>. Him and the <person who="forePerson" gender="female">forelady</person> watches us all the time, and they don’t give us hardly any work. <workingConditions category="negative">I can only make one cloak
+                            a day</workingConditions>; <workingConditions category="wageDesc">some pays <num type="wage" amount=".30">30
+                        cents</num>, some <num type="wage" amount=".40">40 cents</num>, and some <num type="wage"
+                            amount=".50">50 cents</num>. Yesterday I had <num type="wage" amount=".60">60
+                        cents</num> coming to me for two days</workingConditions>. Are you long here? Oh, you won’t
+                    stay. <desc of="upperClass">They search your bag and your pockets when you
+                        go home nights to see if you have any thread or pieces about
+                    you</desc>."</femVoice>
+            </p>
+            <p> After waiting an hour <ref to="nellNelson">the disguised investigator</ref> was properly enrolled among the
+                toilers of this particular cloak factory, assigned to a place in the work-room, and
+                given a good-sized bundle of material, which was to be made into a garment. </p>
+            <p><femVoice who="forePerson" connotation="descriptionNeutral">"This is a <num type="wage" amount=".65">65-cent</num> <factoryItem>cloak</factoryItem>,"</femVoice> said <person who="forePerson" gender="female">the
+                    hard-featured spinster who acted as forelady</person>. <femVoice who="forePerson" connotation="descriptionNeutral"
+                    >"The <occupation>stitcher</occupation>
+                    gets <num type="wage" amount=".20">20 cents</num>, the
+                        <occupation>binder</occupation>
+                    <num type="wage" amount=".15">15 cents</num>, and you get <num type="wage"
+                            amount=".30">30 cents</num> for finishing, if the work is
+                    right."</femVoice> <nellVoice connotation="sarcasmWit">Here was, indeed, a fortune! <num type="wage"
+                        amount=".30">Thirty cents</num> for making a long cloth cloak after the seams were stitched.</nellVoice> <desc
+                    of="womensLabor">It had to be trimmed down the back gores, around the
+                    collar, cuffs and pockets with mohair plush; the sleeves had to go in— eighteen
+                    button-holes to be worked and a corresponding number of buttons sewed on, and
+                    the seams and edges faced with black muslin</desc>. <nellVoice connotation="negative"><num
+                        type="wage" amount=".30">Thirty cents</num>, in other
+                    words, for a good day’s work of ten hours!</nellVoice>
+            </p>
+        </div>
+    </div>
+</root>
+
