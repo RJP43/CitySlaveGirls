@@ -93,6 +93,7 @@ body {
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
+	width:100%;
 }
 
 /* end styles to control the body of every page*/
@@ -116,11 +117,12 @@ body {
 /* begin styles to control the home page*/
 
 
-img {margin-left:auto; margin-right:auto; }
+img {display:block; margin-left:auto; margin-right:auto; }
 
-#image {width:100%;
-   margin-left: 35%;
-   margin-right:35%
+#image {width:560px;
+/**ebb: *560px is the width of the image, according to our console log, so this controls the width of all the child divs inside <div id="image">.**/
+   margin-left: auto;
+   margin-right:auto
   
 }
 
@@ -130,22 +132,23 @@ img {margin-left:auto; margin-right:auto; }
    margin-right:auto;
 }
 
-#image_text {
-	margin-left: 1%;
-	margin-right:1%;
+#image_text {display:block;
+	margin-left: auto;
+	margin-right:auto;
 	color: #FFFFFF;
 	background-color: #6A6262; 
 	border:1px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
-	width:520px;
+	width:100%;
 	text-align:center;
 	font-size:90%;
 	position:relative;
 }
 
 #content_text {
+
 	margin:10px 10px 10px;
 	border:4px dotted #B9929F;
 	border-radius:8px;
