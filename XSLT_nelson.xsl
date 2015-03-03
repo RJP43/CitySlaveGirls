@@ -24,18 +24,13 @@
                 <xsl:apply-templates select="//head/headLine"/>
             </div>
             <body>
-                <!--<xsl:apply-templates select="//articleBody"/>-->
-                <div id="dialogue">
-                    <xsl:apply-templates select="//articleBody/dialogue"/>                             </div>
+                <xsl:apply-templates select="//articleBody"/>
             </body>
         </div>
         </html>
         </xsl:template>
     
-    <xsl:template match="//articleBody/dialogue">
-        <xsl:apply-templates select="*"/>
-    </xsl:template>
-    
+ 
     <xsl:template match="mascVoice| nellVoice| femVoice">
         <p>
             <b><xsl:value-of select="./name()"/><xsl:text>: </xsl:text></b>
