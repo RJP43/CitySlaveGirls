@@ -5,6 +5,7 @@ function init() {
 }
 
 function toggle() {
+    clear()
    var id = this.id;
     switch (id) {
      case "sarcasmWit": {
@@ -84,6 +85,14 @@ function toggle() {
             }
         };
     }
-  }  
+  }
+
+function clear() {
+    var radios= document.querySelectorAll("g > g");
+    /*g > g specifies only g's that are immediate children of g's (not all descendents which would be g g */
+    for (var j=0; j< radios.length; j++)
+        radios[j].classList.remove("on")
+
+}
 
 window.onload = init;
