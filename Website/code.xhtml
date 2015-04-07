@@ -26,8 +26,12 @@
         <div id="methodology">
             <h1>Methodology</h1>
             
+            <h2 id="tagging">System of Tagging</h2>
+            <p>The newspaper articles and the two book sources have been marked up using XML tagging. The tagging system highlights a variety of elements and
+                attributes. Each article and chapter of the books were verified against <a
+                    href="Parker_NellNelsonProject_schema.rnc">our Relax NG schema</a> to ensure consistent tagging.</p>
             <div id="elementList" class="toc">
-                <span class="ch">List of Elements</span>
+                <h2>List of Elements</h2>
                 <ul>
                     <li><a href="#div"><span>div</span></a></li>
                     <li><a href="#subtitle"><span>subtitle</span></a></li>
@@ -72,10 +76,6 @@
                     <li><a href="#nellVoice"><span>factoryItem</span></a></li>                 
                 </ul>
             </div>
-            <h2 id="tagging">System of Tagging</h2>
-            <p>The newspaper articles and the two book sources have been marked up using XML tagging. The tagging system highlights a variety of elements and
-                attributes. Each article and chapter of the books were verified against <a
-                    href="Parker_NellNelsonProject_schema.rnc">our Relax NG schema</a> to ensure consistent tagging.</p>
             <h3 id="div">div</h3>
             <p>structural -- The "div" element is always followed by a "type" attribute.</p>
             <p class="attribute" id="type">The "type" attribute points to one of the following descriptive labels when associated with "div": "preface" "chapter" "articleReference" "newspaperArticle"</p>
