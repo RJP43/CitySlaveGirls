@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../Dropbox/Sigma%20Tau%20Delta%20Officers/Sp%202015%20Intl%20Convention%20Prep/DH%20Convention%20Panel/NelsonSchema_example/Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
         <div type="chapter">
             <pb n="13"/>
