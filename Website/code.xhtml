@@ -23,6 +23,255 @@
                 </ul>
             </div>
         </div>
+        <div id="methodology">
+            <h1>Methodology</h1>
+            
+            <div id="elementList" class="toc">
+                <span class="ch">List of Elements</span>
+                <ul>
+                    <li><a href="#div"><span>div</span></a></li>
+                    <li><a href="#subtitle"><span>subtitle</span></a></li>
+                    <li><a href="#head"><span>head</span></a></li>
+                    <li><a href="#title"><span>title</span></a></li>
+                    <li><a href="#articleBody"><span>articleBody</span></a></li>
+                    <li><a href="#dialogue"><span>dialogue</span></a></li>
+                    <li><a href="#unclear"><span>unclear</span></a></li>
+                    <li><a href="#newspaperTitle"><span>newspaperTitle</span></a></li>
+                    <li><a href="#seriesTitle"><span>seriesTitle</span></a></li>
+                    <li><a href="#headLine"><span>headLine</span></a></li>
+                    <li><a href="#pb"><span>pb</span></a></li>
+                    <li><a href="#p"><span>p</span></a></li>
+                    <li><a href="#placeName"><span>placeName</span></a></li>
+                    <li><a href="#workingConditions"><span>workingConditions</span></a></li>
+                    <li><a href="#livingConditions"><span>livingConditions</span></a></li>
+                    <li><a href="#ref"><span>ref</span></a></li>
+                    <li><a href="#statistic"><span>statistic</span></a></li>
+                    <li><a href="#industry"><span>industry</span></a></li>
+                    <li><a href="#desc"><span>desc</span></a></li>
+                    <li><a href="#nationality"><span>nationality</span></a></li>
+                    <li><a href="#occupation"><span>occupation</span></a></li>
+                    <li><a href="#num"><span>num</span></a></li>
+                    <li><a href="#person"><span>person</span></a></li>
+                    <li><a href="#date"><span>date</span></a></li>
+                    <li><a href="#quote"><span>quote</span></a></li>
+                    <li><a href="#italics"><span>italics</span></a></li>
+                    <li><a href="#location"><span>location</span></a></li>
+                    <li><a href="#table"><span>table</span></a></li>
+                    <li><a href="#tableTitle"><span>tableTitle</span></a></li>
+                    <li><a href="#number"><span>number</span></a></li>
+                    <li><a href="#question"><span>question</span></a></li>
+                    <li><a href="#response"><span>response</span></a></li>
+                    <li><a href="#refPoint"><span>refPoint</span></a></li>
+                    <li><a href="#version"><span>version</span></a></li>
+                    <li><a href="#company"><span>company</span></a></li>
+                    <li><a href="#persName"><span>persName</span></a></li>
+                    <li><a href="#orgName"><span>orgName</span></a></li>
+                    <li><a href="#factoryItem"><span>factoryItem</span></a></li>
+                    <li><a href="#femVoice"><span>question</span></a></li>
+                    <li><a href="#mascVoice"><span>orgName</span></a></li>
+                    <li><a href="#nellVoice"><span>factoryItem</span></a></li>                 
+                </ul>
+            </div>
+            <h2 id="tagging">System of Tagging</h2>
+            <p>The newspaper articles and the two book sources have been marked up using XML tagging. The tagging system highlights a variety of elements and
+                attributes. Each article and chapter of the books were verified against <a
+                    href="Parker_NellNelsonProject_schema.rnc">our Relax NG schema</a> to ensure consistent tagging.</p>
+            <h3 id="div">div</h3>
+            <p>structural -- The "div" element is always followed by a "type" attribute.</p>
+            <p class="attribute" id="type">The "type" attribute points to one of the following descriptive labels when associated with "div": "preface" "chapter" "articleReference" "newspaperArticle"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="subtitle">subtitle</h3>
+            <p>structural -- This element contains text that was displayed in chapters beneath the chapters' title.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="head">head</h3>
+            <p>structural -- This element was used to contain all of the text that preceeded the main context of the articles or chapters.  Would contain elements like "titile" "newspaperTitle" "seriesTitle" "headLine"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="title">title</h3>
+            <p>This element contains text (typically a chapter's title).</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="articleBody">articleBody</h3>
+            <p>structural -- This elements holds the body of text for the newspaper articles.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="dialogue">dialogue</h3>
+            <p>This element indicates an exchange between any of the voice tags (mascVoice| nellVoice| femVoice). Dialogue was created for presentation purposes to highlight conversation between people in both the articles and the books' chapters.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="unclear">unclear</h3>
+            <p>This element was created to indicate the possibility of poor transcription due to an unclear image transcribing from. The transcriber gives the best attempt to determine what was written; however, the "unclear" tag indicates if the is any uncertainty. This is a self-closing tag.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="newspaperTitle">newspaperTitle</h3>
+            <p>This element was used to indicate the title of the Newspaper (The Chicago Daily Times) at the beginning of each article transcriptions.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="seriesTitle">seriesTitle</h3>
+            <p>This element was used to indicate the title of the Series (City Slave Girls) at the beginning of each article transcriptions.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="headLine">headLine</h3>
+            <p>This element contains each individual headline as they appeared in the Newspaper articles.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="pb">pb</h3>
+            <p>structural -- This element is used to indicate a page break. This is a self-closing tag.</p>
+            <p class="attribute" id="n">The "n" attribute indicates the page number.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="p">p</h3>
+            <p>structural -- This element is used to indicate a paragraph separation.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="placeName">placeName</h3>
+            <p>This element indicates a mention of a place.</p>
+            <p class="attribute" id="type2">The "type" attribute points to one of the following descriptive labels when associated with "placeName": "city" "state" "country"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="workingConditions">workingConditions</h3>
+            <p>Here we tagged any references to the working environment and working conditions. The attribute "category" must follow this element.</p>
+            <p class="attribute" id="category">The "category" attribute points to one of the following descriptive labels when associated with "workingConditions": "camaraderie" "positive" "negative" "comparison" "wageDesc" "workDesc" "descriptionNeutral"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="livingConditions">livingConditions</h3>
+            <p>Here we tagged any references to the working environment and working conditions. The attribute "category" must follow this element.</p>
+            <p class="attribute" id="category2">The "category" attribute points to one of the following descriptive labels when associated with "livingConditions": "camaraderie" "positive" "negative" "comparison" "wageDesc" "workDesc" "descriptionNeutral"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="ref">ref</h3>
+            <p>We used this element to highlight references made to Nell Nelson, The Chicago Daily Times, or the City Slave Girls Series. The attribute "to" must follow this element.</p>
+            <p class="attribute" id="to">The "to" attribute points to one of the following descriptive labels: "newspaperSeries" "nellNelson" "theTimes"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="statistic">statistic</h3>
+            <p>This element was used when statistical information was being presented. The attribute "info" muct follow this element.</p>
+            <p class="attribute" id="info">The "info" attribute points to one of the following descriptive labels: "vague" "specific"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="place">industry</h3>
+            <p>With this we tagged any mention of a specific type of industry.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="desc">desc</h3>
+            <p>This element indicates a description of something based off the associated "of" attribute.</p>
+            <p class="attribute" id="of">The "of" attribute points to one of the following descriptive labels: "womensLabor" "workingClass" "middleClass" "upperClass"</p>
+            <hr />
+            <h3 id="nationality">nationality</h3>
+            <p>This element contains any references to a specific nationality. The nationality is defined by the associated "nation" attribute.</p>
+            <p class="attribute" id="nation">The "nation" attribute points to one of the following descriptive labels: "America" "Spain" "Africa" "Sweden" "China" "Germany" "Hungary" "Ireland" "undefined"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="occupation">occupation</h3>
+            <p>This element contains any references to a specific occupation.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="num">num</h3>
+            <p>This element refers to a number. The "type" and "amount" attribute must follow this element.</p>
+            <p class="attribute" id="type3">The "type" attribute points to one of the following descriptive labels when associated with "num": "wage" "cost" "profit" "price"</p>
+            <p class="attribute" id="amount">The "amount" attribute contains a number with decimal value.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="person">person</h3>
+            <p>This element contains reference to a person. The element "person" should be defined by the attribute "who" and/or "gender".</p>
+            <p class="attribute" id="who">The "who" attribute points to one of the following descriptive labels when associated with "person": "forePerson" "workingGirl" "employer" "employee" "boy"</p>
+            <p class="attribute" id="gender">The "gender" attribute points to one of the following descriptive labels: "male" or "female"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="date">date</h3>
+            <p>This element contains any references to dates. "date" must be followed by one of these attributes: "when" "year" "month" "day".</p>
+            <p class="attribute" id="when">The "when" attribute defines the date in this format: year-month-day</p>
+            <p class="attribute" id="year">The "year" attribute defines the four digit representation of a year</p>
+            <p class="attribute" id="month">The "month" attribute defines the two digit representation of a month</p>
+            <p class="attribute" id="day">The "day" attribute defines the two digit representation of a day</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="youth">quote</h3>
+            <p>This element contains quoted material. Each quote should have a defined "speaker" attribute</p>
+            <p class="attribute" id="speaker">The "speaker" attribute can indicate one of these descriptive labels: "Tennyson" "factoryInspector" "laborCommissioner" "workGirl"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="italics">italics</h3>
+            <p>This was a presentation tag used to indicate when a text appeared italicized.</p>
+            <hr />
+            <h3 id="location">location</h3>
+            <p>This element contains information in regard to a place's location. The "location" element must be followed by the "type" attribute.</p>
+            <p class="attribute" id="type4">The "type" attribute points to one of the following descriptive labels when associated with "location": "general" "streetName" "address"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="table">table</h3>
+            <p>This element contains information that was presented as a table in the transcribed text or information being structured into a table for presentation purposes.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="tableTitle">tableTitle</h3>
+            <p>This element contains the title of a table being presented.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="number">number</h3>
+            <p>This element can contain numbers that are used within a table(s).</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="question">question</h3>
+            <p>This element contains a question posed inside of a table. This element may have a "refPoint" element following it.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="response">response</h3>
+            <p>This element contains a response to questions posed inside of a table. The "response" element must be followed by the "choice" attribute.</p>
+            <p class="attribute" id="choice">The "choice" attribute points to one of the following descriptive labels: "Yes" "No" "Blank" "Optional" "Sit" "Stand"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="refPoint">refPoint</h3>
+            <p>This element contains a reference point in relation to the questions posed inside of a table. The "refPoint" element must be followed by a "letter" attribute.</p>
+            <p class="attribute" id="letter">The "letter" attribute points to one of the following descriptive labels: "a" "b" "c" "d" "e" "f" "g" "h"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="version">version</h3>
+            <p>This element is used when there was a notice in difference between versions of the articles' context in the books' chapters.</p>
+            <p class="attribute" id="change">The "change" attribute points to one of the following descriptive labels: "addition" "deletion" "variance" "exaggeration"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="company">company</h3>
+            <p>This element contains any reference to a specific company. The "name" attribute must follow this element.</p>
+            <p class="attribute" id="name">The "name" attribute points to one of the following descriptive labels: "unidentified" or "identified"</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="persName">persName</h3>
+            <p>This element contains specific names of people.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="orgName">orgName</h3>
+            <p>This element contains specific names of organization.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="factoryItem">factoryItem</h3>
+            <p>This element contains items that are manufactured inside of the factories being investigated.</p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="femVoice">femVoice</h3>
+            <p>This element was used to give representation to the feminine voice (typically associated with the working women). This element can contain the "connotation" and/or "who" attributes.</p>
+            <p class="attribute" id="who2">The "who" attribute points to one of the following descriptive labels: "forePerson" "workingGirl" "employer" "employee" "boy"</p>
+            <p class="attribute" id="connotation">The "connotation" attribute points to one of the following descriptive labels: "sarcasmWit" "pity" "positive" "negative" "woe" "descriptionNeutral" "intimidated" "angry" "sexual" "offended" "prayer" </p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="mascVoice">mascVoice</h3>
+            <p>This element was used to give representation to the masculine voice (typically associated with the factory employers). This element can contain the "connotation" and/or "who" attributes.</p>
+            <p class="attribute" id="who3">The "who" attribute points to one of the following descriptive labels: "forePerson" "workingGirl" "employer" "employee" "boy"</p>
+            <p class="attribute" id="connotation2">The "connotation" attribute points to one of the following descriptive labels: "sarcasmWit" "pity" "positive" "negative" "woe" "descriptionNeutral" "intimidated" "angry" "sexual" "offended" "prayer" </p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />
+            <h3 id="nellVoice">nellVoice</h3>
+            <p>This element was used to give representation to Nelson's voice or thoughts. This element can contain the "connotation" and/or "who" attributes.</p>
+            <p class="attribute" id="who4">The "who" attribute points to one of the following descriptive labels: "forePerson" "workingGirl" "employer" "employee" "boy"</p>
+            <p class="attribute" id="connotation3">The "connotation" attribute points to one of the following descriptive labels: "sarcasmWit" "pity" "positive" "negative" "woe" "descriptionNeutral" "intimidated" "angry" "sexual" "offended" "prayer" </p>
+            <br /><a href="#top">Return to Top of Page</a>
+            <hr />            
+        </div>
+        <div id="analysisText">
+            <p>By using a schema that can be associated with the original newspaper articles as well as the different books' chapters, we are able to make graphs that compare the frequency certain elements and attributes appear between the books and the original articles.</p>
+            
+        </div>
         <div id="toggleBox">
             <h2>Graphical Analysis of the Change in Voice Tags between the <i>Chicago Daily Times</i> articles and the McEnnis book</h2>
             <fieldset>
