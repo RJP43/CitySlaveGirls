@@ -34,6 +34,7 @@
     <xsl:template match="mascVoice| nellVoice| femVoice">
         <p>
             <b><xsl:value-of select="./name()"/><xsl:text>: </xsl:text></b>
+            
             <xsl:apply-templates/>
         </p>
     </xsl:template>
