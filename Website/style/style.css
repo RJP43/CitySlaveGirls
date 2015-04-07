@@ -291,6 +291,8 @@ ul {
 	padding:10px;
 	list-style-type:none;
 }
+
+
 /*SD: This begins the css that controls the bars of the graph. It hides them and then the javascript switches their display to block*/
 g g {display: none;}
 
