@@ -89,6 +89,7 @@ a:hover {
 body {
     background: #E0D8DE;
     margin: 20px auto;
+    padding: 20px;
     border:3px dotted #42033D;
 	border-radius:8px;
 	border-radius:.8em;
@@ -253,7 +254,7 @@ ul {
 }
 
 #content_books h1 {
-	color: #6A6262;
+	color: #C9B9B9;
 	text-shadow:0 1px 0 #B9929F;
 	margin:50px 0px 50px;
 	font-size:1.5em;
