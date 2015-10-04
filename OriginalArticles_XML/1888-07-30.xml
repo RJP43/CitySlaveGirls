@@ -1,4 +1,4 @@
-<?xml-model href="../Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-model href="../Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>-->
 <root>
    <div type="newspaperArticle">
        <head><newspaperTitle> Chicago Times <date when="1888-07-30">Monday Morning, July 30, 1888</date>
