@@ -379,9 +379,11 @@
         and 12:30 p. m. Anyone five minutes late working on time is fined an hour’s pay, and for the
         loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept
         idle form one to three hours. A girl who loses her ticket forfeits pay for the entire work,
-        not withstanding the entry is on the books of the firm.</workingConditions> <headLine>LIFE AMONG THE SLAVE GIRLS
-            OF <placeName type="city">CHICAGO</placeName></headLine>
-        <headLine><ref to="theTimes">THE TIMES</ref></headLine> Will print tomorrow the second bath of facts concerning the
+        not withstanding the entry is on the books of the firm.</workingConditions> 
+    </articleBody>
+    <div type="advertisement"><headLine>LIFE AMONG THE SLAVE GIRLS OF <placeName type="city">CHICAGO</placeName></headLine>
+        <headLine><ref to="theTimes">THE TIMES</ref></headLine> 
+        <articleBody>Will print tomorrow the second bath of facts concerning the
         workings of some of the factories of <placeName type="city">Chicago</placeName> where girls and women are employed. <ref to="newspaperSeries">These
         articles are written by a young lady who passed through the common experiences of those
         unfortuantes of her own sex who are compelled to undergo the hardships and tortures of
@@ -393,6 +395,7 @@
         this city is improved, even in a slight degree, by these exposures <ref to="theTimes">The Times</ref> will be fully
         repaid. Read <ref to="theTimes">The Times</ref> every day this week. <num type="cost" amount=".02">Two cents</num> per copy. Delivered by carrier, <num type="cost" amount=".12">12
             cents</num> per week for daily and <num type="cost" amount=".15">15 cents</num> per week for daily and Sunday. Order it by postal
-        card, letter, or telephone 1362. </articleBody>
+               card, letter, or telephone 1362.</articleBody> </div>
    </div>
+  
 </root>
