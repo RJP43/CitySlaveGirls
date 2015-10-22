@@ -1,7 +1,7 @@
 # The Restoration of Nell Nelson 
 ### Chicago Daily Times - 1888 - Nell Nelson
 ### White Slave Girls of America - 1888 - McEnnis
-### Whites Slave Girls - 1888 - Unknown Editor / Berkley Publication  
+### Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication  
 
 If you are new to the project please refer to our [Orientation Wiki](https://github.com/RJP43/CitySlaveGirls-ChicagoDailyTimes1888/wiki/Welcome-New-Editors-to-The-Restoration-of-Nell-Nelson)!   
 
