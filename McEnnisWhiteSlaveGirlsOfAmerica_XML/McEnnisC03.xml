@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Chapter 3: Life in a Jersey Factory</title>
+                <title level="m">The White Slaves of Free America</title>
+                <author>
+                    <forename>John T.</forename> 
+                    <surname>McEnnis</surname>
+                </author>
+                <editor>Shane Daube</editor>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago: R.S. Peale &amp; Co., <date when="1888">1888</date>.</p>
+                <p><ref target="http://nrs.harvard.edu/urn-3:FHCL:225494"/></p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Collection Development Department, Widener Library, HCL</repository>
+                        <!--<institution>Harvard University</institution>-->
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" n="3">
+<pb n="26"/>
+                <head><title>Chapter III.—Life in a Jersey Factory.</title>
+<ul><item>A Hard Day’s Work for <num type="wage" value=".41">41 Cents</num></item>
+   <item> Less Fortunate Workers Who Earned Only <num type="wage" value=".11">11 Cents</num></item>
+    <item>A Sick Girl’s Sad Story</item>
+    <item>The Hopeless Miss Who Longed to Be Married.</item></ul></head>
+<p> THE next institution looked into was a jersey factory. A day’s experience there furnishes the material for a chapter which ought to prore exceedingly interesting, if not startling, to those who rely upon their imagination for ideas of factory life:</p>
+
+<p>“ Work is given out at 7:30 a. m.,” the clerk of the <ref type="company">manufacturing company</ref> informed me, “and if you have any snap about you, you can make a good living.” By way of getting the required snap I went home, ate my dinner, and was in bed at 8 o’clock.</p>
+
+<p>The next morning I resumed the <desc type="workDesc">rags of poverty</desc>, and at 7 o’clock made my debut as a factory hand. <desc type="workDesc">I was one of 120 women, ranging in ages from fifteen to sixty, who began to arrive at 7 o’clock.</desc> At every trip of the elevator some twenty or more were carried up stairs. I took a chair in one of the machine rows, and for an hour did nothing but watch the preparations for work in that human hive. The room was 50x138, with an open, unfinished roof, and brick walls calcimined. Light was admitted from rear and side windows. The pressmen had their boards and furnaces at the south end of the room, where all the work was pressed prior to being boxed and ticketed for the trade. At the extreme opposite end was the cutting-room, fenced in from the rest, and between the two were the work-tables, where the hundred odd girls stitched and finished the <ref type="factoryItem">jerseys</ref>.</p>
+
+<p>Along the brick walls were nails, irregularly driven, on which the girls hung their hats and wraps, dresses and collars. Nearly every one took off her dress and waist, turned it inside out, put it on a nail and put on a calico or old stuff shop suit. A few took off their corsets, and nearly all the machine hands changed their shoes before work. On the stroke of 7:30 a bell rang, the power was turned on, the machines began to buzz like little saw-mills, and the day’s work had commenced. Heads of brown, black, yellow and gray bent so near the flying shuttles that every minute I expected the bangs and fluffy crimps would get caught in the machinery. <desc type="workingClass">The faces were sad and so very, very pale</desc>
+    
+    <pb n="27"/>
+    
+    that I shall never look at a <ref type="factoryItem">jersey</ref> again without seeing them. The average age may have been twenty-three, but not less. There were girls of seventeen and eighteen and some world-weary women past fifty, all working for little more than enough to keep body and soul together. The work circulated in baskets—long chip hampers with stout handles— that held a dozen, with room for five times that quantity. A great deal of time was lost by the workers in getting the contents of the baskets examined, checked off on the ticket and the ticket stamped. If it had been the last chance of life, I don’t believe the girls would have worked any harder for salvation. Scarcely a head was raised from machine or lap. Shoulders were bent down, chests hollowed in, and faces drooped so low that I could not begin to make a study of the <desc type="workingClass">“windows of the souls”</desc> before me. At 8:40 the proprietor of the chair I was in asked me to vacate, and I walked down through the narrow aisles of sewing-women to the “forelady” and asked for work.</p>
+
+<p>She asked me if I wanted to take a machine, but I expressed a preference for finishing. I was given a number, a basket with five <ref type="factoryItem">jerseys</ref> to finish, and a chair beside a girl named <persName>Hannah</persName>, who, being engaged by the day, was told to “show me.” <persName>Hannah</persName> had blonde hair, and talked with the brogue. She gave me a needle as long as my engagement finger, and the most meager instruction compatible with obedience. Fortunately I had my thimble, and crossing my knees I threaded the gimlet-like needle with silk and proceeded to hook-and-eye a <ref type="factoryItem">jersey</ref>. Remembering the treachery of any shop clothes I ever wore, I filled the two hooks and eyes with sewing, and after testing them proceeded to face the collar. I made poor work of the bias band, for my needle was so coarse that it split the satin. <desc type="livingConditions">I told Hannah about my misery, but she wisely said it was no fault of hers</desc>, and went on with a $3-a-dozen lot she had been doing two days and a half. Thinking it would be a good way to get acquainted with my neighbors, <desc type="livingConditions">I asked several for a fine needle, and at last exchanged the crow-bar <persName>Hannah</persName> had given me for a fine cambric article</desc>. It worked better, and at the end of two hours I had bound the arm-holes, faced the collar, tacked the front facings and bustle piece, and put two pairs of hooks and eyes in a black <ref type="factoryItem">jersey</ref>. The dye was not fast, neither was the woo], for my throat, ears, and nostrils were tufted with black lint. I was <ref type="nationality">African</ref> from the 'finger-nails to the wrists. The front facings had to be trimmed off. I had no scissors. <persName>Hannah</persName> was ungenerous with hers, and I lost about <num type="wage" value=".15">fifteen cents'</num> worth of time borrowing the weapons. At noon I had finished four <ref type="factoryItem">jerseys</ref>, and was so sore about the neck and back that I
+    
+    <pb n="28"/>
+    
+    could scarcely rise from the chair. I began to scent hot tea, and looking about saw a big girl called <persName>Emma</persName> brewing three pots of <placeName>Japan</placeName> over one of the press furnaces. She had her front hair in carl papers, and was whistling “In the Sweet Bye-and-By.” <desc type="livingConditions">About thirty girls went to her, each with her own cup, for a supply of tea.I remarked to one passing my chair that her tea looked awfully nice, and asked where she got it.</desc> </p>
+
+<p>“ From <persName>Em</persName>. She makes it, and we each pay two cents a week.”</p>
+
+<p>On the stroke of twelve the machines stopped and 120 tired women stopped too, for thirty minutes’ rest, and food that could hardly be called refreshing. <desc type="livingConditions">In the main it consisted of brown bread and butter. In some parcels there were cold meat and cake; others had pie; a few a bottle or canteen of milk, cold tea or coffee, but I did not see a particle of fruit.</desc> One little girl who had been stretching <ref type="factoryItem">jerseys</ref> at <num type="wage" value=".02">two cents</num> each, <desc type="livingConditions">made a lunch on three graham crackers and a piece of custard pie which she ate while reading a paper-covered book.</desc> <desc type="livingConditions">I counted thirty-seven girls with a lunch of dry bread, fifteen with sandwiches, and ten who ate cold pancakes. Twenty-three girls were without any luncheon</desc>  During the intermission the elevator stopped running, and no one left the building but myself. Less than ten minutes were spent over the wretched meal. At one side of the west wall, separated by a ten-foot pine partition, was the toilet-room, containing an iron sink with one faucet of running water. <desc type="livingConditions">Here the girls crowded like so many cattle</desc>, each with her bit of soap and grimy cotton towel, to wash. Dress waists were loosened and necks, faces, arms and hands lathered with soap and rinsed as the chance permitted. There were three closets, unflushed, untidy and unwholesome. Set up against the wall in this enclosure, with the faucet run through the partition, was a barrel of ice water inscribed in big letters: “ Two cents will be collected every Saturday for ice water.” Besides this luxury every hand pays twelve cents a week for the use of the machine.</p>
+
+<p>At one o’clock I finished my basket, which I dragged to the book keeper, who took my name and credited me with five garments. No price had been put on the <ref type="factoryItem">jerseys</ref>, as they were sampled goods, but the forelady thought they would go at 60 cents a dozen, which meant <num type="wage" value=".25">25 cents</num> to my credit.</p>
+
+<p>I didn’t get any more work till two o’clock, because the forelady was in the toilet-room having her bangs done up in paper. She was a pretty a shock of beautiful auburn woman, by the way. with a good face and hair. She had been in her position for six years, and was drawing a
+    
+    <pb n="29"/>
+    
+    salary of <num type="wage" value="35">$35</num> a week. The girls had a good word for her generally, but she struck me as being a woman without heart. At her appearance was given a basketful of <ref type="factoryItem">jerseys</ref> to finish button-holes. I worked like a Trojan for an hour, <desc type="livingConditions">at the end of which I won the heart of a little girl who sat at the end of my table facing the wall. She had been sitting still so long that I called out and asked if she were ill.</desc></p>
+
+<p>"No. I haven’t any work."</p>
+
+<p>Tired almost to exhaustion, and <desc type="livingConditions">as hot as a newly-built mustard plaster</desc>, I was only too glad of a chance to transfer my interests, but she declined. It was too hot to work; she was going away soon, she said,
+    and didn't care to do any more.</p>
+
+<p><quote>“ When did I begin? To-day. I worked in a box factory, but it was dull I could only earn <num type="wage" value=".16">16 cents</num> day. My mother wants me to pay her $2.50 a week board, but how could I with <num type="wage" value=".96">96 cents</num>. &gt; This is no better. I came at eight this morning, and I have only made <num type="wage" value=".11">11 cents</num>. I am 21. Beaus? Yes, some. I have one steady fellow, but I don't know he will marry me. I hope he will."</quote></p>
+
+<p>She told me he earned <num type="wage" value="75">$75</num> a month as telegraph operator on the Board of Trade; that he was “ steady as a steeple, and the only fellow she ever loved.</p>
+
+<p>I told her how to go about catching the prosperous telegrapher, and rehashed a recipe given me by no less a personage than <persName>Mrs. John M. Sherwood</persName>, which I had never tried. She was going to a picnic at <desc type="location">Garfield Park</desc> at six o'clock, and brought over a 25-cent chocolate cake to show me. Then she loaned me her scissors, told me good-by, and went home to dress for the fete.</p>
+
+<p> Nothing of any importance occurred till some one passed the news
+    that a girl was asleep in the closet. Half a dozen left their machines to look at her, <persName>Hannah</persName>, my mentor, among them. '</p>
+
+<p>“Oh, you just ought to see her, fast asleep, with her mouth wide
+    open. It was more than I could stand. I threw my button-holes into
+    the basket and went to the toilet-room. Sure enough, there was the girl sitting in the dirty place, her head resting against a folded apron, breathing in the foul air that reeked with filth and disease. <desc type="livingConditions">The walls of the closet were black with pencil marks, the floor was strewn with lint and threads, and the pale face of the sleeper looked ghastly in the darkness.</desc> She had tied one end of a string to the latch and the other to the drop chain.</p>
+<p>"My dear child, you mustn't sleep here. Are you sick?" </p>
+<p>"Oh. I am so sick."</p>
+
+<pb n="30"/>
+
+<p><desc type="livingConditions">Instantly there were a dozen willing hands to help her out to a window, where a chair was placed for her. We rubbed her temples, chafed her hands, bathed her head, and got her some lemons.</desc> After making her toilet she came over to my table, and as I sewed away at my buttonholes she told me her story:</p>
+
+<p>“<persName>Rose</persName> and I are only six months in this country. We came from
+    <placeName>England</placeName> with our brother, and live on <desc type="location">Carpenter street</desc>. The climate
+    doesn’t agree with me, and I am sick all the time. At first we worked in <desc type="location">Marshall Field’s</desc>, and <persName>Rose</persName> and I made fringe. We got <num type="wage" value="7">$7</num> a week, and were so happy. It was awful nice there. <desc type="livingConditions">We didn’t have to pay for drinking-water or anything; there were lots of towels, whole cakes of soap, and, oh, it was so clean. We had a foreman over us, and he was as a brother to us. Sometimes we let our money lay and drew it in a pile; oh, such a lot it was! We put away very much of it.</desc> But I got sick and all we ’ad saved went for doctor and medicine. Then the work stopped. They took our names, though, and promised to send for us in the fall. For a while we worked in the box factory, but nearly to starve. Then we went to <orgName type="exposedCompany">Ellinger’s</orgName> and made <ref type="factoryItem">cloaks</ref> at <num type="wage" value=".30">30 cents</num> each, but it was so hard, and we couldn’t please them, no matter how we tried. <desc type="womensLabor">We came here to-day, but it’s only a fit place to starve in</desc>. All the work they gave me was a dozen <ref type="factoryItem">jerseys</ref> to button; that’s <num type="wage" value=".11">11 cents</num> a row; had two dozen holes to finish at <num type="wage" value=".16">16 cents</num>. <num type="wage" value=".27">Twenty-seven cents</num> for the two of us! How can we live on it?” And the child began to cry again.</p>
+
+<p><desc type="livingConditions">By way of comforting her I took her name, promised to help her, and gave her my check for <num type="wage" value=".41">41 cents</num>.</desc> She didn’t think it would be honored, so I took it to the cashier myself and demanded pay, as I was not coming back in the morning. “ "No ma am. said that functionary, “you don’t get it. Gone round on the 20th, and I’ll hunt you up."</p>
+
+<p>At 5:30 work ceased. <desc type="workDesc">Each girl had to sweep out her place, clean and oil the machine, and return her basket and check.</desc> I paid a nickel to have my corner swept, and, finding it impossible to wash up sans towel and soap, I got under my veil and rang the elevator. The press-er laughed and told me to try the stairs—five flights. Down I went. At the second I went into the salesroom to buy a <ref type="factoryItem">jersey</ref>. One of the firm waited on me; his magnanimity was sublime. The identical black <ref type="factoryItem">jersey</ref> that I had received <num type="wage" value=".05">5 cents</num> for finishing was offered to me at $2; I declined. By way of interest, one hundred dozen <ref type="factoryItem">garments</ref> are turned out of the factory every day in the year. As near as I could learn, the salaries average <num type="wage" value="4">$4</num> a week, but plenty of grown women are not allowed to earn over <num type="wage" value=".28">28 cents</num> a day.</p>
+
+<pb n="31"/>
+
+<p>Work begins at 7:30 a. m. and 12:30 p. m. Any one five minutes late, working on time, is fined an hour’s pay, and for the loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept idle from one to three hours. A girl who loses her ticket forfeits pay for the entire work, notwithstanding the entry is on the books of the firm.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
