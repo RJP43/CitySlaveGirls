@@ -1,6 +1,37 @@
-﻿<div type="section" n="7">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 7</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="7">
 <head><list><item>STARVATION WAGES.</item></list></head>
-"Boy, don't take her down! Don't go down!! do you hear?
+<p>"Boy, don't take her down! Don't go down!! do you hear?
 I'll discharge you if you let her escape."
 There I was in S's freight elevator with my day's work in
 my arms and the wire screen separating me from the furies of
@@ -355,5 +386,8 @@ that rack a sensitive nature to which no physical agony can be
 compared, and shots from malicious eyes that fatally wound,
 but raise no cry of injury. There are robberies of a gentle
 life that beggar peace and joy, and cuts of hatred that murder
-forever the sweet faith that belongs to woman's nature.
+forever the sweet faith that belongs to woman's nature.</p>
 </div>
+        </body>
+    </text>
+</TEI>

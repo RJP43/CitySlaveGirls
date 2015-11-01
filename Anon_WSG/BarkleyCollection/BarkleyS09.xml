@@ -1,7 +1,37 @@
-﻿<div type="section" n="9">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 9</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body><div type="section" n="9">
 <head><list><item>WHILE AMONG CHICAGO'S WEAK SERFS "THE TIMES'" LADY REPORTER FINDS MR. GOSS' "GOOD JEW."</item>
 <item>IN A SMALL, DIRTY ROOM FILLED WITH A CROWD OF WOMEN LIFE SEEMS LIKE A HIDEOUS DREAM.</item></list></head>
-Two weeks ago Rev. Mr. Goss preached a sermon relative to
+<p>Two weeks ago Rev. Mr. Goss preached a sermon relative to
 the morals and progress of the working woman. Among other
 things he referred to "a good Jew" who, having the comfort
 of the hundred odd girls in his cloak factory at heart, "pro-
@@ -126,5 +156,8 @@ Work was good, the season covering ten months of the year.
 A number of men at work on the long cloaks had chairs at the
 side of the girls, and while well enough personally I did not
 relish them, for they were saturated with tobacco fumes and
-emitted a sour, sweaty, sickening ordor.
+emitted a sour, sweaty, sickening ordor.</p>
 </div>
+        </body>
+    </text>
+</TEI>

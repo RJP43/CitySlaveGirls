@@ -1,7 +1,38 @@
-﻿<div type="section" n="20">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 20</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="20">
 <head><list><item>LITTLE HEROINES WHO WORK FOR THREE MEALS, A ROOF AT NIGHT, AND THEIR CAR-FARE.</item>
 <item>THEY DO NOT HAVE TIME EITHER TO READ DAILY PAPERS OR ATTEND DIVINE WORSHIP.</item></list></head>
-In all this wide, weary, work-a-day world there is not a
+<p>In all this wide, weary, work-a-day world there is not a
 better, brighter, nobler girl than the one who stitches, lines,
 binds and vamps your slippers and shoes.
 She is a heroine if there ever was one outside of a civil or
@@ -186,5 +217,8 @@ were ragged and dirty, many giving the very young girls the
 appearance of little sweeps. Worthless shoes were worn as
 much from necessity as from a sense of comfort, and nothing
 in the habits or habiliments of these little money-makers
-betrayed even the ordinary comforts of life.
+betrayed even the ordinary comforts of life.</p>
 </div>
+        </body>
+    </text>
+</TEI>

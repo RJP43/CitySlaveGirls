@@ -1,6 +1,37 @@
-﻿<div type="section" n="5">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 5</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="5">
 <head><list><item>SIXTY CENTS A WEEK FOR WORKING FROM 7:30 IN THE MORNING UNTIL 5:30 IN THE EVENING.</item></list></head>
-I next made application for work at W's, on Wabash avenue,
+<p>I next made application for work at W's, on Wabash avenue,
 where hundreds of girls are employed on corsets, bustles,
 skirts, jerseys and cloaks. Boarding the freight elevator I was
 drawn up to the top floor, where a pretty little Jewess informed
@@ -106,5 +137,8 @@ thin<!-- RJP:10/20/15: retained spelling --> we can give you something at $3 or 
 " Three dollars a week?"
 "Yes."
 "God have mercy on the girls," I said reverently and
-departed.
+departed.</p>
 </div>
+        </body>
+    </text>
+</TEI>

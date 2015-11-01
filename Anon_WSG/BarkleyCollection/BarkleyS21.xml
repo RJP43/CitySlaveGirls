@@ -1,7 +1,38 @@
-﻿<div type="section" n="21">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 21</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="21">
 <head><list><item>CEASELESSLY, WEARILY UNCOMPLAININGLY WORKING AWAY WHILE THEIR EMPLOYERS AMASS MILLIONS.</item>
 <item>SEVENTY-FIVE CENTS A DOZEN FOR MAKING OVERALLS IS PAID THE DRUDGES FOR THEIR HARD LABOR.</item></list></head>
-On the southwest corner of Washington boulevard and
+<p>On the southwest corner of Washington boulevard and
 Union street, towers a spacious brick building, on the third
 floor of which H. W. K. &amp; Co. manufacture much of the clothing that supplies the country trade. The place is far from
 uninviting. Clean halls and well-kept stairs proclaim the
@@ -125,5 +156,9 @@ are kept clean. There is a toilet-room near the center of the
 shop—a big place, with three closets, a long sink, and not any
 too much light. The plumbing is perfect, and the girls revel
 in the luxury of three long towels a day. The towels, and
-closets, though, are few enough for the convenience of a hundred girls.
+closets, though, are few enough for the convenience of a hundred girls.</p>
 </div>
+        </body>
+    </text>
+</TEI>
+

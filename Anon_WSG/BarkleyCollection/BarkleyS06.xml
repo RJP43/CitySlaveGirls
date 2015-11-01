@@ -1,8 +1,38 @@
-﻿
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 6</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
 <div type="section" n="6">
 <pb n="31"/>   
 <head><list><item>EATING POOR CRACKERS AND WORKING FOR TWO MONTHS IN ORDER TO GET A PAIR OF SHOES.</item></list></head>
-One of the chance acquaintances I made at the jersey factory worked three days for J--- S---- &amp; C, Market street,
+<p>One of the chance acquaintances I made at the jersey factory worked three days for J--- S---- &amp; C, Market street,
 receiving 65 cents for her labors about ten days after leaving.
 One-third of 65 cents is 21 2/3 cents.
 That is the way S---- &amp; Co. solve the problem; but the
@@ -86,5 +116,10 @@ and a suit of mixed goods, mistaking me for a tramp, came
 out from the stock and informed me that "no peddlers are
 allowed on the premises. Move off."
 I moved off determined to return another day.
-
+</p>
 </div>
+        </body>
+    </text>
+</TEI>
+
+      

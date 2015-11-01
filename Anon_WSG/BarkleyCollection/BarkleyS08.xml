@@ -1,7 +1,38 @@
-﻿<div type="section" n="8">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 8</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="8">
 <head><list><item>"THE TIMES'" LADY REPORTER, IN THE GUISE OF A FACTORY BONDWOMAN, IS INSULTED BY A SCOUNDREL.</item>
 <item>ACCOSTED BY A WELL-DRESSED BRUTE WHO TRIES TO THRUST HIS BLIGHTING FRIENDSHIP ON HER.</item></list></head>
-On Thursday morning when I started to renew my factory
+<p>On Thursday morning when I started to renew my factory
 life I discovered after getting on a South-side car that I did
 not have a cent in my pocket. In putting on my shop-girl
 disguise I had left my purse at home. When the conductor
@@ -214,5 +245,8 @@ In Tuesday's paper reference was made to the firm of W---
 H--- &amp; Co., as paying 18 cents a pair for making trousers. It
 was a typographical error and did unintentional injustice to
 the firm. The lowest prices on their list is 45 cents, and that is
-for making boys' trousers.
+for making boys' trousers.</p>
 </div>
+        </body>
+    </text>
+</TEI>

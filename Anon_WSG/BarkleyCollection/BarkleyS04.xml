@@ -1,8 +1,39 @@
-﻿<div type="section" n="4">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 4</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="4">
 <pb n="21"/>
 <head><list><item>A CLOAK CONCERN WHERE NOTHING BUT FEAR OF THE LAW SEEMS TO PREVENT THE USE OF THE LASH.</item>
 <item>EIGHTY CENTS A WEEK FOR LABORING FROM 7:30 IN THE MORNING UNTIL 5:30 IN THE EVENING.</item></list></head>
-I did not realize the ignominious position of respectable pov-
+<p>I did not realize the ignominious position of respectable pov-
 erty till I went to E's cloak factory, where labor is bondage,
 the laboror a slave, and flesh and blood cheaper than needles
 and thread. Corporations are said to be without heart, but
@@ -177,5 +208,8 @@ Poor Annie was doctoring a machine and said "in a minute." On her way to me thre
 "See him. I don't care. There he is," pointing to a snaky, half-starved creature whose shanks I had been sketching and on whom I had scornfully turned my back. It was too much to ask of a free-born American woman to recognize the superi-
 <pb n="27"/> 
 ority of such a person. He came up to us in an instant. The forewoman was livid with rage and she began to talk as fast as her tongue could move. Some fifty or more girls heard the tirade breathlessly. Before the half-dressed proprietor had a chance to get over his astonishment I threw the front of the cloak at his face, the side body at the forewoman, and walked off to my disabled chair with Mr. A. for a bodyguard. He was the color of a sanitarium babe when we reached my work table. He had the two pieces of cloak in his hand, and when he raised his fist to strike me I worked up an Indian-club attitude and dared him.
-He escorted me to the toilet-room, where I went for my hat and jacket, and before slamming the door in his face by way of a hint as to the privacy of the place I threw my needle and thread at him. Mr. A. saw me across the shop and down the first flight of stairs. And there ended my first experience in a cloak factory.
+He escorted me to the toilet-room, where I went for my hat and jacket, and before slamming the door in his face by way of a hint as to the privacy of the place I threw my needle and thread at him. Mr. A. saw me across the shop and down the first flight of stairs. And there ended my first experience in a cloak factory.</p>
 </div>
+        </body>
+    </text>
+</TEI>

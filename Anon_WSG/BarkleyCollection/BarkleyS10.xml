@@ -1,7 +1,38 @@
-﻿<div type="section" n="10">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 10</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="10">
 <head><list><item>CHILDREN THIRTEEN YEARS OLD WORKING FROM NOON TILL NIGHT ON HEAVY COATS AND TROUSERS.</item>
 <item>PAYING $3.50 FOR HEAVY TOIL THAT GRINDS THE MARROW FROM THE BONES AND KILLS MORALITY.</item></list></head>
-Never so long as reason reigns shall I forget the day I
+<p>Never so long as reason reigns shall I forget the day I
 worked in H. G.'s tailor-shop, and never when I pray shall I
 forget to add "God help the shop girls."
 <pb n="56"/>
@@ -330,5 +361,8 @@ my experience as a factory hand has unfitted me for future
 service, since in no place that I worked did I see any incentive
 to decency, honesty or respectability, or any promise of success
 that did not carry with it the downfall of blindly climbing
-hope.
+hope.</p>
 </div>
+        </body>
+    </text>
+</TEI>

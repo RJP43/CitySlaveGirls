@@ -1,9 +1,40 @@
-﻿<div type="section" n="23">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 23</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="23">
 <pb n="134"/>
 <head><list><item>A PROPOSITION OF MARRIAGE TO A PRETTY AND BRAINY SEAMSTRESS IS TAKEN UNDER CONSIDERATION.</item>
 <item>CORRECTING AN ERRONEOUS IMPRESSION THAT NELL NELSON'S ARTICLES ARE NOT FOUNDED ON
 FACT.</item></list></head>
-Nothing short of a Philadelphia lawyer, a Chicago health
+<p>Nothing short of a Philadelphia lawyer, a Chicago health
 officer, a proprietor or a "devil-chaser" that hits the spot once
 in a thousand times could, without a guide, explore the labyrinth that is known as H. S. &amp; Co.'s paper-box manufactory,
 on R--- street. It occupies only the three upper floors of a
@@ -163,5 +194,8 @@ a steady, industrious, and thoroughly deserving girl, walks into
 the shop to-day she can have her old seat and at the same time
 the consciousness that she has not compromised herself or been
 compromised in the least. Both O. and M. will be glad to
-welcome her back, which is much to their credit.
+welcome her back, which is much to their credit.</p>
 </div>
+        </body>
+    </text>
+</TEI>

@@ -1,8 +1,39 @@
-﻿<div type="section" n="1">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 1</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="1">
 <head>WHITE SLAVE GIRLS.
 <list><item>MAKING TIDIES AT SIXTY CENTS A DOZEN AND PAYING THREE DOLLARS FOR THE PRIVILEGE.</item>
 <item>A POOR GIRL WHO WORKED FROM JANUARY TO JULY TO MAKE FIFTEEN DOLLARS.</item></list></head>
-
+<p>
 Tuesday, July 10, according to instructions from The Times,
 I made up for the role of shop-girl, and with a list of factories
 in one hand and gentle peace in the other sailed down State
@@ -221,5 +252,9 @@ that the equivocal tactics of the concern are understood. Several cases are on r
 no judgment has been obtained, as the agreement stands valid
 before the law. All that can be done in the matter is to warn
 the public against a concern legally incorporated to grind the
-life out of the women and girls unfortunate enough to patronize it.
+life out of the women and girls unfortunate enough to patronize it.</p>
 </div>
+        </body>
+    </text>
+</TEI>
+

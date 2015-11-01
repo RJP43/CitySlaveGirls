@@ -1,7 +1,38 @@
-﻿<div type="section" n="14">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 14</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="14">
 <head><list><item>"NELL NELSON" SPENDS A DAY AMONG THE SERFS AND BONDWOMEN IN THE SHOPS OF "LITTLE HELL."</item>
 <item>FOR FOUR HOURS OF UNCEASING TOIL IN A DIRTY, CROWDED TAILOR'S ROOM SHE IS PAID SIX CENTS.</item></list></head>
-It was 7 a. m. by all the whistles in "Little Hell" when I
+<p>It was 7 a. m. by all the whistles in "Little Hell" when I
 reached that section of the city in search of an opening in a
 slop-shop. The streets were crowded with shop hands hurrying to their day's work - men and boys with pipes in their
 mouths carrying dinner-pails or lunch-baskets; little girls in
@@ -201,5 +232,8 @@ I was told by the women who take them home that four pair
 are as many as they can finish in a day. That is 20 cents, or
 $1.20 a week. But oh, the smell of that cellar stable, and the
 heat and the wan faces of the girls that make hideous the very
-name of O.
+name of O.</p>
 </div>
+        </body>
+    </text>
+</TEI>

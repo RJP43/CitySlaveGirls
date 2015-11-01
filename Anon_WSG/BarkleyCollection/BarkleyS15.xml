@@ -1,8 +1,39 @@
-﻿<div type="section" n="15">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 15</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="15">
 <pb n="100"/>
 <head><list><item>PLACES WHERE VIRTUE COUNTS FOR NOTHING AND IS NOT TOLERATED BY THE EMPLOYER.</item>
-<li>BODY AND SOUL MUST BE GIVEN UP TO THE SCOUNDRELS, OR THE EMPLOYE LOSES HER SITUATION.</li></list></head>
-"Do you want to visit a manufacturing establishment, generally held in high repute, where a girl's tenure of place depends
+<item>BODY AND SOUL MUST BE GIVEN UP TO THE SCOUNDRELS, OR THE EMPLOYE LOSES HER SITUATION.</item></list></head>
+<p>"Do you want to visit a manufacturing establishment, generally held in high repute, where a girl's tenure of place depends
 upon the degrading concessions she may be induced to make
 to her employer?"
 The question was put to a reporter for the Times by Inspector
@@ -83,5 +114,9 @@ hundreds of thousands of dollars invested could be assured.
 And at the same time it must be admitted that this is one of
 the very best regulated establishments of the kind in Chicago.
 The story told by the inspector did not relate to the J. M.
-company.
+company.</p>
 </div>
+        </body>
+    </text>
+</TEI>
+     

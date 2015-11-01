@@ -1,7 +1,38 @@
-﻿<div>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 18</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div>
 <head><list><item>WORKING NEARLY A DAY ON A CLOAK TO EARN TEN CENTS.</item>
 <item>GIRLS WHO TOIL FOR THREE DOLLARS A WEEK AND BOARD THEMSELVES.</item></list></head>
-Another day in a shop — a shop where I get a blinding
+<p>Another day in a shop — a shop where I get a blinding
 headache and a dime. The place of servitude is at Milwaukee
 avenue, and the proprietors are Mr. and Mrs. S. It is nine
 o'clock when I enter what seems to be a store. On the right
@@ -135,5 +166,8 @@ editor of The Times for a shop-girl's shoe and stocking party
 (and little Polly and her sister shall have a card.)
 You poor, dependent, neglected girl, who started out in real
 earnest, without education or training, to earn your own living,
-from the bottom of my heart I pity you. I have been thinking all day where I could send you for aid and instruction.
+from the bottom of my heart I pity you. I have been thinking all day where I could send you for aid and instruction.</p>
 </div>
+        </body>
+    </text>
+</TEI>

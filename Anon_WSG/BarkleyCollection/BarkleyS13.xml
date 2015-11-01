@@ -1,8 +1,39 @@
-﻿<div type="section" n="13">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 13</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="13">
 <pb n="83"/>
 <head><list><item>A BASEMENT THAT ON A HOT DAY IS SO STIFLING IT REMINDS ONE OF THE "BLACK HOLE OF CALCUTTA."</item>
 <item>WORKING FROM 7:45 UNTIL 6:30 AND RECEIVING IN EXCHANGE FOR THE TERRIBLE DRUDGERY AND HARD LABOR A MISERLY $2 OR $3 A WEEK.</item></list></head>
-For dismal surroundings, economy of comforts, and heartless
+<p>For dismal surroundings, economy of comforts, and heartless
 treatment, to the B. store belongs the palm.
 I did not work in that establishment, although I tried very
 hard to do so. I was in the store at 8 o'clock on Friday morning as arranged with Mr. H. who had partially promised to hire
@@ -308,5 +339,8 @@ It is a little singular that while the B. store refused to give
 me a position as clerk, a most urgent invitation was sent to
 The Times requesting that a reporter be sent to examine the
 books and methods of the concern. By way of inducement a
-voluminous account accompanied the invitation relative to salaries, rules, etc.
+voluminous account accompanied the invitation relative to salaries, rules, etc.</p>
 </div>
+        </body>
+    </text>
+</TEI>

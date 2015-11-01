@@ -1,8 +1,39 @@
-﻿<div type="section" n="19">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 19</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="19">
 <pb n="117"/>
 <head><list><item>A YOUNG WIDOW ATTEMPTS TO SUPPORT HERSELF AND CHILD BY MAKING OVERALLS.</item>
 <item>STARVATION STARING HER IN THE FACE, SHE SOLD HER HONOR RATHER THAN PART FROM HER BABY.</item></list></head>
-One of the white slaves of Chicago stood in the prisoner's
+<p>One of the white slaves of Chicago stood in the prisoner's
 dock at the armory police court yesterday, moaning piteously.
 She was young and her face was pretty. The big policeman
 who stood at her side said he had arrested her for soliciting
@@ -78,5 +109,8 @@ dollars, but execution was staid during good behavior. If
 arrested again she will be given fifty days at the bridewell.
 She left the court-room weeping and moaning.
 "What will become of my baby," she cried, "if I am
-brought here and have to be imprisoned for so long?"
+brought here and have to be imprisoned for so long?"</p>
 </div>
+        </body>
+    </text>
+</TEI>

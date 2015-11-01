@@ -1,7 +1,38 @@
-﻿<div type="section" n="2">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 2</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="2">
 <head><list><item>PUT THROUGH AN IMPUDENT CROSS-EXAMINATION TO GET TO SEW CLOAKS AT FIFTY CENTS EACH.</item> 
 <item>MAKING PANTS AND SHIRTS AT SEVENTY-FIVE CENTS A DOZEN AND FIND YOUR OWN THREAD.</item></list></head>
-At R--- &amp; Co’s and R--- Bros. I applied for work and
+<p>At R--- &amp; Co’s and R--- Bros. I applied for work and
 was told to report in the morning to sew on cloaks.
 The manager in S’s on Market street wanted hands and
 offered to engage me at once. I was most impudently catechised, some seven inquiries requiring as many false statements.
@@ -45,5 +76,8 @@ after the job.
 John said: "That’s so, but I can’t help it. If the work is
 satisfactory you can have a six-dozen lot."
 It was very good for John to sympathize with me, but I
-thanked him and said I would look a little further.
+thanked him and said I would look a little further.</p>
 </div>
+        </body>
+    </text>
+</TEI>

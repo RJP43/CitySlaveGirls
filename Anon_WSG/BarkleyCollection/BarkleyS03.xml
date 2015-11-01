@@ -1,9 +1,40 @@
-﻿<div type="section" n="3">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 3</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="3">
 <head><list><item>A HARD DAY'S WORK FOR FORTY-ONE CENTS.</item> 
 <item>LESS FORTUNATE WORKERS WHO EARNED ONLY ELEVEN CENTS</item>
 <item>A SICK GIRL'S SAD STORY.</item>
 <item>THE HOPELESS MISS WHO LONGED TO BE MARRIED.</item></list></head>
-At the N-R- Jersey Company I was told to apply at
+<p>At the N-R- Jersey Company I was told to apply at
 the factory on West Washington street.
 "Work is given out at 7:30 A.M.," the clerk informed me,
 "and if you have any snap about you you can make a good
@@ -195,8 +226,11 @@ Then we went to Ellinger's and made cloaks at 30 cents each, but it was so hard,
 By way of comforting her I took her name, promised to help her, and gave her my check for forty-one cents. She didn't think it would be honored, so I took it to the cashier myself and demanded pay as I was not coming back in the morning. "No ma'am," said Tom, "you don't get it. Come around on the 20th and I hunt you up." 
 At 5:30 work ceased. Each girl had to sweep out her place, clean and oil the machine, and return her basket and check. I paid a nickel to have my corner swept, and finding it impossible to wash up sans towel and soap I got under my veil and rang the elevator. The pressers laughed and told me to try the stairs—five flights. Down I went. At the second I went into the salesroom to buy a jersey. One of the firm waited on me. His magnanimity was sublime. The identical black jersey that I had received 5 cents for finishing was offered to me at $2. I declined. By way of interest one hundred dozen garments are turned out of the factory every day in the year. As near as I could learn the salaries average $4 a week, but plenty of grown women are not allowed to earn over 28 cents a day.
 Work begins at 7:30 A.M. and 12:30 P.M. Anyone five minutes late working on time is fined an hour's pay, and for the loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept idle from one to three hours. A girl who loses her ticket forfeits pay for the entire lot, not withstanding the entry is on the books of the firm.
-
+</p>
 </div>
+        </body>
+    </text>
+</TEI>
 
 
 

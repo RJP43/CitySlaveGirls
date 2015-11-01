@@ -1,7 +1,38 @@
-﻿<div type="section" n="16">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Section 16</title>
+                <title level="m">The White Slave Girls of Chicago.</title>
+                <author>
+                    NELSON, Nell, pseud.
+                </author>
+                <editor>Rebecca Parker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>139 p. 19 cm.
+                            Microfilm. New Haven, Conn. : Research Publications, 
+                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<div type="section" n="16">
 <pb n="103"/>
 <head><list><item>THE GIRLS DO PRETTY MUCH AS THEY PLEASE AT E. BROS. NECKTIE ESTABLISHMENT, AND THEY-CAN EARN ABOUT SEVEN DOLLARS A WEEK THE YEAR ROUND.</item></list></head>
-Neckwear is the source of E. Brothers' wealth, at whose
+<p>Neckwear is the source of E. Brothers' wealth, at whose
 factory, Market street, cravats, slip-ties, dude ties flat scarfs,
 four-in-hands, and bow-knots, are turned out by the hundred
 gross every week. Thither I went to make ties and the
@@ -87,5 +118,8 @@ of girls made seven dollars a week, but a constant changing of
 fashion prevented a higher average the year round, as it was
 necessary to learn the style before being able to turn out more
 than ten dozen a week. Take it all in all E. Brothers' was the
-most humane factory in which I had any experience.
+most humane factory in which I had any experience.</p>
 </div>
+        </body>
+    </text>
+</TEI>
