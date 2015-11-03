@@ -6,8 +6,10 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier this is where it is being defined as well as in the site index ... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" -->
-               "City Slave Girls",<!-- RJP: this stays consistent for all of the newspaper articles --> <date when="1888-xx-xx">Monday Morning, July 30, 1888</date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+            
+            <title level="a" xml:id=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier this is where it is being defined as well as in the site index ... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-xx-xx">Monday Morning, July 30, 1888</date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+            <title level="m">"City Slave Girls"</title>
+            
             <sponsor>University of Pittsburgh Main Campus</sponsor><!-- RJP: since David hosts one version of the website (nell.obdurodon.org) it's important we note that right? Is this how I do that? -->
             <sponsor>Pittsburgh Supercomputing Center</sponsor><!-- RJP: since PSC hosts one version of the website (http://nelson.newtfire.org/) it's important we note that right? Is this how I do that? --> 
             <sponsor>University of Pittsburgh at Greensburg</sponsor><!-- RJP: Since the work on the Nelson project was first developed while I am attending Pitt is this the best way to represent that? -->
