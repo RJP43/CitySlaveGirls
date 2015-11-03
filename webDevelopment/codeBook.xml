@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codeBook>
     
+<!-- Use the "damage" element for when some aspect of the text is difficult to read. Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. Your reading should sit within the <unclear><supplied>..</supplied></unclear> tagset. If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element ... leaving out the <supplied> element. -->
 <damage agent="smudge" unit="word" quantity="9"/><unclear><supplied resp="#rjp">your best guess here to what the text says</supplied></unclear>
    
    @unit values
      unit="word" 
-     unit="chars" <!-- [for missing "characters" inside of a word] -->
+     unit="chars" <!-- for missing "characters" inside of a word -->
      unit="sentence"
    @quantity values
      in relation to the unit -- how many units are unclear
    @agent values
      agent="smudge"
-     agent="blurred" <!-- if unreadable due to poor photographic image qulaity  -->
+     agent="blurred" <!-- if unclear due to poor photographic image qulaity  -->
      agent="fold"
      agent="torn"
         
-    <!-- Use the "damage" element for when some aspect of the text is difficult to read. Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. Your reading should sit within the <unclear><supplied>..</supplied></unclear> tagset. If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element ... leaving out the <supplied> element. -->
+    
     
 </codeBook>
