@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier this is where it is being defined as well as in the site index ... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" -->
+               "City Slave Girls",<!-- RJP: this stays consistent for all of the newspaper articles --> <date when="1888-xx-xx">Monday Morning, July 30, 1888</date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+            <sponsor>University of Pittsburgh Main Campus</sponsor><!-- RJP: since David hosts one version of the website (nell.obdurodon.org) it's important we note that right? Is this how I do that? -->
+            <sponsor>Pittsburgh Supercomputing Center</sponsor><!-- RJP: since PSC hosts one version of the website (http://nelson.newtfire.org/) it's important we note that right? Is this how I do that? --> 
+            <sponsor>University of Pittsburgh at Greensburg</sponsor><!-- RJP: Since the work on the Nelson project was first developed while I am attending Pitt is this the best way to represent that? -->
+            <principal>Rebecca Parker</principal><!-- RJP: Where do I list you, Dr. Beshero-Bondar... should your name be here instead? -->
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represent by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+            </respStmt>
+            <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+         </titleStmt>
+         <!-- RJP: Where do I put the date for when this article was transvribed and/or encoded? -->
+         <editionStmt>
+            <edition> First digital edition in TEI P5.</edition><!-- RJP: is this right? -->
+         </editionStmt>
+         <publicationStmt>
+            <p>This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>. This project is still in progress.</p><!-- RJP: will this due for a publicationStmt? Should there be something more? -->
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Undercover Reporting - Deception for Journalism's Sake: A Database</title>
+                  <author>Kroeger, Brooke</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>Digital Edition</edition>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <pubPlace>New York</pubPlace>
+                  <date>unknown</date><!--RJP: note to self: contact NYU's Brook Kroeger (brooke.kroeger@nyu.edu) to determine the date the database was first developed  -->
+                  <availability>
+                     <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                     </p>
+                  </availability><!-- RJP: is this how I would do this? -->
+               </publicationStmt>
+               <!-- RJP: this second sourceDesc represents the source for the NYU Digital Archive and the pdf images used on their site... it is ok to represent this like this? Is there something more that needs to be done since our transcriptions come from these images? -->
+               <sourceDesc>
+                  <biblFull>
+                     <titleStmt>
+                        <title>"City Slave Girls"</title>
+                        <author>Nelson, Nell</author><!-- RJP: how can we represent that this is a pseudonym and the author's real name is Helen Cusack -->
+                        <editor>Chapin, Charles</editor>
+                     </titleStmt>
+                     <editionStmt>
+                        <edition>Newspaper Print</edition>
+                     </editionStmt><!-- RJP: not entirely sure this is the correct way to represent this -->
+                     <extent>21-part series: Front-page placement</extent><!-- RJP: not entirely sure this is the correct way to represent this either -->
+                     <publicationStmt>
+                        <publisher>Chicago Times</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date>1888</date>
+                     </publicationStmt>
+                     <sourceDesc>
+                        <p>No source: this is an original work</p>
+                     </sourceDesc>
+                  </biblFull>
+               </sourceDesc>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original.</p>
+        </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div corresp=""><!-- RJP: is @corresp the best attribute to use here? --><!-- RJP: link to the articleIdentifier from above in the TEIheader <titleStmt> using the # then the articleIdentifier. For example: #CT001  -->
+            <div type="headlines">
+               <list>
+                  <item></item><!-- RJP: each headline gets its own <item> element -->
+               </list>
+            </div>
+            <div type="articleBody">
+               <p></p><!-- each paragraph represented in the text will get its own <p> element -->
+            </div>
+            <div type="advertisement">
+               <p></p>
+            </div><!-- RJP: some articles concluded with an advertisement refering to later publications of the series ... I created this <div> because we want to capture those ads but have them sitting separately from the text of the article itself. -->
+         </div>
+         
+      </body>
+  </text>
+</TEI>
