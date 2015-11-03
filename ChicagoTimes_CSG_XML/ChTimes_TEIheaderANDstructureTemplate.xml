@@ -75,8 +75,9 @@
       </fileDesc>
      <encodingDesc>
         <editorialDecl>
-           <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original.</p>
+           <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
         </editorialDecl>
+        
      </encodingDesc>
   </teiHeader>
   <text>
