@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codeBook>
     
-<!-- Use the "damage" element for when some aspect of the text is difficult to read. Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. Your reading should sit within the <unclear><supplied>..</supplied></unclear> tagset. If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element ... leaving out the <supplied> element. -->
+Use the "damage" element for when some aspect of the text is difficult to read. 
+Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. 
+Your reading should sit within the <unclear><supplied>..</supplied></unclear> tagset. 
+If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element leaving out the <supplied> element. 
+
+For Example:
+
 <damage agent="smudge" unit="word" quantity="9"/><unclear><supplied resp="#rjp">your best guess here to what the text says</supplied></unclear>
-   
+
+Explanation of Attributes
+<damage>
    @unit values
      unit="word" 
      unit="chars" <!-- for missing "characters" inside of a word -->
@@ -15,6 +23,13 @@
      agent="blurred" <!-- if unclear due to poor photographic image qulaity  -->
      agent="fold"
      agent="torn"
+</damage>
+<supplied>
+    @resp <!-- this is a declaration of who is responsible for the interpretation of text-->
+     resp="#yourInitials" <!-- the hash tag is reference to the xml:id that each editor will have in the site index! 
+     For now each editor can make up their own xml:id and supply it after the # hashtag which will later link it to the site index.
+     The id should be the editor's initals!-->
+</supplied>
         
     
     
