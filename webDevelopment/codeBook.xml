@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codeBook>
     
-<damage agent="smudge" unit="word" quantity="2"/><unclear><supplied resp="#rjp">your best guess here to what the text says</supplied></unclear>
+<damage agent="smudge" unit="word" quantity="9"/><unclear><supplied resp="#rjp">your best guess here to what the text says</supplied></unclear>
    
    @unit values
      unit="word" 
