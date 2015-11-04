@@ -98,7 +98,9 @@
             <xsl:apply-templates/>
         </ref>
     </xsl:template>
-    
+    <xsl:template match="unclear">
+        <unclear/>
+    </xsl:template>
     
 </xsl:stylesheet>
     

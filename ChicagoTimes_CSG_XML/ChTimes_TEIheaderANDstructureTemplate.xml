@@ -29,7 +29,6 @@
             </respStmt>
             -->
          </titleStmt>
-         <!-- RJP: Where do I put the date for when this article was transvribed and/or encoded? ebb: below in the editionStmt!-->
          <editionStmt>
             <edition> First digital edition in TEI P5, date: <date when="yyyy-mm-dd">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
          </editionStmt>

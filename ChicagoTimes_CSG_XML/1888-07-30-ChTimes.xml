@@ -6,37 +6,75 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chicago Times</title>
                 
-                <title>CITY SLAVE GIRLS</title>
-                
-                <title><date when="1888-07-30">Monday Morning, July 30, 1888</date></title>
-                
-                <author>
-                    Nell Nelson
-                    Helen Cusach
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="CT001"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-07-30">Monday Morning, July 30, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+                <title level="m">"City Slave Girls"</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Nell Nelson. “City Slave Girls.” Chicago Daily Times (Chicago, IL), July 30-August19, 1888 and August 26-27, 1888.</p>
-                <p> NYU Digital Library<ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"/></p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>NYU</repository>
-                        
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">"City Slave Girls"</title>
+                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
+                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Newspaper Print</edition>
+                    </editionStmt><!-- RJP: not entirely sure this is the correct way to represent this -->
+                    <extent>21-part series: Front-page placement</extent><!-- RJP: not entirely sure this is the correct way to represent this either -->
+                    <publicationStmt>
+                        <publisher>Chicago Times</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date>1888</date>
+                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                        <availability>
+                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                            </p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="article" n="1">
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-30">Monday Morning, July 30, 1888</date></title>
-                    <list><item>>A <ref type="nellNelson">Lady Reporter</ref>’s Experience in the Shops with <desc
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>>A <ref type="nellNelson">Lady Reporter</ref>’s Experience in the Shops with <desc
                         type="workingClass">Sewing Serfs</desc>.</item>
                         <item><desc type="wageDesc">Making Tidies at <num type="wage" value=".60">Sixty
                             Cents</num> a Dozen and Paying <num type="wage" value="3.00">Three Dollars</num> for the
@@ -49,8 +87,9 @@
                         <item>The Trials of <desc type="workingClass">Poor Creatures</desc> Who Stitch the “Never
                             Rip Jersey.”</item>
                     </list>
-                </head>
-<p>
+                </div>
+                <div type="articleBody">
+                    <p>
     <date when="1888-07-10">Tuesday, July 10</date>, according to instructions from <ref type="theTimes">THE
             TIMES</ref>, I made up for the role of shop-girl, and with a
         list of factories in one hand and gentle peace in the other sailed down <desc type="location">State
@@ -72,11 +111,11 @@
         different pattern and unvarying ugliness. There were round tidies and oblong tidies, square
         mats for a bureau and smaller ones of oval and circular design, intended for a lamp or
         cushion. Behind the table, sachetiny between a writing stand and a desk, was a young man of
-        30 or so, of blonde type, with a stationary scowl between his eyebrows and 
+        30 or so, of blonde type, with a stationary scowl between his eyebrows and <unclear/>
         otherwise pleasing manner. That is, I thought the manner pleasing till I began to get
         acquainted with it and then my opinion changed. After a lapse of five minutes or so the
-        fair-haired gentlemen turned to the young girl with a deepening of the  and a most
-        unalluring “Well?”. “I brought the mate back.” “Oh, you have, eh?” opening a piece
+        fair-haired gentlemen turned to the young girl with a deepening of the <unclear/> and a most
+        unalluring “Well?”.<unclear/> “I brought the mate back.” “Oh, you have, eh?” opening a piece
         of newspaper and unfolding a dozen hand-made mats the size of a tea-plate. The work is
         carefully examined on both sides and as he proceeds the scowl deepens. Without a word he
         tosses the lot on the little table and reaches for the proffered black the girl had opened.
@@ -106,7 +145,7 @@
         her—her—are you a relation?” “Yes.” “Well, you must tell her to wash her hands. These goods
         are all sweet. I’ll have to charge her for spoilage the material if it occurs again. Did she
         tell you to ask for more work?” “No, sir.” The poor boy is gone. <persName>Martha</persName> sits in the back
-        room the picture of  and the entry being made I am approached.
+        room the picture of <unclear/> and the entry being made I am approached.
             <desc type="middleClass">I look like a beggar and that is what I am taken for, as, the pretty
             blonde secretary only scowls.</desc> He stands and looks down at me and I
         sit and look up at him waiting for the, lines in the handsome brow to deepen, the edge of
@@ -120,7 +159,7 @@
         of his countenance bias for a second. Reaching to the desk he pulled out the following
         circular and handed it to me. <orgName type="exposedCompany">OFFICE OF WESTERN LACE MANUFACTURING CO.
                 (Incorporated)</orgName>, <desc type="location">218 STATE STREET, CHICAGO,
-            ILL</desc>—: In reply to your letter regarding the work we send
+            ILL</desc>—<unclear/>: In reply to your letter regarding the work we send
         out to ladies to do at their homes we beg to say that we make a large line of crochet goods
         of our antique crochet cotton a sample of which you will find enclosed, also linen, silk,
         etc. We make <ref type="factoryItem">mats</ref>, <ref type="factoryItem">tidies</ref>, <ref type="factoryItem">lambrequins</ref>, <ref type="factoryItem">bedspreads</ref>, <ref type="factoryItem">shams</ref>, <ref type="factoryItem">collars</ref>, <ref type="factoryItem">hood</ref>, <ref type="factoryItem">lace edging</ref>, etc.,
@@ -181,15 +220,15 @@
         crocheting business.” Then I asked him where he got a market for the goods and the name of
         some business man to whom I could go for reference. “Now I am not going to do any more
         talking with you about this business.” “Why?? Is it a secret organization, a sort of
-        Maso” “No. It isn’t secret or Ma either, but I don’t believe you’re all
+        Maso<unclear/>” “No. It isn’t secret or Ma<unclear/> either, but I don’t believe you’re all
         right and I won’t answer any more questions until I know who you are and what you want.”
         Poor <persName>Mr. Ford</persName> was so furious by this time that I thanked him for his
         attention and bade him good afternoon. At the foot of the stairs I waited to tie my veil on
         and see how <persName>Martha</persName> fared, but at the expiration of thirty minutes she
-        was still waiting for <persName>Mr. White</persName> and her .
+        was still waiting for <persName>Mr. White</persName> and her <unclear/>.
             <desc type="wageDesc">Of the five women I interrogated none were able to earn <num type="wage" value=".20">20 cents</num> a
             day</desc>. <desc type="workingClass">All expressed a liking for the work but
-            complained bitterly of the way the  gave out the work.</desc> For
+            complained bitterly of the way the <unclear/> gave out the work.</desc> For
         instance <ref type="factoryItem">bedspreads</ref> paid <num type="wage" value="10.00">$10</num> a dozen, but not more than three spreads were given to a hand
         and one of these was the sample. The little <ref type="factoryItem">tablemats</ref> paid <num type="wage" value=".50">50 cents</num> per dozen, but before a
         girl was able to crochet enough to live on she was obliged to take collars made of line
@@ -198,12 +237,12 @@
         been on a <num type="wage" value=".60">60-cent</num> lot since <date when="1888-06-03">June 3</date>.</desc> By inquiry I learned that many women
             paid $3 and gave up the work when they saw it was not possible to make the <num type="wage" value="15.00">$15</num> necessary
             for the rebate.  This fact does not appear in the circulars, and it
-        is not  after the contract has been signed that the  tacties of the
+        is not <unclear/> after the contract has been signed that the <unclear/> tacties of the
         concern are understood. 
                 Several cases are on record at the <orgName>Woman’s Protective
-            agency</orgName>, but no judgment has been obtained, as the agreement  valid
+            agency</orgName>, but no judgment has been obtained, as the agreement <unclear/> valid
         be-fore the law. All that can be done in the matter is to warn the public against a
-             legally incorporated to grind the life out of the women and girls unfortunate
+            <unclear/> legally incorporated to grind the life out of the women and girls unfortunate
             enough to patronize it.
         CLOAKS, OVERALLS, AND SHIRTS
         Put Through an Impudent Cross-Examination to Get to Sew <ref type="factoryItem">Cloaks</ref> at <num type="wage" value=".50">50 cents</num> Each
@@ -401,29 +440,28 @@
         and 12:30 p. m. Anyone five minutes late working on time is fined an hour’s pay, and for the
         loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept
         idle form one to three hours. A girl who loses her ticket forfeits pay for the entire work,
-        not withstanding the entry is on the books of the firm.
+        not withstanding the entry is on the books of the firm. 
                     </p>
-            <div type="advertisement">
-            <p>LIFE AMONG THE SLAVE GIRLS OF <placeName>CHICAGO</placeName>
-                <ref type="theTimes">THE TIMES</ref> 
-                Will print tomorrow the second bath of facts concerning the
-                    workings of some of the factories of <placeName>Chicago</placeName> where girls and women are employed. <ref type="newspaperSeries">These
-                        articles are written by a young lady who passed through the common experiences of those
-                        unfortuantes of her own sex who are compelled to undergo the hardships and tortures of
-                        factory life in this city. She tells plainly what she saw ad what she heard; gives names and
-                        places whenever necessary, and backs up her statements with unquestionable proofs. These are
-                        revelations as unexpected as they are unpleasant.</ref> It was necessary that <ref type="theTimes">The Times</ref> should
-                    make them in order that the unthinking wealthy, well-to-do, and comfortable citizens of
+                </div>
+                <div type="advertisement">
+                    <p>LIFE AMONG THE SLAVE GIRLS OF <placeName>CHICAGO</placeName>
+                        <ref type="theTimes">THE TIMES</ref> 
+                        Will print tomorrow the second bath of facts concerning the
+                        workings of some of the factories of <placeName>Chicago</placeName> where girls and women are employed. <ref type="newspaperSeries">These
+                            articles are written by a young lady who passed through the common experiences of those
+                            unfortuantes of her own sex who are compelled to undergo the hardships and tortures of
+                            factory life in this city. She tells plainly what she saw ad what she heard; gives names and
+                            places whenever necessary, and backs up her statements with unquestionable proofs. These are
+                            revelations as unexpected as they are unpleasant.</ref> It was necessary that <ref type="theTimes">The Times</ref> should
+                        make them in order that the unthinking wealthy, well-to-do, and comfortable citizens of
                         Chicago should have their eyes opened. If the condition of the working women and girls of
                         this city is improved, even in a slight degree, by these exposures <ref type="newspaperSeries">The Times</ref> will be fully
-                repaid. Read <ref type="newspaperSeries">The Times</ref> every day this week. Two cents per copy. Delivered by carrier, 12
+                        repaid. Read <ref type="newspaperSeries">The Times</ref> every day this week. Two cents per copy. Delivered by carrier, 12
                         cents per week for daily and 15 cents per week for daily and Sunday. Order it by postal
-                    card, letter, or telephone 1362. </p>
+                        card, letter, or telephone 1362. </p>
+                </div>
             </div>
-            </div>
+            
         </body>
-
     </text>
 </TEI>
-
-  
