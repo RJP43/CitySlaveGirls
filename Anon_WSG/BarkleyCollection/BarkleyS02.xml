@@ -6,78 +6,121 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 2</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC02">Section 2</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="2">
-<head><list><item>PUT THROUGH AN IMPUDENT CROSS-EXAMINATION TO GET TO SEW CLOAKS AT FIFTY CENTS EACH.</item> 
-<item>MAKING PANTS AND SHIRTS AT SEVENTY-FIVE CENTS A DOZEN AND FIND YOUR OWN THREAD.</item></list></head>
-<p>At R--- &amp; Co’s and R--- Bros. I applied for work and
-was told to report in the morning to sew on cloaks.
-The manager in S’s on Market street wanted hands and
-offered to engage me at once. I was most impudently catechised, some seven inquiries requiring as many false statements.
-What was my name, place of residence, last position, amount
-of wages received, state of my health, nativity, married or
-<pb n="13"/>
-single - to which I answered "neither." Here was a dilemma.
-"Oh, yes, widow? " and an inordinate ha! ha!
-"Yes."
-"Grass widow, eh?" with a sneer.
-"How much do you pay for cloaks", I asked, tired of the ordeal.
-"Fifty c«nts each."
-It was enough and I left the creature still anxious to solve
-the widow question.
-By the time I reached L’s on Market street, I was in a reckless frame of mind.
-"Is there any work for a good sewer?" I asked the girl in
-the office.
-"Yes, plenty. John give her some pants."
-John had eyes the color of calico, and a complexion like an
-immature tomato. He led the way to the cottonades, which
-were cut, trimmed, and tied up in bundles of a dozen garments
-each.
-"Here’s a sample," holding up a pair of overalls of brown
-cottonade. " The work is cut out, but you will have to do
-everything yourself. I want you to make the fly extra strong
-and press the bottoms. We pay 75 cents a dozen and you find
-your own thread. * ’
-"Seventy-five cents for a dozen of these pants and find my
-own thread?"
-"Yes, or I’ll give you 80 cents a dozen and give you linen
-thread if you sew the buttons on fast.
-"No, I guess, I won’t take the pants. What other work
-have you?"
-"Here are cheviot shirts, if you'd rather. Gusset the tail
-here and the sleeves, stay the bosom and arm-holes, and make
-the collar and wristbands extra strong. These pay 75 cents a
-dozen." He offered to give me three on trial. The thread
-cost 5 cents, car-fare 10 cents, and I should have left 3 cents
-after the job.
-<pb n="14"/>
-John said: "That’s so, but I can’t help it. If the work is
-satisfactory you can have a six-dozen lot."
-It was very good for John to sympathize with me, but I
-thanked him and said I would look a little further.</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>PUT THROUGH AN IMPUDENT CROSS-EXAMINATION TO GET TO SEW CLOAKS AT FIFTY CENTS EACH.</item> 
+                        <item>MAKING PANTS AND SHIRTS AT SEVENTY-FIVE CENTS A DOZEN AND FIND YOUR OWN THREAD.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>At R--- &amp; Co’s and R--- Bros. I applied for work and
+                        was told to report in the morning to sew on cloaks.
+                        The manager in S’s on Market street wanted hands and
+                        offered to engage me at once. I was most impudently catechised, some seven inquiries requiring as many false statements.
+                        What was my name, place of residence, last position, amount
+                        of wages received, state of my health, nativity, married or
+                        <pb n="13"/>
+                        single - to which I answered "neither." Here was a dilemma.
+                        "Oh, yes, widow? " and an inordinate ha! ha!
+                        "Yes."
+                        "Grass widow, eh?" with a sneer.
+                        "How much do you pay for cloaks", I asked, tired of the ordeal.
+                        "Fifty c«nts each."
+                        It was enough and I left the creature still anxious to solve
+                        the widow question.
+                        By the time I reached L’s on Market street, I was in a reckless frame of mind.
+                        "Is there any work for a good sewer?" I asked the girl in
+                        the office.
+                        "Yes, plenty. John give her some pants."
+                        John had eyes the color of calico, and a complexion like an
+                        immature tomato. He led the way to the cottonades, which
+                        were cut, trimmed, and tied up in bundles of a dozen garments
+                        each.
+                        "Here’s a sample," holding up a pair of overalls of brown
+                        cottonade. " The work is cut out, but you will have to do
+                        everything yourself. I want you to make the fly extra strong
+                        and press the bottoms. We pay 75 cents a dozen and you find
+                        your own thread. * ’
+                        "Seventy-five cents for a dozen of these pants and find my
+                        own thread?"
+                        "Yes, or I’ll give you 80 cents a dozen and give you linen
+                        thread if you sew the buttons on fast.
+                        "No, I guess, I won’t take the pants. What other work
+                        have you?"
+                        "Here are cheviot shirts, if you'd rather. Gusset the tail
+                        here and the sleeves, stay the bosom and arm-holes, and make
+                        the collar and wristbands extra strong. These pay 75 cents a
+                        dozen." He offered to give me three on trial. The thread
+                        cost 5 cents, car-fare 10 cents, and I should have left 3 cents
+                        after the job.
+                        <pb n="14"/>
+                        John said: "That’s so, but I can’t help it. If the work is
+                        satisfactory you can have a six-dozen lot."
+                        It was very good for John to sympathize with me, but I
+                        thanked him and said I would look a little further.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>

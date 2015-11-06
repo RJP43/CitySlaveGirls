@@ -6,38 +6,75 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Source Citation </title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGCcitation">Source Citation</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="citation">
-<p>NELSON, Nell, pseud.
-The White Slave Girls of Chicago. 
-Nell Nelson’s startling disclosures of the cruelties and iniquities practiced in the workshops and factories of a great city... 
-Chicago, Barkley Pub. Co., 1888.
-139 p. 19 cm.
-Microfilm. New Haven, Conn. : Research Publications, 
-No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</p>
-</div>
+            <div type="citation">
+            <p>NELSON, Nell, pseud.
+                The White Slave Girls of Chicago. 
+                Nell Nelson’s startling disclosures of the cruelties and iniquities practiced in the workshops and factories of a great city... 
+                Chicago, Barkley Pub. Co., 1888.
+                139 p. 19 cm.
+                Microfilm. New Haven, Conn. : Research Publications, 
+                No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</p>
+        </div>
         </body>
     </text>
 </TEI>

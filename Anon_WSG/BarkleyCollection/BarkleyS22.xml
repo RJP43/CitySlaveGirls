@@ -6,161 +6,204 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 22</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC22">Section 22</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="22">
-<head><list><item>PATHETIC STORIES OF THE LITTLE ONES WHO ARE SACRIFICING YOUTH, BEAUTY, AND LIFE ITSELF TO MAMMON.</item>
-<item>HOW THE QUESTION OF MARRIAGE IS AFFECTED BY YEARS OF CLOSE APPLICATION TO SHOP DRUDGERY.</item></list></head>
-<p>P. K. company! Pretty name, isn't it? Done in gens d'arm
-blue letters on a navy-blue ground it makes an exceedingly
-effective sign. The very colors suggest the claims of long
-descent and blue blood.
-<pb n="130"/>
-But the P. company on West Washington street has nothing
-to do with blue blood or gentle women, and there is nothing
-pretty about it but the sweet young girls of fifteen and sixteen
-and the frail children of nine and ten whose lives are being
-wound about the great wooden bobbins, and from whose
-cheeks the roses of health and beauty are slowly absorbed by
-the flying threads in shuttle, needle, and spindle.
-P. K. company is only another name for the women's shirt
-factory at West Washington street. Up one flight of stairs I
-pass into a tidy little office where a fine looking gentleman
-gives me greeting and calls the forewoman, Mrs. M. She is
-young and pretty. Her voice is sweet and she has a good
-face.
-"Yes, I have work but it won't pay you. You can't
-live on the salary. I wouldn't advise you to take it. The
-table girls only get three dollars a week. Their work consists
-in sewing on buttons and finishing the armholes of the shirts.
-We have generally employed little girls of twelve and thirteen
-to do it. Better work pays by the piece, five and ten cents
-a dozen for knitting a finish about the neck and armholes and
-bottom of the shirts. But you would have to be experienced;
-we couldn't take the time to teach you."
-I told her I would try the table work until I could get
-something that paid better, as I was wholly dependent on my
-own resourses<!-- RJP:10/29/15:spelling retained from original -->.
-"That's it, you see. I don't like to take you and have you
-leave as soon as you begin to be useful."
-"But I can't live on three dollars a week to save my soul,
-unless I subsist on cold water and wind and sleep with the
-birds."
-In as mild a manner as possible she told me that the P. K.
-company never meddled with the private affairs of its employes,
-and agreeing to promote me whenever a vacancy occured that
-I was able to fill. I started to fasten the tail ends of knitted
-<pb n="131"/>
-shirts at the munificent sum of fifty cents a day, or five cents
-an hour, work beginning at 7 a. m., and closing at 5:40 p. m.
-with thirty minutes for lunch. I paid five cents for a paper of
-sewing needles and five cents for a set of crochet needles before
-doing a stitch of work, so that at noon I had but fifteen cents
-to my credit.
-When the forewoman took me to the furnishing table I
-failed to see where she could put me. Down the long sides
-and across the ends were the girls, thirty or more, unpleasantly
-crowded, for the weather was hot, the room close, and the
-double row of shirts piled two and three feet deep intercepted
-any breeze that came in through the side windows. Beginning at one end she made the girls "shove up a little," and
-with this allowance from fifteen room enough was made for
-another chair to which I was assigned.
-The work was light, requiring but a few stitches at five or
-more places. Where the pattern was imperfect I had to crochet a couple of scallops, otherwise a few stitches with a zephyr
-needle sufficed. The slowest girl finished five dozen shirts a
-day, and some twice that number. A few at the board sewed
-on buttons and a regiment filed past with armfuls of shirts, in
-or ready to be put in boxes. We were so crowded that nearly
-every passer-by knocked me in the head with her elbow or
-load, while the girl at my left drew her needle under my very
-nose at each stitch. I could neither take up nor lay down my
-scissors without annoyance to the little girl on my right.
-I marveled as I looked at these girls that they should be
-permitted to labor as they did, ten hours a day in a dark, hot,
-room, exposed as they were to all manner of disease and the
-dangers of fire, for scarcely more wages than sufficed for food
-and car-fare. There was not a single attractive feature about
-their surroundings. The smoke from the engine had blackened
-the walls and the ceiling so that in the rear of the shop no
-calcimine was visible. At either end were two windows and
-<pb n="132"/>
-two more had been cut in the west wall, without supplying
-the needs of the round-shouldered workers, not a few of whom
-had defective sight.
-The distribution of a pair of closets and a brace of sinks in
-no way enhanced their value, for at noon-time the girls stood
-in line and waited for their turn to get near them.
-The sink at which I tried to fix my toilet was filled with
-dirty water, in which the little girls washed, drying on their
-own or a neighbors apron. There was a towel but it had
-exhausted its usefulness.
-The shirts were knitted by machines - thirteen or more
-little girls standing before the conical bobbins simply to keep
-the threads from getting tangled. These children were on
-their feet all day and at noon they sat on the floor and ate
-their lunches, leaning against the straps and legs of the knitters. Whatever these girls may have been in years - in face,
-form, size and strength they were little more than infants.
-Pale? Yes; bleached by confinement and thin as reeds
-from loss of sleep, loss of sunshine, of pure air, of wholesome
-food, and of play. Many of them had to be up at five o'clock
-in the morning, and all at six to get to the shop by seven. In
-return for their service they are paid three dollars a week, or
-five cents an hour. Poor indeed is the home that must depend
-on such a mean compensation for all that is lost to the child - 
-health, vigor, youth.
-The machine-girls who trimmed the little woolen glove-fitting shirts were paid by the piece, most of them earning
-seventy-five cents a day and a few one dollar. So far as I
-could learn all the hands lived at home and each was one of a
-large family. They were mostly of foreign extraction, but not
-a few American families were represented by little sisters or
-daughters who were working for five and ten cents an hour to
-buy ribbons and theater tickets. To be just, they were in the
-minority; the vast army of youthful martyrs worked that
-<pb n="133"/>
-younger brothers and sisters might have bread and shoes and
-a shelter.
-Here is some of the talk I overheard :
-"How are you feeling, Maggie?"
-"I'm terribly sick, I can tell you. I slept with plasters on
-my feet, and I havn't sat down all morning. My mother told
-me to come home this noon if they kept me running and I
-didn't feel well. No, I guess I'll try and stay. I'm savin' up
-for a cloak and have only four dollars so far."
-Another child: "Didn't have hardly no lunch 'cause it was
-six when mother called me, and I eat my breakfus with her
-buttnin' my clothes, and shoved what I could in my box.
-There's no butter on this, and I didn't get no meat, but I don't
-care, mother's goin' to make me pancakes tonight."
-Still another wished "they'd permote" her, because she
-had had nothing to wear since the rent was raised. The
-evening before they "went for chips and got loads of blocks
-from the pavement."
-Hanging about were the usual rules and regulations relative
-to punctuality and property. One requiring that a three-days'
-notice preparatory to leaving, under penalty of forfeiting a
-week's salary, had greater prominence than the rest.</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>PATHETIC STORIES OF THE LITTLE ONES WHO ARE SACRIFICING YOUTH, BEAUTY, AND LIFE ITSELF TO MAMMON.</item>
+                        <item>HOW THE QUESTION OF MARRIAGE IS AFFECTED BY YEARS OF CLOSE APPLICATION TO SHOP DRUDGERY.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>P. K. company! Pretty name, isn't it? Done in gens d'arm
+                        blue letters on a navy-blue ground it makes an exceedingly
+                        effective sign. The very colors suggest the claims of long
+                        descent and blue blood.
+                        <pb n="130"/>
+                        But the P. company on West Washington street has nothing
+                        to do with blue blood or gentle women, and there is nothing
+                        pretty about it but the sweet young girls of fifteen and sixteen
+                        and the frail children of nine and ten whose lives are being
+                        wound about the great wooden bobbins, and from whose
+                        cheeks the roses of health and beauty are slowly absorbed by
+                        the flying threads in shuttle, needle, and spindle.
+                        P. K. company is only another name for the women's shirt
+                        factory at West Washington street. Up one flight of stairs I
+                        pass into a tidy little office where a fine looking gentleman
+                        gives me greeting and calls the forewoman, Mrs. M. She is
+                        young and pretty. Her voice is sweet and she has a good
+                        face.
+                        "Yes, I have work but it won't pay you. You can't
+                        live on the salary. I wouldn't advise you to take it. The
+                        table girls only get three dollars a week. Their work consists
+                        in sewing on buttons and finishing the armholes of the shirts.
+                        We have generally employed little girls of twelve and thirteen
+                        to do it. Better work pays by the piece, five and ten cents
+                        a dozen for knitting a finish about the neck and armholes and
+                        bottom of the shirts. But you would have to be experienced;
+                        we couldn't take the time to teach you."
+                        I told her I would try the table work until I could get
+                        something that paid better, as I was wholly dependent on my
+                        own resourses<!-- RJP:10/29/15:spelling retained from original -->.
+                        "That's it, you see. I don't like to take you and have you
+                        leave as soon as you begin to be useful."
+                        "But I can't live on three dollars a week to save my soul,
+                        unless I subsist on cold water and wind and sleep with the
+                        birds."
+                        In as mild a manner as possible she told me that the P. K.
+                        company never meddled with the private affairs of its employes,
+                        and agreeing to promote me whenever a vacancy occured that
+                        I was able to fill. I started to fasten the tail ends of knitted
+                        <pb n="131"/>
+                        shirts at the munificent sum of fifty cents a day, or five cents
+                        an hour, work beginning at 7 a. m., and closing at 5:40 p. m.
+                        with thirty minutes for lunch. I paid five cents for a paper of
+                        sewing needles and five cents for a set of crochet needles before
+                        doing a stitch of work, so that at noon I had but fifteen cents
+                        to my credit.
+                        When the forewoman took me to the furnishing table I
+                        failed to see where she could put me. Down the long sides
+                        and across the ends were the girls, thirty or more, unpleasantly
+                        crowded, for the weather was hot, the room close, and the
+                        double row of shirts piled two and three feet deep intercepted
+                        any breeze that came in through the side windows. Beginning at one end she made the girls "shove up a little," and
+                        with this allowance from fifteen room enough was made for
+                        another chair to which I was assigned.
+                        The work was light, requiring but a few stitches at five or
+                        more places. Where the pattern was imperfect I had to crochet a couple of scallops, otherwise a few stitches with a zephyr
+                        needle sufficed. The slowest girl finished five dozen shirts a
+                        day, and some twice that number. A few at the board sewed
+                        on buttons and a regiment filed past with armfuls of shirts, in
+                        or ready to be put in boxes. We were so crowded that nearly
+                        every passer-by knocked me in the head with her elbow or
+                        load, while the girl at my left drew her needle under my very
+                        nose at each stitch. I could neither take up nor lay down my
+                        scissors without annoyance to the little girl on my right.
+                        I marveled as I looked at these girls that they should be
+                        permitted to labor as they did, ten hours a day in a dark, hot,
+                        room, exposed as they were to all manner of disease and the
+                        dangers of fire, for scarcely more wages than sufficed for food
+                        and car-fare. There was not a single attractive feature about
+                        their surroundings. The smoke from the engine had blackened
+                        the walls and the ceiling so that in the rear of the shop no
+                        calcimine was visible. At either end were two windows and
+                        <pb n="132"/>
+                        two more had been cut in the west wall, without supplying
+                        the needs of the round-shouldered workers, not a few of whom
+                        had defective sight.
+                        The distribution of a pair of closets and a brace of sinks in
+                        no way enhanced their value, for at noon-time the girls stood
+                        in line and waited for their turn to get near them.
+                        The sink at which I tried to fix my toilet was filled with
+                        dirty water, in which the little girls washed, drying on their
+                        own or a neighbors apron. There was a towel but it had
+                        exhausted its usefulness.
+                        The shirts were knitted by machines - thirteen or more
+                        little girls standing before the conical bobbins simply to keep
+                        the threads from getting tangled. These children were on
+                        their feet all day and at noon they sat on the floor and ate
+                        their lunches, leaning against the straps and legs of the knitters. Whatever these girls may have been in years - in face,
+                        form, size and strength they were little more than infants.
+                        Pale? Yes; bleached by confinement and thin as reeds
+                        from loss of sleep, loss of sunshine, of pure air, of wholesome
+                        food, and of play. Many of them had to be up at five o'clock
+                        in the morning, and all at six to get to the shop by seven. In
+                        return for their service they are paid three dollars a week, or
+                        five cents an hour. Poor indeed is the home that must depend
+                        on such a mean compensation for all that is lost to the child - 
+                        health, vigor, youth.
+                        The machine-girls who trimmed the little woolen glove-fitting shirts were paid by the piece, most of them earning
+                        seventy-five cents a day and a few one dollar. So far as I
+                        could learn all the hands lived at home and each was one of a
+                        large family. They were mostly of foreign extraction, but not
+                        a few American families were represented by little sisters or
+                        daughters who were working for five and ten cents an hour to
+                        buy ribbons and theater tickets. To be just, they were in the
+                        minority; the vast army of youthful martyrs worked that
+                        <pb n="133"/>
+                        younger brothers and sisters might have bread and shoes and
+                        a shelter.
+                        Here is some of the talk I overheard :
+                        "How are you feeling, Maggie?"
+                        "I'm terribly sick, I can tell you. I slept with plasters on
+                        my feet, and I havn't sat down all morning. My mother told
+                        me to come home this noon if they kept me running and I
+                        didn't feel well. No, I guess I'll try and stay. I'm savin' up
+                        for a cloak and have only four dollars so far."
+                        Another child: "Didn't have hardly no lunch 'cause it was
+                        six when mother called me, and I eat my breakfus with her
+                        buttnin' my clothes, and shoved what I could in my box.
+                        There's no butter on this, and I didn't get no meat, but I don't
+                        care, mother's goin' to make me pancakes tonight."
+                        Still another wished "they'd permote" her, because she
+                        had had nothing to wear since the rent was raised. The
+                        evening before they "went for chips and got loads of blocks
+                        from the pavement."
+                        Hanging about were the usual rules and regulations relative
+                        to punctuality and property. One requiring that a three-days'
+                        notice preparatory to leaving, under penalty of forfeiting a
+                        week's salary, had greater prominence than the rest.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>

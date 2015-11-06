@@ -6,120 +6,161 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 6</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC19">Section 19</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="6">
-<pb n="31"/>   
-<head><list><item>EATING POOR CRACKERS AND WORKING FOR TWO MONTHS IN ORDER TO GET A PAIR OF SHOES.</item></list></head>
-<p>One of the chance acquaintances I made at the jersey factory worked three days for J--- S---- &amp; C, Market street,
-receiving 65 cents for her labors about ten days after leaving.
-One-third of 65 cents is 21 2/3 cents.
-That is the way S---- &amp; Co. solve the problem; but the
-question is one that capital, Christianity, and civilization are
-invited to analyze.
-"Don't never go to S----'s," the little girl said, "it's an awful
-place."
-On Saturday I tumbled out of bed at 6 A.M. and donned
-my factory clothes. On the way down-town the street-car met
-with an eight-minute obstruction in the shape of a load of
-bricks, and when I reached the manufacturing establishment of
-J--- S---- &amp; C it was 8:32 o'clock. The elevator took me
-up one story and I was told to "get out." I told the boy at
-the rope that I wished to go up to the work room.
-"You're too late," he said. "Have to take the freight ele-
-vator down at the back of the store."
-Down I walked as directed past long tables, that towered
-with long cloaks, dolmans, ulsters, jackets, and short wraps;
-past two or three busy unobserving clerks, past a pair of forbidding-gooking men who glared at me from under their black
-hats and blacker brows; past an earthen-gray-stringy crash
-towel that waved at half-mast over a dirty wash-basin, past a
-tier of closets that emitted a stifling odor, and on down to the
-packing-room. I waited for a big lusty packer to finish pummelling the mischievous little Swede who ran the elevator and
-<pb n="32"/>
-was carried up to the top floor with a box of cloth. When the
-car landed I found myself at the extreme end of a room 50x80
-feet, in an enclosure of wire-fence, packing-boxes, and cutting-
-boards - beyond and between which I could see perhaps two
-hundred persons, mostly women, bent over machines, and
-working as only slaves ever work. The thundering noise made
-by the machinery deadened every other sound, even that made
-by the cutters as they ran their heavy shears through the satin
-and muslin trimmings. Sixteen persons passed me - men in
-undershirts, trousers and slippers, with work in their hands;
-men in business suits with work in their brains; girls of 13 in
-rags and death-like pallor, with work in their arms; older and
-paler girls and still older and paler women, some with white
-hair and spectacles, carrying work to be pressed, examined,
-altered or checked. Nobody noticing me, I asked a pretty
-little girl who was cutting a bolt of satin into cuff-lining to
-direct me to the forewoman and was told to go and sit down
-till she came. I had hardly arranged myself on an empty box
-when a playful young man capsized my throne and spilled
-me in a heap of unmade cloaks. My first impulse was for revenge, but remembering that I was a poor girl looking for work
-I contented myself by petting my damaged left knee and right
-elbow. While mentally photographing the miserable, little,
-bullet-headed sapling who caused my trouble, a young woman
-brought me a chair and placed it in a corner, which convenient
-spot happened to be off a narrow passage leading to the work-
-room proper. My nose was not long in seeing a row of closets
-that walled the south side of the passageway. Overhead was
-a pasteboard sign with "No admission to the work-room"
-printed in large, black letters. There was no place beyond
-where I could sit or stand without being in the way unless
-I went back into the freight elevator, so I resolved to stick it
-out.
-For almost two hours I sat in the dark, filthly place with a
-<pb n="33"/>
-handkerchief over my mouth and nose waiting for the fore-
-woman to come and admit me to the shop. I watched the poor
-girls pass and repass, their broken shoes slipping up and down
-with every step, and their ragged skirts often catching new
-gaps from the nails of the packing boxes. Just as I was 
-beginning to get myself in a state of passivity, as prescribed by
-Mrs. Eddy, and was combatting the foul smell of the closets
-with the wholesome healthy atmosphere of South Park, something in my head seemed to give way, and the whole factory
-turned into a colossal whirligig. The big goose of the presser
-and the little irons of the press girls began to play tag, and
-machines, operators, finishers, wire-forms, cutters, examiners,
-messengers, models, forewomen, teachers and firm, all joined
-in the merry go round. To escape being knocked in the head
-by a two-story press-board I clutched a little stitcher who said:
-"You an't sick, is you?"
-I guessed I was. Bringing me a tin cup full of water, she
-departed saying: "She'd be docked if she didn't go."
-An old man with grey hair and glasses showed me to the
-freight elevator and I was let down to the second story. When
-I reached the staircase I sat down on the top step to recover.
-A portly man with a straw hat, full beard, broad shoulders,
-and a suit of mixed goods, mistaking me for a tramp, came
-out from the stock and informed me that "no peddlers are
-allowed on the premises. Move off."
-I moved off determined to return another day.
-</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>EATING POOR CRACKERS AND WORKING FOR TWO MONTHS IN ORDER TO GET A PAIR OF SHOES.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <pb n="31"/>
+                    <p>One of the chance acquaintances I made at the jersey factory worked three days for J--- S---- &amp; C, Market street,
+                        receiving 65 cents for her labors about ten days after leaving.
+                        One-third of 65 cents is 21 2/3 cents.
+                        That is the way S---- &amp; Co. solve the problem; but the
+                        question is one that capital, Christianity, and civilization are
+                        invited to analyze.
+                        "Don't never go to S----'s," the little girl said, "it's an awful
+                        place."
+                        On Saturday I tumbled out of bed at 6 A.M. and donned
+                        my factory clothes. On the way down-town the street-car met
+                        with an eight-minute obstruction in the shape of a load of
+                        bricks, and when I reached the manufacturing establishment of
+                        J--- S---- &amp; C it was 8:32 o'clock. The elevator took me
+                        up one story and I was told to "get out." I told the boy at
+                        the rope that I wished to go up to the work room.
+                        "You're too late," he said. "Have to take the freight ele-
+                        vator down at the back of the store."
+                        Down I walked as directed past long tables, that towered
+                        with long cloaks, dolmans, ulsters, jackets, and short wraps;
+                        past two or three busy unobserving clerks, past a pair of forbidding-gooking men who glared at me from under their black
+                        hats and blacker brows; past an earthen-gray-stringy crash
+                        towel that waved at half-mast over a dirty wash-basin, past a
+                        tier of closets that emitted a stifling odor, and on down to the
+                        packing-room. I waited for a big lusty packer to finish pummelling the mischievous little Swede who ran the elevator and
+                        <pb n="32"/>
+                        was carried up to the top floor with a box of cloth. When the
+                        car landed I found myself at the extreme end of a room 50x80
+                        feet, in an enclosure of wire-fence, packing-boxes, and cutting-
+                        boards - beyond and between which I could see perhaps two
+                        hundred persons, mostly women, bent over machines, and
+                        working as only slaves ever work. The thundering noise made
+                        by the machinery deadened every other sound, even that made
+                        by the cutters as they ran their heavy shears through the satin
+                        and muslin trimmings. Sixteen persons passed me - men in
+                        undershirts, trousers and slippers, with work in their hands;
+                        men in business suits with work in their brains; girls of 13 in
+                        rags and death-like pallor, with work in their arms; older and
+                        paler girls and still older and paler women, some with white
+                        hair and spectacles, carrying work to be pressed, examined,
+                        altered or checked. Nobody noticing me, I asked a pretty
+                        little girl who was cutting a bolt of satin into cuff-lining to
+                        direct me to the forewoman and was told to go and sit down
+                        till she came. I had hardly arranged myself on an empty box
+                        when a playful young man capsized my throne and spilled
+                        me in a heap of unmade cloaks. My first impulse was for revenge, but remembering that I was a poor girl looking for work
+                        I contented myself by petting my damaged left knee and right
+                        elbow. While mentally photographing the miserable, little,
+                        bullet-headed sapling who caused my trouble, a young woman
+                        brought me a chair and placed it in a corner, which convenient
+                        spot happened to be off a narrow passage leading to the work-
+                        room proper. My nose was not long in seeing a row of closets
+                        that walled the south side of the passageway. Overhead was
+                        a pasteboard sign with "No admission to the work-room"
+                        printed in large, black letters. There was no place beyond
+                        where I could sit or stand without being in the way unless
+                        I went back into the freight elevator, so I resolved to stick it
+                        out.
+                        For almost two hours I sat in the dark, filthly place with a
+                        <pb n="33"/>
+                        handkerchief over my mouth and nose waiting for the fore-
+                        woman to come and admit me to the shop. I watched the poor
+                        girls pass and repass, their broken shoes slipping up and down
+                        with every step, and their ragged skirts often catching new
+                        gaps from the nails of the packing boxes. Just as I was 
+                        beginning to get myself in a state of passivity, as prescribed by
+                        Mrs. Eddy, and was combatting the foul smell of the closets
+                        with the wholesome healthy atmosphere of South Park, something in my head seemed to give way, and the whole factory
+                        turned into a colossal whirligig. The big goose of the presser
+                        and the little irons of the press girls began to play tag, and
+                        machines, operators, finishers, wire-forms, cutters, examiners,
+                        messengers, models, forewomen, teachers and firm, all joined
+                        in the merry go round. To escape being knocked in the head
+                        by a two-story press-board I clutched a little stitcher who said:
+                        "You an't sick, is you?"
+                        I guessed I was. Bringing me a tin cup full of water, she
+                        departed saying: "She'd be docked if she didn't go."
+                        An old man with grey hair and glasses showed me to the
+                        freight elevator and I was let down to the second story. When
+                        I reached the staircase I sat down on the top step to recover.
+                        A portly man with a straw hat, full beard, broad shoulders,
+                        and a suit of mixed goods, mistaking me for a tramp, came
+                        out from the stock and informed me that "no peddlers are
+                        allowed on the premises. Move off."
+                        I moved off determined to return another day.
+                    </p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
-</TEI>
-
-      
+</TEI>      

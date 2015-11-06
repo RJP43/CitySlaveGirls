@@ -6,158 +6,202 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 9</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC09">Section 9</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
-        <body><div type="section" n="9">
-<head><list><item>WHILE AMONG CHICAGO'S WEAK SERFS "THE TIMES'" LADY REPORTER FINDS MR. GOSS' "GOOD JEW."</item>
-<item>IN A SMALL, DIRTY ROOM FILLED WITH A CROWD OF WOMEN LIFE SEEMS LIKE A HIDEOUS DREAM.</item></list></head>
-<p>Two weeks ago Rev. Mr. Goss preached a sermon relative to
-the morals and progress of the working woman. Among other
-things he referred to "a good Jew" who, having the comfort
-of the hundred odd girls in his cloak factory at heart, "pro-
-vided every day for 1 cent a substantial lunch." I sent the
-reverend gentleman a note, inclosing a stamp for the address
-<pb n="52"/>
-of the "good Jew," and in reply came the name of H. R---,
-Monroe street. On went poverty's respectable rags, and off I
-posted for shop-work and a penny spread.
-The elevator carried me to the top of the building, where
-every week thousands of jackets, sacques, circulars, dolmans,
-and cloaks are turned out to supply the country trade of the
-northwest. Here in a crowded room, with low ceiling and
-dingy walls, poorly ventilated and insufficiently lighted, sit
-between eighty and 150 young girls, surrounded from Monday
-morning until Saturday noon by the ceaseless clatter of the
-sewing-machines in an atmosphere so thick that it can be cut
-with a knife. The machines are run by steam, and notwithstanding the great buckram fans overhead that revolve with a
-crackling noise, the ceiling is so low and the air so hot as to
-be positively stifling to the uninitiated. There is the smell of
-dye from brown, blue and black cloaks coupled with the still 
-more offensive odor from "English plaids;" along the pressing-
-table are the gas-stoves where irons are heated and where the
-girls sponge and press collars and seams, each operation attended by a little cloud of steam and stuffy, scorching smell
-that blows about and around the whizzing fans; clouds of lint
-from the textures in hand covers everything, and is constantly being inhaled by the sewers. Then, too, there is the
-smell of rancid machine oil; the overpowering exhalations from
-so many perspiring and unkempt persons and an occasional
-whiff from the six or seven toilet closets, all powerful factors of
-one mighty smell that must be smelled to be appreciated. The
-"good Jew" had all the windows open, but the place was so
-foul I almost fainted.
-I have a seat in the middle of the room, and a thirty-five
-cent Norfolk to make. It is so dark that I can hardly see my
-stitches as I bind the sleeve hole with black muslin. The fore-
-woman can't see either till she takes the work over to a window
-to examine it, and returns with a gratifying "Guess that'11 do."
-<pb n="53"/>
-We are so crowded along the line of tables that the girls are
-told to take short threads, and I duck my head every time the
-pale-faced, hollow-eyed girl at my left pulls her needle out, to
-escape being hit. She has only been able to make three fifty-
-cent long cloaks in five days and says:
-"You won't mind my taking long threads, will you, if I
-don't hit you?"
-I tell her to pull away and offer to fell the bottom hem of
-her cloak, to which she agrees. She has on a cheap jersey
-waist, a calico skirt, and the little bit of underwear that shows
-at her neck where she has opened her collar is as black almost
-as her jersey. Her shoes are broken and one of the uppers is
-mended with black thread. She lives with her folks and has
-"a lot of little brothers and sisters, but the 'Q' strikes have
-put them all out" so she hasn't bought anything for herself
-this year except a hat at the Fair.
-"Do you go to church?" I ask.
-"What'd I go to church for?"
-"For the music and the sermon."
-"I want a seat, though, and I'd rather ride down to the
-shop and back than pay ten cents to get in a pew.
-A poor little bony and grimy, and wild-eyed as the "marchioness," goes down on her knees and turns out the dust in the
-cracks of the floor with the eye of her needle.
-"I'm huntin' for pins," she says, "to fix on the braid."
-"Doesn't Zimmerman provide you with pins?"
-"Indeed he doesn't; nor with nothin' else but fannin' and
-what's the good of fans in an oven?"
-The child turns up the pins, some of them bent, and puts
-them first in her mouth to straighten them and then in the
-bosom of her dress, humming to herself "Rock of Ages, Cleft
-for Me." At the expiration of the hunt a new difficulty befalls
-her. The needle's eye is stuffed, as she says, and in the effort
-<pb n="54"/>
-to remove the filling off goes the head, optic and all. Nobody
-has another to lend and I give her mine. 
-She says she is thirteen and the daughter of a Twelfth street
-teamster. Her mother is living, and she and her brother
-"help the family along."
-"Yes I went to school and learned numbers and gogerfy,
-but I can't sew very well. The forelady says that's why I
-don't make more. I got $2.75 one week, but I don't know
-how much I'll earn this week. I used to be in the Fair and
-they gave me two dollars runnin' checks. I didn't like it
-there because I never got home till eight at night and the boys
-was guyin' us all the time."
-At noon-time the girls crowded into the wash-room and
-those unable to reach the already wringing-wet towel that
-hung near the sink dried on their dresses. I saw a tall young
-German woman wash her arms and neck and shake off the
-water as well as she could with the palms of her hands before
-putting on her dress waist again. Another, a girl of fourteen,
-who wore a plaid skirt and an old velvet jacket, dried her
-hands on her underclothing. The lunch the "good Jew"
-served consisted of a cup of black coffee that was neither
-nutritious nor fragrant, and minus cream and sugar, for which
-the girls paid two cents a cup. Then there were cuts of pie at
-five cents each, which delicacy, architecturally speaking, had
-two stories, substantially built, with a water-proof inner lining
-of fruit mucilage. The top crust had bubbled up in the baking till it was as warty as tripe, and the tenacity of the under
-dough would have sufficed for hinging a cellar door. This is
-certainly not the lunch Rev. Mr. G. described, but it is the
-only one the girls in the Z. factory know anything about.
-However profitable the menu may have been to the firm it
-was anguish to many of the hungry' toilers unable to procure it.
-We girls who had no money to invest in appetizing (?)<!-- RJP:10/21/15: this is in text DON'T REMOVE --> viands
-sat by begging with our eyes and following with melting
-<pb n="55"/>
-mouths every morsel on its way down the throats of our neighbors. One of us, a mite of a girl, wan-faced and hectic, who
-had been watching the mastication of a well-fed machine hand,
-waited till the leathery tangle of peach-paste had almost, disappeared and then asked the consumer to "give her the crust."
-When the well-fed party said "naw," the child called her a
-"dirty beggar," and laid her little head on her arm for a nap.
-I went out to buy a needle, and some day when "it rains and
-the wind is never weary" I shall send in a bill for the seven
-and one-half cents H. Z. owes me on a cotton-back Norfolk.
-Only a half-hour was allowed for the noon rest, during which
-the girls washed and combed, trimmed their finger-nails with
-scissors, talked, or went to sleep.
-All hands were on deck at 7:30 in the morning, in which
-manner and the 5:30 hour of closing, the Saturday half-hour
-was made good to the firm. Many of the girls told me they
-made ten cloaks a week which averaged fifty cents apiece.
-Work was good, the season covering ten months of the year.
-A number of men at work on the long cloaks had chairs at the
-side of the girls, and while well enough personally I did not
-relish them, for they were saturated with tobacco fumes and
-emitted a sour, sweaty, sickening ordor.</p>
-</div>
+        <body>
+            <div>
+                <div type="headlines">
+                    <list>
+                       <item>WHILE AMONG CHICAGO'S WEAK SERFS "THE TIMES'" LADY REPORTER FINDS MR. GOSS' "GOOD JEW."</item>
+                       <item>IN A SMALL, DIRTY ROOM FILLED WITH A CROWD OF WOMEN LIFE SEEMS LIKE A HIDEOUS DREAM.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>Two weeks ago Rev. Mr. Goss preached a sermon relative to
+                        the morals and progress of the working woman. Among other
+                        things he referred to "a good Jew" who, having the comfort
+                        of the hundred odd girls in his cloak factory at heart, "pro-
+                        vided every day for 1 cent a substantial lunch." I sent the
+                        reverend gentleman a note, inclosing a stamp for the address
+                        <pb n="52"/>
+                        of the "good Jew," and in reply came the name of H. R---,
+                        Monroe street. On went poverty's respectable rags, and off I
+                        posted for shop-work and a penny spread.
+                        The elevator carried me to the top of the building, where
+                        every week thousands of jackets, sacques, circulars, dolmans,
+                        and cloaks are turned out to supply the country trade of the
+                        northwest. Here in a crowded room, with low ceiling and
+                        dingy walls, poorly ventilated and insufficiently lighted, sit
+                        between eighty and 150 young girls, surrounded from Monday
+                        morning until Saturday noon by the ceaseless clatter of the
+                        sewing-machines in an atmosphere so thick that it can be cut
+                        with a knife. The machines are run by steam, and notwithstanding the great buckram fans overhead that revolve with a
+                        crackling noise, the ceiling is so low and the air so hot as to
+                        be positively stifling to the uninitiated. There is the smell of
+                        dye from brown, blue and black cloaks coupled with the still 
+                        more offensive odor from "English plaids;" along the pressing-
+                        table are the gas-stoves where irons are heated and where the
+                        girls sponge and press collars and seams, each operation attended by a little cloud of steam and stuffy, scorching smell
+                        that blows about and around the whizzing fans; clouds of lint
+                        from the textures in hand covers everything, and is constantly being inhaled by the sewers. Then, too, there is the
+                        smell of rancid machine oil; the overpowering exhalations from
+                        so many perspiring and unkempt persons and an occasional
+                        whiff from the six or seven toilet closets, all powerful factors of
+                        one mighty smell that must be smelled to be appreciated. The
+                        "good Jew" had all the windows open, but the place was so
+                        foul I almost fainted.
+                        I have a seat in the middle of the room, and a thirty-five
+                        cent Norfolk to make. It is so dark that I can hardly see my
+                        stitches as I bind the sleeve hole with black muslin. The fore-
+                        woman can't see either till she takes the work over to a window
+                        to examine it, and returns with a gratifying "Guess that'11 do."
+                        <pb n="53"/>
+                        We are so crowded along the line of tables that the girls are
+                        told to take short threads, and I duck my head every time the
+                        pale-faced, hollow-eyed girl at my left pulls her needle out, to
+                        escape being hit. She has only been able to make three fifty-
+                        cent long cloaks in five days and says:
+                        "You won't mind my taking long threads, will you, if I
+                        don't hit you?"
+                        I tell her to pull away and offer to fell the bottom hem of
+                        her cloak, to which she agrees. She has on a cheap jersey
+                        waist, a calico skirt, and the little bit of underwear that shows
+                        at her neck where she has opened her collar is as black almost
+                        as her jersey. Her shoes are broken and one of the uppers is
+                        mended with black thread. She lives with her folks and has
+                        "a lot of little brothers and sisters, but the 'Q' strikes have
+                        put them all out" so she hasn't bought anything for herself
+                        this year except a hat at the Fair.
+                        "Do you go to church?" I ask.
+                        "What'd I go to church for?"
+                        "For the music and the sermon."
+                        "I want a seat, though, and I'd rather ride down to the
+                        shop and back than pay ten cents to get in a pew.
+                        A poor little bony and grimy, and wild-eyed as the "marchioness," goes down on her knees and turns out the dust in the
+                        cracks of the floor with the eye of her needle.
+                        "I'm huntin' for pins," she says, "to fix on the braid."
+                        "Doesn't Zimmerman provide you with pins?"
+                        "Indeed he doesn't; nor with nothin' else but fannin' and
+                        what's the good of fans in an oven?"
+                        The child turns up the pins, some of them bent, and puts
+                        them first in her mouth to straighten them and then in the
+                        bosom of her dress, humming to herself "Rock of Ages, Cleft
+                        for Me." At the expiration of the hunt a new difficulty befalls
+                        her. The needle's eye is stuffed, as she says, and in the effort
+                        <pb n="54"/>
+                        to remove the filling off goes the head, optic and all. Nobody
+                        has another to lend and I give her mine. 
+                        She says she is thirteen and the daughter of a Twelfth street
+                        teamster. Her mother is living, and she and her brother
+                        "help the family along."
+                        "Yes I went to school and learned numbers and gogerfy,
+                        but I can't sew very well. The forelady says that's why I
+                        don't make more. I got $2.75 one week, but I don't know
+                        how much I'll earn this week. I used to be in the Fair and
+                        they gave me two dollars runnin' checks. I didn't like it
+                        there because I never got home till eight at night and the boys
+                        was guyin' us all the time."
+                        At noon-time the girls crowded into the wash-room and
+                        those unable to reach the already wringing-wet towel that
+                        hung near the sink dried on their dresses. I saw a tall young
+                        German woman wash her arms and neck and shake off the
+                        water as well as she could with the palms of her hands before
+                        putting on her dress waist again. Another, a girl of fourteen,
+                        who wore a plaid skirt and an old velvet jacket, dried her
+                        hands on her underclothing. The lunch the "good Jew"
+                        served consisted of a cup of black coffee that was neither
+                        nutritious nor fragrant, and minus cream and sugar, for which
+                        the girls paid two cents a cup. Then there were cuts of pie at
+                        five cents each, which delicacy, architecturally speaking, had
+                        two stories, substantially built, with a water-proof inner lining
+                        of fruit mucilage. The top crust had bubbled up in the baking till it was as warty as tripe, and the tenacity of the under
+                        dough would have sufficed for hinging a cellar door. This is
+                        certainly not the lunch Rev. Mr. G. described, but it is the
+                        only one the girls in the Z. factory know anything about.
+                        However profitable the menu may have been to the firm it
+                        was anguish to many of the hungry' toilers unable to procure it.
+                        We girls who had no money to invest in appetizing (?)<!-- RJP:10/21/15: this is in text DON'T REMOVE --> viands
+                        sat by begging with our eyes and following with melting
+                        <pb n="55"/>
+                        mouths every morsel on its way down the throats of our neighbors. One of us, a mite of a girl, wan-faced and hectic, who
+                        had been watching the mastication of a well-fed machine hand,
+                        waited till the leathery tangle of peach-paste had almost, disappeared and then asked the consumer to "give her the crust."
+                        When the well-fed party said "naw," the child called her a
+                        "dirty beggar," and laid her little head on her arm for a nap.
+                        I went out to buy a needle, and some day when "it rains and
+                        the wind is never weary" I shall send in a bill for the seven
+                        and one-half cents H. Z. owes me on a cotton-back Norfolk.
+                        Only a half-hour was allowed for the noon rest, during which
+                        the girls washed and combed, trimmed their finger-nails with
+                        scissors, talked, or went to sleep.
+                        All hands were on deck at 7:30 in the morning, in which
+                        manner and the 5:30 hour of closing, the Saturday half-hour
+                        was made good to the firm. Many of the girls told me they
+                        made ten cloaks a week which averaged fifty cents apiece.
+                        Work was good, the season covering ten months of the year.
+                        A number of men at work on the long cloaks had chairs at the
+                        side of the girls, and while well enough personally I did not
+                        relish them, for they were saturated with tobacco fumes and
+                        emitted a sour, sweaty, sickening ordor.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>

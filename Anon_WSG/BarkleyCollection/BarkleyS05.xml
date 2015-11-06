@@ -6,139 +6,182 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 5</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC05">Section 5</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="5">
-<head><list><item>SIXTY CENTS A WEEK FOR WORKING FROM 7:30 IN THE MORNING UNTIL 5:30 IN THE EVENING.</item></list></head>
-<p>I next made application for work at W's, on Wabash avenue,
-where hundreds of girls are employed on corsets, bustles,
-skirts, jerseys and cloaks. Boarding the freight elevator I was
-drawn up to the top floor, where a pretty little Jewess informed
-me that Mr. S. was engaged, but would see me in a little
-while. She showed me to a seat in the rear end of the store at
-the entrance to the shop-room, and for a single hour I listened
-to the drop, drop, drop of the heavy machinery and the
-snatches of song and merriment between the iron roar. Presently Mr. W. came and sat by me.
-"Did you want work?" he asked.
-<pb n="28"/>
-"Very much.
-"What kind of work have you been doing?"
-I admitted I had never worked in a factory, but told him I
-could sew and was willing to do anything that would give me
-a living.
-"Well, you ought to have a chance - a good chance if you
-are willing to work - but it's dull just now and I don't see
-where we can put you. You say you can sew. Run the ma-
-chine too? Well, we start our skirt and cloak rooms in a
-couple of weeks, and then we can try you." 
-"But I must have work," I persisted, "at once.
-Mr. W. sighed a little and left me to see a customer who
-had just then entered. While I was fixing up a romance in
-case any inquiry was made as to my age, name, residence and
-position in life, a sad-faced Irish mother came up the four
-stories with a sixteen-year-old daughter. They were as poorly
-dressed as myself, but considerably less happy. The mother's
-hands were hard, thin and work-worn, and her face seamed
-with care. She wore an old bonnet, a coarse black dress, poor
-shoes, an old shawl, and an expression of injury, despondency
-and severity. Annie was a well-developed girl, with a good,
-wholesome face, red cheeks, bright, fun-loving eyes, big hands
-and feet, a most ungainly manner, and a nice figure. She had
-been crying, for her lashes were wet, and she seemed expectant
-that a crisis of some sort was near at hand. I soon learned
-that the mother missed her calling when she adopted maternal
-duties. The family lived in the region of Blue Island avenue
-and consisted of the parents and growing children, two or
-three having married. Annie was the youngest and "had to
-do something for her grub, " as the mother said. For a long,
-time she worked in a box factory and made good wages, but
-the work was not steady, and last January she came to W.'s.
-And what do you think she did?
-She earned 80 cents a week cutting dress reeds from 7:30
-<pb n="29"/>
-o'clock in the morning until 5:30 in the evening. Annie will
-be 17 years old in September. Here is her account of
-the work:
-"Oh yes, I like it. They don't pay me much, but the fore-
-lady's good to me, and Mr. ---- is awful kind. The girls is
-nice, too. The only thing I don't like is that they're always
-cuttin' me down. I can't make hardly nothing."
-"Last week? Oh, last week I wasn't here. I staid home.
-It was so hot I didn't want to take the trouble to come down
-for 13 cents a day and walk and put up my lunch."
-Thinking the girl's calculations were amiss I turned to the
-mother, who confirmed the statement, adding: "It don't pay
-to feed that kid to work on the pay she's getting."
-"It's what all the girl's gets," added Annie, beginning to
-cry. I played mother for a little while, told her she was a
-good girl to help her parents and not to mind, for there was
-plenty of work, and if she comes to the Times I'll help her
-get it.
-After the Irish gray eyes had been dried with both corners
-of her little black shawl she gave me the prices at which she
-had been working. Here they are:
-One cent a gross for cutting steels in eleven, fifteen and
-eighteen inch length. The work is done by machine, the
-operator using one foot and both hands constantly.
-Four cents a gross for sewing buckles on bustles.
-Three cents a dozen for basting bustles.
-Four cents a dozen for springing bustles.
-Seventy cents a dozen for putting elastics on reeds and box-
-ing the same.
-Wages in this department vary from 60 cents to $3 a week,
-$1.50 being a very fair average, and this too, for girls of 19
-years and less.
-When the manager had dismissed his guest he waited on
-<pb n="30"/>
-Annie's mother, who turned traitress, betraying her own child
-to the enemy in this style:
-"Can Annie come back, sir?" she asked.
-"Why, I guess so. What's been the matter?" 
-Annie rolled her finger up in black fringe, hung her head,
-and allowed the tears to stream down her cheeks.
-"Oh she's so sassy," kindly volunteered the mother, "and
-she comes home to me with a batch of stories every night
-about your cuttin' down the prices. Sure I can't believe a word
-she says."
-"Well, you come in the morning, Annie, and I'll see what
-we can do for you." With this dismissal poor Annie followed
-her mother, who doubtless felt that she had done her duty by
-the child.
-I recited my piece to the low-voiced gentleman, who said
-there was plenty of work in the bustle department, but he
-guessed it wouldn't be pleasant for me, as the girls were only
-sixteen or so. I tried to assure him that I didn't care about
-the company, that I only wanted a chance to make a living
-for myself.
-"Well, I don't think you could earn enough to support
-yourself at machine work. Come in about Monday and I
-thin<!-- RJP:10/20/15: retained spelling --> we can give you something at $3 or so."
-" Three dollars a week?"
-"Yes."
-"God have mercy on the girls," I said reverently and
-departed.</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>SIXTY CENTS A WEEK FOR WORKING FROM 7:30 IN THE MORNING UNTIL 5:30 IN THE EVENING.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>I next made application for work at W's, on Wabash avenue,
+                        where hundreds of girls are employed on corsets, bustles,
+                        skirts, jerseys and cloaks. Boarding the freight elevator I was
+                        drawn up to the top floor, where a pretty little Jewess informed
+                        me that Mr. S. was engaged, but would see me in a little
+                        while. She showed me to a seat in the rear end of the store at
+                        the entrance to the shop-room, and for a single hour I listened
+                        to the drop, drop, drop of the heavy machinery and the
+                        snatches of song and merriment between the iron roar. Presently Mr. W. came and sat by me.
+                        "Did you want work?" he asked.
+                        <pb n="28"/>
+                        "Very much.
+                        "What kind of work have you been doing?"
+                        I admitted I had never worked in a factory, but told him I
+                        could sew and was willing to do anything that would give me
+                        a living.
+                        "Well, you ought to have a chance - a good chance if you
+                        are willing to work - but it's dull just now and I don't see
+                        where we can put you. You say you can sew. Run the ma-
+                        chine too? Well, we start our skirt and cloak rooms in a
+                        couple of weeks, and then we can try you." 
+                        "But I must have work," I persisted, "at once.
+                        Mr. W. sighed a little and left me to see a customer who
+                        had just then entered. While I was fixing up a romance in
+                        case any inquiry was made as to my age, name, residence and
+                        position in life, a sad-faced Irish mother came up the four
+                        stories with a sixteen-year-old daughter. They were as poorly
+                        dressed as myself, but considerably less happy. The mother's
+                        hands were hard, thin and work-worn, and her face seamed
+                        with care. She wore an old bonnet, a coarse black dress, poor
+                        shoes, an old shawl, and an expression of injury, despondency
+                        and severity. Annie was a well-developed girl, with a good,
+                        wholesome face, red cheeks, bright, fun-loving eyes, big hands
+                        and feet, a most ungainly manner, and a nice figure. She had
+                        been crying, for her lashes were wet, and she seemed expectant
+                        that a crisis of some sort was near at hand. I soon learned
+                        that the mother missed her calling when she adopted maternal
+                        duties. The family lived in the region of Blue Island avenue
+                        and consisted of the parents and growing children, two or
+                        three having married. Annie was the youngest and "had to
+                        do something for her grub, " as the mother said. For a long,
+                        time she worked in a box factory and made good wages, but
+                        the work was not steady, and last January she came to W.'s.
+                        And what do you think she did?
+                        She earned 80 cents a week cutting dress reeds from 7:30
+                        <pb n="29"/>
+                        o'clock in the morning until 5:30 in the evening. Annie will
+                        be 17 years old in September. Here is her account of
+                        the work:
+                        "Oh yes, I like it. They don't pay me much, but the fore-
+                        lady's good to me, and Mr. ---- is awful kind. The girls is
+                        nice, too. The only thing I don't like is that they're always
+                        cuttin' me down. I can't make hardly nothing."
+                        "Last week? Oh, last week I wasn't here. I staid home.
+                        It was so hot I didn't want to take the trouble to come down
+                        for 13 cents a day and walk and put up my lunch."
+                        Thinking the girl's calculations were amiss I turned to the
+                        mother, who confirmed the statement, adding: "It don't pay
+                        to feed that kid to work on the pay she's getting."
+                        "It's what all the girl's gets," added Annie, beginning to
+                        cry. I played mother for a little while, told her she was a
+                        good girl to help her parents and not to mind, for there was
+                        plenty of work, and if she comes to the Times I'll help her
+                        get it.
+                        After the Irish gray eyes had been dried with both corners
+                        of her little black shawl she gave me the prices at which she
+                        had been working. Here they are:
+                        One cent a gross for cutting steels in eleven, fifteen and
+                        eighteen inch length. The work is done by machine, the
+                        operator using one foot and both hands constantly.
+                        Four cents a gross for sewing buckles on bustles.
+                        Three cents a dozen for basting bustles.
+                        Four cents a dozen for springing bustles.
+                        Seventy cents a dozen for putting elastics on reeds and box-
+                        ing the same.
+                        Wages in this department vary from 60 cents to $3 a week,
+                        $1.50 being a very fair average, and this too, for girls of 19
+                        years and less.
+                        When the manager had dismissed his guest he waited on
+                        <pb n="30"/>
+                        Annie's mother, who turned traitress, betraying her own child
+                        to the enemy in this style:
+                        "Can Annie come back, sir?" she asked.
+                        "Why, I guess so. What's been the matter?" 
+                        Annie rolled her finger up in black fringe, hung her head,
+                        and allowed the tears to stream down her cheeks.
+                        "Oh she's so sassy," kindly volunteered the mother, "and
+                        she comes home to me with a batch of stories every night
+                        about your cuttin' down the prices. Sure I can't believe a word
+                        she says."
+                        "Well, you come in the morning, Annie, and I'll see what
+                        we can do for you." With this dismissal poor Annie followed
+                        her mother, who doubtless felt that she had done her duty by
+                        the child.
+                        I recited my piece to the low-voiced gentleman, who said
+                        there was plenty of work in the bustle department, but he
+                        guessed it wouldn't be pleasant for me, as the girls were only
+                        sixteen or so. I tried to assure him that I didn't care about
+                        the company, that I only wanted a chance to make a living
+                        for myself.
+                        "Well, I don't think you could earn enough to support
+                        yourself at machine work. Come in about Monday and I
+                        thin<!-- RJP:10/20/15: retained spelling --> we can give you something at $3 or so."
+                        " Three dollars a week?"
+                        "Yes."
+                        "God have mercy on the girls," I said reverently and
+                        departed.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>

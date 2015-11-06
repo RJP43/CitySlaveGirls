@@ -6,231 +6,271 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 3</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC03">Section 3</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="3">
-<head><list><item>A HARD DAY'S WORK FOR FORTY-ONE CENTS.</item> 
-<item>LESS FORTUNATE WORKERS WHO EARNED ONLY ELEVEN CENTS</item>
-<item>A SICK GIRL'S SAD STORY.</item>
-<item>THE HOPELESS MISS WHO LONGED TO BE MARRIED.</item></list></head>
-<p>At the N-R- Jersey Company I was told to apply at
-the factory on West Washington street.
-"Work is given out at 7:30 A.M.," the clerk informed me,
-"and if you have any snap about you you can make a good
-living." By way of getting the required snap I went home, ate
-my dinner, and was in bed at 8 o'clock.
-The next morning I resumed the rags of poverty and at 7
-o'clock made my debut as a factory hand. I was one of 120
-women, ranging in age from 15 to 60. The factory where the
-jerseys are made is at the corner of W-- and U-- streets,
-with elevator entrance in the rear and work-room on the fifth
-story.
-The girls began to arrive at 7 o'clock, and at every trip of
-the elevator some twenty or more were carried up-stairs. I
-took a chair in one of the machine rows, and for an hour did
-nothing but watch the preparations for work in that human
-hive. The room was 50 x 138, with an open unfinished roof,
-and brick walls calcimined. Light was admitted from rear and
-side windows. The pressmen had their boards and furnaces
-at the south end of the room, where all the work was pressed
-prior to being boxed and ticketed for the trade. At the ex-
-<pb n="15"/>
-treme opposite end was the cutting room, fenced in from the
-rest, and between the two were the work-tables where the hundred odd girls stitched and finished the jerseys.
-Along the brick wall were nails irregularly driven, on which
-the girls hung their hats and wraps, dresses and collars.
-Nearly every one took off their dress and waist, turned it inside
-out, put it on a nail and put on a calico or old stuff shop suit.
-A few took off their corsets and nearly all the machine hands
-changed their shoes before work. On the stroke of 7:30 a bell
-rang, the power was turned on, the machines began to buzz
-like little saw-mills and the day's work had commenced.
-Heads of brown, black, yellow and gray bent so nearr the flying shuttles that every minute I expected the bangs and fluffy
-crimps would get caught in the machinery. The faces were
-sad and so very, very pale that I shall never look at a jersey
-again without seeing them. The average age may have been
-23, but not less. There were girls of 17 and 18 and some
-world-weary women past 50, all working for little more than
-enough to keep body and soul together. The work circulated
-in baskets - long chip hampers with stout handles - that held
-a dozen, with room for five times that quantity. A great deal
-of time was lost by the workers in getting the contents of the
-basket examined, checked off on the ticket and the ticket
-stamped. If it had been the last chance for life I don't believe
-the girls would have worked any harder for salvation. Scarcely
-a head was raised from machine or lap. Shoulders were bent
-down, chests hollowed in, and faces drooped so low that I could
-not begin to make a study of the "windows of the souls" before
-me. At 8:40 the proprietor of the chair I was in asked me to
-vacate, and I walked down through the narrow isles of sewing
-women to the "forelady" and asked for work.
-She asked me if I wanted to take a machine, but I expressed
-a preference for finishing. I was given a number, a basket
-with five jerseys to finish, and a chair beside a girl named
-<pb n="16"/>
-Hannah, who, being engaged by the day, was told to "show
-me." Hannah had blond hair and talked with the brogue.
-She gave me a needle as long as my engagement finger, and
-the most meager instruction compatible with obedience. Fortunately I had my thimble, and crossing my knees I threaded
-the gimlet-like needle with silk and proceeded to hook-and-eye
-a jersey. Rembering the treachery of any shop clothes I ever
-wore I filled the two hooks and eyes with sewing and after
-testing them proceded to face the collar. I made poor work of
-the bias band, for my needle was so coarse that it split the
-satin. I told Hannah about my misery but she wisely said it
-was no fault of hers, and went on with a $3-a-dozen lot she had
-been doing two days and a-half. Thinking it would be a good
-way to get acquainted with my neighbors I asked several for a
-fine needle and at last exchanged the crow-bar Hannah had
-given me for a fine cambric article. It worked better, and at
-the end of two hours I had bound the arm-holes, faced the collar, tacked the front facings and the bustle piece, and put two
-pairs of hooks and eyes in a black jersey. The dye was not
-fast, neither was the wool, for my throat, ears, and nostrils
-were tufted with black lint. I was African from the finger-
-nails to the wrists. The front facings had to be trimmed off.
-I had no scissors. Hannah was ungenerous with hers, and I
-lost about fifteen cents worth of time borrowing the weapons.
-At noon I had finished four jerseys and was so sore about the
-neck and back that I could scarcely rise from the chair. I
-began to scent hot tea, and looking about saw a big girl called
-Emma brewing three pots of Japan over one of the press
-furnaces. She had her front hair in curl papers and was
-whistling "In the Sweet Bye and Bye." About thirty girls
-went to her, each with her own cup, for a supply of tea. I
-remarked to one passing my chair that her tea looked awfully
-nice and asked where she got it.
-"From Em. She makes it and we each pay two cents a week."
-<pb n="17"/>
-On the stroke of twelve the machine stopped and 120 tired
-women stopped too for thirty minutes' rest, and the food that
-could hardly be called refreshing. In the main it consisted of
-brown bread and butter. In some parcels there was cold meat
-and cake ; others had pie ; a few a bottle or canteen of milk,
-cold tea or coffee, but I did not see a particle of fruit. One
-little girl who had been stretching jerseys at two cents apiece
-made a lunch on three Graham crackers and a piece of custard
-pie, which she ate reading a paper-covered book. I counted
-thirty-seven girls with a lunch of dry bread, fifteen with sandwiches, and ten who ate cold pancakes. Twenty-three girls
-were without any luncheon whatever. During the intermission
-the elevator stopped running and no one left the building but
-myself. Less than ten minutes was spent over the wretched
-meal. At one side of the west wall separated by a ten foot
-pine partition, was the toilet room, containing an iron sink
-with one faucet of running water. Here the girls crowded
-like so many cattle, each with her bit of soap and grimy cotton
-towel, to wash. Dress waists were loosened and neck, faces,
-arms and hands lathered with soap and rinsed as the chance
-permitted. There were three closets, unflushed, untidy, and
-unwholesome. Set up against the wall in this enclosure, with
-the faucet run through the partition, was a barrel of ice water
-inscribed in big letters: "Two cents will be collected every
-Saturday for ice water." Besides this luxury every hand pays
-twelve cents a week for the use of the machine.
-At one o'clock I finished my basket which I dragged to Tom
-the book-keeper, who took my name and credited me with five
-garments. No price had been put on the jerseys as they were
-sampled goods, but the forelady thought they would go at
-sixty cents a dozen, which meant twenty-five cents to my
-credit.
-I didn't get any more work till two o'clock, because the forelady was in the toilet-room having her bangs done up in paper.
-<pb n="18"/>
-She was a pretty woman, by the way, with a good face and a
-shock of beautiful auburn hair. She had been in her position
-for six years and was drawing a salary of $35 a week. The
-girls had a good word for her generally, but she struck me as
-being a woman without heart. At her appearance I was given
-a basketful of jerseys to finish button-holes. I worked like a
-Trojan for an hour, at the end of which I won the heart of a
-little girl who sat at the end of my table facing the wall. She
-had been sitting still so long that I called out and asked if she
-were ill.
-"No. I haven't any work."
-Tired almost to exhaustion and as hot as a newly-built mustard plaster I was only too glad of a chance to transfer my
-interests, but she declined. It was too hot to work; she was
-going away soon, she said, and didn't care to do any more.
-"When did I begin? Today. I worked in a box-factory,
-but it was so dull I could not earn 16 cents a day. My mother
-wants me to pay her $2.50 a week board, but how could I with
-96 cents. This is no better. I came at 8 this morning, and I
-have only made 11 cents. I am 21. Beaux? Yes, some.
-I have one steady fellow, but I don't know if he will marry
-me. I hope he will."
-She told me he earned $75 a month as telegraph operator on
-the board of trade ; that he was "steady as a steeple, and the
-only fellow she ever loved."
-I told her how to go about catching the prosperous telegrapher
-and rehashed a recipe given me by no less a personage than
-Mrs. John M. Sherwood, which I had never tried. She was
-going to a picnic at Garfield park at 6 o'clock, and brought
-over a 25-cent chocolate cake to show me. Then she loaned
-me her scissors, told me good-by, and went home to dress , for
-the fete.
-Nothing of any importance occurred till someone passed the
-news that a girl was sleeping in the closet. Half a dozen left
-<pb n="19"/>
-their machines to look at her, Hannah, my mentor, among
-them.
-"Oh, you just ought to see her fast asleep with her mouth
-open." It was more than I could stand. I threw my button-holes in the basket and went to the toilet-room. Sure enough
-there was the poor girl sitting in the dirty place, her head
-resting against a folded apron, breathing in the foul air that
-reeked with filth and disease. The walls of the closet were
-black with pencil marks, the floor was strewn with lint and
-thread, and the pale face of the sleeper looked ghastly in the
-darkness. She had tied one end of a string to the latch and
-the other to the drop chain.
-"My dear child, you musn't sleep here. Are you sick?"
-"Oh I am so sick."
-Instantly there were a dozen willing hands to help her out
-to a window where a chair was placed for her. We rubbed
-her temples, chafed her hands, bathed her head, and got her
-some lemons. After making her toilet she came over to my
-table, and as I sewed away at my button-holes she told me
-her story.
-"Rose and I are only six months in this country. We came
-from England with our brother and live on Carpenter street.
-The climate doesn't agree with me and I am sick all the time.
-At first we worked in Marshall Field's, and Rose and I made
-fringe. We got $7 a week and were so happy. It was awful
-nice there. We didn't have to pay for drinking water or anything ; there were lots of towels, whole cakes of soap, and oh,
-it was so clean. We had a foreman over us, and he was as
-good as a brother to us. Sometimes we let our money lay
-and drew it in a pile; oh, such a lot it was! We put away
-very much of it. But I got sick and all we 'ad saved went
-for doctor and medicine. Then the work stopped. They
-took our names though and promised to send for us in the fall.
-For a while we worked in the box factory, but liked to starve.
-<pb n="20"/>
-Then we went to Ellinger's and made cloaks at 30 cents each, but it was so hard, and we couldn't please them no matter how we tried. We came here today, but its only a fit place to starve in. All the work they gave me was a dozen jersbys to button ; that's 11 cents a row; had two dozen holes to finish at 16 cents. Twenty-seven cents for the two of us! How canwe live on that?" and the child began to cry again.
-By way of comforting her I took her name, promised to help her, and gave her my check for forty-one cents. She didn't think it would be honored, so I took it to the cashier myself and demanded pay as I was not coming back in the morning. "No ma'am," said Tom, "you don't get it. Come around on the 20th and I hunt you up." 
-At 5:30 work ceased. Each girl had to sweep out her place, clean and oil the machine, and return her basket and check. I paid a nickel to have my corner swept, and finding it impossible to wash up sans towel and soap I got under my veil and rang the elevator. The pressers laughed and told me to try the stairs—five flights. Down I went. At the second I went into the salesroom to buy a jersey. One of the firm waited on me. His magnanimity was sublime. The identical black jersey that I had received 5 cents for finishing was offered to me at $2. I declined. By way of interest one hundred dozen garments are turned out of the factory every day in the year. As near as I could learn the salaries average $4 a week, but plenty of grown women are not allowed to earn over 28 cents a day.
-Work begins at 7:30 A.M. and 12:30 P.M. Anyone five minutes late working on time is fined an hour's pay, and for the loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept idle from one to three hours. A girl who loses her ticket forfeits pay for the entire lot, not withstanding the entry is on the books of the firm.
-</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>A HARD DAY'S WORK FOR FORTY-ONE CENTS.</item> 
+                        <item>LESS FORTUNATE WORKERS WHO EARNED ONLY ELEVEN CENTS</item>
+                        <item>A SICK GIRL'S SAD STORY.</item>
+                        <item>THE HOPELESS MISS WHO LONGED TO BE MARRIED.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>At the N-R- Jersey Company I was told to apply at
+                        the factory on West Washington street.
+                        "Work is given out at 7:30 A.M.," the clerk informed me,
+                        "and if you have any snap about you you can make a good
+                        living." By way of getting the required snap I went home, ate
+                        my dinner, and was in bed at 8 o'clock.
+                        The next morning I resumed the rags of poverty and at 7
+                        o'clock made my debut as a factory hand. I was one of 120
+                        women, ranging in age from 15 to 60. The factory where the
+                        jerseys are made is at the corner of W-- and U-- streets,
+                        with elevator entrance in the rear and work-room on the fifth
+                        story.
+                        The girls began to arrive at 7 o'clock, and at every trip of
+                        the elevator some twenty or more were carried up-stairs. I
+                        took a chair in one of the machine rows, and for an hour did
+                        nothing but watch the preparations for work in that human
+                        hive. The room was 50 x 138, with an open unfinished roof,
+                        and brick walls calcimined. Light was admitted from rear and
+                        side windows. The pressmen had their boards and furnaces
+                        at the south end of the room, where all the work was pressed
+                        prior to being boxed and ticketed for the trade. At the ex-
+                        <pb n="15"/>
+                        treme opposite end was the cutting room, fenced in from the
+                        rest, and between the two were the work-tables where the hundred odd girls stitched and finished the jerseys.
+                        Along the brick wall were nails irregularly driven, on which
+                        the girls hung their hats and wraps, dresses and collars.
+                        Nearly every one took off their dress and waist, turned it inside
+                        out, put it on a nail and put on a calico or old stuff shop suit.
+                        A few took off their corsets and nearly all the machine hands
+                        changed their shoes before work. On the stroke of 7:30 a bell
+                        rang, the power was turned on, the machines began to buzz
+                        like little saw-mills and the day's work had commenced.
+                        Heads of brown, black, yellow and gray bent so nearr the flying shuttles that every minute I expected the bangs and fluffy
+                        crimps would get caught in the machinery. The faces were
+                        sad and so very, very pale that I shall never look at a jersey
+                        again without seeing them. The average age may have been
+                        23, but not less. There were girls of 17 and 18 and some
+                        world-weary women past 50, all working for little more than
+                        enough to keep body and soul together. The work circulated
+                        in baskets - long chip hampers with stout handles - that held
+                        a dozen, with room for five times that quantity. A great deal
+                        of time was lost by the workers in getting the contents of the
+                        basket examined, checked off on the ticket and the ticket
+                        stamped. If it had been the last chance for life I don't believe
+                        the girls would have worked any harder for salvation. Scarcely
+                        a head was raised from machine or lap. Shoulders were bent
+                        down, chests hollowed in, and faces drooped so low that I could
+                        not begin to make a study of the "windows of the souls" before
+                        me. At 8:40 the proprietor of the chair I was in asked me to
+                        vacate, and I walked down through the narrow isles of sewing
+                        women to the "forelady" and asked for work.
+                        She asked me if I wanted to take a machine, but I expressed
+                        a preference for finishing. I was given a number, a basket
+                        with five jerseys to finish, and a chair beside a girl named
+                        <pb n="16"/>
+                        Hannah, who, being engaged by the day, was told to "show
+                        me." Hannah had blond hair and talked with the brogue.
+                        She gave me a needle as long as my engagement finger, and
+                        the most meager instruction compatible with obedience. Fortunately I had my thimble, and crossing my knees I threaded
+                        the gimlet-like needle with silk and proceeded to hook-and-eye
+                        a jersey. Rembering the treachery of any shop clothes I ever
+                        wore I filled the two hooks and eyes with sewing and after
+                        testing them proceded to face the collar. I made poor work of
+                        the bias band, for my needle was so coarse that it split the
+                        satin. I told Hannah about my misery but she wisely said it
+                        was no fault of hers, and went on with a $3-a-dozen lot she had
+                        been doing two days and a-half. Thinking it would be a good
+                        way to get acquainted with my neighbors I asked several for a
+                        fine needle and at last exchanged the crow-bar Hannah had
+                        given me for a fine cambric article. It worked better, and at
+                        the end of two hours I had bound the arm-holes, faced the collar, tacked the front facings and the bustle piece, and put two
+                        pairs of hooks and eyes in a black jersey. The dye was not
+                        fast, neither was the wool, for my throat, ears, and nostrils
+                        were tufted with black lint. I was African from the finger-
+                        nails to the wrists. The front facings had to be trimmed off.
+                        I had no scissors. Hannah was ungenerous with hers, and I
+                        lost about fifteen cents worth of time borrowing the weapons.
+                        At noon I had finished four jerseys and was so sore about the
+                        neck and back that I could scarcely rise from the chair. I
+                        began to scent hot tea, and looking about saw a big girl called
+                        Emma brewing three pots of Japan over one of the press
+                        furnaces. She had her front hair in curl papers and was
+                        whistling "In the Sweet Bye and Bye." About thirty girls
+                        went to her, each with her own cup, for a supply of tea. I
+                        remarked to one passing my chair that her tea looked awfully
+                        nice and asked where she got it.
+                        "From Em. She makes it and we each pay two cents a week."
+                        <pb n="17"/>
+                        On the stroke of twelve the machine stopped and 120 tired
+                        women stopped too for thirty minutes' rest, and the food that
+                        could hardly be called refreshing. In the main it consisted of
+                        brown bread and butter. In some parcels there was cold meat
+                        and cake ; others had pie ; a few a bottle or canteen of milk,
+                        cold tea or coffee, but I did not see a particle of fruit. One
+                        little girl who had been stretching jerseys at two cents apiece
+                        made a lunch on three Graham crackers and a piece of custard
+                        pie, which she ate reading a paper-covered book. I counted
+                        thirty-seven girls with a lunch of dry bread, fifteen with sandwiches, and ten who ate cold pancakes. Twenty-three girls
+                        were without any luncheon whatever. During the intermission
+                        the elevator stopped running and no one left the building but
+                        myself. Less than ten minutes was spent over the wretched
+                        meal. At one side of the west wall separated by a ten foot
+                        pine partition, was the toilet room, containing an iron sink
+                        with one faucet of running water. Here the girls crowded
+                        like so many cattle, each with her bit of soap and grimy cotton
+                        towel, to wash. Dress waists were loosened and neck, faces,
+                        arms and hands lathered with soap and rinsed as the chance
+                        permitted. There were three closets, unflushed, untidy, and
+                        unwholesome. Set up against the wall in this enclosure, with
+                        the faucet run through the partition, was a barrel of ice water
+                        inscribed in big letters: "Two cents will be collected every
+                        Saturday for ice water." Besides this luxury every hand pays
+                        twelve cents a week for the use of the machine.
+                        At one o'clock I finished my basket which I dragged to Tom
+                        the book-keeper, who took my name and credited me with five
+                        garments. No price had been put on the jerseys as they were
+                        sampled goods, but the forelady thought they would go at
+                        sixty cents a dozen, which meant twenty-five cents to my
+                        credit.
+                        I didn't get any more work till two o'clock, because the forelady was in the toilet-room having her bangs done up in paper.
+                        <pb n="18"/>
+                        She was a pretty woman, by the way, with a good face and a
+                        shock of beautiful auburn hair. She had been in her position
+                        for six years and was drawing a salary of $35 a week. The
+                        girls had a good word for her generally, but she struck me as
+                        being a woman without heart. At her appearance I was given
+                        a basketful of jerseys to finish button-holes. I worked like a
+                        Trojan for an hour, at the end of which I won the heart of a
+                        little girl who sat at the end of my table facing the wall. She
+                        had been sitting still so long that I called out and asked if she
+                        were ill.
+                        "No. I haven't any work."
+                        Tired almost to exhaustion and as hot as a newly-built mustard plaster I was only too glad of a chance to transfer my
+                        interests, but she declined. It was too hot to work; she was
+                        going away soon, she said, and didn't care to do any more.
+                        "When did I begin? Today. I worked in a box-factory,
+                        but it was so dull I could not earn 16 cents a day. My mother
+                        wants me to pay her $2.50 a week board, but how could I with
+                        96 cents. This is no better. I came at 8 this morning, and I
+                        have only made 11 cents. I am 21. Beaux? Yes, some.
+                        I have one steady fellow, but I don't know if he will marry
+                        me. I hope he will."
+                        She told me he earned $75 a month as telegraph operator on
+                        the board of trade ; that he was "steady as a steeple, and the
+                        only fellow she ever loved."
+                        I told her how to go about catching the prosperous telegrapher
+                        and rehashed a recipe given me by no less a personage than
+                        Mrs. John M. Sherwood, which I had never tried. She was
+                        going to a picnic at Garfield park at 6 o'clock, and brought
+                        over a 25-cent chocolate cake to show me. Then she loaned
+                        me her scissors, told me good-by, and went home to dress , for
+                        the fete.
+                        Nothing of any importance occurred till someone passed the
+                        news that a girl was sleeping in the closet. Half a dozen left
+                        <pb n="19"/>
+                        their machines to look at her, Hannah, my mentor, among
+                        them.
+                        "Oh, you just ought to see her fast asleep with her mouth
+                        open." It was more than I could stand. I threw my button-holes in the basket and went to the toilet-room. Sure enough
+                        there was the poor girl sitting in the dirty place, her head
+                        resting against a folded apron, breathing in the foul air that
+                        reeked with filth and disease. The walls of the closet were
+                        black with pencil marks, the floor was strewn with lint and
+                        thread, and the pale face of the sleeper looked ghastly in the
+                        darkness. She had tied one end of a string to the latch and
+                        the other to the drop chain.
+                        "My dear child, you musn't sleep here. Are you sick?"
+                        "Oh I am so sick."
+                        Instantly there were a dozen willing hands to help her out
+                        to a window where a chair was placed for her. We rubbed
+                        her temples, chafed her hands, bathed her head, and got her
+                        some lemons. After making her toilet she came over to my
+                        table, and as I sewed away at my button-holes she told me
+                        her story.
+                        "Rose and I are only six months in this country. We came
+                        from England with our brother and live on Carpenter street.
+                        The climate doesn't agree with me and I am sick all the time.
+                        At first we worked in Marshall Field's, and Rose and I made
+                        fringe. We got $7 a week and were so happy. It was awful
+                        nice there. We didn't have to pay for drinking water or anything ; there were lots of towels, whole cakes of soap, and oh,
+                        it was so clean. We had a foreman over us, and he was as
+                        good as a brother to us. Sometimes we let our money lay
+                        and drew it in a pile; oh, such a lot it was! We put away
+                        very much of it. But I got sick and all we 'ad saved went
+                        for doctor and medicine. Then the work stopped. They
+                        took our names though and promised to send for us in the fall.
+                        For a while we worked in the box factory, but liked to starve.
+                        <pb n="20"/>
+                        Then we went to Ellinger's and made cloaks at 30 cents each, but it was so hard, and we couldn't please them no matter how we tried. We came here today, but its only a fit place to starve in. All the work they gave me was a dozen jersbys to button ; that's 11 cents a row; had two dozen holes to finish at 16 cents. Twenty-seven cents for the two of us! How canwe live on that?" and the child began to cry again.
+                        By way of comforting her I took her name, promised to help her, and gave her my check for forty-one cents. She didn't think it would be honored, so I took it to the cashier myself and demanded pay as I was not coming back in the morning. "No ma'am," said Tom, "you don't get it. Come around on the 20th and I hunt you up." 
+                        At 5:30 work ceased. Each girl had to sweep out her place, clean and oil the machine, and return her basket and check. I paid a nickel to have my corner swept, and finding it impossible to wash up sans towel and soap I got under my veil and rang the elevator. The pressers laughed and told me to try the stairs—five flights. Down I went. At the second I went into the salesroom to buy a jersey. One of the firm waited on me. His magnanimity was sublime. The identical black jersey that I had received 5 cents for finishing was offered to me at $2. I declined. By way of interest one hundred dozen garments are turned out of the factory every day in the year. As near as I could learn the salaries average $4 a week, but plenty of grown women are not allowed to earn over 28 cents a day.
+                        Work begins at 7:30 A.M. and 12:30 P.M. Anyone five minutes late working on time is fined an hour's pay, and for the loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept idle from one to three hours. A girl who loses her ticket forfeits pay for the entire lot, not withstanding the entry is on the books of the firm.
+                    </p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>
-
-
-

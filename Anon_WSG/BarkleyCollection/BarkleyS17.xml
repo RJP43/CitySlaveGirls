@@ -6,238 +6,280 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Section 17</title>
-                <title level="m">The White Slave Girls of Chicago.</title>
-                <author>
-                    NELSON, Nell, pseud.
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="WSGC17">Section 17</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="m">The White Slave Girls of Chicago</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago, Barkley Pub. Co., <date when="1888">1888</date>.</p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>139 p. 19 cm.
-                            Microfilm. New Haven, Conn. : Research Publications, 
-                            No. 3519    Inc.,1976 -- 35mm -- (History of Women ; 3519)</repository>
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slave Girls of Chicago</title>
+                        <author>NELSON, Nell, pseud.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Barkley Pub. Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date when="1888">1888</date>
+                        <publisher>Research Publications No. 3519 Inc.</publisher>
+                        <date when="1976">1976</date>
+                        <pubPlace>New Haven, Connecticut</pubPlace>
+                        <availability>
+                            <p>139 p. 19 cm. Microfilm. 35mm -- (History of Women ; 3519)</p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="section" n="17">
-<pb n="106"/>
-<head><list><item>NO REST FOR THE WEARY AND WRETCHED CHILDREN THIS SIDE OF THE GRAVE.</item>
-<item>A DAY AMONG THE BUTCHER-SHOPS AND CANNED-MEAT FACTORIES OF THE STOCK YARDS.</item></list></head>
-<p>The birthright of an American girl may be a glorious attribute on the deck of a transatlantic steamship or the floor of a
-London ball-room, but it is not worth the flop of a brass farthing in the cloak factories of Chicago.
-It was high noon by the Jesuit college clock When I got to
-the rear of --West Twelfth street, where David K. has his shop.
-Nobody in but an old man. His face is seamed with wrinkles.
-He has a big nose the color and texture of a mushroom; his
-head and half his face is covered with hair of chinchilla shades;
-his back is humped at the shoulders and his clothes are filthy
-and worn. I ask for work and am told that no hands are
-needed. He has a pocket that hangs across his waist and into
-which he puts rags, pieces of thread, hooks and eyes, pins,
-buttons, and the empty spools that lie on the floor about the
-vacant machine chairs. I watch the silent old man as he
-drags his loose slippers across the floor, and behold I have the
-key to wealth! But it doesn't profit me worth a copper. So
-I survey the premises.
-One room, windows on three sides, and all shut. From the
-north windows I get a view of a two-story hen-house. Filth
-inside and out. The outlook from the east side is a picture of
-poverty, squalor and filth. The buildings have no paint. In
-some are human beings, in others dumb brutes. Half-washed
-<pb n="107"/>
-clothes dangle from window-sills and clothes-lines in tatters
-and rags. In the yards are heaps of manure and the alleys
-are foul-smelling and filthy. Along the street move flannel-
-shirted, horny-handed, sooty-faced men, to smoke, to rest, to
-quarrel, and to dinner. Passing and repassing all day long
-and every day—Sunday and Saturday—are young women and
-old women, youths, maidens, and children, with as many
-cloaks or coats or pants as they can carry. The garbage boxes
-are reeking with filth. Some one had thrown ashes or sweepings in the box, and neither the swill man nor the ash man will
-remove the contents. Mayor Roche and Dr. De Wolf, equally
-ignorant of the manner in which their subordinates discharge
-their duty, permit this sort of thing to go on till the very
-neighborhood is poluted and the air poisoned by these reeking
-masses of corruption.
-"Oh, it's nothing," I am told, and I see for myself and
-count from Karasick's window and door eleven of these garbage piles that swarm with maggots and flies. The sun beating down on the cheap pine box has made the wood shrink,
-and from constant kicking and shaking amd probing of the
-miserable rag-pickers who inhabit this locality the frame-work
-has been loosened and the wood carried off for fuel, leaving on
-almost every block one or more naked heaps of decaying
-matter.
-Out of the south windows I look into the kitchen of some
-dozen wretched families. The children are numerous and almost naked. They are unshod and unclean, so very unclean
-that it is barely possible to tell their complexion. The mother
-breaks a loaf in pieces in one house and throws it to the little
-dirty faces on the doorstep. In another home the children eat
-from a frying pan and next door all drink from the spout of the
-teapot. Down in the yard is a pile of filth in which the children play and are followed by a lot of chickens. The stable
-below stairs is locked, but stronger than bolt or hinge is the
-<pb n="108"/>
-smell from within, and viler still is the stench from the closets
-in and about the yard.
-At 12:45 o'clock the hands began to arrive from lunch, first
-a young Pole, then a Russian, then a German Jew. They
-wear woolen shirts and do the machine work—do it beautifully,
-too, and their machines go like the wind. The patriarch in
-skull cap and slippers goes round the shop looking at one and
-the other, watching each operator to see that no extra waste of
-thread is left at the end of the seams. Two more men and
-then a girl. She does binding, nothing else, and gets $4 a
-week. At 1 o'clock six young girls are sitting at a table in
-the northwest corner of the shop. They have been running.
-They are hot, full of fun, and one throws the window up.
-Like a volley from the enemy roll in the closet and stable
-smells and I move away to escape it. The boss is three
-minutes late. He is a slight, meek man of 35, with a shirt
-the color of brown soap, dark trousers and a cheap coat. A
-light beard covers his mouth and chin, and the expression in
-his eye has that soft, quiet, gentle quality sometimes seen in
-cattle and sheep. I tell him I want work.
-"Machine?"
-"No."
-"Can you finish cloaks?"
-"Yes."
-"Where have you worked? "
-"A dozen places. S's, E's, B's, Os, N's, S's, etc."
-"Here finish this. I will see what you can do."
-"How much?"
-"Eight cents, and I pray, Father Abraham, forgive this thy
-son's oppression."
-I am given a chair at the table with the girls. Propped up
-on slender sticks is a stout cord, on which is a lot of spoolthread—white and black, fine, coarse and medium. Some
-more of the philosophy of Mr. K's old father-in-law. The
-<pb n="109"/>
-thread is not wasted and the girls are not liable to carry it off.
-I am given a big cotton and wool—principally cotton—ulster
-to finish. I work like a lash-driven convict on the facings and
-collar and cuffs till 4 o'clock, and am almost overcome by the
-air that floats up from the yard below. It is done and I take
-it to the boss, who examines it for fully five minutes.
-"Too fine. Custom work. Don't need so good on such
-work. You stay?"
-"How much a week?"
-"Five dollars. You Christian?"
-"Work Sunday?"
-"Never!"
-"Then I don't want you. Shop closed Saturday. Shop
-open Sunday."
-"How much if I work five days?"
-"No, you must work six days, like all."
-"Not Sunday. Pay me, please."
-I get out. Out past the stable-door, past the children in the
-manure pile, past the ragged, yellow clothes on the line, past
-the back door, past swill boxes, and the poor, pale-faced women
-carrying cloaks to and from neighboring shops, till I reach
-Twelfth street, where Isaac B. hires me. His shop is over a
-rag store and the smell is far-reaching. Mr. and Mrs. B. work
-with the men and girls. There are two rooms, poor light,
-bad ventilation, low ceilings, disgusting smells from the
-kitchens, the snarling, fault-finding remarks of the man, the
-petulance of his wife, the filthy condition of the place and the
-revolting contiguity of so many people were something not to
-be endured. I occupied my chair in the dark, crowded room
-fifteen minutes and left. Like David K's this shop is open all
-day Sunday.
-In the rear of Taylor street I was offered work by a tailor.
-He had two small rooms in which men and girls were working
-<pb n="110"/>
-like slaves on custom coats. There was a fire in the stove on
-which men heated their irons, and two boxes of garbage just
-outside on the pavement filled the room with their odors.
-Leaving the field of cloth and cloaks I applied to E. A. M.,
-the confectioner, on West Jackson street. The forewoman is a
-thin, bloodless young woman, with wild eyes and unmistakable
-evidences of overwork.
-"No, I can't give you a place. You are too big. I want
-little girls. All these hands have been sent to us by peddlers
-because they are so very poor. You couldn't live on the salaries
-we pay. These children get $3 and the old hands up-stairs $4."
-The midget laborers are filling pans with chocolate and maple caramels. Young boys cut the sheet of soft, brown saccharine stuff into squares which a dozen little girls transferred to
-the tins. At deep troughs filled with pop-com and gum-drops
-were other children filling small paper bags. Up-stairs the
-girls worked on stick goods. Their quarters, while rude and
-bare and hot from the steaming syrup-pots, were light and
-airy.
-At Brougham's packing-house on Jackson street, I applied
-for work in the canning-room. The foreman was kind. He
-took me out in the dark, little packing-room, in which the
-light and breeze were fenced off by walls of tin cans. The
-girls were pale and thin and very young. But, oh, how they
-did paint! Each stood near a wall of cans that had just been
-filled with meat—pressed corned beef, tongue or ham—still
-warm. At hand was a pot of Japan paint with which the girls
-brushed the ends and rims of each can. I told the foreman I
-knew I could do the work. He tried me. I daubed on the
-paint, held the brush wrong, and got more color on my hands
-than on the can. The girls laughed at my awkwardness; so
-did the foreman. I was chagrined with my failure and asked
-for some water to clean my hands. The man gave me a benzine bath and then showed me to a basin of dirty water on the
-<pb n="111"/>
-surface of which a hundred or more dead flies were afloat.
-The quarters in which these girls work are little more than
-deadly—no sunlight, no free, fresh air, no place to sit, and the
-blue paint smeared over their hands and arms and dripping
-from the breast and belt of their dresses. Their wages are $5,
-but each is expected to paint at least 1,500 cans per day.
-Dirty little girls in rags and broken shoes, many of their wrists
-not bigger than your two fingers, were in the rear of the shop
-scouring cans, for which they are paid $3 a week. The hours
-of toil are from 7 o'clock to 12 and from 1 o'clock to 5. The
-girls were gay and inclined to be happy in their dungeon slavery, for, after all, they ate better paid than scores of help in
-the employ of P., J. S., E. and Mrs. W.
-At the suggestion of the foreman I took a Halsted streetcar
-for the stock yards and with so much experience presented myself at the F. C. company. I did not see Mr. N. K., and what
-is more, didn't want to see him. The girls, numbering a hundred or so, were at work up on the second floor in one of the
-numerous buildings. They painted and labeled by the piece,
-getting 5 cents a hundred. Plenty of girls handled 2,500 cans
-a day, giving them a salary of $7.50 a week. Experienced
-hands earned $9 and beginners and dryers $4 per week. No
-provision was made for the comfort of these girls. They swept
-the greasy floor when necessary, packed the goods and were
-jostled and pushed about by the bloody butchers and greasy
-packers. All worked in cast-off clothing, many literally dripping with paint. A great many of the girls were Irish, but
-the Swedes and Germans were numerous. I cannot understand
-how they endure the work which, while purely mechanical,
-requires them to be on their feet from 7 to 5:30 every day, and
-from all I could learn they do not stand it. Few with whom
-I talked had been in the yards five years; all wanted to get
-married, not to have money and nice clothes and theater tickets,
-but to get rested.
-<pb n="112"/>
-At P. D. A's packing-house the girls were paid 3 cents to
-5 cents per hundred for labeling and japaning cans, wages
-varying $6 to $9. Beginners received 75 cents a day for two
-weeks, or until they could handle 1,500 cans per day, when
-they received $6, and were raised to the minimum figure as
-their skill increased. As at F's, they were young girls with
-haggard faces, emaciated figures, and work-weary bodies. At
-noon they sat in the windows to eat their lunch, and fhe vessel
-on the zinc from which they slacked their thirst was nothing
-more elaborate than a tin-can cut down. It is certainly very
-good of Mr. A. to build Sunday-schools, educate struggling
-artists, buy pictures, and patronize music, but these young
-women are human, if their senses are dulled to the sickening
-smells of the slaughtering establishment, and a clean sitting-
-room with neat walls and chairs in which to rest at noon and
-clean towels for the 6 o'clock toilet, would not be wasted
-charity.
-These girls are called "tough." Perhaps they are. Perhaps their language is not chaste nor their manners pleasing,
-but Mr. A. and Mr. F. know as well as need be known that
-their hearts are pure and their lives blameless. Considering
-their origin, their nature, their surroundings, and their associates they are too good to be put on the level they are.</p>
-</div>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>NO REST FOR THE WEARY AND WRETCHED CHILDREN THIS SIDE OF THE GRAVE.</item>
+                        <item>A DAY AMONG THE BUTCHER-SHOPS AND CANNED-MEAT FACTORIES OF THE STOCK YARDS.</item>
+                    </list>
+                </div>
+                <div type="sectionBody">
+                    <p>The birthright of an American girl may be a glorious attribute on the deck of a transatlantic steamship or the floor of a
+                        London ball-room, but it is not worth the flop of a brass farthing in the cloak factories of Chicago.
+                        It was high noon by the Jesuit college clock When I got to
+                        the rear of --West Twelfth street, where David K. has his shop.
+                        Nobody in but an old man. His face is seamed with wrinkles.
+                        He has a big nose the color and texture of a mushroom; his
+                        head and half his face is covered with hair of chinchilla shades;
+                        his back is humped at the shoulders and his clothes are filthy
+                        and worn. I ask for work and am told that no hands are
+                        needed. He has a pocket that hangs across his waist and into
+                        which he puts rags, pieces of thread, hooks and eyes, pins,
+                        buttons, and the empty spools that lie on the floor about the
+                        vacant machine chairs. I watch the silent old man as he
+                        drags his loose slippers across the floor, and behold I have the
+                        key to wealth! But it doesn't profit me worth a copper. So
+                        I survey the premises.
+                        One room, windows on three sides, and all shut. From the
+                        north windows I get a view of a two-story hen-house. Filth
+                        inside and out. The outlook from the east side is a picture of
+                        poverty, squalor and filth. The buildings have no paint. In
+                        some are human beings, in others dumb brutes. Half-washed
+                        <pb n="107"/>
+                        clothes dangle from window-sills and clothes-lines in tatters
+                        and rags. In the yards are heaps of manure and the alleys
+                        are foul-smelling and filthy. Along the street move flannel-
+                        shirted, horny-handed, sooty-faced men, to smoke, to rest, to
+                        quarrel, and to dinner. Passing and repassing all day long
+                        and every day—Sunday and Saturday—are young women and
+                        old women, youths, maidens, and children, with as many
+                        cloaks or coats or pants as they can carry. The garbage boxes
+                        are reeking with filth. Some one had thrown ashes or sweepings in the box, and neither the swill man nor the ash man will
+                        remove the contents. Mayor Roche and Dr. De Wolf, equally
+                        ignorant of the manner in which their subordinates discharge
+                        their duty, permit this sort of thing to go on till the very
+                        neighborhood is poluted and the air poisoned by these reeking
+                        masses of corruption.
+                        "Oh, it's nothing," I am told, and I see for myself and
+                        count from Karasick's window and door eleven of these garbage piles that swarm with maggots and flies. The sun beating down on the cheap pine box has made the wood shrink,
+                        and from constant kicking and shaking amd probing of the
+                        miserable rag-pickers who inhabit this locality the frame-work
+                        has been loosened and the wood carried off for fuel, leaving on
+                        almost every block one or more naked heaps of decaying
+                        matter.
+                        Out of the south windows I look into the kitchen of some
+                        dozen wretched families. The children are numerous and almost naked. They are unshod and unclean, so very unclean
+                        that it is barely possible to tell their complexion. The mother
+                        breaks a loaf in pieces in one house and throws it to the little
+                        dirty faces on the doorstep. In another home the children eat
+                        from a frying pan and next door all drink from the spout of the
+                        teapot. Down in the yard is a pile of filth in which the children play and are followed by a lot of chickens. The stable
+                        below stairs is locked, but stronger than bolt or hinge is the
+                        <pb n="108"/>
+                        smell from within, and viler still is the stench from the closets
+                        in and about the yard.
+                        At 12:45 o'clock the hands began to arrive from lunch, first
+                        a young Pole, then a Russian, then a German Jew. They
+                        wear woolen shirts and do the machine work—do it beautifully,
+                        too, and their machines go like the wind. The patriarch in
+                        skull cap and slippers goes round the shop looking at one and
+                        the other, watching each operator to see that no extra waste of
+                        thread is left at the end of the seams. Two more men and
+                        then a girl. She does binding, nothing else, and gets $4 a
+                        week. At 1 o'clock six young girls are sitting at a table in
+                        the northwest corner of the shop. They have been running.
+                        They are hot, full of fun, and one throws the window up.
+                        Like a volley from the enemy roll in the closet and stable
+                        smells and I move away to escape it. The boss is three
+                        minutes late. He is a slight, meek man of 35, with a shirt
+                        the color of brown soap, dark trousers and a cheap coat. A
+                        light beard covers his mouth and chin, and the expression in
+                        his eye has that soft, quiet, gentle quality sometimes seen in
+                        cattle and sheep. I tell him I want work.
+                        "Machine?"
+                        "No."
+                        "Can you finish cloaks?"
+                        "Yes."
+                        "Where have you worked? "
+                        "A dozen places. S's, E's, B's, Os, N's, S's, etc."
+                        "Here finish this. I will see what you can do."
+                        "How much?"
+                        "Eight cents, and I pray, Father Abraham, forgive this thy
+                        son's oppression."
+                        I am given a chair at the table with the girls. Propped up
+                        on slender sticks is a stout cord, on which is a lot of spoolthread—white and black, fine, coarse and medium. Some
+                        more of the philosophy of Mr. K's old father-in-law. The
+                        <pb n="109"/>
+                        thread is not wasted and the girls are not liable to carry it off.
+                        I am given a big cotton and wool—principally cotton—ulster
+                        to finish. I work like a lash-driven convict on the facings and
+                        collar and cuffs till 4 o'clock, and am almost overcome by the
+                        air that floats up from the yard below. It is done and I take
+                        it to the boss, who examines it for fully five minutes.
+                        "Too fine. Custom work. Don't need so good on such
+                        work. You stay?"
+                        "How much a week?"
+                        "Five dollars. You Christian?"
+                        "Work Sunday?"
+                        "Never!"
+                        "Then I don't want you. Shop closed Saturday. Shop
+                        open Sunday."
+                        "How much if I work five days?"
+                        "No, you must work six days, like all."
+                        "Not Sunday. Pay me, please."
+                        I get out. Out past the stable-door, past the children in the
+                        manure pile, past the ragged, yellow clothes on the line, past
+                        the back door, past swill boxes, and the poor, pale-faced women
+                        carrying cloaks to and from neighboring shops, till I reach
+                        Twelfth street, where Isaac B. hires me. His shop is over a
+                        rag store and the smell is far-reaching. Mr. and Mrs. B. work
+                        with the men and girls. There are two rooms, poor light,
+                        bad ventilation, low ceilings, disgusting smells from the
+                        kitchens, the snarling, fault-finding remarks of the man, the
+                        petulance of his wife, the filthy condition of the place and the
+                        revolting contiguity of so many people were something not to
+                        be endured. I occupied my chair in the dark, crowded room
+                        fifteen minutes and left. Like David K's this shop is open all
+                        day Sunday.
+                        In the rear of Taylor street I was offered work by a tailor.
+                        He had two small rooms in which men and girls were working
+                        <pb n="110"/>
+                        like slaves on custom coats. There was a fire in the stove on
+                        which men heated their irons, and two boxes of garbage just
+                        outside on the pavement filled the room with their odors.
+                        Leaving the field of cloth and cloaks I applied to E. A. M.,
+                        the confectioner, on West Jackson street. The forewoman is a
+                        thin, bloodless young woman, with wild eyes and unmistakable
+                        evidences of overwork.
+                        "No, I can't give you a place. You are too big. I want
+                        little girls. All these hands have been sent to us by peddlers
+                        because they are so very poor. You couldn't live on the salaries
+                        we pay. These children get $3 and the old hands up-stairs $4."
+                        The midget laborers are filling pans with chocolate and maple caramels. Young boys cut the sheet of soft, brown saccharine stuff into squares which a dozen little girls transferred to
+                        the tins. At deep troughs filled with pop-com and gum-drops
+                        were other children filling small paper bags. Up-stairs the
+                        girls worked on stick goods. Their quarters, while rude and
+                        bare and hot from the steaming syrup-pots, were light and
+                        airy.
+                        At Brougham's packing-house on Jackson street, I applied
+                        for work in the canning-room. The foreman was kind. He
+                        took me out in the dark, little packing-room, in which the
+                        light and breeze were fenced off by walls of tin cans. The
+                        girls were pale and thin and very young. But, oh, how they
+                        did paint! Each stood near a wall of cans that had just been
+                        filled with meat—pressed corned beef, tongue or ham—still
+                        warm. At hand was a pot of Japan paint with which the girls
+                        brushed the ends and rims of each can. I told the foreman I
+                        knew I could do the work. He tried me. I daubed on the
+                        paint, held the brush wrong, and got more color on my hands
+                        than on the can. The girls laughed at my awkwardness; so
+                        did the foreman. I was chagrined with my failure and asked
+                        for some water to clean my hands. The man gave me a benzine bath and then showed me to a basin of dirty water on the
+                        <pb n="111"/>
+                        surface of which a hundred or more dead flies were afloat.
+                        The quarters in which these girls work are little more than
+                        deadly—no sunlight, no free, fresh air, no place to sit, and the
+                        blue paint smeared over their hands and arms and dripping
+                        from the breast and belt of their dresses. Their wages are $5,
+                        but each is expected to paint at least 1,500 cans per day.
+                        Dirty little girls in rags and broken shoes, many of their wrists
+                        not bigger than your two fingers, were in the rear of the shop
+                        scouring cans, for which they are paid $3 a week. The hours
+                        of toil are from 7 o'clock to 12 and from 1 o'clock to 5. The
+                        girls were gay and inclined to be happy in their dungeon slavery, for, after all, they ate better paid than scores of help in
+                        the employ of P., J. S., E. and Mrs. W.
+                        At the suggestion of the foreman I took a Halsted streetcar
+                        for the stock yards and with so much experience presented myself at the F. C. company. I did not see Mr. N. K., and what
+                        is more, didn't want to see him. The girls, numbering a hundred or so, were at work up on the second floor in one of the
+                        numerous buildings. They painted and labeled by the piece,
+                        getting 5 cents a hundred. Plenty of girls handled 2,500 cans
+                        a day, giving them a salary of $7.50 a week. Experienced
+                        hands earned $9 and beginners and dryers $4 per week. No
+                        provision was made for the comfort of these girls. They swept
+                        the greasy floor when necessary, packed the goods and were
+                        jostled and pushed about by the bloody butchers and greasy
+                        packers. All worked in cast-off clothing, many literally dripping with paint. A great many of the girls were Irish, but
+                        the Swedes and Germans were numerous. I cannot understand
+                        how they endure the work which, while purely mechanical,
+                        requires them to be on their feet from 7 to 5:30 every day, and
+                        from all I could learn they do not stand it. Few with whom
+                        I talked had been in the yards five years; all wanted to get
+                        married, not to have money and nice clothes and theater tickets,
+                        but to get rested.
+                        <pb n="112"/>
+                        At P. D. A's packing-house the girls were paid 3 cents to
+                        5 cents per hundred for labeling and japaning cans, wages
+                        varying $6 to $9. Beginners received 75 cents a day for two
+                        weeks, or until they could handle 1,500 cans per day, when
+                        they received $6, and were raised to the minimum figure as
+                        their skill increased. As at F's, they were young girls with
+                        haggard faces, emaciated figures, and work-weary bodies. At
+                        noon they sat in the windows to eat their lunch, and fhe vessel
+                        on the zinc from which they slacked their thirst was nothing
+                        more elaborate than a tin-can cut down. It is certainly very
+                        good of Mr. A. to build Sunday-schools, educate struggling
+                        artists, buy pictures, and patronize music, but these young
+                        women are human, if their senses are dulled to the sickening
+                        smells of the slaughtering establishment, and a clean sitting-
+                        room with neat walls and chairs in which to rest at noon and
+                        clean towels for the 6 o'clock toilet, would not be wasted
+                        charity.
+                        These girls are called "tough." Perhaps they are. Perhaps their language is not chaste nor their manners pleasing,
+                        but Mr. A. and Mr. F. know as well as need be known that
+                        their hearts are pure and their lives blameless. Considering
+                        their origin, their nature, their surroundings, and their associates they are too good to be put on the level they are.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                </div>
+            </div>
         </body>
     </text>
 </TEI>

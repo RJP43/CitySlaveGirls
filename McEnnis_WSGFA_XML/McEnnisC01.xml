@@ -6,45 +6,80 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a">Chapter 1: Female Labor</title>
+                
+                <title level="a" xml:id="WSFA01"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each chapter will have its own identifier and this is where it is being defined... the identifier should include the source and chapter number (add  a zero in front of early chapters so we have consistent format with chapters that will be double digits). For example: the first chapter in the McEnnis text will be xml:id="WSFA01" -->Chapter 1: Female Labor</title>
                 <title level="m">The White Slaves of Free America</title>
-                <author>
-                    <forename>John T.</forename> 
-                    <surname>McEnnis</surname>
-                </author>
-                <editor>Rebecca Parker</editor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Chicago: R.S. Peale &amp; Co., <date when="1888">1888</date>.</p>
-                <p><ref target="http://nrs.harvard.edu/urn-3:FHCL:225494"/></p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>Collection Development Department, Widener Library, HCL</repository>
-                        <!--<institution>Harvard University</institution>-->
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">The White Slaves of Free America</title>
+                        <author>McEnnis,John T.</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>R.S. Peale &amp; Co.</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date>1888</date>
+                        <publisher>Harvard University: Collection Development Department, Widener Library, HCL</publisher>
+                        <availability>
+                            <p><ref target="http://nrs.harvard.edu/urn-3:FHCL:225494">www.pds.lib.harvard.edu/</ref></p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>McEnnis's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-<div type="chapter" n="1">
-    <pb n="13"/>
-    <head><title>CHAPTER I.—FEMALE LABOR</title>
-        <list><item>LIST OF TRADES IN WHICH FEMALE LABOR IS USED</item>
-            <item>PECULIAR FEMALE ABILITY</item>
-            <item>AVERAGE WAGES</item>
-            <item>PAY AND PRIVILEGES OF HOUSEHOLD WORK</item>
-            <item>PITIABLE CONDITION OF WORKING WOMEN AT HOME AND ABROAD</item><item>STATEMENTS FROM <placeName>LONDON</placeName>,
-                <placeName>NEW YORK</placeName> AND <placeName>CHICAGO</placeName></item>
-            <item>FOUL FACTORIES AND FILTHY TENEMENTS</item>
-            <item>A WEEK’S SALARY GONE IN FINES</item>
-            <item>THE ONE DOOR OF ESCAPE</item>
-            <item>THE ACTUAL EXPERIENCE OF A NEWSPAPER INVESTIGATOR IN THE GUISE OF A SHOP-GIRL</item></list>.
-    </head>
-        <p>EVERY year the scope of female labor is becoming broader, the number of laborers larger,
+            <div>
+                <div type="headlines">
+                    <list><item>LIST OF TRADES IN WHICH FEMALE LABOR IS USED</item>
+                        <item>PECULIAR FEMALE ABILITY</item>
+                        <item>AVERAGE WAGES</item>
+                        <item>PAY AND PRIVILEGES OF HOUSEHOLD WORK</item>
+                        <item>PITIABLE CONDITION OF WORKING WOMEN AT HOME AND ABROAD</item><item>STATEMENTS FROM <placeName>LONDON</placeName>,
+                            <placeName>NEW YORK</placeName> AND <placeName>CHICAGO</placeName></item>
+                        <item>FOUL FACTORIES AND FILTHY TENEMENTS</item>
+                        <item>A WEEK’S SALARY GONE IN FINES</item>
+                        <item>THE ONE DOOR OF ESCAPE</item>
+                        <item>THE ACTUAL EXPERIENCE OF A NEWSPAPER INVESTIGATOR IN THE GUISE OF A SHOP-GIRL</item></list>
+                </div>
+                <div type="chapterBody">
+                    <p>EVERY year the scope of female labor is becoming broader, the number of laborers larger,
             the skill and the effectiveness of the working-women greater, but, unfortunately the
             condition of the women who win their bread has not improved. They are for the most part
                 <desc type="livingConditions">badly housed</desc>, <desc type="livingConditions">insufficiently fed</desc>, <desc type="livingConditions">shabbily clothed</desc> and
@@ -422,7 +457,9 @@
                     the seams and edges faced with black muslin</desc>. <num type="wage" value=".30">Thirty cents</num>, in other
                     words, for a good day’s work of ten hours!
             </p>
-</div>
+                </div>
+            </div>
+            
         </body>
     </text>
 </TEI>
