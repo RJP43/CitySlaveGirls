@@ -6,36 +6,74 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chicago Times</title>
                 
-                <title>CITY SLAVE GIRLS</title>
-                
-                <title><date when="1888-08-03">Friday Morning, August 3, 1888</date></title>
-                
-                <author>
-                    Nell Nelson
-                    Helen Cusach
-                </author>
-                <editor>Rebecca Parker</editor>
+                <title level="a" xml:id="CT005"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-08-03">Friday Morning, August 3, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+                <title level="m">"City Slave Girls"</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
             </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
             <publicationStmt>
-                <p>Nell Nelson. “City Slave Girls.” Chicago Daily Times (Chicago, IL), July 30-August19, 1888 and August 26-27, 1888.</p>
-                <p> NYU Digital Library<ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"/></p>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>NYU</repository>
-                        
-                    </msIdentifier>
-                </msDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">"City Slave Girls"</title>
+                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
+                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Newspaper Print</edition>
+                    </editionStmt>
+                    <extent>21-part series: Front-page placement</extent>
+                    <publicationStmt>
+                        <publisher>Chicago Times</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date>1888</date>
+                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                        <availability>
+                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                            </p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="article" n="5">
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-03">Friday Morning, August 3, 1888</date></title>
+            <div>
+                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-03">Friday Morning, August 3, 1888</date></title></head>
+            <div type="headlines">
                     <list>
                         <item>While Among <placeName>Chicago</placeName>’s Weak Serfs <ref type="nellNelson">The Times’ Lady Reporter</ref> Finds <persName>Mr. Goss</persName>’ “Good <ref type="nationality">Jew</ref>.”</item>
                         <item>Holding Her Nose, She Gazes Upon All Kinds of <desc type="workingClass">Soul-and-Body Starving Wretchedness</desc>.</item>
@@ -43,8 +81,9 @@
                         <item>To Save Space, These Unshackled Servants of Greed Are Compelled to Take Short Stitches.</item>
                         <item>Even Pins Are Not Given to the Employee and the Girls Have to Use Their Underclothing for Towels.</item>
                     </list>
-                </head>
-                <p>
+            </div>
+                <div type="articleBody">
+                    <p>
         Two weeks ago <persName>Rev. Mr. Gross</persName> preached a sermon relative to the morals and progress of the working woman. Among other things he referred to a “good Jew” who, having the comfort of the hundred odd girls in his <ref type="company">cloak factory</ref> at heart, “provided every day for <desc type="workingClass">1 cent a substantial lunch</desc>.” I sent the reverend gentleman a note, inclosing a stamp for the address of the “good <ref type="nationality">Jew</ref>” and in reply came the name of <persName>H. Zimmerman</persName>, <desc type="location">233 Monroe street</desc>. On went <desc type="workingClass">poverty’s respectable rags</desc>, and off I posted for shop-work and a penny spread. 
         The elevator carried me to the top of the building where every week thousands of <ref type="factoryItem">jackets</ref>, <ref type="factoryItem">sacques</ref>, <ref type="factoryItem">circulars</ref>, <ref type="factoryItem">dolmans</ref>, and <ref type="factoryItem">cloaks</ref> are turned out to supply the country trade of the northwest. Here in a crowded room, with low ceiling and dingy walls, poorly ventilated and insufficiently lighted, sit between eighty and 150 young girls surrounded from Monday morning until Saturday noon by the ceaseless clatter of the sewing-machines in an atmosphere so thick that it can be cut with a knife.  The machines are run by steam, and notwithstanding the great buckram fans overhead that revolve with a crackling noise the ceiling is so low and the air so hot as to be positively stifling to the initiated. There is the smell of dye from brown, blue, and black cloaks coupled with the still more offensive odor from the “English plaids”; <desc type="workDesc">along the pressing-table are the gas stoves where irons are heated and where the girls sponge and press collars and seams, each operation attended with a little cloud of steam and a stuffy, scorching smell that blows about and around the whizzing fans</desc>; clouds of lint from the textures in hand covers everything it constantly being inhaled by the sewers. Then, too, there is the smell of rancid machine oil; the overpowering exhalations from so many perspiring and unkempt persons and an occasional whiff from the six or seven toilets closets, all powerful facts of one might smell that must be smelled to be appreciated. The “good Jew” had all the windows open, but the place was so strong I almost fainted. 
         I have a seat in the middle of the room and a 35 cent <ref type="factoryItem">Norfolk</ref> to make. It is so dark that I can hardly see my stitches as I thread to sleeve hole with black muslin.  The forewoman can’t see either till she takes the work over to the window to examine it, and returns with a gratifying, “Guess that it will do.”
@@ -67,6 +106,7 @@
         All hands were on deck at 7:30 in the morning, in which manner and the 5:30 hour of closing the Saturday half-hour was made good to the firm. Many of the girls told me they made ten <ref type="factoryItem">cloaks</ref> a week which averaged 30 cents apiece. Work was good, the season covering 10 months of the year. A number of men at work on the <ref type="factoryItem">long cloaks</ref> had chairs at the side of the girls and knew well enough personally I did not polish them for they were saturated with tobacco fumes and smelled a foul, sweaty, sickening odor. 
         -<persName>Nell Nelson</persName>
                 </p>
+                </div>
             </div>
         </body>
     </text>

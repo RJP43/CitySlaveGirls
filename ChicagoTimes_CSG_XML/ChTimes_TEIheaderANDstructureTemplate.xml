@@ -47,8 +47,8 @@
                      </titleStmt>
                      <editionStmt>
                         <edition>Newspaper Print</edition>
-                     </editionStmt><!-- RJP: not entirely sure this is the correct way to represent this -->
-                     <extent>21-part series: Front-page placement</extent><!-- RJP: not entirely sure this is the correct way to represent this either -->
+                     </editionStmt>
+                     <extent>21-part series: Front-page placement</extent>
                      <publicationStmt>
                         <publisher>Chicago Times</publisher>
                         <pubPlace>Chicago</pubPlace>

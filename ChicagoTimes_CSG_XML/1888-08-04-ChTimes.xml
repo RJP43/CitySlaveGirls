@@ -47,8 +47,8 @@
           </titleStmt>
           <editionStmt>
             <edition>Newspaper Print</edition>
-          </editionStmt><!-- RJP: not entirely sure this is the correct way to represent this -->
-          <extent>21-part series: Front-page placement</extent><!-- RJP: not entirely sure this is the correct way to represent this either -->
+          </editionStmt>
+          <extent>21-part series: Front-page placement</extent>
           <publicationStmt>
             <publisher>Chicago Times</publisher>
             <pubPlace>Chicago</pubPlace>
@@ -72,6 +72,7 @@
   <text>
     <body>
       <div>
+        <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-04">Saturday Morning, August 4, 1888</date></title></head><!-- Check the title line!!! -->
         <div type="headlines">
           <list>
             <item>“The Times” Lady Reporter spends a Day in <orgName type="exposedCompany">&gt;Goldsmith’s Tailor Shop</orgName> at <desc type="location">258 Rumsey Street</desc>.</item>
