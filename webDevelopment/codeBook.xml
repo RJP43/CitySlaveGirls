@@ -34,9 +34,9 @@ Explanation of Attributes
 
 Here’s how to code idiosyncratic and standard spellings.        
 
-     <p>Text text text text text text text text text <choice><sic>Wierd</sic><reg resp="#lmw">weird</reg></choice> text text text
+     <p>Text text text text text text text text text <choice><sic>Wierd</sic><reg resp="#rjp">weird</reg></choice> text text text
 
-<choice><sic>every body</sic><reg resp="#lmw">everybody</reg></choice> 
+<choice><sic>every body</sic><reg resp="#rjp">everybody</reg></choice> 
 For the word you place in <reg>..</reg> tags, use Oxford international English spelling.)</p>
 
         

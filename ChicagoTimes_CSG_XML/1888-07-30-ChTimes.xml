@@ -25,12 +25,12 @@
                 <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
                <respStmt>
                <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
-               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
             </respStmt>
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
@@ -72,394 +72,166 @@
     <text>
         <body>
             <div>
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-30">Monday Morning, July 30, 1888</date></title></head><!-- Check the title line!!! -->
+                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-30">Monday Morning, July 30, 1888</date></title></head>
                 <div type="headlines">
                     <list>
-                        <item>>A <ref type="nellNelson">Lady Reporter</ref>’s Experience in the Shops with <desc
-                        type="workingClass">Sewing Serfs</desc>.</item>
-                        <item><desc type="wageDesc">Making Tidies at <num type="wage" value=".60">Sixty
-                            Cents</num> a Dozen and Paying <num type="wage" value="3.00">Three Dollars</num> for the
-                            Privilege.</desc></item>
-                        <item><desc type="wageDesc">A Poor Girl Who Worked from 
-                            <date when="--01">January</date> to <date when="--07">July</date> to make <num type="wage"
-                                value="15.00">Fifteen Dollars</num>.</desc></item>
-                        <item>Making Shirts at <num type="wage" value=".75">Seventy-Five Cents a Dozen</num> and
+                        <item>>A Lady Reporter's Experience in the Shops with Sewing Serfs.</item>
+                        <item>Making Tidies at Sixty Cents a Dozen and Paying Three Dollars for the Privilege.</item>
+                        <item>A Poor Girl Who Worked from January to July to make Fifteen Dollars.</item>
+                        <item>Making Shirts at Seventy-Five Cents a Dozen and
                             Finding Your Own Thread.</item>
-                        <item>The Trials of <desc type="workingClass">Poor Creatures</desc> Who Stitch the “Never
-                            Rip Jersey.”</item>
+                        <item>The Trials of Poor Creatures Who Stitch the "Never
+                            Rip Jersey."</item>
                     </list>
                 </div>
                 <div type="articleBody">
-                    <p>
-    <date when="1888-07-10">Tuesday, July 10</date>, according to instructions from <ref type="theTimes">THE
-            TIMES</ref>, I made up for the role of shop-girl, and with a
-        list of factories in one hand and gentle peace in the other sailed down <desc type="location">State
-            street</desc> under a brown braise veil as impenetrable as an iron mask. I applied
-        at two <ref type="industry">feather factories</ref> and three <ref type="industry">corset shops</ref>, but aside from the exercise up and down
-        several flights of stairs got nothing. The feather people did not need any help and the
-        corset folks had not started on the winter trade. I was treated with civility, however, and
-        given permission to “drop in a week or so.” The fifth place on my list was the
-            <orgName type="exposedCompany">“Western Lace Manufacturing Co.”</orgName> <desc type="location">218 State street</desc>. Ascending one
-        flight of stairs I stopped to take off my veil and adjust my eyes to the low light. That
-        done I looked about and finding a door marked ”Office of the <orgName type="exposedCompany">Western Lace
-            Manufacturing Co.</orgName>” with “Come In” on the glass I complied. A young girl
-        followed and leaving her to close the door I fell into a chair, the only one about, and
-        proceeded to perspire and scrutinize the place. The
-            office was not uninviting. The flow had a cheap carpet, the ceiling was high and the
-            room well ventilated and admirable lighted. On a long table, that
-        served as a sort of fortification for the private office of the company, were the
-        samples—“antique crocheted good”—as they are listed, in various shades of white. All were of
-        different pattern and unvarying ugliness. There were round tidies and oblong tidies, square
-        mats for a bureau and smaller ones of oval and circular design, intended for a lamp or
-        cushion. Behind the table, sachetiny between a writing stand and a desk, was a young man of
-        30 or so, of blonde type, with a stationary scowl between his eyebrows and <unclear/>
-        otherwise pleasing manner. That is, I thought the manner pleasing till I began to get
-        acquainted with it and then my opinion changed. After a lapse of five minutes or so the
-        fair-haired gentlemen turned to the young girl with a deepening of the <unclear/> and a most
-        unalluring “Well?”.<unclear/> “I brought the mate back.” “Oh, you have, eh?” opening a piece
-        of newspaper and unfolding a dozen hand-made mats the size of a tea-plate. The work is
-        carefully examined on both sides and as he proceeds the scowl deepens. Without a word he
-        tosses the lot on the little table and reaches for the proffered black the girl had opened.
-        “What’s your name?” “<persName>Rhafferty</persName>.” “How do you spell it?”
-        “R-h-a-f-f-e-r-t-y.” “Oh, yes; <persName>Martha Rhafferty</persName>,” after hunting through
-        a long list. “Do you want more work?” “No, sir.” “There’s plenty more if you want it.” “No;
-        my mother don’t want me to do any more <ref type="occupation">crocheting</ref>. “Well, <persName>Mr. White</persName>
-        isn’t in now. Can’t you come in again?” No answer. A look of discouragement comes over the
-        young face. “Don’t you have to do any shopping about town?” “No, sir.” “Well, you can wait,
-        can’t you? Wait here. Take a chair. (I had the only one.) Just go in the next room there and
-        take a chair. As he went to lead the way the crochet-teacher called his attention, and the
-        girl remaining I seized my chances for a bit of interviewing. <persName>Martha</persName> showed me her contract,
-        in which <desc type="wageDesc">the firm agreed to refund $1 of the $3 deposited when she had finished $15 worth of
-        work</desc>. On the back of the contract were the credit receipts of the company entered in lead
-        pencil, dating from <date when="--01">January</date> to <date when="--07">July</date>. She told me she lived in <placeName>Gross Park</placeName>, away out on the
-        <desc type="location">West side</desc> that <desc type="workingClass">she helped her mother, and had been trying to earn <num type="wage" value="15.00">$15</num> since <date when="--01">January</date></desc>. She
-        received <desc type="wageDesc"><num type="wage" value=".60">60 cents</num> a dozen for the mats and it took her a week to crochet a dozen</desc>. “Then I
-        must pay 10 cents car fare each time, and that leaves only <num type="wage" value=".40">40 cents</num>. I had to pay $3 before I
-        could get any work. I always knew how to crochet, but they made me pay $2 for lessons and $1
-        as a security. I began in <date when="--01">January</date>, the first week, and now I am through. <desc type="wageDesc">I have made <num type="wage" value="15.00">$15</num>,
-        and when they give me back the dollar I shall have <num type="wage" value="16.00">$16</num>.</desc>” Here is a company paying a girl of
-        18 $15 for six months and one week’s labor. When <persName>Mr. Ford</persName> came from the
-        work-room he was met by a boy who had brought in some work and was in a hurry to be off.
-            “<persName>Mrs. Clark</persName> sent these mats and she, wants you to receipt for
-        them.” The paper is opened and the work inspected. The scowl deepens. There will be trouble
-        and I prick up my ears. “I don’t like this. This is bad. They are all stained. Are you
-        her—her—are you a relation?” “Yes.” “Well, you must tell her to wash her hands. These goods
-        are all sweet. I’ll have to charge her for spoilage the material if it occurs again. Did she
-        tell you to ask for more work?” “No, sir.” The poor boy is gone. <persName>Martha</persName> sits in the back
-        room the picture of <unclear/> and the entry being made I am approached.
-            <desc type="middleClass">I look like a beggar and that is what I am taken for, as, the pretty
-            blonde secretary only scowls.</desc> He stands and looks down at me and I
-        sit and look up at him waiting for the, lines in the handsome brow to deepen, the edge of
-        the soft, brown mustache to curl, and the laconic, withering “well” to break the gaze. It
-        comes. “Have you any work?” I ask. “Plenty.” Do you want work?” “Yes.” “What can you do?”
-        “Oh, I can crochet.” “This kind of work?” handing over one of the 60-cent mats. “Yes; what
-        do you pay?” “Different prices. Pay by the dozen, from <num type="wage" value=".60">60 cents</num> to <num type="wage" value="10.00">$10</num>.” “Let me have a
-        dozen of the $10 kind, please,giving my cat-colored eyes a mater doloroso sort
-            of a roll
-              As he caught the seraphic expression some facial machinery gave a lurch that threw on side
-        of his countenance bias for a second. Reaching to the desk he pulled out the following
-        circular and handed it to me. <orgName type="exposedCompany">OFFICE OF WESTERN LACE MANUFACTURING CO.
-                (Incorporated)</orgName>, <desc type="location">218 STATE STREET, CHICAGO,
-            ILL</desc>—<unclear/>: In reply to your letter regarding the work we send
-        out to ladies to do at their homes we beg to say that we make a large line of crochet goods
-        of our antique crochet cotton a sample of which you will find enclosed, also linen, silk,
-        etc. We make <ref type="factoryItem">mats</ref>, <ref type="factoryItem">tidies</ref>, <ref type="factoryItem">lambrequins</ref>, <ref type="factoryItem">bedspreads</ref>, <ref type="factoryItem">shams</ref>, <ref type="factoryItem">collars</ref>, <ref type="factoryItem">hood</ref>, <ref type="factoryItem">lace edging</ref>, etc.,
-        in large quantities. We have been established here for the last five years and have extra
-        facilities for selling goods in large lost: so we are enabled to keep our workers in steady
-        work all the time. Should you desire to work for us we should be pleased to send you work on
-        the following terms: When you send order for work you are required to remit to us $3: $2 of
-        this is to pay us for the patterns and instructions which we shall send you with each lot of
-        new work. We shall also send you sufficient extra material so you can make a sample of each
-        pattern sent, which you are allowed to keep for yourself; $1 of the $3 you send is a deposit
-        on the material we send, and this we shall return to you at any time when you return the
-        work and wish to stop. You will be kept in steady work, paid for each lot when made and
-        re-turned to us in good order. <desc type="wageDesc">Our work is all made by the dozen, and prices range from <num type="wage" value=".50">50
-        cents</num> per dozen to <num type="wage" value="10.00">$10</num> per dozen, according to amount of work. An easy pattern, with sample
-        and full instructions, will be sent you at first, and the quality of work, and advance in
-        prices as you adapt yourself to do-ing it. The work will be sent you by mail, post-age paid
-        by us one way. Three month’s time is allowed you to do any one dozen of articles we send.</desc>
-        This enables ladies who have only a few hours daily to spare to do our work as well as those
-        ladies who take it intending to do it steadily. We are asked many times how much a lady can
-        earn. This depends entirely upon your ability to crochet and the time you have at your
-        command daily; ladies earning from <num type="wage" value="2.00">$2</num> to <num type="wage" value="3.00">$3</num> weekly. We could not guarantee to anyone any
-        stated amount that they could earn, but our work is easy and after you accustom yourself to
-        it you can do it very rapidly. If you desire work for us fill out the blank be-low and
-        return it to us with the $3, and we will place your name on our books and send work at once
-        with full instructions. Send your money by post-office order, draft, payable to our order,
-        or registered letter at our risk. Very Truly, <orgName type="exposedCompany">WESTERN LACE MANUFACTURING
-            CO.</orgName> Keep the above for future reference. …………………………………………………… …………………..188
-                <orgName type="exposedCompany">WESTERN LACE MANUFACTURING CO.</orgName>, <desc type="location">218 STATE
-                STREET, CHICAGO, Ill.</desc>—Gentlemen: In-closed find $3 that I send
-        you to secure patterns, instructions, and material for crochet work; $2 is to pay you for
-        samples and instructions, and $1 is for deposit on material which I shall demand returned to
-        me at any time when I return to you the material in my hands. Signature………………………………………….
-        Town……………………………………………… County……………………………………………. Street and No……………………………………… “What’s the $3
-            for?” I ask. “Can’t you read? The $2 is to pay for the samples and instruction and the $1 as
-        a security for our material. I don’t know who you are and if I gave you the thread I might
-        never see you again.” “I don’t need instruction. I can make the stitch and I don’t want to
-        put any such amount in samples. If you can’t trust me with a spool of thread and a pattern
-        will you sell me the material?” “That’s not the way we do business. If you want to work for
-            us you will have to comply with the contract. You pay $3; that entitles you to a sample mat
-            which we teach you how to make. After you have <num type="wage" value="15.00">$15</num> made worth of work we refund the $1.”
-        “What about the other $2?” “It goes to us for instruction and samples.” “Will I have to make
-        the samples?” “Yes.” Then there are thirteen in the <orgName type="exposedCompany">Western Lace Manufacturing
-            company</orgName>'s dozen?” “If you can to put it that way, yes. But you get one of each
-        set.” “But I don’t want any. I have a supply. Tell me how much will you sell me a thirteenth
-        of a dozen of this set for?” “The price is on the tag.” “Ah. I see 15 cents: and you pay 60
-        cents a dozen for making them, a profit of $1.20. The best thing I’ve struck yet. And stock
-        for sale?” The scowl becomes threatening, but I venture to ask how much thread it takes to
-        mat for a closer calculation of the profits. No answer is deigned. “If I give you $3 you
-        will give me work?” “Yes,” in a sullen tone. “How much?” “All you can do,” brightening up a
-        little. “How do I know you will give me back $1 after I’ve earned $15?” I ask. “I don’t know
-        anything about you. I never heard of your firm before and there is no name on this paper.”
-        “I guess your motives are bad. You don’t want work.” “What guarantee have you to offer of
-        honesty or respectability?” With glaring eyes, distended nostrils, and face crimson with
-        rage he threw down a pile of 2-cent blank books in front of me. “There’s our customers:
-        every state in the union is represented; go to them if you want references. Here are more
-        too.” slamming down a sheet of paper with names and <placeName>Chicago</placeName> addresses of about forty women.
-        ‘I see you have a minimum local trade. Chicago women don’t seem overzealous about the
-        crocheting business.” Then I asked him where he got a market for the goods and the name of
-        some business man to whom I could go for reference. “Now I am not going to do any more
-        talking with you about this business.” “Why?? Is it a secret organization, a sort of
-        Maso<unclear/>” “No. It isn’t secret or Ma<unclear/> either, but I don’t believe you’re all
-        right and I won’t answer any more questions until I know who you are and what you want.”
-        Poor <persName>Mr. Ford</persName> was so furious by this time that I thanked him for his
-        attention and bade him good afternoon. At the foot of the stairs I waited to tie my veil on
-        and see how <persName>Martha</persName> fared, but at the expiration of thirty minutes she
-        was still waiting for <persName>Mr. White</persName> and her <unclear/>.
-            <desc type="wageDesc">Of the five women I interrogated none were able to earn <num type="wage" value=".20">20 cents</num> a
-            day</desc>. <desc type="workingClass">All expressed a liking for the work but
-            complained bitterly of the way the <unclear/> gave out the work.</desc> For
-        instance <ref type="factoryItem">bedspreads</ref> paid <num type="wage" value="10.00">$10</num> a dozen, but not more than three spreads were given to a hand
-        and one of these was the sample. The little <ref type="factoryItem">tablemats</ref> paid <num type="wage" value=".50">50 cents</num> per dozen, but before a
-        girl was able to crochet enough to live on she was obliged to take collars made of line
-        thread in such an intricate pattern that it was an utter impossibility to earn <num type="wage" value="1.00">$1</num> a month.
-       <desc type="wageDesc"> No woman seen had earned <num type="wage" value="15.00">$15</num> in less than six months, and one of the most skilled hands had
-        been on a <num type="wage" value=".60">60-cent</num> lot since <date when="1888-06-03">June 3</date>.</desc> By inquiry I learned that many women
-            paid $3 and gave up the work when they saw it was not possible to make the <num type="wage" value="15.00">$15</num> necessary
-            for the rebate.  This fact does not appear in the circulars, and it
-        is not <unclear/> after the contract has been signed that the <unclear/> tacties of the
-        concern are understood. 
-                Several cases are on record at the <orgName>Woman’s Protective
-            agency</orgName>, but no judgment has been obtained, as the agreement <unclear/> valid
-        be-fore the law. All that can be done in the matter is to warn the public against a
-            <unclear/> legally incorporated to grind the life out of the women and girls unfortunate
-            enough to patronize it.
-        CLOAKS, OVERALLS, AND SHIRTS
-        Put Through an Impudent Cross-Examination to Get to Sew <ref type="factoryItem">Cloaks</ref> at <num type="wage" value=".50">50 cents</num> Each
-            Making <ref type="factoryItem">Pants</ref> and <ref type="factoryItem">Shirts</ref> at <num type="wage" value=".75">75 Cents</num> a Dozen and Find your Own Thread. At
-            <orgName type="exposedCompany">Rosenthal &amp; Co.’s and Rosenberg Bros</orgName>. I applied for work and was
-        told to report in the morning to sew on <ref type="factoryItem">cloaks</ref>. The manager in
-            <orgName type="exposedCompany">Stein’s</orgName>, on <desc type="location">Market street</desc>, wanted bands and
-        offered to engage me at once. I was most impudently catechized some seven inquires requiring
-        as many false statements. What was my name, place of residence, last position, amount of
-        wages received, state of my health, nativity, married or single—to which I
-            answered “neither.” Here was a dilemma. “Oh, yes, widow?” and
-            an inordinate ha! ha!
-        Yes.
-        “Grass widow, eh?” with a sneer.
-        How much do you pay for <ref type="factoryItem">cloaks</ref>, I asked, tired of the ordeal
-        “<num type="wage" value=".50">Fifty cents</num>, each.” It was enough and I left the creature still anxious to solve the widow question. By the time I reached <orgName type="exposedCompany">Ludden’s</orgName>, <desc type="location">122 Market
-            street</desc>, I was in a reckless frame of mind. “Is there any
-        work for a good sewer?” I asked the girl in the office. “Yes, plenty.
-            <persName>John</persName> give her some pants.” <persName>John</persName> had eyes the
-        color of calico and a complexion like an immature tomato. He led the way to the <ref type="factoryItem">cottonades</ref>,
-        which were cut, trimmed, and tied up in bundles of a dozen garments each. “Here’s a sample,”
-        holding up a pair of <ref type="factoryItem">overalls of brown cottonade</ref>. “The work is cut out, but you will have to do everything yourself. I want you to make the fly extra strong and press the buttons. <desc type="wageDesc">We
-        pay <num type="wage" value=".75">75 cents</num> a dozen</desc> and you find your own thread.” “<num type="wage" value=".75">Seventy-five cents</num> for a dozen of these
-        <ref type="factoryItem">pants</ref> and find my own thread?” “Yes. <desc type="wageDesc">Or I’ll pay you <num type="wage" value=".80">80 cents</num> a dozen and give you linen thread if you sew the buttons on fast</desc>.” “No. I guess I won’t take the pants. What other work
-        have you?” “Here are <ref type="factoryItem">cheviot shirts</ref> if you’d rather. Gusset the tail here and the sleeves,
-        stay the bosom and arm-holes, and make the collar and wrist-bands extra strong. <desc type="wageDesc">These pay <num type="wage" value=".75">75
-        cents</num> a dozen.</desc>” He offered to give me three on trial. <desc type="wageDesc">The thread would cost 5 cents,
-        car-fare 10 cents, and I should have <num type="wage" value=".03">3 cents</num> after the job.</desc> <persName>John</persName> said:
-        “That’s so, but I can’t help it. If the work is satisfactory you can have a six-dozen lot.”
-         It was very good of <persName>John</persName> to sympathise with me, but I thanked him and
-        said I would look a little further. THE NEVER-RIP JERSEY.
-        A Hard Day’s Work for <num type="wage" value=".41">41 Cents</num>—Less Fortunate Workers Who Earned Only <num type="wage" value=".11">11 Cents</num>—A
-            Sick Girl’s Sad Story—<desc type="workingClass">The Hopeless Miss Who Longed to Be Married</desc>. At the
-                <orgName type="exposedCompany">Never-Rip Jersey Company</orgName> I was told to
-        apply at the factory <desc type="location">133 West Washington street</desc>. “Work is given out at
-        7:30 a. m.,” the clerk informed me, “and if you have any snap about you you can make a good
-        living. By the way of getting the required snap I went home, ate my dinner, and was in bed
-        at 8 o’ clock. <desc type="workingClass">The next morning I resumed the rags of poverty and at 7 o’clock made my debut
-        as the factory hand.</desc> <desc type="workDesc">I was one of 120 women, ranging in age from 15 to
-            60</desc>. The factory where the <ref type="factoryItem">never-rip jerseys</ref> are made is
-        at the <desc type="location">corner of Washington and Union streets</desc>, with the elevator
-        entrance in the rear and workroom in the fifth story. The girls began to arrive at 7
-        o’clock, and at every trip of the elevator some twenty or more were carried up-stairs. I
-        took a chair in one of the machine rows, and for an hour did nothing but watch the
-        preparations for work in that human hive. The room was
-        50x138, with an open unfinished roof and brick walls calcimined. Light was admitted from
-        rear and side windows. <desc type="workDesc">The pressmen had their boards and furnaces at the south end of the
-        room, where all the work was pressed prior to being boxed and ticketed for the trade. At the
-        extreme opposite end was the cutting-room, fenced in from the rest, and between the two were
-        the worktables, where the hundred odd girls stitched and finished the <ref type="factoryItem">jerseys</ref>.</desc>
-        Along the brick walls were nails, irregularly driven, on which the girls hung their hats and
-        wraps, dresses and collars. Nearly every one took off her dress and waisit, turned it inside
-        out, put it on a nail and put on a calico of old stuff shop suit. A few took off their
-        corsets and nearly all the machine hands changed their shoes before work. On the stroke of
-        7:30 a bell rang, the power was turned on the machines began to buzz like little saw-mills
-        and the day’s work had commenced. Heads of brown, black, yellow, and gray bent so near the
-        flying shuttles that every minute I experted the bangs and fluffy crimps would get caught in
-        the machinery.  The faces were sad and so very, very pales that I
-                shall never look at a <ref type="factoryItem">jersey</ref> again without seeing
-                them.
-        <desc type="workDesc">The average age may have been 23, but not less.</desc>
-        There were girls of 17 and 18 and some world-weary women past 50 all
-            working for little more than enough to keep body and soul together.
-        The work circulated in baskets—long chip hampers with stout-handles—that held a dozen, with
-        room for five times that quantity. <desc type="workDesc">A great deal of time was lost by the
-            workers in getting the contents of the basket examined, checked off on the ticket and
-            the ticket stamped.</desc>
-        <desc type="workingClass">If it had been the last change for life I don’t believe the girls would have worked
-            any harder for salvation. Scarcely a head was raised from machine or lap.</desc>
-        Shoulders were bent down, chests hollowed in, and
-                faces drooped so low that I could not begin to make a study of the “windows of the
-                souls” before me. At 8:40 the proprietor of the
-        chair I was in asked me to vacate, and I walked down through the narrow aisles of
-            <ref type="occupation">sewing-women</ref> to the “forelady” and asked for work.
-        She asked me if I wanted to take a machine, but I expressed a preference for finishing. I
-        was given a numbers, a basket with five <ref type="factoryItem">jerseys</ref> to finish, and a chair beside a
-        girl named <persName>Hannah</persName>, who, being engaged by the way was told to “show me.”
-            <persName>Hannah</persName> had blonde hair and talked with the brogue. <desc type="workDesc">She gave me a
-        needle as long as my engagement finger, and the most meager instruction compatible with
-        obedience. Fortunately I had my thimble and crossing my knees I threaded the
-           gimlet-like needle with silk and I proceeded to
-            hook-and-eye a <ref type="factoryItem">jersey</ref>.</desc> Remembering the treachery of
-        my shop clothes I ever wore filled the two hooks and eyes with sewing and after testing them
-        proceeded to face the collar. <desc type="workingClass">I told <persName>Hannah</persName> about my misery, but she
-            wisely said it was no fault of hers and went on with a <desc type="wageDesc"><num type="wage" value="3.00">$3</num>-a-dozen lot she had been doing two
-        days and a half</desc>.</desc> Thinking it would be a good way to get acquainted with my neighbors I asked
-        several for a fine needle and at last exchanged the crow-bar <persName>Hannah</persName> had
-        given me for a line cambric article. It worked better and at the end of two
-        hours I had bound the arm-holes,
-           faced the collar,
-            tacked the front facing and the bustle
-        piece, and put two patts of hooks and eyes in a black <ref type="factoryItem">jersey</ref>. The
-            dye was not fast, neither was the wool, for my throat, ears,
-            and nostrils were tufted with black lint. I was African from the nails to the wrists. The
-        front facings had to be trimmed off. I had no scissors. <persName>Hannah</persName> was
-        dangerous with her, and <desc type="wageDesc">I lost about 15 cents worth of time borrowing the weapons.</desc>
-               At noon I had finished four <ref type="factoryItem">jerseys</ref> and was
-                so sore about the neck and back that I could scarcely rise from the
-                chair. I began to scent hot tea, and looking about saw
-        a big girl called <persName>Emma</persName> brewing three pots of <placeName>Japan</placeName> over one of the
-        press furnaces. She had her front hair in curl papers and was whistling “In The Sweet Bye
-        and Bye.” About thirty girls went to her, each with her own cup, for a supply of tea. I
-        remarked to one passing my chair that her tea looked awfully nice and asked where she got
-        it. “From <persName>Em</persName>. She makes it and we each pay 2 cents a week.” On the
-        stroke of 12 the machine stopped and 120 tired women stopped too, for thirty minutes’ rest
-        and the food that could hardly be called refreshing. In the main it consisted of brown bread
-        and butter. In some parcels there was cold meat and cake: others had pie; a few a bottle or
-        canteen of milk, cold tea or coffee, but I did not see a particle of fruit. <desc type="workingClass">One little girl
-        who had been stretching <ref type="factoryItem">jerseys</ref> at <num type="wage" value=".02">2 cents</num> each made a lunch on three graham
-        crackers and a piece of custard pie, which she ate reading a paper-covered book. I counted
-        thirty-seven girls with a lunch of dry bread, fifteen with sandwiches, and ten who ate cold
-        pancakes. Twenty-three girls were without any luncheon whatever.</desc> During the intermission the
-        elevator stopped running and no one left the building but myself. Less than ten minutes was
-        spent over the wretched mea. At one side of the west wall, separated by a
-            ten-foot pine partition, was the toilet-room containing an iron zinc with one faucet of
-            running water.
-        Here the girls crowded like so many cattle, each with her
-        bit of soap and grimy cotton towel, to wash. Dress waists were loosened and necks, faces,
-        arms, and hands lathered with soap and rinsed, as the change permitted. There were three
-        closets, unflushed, untidy, and unwholesome. Set up against the wall in this enclosure, with
-        the faucet run through the partition, was a barrel of ice water inscribed in big letters:
-          “Two cents will be collected every Saturday for ice
-          water.” Besides this luxury every hand pays 12 cents a week for the
-        use of the machine. At 1 o’clock I finished my basket, which I dragged to
-            <persName>Tom</persName>, the book-keeper, who took my name and credited me with five
-        garments. <desc type="wageDesc">No price had been put on the <ref type="factoryItem">jerseys</ref>, as they were sampled goods, but
-        the forelady thought they would go at <num type="wage" value=".60">60 cents</num> a dozen, which meant <num type="wage" value=".25">25 cents</num> to my credit.</desc> I
-        didn’t get any more work till 2 o’clock because <desc type="middleClass">the forelady was in the
-        toilet-room having her bangs done up in paper. She was a pretty woman, by the way, with a
-        good face and a shock of beautiful auburn hair. She had been in her position for six years
-        and was drawing a salary of <num type="wage" value="35.00">$35</num> a week. The girls had a good word for her generally, but she
-        struck me as being a woman without heart.</desc> At her appearance I was given a basketful of
-            <ref type="factoryItem">jerseys</ref> to finish button-holes. I
-            worked like a Trojan for an hour, at the end of which I won the heart
-        of a little girl who sat at the end of my table facing the wall. She had been sitting still
-        so long that I called out and asked if she were ill. “No. I haven’t any work.”
-                    Tired almost to exhaustion and as
-                    hot as a newly-built mustard plaster I was only too glad of a chance to transfer
-                    my interests, but she declined.
-        It was too hot to work; she was going away soon, she said, and didn’t care to do any more.
-        “When did I begin? Today. I worked in a <ref type="industry">box-factory</ref>, but it was so dull I could only earn <num type="wage" value=".16">16
-        cents</num> a day. <desc type="livingConditions">My mother wants me to pay her $2.50 a week board, but how could I with <num type="wage" value=".96">96
-            cents</num>.</desc> This is no better. I came at 8 this morning and I have only made <num type="wage" value=".11">11 cents</num>. I am 21.
-        <desc type="workingClass">Beaus? Yes, some. I have on steady fellow, but I don’t know if he will marry me. I hope he
-        will.</desc> She told me he earned <desc type="wageDesc"><num type="wage" value="75.00">75$</num> a month as a telegraph operator on the board of trade</desc>; that
-        he was “steady as a steeple, and the only fellow she ever loved.” I told her how to go about
-        catching the prosperous telegrapher and rehashed a recipe given me by no less a personage
-        than <persName>Mrs. John M. Sherwood</persName>, which I had never tried. She was going to a
-        picnic at <placeName>Garfield park</placeName> at 6 o’clock and brought over a 25-cent
-        chocolate cake to show me. Then she loaned me her scissors, told me good-by, and went home
-        to dress for the fete. <desc type="workingClass">Nothing of any importance occurred till someone passed the news that
-        a girl was asleep in the closet. Half a dozen left their machines to look at her,
-            <persName>Hannah</persName>, my mentor, among them. “Oh, you just ought to see her, fast
-        asleep, with her mouth wide open.” It was more than I could stand.</desc> I threw my
-            button-holes into the basket and went to the toiletroom.
-            <desc type="workingClass"> Sure enough, there was the poor girl sitting in the dirty place, her
-            head resting against a folded apron, breathing in the foul air that reeked with filth
-            and disease. The walls of the closet were black with pencil marks,
-        the floor was strewn with lint and threads, and the pale face of the sleeper looked ghastly
-        in the darkness. She had tied one end of a string to the latch and the other to the drop
-        chain.</desc> “My dear child, musnt’t sleep here. Are you sick?” “Oh, I am so sick.”
-            Instantly there were a dozen willing hands to help her out to a window
-            where a chair was placed for her. We rubbed her temples, chafed her hands, bathed her
-            head, and got her some lemons. After making her toilet she came over to my
-        table as I sewed away at my button-holes she told me her story.
-            “<persName>Rose</persName> and I are only six months in this country. We came from
-            <placeName>England</placeName> with our brother and live on <desc type="location">Carpenter
-            street</desc>. The climate doesn’t agree with me and I am sick all the time. At
-        first we worked in <orgName type="exposedCompany">Marshall Field’s</orgName> and <persName>Rose</persName> and I
-        made fringe. <desc type="wageDesc">We got <num type="wage" value="7.00">$7</num> a week and were so happy.</desc> It was awful nice there. We didn’t have to
-        pay for drinking water or anything; there were lots of towels, whole cakes of soap, and oh,
-        it was so clean. We had a foreman over us and he was as good as a brother to us. Sometimes
-        we let our money lay and drew it in a pile; oh, such a lot as it was! We put away very much
-        of it. But I got sick and all we ‘ad saved went for doctor and medicine. Then the work
-        stopped. They took our names though and promised to send for us in the fall. For a while we
-        worked in the box factory, but liked to starve. Then we went to
-            <orgName type="exposedCompany">Ellinger’s</orgName> and made <ref type="factoryItem">cloaks</ref> at <num type="wage" value=".30">30 cents</num> each, but it was
-        so hard, and we couldn’t please them no matter how we tried. We came here today, but it’s
-        only a fit place to starve in. All the work they gave me was a dozen <ref type="factoryItem">jerseys</ref> to
-        button; that’s <num type="wage" value=".11">11 cents</num> a row; had two dozen holes to finish at <num type="wage" value=".16">16 cents</num>. <num type="wage" value=".27">Twenty-seven cents</num>
-        for the two of us! How can we live on it?” and the child began to cry again. By way of
-        comforting her I took her name, promised to help her, and gave her my check for <num type="wage" value=".41">41 cents</num>.
-        She didn’t think it would be honored so I took it to the cashier myself and demanded pay as
-        I was not coming back in the morning. “No, ma’am,” said <persName>Tom</persName>, “you don’t
-            get it. Come round on the <date when="---20">20th</date> and I hunt you up.” At 5:30 work ceased. <desc type="workDesc">Each girl had to
-        sweep out her place, clean and oil the machine, and return her basket and check.</desc> I paid a
-        nickel to have my corner swept, and finding it impossible to wash up sans towel and soap I
-        got under my veil and rang the elevator. The pressers laughed and told me to try the
-        stairs—five flights. Down I went. At the second I went into the salesroom to buy a
-            <ref type="factoryItem">jersey</ref>. One of the firm waited on me; his magnanimity was sublime. The
-        identical black <ref type="factoryItem">jersey</ref> that I had received <num type="wage" value=".05">5 cents</num>for finishing was offered to
-        me at $2. I declined. By way of interest, one hundred dozen garments are turned out of the
-        factory every day in the year. As near as I could learn the salaries average $4 a week, but
-        plenty of grown women are not allowed to earn over 28 cents a day. Work begins at 7:30 a. m.
-        and 12:30 p. m. Anyone five minutes late working on time is fined an hour’s pay, and for the
-        loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept
-        idle form one to three hours. A girl who loses her ticket forfeits pay for the entire work,
-        not withstanding the entry is on the books of the firm. 
+                    <p><date when="1888-07-10">Tuesday, July 10</date>, according to instructions from THE TIMES, I made up for the role of shop-girl, and with a list of factories in one hand and gentle peace in the other sailed down State street under a brown braise veil as impenetrable as an iron mask. I applied at two feather factories and three corset shops, but aside from the exercise up and down several flights of stairs got nothing. The feather people did not need any help and the corset folks had not started on the winter trade. I was treated with civility, however, and given permission to "drop in a week or so." The fifth place on my list was the "<orgName type="exposedCompany">Western Lace Manufacturing Co.</orgName>" <desc type="location">218 State street</desc>. Ascending one flight of stairs I stopped to take off my veil and adjust my eyes to the low light. That done I looked about and finding a door marked "Office of the <orgName type="exposedCompany">Western Lace Manufacturing Co.</orgName>" with "Come In" on the glass I complied. A young girl followed and leaving her to close the door I fell into a chair, the only one about, and proceeded to perspire and scrutinize the place. The office was not uninviting. The flow had a cheap carpet, the ceiling was high and the room well ventilated and admirable lighted. On a long table, that served as a sort of fortification for the private office of the company, were the samples—"antique crocheted goods"—as they are listed, in various shades of white. All were of different pattern and unvarying ugliness. There were round tidies and oblong tidies, square mats for a bureau and smaller ones of oval and circular design, intended for a lamp or cushion. Behind the table, sachetiny between a writing stand and a desk, was a young man of 30 or so, of blonde type, with a stationary scowl between his eyebrows and an otherwise pleasing manner. That is, I thought the manner pleasing till I began to get acquainted with it and then my opinion changed. After a lapse of five minutes or so the fair-haired gentlemen turned to the young girl with a deepening of the scowl and a most unalluring "Well?".</p>
+                    <p>"I brought the mate back."</p>
+                    <p>"Oh, you have, eh?" opening a piece of newspaper and unfolding a dozen hand-made mats the size of a tea-plate. The work is carefully examined on both sides and as he proceeds the scowl deepens. Without a word he tosses the lot on the little table and reaches for the proffered blank the girl had opened.</p>
+        <p>"What's your name?"</p>
+                    <p>"<persName>Rhafferty</persName>."</p>
+                    <p>"How do you spell it?"</p>
+                    <p>"R-h-a-f-f-e-r-t-y."</p>
+                    <p>"Oh, yes; <persName>Martha Rhafferty</persName>," after hunting through a long list.</p>
+                    <p>"Do you want more work?"</p>
+                    <p>"No, sir."</p>
+                    <p>"There's plenty more if you want it."</p>
+                    <p>"No; my mother don't want me to do any more crocheting.</p>
+                    <p>"Well, <persName>Mr. White</persName>
+        isn't in now. Can't you come in again?"</p>
+                    <p>No answer. A look of discouragement comes over the young face.</p>
+                    <p>"Don't you have to do any shopping about town?"</p>
+                    <p>"No, sir."</p>
+                    <p>"Well, you can wait, can't you? Wait here. Take a chair. (I had the only one.) Just go in the next room there and take a chair."</p>
+                    <p>As he went to lead the way the crochet-teacher called his attention, and the girl remaining I seized my chances for a bit of interviewing.</p>
+                    <p><persName>Martha</persName> showed me her contract,
+        in which the firm agreed to refund $1 of the $3 deposited when she had finished $15 worth of work. On the back of the contract were the credit receipts of the company entered in lead pencil, dating from January to July. She told me she lived in <placeName>Gross Park</placeName>, away out on the West side that she helped her mother, and had been trying to earn $15 since January. She received 60 cents a dozen for the mats and it took her a week to crochet a dozen.</p>
+                    <p>"Then I must pay 10 cents car fare each time, and that leaves only 40 cents. I had to pay $3 before I could get any work. I always knew how to crochet, but they made me pay $2 for lessons and $1 as a security. I began in January, the first week, and now I am through. I have made $15, and when they give me back the dollar I shall have $16." Here is a company paying a girl of 18 $15 for six months and one week's labor.</p>
+                    <p>When <persName>Mr. Ford</persName> came from the work-room he was met by a boy who had brought in some work and was in a hurry to be off.</p>
+                    <p>"<persName>Mrs. Clark</persName> sent these mats and she, wants you to receipt for them."</p>
+                    <p>The paper is opened and the work inspected. The scowl deepens. There will be trouble and I prick up my ears.</p>
+                    <p>"I don't like this. This is bad. They are all stained. Are you her—her—are you a relation?"</p>
+                    <p>"Yes."</p>
+                    <p>"Well, you must tell her to wash her hands. These goods are all sweat. I'll have to charge her for spoiling the material if it occurs again. Did she tell you to ask for more work?"</p>
+                    <p>"No, sir."</p>
+                    <p>The poor boy is gone. <persName>Martha</persName> sits in the back room the picture of <damage agent="smudge" unit="word" quantity="1"/><unclear/><!-- RJP: need to check and see if we can find a better photo to fix this transcription --> and the entry being made I am approached. I look like a beggar and that is what I am taken for, as the pretty blonde secretary only scowls. He stands and looks down at me and I sit and look up at him waiting for the lines in the handsome brow to deepen, the edge of the soft, brown mustache to curl, and <pb n="2"/>the laconic, withering "well" to break the gaze. It comes.</p>
+                    <p>"Have you any work?" I ask.</p>
+                    <p>"Plenty." Do you want work?"</p>
+                    <p>"Yes."</p>
+                    <p>"What can you do?"</p>
+                    <p>"Oh, I can crochet."</p>
+                    <p>"This kind of work?" handing over one of the 60-cent mats.</p>
+                    <p>"Yes; what do you pay?"</p>
+                    <p>"Different prices. Pay by the dozen, from 60 cents to $10."</p>
+                    <p>"Let me have a dozen of the $10 kind, please, giving my cat-colored eyes a mater doloroso sort of a roll. As he caught the seraphic expression some facial machinery gave a lurch that threw one side of his countenance bias for a second. Reaching to the desk he pulled out the following circular and handed it to me.</p>
+                    <p><orgName type="exposedCompany">OFFICE OF WESTERN LACE MANUFACTURING CO.(Incorporated)</orgName>, <desc type="location">218 STATE STREET, CHICAGO, ILL</desc>—Madame: In reply to your letter regarding the work we send out to ladies to do at their homes we beg to say that we make a large line of crochet goods of our antique crochet cotton a sample of which you will find enclosed, also linen, silk, etc. We make mats, tidies, lambrequins, bedspreads, shams, collars, hood, lace edging, etc., in large quantities.</p>
+                    <p>We have been established here for the last five years and have extra facilities for selling goods in large lost: so we are enabled to keep our workers in steady work all the time. Should you desire to work for us we should be pleased to send you work on the following terms:</p>
+                    <p>When you send order for work you are required to remit to us $3: $2 of this is to pay us for the patterns and instructions which we shall send you with each lot of new work. We shall also send you sufficient extra material so you can make a sample of each pattern sent, which you are allowed to keep for yourself; $1 of the $3 you send is a deposit on the material we send, and this we shall return to you at any time when you return the work and wish to stop. You will be kept in steady work, paid for each lot when made and returned to us in good order. Our work is all made by the dozen, and prices range from 50 cents per dozen to $10 per dozen, according to amount of work. An easy pattern, with sample and full instructions, will be sent you at first, and the quality of work, and advance in prices as you adapt yourself to doing it. The work will be sent you by mail, postage paid by us one way. Three month's time is allowed you to do any one dozen of articles we send. This enables ladies who have only a few hours daily to spare to do our work as well as those ladies who take it intending to do it steadily.</p>
+                    <p>We are asked many times how much a lady can earn. This depends entirely upon your ability to crochet and the time you have at your command daily; ladies earning from $2 to $3 weekly. We could not guarantee to anyone any stated amount that they could earn, but our work is easy and after you accustom yourself to it you can do it very rapidly.</p>
+                    <p>If you desire work for us fill out the blank below and return it to us with the $3, and we will place your name on our books and send work at once with full instructions. Send your money by post-office order, draft, payable to our order, or registered letter at our risk. Very Truly, <orgName type="exposedCompany">WESTERN LACE MANUFACTURING CO.</orgName></p>
+                    <p>Keep the above for future reference.</p>
+                    <!-- RJP: in the original article there are a series of lines with dots where presumably the working girl would be filling out information. We are going to just simplify the extensive series of dots with an ellipsis(...)--><p>...188</p> <p><orgName type="exposedCompany">WESTERN LACE MANUFACTURING CO.</orgName>, <desc type="location">218 STATE STREET, CHICAGO, Ill.</desc> — Gentlemen: In-closed find $3 that I send you to secure patterns, instructions, and material for crochet work; $2 is to pay you for samples and instructions, and $1 is for deposit on material which I shall demand returned to me at any time when I return to you the material in my hands.</p>
+                    <p>Signature...</p>
+                    <p>Town...</p>
+                    <p>County...</p>
+                    <p>Street and No...</p>
+                    <p>"What's the $3 for?" I ask.</p>
+                    <p>"Can't you read? The $2 is to pay for the samples and instruction and the $1 as a security for our material. I don't know who you are and if I gave you the thread I might never see you again."</p>
+                    <p>"I don't need instruction. I can make the stitch and I don't want to put any such amount in samples. If you can't trust me with a spool of thread and a pattern will you sell me the material?"</p>
+                    <p>"That's not the way we do business. If you want to work for us you will have to comply with the contract. You pay $3: that entitles you to a sample mat which we teach you how to make. After you have $15 made worth of work we refund the $1."</p>
+                    <p>"What about the other $2?"</p>
+                    <p>"It goes to us for instruction and samples."</p>
+                    <p>"Will I have to make the samples?"</p>
+                    <p>"Yes."</p>
+                    <p>Then there are thirteen in the <orgName type="exposedCompany">Western Lace Manufacturing company</orgName>'s dozen?"</p>
+                    <p>"If you can to put it that way, yes. But you get one of each set."</p>
+                    <p>"But I don't want any. I have a supply. Tell me how much will you sell me a thirteenth of a dozen of this set for?"</p>
+                    <p>"The price is on the tag."</p>
+                    <p>"Ah. I see 15 cents: and you pay 60 cents a dozen for making them, a profit of $1.20. The best thing I've struck yet. Any stock for sale?"</p>
+                    <p>The scowl becomes threatening, but I venture to ask how much thread it takes to a mat for a closer calculation of the profits.</p>
+                    <p>No answer is deigned.</p>
+                    <p>"If I give you $3 you will give me work?"</p>
+                    <p>"Yes," in a sullen tone.</p>
+                    <p>"How much?"</p>
+                    <p>"All you can do," brightening up a little.</p>
+                    <p>"How do I know you will give me back $1 after I've earned $15?" I ask. "I don't know anything about you. I never heard of your firm before and there is no name on this paper."</p>
+                    <p>"I guess your motives are bad. You don't want work."</p>
+                    <p>"What guarantee have you to offer of honesty or respectability?"</p>
+                    <p>With glaring eyes, distended nostrils, and face crimson with rage he threw down a pile of 2-cent blank books in front of me. "There's our customers: every state in the union is represented: go to them if you want references. Here are more too." slamming down a sheet of paper with names and <placeName>Chicago</placeName> addresses of about forty women.</p>
+                    <p>"I see you have a minimum local trade. <placeName>Chicago</placeName> women don't seem overzealous about the crocheting business." Then I asked him where he got a market for the goods and the name of some business man to whom I could go for reference.</p>
+                    <p>"Now I am not going to do any more talking with you about this business."</p>
+                    <p>"Why?? Is it a secret organization, a sort of
+        Masonic--"</p>
+                    <p>"No. It isn't secret or Masonic either, but I don't believe you're all right and I won't answer any more questions until I know who you are and what you want."</p>
+                    <p>Poor <persName>Mr. Ford</persName> was so furious by this time that I thanked him for his attention and bade him good afternoon. At the foot of the stairs I waited to tie my veil on and see how <persName>Martha</persName> fared, but at the expiration of thirty minutes she was still waiting for <persName>Mr. White</persName> and her $16.</p>
+                    <p>Of the five women I interrogated none were able to earn 20 cents a day. All expressed a liking for the work but complained bitterly of the way the <damage agent="blurred" unit="word" quantity="1"/><unclear/><!-- RJP: need to check and see if we can find a better photo to fix this transcription --> gave out the work. For instance bedspreads paid $10 a dozen, but not more than three spreads were given to a hand and one of these was the sample. The little tablemats paid 50 cents per dozen, but before a girl was able to crochet enough to live on she was obliged to take collars made of line thread in such an intricate pattern that it was an utter impossibility to earn $1 a month.</p>
+                    <p>No woman seen had earned $15 in less than six months, and one of the most skilled hands had been on a 60-cent lot since June 3. By inquiry I learned that many women paid $3 and gave up the work when they saw it was not possible to make the $15 necessary for the rebate.  This fact does not appear in the circulars, and it is <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">noted</supplied></unclear> after the contract has been signed that the <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">equivocal</supplied></unclear> tacties of the concern are understood. Several cases are on record at the <orgName>Woman's Protective agency</orgName>, but no judgment has been obtained, as the agreement stands valid before the law. All that can be done in the matter is to warn the public against a concern legally incorporated to grind the life out of the women and girls unfortunate enough to patronize it.</p></div>
+                <div type="headlines">
+                    <list>
+                        <item>CLOAKS, OVERALLS, AND SHIRTS</item>
+                        <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>At <orgName type="exposedCompany">Rosenthal &amp; Co.'s and Rosenberg Bros</orgName>. I applied for work and was told to report in the morning to sew on cloaks.</p>
+                    <p>The manager in <orgName type="exposedCompany">Stein's</orgName>, on <desc type="location">Market street</desc>, wanted bands and offered to engage me at once. I was most impudently catechized some seven inquires requiring as many false statements. What was my name, place of residence, last position, amount of wages received, state of my health, nativity, married or single—to which I answered "neither." Here was a dilemma. "Oh, yes, widow?" and an inordinate ha! ha!</p>
+                    <p>Yes.</p>
+                    <p>"Grass widow, eh?" with a sneer.</p>
+                    <p>How much do you pay for cloaks, I asked, tired of the ordeal.</p>
+                    <p>"Fifty cents, each."</p>
+                    <p>It was enough and I left the creature still anxious to solve the widow question. By the time I reached <orgName type="exposedCompany">Ludden's</orgName>, <desc type="location">122 Market street</desc>, I was in a reckless frame of mind.</p>
+                    <p>"Is there any work for a good sewer?" I asked the girl in the office.</p>
+                    <p>"Yes, plenty.<persName>John</persName> give her some pants."</p> 
+                    <p><persName>John</persName> had eyes the color of calico and a complexion like an immature tomato. He led the way to the cottonades, which were cut, trimmed, and tied up in bundles of a dozen garments each.</p>
+                    <p>"Here's a sample," holding up a pair of overalls of brown cottonade. "The work is cut out, but you will have to do everything yourself. I want you to make the fly extra strong and press the buttons. We pay 75 cents a dozen and you find your own thread."</p>
+                    <p>"Seventy-five cents for a dozen of these pants and find my own thread?"</p>
+                    <p>"Yes. Or I'll pay you 80 cents a dozen and give you linen thread if you sew the buttons on fast."</p>
+                    <p>"No. I guess I won't take the pants. What other work have you?"</p> 
+                    <p>"Here are cheviot shirts if you'd rather. Gusset the tail here and the sleeves, stay the bosom and arm-holes, and make the collar and wrist-bands extra strong. These pay 75 cents a dozen." He offered to give me three on trial. The thread would cost 5 cents, car-fare 10 cents, and I should have 3 cents after the job.</p>
+                    <p><persName>John</persName> said: "That's so, but I can't help it. If the work is satisfactory you can have a six-dozen lot."</p>
+                    <p>It was very good of <persName>John</persName> to sympathise with me, but I thanked him and said I would look a little further.</p></div>
+                    <div type="headlines">
+                        <list>
+                            <item>THE NEVER-RIP JERSEY.</item>
+                            <item>A Hard Day's Work for 41 Cents</item>
+                            <item>Less Fortunate Workers Who Earned Only 11 Cents</item>
+                            <item>A Sick Girl's Sad Story</item>
+                            <item>The Hopeless Miss Who Longed to Be Married.</item>
+                        </list>
+                    </div> 
+                <div type="articleBody">
+                    <p>At the<orgName type="exposedCompany">Never-Rip Jersey Company</orgName> I was told to apply at the factory <desc type="location">133 West Washington street</desc>.</p>
+                        <p>"Work is given out at 7:30 a. m.," the clerk informed me, "and if you have any snap about you you can make a good living. By the way of getting the required snap I went home, ate my dinner, and was in bed at 8 o'clock.</p>
+                    <p>The next morning I resumed the rags of poverty and at 7 o'clock made my debut as the factory hand. I was one of 120 women, ranging in age from 15 to 60. The factory where the never-rip jerseys are made is at the corner of Washington and Union streets, with the elevator entrance in the rear and workroom in the fifth story.</p>
+                    <p>The girls began to arrive at 7 o'clock, and at every trip of the elevator some twenty or more were carried up-stairs. I took a chair in one of the machine rows, and for an hour did nothing but watch the preparations for work in that human hive. The room was 50x138, with an open unfinished roof and brick walls calcimined. Light was admitted from rear and side windows. The pressmen had their boards and furnaces at the south end of the room, where all the work was pressed prior to being boxed and ticketed for the trade. At the extreme opposite end was the cutting-room, fenced in from the rest, and between the two were the worktables, where the hundred odd girls stitched and finished the jerseys.</p>
+                    <p>Along the brick walls were nails, irregularly driven, on which the girls hung their hats and wraps, dresses and collars. Nearly every one took off her dress and waisit, turned it inside out, put it on a nail and put on a calico of old stuff shop suit. A few took off their corsets and nearly all the machine hands changed their shoes before work. On the stroke of 7:30 a bell rang, the power was turned on the machines began to buzz like little saw-mills and the day's work had commenced. Heads of brown, black, yellow, and gray bent so near the flying shuttles that every minute I experted the bangs and fluffy crimps would get caught in the machinery.  The faces were sad and so very, very pales that I shall never look at a jersey again without seeing them. The average age may have been 23, but not less. There were girls of 17 and 18 and some world-weary women past 50 all working for little more than enough to keep body and soul together. The work circulated in baskets—long chip hampers with stout-handles—that held a dozen, with room for five times that quantity. A great deal of time was lost by the workers in getting the contents of the basket examined, checked off on the ticket and the ticket stamped. If it had been the last change for life I don't believe the girls would have worked any harder for salvation. Scarcely a head was raised from machine or lap. Shoulders were bent down, chests hollowed in, and faces drooped so low that I could not begin to make a study of the "windows of the souls" before me. At 8:40 the proprietor of the chair I was in asked me to vacate, and I walked down through the narrow aisles of sewing-women to the "forelady" and asked for work.</p>
+                    <p>She asked me if I wanted to take a machine, but I expressed a preference for finishing. I was given a number, a basket with five jerseys to finish, and a chair beside a girl named <persName>Hannah</persName>, who, being engaged by the way was told to "show me." <persName>Hannah</persName> had blonde hair and talked with the brogue. She gave me a needle as long as my engagement finger, and the most meager instruction compatible with obedience. Fortunately I had my thimble and crossing my knees I threaded the gimlet-like needle with silk and I proceeded to hook-and-eye a jersey. Remembering the treachery of my shop clothes I ever wore filled the two hooks and eyes with sewing and after testing them proceeded to face the collar. I told <persName>Hannah</persName> about my misery, but she wisely said it was no fault of hers and went on with a $3-a-dozen lot she had been doing two days and a half. Thinking it would be a good way to get acquainted with my neighbors I asked several for a fine needle and at last exchanged the crow-bar <persName>Hannah</persName> had given me for a line cambric article. It worked better and at the end of two hours I had bound the arm-holes, faced the collar, tacked the front facing and the bustle piece, and put two patts of hooks and eyes in a black jersey. The dye was not fast, neither was the wool, for my throat, ears, and nostrils were tufted with black lint. I was African from the nails to the wrists. The front facings had to be trimmed off. I had no scissors. <persName>Hannah</persName> was ungenerous with hers, and I lost about 15 cents worth of time borrowing the weapons. At noon I had finished four jerseys and was so sore about the neck and back that I could scarcely rise from the chair. I began to scent hot tea, and looking about saw a big girl called <persName>Emma</persName> brewing three pots of Japan over one of the press furnaces. She had her front hair in curl papers and was whistling "In The Sweet Bye and Bye." About thirty girls went to her, each with her own cup, for a supply of tea. I remarked to one passing my chair that her tea looked awfully nice and asked where she got it.</p>
+                    <p>"From <persName>Em</persName>. She makes it and we each pay 2 cents a week."</p>
+                    <p>On the stroke of 12 the machine stopped and 120 tired women stopped too, for thirty minutes' rest and the food that could hardly be called refreshing. In the main it consisted of brown bread and butter. In some parcels there was cold meat and cake: others had pie; a few a bottle or canteen of milk, cold tea or coffee, but I did not see a particle of fruit. One little girl who had been stretching jerseys at 2 cents each made a lunch on three graham crackers and a piece of custard pie, which she ate reading a paper-covered book. I counted thirty-seven girls with a lunch of dry bread, fifteen with sandwiches, and ten who ate cold pancakes. Twenty-three girls were without any luncheon whatever. During the intermission the elevator stopped running and no one left the building but myself. Less than ten minutes was spent over the wretched meal. At one side of the west wall, separated by a ten-foot pine partition, was the toilet-room containing an iron <choice><sic>zinc</sic><reg resp="#rjp">sink</reg></choice> with one faucet of running water. Here the girls crowded like so many cattle, each with her bit of soap and grimy cotton towel, to wash. Dress waists were loosened and necks, faces, arms, and hands lathered with soap and rinsed, as the change permitted. There were three closets, unflushed, untidy, and unwholesome. Set up against the wall in this enclosure, with the faucet run through the partition, was a barrel of ice water inscribed in big letters: "Two cents will be collected every Saturday for ice water." Besides this luxury every hand pays 12 cents a week for the use of the machine.</p>
+                    <p>At 1 o'clock I finished my basket, which I dragged to <persName>Tom</persName>, the book-keeper, who took my name and credited me with five garments. No price had been put on the jerseys, as they were sampled goods, but the forelady thought they would go at 60 cents a dozen, which meant 25 cents to my credit.</p>
+                    <p>I didn't get any more work till 2 o'clock because the forelady was in the toilet-room having her bangs done up in paper. She was a pretty woman, by the way, with a good face and a shock of beautiful auburn hair. She had been in her position for six years and was drawing a salary of $35 a week. The girls had a good word for her generally, but she struck me as being a woman without heart. At her appearance I was given a basketful of jerseys to finish button-holes. I worked like a Trojan for an hour, at the end of which I won the heart of a little girl who sat at the end of my table facing the wall. She had been sitting still so long that I called out and asked if she were ill.</p>
+                    <p>"No. I haven't any work."</p>
+                    <p>Tired almost to exhaustion and as hot as a newly-built mustard plaster I was only too glad of a chance to transfer my interests, but she declined. It was too hot to work; she was going away soon, she said, and didn't care to do any more.</p>
+                    <p>"When did I begin? Today. I worked in a box-factory, but it was so dull I could only earn 16 cents a day. My mother wants me to pay her $2.50 a week board, but how could I with 96 cents. This is no better. I came at 8 this morning and I have only made 11 cents. I am 21. Beaus? Yes, some. I have one steady fellow, but I don't know if he will marry me. I hope he will. She told me he earned $75 a month as a telegraph operator on the board of trade; that he was "steady as a steeple, and the only fellow she ever loved."</p>
+                    <p>I told her how to go about catching the prosperous telegrapher and rehashed a recipe given me by no less a personage than <persName>Mrs. John M. Sherwood</persName>, which I had never tried. She was going to a picnic at <placeName>Garfield park</placeName> at 6 o'clock and brought over a 25-cent chocolate cake to show me. Then she loaned me her scissors, told me good-by, and went home to dress for the fete.</p> 
+                    <p>Nothing of any importance occurred till someone passed the news that a girl was asleep in the closet. Half a dozen left their machines to look at her, <persName>Hannah</persName>, my mentor, among them.</p>
+                    <p>"Oh, you just ought to see her, fast asleep, with her mouth wide open." It was more than I could stand. I threw my button-holes into the basket and went to the toiletroom. Sure enough, there was the poor girl sitting in the dirty place, her head resting against a folded apron, breathing in the foul air that reeked with filth and disease. The walls of the closet were black with pencil marks, the floor was strewn with lint and threads, and the pale face of the sleeper looked ghastly in the darkness. She had tied one end of a string to the latch and the other to the drop chain.</p>
+                    <p>"My dear child, musnt't sleep here. Are you sick?"</p>
+                    <p>"Oh, I am so sick."</p>
+                    <p>Instantly there were a dozen willing hands to help her out to a window where a chair was placed for her. We rubbed her temples, chafed her hands, bathed her head, and got her some lemons. After making her toilet she came over to my table as I sewed away at my button-holes she told me her story.</p>
+                    <p>"<persName>Rose</persName> and I are only six months in this country. We came from <placeName>England</placeName> with our brother and live on Carpenter street. The climate doesn't agree with me and I am sick all the time. At first we worked in <orgName type="exposedCompany">Marshall Field's</orgName> and <persName>Rose</persName> and I made fringe. We got $7 a week and were so happy. It was awful nice there. We didn't have to pay for drinking water or anything; there were lots of towels, whole cakes of soap, and oh, it was so clean. We had a foreman over us and he was as good as a brother to us. Sometimes we let our money lay and drew it in a pile; oh, such a lot as it was! We put away very much of it. But I got sick and all we 'ad saved went for doctor and medicine. Then the work stopped. They took our names though and promised to send for us in the fall. For a while we worked in the box factory, but liked to starve. Then we went to <orgName type="exposedCompany">Ellinger's</orgName> and made cloaks at 30 cents each, but it was so hard, and we couldn't please them no matter how we tried. We came here today, but it's only a fit place to starve in. All the work they gave me was a dozen jerseys to button; that's 11 cents a row; had two dozen holes to finish at 16 cents. Twenty-seven cents for the two of us! How can we live on it?" and the child began to cry again.</p>
+                    <p>By way of comforting her I took her name, promised to help her, and gave her my check for 41 cents. She didn't think it would be honored so I took it to the cashier myself and demanded pay as I was not coming back in the morning. "No, ma'am," said <persName>Tom</persName>, "you don't get it. Come round on the 20th and I hunt you up."</p>
+                    <p>At 5:30 work ceased. Each girl had to sweep out her place, clean and oil the machine, and return her basket and check. I paid a nickel to have my corner swept, and finding it impossible to wash up sans towel and soap I got under my veil and rang the elevator. The pressers laughed and told me to try the stairs - five flights. Down I went. At the second I went into the salesroom to buy a jersey. One of the firm waited on me; his magnanimity was sublime. The identical black jersey that I had received 5 cents for finishing was offered to me at $2. I declined. By way of interest, one hundred dozen garments are turned out of the factory every day in the year. As near as I could learn the salaries average $4 a week, but plenty of grown women are not allowed to earn over 28 cents a day.</p>
+                    <p>Work begins at 7:30 a.m. and 12:30 p.m. Anyone five minutes late working on time is fined an hour's pay, and for the loss of an hour the pay of half a day is knocked off. Piece-workers who are late are kept idle form one to three hours. A girl who loses her ticket forfeits pay for the entire work, not withstanding the entry is on the books of the firm. 
                     </p>
                 </div>
                 <div type="advertisement">
-                    <p>LIFE AMONG THE SLAVE GIRLS OF <placeName>CHICAGO</placeName>
-                        <ref type="theTimes">THE TIMES</ref> 
-                        Will print tomorrow the second bath of facts concerning the
-                        workings of some of the factories of <placeName>Chicago</placeName> where girls and women are employed. <ref type="newspaperSeries">These
-                            articles are written by a young lady who passed through the common experiences of those
-                            unfortuantes of her own sex who are compelled to undergo the hardships and tortures of
-                            factory life in this city. She tells plainly what she saw ad what she heard; gives names and
-                            places whenever necessary, and backs up her statements with unquestionable proofs. These are
-                            revelations as unexpected as they are unpleasant.</ref> It was necessary that <ref type="theTimes">The Times</ref> should
-                        make them in order that the unthinking wealthy, well-to-do, and comfortable citizens of
-                        Chicago should have their eyes opened. If the condition of the working women and girls of
-                        this city is improved, even in a slight degree, by these exposures <ref type="newspaperSeries">The Times</ref> will be fully
-                        repaid. Read <ref type="newspaperSeries">The Times</ref> every day this week. Two cents per copy. Delivered by carrier, 12
-                        cents per week for daily and 15 cents per week for daily and Sunday. Order it by postal
-                        card, letter, or telephone 1362. </p>
+                    <p>LIFE AMONG THE SLAVE GIRLS OF <placeName>CHICAGO</placeName>.</p>
+                    <p>THE TIMES</p>
+                    <p>Will print tomorrow the second bath of facts concerning the workings of some of the factories of <placeName>Chicago</placeName> where girls and women are employed. These articles are written by a young lady who passed through the common experiences of those unfortuantes of her own sex who are compelled to undergo the hardships and tortures of factory life in this city. She tells plainly what she saw ad what she heard; gives names and places whenever necessary, and backs up her statements with unquestionable proofs.</p>
+                    <p>These are revelations as unexpected as they are unpleasant. It was necessary that The Times should make them in order that the unthinking wealthy, well-to-do, and comfortable citizens of <placeName>Chicago</placeName> should have their eyes opened.</p>
+                    <p>If the condition of the working women and girls of this city is improved, even in a slight degree, by these exposures The Times will be fully repaid.</p>
+                    <p>Read The Times every day this week. Two cents per copy. Delivered by carrier, 12 cents per week for daily and 15 cents per week for daily and Sunday. Order it by postal card, letter, or telephone 1362.</p>
                 </div>
             </div>
             
