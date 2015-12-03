@@ -4,7 +4,7 @@
 Use the "damage" element for when some aspect of the text is difficult to read. 
 Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. 
 Your reading should sit within the <unclear><supplied>..</supplied></unclear> tagset. 
-If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element leaving out the <supplied> element. 
+If you cannot read the text at all still provide the damage tag and follow it with a self-closing <unclear/> element leaving out the "supplied" element. 
 
 For Example:
 
@@ -34,10 +34,7 @@ Explanation of Attributes
 
 Here’s how to code idiosyncratic and standard spellings.        
 
-     <p>Text text text text text text text text text <choice><sic>Wierd</sic><reg resp="#rjp">weird</reg></choice> text text text
-
-<choice><sic>every body</sic><reg resp="#rjp">everybody</reg></choice> 
-For the word you place in <reg>..</reg> tags, use Oxford international English spelling.)</p>
+<p>Less than ten minutes was spent over the wretched meal. At one side of the west wall, separated by a ten-foot pine partition, was the toilet-room containing an iron <choice><sic>zinc</sic><reg resp="#rjp">sink</reg></choice> with one faucet of running water.</p>
 
         
     
