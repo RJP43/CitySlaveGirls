@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codeBook>
+  
+<rule n="1">
+  *****Here's how to code text that is unreadable or difficult to transcribe***** 
     
 Use the "damage" element for when some aspect of the text is difficult to read. 
 Follow with the "unclear" and "supplied" in combination and make a reasonable guess for what's missing. 
@@ -26,15 +29,24 @@ Explanation of Attributes
 </damage>
 <supplied>
     @resp <!-- this is a declaration of who is responsible for the interpretation of text-->
-     resp="#yourInitials" <!-- the hash tag is reference to the xml:id that each editor will have in the site index! 
-     For now each editor can make up their own xml:id and supply it after the # hashtag which will later link it to the site index.
-     The id should be the editor's initals!-->
+     resp="#yourInitials" <!-- the hash tag is reference to the xml:id that each editor will have in the site index! For now each editor's id should be the editor's and that gets supplied after the # hashtag which will later link it to the site index.-->
 </supplied>
 
-
-Here’s how to code idiosyncratic and standard spellings.        
+</rule>
+  
+<rule n="2">
+  *****Here’s how to code idiosyncratic and standard spellings.*****        
 
 <p>Less than ten minutes was spent over the wretched meal. At one side of the west wall, separated by a ten-foot pine partition, was the toilet-room containing an iron <choice><sic>zinc</sic><reg resp="#rjp">sink</reg></choice> with one faucet of running water.</p>
+  
+  <choice>Holds the entire context including the word originally used and our correction to the more modern or known spelling</choice>
+  <sic>Contains the word as it appeared in the original</sic>
+  <reg>Contains our correction to the more modern or known spelling of the word
+    @resp <!-- this is a declaration of who is responsible for supplying the corrected word-->
+    resp="#yourInitials" <!-- the hash tag is reference to the xml:id that each editor will have in the site index! For now each editor's id should be the editor's and that gets supplied after the # hashtag which will later link it to the site index.-->
+  </reg>
+  
+</rule>
 
         
     
