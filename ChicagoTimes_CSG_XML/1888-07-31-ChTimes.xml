@@ -41,23 +41,23 @@
             <sourceDesc>
                 <biblFull>
                     <titleStmt>
-                        <title level="s">"City Slave Girls"</title>
-                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
-                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
+<title level="s">"City Slave Girls"</title>
+<author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
+<editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
                     </titleStmt>
                     <editionStmt>
-                        <edition>Newspaper Print</edition>
+<edition>Newspaper Print</edition>
                     </editionStmt>
                     <extent>21-part series: Front-page placement</extent>
                     <publicationStmt>
-                        <publisher>Chicago Times</publisher>
-                        <pubPlace>Chicago</pubPlace>
-                        <date>1888</date>
-                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
-                        <availability>
-                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
-                            </p>
-                        </availability>
+<publisher>Chicago Times</publisher>
+<pubPlace>Chicago</pubPlace>
+<date>1888</date>
+<publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+<availability>
+    <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+    </p>
+</availability>
                     </publicationStmt>
                 </biblFull>
             </sourceDesc>
@@ -74,11 +74,11 @@
             <div>
                 <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title></head>
                     <div type="headlines">
-                        <list><item>>Further Details of the Factory Investigation Conducted by "The Times'" Lady Reporter.</item>
-                        <item>A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of Lash.</item>
-                        <item>A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for Sixteen Cents.</item>
-                        <item>The Unfortunate Insulted and Abused by Their Employer and Humiliated by the Forewoman.</item>
-                        <item>Eighty Cents a Week for Laboring from 7:30 in the Morning Until 5:30 in the Evening.</item>
+<list><item>>Further Details of the Factory Investigation Conducted by "The Times'" Lady Reporter.</item>
+<item>A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of Lash.</item>
+<item>A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for Sixteen Cents.</item>
+<item>The Unfortunate Insulted and Abused by Their Employer and Humiliated by the Forewoman.</item>
+<item>Eighty Cents a Week for Laboring from 7:30 in the Morning Until 5:30 in the Evening.</item>
                     </list>
                     </div>
                <div type="articleBody">
@@ -145,17 +145,50 @@
     <p>"What's the reason you won't?"</p>
     <p>"Cause I won't."</p>
     <p>"Well you will. Tell me how wide you want this plush or I will see <persName>Mr. Ellinger</persName>."</p>
-                   <p>"See him. I don't care. There he is," pointing to the snaky, half-starved creature whose shanks I had been sketching and on whom I had scornfully turned my back. It was too much to ask of a free-born American woman to recognize the superiority of such a person. He came up to us in an instant. The forewoman was livid with rage and she began to talk as fast as her tongue could move. Some fifty or more girls heard the tirade breathlessly. Before the half-dressed proprietor had a chance to get over his astonishment I threw the front of the cloak in his face, the side body at the forewoman, and walked off to my disabled chair with <persName>Mr. Ellinger</persName> for a body guard. He was the color of a sanitatium babe when he reached my work table. He had the two pieces of cloak in his hand and when he raised his fist to strike me I worked up an <damage agent="blurred" unit="word" quantity="1"/><unclear/> attitude and dared him.</p>
+                   <p>"See him. I don't care. There he is," pointing to the snaky, half-starved creature whose shanks I had been sketching and on whom I had scornfully turned my back. It was too much to ask of a free-born American woman to recognize the superiority of such a person. He came up to us in an instant. The forewoman was livid with rage and she began to talk as fast as her tongue could move. Some fifty or more girls heard the tirade breathlessly. Before the half-dressed proprietor had a chance to get over his astonishment I threw the front of the cloak in his face, the side body at the forewoman, and walked off to my disabled chair with <persName>Mr. Ellinger</persName> for a body guard. He was the color of a sanitatium babe when he reached my work table. He had the two pieces of cloak in his hand and when he raised his fist to strike me I worked up an <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">Indian-club</supplied></unclear> attitude and dared him.</p>
                    <p>He escorted me to the toilet-room, where I went for my hat and jacket, and before slamming the door in his face by way of a hint as to the privacy of the place I threw my needle and thread at him. <persName>Mr. Ellinger</persName> saw me across the shop and down the first flight of stairs. And there ended my first experience in a cloak factory.</p>
             </div>
                 <div type="headlines">
                     <list>
-                        <item>SIXTY CENTS A WEEK</item>
-                        <item>For Working from 7:30 in the Morning Until 5:30 in the Evening - And Still the Poor Girls Complain the Prices Are Being Continually Cut Down.</item>
+<item>SIXTY CENTS A WEEK</item>
+<item>For Working from 7:30 in the Morning Until 5:30 in the Evening - And Still the Poor Girls Complain the Prices Are Being Continually Cut Down.</item>
                     </list>
                 </div>
                 <div type="articleBody">
-                    <p>I next made application for work at</p>
+                    <p>I next made application for work at <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">Wetherell's</supplied></unclear>, on Wabash avenue, where hundreds of girls are employed on corsets, bustles, skirts, jerseys and cloaks. Boarding the freight elevator I was drawn up to the top floor, where a pretty little Jewess informed me that Mr. <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">Saulsbery</supplied></unclear> was engaged, but would see me in a little while. She showed me to a seat in the rear end of the store at the entrance to the shop-room, and for a single hour I listened to the drop, drop, drop of the heavy machinery and the snatches of song and merriment between the iron roar. Presently Mr. Wetherell came and sat by me.</p>
+                    <p>"Did you want work?" he asked.</p>
+                    <p>"Very much."</p>
+                    <p>"What kind of work have you been doing?"</p>
+                    <p>I admitted I had never worked in a factory, but told him I could sew and was willing to do anything that would give me a living.</p>
+                    <p>"Well, you ought to have a chance - a good chance if you are willing to work - but it's dull just now and I don't see where we can put you. You say you can sew. Run the machine too? Well, we start our skirt and cloak rooms in a couple of weeks, and then we can try you."</p>
+                    <p>"But I must have work," I persisted, "at once. I can't wait two weeks."</p>
+                    <p>Mr. Wetherell sighed a little and left me to see a customer who had just then entered. While I was fixing up a romance in case any inquiry was made as to my age, name, residence and position in life, a sad-faced Irish mother came up the four stories with a sixteen-year-old daughter. They were as poorly dressed as myself, but considerably less happy. The mother's hands were hard, thin and work-worn, and her face seamed with care. She wore an old bonnet, a coarse black dress, poor shoes, an old shawl, and an expression of injury, despondency, and severity. Annie was a well-developed girl, with a good, wholesome face, red cheeks, bright, fun-loving eyes, big hands and feet, a most ungainly manner, and a nice figure. She had been crying, for her lashes were wet, and she seemed expectant that a crisis of some sort was near at hand. I soon learned that the mother missed her calling when she adopted maternal duties. The family lived in the region of Blue Island avenue and consisted of the parents and growing children, two or three having married. Annie was the youngest and "had to
+do something for her grub, " as the mother said. For a long, time she worked in a box factory and made good wages, but the work was not steady, and last January she came to Wetherell's.</p>
+                    <p>And what do you think she did?</p>
+                    <p>She earned 80 cents a week cutting dress reeds from 7:30 o'clock in the morning until 5:30 in the evening. Annie will be 17 years old in September. Here is her account of the work:</p>
+                    <p>"Oh yes, I like it. They don't pay me much, but the forelady's good to me, and Mr. Saulsbery is awful kind. The girls is nice, too. The only thing I don't like is that they're always cuttin' me down. I can't make hardly nothing."</p>
+                    <p>"Last week? Oh, last week I wasn't here. I staid home. It was so hot I didn't want to take the trouble to come down for 13 cents a day and walk and put up my lunch."</p>
+                    <p>Thinking the girl's calculations were amiss I turned to the mother, who confirmed the statement, adding: "It don't pay to feed that kid to work on the pay she's getting."</p>
+                    <p>"It's what all the girl's gets," added Annie, beginning to cry. I played mother for a little while, told her she was a good girl to help her parents and not to mind, for there was plenty of work, and if she comes to The Times I'll help her get it.</p>
+                    <p>After the Irish gray eyes had been dried with both corners of her little black shawl she gave me the prices at which she had been working. Here they are:</p>
+                    <p>One cent a gross for cutting steels in eleven, fifteen and eighteen inch length. The work is done by machine, the operator using one foot and both hands constantly.</p>
+                    <p>Four cents a gross for sewing buckles on bustles.</p>
+                    <p>Three cents a dozen for basting bustles.</p>
+                    <p>Four cents a dozen for springing bustles.</p>
+                    <p>Seventy cents a dozen for putting elastics on reeds and boxing the same.</p>
+                    <p>Wages in this department vary from 60 cents to $3 a week, $1.50 being a very fair average, and this too, for girls of 19 years and less.</p>
+                    <p>When the manager had dismissed his guest he waited on Annie's mother, who turned traitress, betraying her own child to the enemy in this style:</p>
+                    <p>"Can Annie come back, sir?" she asked.</p>
+                    <p>"Why, I guess so. What's been the matter?"</p>
+                    <p>Annie rolled her finger up in black fringe, hung her head, and allowed the tears to stream down her cheeks.</p>
+                    <p>"Oh she's so sassy," kindly volunteered the mother, "and she comes home to me with a batch of stories every night about your cuttin' down the prices. Sure I can't believe a word she says."</p>
+                    <p>"Well, you come in the morning, Annie, and I'll see what we can do for you." With this dismissal poor Annie followed her mother, who doubtless felt that she had done her duty by the child.</p>
+                    <p>I recited my piece to the low-voiced gentleman, who said there was plenty of work in the bustle department, but he guessed it wouldn't be pleasant for me, as the girls were only sixteen or so. I tried to assure him that I didn't care about the company, that I only wanted a chance to make a living for myself.</p>
+                    <p>"Well, I don't think you could earn enough to support yourself at machine work. Come in about Monday and I think we can give you something at $3 or so."</p>
+                    <p>"Three dollars a week?"</p>
+                    <p>"Yes."</p>
+                    <p>"God have mercy on the girls," I said reverently and departed.</p>
+                    <p>NELL NELSON</p>
                 </div>
             </div>
         </body>
