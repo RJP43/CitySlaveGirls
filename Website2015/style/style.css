@@ -27,53 +27,50 @@ a:hover {
 /* begin styles to control the header and menu options that belong at the top of every page on the website*/
 
 #header {
-	padding:10px 20px 20px;
-	margin:10px auto;
+
 	border:2px solid #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
 	background: #FFFFFF;
 	display:block;
-	position:relative;
+	position:inherit;
 	text-align:center;
 }
 
 #header h1 {
-	font-family: 'Yellowtail', cursive;
-	font-size:3.0em;
-	text-transform:none;
-	letter-spacing:0em;
+	font-family: 'Goudy Old Style';
+	font-size:300%;
 	text-align:center;
 }
 
 #header h2 {
-	margin:-10px 0px 20px;
-	font-size:2.0em;
+    font-family: 'Goudy Old Style';
+    font-size:160%;
 	text-align:center;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 
 #menu {
+    font-family: 'Goudy Old Style';
 	text-align:center;
-	display:block;
+
 }
 
 #menu ul {
-	padding:0px;
+	
 	list-style-type:none;
-	display:inline;
+    display:inline
 }
 
 #menu li {
-	margin:0px 20px;
-	padding:10px;
 	list-style-type:none;
-	display:inline;
+    display:inline;
+    padding:8px
 }
 
 #menu a:link, #menu a:visited {
-	font-size:1.5em;
+	font-size:160%;
 	font-weight:normal;
 	color: #000000;
 }
@@ -87,14 +84,14 @@ a:hover {
 /* begin styles to control the body of every page*/
 
 body {
-    background: #E0D8DE;
-    margin: 20px auto;
-    padding: 20px;
-    border:3px dotted #42033D;
+    background:#f7b6a1 /*#ffb299*/ /*#f0c8e6*/ /*#E0D8DE*/;
+    margin: 1px;
+    padding: 1px;
+    border:2px dotted  #dd4513 /*#f39272*/  /*#a1e2f7*/ /*#42033D*/;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
-	width:100%;
+	
 }
 
 /* end styles to control the body of every page*/
@@ -104,8 +101,7 @@ body {
 	display: block;
 	clear: both;
 	background: #FFFFFF;
-	padding:10px 20px 20px;
-	margin:10px auto;
+
 	border:2px solid #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
@@ -118,10 +114,10 @@ body {
 /* begin styles to control the home page*/
 
 
-img {display:block; margin-left:auto; margin-right:auto; }
+img {display:block; margin-left:auto; margin-right:auto  }
 
-#image {width:560px;
-/**ebb: *560px is the width of the image, according to our console log, so this controls the width of all the child divs inside <div id="image">.**/
+#image {width:100%;
+   height:100%;
    margin-left: auto;
    margin-right:auto
   
@@ -136,22 +132,25 @@ img {display:block; margin-left:auto; margin-right:auto; }
 #image_text {display:block;
 	margin-left: auto;
 	margin-right:auto;
+	padding:2px;
 	color: #FFFFFF;
 	background-color: #6A6262; 
-	border:1px solid #FFFFFF;
+	border:2px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
-	width:100%;
+	width:560px;
 	text-align:center;
-	font-size:90%;
+	font-size:100%;
 	position:relative;
 }
 
 #content_text {
-
-	margin:10px 10px 10px;
-	border:4px dotted #B9929F;
+    
+	margin-left:auto;
+	margin-right:auto;
+	padding:6px;
+	border:2px dotted #B9929F;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
@@ -172,8 +171,8 @@ img {display:block; margin-left:auto; margin-right:auto; }
 	}*/
 
 #content_about h2{
+    font-family: 'Goudy Old Style';
 	background:transparent;
-	color:#6A6262;
 	padding:5px;
 	margin:10px;
 	text-align:center;
@@ -185,10 +184,20 @@ ul {
 }
 
 #content_about {
+    font-family: "Arial";
     padding: 10px;
 }
+#Source {border:6px outset #FFFFFF;
+	border-radius:8px;
+	padding:2px}
+	
+#Team {border:6px outset #FFFFFF;
+    border-radius:8px;
+    padding:2px}
 
-#section {
+#section {border:2px dotted #FFFFFF;
+    border-radius:8px;
+    margin:6px 1px 1px 1px;
 	float:left;
 	width:300px;
 	text-align:left;
@@ -227,11 +236,12 @@ ul {
 }
 
 #content_articles {
+    font-family: "Arial";
 	width: 600px;
 	float: right;
 	padding:10px 20px 10px;
 	text-align:center;
-	margin: 20px 10px 20px;
+	margin: 6px 1px 1px 1px;
 	border:3px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
@@ -254,7 +264,7 @@ ul {
 }
 
 #content_books h1 {
-	color: #C9B9B9;
+	color: #000000;
 	text-shadow:0 1px 0 #B9929F;
 	margin:50px 0px 50px;
 	font-size:1.5em;
@@ -265,7 +275,7 @@ ul {
 	color: #FFFFFF;
 	background:#6A6262; 
 	text-align: left;
-	font-size: 1.3em;
+	font-size: 150%;
 }
 
 #book1 a:hover, #book2 a:hover {
@@ -276,6 +286,7 @@ ul {
 	text-align: left;
 	color: #000000;
 	margin:5px;
+	padding:5px;
 }
 
 #McEnnis_text h1, #McEnnis_text h2 {
