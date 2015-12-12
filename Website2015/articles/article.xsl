@@ -15,14 +15,14 @@
                 <ul>
                 <xsl:apply-templates select="//div[@type='headlines']"/>
                 </ul>
+                <hr/>
                 <xsl:apply-templates select="//div[@type='articleBody']"/>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="div[@type='headlines']">
-        <li><xsl:apply-templates/></li><br/>
+        <li><xsl:apply-templates/></li>
     </xsl:template>
-    <hr/>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
@@ -31,15 +31,15 @@
     </xsl:template>
     <xsl:template match="said[@who]">
         <xsl:choose> 
-            <xsl:when test="//said[@who='nellNelson']"><span class="nellNelson"><xsl:apply-templates/></span></xsl:when>
-            <xsl:when test="//said[@who='workingGirl']"><span class="workingGirl"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="@who='nellNelson'"><span class="nellNelson"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="@who='workingGirl'"><span class="workingGirl"><xsl:apply-templates/></span></xsl:when>
             <xsl:otherwise>
                 <span class="general"><xsl:apply-templates/></span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="rs">
+    <!--<xsl:template match="rs">
         
-    </xsl:template>
+    </xsl:template>-->
     
 </xsl:stylesheet>
