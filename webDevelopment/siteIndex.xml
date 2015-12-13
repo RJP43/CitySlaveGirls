@@ -153,6 +153,20 @@
             <listBibl type="CTarticles">
                <bibl xml:id="CT001">
                   <title level="a"><date when="1888-07-30"/></title>
+                  <!--2015-12-13 ebb: This representation of the newspaper articles doesn't make sense to me. I'm not quite sure it *is* the newspaper articles, though I guess
+                  it must be from the xml:ids and the @type on the listBibl. Each bibl entry here should identify the Chicago Times (or is it Chicago Daily Times) as one of the titles, and when
+                  you use the @level attribute, here's how it's supposed to work:
+                  
+                   level="a" (This is for an article title or for the title of a short work bound inside a larger work). You want to give the date as its own entry. 
+                   If everyone of the articles is titled "City Slave Girls," then <title level="a">City Slave Girls</title> is what you should have here.
+                  
+                   level="m" is for a book title. Think of this is a for a single hard-bound volume. We don't use this for newspaper articles, so it's not appropriate in this listBibl.
+                   
+                   level="s" is for the title of a serial or periodical publication, and that includes a newspaper: This is where you indicate the Chicago Times or Chicago Daily Times as 
+                  the publication venue for the newspaper article. <title level="s">Chicago Daily Times</title> 
+                  
+                  level="u" is for something unpublished (in case you have anything like that).
+                  -->
                   <title level="m">"City Slave Girls"</title>
                   <author>Nell Nelson</author>
                   <note/>
