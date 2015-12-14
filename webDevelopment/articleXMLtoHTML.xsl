@@ -12,6 +12,8 @@
                 <link rel="stylesheet" type="text/css" href="../style/style.css"/>
             </head>
             <body>
+                <!--<h1><xsl:apply-templates select="//teiHeader//title[@level='a']"/></h1>-->
+                <h2><xsl:apply-templates select="//teiHeader//title/date"/></h2>
                 <ul>
                 <xsl:apply-templates select="//div[@type='headlines']"/>
                 </ul>

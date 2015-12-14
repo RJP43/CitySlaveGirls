@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title level="a" xml:id="CT004"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-08-02">Thursday Morning, August 2, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+                <title level="m">"City Slave Girls"</title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:-->
+               <respStmt>
+               <resp>Date last checked: <date when="2015-12-03">2015-12-03</date>. Proofing and corrections by</resp>
+               <persName ref="#ras">Rob Spadafore</persName>
+            </respStmt>
+            
+            </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title level="s">"City Slave Girls"</title>
+                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
+                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Newspaper Print</edition>
+                    </editionStmt>
+                    <extent>21-part series: Front-page placement</extent>
+                    <publicationStmt>
+                        <publisher>Chicago Times</publisher>
+                        <pubPlace>Chicago</pubPlace>
+                        <date>1888</date>
+                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                        <availability>
+                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                            </p>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-02">Thursday Morning, August 2, 1888</date></title></head>
+                    <div type="headlines">
+                        <list>
+<item>“The Times” Lady Reporter, in the Guise of a Factory Bondwoman, Is Insulted by a Scoundrel.</item>
+<item>Accosted by a Well-Dressed Brute Who Tries to Thrust His Blighting Friendship on Her.</item>
+<item>Human Monsters Who Lure from Virtue’s Path the Half-Starved Victims of Man’s Cupidity.</item>
+<item>Manufacturers Who Pay Their Serfs the Miserly Sum of Eighty Cents for Making a Dozen Shirts.</item>
+<item>A Big Collar and Cad Maker of Troy N.Y Astonished at the State of Affairs in Chicago.</item>
+                    </list>
+                    </div>
+                <div type="articleBody">
+                <p>On Thursday morning when I started to renew my factory life I discovered after getting on a South-side car that I did not have a cent in my pocket. In putting on my shop-girl disguise I had left my purse at home. When the conductor asked for the fair I had none to give him. It was very hot, the clouds threatened rain, and the shop was at so great a distance that I did not feel as if I could walk. I concluded to throw myself on the generosity of the conductor and told him I had forgotten my purse. He looked ugly and told me to get off. Just as he placed his whistle to his lips to signal the gripman to stop a distinguished, well-dressed man paid my fare. I thanked him for his courtesy and told him if he would give me his card I would send him the money he had so kindly paid.</p>
+                    <p>He smiled and said: “<said who="benefactor" ana="male">A mere bagatelle miss, and not worth mentioning.</said>"</p>
+    <p>At Eighteenth street I left the car to go to a vestmaker’s place at <placeName type="address">2155 Archer avenue</placeName>. I was crossing the three points where State and Nineteenth streets intersect when who should come abreast but my benefactor. Instead of raising his hat he jauntily cocked his left eye and came so close to me that the sleeve of my “never-rip” jersey was pressed against the waist-line of his light-gray suit.</p>
+    <p>“<said who="benefactor" ana="male">Aha, here we are again!</said>”</p>
+    <p>Although I distinctly heard every word of his remark I said: “<said who="nellNelson" ana="female">I beg your pardon</said>,” with as much of the <placeName>Newport</placeName> chill as I could affect.</p>
+    <p>“<said who="benefactor" ana="male">Come, come, now,</said>” he said with increased gayety, moving his waistband still closer to my jersey.</p>
+    <p>“<said who="NellNelson" ana="female">Oh, you are the gentleman to whom I am indebted for car-fare. You want your money I suppose; if you will give me your card I will write you an order.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Do you work in this neighborhood?</said>”</p>
+    <p>“<said who="nellNelson" ana="female">No sir.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Where, then?</said>”</p>
+    <p>“<said who="nellNelson" ana="female">No place.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Where are you going?</said>”</p>
+    <p>“<said who="nellNelson" ana="female">For work.</said>”</p>
+    <p>“<said who="benefactor" ana="male">What kind?</said>”</p>
+    <p>“<said who="nellNelson" ana="female">Any kind. May I have your card? I am in something of a hurry.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Mayn’t I have yours?</said>” he asked.</p>
+    <p>“<said who="nellNelson" ana="female">Certainly; I haven’t my case, but if you will lend me a pencil I will write you one.</said>”</p>
+    <p>“<said who="benefactor" ana="male">With pleasure, my dear.</said>”</p>
+    <p>“<said who="nellNelson" ana="female">You are mistaken, sir. That is not my name.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Ha, ha, ha! I see you are a little mischievous, but for all that you are my dear</said>,” producing three inches of Faber.</p>
+    <p>“<said who="nellNelson" ana="female">A card please?</said>”</p>
+    <p>“<said who="benefactor" ana="male">Bless me, I had forgotten</said>,” and the natty-sack-coat was ransacked for a suitable card.</p>
+    <p>“<said who="benefactor" ana="male">Ah, here—this will do, I hope, in lieu of something more conventional</said>,” carefully placing on my sewing-box a small card with the address down. I reversed the pasteboard and read on the back:</p>
+    <p><persName>DR. Charles Gilman Smith.</persName></p>
+    <p>Office Hours _________</p>
+    <p>Residence___________</p>
+    <p>“<said who="nellNelson" ana="female"><persName>Dr. Smith</persName>! I know him quite well.</said>”</p>
+    <p>“<said who="benefactor" ana="male">Oh, you do, eh?</said>” in a tone that left no doubt that his stock in me had dropped. I wrote:</p>
+    <p>Reporter.</p>
+    <p>The Times.</p>
+    <p>and handed it to my companion, who read it with eyes that seemed to have been wired open. While he crushed the doctor’s card in his left hand his right pulled out a splendid gold watch, and with a most abrupt “<said who="benefactor" ana="male">Didn’t think it was so late, have an engagement at 9:45</said>,” was off with more alacrity than is conducive to grace. I looked after him, admiring the cut of his coat, the swing of his trousers, the polish of his shoes, and the magnificent carriage of head and shoulders, and thought:</p>
+    <p>“<said who="nellNelson" ana="female">May the lord deliver us working girls.</said>” I also thought that I should like to meet my car friend when I had my suffocating well off and my good clothes on. Won’t <persName>Dr. Smith</persName> inveigle him to his <desc type="location">State street</desc> office and present me? I was to give him back his nickel and lead pencil.</p>
+                    <p>When I reached the shop at <placeName type="address">2155 Archer avenue</placeName> the tailor told me he only wanted one vestmaker and had hired her two hours ago, I then went over on <placeName type="address">Cottage Grove avenue</placeName>, borrowed 25 cents from my dressmaker and rode down to <placeName type="address">Lake street</placeName> to get work in a feather duster factory. There may have been work, but there was no elevator and I was too hot and tired to go up five flights of stairs to look for it. I chose a <orgName>cigar factory</orgName> on <placeName type="address">Randolph near Dearborn street</placeName> with but three pairs of stairs to climb and learned in the salesroom that they had all the help they needed. I tried <persName>Gomez</persName> across the street, who had no work, but enough goodness of heart to give me a chair and a letter to two cigarmakers of his nationality. I went to see <orgName type="exposedCompany" ref="#cigarFactory"><persName>F. Garcia</persName></orgName> at <placeName type="location" ref="#cigarFactory">20th Clark street</placeName>. He asked me if I could “strip” and I told him I could. When he wanted to know where I had worked I owned up that I didn’t know anything at all about the business but was anxious to learn and get work. He didn’t know “<said who="employer" ana="male"><rs type="workDesc" resp="#ras">how a sewing girl would do at the ‘fillers’ but you might go and talk with some of the help, for you may not be satisfied to try even.</rs></said>”</p>
+                    <p>He showed me the way across the hall to an empty room. <rs role="workEnvir" type="negative" resp="#ras">The floor was littered with rags and paper and the dust was heavy on the walls and wood-work and in one corner was a good-sized ash-pile.</rs> <persName>Garcia</persName> rapped for entrance, but there was so much noise within that the door remained fast. <rs role="wgDesc" resp="#ras">When the Spaniard left me I turned the knob and came upon a big boy who was tickling his laborers. The girls were flying around the empty room and their pursuer had both screeching. The fun came to a stop the moment I went in and the young people gladly told me all I cared to know about the business.</rs> <rs role="workDesc" resp="#ras">All they did was to “strip” – just pull the stem or mid-rib from the leaf and put it in a “book-filler.”</rs> <rs role="wageDesc">I could get $4 a week and steady work and the next year $5.</rs> <rs role="wgDesc" resp="#ras">My informant, a little girl of 15 years, <rs role="wageDesc" resp="#ras">has been in the shop two years and earned $5.30 a week.</rs> <rs role="workDesc" resp="#ras">She told me she was the oldest hand in the shop: that she could “strip” as fast as a man, and put the ribbon bands about the cigars before they were boxed.</rs></rs></p>
+                    <p><rs role="workDesc" resp="#ras">At 12:15 o’clock I went into the shop and was given a chair in front of a barrel filled with inches of tobacco called “hands” and lined with gunny-cloth. There was a little tin pail of brown water for wetting I don’t know what near my chair, and on the other side a pine board three feet long and sixteen inches wide. When the tobacco leaves were stripped and laid on the board it was thubbed a “book-filler” and carried off to the next room.</rs> <rs role="workDesc" resp="#ras">In the shop with this were some eighteen men or more rolling the “fillers,” putting on the wrappers, shaping the cigars with a broad knife and seeming the ends.</rs> <rs role="wgDesc" type="mixed" resp="#ras">Along the tables some of the men were smoking and others chewing, some with their hats on and all in the shirt-sleeves. There were negroes, Swedes, a Chinaman, Germans, and Spaniards, whose influence on the lives of the young girls, while not really harmful, could hardly be called beneficial.</rs> <rs role="workDesc" resp="#ras">I stripped leaves enough to enable me to take the social condition of the inmates,</rs> <rs role="workEnvir" type="negative" resp="#ras">the bad light impure atmosphere,  the choking smell of the tobacco, and the photographs and prints cut from sensational papers that were tacked on the smoke-stained walls.</rs></p>
+    <p>From the cigar factory I went to the <orgName ref="#EUC" type="exposedCompany">Excelsior Underwear Company</orgName>, <placeName ref ="#EUC" type="address">199 and 201 Fifth avenue</placeName> and sat for half an hour while the <rs role="wg" resp="#ras">forewoman scolded a pale-faced girl who wore mourning.</rs> <rs role="workEnvir" resp="#ras">She had brought back a dozen chemises for which the house paid $2, but the work was soiled in the making—machine oil having wet the cotton – and the forewoman refused to take it.</rs></p>
+    <p>“<said who="workingGirl" ana="female">What shall I do?</said>” <rs role="wgDesc" resp="#ras">She asked the woman, with a voice as sad as her face.</rs></p>
+    <p>“<said who="forewoman" ana="female">What does anybody do with dirty things? You will have to pay for laundering the garments of the greasy sewing and clean the thread.</said>”</p>
+    <p>Then the girl was left alone by the manager, who went up to the other end of the counter to get trimmings for six dozen chemises that a tall young Swede girl was waiting for.The forewoman wore a blue dress of plaid design with a Marseilles vest buttoned in it, and of seven rings on her left hand six were set with what appeared to be diamonds. She had jewels at her chin and in her ears and hair. She measured off the lace edgings and the tape insertion and gave minute directions about the fullness and the finish. The six dozen garments were bundled up by <persName>Mr. Hyman</persName>, the proprietor, and the elevator carried her and her load to the pavement below. The seamstress told me she lived at home and with the help of her mother made $12 a week.</p>
+    <p>“<said who="workingGirl" ana="female"><rs role="workDesc" type="negative" resp="#ras">It is very hard work though,<rs type="interruption">” she said "</rs>We sew day and night. I had rather do it than work down in a shop for I have more self-respect.</rs> <rs role="wgDesc" type="mixed" resp="#ras">All the girls are not good, and very few are in a position to go with respectable people. They go with bad company and their language is bad. Sometimes in the winter they dance till daylight and go from the hall to the shop. I don’t blame them. The life of a girl who had nothing to depend on but her needle is a best a hard one. Still I don’t like to be with a crowd of factory girls if I can help it.</rs> <rs role="workEnvir" type="negative" resp="#ras">The manager and superintendent obliged to be strict, but very seldom make any distinction in the treatment of a nice girl and one who is not so nice. I don’t think I can tell you how many ways there are to insult a girl. I have had a foreman just give me a look as I passed in to my machine or handed in my sewing that made me wish I was dead. Then there are the spiteful things the girls say about you and the cutting remarks of the forewoman that make you feel like fainting. <rs role="wageDesc" type="negative" resp="#ras">The cashier may have a grudge and if he doesn’t hold your wages back till all the other hands are paid hell will throw it at you, make you take ragged bills, or give – ‘you a week’s pay in change.’  A cashier in a <placeName type="address">Jackson street</placeName> cravat factory once rubbed his hand across my chin “to feel my whiskers,” he said, and because I got angry and said I would report him he saved up all the silver that had holes and plugs and made me take it. My salary was $3.25 that week, and some of the silver couldn’t pass. I took it to a bank and the cashier was kind enough to give me good money for it.</rs> Plenty of times the forewoman has had me discharged for being “stuck up.</rs></said>”</p>
+    <p><rs role="wageDesc" type="negative" resp="#ras">Prices here range from 20 cents to $2 a dozen. It depends on the material. Children’s drawers pay 20 cents a dozen, but there are no button holes to work. Some shirts are $2 some $4 and some $1.70 but most of them only pay 20 cents. Everything is done by machine including button holes and gussets. The bosoms and bands are ready to go in. Corset-covers pay 40 cents and  20 cents each, but they have to be trimmed and the holes worked by hand. This is a mean shop, so far as prices go, but they are all alike in that particular. You have to find your own thread and you are constantly being suspected of keeping back short ends of trimmings.</rs></p>
+    <p>I asked the forewoman for stitching and was given shirts at 80 cents a dozen to do. I had to pay 50 cents for the use of the machine and 25 cents for a spindle of thread. I told the forewoman I had left my purse at home, but she said it was “<said who="forwoman" ana="female"><rs role="wageDesc" resp="#ras">alright you can have it taken out of your wages.</rs></said>" I asked her what the machine cost, but she doesn’t know, and when I ventured that the  expiration of the patient had reduced the old place $15 to about $12 she told me she “<said who="forwoman" ana="female">reckoned I didn’t know what I was talking about.</said>” <rs role="workEnvir" resp="#ras">The room where we worked was about eighteen feet wide and ten feet deep with toilet closets built out from the walls. The machines encircled the three walls and in the middle of the floor were the boxes of work.</rs> <rs role="wageDesc workDesc" resp="#ras">One girl was stitching wrist-bands, another had button-hole machine and was getting 50 cents a hundred. A third was making tucked drawers at 20 cents a dozen and I had a shirt at 60 cents which I failed to finish all three hours, being unable to manage a machine.</rs></p>
+    <p>-<persName>Nell Nelson</persName>.</p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

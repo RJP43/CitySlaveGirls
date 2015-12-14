@@ -31,7 +31,7 @@
             <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information on named entities in this file has been extracted from files in the
+            <p>Information on named entities in this file have been extracted from files in the
                Nell Nelson Restoration Project and the corresponding GitHub page.</p>
          </sourceDesc>
       </fileDesc>
@@ -51,7 +51,7 @@
                   <note type="bio">Rebecca Parker is a senior at the University of Pittsburgh at Greensburg. She is a double major of English Literature and Social Sciences. Rebecca's area of focus within the Social Sciences is History and she is on track to receive the Digital Studies Certificate. The Restoration of Nell Nelson is a project Rebecca began research for during the Spring 2014 Semester, for her history capstone. Rebecca's interest in Digital Humanities stemmed from her involvement on the Digital Mitford Project working as Dr. Beshero-Bondar's Green Scholar. Rebecca is an active member of Sigma Tau Delta, Pi Gamma Mu and Phi Kappa Phi.</note>
                </person>
                <person>
-                  <persName xml:id="ebb">
+                  <persName ref="#ebb">
                      <surname>Beshero-Bondar</surname>
                      <forename>Elisa</forename>
                      <roleName>Advising Editor</roleName>
@@ -155,39 +155,48 @@
                   <orgName>Excelsior Underwear Company</orgName>
                   <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl></note>
                </org>
+               <org xml:id="cigarFactory">
+                  <orgName>Cigar Factory</orgName>
+                  <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl>This company does not have an exact name referenced; however, Nelson consistently refers to it as the cigar factory and details the conditions in this factory.</note>
+               </org>
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
          </div>
          <div type="sources">
             <listBibl type="CTarticles">
                <bibl xml:id="CT001">
-                  <!--2015-12-13 ebb: This representation of the newspaper articles doesn't make sense to me. I'm not quite sure it *is* the newspaper articles, though I guess
-                  it must be from the xml:ids and the @type on the listBibl. Each bibl entry here should identify the Chicago Times (or is it Chicago Daily Times) as one of the titles, and when
-                  you use the @level attribute, here's how it's supposed to work:
-                  
-                   level="a" (This is for an article title or for the title of a short work bound inside a larger work). You want to give the date as its own entry. 
-                   If everyone of the articles is titled "City Slave Girls," then <title level="a">City Slave Girls</title> is what you should have here.
-                  
-                   level="m" is for a book title. Think of this is a for a single hard-bound volume. We don't use this for newspaper articles, so it's not appropriate in this listBibl.
-                   
-                   level="s" is for the title of a serial or periodical publication, and that includes a newspaper: This is where you indicate the Chicago Times or Chicago Daily Times as 
-                  the publication venue for the newspaper article. <title level="s">Chicago Daily Times</title> 
-                  
-                  level="u" is for something unpublished (in case you have anything like that).
-                  -->
-                  <!-- 12015-12-14 rjp: fixed the titles according to above comment from ebb -->
-                  <title level="a">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls" <date when="1888-07-30"/></title>
                   <title level="s">Chicago Times</title>
-                  <date when="1888-07-30"/>
                   <author>Nell Nelson</author>
-                  <note/>
+                  <editor>Chapin, Charles</editor>
+                  <edition>Newspaper Print</edition>
+                  <extent>21-part series: Front-page placement</extent>
+                  <publisher>Chicago Times</publisher>
+                  <pubPlace>Chicago</pubPlace>
+                  <date>1888</date>
+                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <availability>
+                     <p>
+                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                     </p>
+                  </availability>
                </bibl>
                <bibl xml:id="CT002">
-                  <title level="a">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls" <date when="1888-07-31"/></title>
                   <title level="s">Chicago Times</title>
-                  <date when="1888-07-31"/>
                   <author>Nell Nelson</author>
-                  <note/>
+                  <editor>Chapin, Charles</editor>
+                  <edition>Newspaper Print</edition>
+                  <extent>21-part series: Front-page placement</extent>
+                  <publisher>Chicago Times</publisher>
+                  <pubPlace>Chicago</pubPlace>
+                  <date>1888</date>
+                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <availability>
+                     <p>
+                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                     </p>
+                  </availability>
                </bibl>
                <bibl xml:id="CT003">
                   <title level="a">"City Slave Girls"</title>

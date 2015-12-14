@@ -7,8 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
-                <title xml:id="CT001"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-07-30">Monday Morning, July 30, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+                <title corresp="#CT001"><date when="1888-07-30">Monday Morning, July 30, 1888</date></title>
                 <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
                 <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
@@ -19,7 +18,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
-                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#ebb">Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
                 <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
@@ -38,29 +37,7 @@
                 <date>2014</date>
                 <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
-            <sourceDesc>
-                <biblFull>
-                    <titleStmt>
-                        <title level="s">"City Slave Girls"</title>
-                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
-                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
-                    </titleStmt>
-                    <editionStmt>
-                        <edition>Newspaper Print</edition>
-                    </editionStmt>
-                    <extent>21-part series: Front-page placement</extent>
-                    <publicationStmt>
-                        <publisher>Chicago Times</publisher>
-                        <pubPlace>Chicago</pubPlace>
-                        <date>1888</date>
-                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
-                        <availability>
-                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
-                            </p>
-                        </availability>
-                    </publicationStmt>
-                </biblFull>
-            </sourceDesc>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More information can be found in the corresponding Site Index.</p></sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
