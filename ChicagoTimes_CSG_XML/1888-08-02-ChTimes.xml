@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -38,29 +39,7 @@
                 <date>2014</date>
                 <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
             </publicationStmt>
-            <sourceDesc>
-                <biblFull>
-                    <titleStmt>
-                        <title level="s">"City Slave Girls"</title>
-                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
-                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
-                    </titleStmt>
-                    <editionStmt>
-                        <edition>Newspaper Print</edition>
-                    </editionStmt>
-                    <extent>21-part series: Front-page placement</extent>
-                    <publicationStmt>
-                        <publisher>Chicago Times</publisher>
-                        <pubPlace>Chicago</pubPlace>
-                        <date>1888</date>
-                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
-                        <availability>
-                            <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
-                            </p>
-                        </availability>
-                    </publicationStmt>
-                </biblFull>
-            </sourceDesc>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More source information can be found in the corresponding Site Index.</p></sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
