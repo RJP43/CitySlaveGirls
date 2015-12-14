@@ -7,8 +7,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            
-            <title corresp="#CT010"><date when="1888-08-08">Wednesday Morning, August 8, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date></title>
+            <title corresp="#CT010"><date when="1888-08-08">Wednesday Morning, August 8, 1888</date></title>
             <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
             <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>

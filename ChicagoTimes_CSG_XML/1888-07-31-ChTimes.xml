@@ -7,8 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
-                <title ref="#CT002"><date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title>
+                <title corresp="#CT002"><date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title>
                 <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
                 <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
