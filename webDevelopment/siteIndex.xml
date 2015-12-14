@@ -51,7 +51,16 @@
                   <note type="bio">Rebecca Parker is a senior at the University of Pittsburgh at Greensburg. She is a double major of English Literature and Social Sciences. Rebecca's area of focus within the Social Sciences is History and she is on track to receive the Digital Studies Certificate. The Restoration of Nell Nelson is a project Rebecca began research for during the Spring 2014 Semester, for her history capstone. Rebecca's interest in Digital Humanities stemmed from her involvement on the Digital Mitford Project working as Dr. Beshero-Bondar's Green Scholar. Rebecca is an active member of Sigma Tau Delta, Pi Gamma Mu and Phi Kappa Phi.</note>
                </person>
                <person>
-                  <persName xml:id="rs">
+                  <persName xml:id="ebb">
+                     <surname>Beshero-Bondar</surname>
+                     <forename>Elisa</forename>
+                     <roleName>Advising Editor</roleName>
+                     <ptr target="http://www.pitt.edu/~ebb8/"/>
+                  </persName>
+                  <note type="bio">Elisa Beshero-Bondar is Associate Professor of English at the University of Pittsburgh at Greensburg, where she has enjoyed working since 2004. She regularly teaches 19th-century British Literature, Early American Literature, Social Literature, and Science Fiction, as well as an interdisciplinary course on text encoding in the Digital Humanities. She is a member of the University of Pittsburgh's Digital Humanities Research Group (DHRX) and the Indo-Pacific Council (INPAC). She is also the lead Faculty Advisor for the Pitt-Greensburg Alpha Alpha Delta Chapter of Sigma Tau Delta, the International English Honor Society. A lifelong student, she is very much a work in progress.</note>
+               </person>
+               <person>
+                  <persName xml:id="ras">
                      <surname>Spadafore</surname>
                      <forename>Rob</forename>
                      <roleName>2015 Editor</roleName>
@@ -60,7 +69,7 @@
                   <note type="bio">Rob Spadafore is a Creative and Professional Writing Major at the University of Pittsburgh at Greensburg. He is also editor-in-chief of the school newspaper, The Insider.</note>
                </person>
                <person>
-                  <persName xml:id="ck">
+                  <persName xml:id="CAK">
                      <surname>Karch</surname>
                      <forename>Cody</forename>
                      <roleName>2015 Editor</roleName>
@@ -69,7 +78,7 @@
                   <note type="bio">Cody Karch is a student at the University of Pittsburgh at Greensburg, with plans to transfer to the main campus. His major is English Writing, but will be going into a duel-major in that and Philosophy eventually. Pitt-Greensburg's Digital Humanities Class is what got him involved with this project. He is helping to transcribe, and support the formation of Nell Nelson project alongside others.</note>
                </person>
                <person>
-                  <persName xml:id="kw">
+                  <persName xml:id="KMW">
                      <surname>Womack</surname>
                      <forename>Kari</forename>
                      <roleName>2015 Editor</roleName>
@@ -92,7 +101,7 @@
             <listOrg>
                <org xml:id="Ellinger">
                   <orgName>Ellinger's</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
+                  <note resp="#rjp #KMW"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="WPA">
                   <orgName>Woman's Protective Agency</orgName>
@@ -124,27 +133,27 @@
                </org> 
                <org xml:id="Gold">
                   <orgName>Goldsmith's</orgName>
-                  <note resp="#kw"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="Olson">
                   <orgName>Olson's</orgName>
-                  <note resp="#kw"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="KNels">
                   <orgName>Knute Nelson's</orgName>
-                  <note resp="#kw"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="BS">
                   <orgName>Benson's Shop</orgName>
-                  <note resp="#kw"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="Schmall">
                   <orgName>Schmallen's</orgName>
-                  <note resp="#kw"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="EUC">
                   <orgName>Excelsior Underwear Company</orgName>
-                  <note resp="#rs"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl></note>
+                  <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl></note>
                </org>
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
@@ -152,7 +161,6 @@
          <div type="sources">
             <listBibl type="CTarticles">
                <bibl xml:id="CT001">
-                  <title level="a"><date when="1888-07-30"/></title>
                   <!--2015-12-13 ebb: This representation of the newspaper articles doesn't make sense to me. I'm not quite sure it *is* the newspaper articles, though I guess
                   it must be from the xml:ids and the @type on the listBibl. Each bibl entry here should identify the Chicago Times (or is it Chicago Daily Times) as one of the titles, and when
                   you use the @level attribute, here's how it's supposed to work:
@@ -167,310 +175,344 @@
                   
                   level="u" is for something unpublished (in case you have anything like that).
                   -->
-                  <title level="m">"City Slave Girls"</title>
+                  <!-- 12015-12-14 rjp: fixed the titles according to above comment from ebb -->
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-07-30"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT002">
-                  <title level="a"><date when="1888-07-31"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-07-31"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT003">
-                  <title level="a"><date when="1888-08-01"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-01"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT004">
-                  <title level="a"><date when="1888-08-02"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-02"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT005">
-                  <title level="a"><date when="1888-08-03"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-03"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT006">
-                  <title level="a"><date when="1888-08-04"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-04"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT007">
-                  <title level="a"><date when="1888-08-05"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-05"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT008">
-                  <title level="a"><date when="1888-08-06"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-06"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT009">
-                  <title level="a"><date when="1888-08-07"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-07"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT010">
-                  <title level="a"><date when="1888-08-08"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-08"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT011">
-                  <title level="a"><date when="1888-08-09"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-09"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT012">
-                  <title level="a"><date when="1888-08-10"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-10"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT013">
-                  <title level="a"><date when="1888-08-11"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-11"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT014">
-                  <title level="a"><date when="1888-08-12"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-12"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Butcher Shops and Canned Meat Factories</note>
                </bibl>
                <bibl xml:id="CT015">
-                  <title level="a"><date when="1888-08-13"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-13"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT016">
-                  <title level="a"><date when="1888-08-14"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-14"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT017">
-                  <title level="a"><date when="1888-08-15"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-15"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT018">
-                  <title level="a"><date when="1888-08-16"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-16"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT019">
-                  <title level="a"><date when="1888-08-17"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-17"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT020">
-                  <title level="a"><date when="1888-08-18"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-18"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT021">
-                  <title level="a"><date when="1888-08-19"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-19"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT022">
-                  <title level="a"><date when="1888-08-20"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-20"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">J. McGregor Adams and "Prominent Men" Commentary</note>
                </bibl>
                <bibl xml:id="CT023">
-                  <title level="a"><date when="1888-08-21"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-21"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Charles L. Hutchinson Commentary</note>
                </bibl>
                <bibl xml:id="CT024">
-                  <title level="a"><date when="1888-08-23"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-23"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Dr. Charles Gilman Smith Commentary</note>
                </bibl>
                <bibl xml:id="CT025">
-                  <title level="a"><date when="1888-08-25"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-25"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Firm of <orgName ref="#MarshF">Marshall Field</orgName> Commentary</note>
                </bibl>
                <bibl xml:id="CT026">
-                  <title level="a"><date when="1888-08-26"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-26"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT027">
-                  <title level="a"><date when="1888-08-27"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-27"/>
                   <author>Nell Nelson</author>
                   <note/>
                </bibl>
                <bibl xml:id="CT028">
-                  <title level="a"><date when="1888-08-28"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-28"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Milton George and Charles H. Ham Commentary</note>
                </bibl>
                <bibl xml:id="CT029">
-                  <title level="a"><date when="1888-08-30"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-30"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Judge O.H. Horton Commentary</note>
                </bibl>
                <bibl xml:id="CT030">
-                  <title level="a"><date when="1888-08-31"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-08-31"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Col. Abner Taylor Commentary</note>
                </bibl>
                <bibl xml:id="CT031">
-                  <title level="a"><date when="1888-09-01"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-09-01"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">Lyman J. Cage Commentary</note>
                </bibl>
                <bibl xml:id="CT032">
-                  <title level="a"><date when="1888-09-03"/></title>
-                  <title level="m">"City Slave Girls"</title>
+                  <title level="a">"City Slave Girls"</title>
+                  <title level="s">Chicago Times</title>
+                  <date when="1888-09-03"/>
                   <author>Nell Nelson</author>
                   <note resp="#rjp">George M. Sloan Commentary</note>
                </bibl>
             </listBibl>
             <listBibl type="Barkley">
                <bibl xml:id="WSGC01">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC02">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC03">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC04">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO2">1888-07-31-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC05">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO2">1888-07-31-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC06">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note/>
                </bibl>
                <bibl xml:id="WSGC07">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note/>
                </bibl>
                <bibl xml:id="WSGC08">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO4">1888-08-02-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC09">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO5">1888-08-03-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC10">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO6">1888-08-04-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC11">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTOO7">1888-08-05-CT</bibl></note>
                </bibl>
             <bibl xml:id="WSGC12">
-               <title level="s">The White Slave Girls of Chicago</title>
+               <title level="m">The White Slave Girls of Chicago</title>
                <author>Anon.</author>
                <note resp="#rjp"><bibl corresp="#CTOO9">1888-08-07-CT</bibl></note>
             </bibl>
                <bibl xml:id="WSGC13">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO10">1888-08-08-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC14">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO11">1888-08-09-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC15">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO12">1888-08-10-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC16">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO13">1888-08-11-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC17">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO14">1888-08-12-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC18">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note/>
                </bibl>
                <bibl xml:id="WSGC19">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO16">1888-08-14-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC20">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO17">1888-08-15-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC21">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO19">1888-08-17-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC22">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO20">1888-08-18-CT</bibl></note>
                </bibl>
                <bibl xml:id="WSGC23">
-                  <title level="s">The White Slave Girls of Chicago</title>
+                  <title level="m">The White Slave Girls of Chicago</title>
                   <author>Anon.</author>
                   <note resp="#rjp"><bibl corresp="#CTO21">1888-08-19-CT</bibl></note>
                </bibl>
@@ -483,7 +525,7 @@
             </listBibl>-->
             <!--NEED TO ADD ALL THE CHAPTERS FOR THE MCENNIS TEXT!!!-->
          </div>
-         <div type="standardizedWho">
+         <div type="cannonicalRef">
             <listNym>
                <nym xml:id="workingGirl"/>
                <nym xml:id="foreperson"/>

@@ -52,17 +52,15 @@ Explanation of Attributes
     <seg>short for segment -- any chunk of text</seg>
     inside 
     <seg>
-    <w> word </w> multiple words in a single seg too bound them together
-      @type = part of speech
-      @ana = stem of word so to link other forms of the same word = stemming and canonical reference
-          
+    <w>word</w> multiple words in a single seg too bound them together
+      @type = part of speech ie. "noun" | "adjective" 
+      @subtype = specification "poss" (meaning possesive) 
+      @ana = stem of word so to link other forms of the same word (stemming) for adjectives
+                AND 
+                canonical references for proper nouns ie. "workingGirl" | "foreperson" | "nellNelson" | "employer" | "employee" | "benefactor" | "messenger"
       
-      
-      example: A <seg><w type="adj" ana="pale">pale-faced</w> <w type="noun" ana="workingGirl">Hannah</w></seg> refused to stitch the <w ype="noun">dress</w>. The <seg><w type="adj" ana="lazy">lazy</w> <w type="noun" ana="foreperson">foreman</w></seg> yelled at <w type="noun" ana="workingGirl">her</w>, "You are the <seg><w type="adj" ana="lazy">laziest</w> <w type="noun" ana="workingGirl">stitcher</w></seg>". 
-      
-  
-    
-    
+      example: A <seg><w type="adj" ana="pale">pale-faced</w> <w type="noun" ana="workingGirl">Hannah</w></seg> refused to stitch the <w type="noun">dress</w>. The <seg><w type="adj" ana="lazy">lazy</w> <w type="noun" ana="foreperson">foreman</w></seg> yelled at her, "You are the <seg><w type="adj" ana="lazy">laziest</w> <w type="noun" ana="workingGirl">stitcher</w></seg>". 
+
     </seg>
   </rule>
 
