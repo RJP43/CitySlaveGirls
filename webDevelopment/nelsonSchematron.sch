@@ -1,12 +1,36 @@
 <schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns="http://purl.oclc.org/dsdl/schematron">
-    <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/><!-- ras: I added this line to see if this would work, it doesn't help. -->
+    <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
+    
+    
+    <pattern>
+        <rule context="tei:p">
+            <report test="not(tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, and supplied.</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:said">
+            <report test="not(@ana and @who)">Element 'said' must contain both @who and @ana.</report>
+        </rule>
+    </pattern>
+    
+    
+    <let name="si" value="doc('siteIndexMESSINGAROUND.xml')//@xml:id"/>
+    <pattern>
+        <rule context="@ref|@resp|@corresp|@who|@ana">
+            <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
+            <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
+        </rule>
+    </pattern>
+    
     <!--2015-12-12 ebb: In addition to this, you need to add a tei: prefix to each element. NOTE: You don't need to add the tei: prefix to attributes, but only ahead of any and every element name!
     It's a TEI thing, and affects some programming differently from others. (We can handle the namespace in XSLT with just a line in the stylesheet rule at the top, but
     Schematron requires more specificity on each rule. 
     It's working now! -->
-  
+    
     
     <!-- Here are some lines I pulled from my Amadis project schematron that we'll adapt to your project when Becca has the Site Index ready: 
    
@@ -14,7 +38,7 @@
   <let name="siFile" value="doc('SI-Amadis.xml')"/>  
   
   This sets up a couple of handy global variables when you have it sitting OUTSIDE a pattern, and we can call on it with  $si and $siFile inside patterns like this:
-
+  
   <pattern>
     <rule context="@ref | @resp | @corresp">
       <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
@@ -28,33 +52,76 @@
   The words "some", "every" and "satisfies" are used to test for a condition that applies to a sequence. You can read more about it in Michael Kay, p. 646. 
     -->
     
-    <pattern>
-        <rule context="tei:said">
-            <assert test="@who=('unidentified','workingGirl','nellNelson','foreperson','employer','employee','benefactor','messenger')">
-                @who may only be: unidentified, workingGirl, nellNelson, foreperson, employer, employee, benefactor, or messenger.</assert>
-        </rule>
-    </pattern>
-    <!-- ras: also not working? This should work, its essentially the same code as my schematron 1 hw. -->
     
     
     <pattern>
         <rule context="tei:said">
-            <assert test="@ana=('male','female','unknown')">@ana may only be: male, female, or unknown.</assert>
+            <assert test="@ana = ('male','female','unknown')">@ana may only be: male, female, or unknown.</assert>
         </rule>
     </pattern>
-    <!-- ras: same as the previous rule, still not firing. I tried to write it differently this time, and its still not working: @ana[matches(., 'male')] | @ana[matches(., 'female')] | @ana[matches(., 'unknown')] -->
     
     
     <pattern>
-        <rule context="tei:placeName">
-            <assert test="@type=('address','ref')">@type may only be: address or ref.</assert>
+        <rule context="tei:text//tei:placeName">
+            <report test="not(@type)">Element 'placeName' must contain @type.</report>
         </rule>
     </pattern>
     
     
-    <!--<pattern>
-        <rule>
-            <assert test=""></assert>
+    <pattern>
+        <rule context="tei:text//tei:placeName">
+            <assert
+                test="@type = ('address','locRef','country','state','city')">@type may only be: address, locRef (location reference), city, state, or country.</assert>
+        </rule>
+    </pattern>
+    
+    
+<!--    <pattern>
+        <rule context=" tei:text//tei:placeName">
+            <report test="if (@ref) then (@type='address') else (not(@ref))">Does this fire?</report>
+        </rule>
+    </pattern>-->
+<!-- ras: greedy match and also unnecessary -->
+    
+    
+     <pattern>
+        <rule context="tei:rs">
+            <assert test="@type = 'interruption'">Element 'rs' must only be used for an interrupted sentence within element 'said'.</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:orgName">
+            <report test="not(@ref)">Element 'orgName' must contain @ref.</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:seg">
+            <assert test="count(tei:w) &gt; 1">Element seg' must contain more than one 'w' element.</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:w">
+            <assert test="@type=('adj','noun')">@type may only be: adj or noun</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:seg/*">
+            <assert test="matches (./name(), 'w')">Element 'seg' can only contain element 'w.'</assert>
+        </rule>
+    </pattern>
+    
+    
+<!--    <pattern>
+        <rule context="">
+            <assert></assert>
         </rule>
     </pattern>-->
     
