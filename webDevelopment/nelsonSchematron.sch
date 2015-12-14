@@ -5,8 +5,8 @@
     
     
     <pattern>
-        <rule context="tei:p">
-            <report test="not(tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, and supplied.</report>
+        <rule context="tei:div[@type='articleBody']">
+            <report test="not(tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, and supplied.</report>
         </rule>
     </pattern>
     
