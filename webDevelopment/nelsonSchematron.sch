@@ -20,7 +20,7 @@
     
     <let name="si" value="doc('siteIndex.xml')//@xml:id"/>
     <pattern>
-        <rule context="@ref|@resp|@corresp|@who|@ana">
+        <rule context="@ref|@resp|@corresp|@who|tei:w/@ana">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
             <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
         </rule>
