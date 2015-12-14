@@ -18,7 +18,7 @@
     </pattern>
     
     
-    <let name="si" value="doc('siteIndexMESSINGAROUND.xml')//@xml:id"/>
+    <let name="si" value="doc('siteIndex.xml')//@xml:id"/>
     <pattern>
         <rule context="@ref|@resp|@corresp|@who|@ana">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
