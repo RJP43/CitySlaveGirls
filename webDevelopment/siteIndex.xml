@@ -846,6 +846,7 @@
          </div>
          <div type="cannonicalRef">
             <listNym>
+               <nym xml:id="nellNelson"/>
                <nym xml:id="workingGirl"/>
                <nym xml:id="foreperson"/>
                <nym xml:id="employer"/>
