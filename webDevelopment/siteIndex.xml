@@ -97,6 +97,7 @@
                </person>
             </listPerson>
          </div>
+         
          <div type="companies">
             <listOrg>
                <org xml:id="Ellinger">
@@ -162,6 +163,7 @@
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
          </div>
+         
          <div type="sources">
             <listBibl type="CTarticles">
                <bibl xml:id="CT001">
@@ -723,27 +725,27 @@
                <bibl xml:id="WSGC01">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO1"/></note>
                </bibl>
                <bibl xml:id="WSGC02">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO1"/></note>
                </bibl>
                <bibl xml:id="WSGC03">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO1">1888-07-30-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO1"/></note>
                </bibl>
                <bibl xml:id="WSGC04">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO2">1888-07-31-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO2"/></note>
                </bibl>
                <bibl xml:id="WSGC05">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO2">1888-07-31-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO2"/></note>
                </bibl>
                <bibl xml:id="WSGC06">
                   <title level="m">The White Slave Girls of Chicago</title>
@@ -758,52 +760,52 @@
                <bibl xml:id="WSGC08">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO4">1888-08-02-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO4"/></note>
                </bibl>
                <bibl xml:id="WSGC09">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO5">1888-08-03-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO5"/></note>
                </bibl>
                <bibl xml:id="WSGC10">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO6">1888-08-04-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO6"/></note>
                </bibl>
                <bibl xml:id="WSGC11">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTOO7">1888-08-05-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTOO7"/></note>
                </bibl>
             <bibl xml:id="WSGC12">
                <title level="m">The White Slave Girls of Chicago</title>
                <author>NELSON, Nell [pseud.]</author>
-               <note resp="#rjp"><bibl corresp="#CTOO9">1888-08-07-CT</bibl></note>
+               <note resp="#rjp"><bibl corresp="#CTOO9"/></note>
             </bibl>
                <bibl xml:id="WSGC13">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO10">1888-08-08-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO10"/></note>
                </bibl>
                <bibl xml:id="WSGC14">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO11">1888-08-09-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO11"/></note>
                </bibl>
                <bibl xml:id="WSGC15">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO12">1888-08-10-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO12"/></note>
                </bibl>
                <bibl xml:id="WSGC16">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO13">1888-08-11-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO13"/></note>
                </bibl>
                <bibl xml:id="WSGC17">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO14">1888-08-12-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO14"/></note>
                </bibl>
                <bibl xml:id="WSGC18">
                   <title level="m">The White Slave Girls of Chicago</title>
@@ -813,29 +815,30 @@
                <bibl xml:id="WSGC19">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO16">1888-08-14-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO16"/></note>
                </bibl>
                <bibl xml:id="WSGC20">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO17">1888-08-15-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO17"/></note>
                </bibl>
                <bibl xml:id="WSGC21">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO19">1888-08-17-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO19"/></note>
                </bibl>
                <bibl xml:id="WSGC22">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO20">1888-08-18-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO20"/></note>
                </bibl>
                <bibl xml:id="WSGC23">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
-                  <note resp="#rjp"><bibl corresp="#CTO21">1888-08-19-CT</bibl></note>
+                  <note resp="#rjp"><bibl corresp="#CTO21"/></note>
                </bibl>
             </listBibl>
+            
             <!--<listBibl type="McEnnis">
                <bibl>
                   
@@ -844,6 +847,7 @@
             </listBibl>-->
             <!--NEED TO ADD ALL THE CHAPTERS FOR THE MCENNIS TEXT!!!-->
          </div>
+         
          <div type="cannonicalRef">
             <listNym>
                <nym xml:id="nellNelson"/>
