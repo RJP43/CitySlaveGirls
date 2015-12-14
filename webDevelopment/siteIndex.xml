@@ -51,7 +51,7 @@
                   <note type="bio">Rebecca Parker is a senior at the University of Pittsburgh at Greensburg. She is a double major of English Literature and Social Sciences. Rebecca's area of focus within the Social Sciences is History and she is on track to receive the Digital Studies Certificate. The Restoration of Nell Nelson is a project Rebecca began research for during the Spring 2014 Semester, for her history capstone. Rebecca's interest in Digital Humanities stemmed from her involvement on the Digital Mitford Project working as Dr. Beshero-Bondar's Green Scholar. Rebecca is an active member of Sigma Tau Delta, Pi Gamma Mu and Phi Kappa Phi.</note>
                </person>
                <person>
-                  <persName ref="#ebb">
+                  <persName xml:id="ebb">
                      <surname>Beshero-Bondar</surname>
                      <forename>Elisa</forename>
                      <roleName>Advising Editor</roleName>
