@@ -73,7 +73,7 @@
     <p>"What can you do?"</p>
     <p>"Sew."</p>
     <p>"Where have you been working?"</p>
-    <p>"<orgName type="exposedCompany">NeverRip company</orgName>"</p>
+    <p>"<orgName ref="#NRJC" type="exposedCompany">NeverRip company</orgName>"</p>
     <p>"Want to stitch?"</p>
     <p>"No, I would rather finish."</p>
     <p>"Give your name to the clerk."</p>
