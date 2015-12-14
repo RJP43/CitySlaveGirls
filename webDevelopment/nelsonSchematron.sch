@@ -118,6 +118,15 @@
         </rule>
     </pattern>
     
+    <!--<pattern>
+        <rule context="tei:choice/*">
+            <assert test="contains (./name(), 'sic' and 'reg')">Element 'choice' can only contain elements 'sic' and 'reg.'</assert>
+        </rule>
+    </pattern>--> 
+    <!-- rjp 2015-12-14: we should have a rule that demands a sic and reg element inside of choice (above was my best attempt) -->
+    
+    <!-- rjp 2015-12-14: we need rules declaring the attributes for damage (found in codeBook) and we also need rules saying that the self closing damage element will always be followed by the unclear element which will always contain the supplied element and the supplied element has to have a resp attribute  -->
+    
     
 <!--    <pattern>
         <rule context="">
