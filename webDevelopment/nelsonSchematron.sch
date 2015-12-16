@@ -6,7 +6,7 @@
     
     <pattern>
         <rule context="tei:div[@type='articleBody']">
-            <report test="not(tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, and supplied.</report>
+            <report test="not(tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, supplied, choice, sic, and reg.</report>
         </rule>
     </pattern>
     
@@ -20,11 +20,19 @@
     
     <let name="si" value="doc('siteIndex.xml')//@xml:id"/>
     <pattern>
-        <rule context="@ref|@resp|@corresp|@who|tei:w[@type='noun']/@ana">
+        <rule context="@ref|@resp|@corresp|@who|tei:w[@type='noun']/@ana|tei:w[@subtype='poss']/@ana">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
             <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
         </rule>
     </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:w[@subtype='poss']">
+            <report test="not(@type='adj')">The possessive pronoun must be listed as @type='adj', not '@noun'</report>
+        </rule>
+    </pattern>
+    
     
     <!--2015-12-12 ebb: In addition to this, you need to add a tei: prefix to each element. NOTE: You don't need to add the tei: prefix to attributes, but only ahead of any and every element name!
     It's a TEI thing, and affects some programming differently from others. (We can handle the namespace in XSLT with just a line in the stylesheet rule at the top, but
@@ -51,7 +59,6 @@
   white-space separated list, and then see if they meet a "satisfies" test, one by one, to be equal to an xml:id in the Site Index file. This is some new Schematron (and XSLT) syntax for you!
   The words "some", "every" and "satisfies" are used to test for a condition that applies to a sequence. You can read more about it in Michael Kay, p. 646. 
     -->
-    
     
     
     <pattern>
