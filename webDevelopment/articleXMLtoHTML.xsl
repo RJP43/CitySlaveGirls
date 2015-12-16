@@ -31,12 +31,14 @@
     <xsl:template match="orgName">
         <strong><xsl:apply-templates/></strong>
     </xsl:template>
-    <xsl:template match="said[@who]">
+    <xsl:template match="said">
         <xsl:choose> 
-            <xsl:when test="@who='nellNelson'"><span class="nellNelson"><xsl:apply-templates/></span></xsl:when>
-            <xsl:when test="@who='workingGirl'"><span class="workingGirl"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="@who='#nellNelson'"><span class="nellNelson"><i><xsl:apply-templates/></i></span></xsl:when>
+            <xsl:when test="@who='#workingGirl'"><span class="workingGirl"><i><xsl:apply-templates/></i></span></xsl:when>
+            <xsl:when test="@ana='male'"><span class="male"><i><xsl:apply-templates/></i></span></xsl:when>
+            <xsl:when test="@ana='female' and not(@who='#nellNelson')"><span class="female"><i><xsl:apply-templates/></i></span></xsl:when> 
             <xsl:otherwise>
-                <span class="general"><xsl:apply-templates/></span>
+                <i><xsl:apply-templates/></i>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
