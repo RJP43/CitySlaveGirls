@@ -168,6 +168,28 @@
                   <orgName>Cigar Factory</orgName>
                   <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl>This company does not have an exact name referenced; however, Nelson consistently refers to it as the cigar factory and details the conditions in this factory.</note>
                </org>
+               <org xml:id="Zimmerman">
+                  <orgName>Zimmerman Factory</orgName>
+                  <note resp="#ras"><bibl corresp="#CT005">1888-08-03-ChTimes</bibl></note>
+               </org>
+               <org xml:id="CCC">
+                  <orgName>Chicago Carpet company</orgName>
+                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
+               </org>
+               <org xml:id="WDbros">
+                  <orgName>W.D Brothers' cravat department</orgName>
+                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
+               </org>
+               
+               <org xml:id="HAM">
+                  <orgName>Messrs. Hart, Abt &amp; Marx</orgName>
+                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
+               </org>
+               <org xml:id="SpitLand">
+                  <orgName>Messrs. Spitz, Landaner &amp; Co.</orgName>
+                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
+               </org>
+                  
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
          </div>
