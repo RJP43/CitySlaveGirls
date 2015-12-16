@@ -132,6 +132,10 @@
                   <orgName>Marshall Field's</orgName>
                   <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
                </org> 
+               <org xml:id="Willong">
+                  <orgName>Willonghby, Hill &amp; Co.</orgName>
+                  <note resp="#rjp"><bibl corresp="#CT002">1888-07-31-ChTimes</bibl></note>
+               </org>
                <org xml:id="Gold">
                   <orgName>Goldsmith's</orgName>
                   <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
@@ -150,6 +154,10 @@
                </org>
                <org xml:id="Schmall">
                   <orgName>Schmallen's</orgName>
+                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+               </org>
+               <org xml:id="SCHMIDT">
+                  <orgName>Mr. Schmidt's slop-shop</orgName>
                   <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
                </org>
                <org xml:id="EUC">
