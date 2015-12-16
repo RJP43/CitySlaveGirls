@@ -107,7 +107,7 @@
     
     <pattern>
         <rule context="tei:seg">
-            <assert test="count(tei:w) &gt; 1">Element seg' must contain more than one 'w' element.</assert>
+            <assert test="count(.//tei:w) &gt; 1">Element seg' must contain more than one 'w' element.</assert>
         </rule>
     </pattern>
     
@@ -121,7 +121,7 @@
     
     <pattern>
         <rule context="tei:seg/*">
-            <assert test="matches (./name(), 'w')">Element 'seg' can only contain element 'w.'</assert>
+            <assert test="matches (./name(), 'w') or matches (./name(), 'placeName') or matches (./name(), 'persName')">Element 'seg' can only contain element 'w' (or 'placeName' or 'persName' for proper nouns acting as adjectives).</assert>
         </rule>
     </pattern>
     
