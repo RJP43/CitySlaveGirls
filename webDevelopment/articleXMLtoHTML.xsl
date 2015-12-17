@@ -19,6 +19,18 @@
                 <xsl:apply-templates select="//div[@type='headlines']"/>
                 </ul>
                 <hr/>
+                <div id="checkboxes">
+                    <h3>Click to Toggle Colored Dialogue Based on Speaker Attributes</h3>
+                    <ul><xsl:if test="said[@who='#nellNelson']">
+                        <li><input type="checkbox" value="nellNelson"/><span class="nellNelson">Nell Nelson</span></li></xsl:if>
+                        <xsl:if test="said[@who='#workingGirl']">
+                            <li><input type="checkbox" value="workingGirl"/><span class="workingGirl">Working Girl</span></li></xsl:if>
+                        <xsl:if test="said[@ana='male']">
+                            <li><input type="checkbox" value="male"/><span class="male">Male</span></li></xsl:if>
+                        <xsl:if test="said[@ana='female' and not(@who='#nellNelson')]">
+                            <li><input type="checkbox" value="female"/><span class="female">Female</span></li></xsl:if>
+                    </ul>
+                </div>
                 <xsl:apply-templates select="//div[@type='articleBody']"/>
             </body>
         </html>
