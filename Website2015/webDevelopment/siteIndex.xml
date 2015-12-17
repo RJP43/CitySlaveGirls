@@ -189,6 +189,10 @@
                   <orgName>Messrs. Spitz, Landaner &amp; Co.</orgName>
                   <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
                </org>
+               <org xml:id="Singer">
+                  <orgName>A. L. Singer &amp; Co.’s</orgName>
+                  <note resp="KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
+               </org>
                   
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
