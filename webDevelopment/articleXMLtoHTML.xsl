@@ -12,8 +12,9 @@
                 <link rel="stylesheet" type="text/css" href="../style/style.css"/>
             </head>
             <body>
-                <!--<h1><xsl:apply-templates select="//teiHeader//title[@level='a']"/></h1>-->
-                <h2><xsl:apply-templates select="//teiHeader//title/date"/></h2>
+                <h1>The Chicago Times</h1>
+                <h2>"City Slave Girls"</h2>
+                <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
                 <ul>
                 <xsl:apply-templates select="//div[@type='headlines']"/>
                 </ul>
@@ -42,8 +43,12 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <!--<xsl:template match="rs">
-        
-    </xsl:template>-->
+    <xsl:template match="unclear">
+        <xsl:if test="./supplied"><xsl:apply-templates/>
+            <else><span title="Due to poor quality of the article's photocopy, the text is unclear"><xsl:text>[MISSING TEXT]</xsl:text></span></else>
+        </xsl:if>
+    </xsl:template>
+    
+
     
 </xsl:stylesheet>
