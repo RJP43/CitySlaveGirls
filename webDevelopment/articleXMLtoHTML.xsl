@@ -9,10 +9,10 @@
         <html>
             <head>
                 <title></title>
-                <link rel="stylesheet" type="text/css" href="../style/style.css"/>
+                <link rel="stylesheet" type="text/css" href="./style/style.css"/>
             </head>
             <body>
-                <!--#include virtual="./top.html" -->
+                <xsl:comment>#include virtual="./top.html"</xsl:comment>
                 <h1>The Chicago Times</h1>
                 <h2>"City Slave Girls"</h2>
                 <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
@@ -33,6 +33,7 @@
                     </ul>
                 </div>
                 <xsl:apply-templates select="//div[@type='articleBody']"/>
+                <xsl:comment>#include virtual="./foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>

@@ -14,23 +14,15 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title/>
+                <title>List of Adjectives over Articles 7/30/1888, 8/2/1888, and 8/9/1888</title>
+                <link rel="stylesheet" type="text/css" href="./style/style.css"/>
             </head>
-
-            <body>
-                <h1>Nell Nelson's Distinct Vocabulary</h1>
-                <table>
-                    <tr>
-                        <th>Possessive Adjectives</th>
-                        <th>Adjectives</th>
-                        <th>Nouns</th>
-                    </tr>
-                    <xsl:apply-templates select="//seg"/>
-                </table>
-                <br/>
-                <h2>List of Adjectives</h2>
-                <ul>
-                    <!--<xsl:apply-templates select="$nelsonColl//text//title" mode="adj"/>-->
+<body>
+    <xsl:comment>#include virtual="./top.html"</xsl:comment>
+                <h1>List of Adjectives</h1> 
+    <h2>Articles 7/30/1888, 8/2/1888, and 8/9/1888</h2>
+                <div id="list">
+                    <ul>
                     <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
                         <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
                         <xsl:for-each select="current-grouping-key()">
@@ -45,62 +37,10 @@
                         </xsl:for-each>
                     </xsl:for-each-group>
                 </ul>
-            </body>
+                </div>
+    <xsl:comment>#include virtual="./foot.html"</xsl:comment>>
+</body>
         </html>
     </xsl:template>
-
-
-
-    <xsl:template match="seg">
-        <tr>
-            <td>
-                <xsl:for-each select="./w[@type = 'adj' and @subtype]">
-                    <xsl:apply-templates/>
-                    <br/>
-                </xsl:for-each>
-            </td>
-            <td>
-                <xsl:for-each select="./w[@type = 'adj' and not(@subtype)]">
-                    <xsl:apply-templates/>
-                    <br/>
-                </xsl:for-each>
-            </td>
-            <td>
-                <xsl:for-each select="./w[@type = 'noun']">
-                    <xsl:apply-templates/>
-                    <br/>
-                </xsl:for-each>
-            </td>
-        </tr>
-    </xsl:template>
-
-
-   <!-- <xsl:template match="text//title" mode="adj">
-        <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
-            <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
-            <xsl:for-each select="current-grouping-key()">
-            <li>
-                <xsl:value-of select="current-grouping-key()"/>
-                <xsl:text>[Count: </xsl:text>
-                <xsl:value-of select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])"/>
-                <xsl:text>]</xsl:text>
-            </li>
-            </xsl:for-each>
-        </xsl:for-each-group>
-        <!-\-<ul>
-            <xsl:for-each-group select="$nelsonColl//articleBody//*" group-by="$nelsonColl//articleBody//*/name()">
-                <xsl:sort select="count($nelsonColl//articleBody//*[name() eq current-grouping-key()])" order="descending"/>
-                <xsl:for-each select="current-grouping-key()">
-                    <li>
-                        <xsl:value-of select="current-grouping-key()"/>
-                        <xsl:text>[Count: </xsl:text>
-                        <xsl:value-of select="count($nelsonColl//articleBody//*[name() eq current-grouping-key()])"/>
-                        <xsl:text>]</xsl:text>
-                    </li>
-                </xsl:for-each>
-            </xsl:for-each-group>
-            <!-\\- ras: Aha! It taks forever to run, but it works!, thanks, #ebb! -\\->
-        </ul>-\->
-    </xsl:template>-->
-
+    
 </xsl:stylesheet>
