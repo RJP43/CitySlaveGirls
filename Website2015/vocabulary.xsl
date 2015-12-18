@@ -34,12 +34,14 @@
                     <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
                         <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
                         <xsl:for-each select="current-grouping-key()">
+                            <xsl:if test="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()]) &gt; 1">
                             <li>
                                 <xsl:value-of select="current-grouping-key()"/>
                                 <xsl:text>[Count: </xsl:text>
                                 <xsl:value-of select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])"/>
                                 <xsl:text>]</xsl:text>
                             </li>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each-group>
                 </ul>
