@@ -9,10 +9,10 @@
         <html>
             <head>
                 <title></title>
-                <link rel="stylesheet" type="text/css" href="..style/style.css"/>
+                <link rel="stylesheet" type="text/css" href="../style/style.css"/>
             </head>
             <body>
-                <!--#include virtual="top.html" -->
+                <!--#include virtual="./top.html" -->
                 <h1>The Chicago Times</h1>
                 <h2>"City Slave Girls"</h2>
                 <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
