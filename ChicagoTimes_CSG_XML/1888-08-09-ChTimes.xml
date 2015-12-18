@@ -82,7 +82,7 @@
                         <p>"<said who="#employer" ana="male">I can't take any but <seg><w type="adj" ana="experienced">experienced</w> <w type="noun">help</w></seg>.</said>"</p>
                         <p>"<said who="#nellNelson" ana="female">How much?</said>"</p>
                         <p>"<said who="#employer" ana="male">Where have you worked?</said>"</p>
-                        <p>"Oh, at <orgName type="exposedCompany" ref="#Gold">Goldsmith's</orgName> and <orgName type="exposedCompany" ref="#Stein">Julins Stein's</orgName> and <orgName type="exposedCompany" ref="#Ellinger">Ellinger's</orgName> and--"</p>
+                        <p>"<said who="#nellNelson" ana="female">Oh, at <orgName type="exposedCompany" ref="#Gold">Goldsmith's</orgName> and <orgName type="exposedCompany" ref="#Stein">Julins Stein's</orgName> and <orgName type="exposedCompany" ref="#Ellinger">Ellinger's</orgName> and--</said>"</p>
                         <p>"<said who="#employer" ana="male">Have you done tailoring?</said>"</p>
                         <p>"<said who="#nellNelson" ana="female">Plenty.</said>"</p>
                         <p>"<said who="#employer" ana="male">Well, then, if you're experienced you ought to be worth considerable: Here, take that for a sample,</said>" and he handed me a <w type="noun">pair</w> of <seg><w type="adj">No. 33</w> <w type="adj" ana="striped">striped</w> <w type="noun">pantaloons</w></seg> with a <seg><w type="noun">roll</w> of <w type="adj" ana="red">red</w> and <w type="adj" ana="white">white</w> <w type="noun">waistbands</w></seg> and sent me up-stairs, where, between the <w type="noun">stable</w> smell and the evervating atmosphere, I became near collapsing.</p>
