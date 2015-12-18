@@ -23,7 +23,7 @@ function toggleHighlight() {
 }
 function init() {
     originalBackground = document.body.style.backgroundColor;
-    var checkboxes = document.getElementsByTagName('input');
+    var checkboxes = document.getElementsByTagName('said');
     for (var i = 0; i < checkboxes.length; i++) {
         checkboxes[i].addEventListener('click', toggleHighlight, false);
     }
