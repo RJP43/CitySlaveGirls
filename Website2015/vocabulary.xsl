@@ -30,7 +30,18 @@
                 <br/>
                 <h2>List of Adjectives</h2>
                 <ul>
-                    <xsl:apply-templates select="//w[@type = 'adj' and not(@subtype)]"/>
+                    <!--<xsl:apply-templates select="$nelsonColl//text//title" mode="adj"/>-->
+                    <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
+                        <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
+                        <xsl:for-each select="current-grouping-key()">
+                            <li>
+                                <xsl:value-of select="current-grouping-key()"/>
+                                <xsl:text>[Count: </xsl:text>
+                                <xsl:value-of select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])"/>
+                                <xsl:text>]</xsl:text>
+                            </li>
+                        </xsl:for-each>
+                    </xsl:for-each-group>
                 </ul>
             </body>
         </html>
@@ -62,13 +73,32 @@
     </xsl:template>
 
 
-    <xsl:template match="w[@type = 'adj' and not(@subtype)]">
-        <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//*" group-by><!--$nelsonColl//div[@type='articleBody']//-->
-            <!--/distinct-values(@ana)-->
+   <!-- <xsl:template match="text//title" mode="adj">
+        <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
+            <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
+            <xsl:for-each select="current-grouping-key()">
             <li>
-                <xsl:apply-templates/>
+                <xsl:value-of select="current-grouping-key()"/>
+                <xsl:text>[Count: </xsl:text>
+                <xsl:value-of select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])"/>
+                <xsl:text>]</xsl:text>
             </li>
+            </xsl:for-each>
         </xsl:for-each-group>
-    </xsl:template>
+        <!-\-<ul>
+            <xsl:for-each-group select="$nelsonColl//articleBody//*" group-by="$nelsonColl//articleBody//*/name()">
+                <xsl:sort select="count($nelsonColl//articleBody//*[name() eq current-grouping-key()])" order="descending"/>
+                <xsl:for-each select="current-grouping-key()">
+                    <li>
+                        <xsl:value-of select="current-grouping-key()"/>
+                        <xsl:text>[Count: </xsl:text>
+                        <xsl:value-of select="count($nelsonColl//articleBody//*[name() eq current-grouping-key()])"/>
+                        <xsl:text>]</xsl:text>
+                    </li>
+                </xsl:for-each>
+            </xsl:for-each-group>
+            <!-\\- ras: Aha! It taks forever to run, but it works!, thanks, #ebb! -\\->
+        </ul>-\->
+    </xsl:template>-->
 
 </xsl:stylesheet>
