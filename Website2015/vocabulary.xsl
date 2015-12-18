@@ -8,7 +8,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
 
-    <xsl:variable name="nelsonColl" select="collection('.')"/>
+    <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_CSG_XML')"/>
 
 
     <xsl:template match="/">
@@ -63,12 +63,12 @@
 
 
     <xsl:template match="w[@type = 'adj' and not(@subtype)]">
-        <xsl:for-each select="."><!--$nelsonColl//div[@type='articleBody']//-->
+        <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//*" group-by><!--$nelsonColl//div[@type='articleBody']//-->
             <!--/distinct-values(@ana)-->
             <li>
                 <xsl:apply-templates/>
             </li>
-        </xsl:for-each>
+        </xsl:for-each-group>
     </xsl:template>
 
 </xsl:stylesheet>
