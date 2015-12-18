@@ -197,6 +197,10 @@
                   <orgName>the Boston Store</orgName>
                   <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
                </org>
+               <org xml:id="CaS">
+                  <orgName>Cooper &amp; Siegel's</orgName>
+                  <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
+               </org>
                   
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
