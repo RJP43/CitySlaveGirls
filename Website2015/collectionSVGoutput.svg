@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="125%">
+   <g transform="translate(60,600)">
+      <line x1="30"
+            y1="1"
+            x2="30"
+            y2="-500"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="30"
+            y1="0"
+            x2="277.5"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-125" font-size="14">
+                    25% </text>
+      <text x="0" y="-250" font-size="14">
+                    50% </text>
+      <text x="0" y="-375" font-size="14"> 75% </text>
+      <text x="307.5" y="-375" font-size="24">Legend</text>
+      <line x1="317.5"
+            y1="-349"
+            x2="317.5"
+            y2="-367"
+            stroke="blue"
+            stroke-width="20"/>
+      <text x="332.5" y="-349" font-size="18">Male Voice</text>
+      <line x1="317.5"
+            y1="-323"
+            x2="317.5"
+            y2="-341"
+            stroke="red"
+            stroke-width="20"/>
+      <text x="332.5" y="-323" font-size="18">Female Voice</text>
+      <line x1="317.5"
+            y1="-297"
+            x2="317.5"
+            y2="-315"
+            stroke="pink"
+            stroke-width="20"/>
+      <text x="332.5" y="-297" font-size="18">Working Girl Voice</text>
+      <line x1="317.5"
+            y1="-271"
+            x2="317.5"
+            y2="-289"
+            stroke="green"
+            stroke-width="20"/>
+      <text x="332.5" y="-271" font-size="18">Nell Nelson Voice</text>
+      <line x1="60"
+            x2="60"
+            y1="0"
+            y2="-175.8247217806041335"
+            stroke="blue"
+            stroke-width="45"/>
+      <line x1="120"
+            x2="120"
+            y1="0"
+            y2="-324.1752782193958665"
+            stroke="red"
+            stroke-width="45"/>
+      <line x1="180"
+            x2="180"
+            y1="0"
+            y2="-209.1613672496025435"
+            stroke="pink"
+            stroke-width="45"/>
+      <line x1="240"
+            x2="240"
+            y1="0"
+            y2="-98.1717011128775835"
+            stroke="green"
+            stroke-width="45"/>
+      <line x1="30"
+            y1="-250"
+            x2="277.5"
+            y2="-250"
+            stroke="grey"
+            stroke-width="2"
+            stroke-dasharray="5, 5"/>
+      <text x="60"
+            y="-87.91236089030206675"
+            font-size="12"
+            fill="white"
+            text-anchor="middle">35.2% </text>
+      <text x="120"
+            y="-162.08763910969793325"
+            font-size="12"
+            fill="white"
+            text-anchor="middle">64.8% </text>
+      <text x="180"
+            y="-104.58068362480127175"
+            font-size="12"
+            fill="white"
+            text-anchor="middle">41.8% </text>
+      <text x="240"
+            y="-49.08585055643879175"
+            font-size="12"
+            fill="white"
+            text-anchor="middle">19.6% </text>
+   </g>
+</svg>

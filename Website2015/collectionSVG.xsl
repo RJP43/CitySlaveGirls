@@ -28,10 +28,10 @@
 
 
                 <!-- ras: Y-Axis -->
-                <line x1="{$xAxisStart}" y1="{$yAxisStart}" x2="{$xAxisStart}" y2="{$yAxisEnd}"
+                <line x1="{$xAxisStart}" y1="{$yAxisStart + 1}" x2="{$xAxisStart}" y2="{$yAxisEnd}"
                     stroke="black" stroke-width="1"/>
                 <!-- ras: X-Axis -->
-                <line x1="{$xAxisStart + 1}" y1="{$yAxisStart}" x2="{$xAxisEnd + 1}" y2="{$yAxisStart}"
+                <line x1="{$xAxisStart}" y1="{$yAxisStart}" x2="{$xAxisEnd}" y2="{$yAxisStart}"
                     stroke="black" stroke-width="1"/>
                 <!-- ras: Y-Axis Labels -->
                 <text x="{$xAxisStart - 30}" y="{($yAxisEnd + $yAxisStart) div 4}" font-size="14">
@@ -40,11 +40,11 @@
                     50% </text>
                 <text x="{$xAxisStart - 30}" y="{(($yAxisEnd + $yAxisStart) * 3) div 4}"
                     font-size="14"> 75% </text>
-                <!-- ras: change percents later to word count -->
+                
 
                 <!-- ras: Legend -->
                 <text x="{$xLegend}" y="{$yLegendStart}" font-size="24">Legend</text>
-                <!-- ras: Blank -->
+                <!-- ras: Male Voice  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + $yLegendInterval}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
@@ -52,7 +52,7 @@
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5}" y="{$yLegendStart +$yLegendInterval}"
                     font-size="{$legendFontSize}">Male Voice</text>
-                <!-- ras: No -->
+                <!-- ras: Female Voice  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + ($yLegendInterval * 2)}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
@@ -61,7 +61,7 @@
                 <text x="{$xLegend + $legendBoxWidth + 5}"
                     y="{$yLegendStart + ($yLegendInterval * 2)}" font-size="{$legendFontSize}"
                     >Female Voice</text>
-                <!-- ras: Yes but fined -->
+                <!-- ras: Working Girl -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + ($yLegendInterval * 3)}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
@@ -69,7 +69,7 @@
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5}"
                     y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Working Girl Voice</text>
-                <!-- ras: Yes -->
+                <!-- ras: Nelson Voice -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + ($yLegendInterval * 4)}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
