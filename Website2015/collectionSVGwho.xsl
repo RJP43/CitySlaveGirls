@@ -3,30 +3,30 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
-
+    
     <!-- ras: Chart Size Variables -->
     <xsl:variable name="Interval" select="60"/>
     <xsl:variable name="barWidth" select="45"/>
     <xsl:variable name="yAxisStart" select="0"/>
     <xsl:variable name="yAxisEnd" select="-500"/>
     <xsl:variable name="xAxisStart" select="30"/>
-    <xsl:variable name="xAxisEnd" select="((3 + 1) * $Interval) - ($barWidth div 2)"/>
+    <xsl:variable name="xAxisEnd" select="((8 + 1) * $Interval) - ($barWidth div 2)"/>
     <!-- ras: Legend Variables -->
     <xsl:variable name="xLegend" select="$xAxisEnd + 30"/>
     <xsl:variable name="yLegendStart" select="-375"/>
     <xsl:variable name="yLegendInterval" select="26"/>
     <xsl:variable name="legendFontSize" select="18"/>
     <xsl:variable name="legendBoxWidth" select="20"/>
-
+    
     <!-- ras: Variable for collection -->
     <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_CSG_XML')"/>
-
+    
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
         <svg width="100%" height="125%">
             <g transform="translate(60,600)">
-
-
+                
+                
                 <!-- ras: Y-Axis -->
                 <line x1="{$xAxisStart}" y1="{$yAxisStart + 1}" x2="{$xAxisStart}" y2="{$yAxisEnd}"
                     stroke="black" stroke-width="1"/>
@@ -41,18 +41,18 @@
                 <text x="{$xAxisStart - 30}" y="{(($yAxisEnd + $yAxisStart) * 3) div 4}"
                     font-size="14"> 75% </text>
                 
-
+                
                 <!-- ras: Legend -->
                 <text x="{$xLegend}" y="{$yLegendStart}" font-size="24">Legend</text>
-                <!-- ras: Male Voice  -->
+                <!-- ras:  Nelson  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + $yLegendInterval}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
-                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="blue"
+                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="green"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5}" y="{$yLegendStart +$yLegendInterval}"
                     font-size="{$legendFontSize}">Male Voice</text>
-                <!-- ras: Female Voice  -->
+                <!-- ras: Working Girl  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + ($yLegendInterval * 2)}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
@@ -61,7 +61,7 @@
                 <text x="{$xLegend + $legendBoxWidth + 5}"
                     y="{$yLegendStart + ($yLegendInterval * 2)}" font-size="{$legendFontSize}"
                     >Female Voice</text>
-                <!-- ras: Unknown -->
+                <!-- ras: Foreperson -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2)}"
                     y1="{$yLegendStart + ($yLegendInterval * 3)}"
                     x2="{$xLegend + ($legendBoxWidth div 2)}"
@@ -69,7 +69,47 @@
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5}"
                     y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
-
+                <!-- ras: Employer -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2)}"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="orange"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
+                <!-- ras: Employee -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2)}"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="orange"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
+                <!-- ras: Benefactor -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2)}"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="orange"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
+                <!-- ras: Messenger -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2)}"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="orange"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
+                <!-- ras: Unidentified -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2)}"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="orange"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}">Unknown Voice</text>
+                
                 <!-- ras: Drawing Bar Graph -->
                 <xsl:variable name="maxYValue"
                     select="sum($nelsonColl//said/string-length())"/>
@@ -81,16 +121,16 @@
                 <line x1="{$Interval}" x2="{$Interval}" y1="{$yAxisStart}"
                     y2="{$maleYMax * $yAxisEnd}"
                     stroke="blue" stroke-width="{$barWidth}"/>
-                    
+                
                 <line x1="{$Interval * 2}" x2="{$Interval * 2}" y1="{$yAxisStart}"
                     y2="{$femaleYMax * $yAxisEnd}"
                     stroke="red" stroke-width="{$barWidth}"/>
-                    
+                
                 <line x1="{$Interval * 3}" x2="{$Interval * 3}" y1="{$yAxisStart}"
                     y2="{$unknownYMax * $yAxisEnd}"
                     stroke="orange" stroke-width="{$barWidth}"/>
-
-
+                
+                
                 <!-- ras: Dotted line at halfway -->
                 <line x1="{$xAxisStart}" y1="{($yAxisEnd + $yAxisStart) div 2}" x2="{$xAxisEnd}"
                     y2="{($yAxisEnd + $yAxisStart) div 2}" stroke="grey" stroke-width="2"
