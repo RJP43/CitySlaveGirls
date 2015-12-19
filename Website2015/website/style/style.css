@@ -81,9 +81,7 @@ body{
 		padding: 15px 40px;
 		color: #96BDC6;
 }
-#nav ul ul ul {
-	   position: absolute; left: 100%; top:0;
-}
+
 #nav a:hover {
     font-size:1.3em;
 	background-color: #8BB174;
@@ -92,6 +90,23 @@ body{
 	font-size:1.1em;
 	font-weight:normal;
 	color: #000000;
+}
+
+/*rjp: toggle box for articles*/
+#checkboxes {
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+   
+    display: block;
+    background: #f7b6a1;
+     border: 2px solid #FFFFFF;
+}
+#checkboxes ul, li {
+    list-style-type:none;
+    display:inline;
+    padding:5px;
+         
 }
 
 /*rjp: table styling*/

@@ -4,16 +4,16 @@ function toggleHighlight() {
     var color;
     switch (pos) {
         case 'nellNelson':
-        color = 'orange';
+        color = '#A3C9A8';
         break;
         case 'workingGirl':
-        color = 'pink';
+        color = '#FAF3DD';
         break;
         case 'female':
-        color = 'red';
+        color = '#FFC09F';
         break;
         case 'male':
-        color = 'blue';
+        color = '#B9CDDA';
         break; 
     }
     var status = this.checked;
