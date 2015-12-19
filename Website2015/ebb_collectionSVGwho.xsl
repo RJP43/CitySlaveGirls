@@ -195,84 +195,14 @@
                     <line x1="{$Interval * position() + $xSpacing}"
                         x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
                         y2="{. * $yAxis50}" stroke="{$strokeColor}" stroke-width="{$barWidth}"/>                
-                    
+                  
+                    <!-- ras: Percent labels on bars -->
                     <text x="{$Interval * position() + $xSpacing}" y="{. * $yAxis50 - 10}"
                         font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                             select="format-number(. * 100, '##.###')"/>% </text>
-                    
-                    
+               
                 </xsl:for-each>
-           <!--     <xsl:sort select="">-->
-                  <!--  <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$nellYMax * $yAxis50}" stroke="#A3C9A8" stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$wgYMax * $yAxis50}" stroke="#FAF3DD" stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$forepersonYMax * $yAxis50}" stroke="#725752"
-                        stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$employerYMax * $yAxis50}" stroke="#F2DA00" stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$employeeYMax * $yAxis50}" stroke="#C695A6" stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$benefactorYMax * $yAxis50}" stroke="#29335C"
-                        stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$messengerYMax * $yAxis50}" stroke="#00A6ED" stroke-width="{$barWidth}"/>
-
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$unidentifiedYMax * $yAxis50}" stroke="orange"
-                        stroke-width="{$barWidth}"/>-->
-                <!--</xsl:sort>-->
-
-
-
-
-                <!-- ras: Dotted line at halfway -->
-                <line x1="{$xAxisStart + $xSpacing}" y1="{($yAxisEnd + $yAxisStart) div 2}"
-                    x2="{$xAxisEnd + $xSpacing}" y2="{($yAxisEnd + $yAxisStart) div 2}"
-                    stroke="grey" stroke-width="2" stroke-dasharray="5, 5"/>
-
-
-                <!-- ras: Percent labels on bars -->
-                <!--<text x="{$Interval + $xSpacing}" y="{$nellYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($nellYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 2 + $xSpacing}" y="{$wgYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($wgYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 3 + $xSpacing}" y="{$forepersonYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($forepersonYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 4 + $xSpacing}" y="{$employerYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($employerYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 5 + $xSpacing}" y="{$employeeYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($employeeYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 6 + $xSpacing}" y="{$benefactorYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($benefactorYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 7 + $xSpacing}" y="{$messengerYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($messengerYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 8 + $xSpacing}" y="{$unidentifiedYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($unidentifiedYMax * 100, '##.###')"/>% </text>-->
+  
             </g>
         </svg>
     </xsl:template>
