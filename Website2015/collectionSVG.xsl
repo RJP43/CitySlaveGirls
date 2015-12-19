@@ -9,7 +9,7 @@
     <xsl:variable name="barWidth" select="45"/>
     <xsl:variable name="yAxisStart" select="0"/>
     <xsl:variable name="yAxisEnd" select="-500"/>
-    <xsl:variable name="yAxisDrawEnd" select="-400"/>
+    <xsl:variable name="yAxisDrawEnd" select="-350"/>
     <xsl:variable name="xAxisStart" select="30"/>
     <xsl:variable name="xAxisEnd" select="((3 + 1) * $Interval) - ($barWidth div 2)"/>
     <!-- ras: Legend Variables -->
@@ -26,7 +26,7 @@
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
         <svg width="100%" height="125%">
-            <g transform="translate(50,500)">
+            <g transform="translate(20,475)">
 
 
                 <!-- ras: Y-Axis -->
@@ -37,10 +37,12 @@
                     y2="{$yAxisStart + 1}" stroke="black" stroke-width="1"/>
                 
                 <!-- ras: Title -->
-                <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisDrawEnd - 40}"
+                <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing + 50}" y="{$yAxisDrawEnd - 60}"
                     style="text-anchor: middle" font-size="18">Percent of Total Dialogue Spoken per Gender of Speaker</text>
-                <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisDrawEnd - 20}"
+                <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing + 50}" y="{$yAxisDrawEnd - 40}"
                     style="text-anchor: middle" font-size="18">Throughout Collection of Chicago Times Articles</text>
+                <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing + 50}" y="{$yAxisDrawEnd - 20}"
+                    style="text-anchor: middle" font-size="18">(Excluding Nell Nelson's Voice)</text>
                 
                 
                 <!-- ras: Axis Labels -->
@@ -49,17 +51,15 @@
                     style="text-anchor: middle" font-size="14">% of Total Dialogue (String Length of
                     &lt;said&gt;)</text>
                 <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisStart + 20}"
-                    style="text-anchor: middle" font-size="14">Gender of Speaker</text>
+                    style="text-anchor: middle" font-size="14">Gender of Speaker (Excluding Nell Nelson)</text>
                 <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisStart + 36}"
-                    style="text-anchor: middle" font-size="14">(&lt;said @ana="*"&gt;)</text>
+                    style="text-anchor: middle" font-size="14">(&lt;said @ana="*" and not(@who='#nellNelson')&gt;)</text>
                 
                 
                 <text x="{$xAxisStart - 30 + $xSpacing}" y="{($yAxisEnd + $yAxisStart) div 4}" font-size="14">
                     25% </text>
                 <text x="{$xAxisStart - 30+ $xSpacing}" y="{($yAxisEnd + $yAxisStart) div 2}" font-size="14">
                     50% </text>
-                <text x="{$xAxisStart - 30 + $xSpacing}" y="{(($yAxisEnd + $yAxisStart) * 3) div 4}"
-                    font-size="14"> 75% </text>
 
 
                 <!-- ras: Legend -->
@@ -97,16 +97,16 @@
                 <xsl:variable name="maleYMax"
                     select="(sum($nelsonColl//said[@ana = 'male']/string-length())) div $maxYValue"/>
                 <xsl:variable name="femaleYMax"
-                    select="(sum($nelsonColl//said[@ana = 'female']/string-length())) div $maxYValue"/>
+                    select="(sum($nelsonColl//said[@ana = 'female' and not(@who='#nellNelson')]/string-length())) div $maxYValue"/>
                 <xsl:variable name="unknownYMax"
                     select="(sum($nelsonColl//said[@ana = 'unknown']/string-length())) div $maxYValue"/>
 
 
-                <line x1="{$Interval + $xSpacing}" x2="{$Interval + $xSpacing}" y1="{$yAxisStart}"
+                <line x1="{$Interval * 2 + $xSpacing}" x2="{$Interval * 2 + $xSpacing}" y1="{$yAxisStart}"
                     y2="{$maleYMax * $yAxisEnd}" stroke="#B9CDDA" stroke-width="{$barWidth}"/>
 
 
-                <line x1="{($Interval * 2) + $xSpacing}" x2="{($Interval * 2) + $xSpacing}" y1="{$yAxisStart}"
+                <line x1="{($Interval) + $xSpacing}" x2="{($Interval) + $xSpacing}" y1="{$yAxisStart}"
                     y2="{$femaleYMax * $yAxisEnd}" stroke="#FFAAEA" stroke-width="{$barWidth}"/>
 
 
@@ -121,11 +121,11 @@
                     stroke-dasharray="5, 5"/>
 
 
-                <text x="{$Interval + $xSpacing}" y="{$maleYMax * $yAxisEnd - 10}"
+                <text x="{($Interval * 2) + $xSpacing}" y="{$maleYMax * $yAxisEnd - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($maleYMax * 100, '##.###')"/>% </text>
 
-                <text x="{($Interval * 2) + $xSpacing}" y="{$femaleYMax * $yAxisEnd - 10}"
+                <text x="{$Interval + $xSpacing}" y="{$femaleYMax * $yAxisEnd - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($femaleYMax * 100, '##.###')"/>% </text>
 

@@ -64,30 +64,30 @@
                     font-size="20">Legend</text>
                 <!-- ras:  Nelson  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + $yLegendInterval}"
+                    y1="{$yLegendStart + $yLegendInterval * 2}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="#A3C9A8"
+                    y2="{$yLegendStart + ($yLegendInterval * 2) - $legendFontSize}" stroke="#A3C9A8"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart +$yLegendInterval}" font-size="{$legendFontSize}">Nell
+                    y="{$yLegendStart +$yLegendInterval * 2}" font-size="{$legendFontSize}">Nell
                     Nelson</text>
                 <!-- ras: Working Girl  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 2)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 1)}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 2) - $legendFontSize}" stroke="#FAF3DD"
+                    y2="{$yLegendStart + ($yLegendInterval * 1) - $legendFontSize}" stroke="#FAF3DD"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 2)}" font-size="{$legendFontSize}"
+                    y="{$yLegendStart + ($yLegendInterval * 1)}" font-size="{$legendFontSize}"
                     >Working Girl</text>
                 <!-- ras: Foreperson -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 5)}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="#725752"
+                    y2="{$yLegendStart + ($yLegendInterval * 5) - $legendFontSize}" stroke="#725752"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}"
+                    y="{$yLegendStart + ($yLegendInterval * 5)}" font-size="{$legendFontSize}"
                     >Foreperson</text>
                 <!-- ras: Employer -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
@@ -100,12 +100,12 @@
                     >Employer</text>
                 <!-- ras: Employee -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 5)}"
+                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 5) - $legendFontSize}" stroke="#C695A6"
+                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="#C695A6"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 5)}" font-size="{$legendFontSize}"
+                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}"
                     >Employee</text>
                 <!-- ras: Benefactor -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
@@ -159,42 +159,39 @@
                     select="(sum($nelsonColl//said[@who = '#unidentified']/string-length())) div $maxYValue"/>
                 <xsl:variable name="yAxis50" select="$yAxisEnd * 2"/>
 
-                <xsl:sort select="">
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$nellYMax * $yAxis50}" stroke="#A3C9A8" stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$wgYMax * $yAxis50}" stroke="#FAF3DD" stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 2 + $xSpacing}" x2="{$Interval * 2 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$nellYMax * $yAxis50}" stroke="#A3C9A8"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$forepersonYMax * $yAxis50}" stroke="#725752"
-                        stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 1 + $xSpacing}" x2="{$Interval * 1 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$wgYMax * $yAxis50}" stroke="#FAF3DD"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$employerYMax * $yAxis50}" stroke="#F2DA00" stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 5 + $xSpacing}" x2="{$Interval * 5 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$forepersonYMax * $yAxis50}" stroke="#725752"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$employeeYMax * $yAxis50}" stroke="#C695A6" stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 4 + $xSpacing}" x2="{$Interval * 4 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$employerYMax * $yAxis50}" stroke="#F2DA00"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$benefactorYMax * $yAxis50}" stroke="#29335C"
-                        stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 3 + $xSpacing}" x2="{$Interval * 3 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$employeeYMax * $yAxis50}" stroke="#C695A6"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$messengerYMax * $yAxis50}" stroke="#00A6ED" stroke-width="{$barWidth}"/>
+                <line x1="{$Interval * 6 + $xSpacing}" x2="{$Interval * 6 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$benefactorYMax * $yAxis50}" stroke="#29335C"
+                    stroke-width="{$barWidth}"/>
 
-                    <line x1="{$Interval * position() + $xSpacing}"
-                        x2="{$Interval * position() + $xSpacing}" y1="{$yAxisStart}"
-                        y2="{$unidentifiedYMax * $yAxis50}" stroke="orange"
-                        stroke-width="{$barWidth}"/>
-                </xsl:sort>
+                <line x1="{$Interval * 7 + $xSpacing}" x2="{$Interval * 7 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$messengerYMax * $yAxis50}" stroke="#00A6ED"
+                    stroke-width="{$barWidth}"/>
+
+                <line x1="{$Interval * 8 + $xSpacing}" x2="{$Interval * 8 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$unidentifiedYMax * $yAxis50}" stroke="orange"
+                    stroke-width="{$barWidth}"/>
+
 
 
 
@@ -206,19 +203,19 @@
 
 
                 <!-- ras: Percent labels on bars -->
-                <text x="{$Interval + $xSpacing}" y="{$nellYMax * $yAxis50 - 10}"
-                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($nellYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 2 + $xSpacing}" y="{$wgYMax * $yAxis50 - 10}"
+                <text x="{$Interval * 2 + $xSpacing}" y="{$nellYMax * $yAxis50 - 10}"
+                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"
+                        ><xsl:value-of select="format-number($nellYMax * 100, '##.###')"/>% </text>
+                <text x="{$Interval * 1 + $xSpacing}" y="{$wgYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($wgYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 3 + $xSpacing}" y="{$forepersonYMax * $yAxis50 - 10}"
+                <text x="{$Interval * 5 + $xSpacing}" y="{$forepersonYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($forepersonYMax * 100, '##.###')"/>% </text>
                 <text x="{$Interval * 4 + $xSpacing}" y="{$employerYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($employerYMax * 100, '##.###')"/>% </text>
-                <text x="{$Interval * 5 + $xSpacing}" y="{$employeeYMax * $yAxis50 - 10}"
+                <text x="{$Interval * 3 + $xSpacing}" y="{$employeeYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                         select="format-number($employeeYMax * 100, '##.###')"/>% </text>
                 <text x="{$Interval * 6 + $xSpacing}" y="{$benefactorYMax * $yAxis50 - 10}"

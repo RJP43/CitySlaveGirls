@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>The Restoration of Nell Nelson</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>        
+    </head>
+    <body>
+        <div id="svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="125%" viewBox="0 0 1200 1200" preserveAspectRatio="xMinYMin meet" style="display: block">
+                <g transform="translate(20,475)">
+                    <line x1="70"
+                        y1="2"
+                        x2="70"
+                        y2="-350"
+                        stroke="black"
+                        stroke-width="1"/>
+                    <line x1="70"
+                        y1="1"
+                        x2="257.5"
+                        y2="1"
+                        stroke="black"
+                        stroke-width="1"/>
+                    <text x="213.75" y="-410" style="text-anchor: middle" font-size="18">Percent of Total Dialogue Spoken per Gender of Speaker</text>
+                    <text x="213.75" y="-390" style="text-anchor: middle" font-size="18">Throughout Collection of Chicago Times Articles</text>
+                    <text x="213.75" y="-370" style="text-anchor: middle" font-size="18">(Excluding Nell Nelson's Voice)</text>
+                    <text x="25"
+                        y="-175"
+                        transform="rotate(-90 25,-175)"
+                        style="text-anchor: middle"
+                        font-size="14">% of Total Dialogue (String Length of
+                        &lt;said&gt;)</text>
+                    <text x="163.75" y="20" style="text-anchor: middle" font-size="14">Gender of Speaker (Excluding Nell Nelson)</text>
+                    <text x="163.75" y="36" style="text-anchor: middle" font-size="14">(&lt;said @ana="*" and not(@who='#nellNelson')&gt;)</text>
+                    <text x="40" y="-125" font-size="14">
+                        25% </text>
+                    <text x="40" y="-250" font-size="14">
+                        50% </text>
+                    <text x="297.5" y="-300" font-size="20">Legend</text>
+                    <line x1="297.5"
+                        y1="-274"
+                        x2="297.5"
+                        y2="-288"
+                        stroke="#B9CDDA"
+                        stroke-width="20"/>
+                    <text x="312.5" y="-274" font-size="14">Male Voice</text>
+                    <line x1="297.5"
+                        y1="-248"
+                        x2="297.5"
+                        y2="-262"
+                        stroke="#FFAAEA"
+                        stroke-width="20"/>
+                    <text x="312.5" y="-248" font-size="14">Female Voice</text>
+                    <line x1="297.5"
+                        y1="-222"
+                        x2="297.5"
+                        y2="-236"
+                        stroke="orange"
+                        stroke-width="20"/>
+                    <text x="312.5" y="-222" font-size="14">Unknown Voice</text>
+                    <line x1="160"
+                        x2="160"
+                        y1="0"
+                        y2="-142.236194641880809"
+                        stroke="#B9CDDA"
+                        stroke-width="45"/>
+                    <line x1="100"
+                        x2="100"
+                        y1="0"
+                        y2="-251.722252597047567"
+                        stroke="#FFAAEA"
+                        stroke-width="45"/>
+                    <line x1="220"
+                        x2="220"
+                        y1="0"
+                        y2="-4.838709677419355"
+                        stroke="orange"
+                        stroke-width="45"/>
+                    <line x1="70"
+                        y1="-250"
+                        x2="257.5"
+                        y2="-250"
+                        stroke="grey"
+                        stroke-width="2"
+                        stroke-dasharray="5, 5"/>
+                    <text x="160"
+                        y="-152.236194641880809"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">28.447% </text>
+                    <text x="100"
+                        y="-261.722252597047567"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">50.344% </text>
+                    <text x="220"
+                        y="-14.838709677419355"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">.968% </text>
+                </g>
+            </svg>
+        </div>
+        <div>
+            <p>This bar graph represents the amount of dialogue associated with gender. This runs over our currently transcribed articles from the <i>Chicago Times</i> in 1888: 7/30, 7/31, 8/2, 8/3, 8/4, and 8/9. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @ana was added, representing the speaker as either male or female (unknown if speaker was undentified). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each gender, again using string-length. We excluded Nell Nelson's dialogue in our sum of female speakers (meaning our bars would no longer total 100%, but would better represent the female voice). When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each gender across our entire collection of articles. To view the XSLT of our work, click <a href="">here</a>.</p>
+            <p>Our reseach question was: what gender has the most amount of dialogue represented within Nell Nelson's City Slave Girl Articles? Nelson's focus in writing the articles is the working woman, with an emphasis on women. Did Nelson choose to expose their plight most by giving them a direct voice, or by representing the male voice that might be an oppressing force? We found that the female voice was significantly more represented than the male voice. This is what we expected; Nelson tends to interview women of all classes and working conditions. When interviewing both a male and female in a similar working environment, her articles include significantly more dialogue from the women workers. Here, we can see that the female voice is represented nearly twice as much as the male voice.</p>
+        </div>
+        <div id="svg2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="125%" viewBox="0 0 1200 1200" preserveAspectRatio="xMinYMin meet" style="display: block">
+                <g transform="translate(10,400)">
+                    <line x1="60"
+                        y1="2"
+                        x2="60"
+                        y2="-300"
+                        stroke="black"
+                        stroke-width="1"/>
+                    <line x1="60"
+                        y1="1"
+                        x2="547.5"
+                        y2="1"
+                        stroke="black"
+                        stroke-width="1"/>
+                    <text x="20"
+                        y="-150"
+                        transform="rotate(-90 20,-150)"
+                        style="text-anchor: middle"
+                        font-size="14">% of Total Dialogue (String Length of
+                        &lt;said&gt;)</text>
+                    <text x="303.75" y="20" style="text-anchor: middle" font-size="14">Speaker (&lt;said
+                        @who="*"&gt;)</text>
+                    <text x="30" y="-150" font-size="14"> 25% </text>
+                    <text x="30" y="-300" font-size="14"> 50% </text>
+                    <text x="303.75" y="-340" style="text-anchor: middle" font-size="18">Percent of Total Dialogue Spoken per
+                        Archetype of Speaker </text>
+                    <text x="303.75" y="-320" style="text-anchor: middle" font-size="18">Throughout Collection of Chicago
+                        Times Articles</text>
+                    <text x="587.5" y="-250" font-size="20">Legend</text>
+                    <line x1="587.5"
+                        y1="-198"
+                        x2="587.5"
+                        y2="-214"
+                        stroke="#A3C9A8"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-198" font-size="16">Nell
+                        Nelson</text>
+                    <line x1="587.5"
+                        y1="-224"
+                        x2="587.5"
+                        y2="-240"
+                        stroke="#FAF3DD"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-224" font-size="16">Working Girl</text>
+                    <line x1="587.5"
+                        y1="-120"
+                        x2="587.5"
+                        y2="-136"
+                        stroke="#725752"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-120" font-size="16">Foreperson</text>
+                    <line x1="587.5"
+                        y1="-146"
+                        x2="587.5"
+                        y2="-162"
+                        stroke="#F2DA00"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-146" font-size="16">Employer</text>
+                    <line x1="587.5"
+                        y1="-172"
+                        x2="587.5"
+                        y2="-188"
+                        stroke="#C695A6"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-172" font-size="16">Employee</text>
+                    <line x1="587.5"
+                        y1="-94"
+                        x2="587.5"
+                        y2="-110"
+                        stroke="#29335C"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-94" font-size="16">Benefactor</text>
+                    <line x1="587.5"
+                        y1="-68"
+                        x2="587.5"
+                        y2="-84"
+                        stroke="#00A6ED"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-68" font-size="16">Messenger</text>
+                    <line x1="587.5"
+                        y1="-42"
+                        x2="587.5"
+                        y2="-58"
+                        stroke="orange"
+                        stroke-width="20"/>
+                    <text x="602.5" y="-42" font-size="16">Unidentified</text>
+                    <line x1="150"
+                        x2="150"
+                        y1="0"
+                        y2="-121.4434117003827228"
+                        stroke="#A3C9A8"
+                        stroke-width="45"/>
+                    <line x1="90"
+                        x2="90"
+                        y1="0"
+                        y2="-237.310005467468562"
+                        stroke="#FAF3DD"
+                        stroke-width="45"/>
+                    <line x1="330"
+                        x2="330"
+                        y1="0"
+                        y2="-56.2602515035538544"
+                        stroke="#725752"
+                        stroke-width="45"/>
+                    <line x1="270"
+                        x2="270"
+                        y1="0"
+                        y2="-74.8933843630399128"
+                        stroke="#F2DA00"
+                        stroke-width="45"/>
+                    <line x1="210"
+                        x2="210"
+                        y1="0"
+                        y2="-84.1443411700382724"
+                        stroke="#C695A6"
+                        stroke-width="45"/>
+                    <line x1="390"
+                        x2="390"
+                        y1="0"
+                        y2="-14.7293603061782394"
+                        stroke="#29335C"
+                        stroke-width="45"/>
+                    <line x1="450"
+                        x2="450"
+                        y1="0"
+                        y2="-10.5631492618917444"
+                        stroke="#00A6ED"
+                        stroke-width="45"/>
+                    <line x1="510"
+                        x2="510"
+                        y1="0"
+                        y2="-0.6560962274466924"
+                        stroke="orange"
+                        stroke-width="45"/>
+                    <line x1="60"
+                        y1="-150"
+                        x2="547.5"
+                        y2="-150"
+                        stroke="grey"
+                        stroke-width="2"
+                        stroke-dasharray="5, 5"/>
+                    <text x="150"
+                        y="-131.4434117003827228"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">20.241% </text>
+                    <text x="90"
+                        y="-247.310005467468562"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">39.552% </text>
+                    <text x="330"
+                        y="-66.2602515035538544"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">9.377% </text>
+                    <text x="270"
+                        y="-84.8933843630399128"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">12.482% </text>
+                    <text x="210"
+                        y="-94.1443411700382724"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">14.024% </text>
+                    <text x="390"
+                        y="-24.7293603061782394"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">2.455% </text>
+                    <text x="450"
+                        y="-20.5631492618917444"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">1.761% </text>
+                    <text x="510"
+                        y="-10.6560962274466924"
+                        font-size="12"
+                        fill="black"
+                        text-anchor="middle">.109% </text>
+                </g>
+            </svg>
+        </div>
+        <div>
+            <p>This bar graph represents the amount of dialogue associated with the archetype of the speaker. This runs over our currently transcribed articles from the <i>Chicago Times</i> in 1888: 7/30, 7/31, 8/2, 8/3, 8/4, and 8/9. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @who was added, representing the speaker as either Nell Nelson, the Working Girl, foreperson, employer, employee, benefactor, or messenger (unidentified if speaker was unknown). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each archetype, again using string-length. When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each archetype across our entire collection of articles.</p>
+            <p>We catalogued them mainly in relation to their employment. The working girl, because of the focus of the series, received her own tag. Nell Nelson, being the author, also received her own tag. Messenger was an otherwise unlabeled character who spoke on the behalf of another. The benefactor was a male who was the focus of a lengthy back and forth with Nell in <a href="">article 8/02</a>.</p>
+            <p>Our research question was: what archetype has the most amount of dialogue represented within Nell Nelson's City Slave Girl Articles? Nelson spoke with many differnt types of people in her expose. We found that overall, the working Girl was significantly had the most amount of dialgue. Even when compared against Nelson's own dialogue, the working girl is represented nearly twice as much as the author. This corresponds to our findings in the gender bar graph above; the female voice is most represented. Furthermore, the voice of the employee (when considered with the voice of the working girl, is equal to 53.6% of total dialogue) is significantly more represented than that of the employer (even when including the foreperson, totalling 21.9%). This is a difference of 31.7%.</p>
+        </div>
+    </body>
+</html>

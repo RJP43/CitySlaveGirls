@@ -42,23 +42,33 @@
                     <xsl:apply-templates select="//div[@type='articleBody'][1]"/>
                 </div>
                 <xsl:if test="//div[@type='headlines'][2]">
+                    <hr />
+                    <br />
+                    <br />
                     <div class="headlinesText">
                         <ul>
                             <xsl:apply-templates select="//div[@type='headlines'][2]//item"/>
                         </ul> 
                     </div>
+                    <br />
+                    <br />
                     <hr />
                         <div class="articleText">
                             <xsl:apply-templates select="//div[@type='articleBody'][2]"/>
                         </div> 
                 </xsl:if>
                 <xsl:if test="//div[@type='headlines'][3]">
+                    <hr />
+                    <br />
+                    <br />
                     <div class="headlinesText">
                         <ul>
                         <xsl:apply-templates select="//div[@type='headlines'][3]//item"/>
                         </ul>   
                     </div>
-                        <hr />
+                    <br />
+                    <br />
+                    <hr />
                     <div class="articleText">
                         <xsl:apply-templates select="//div[@type='articleBody'][3]"/>
                     </div>
