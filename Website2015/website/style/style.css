@@ -1,5 +1,5 @@
 html{
-    background-color: #E0D8DE;  
+    background-color: #f7b6a1;  
 }
 body{
     margin: 20px auto;
@@ -91,22 +91,40 @@ body{
 	font-weight:normal;
 	color: #000000;
 }
-
+/*rjp: styling for article pages*/
+#articleHead {
+    margin:10px;
+    padding: 5px;
+    font-family: 'Goudy Old Style';
+	text-align:center;
+	width: 100%;
+}
+.headlinesText ul {
+    text-align: left;
+    font-family: sans-serif;
+    list-style:double-circled-decimal;
+    margin:20px;
+}
+.articleText {
+    margin:10px;
+}
 /*rjp: toggle box for articles*/
 #checkboxes {
     margin: 10px;
     padding:5px;
     text-align: center;
-   
     display: block;
-    background: #f7b6a1;
-     border: 2px solid #FFFFFF;
+    background:  #D1BEB0;
+    border: 2px solid #E0D8DE;
+}
+#checkboxes h3, h4{
+    margin:0px;
+    padding:1px;
 }
 #checkboxes ul, li {
     list-style-type:none;
     display:inline;
-    padding:5px;
-         
+    padding:75px;
 }
 
 /*rjp: table styling*/
