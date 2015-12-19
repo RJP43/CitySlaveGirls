@@ -9,10 +9,11 @@
         <html>
             <head>
                 <title></title>
-                <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+                <link rel="stylesheet" type="text/css" href="../style/style.css"/>
+                <script type="text/javascript" src="../style/saidToggle.js">***</script>
             </head>
             <body>
-                <xsl:comment>#include virtual="./top.html"</xsl:comment>
+                <xsl:comment>#include virtual="../top.html"</xsl:comment>
                 <h1>The Chicago Times</h1>
                 <h2>"City Slave Girls"</h2>
                 <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
@@ -33,7 +34,7 @@
                     </ul>
                 </div>
                 <xsl:apply-templates select="//div[@type='articleBody']"/>
-                <xsl:comment>#include virtual="./foot.html"</xsl:comment>
+                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
@@ -58,9 +59,10 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
-        <xsl:if test="./supplied"><xsl:apply-templates/>
-            <else><span title="Due to poor quality of the article's photocopy, the text is unclear"><xsl:text>[MISSING TEXT]</xsl:text></span></else>
-        </xsl:if>
+        <xsl:choose>
+        <xsl:when test="./supplied"><xsl:apply-templates/></xsl:when>
+        <xsl:otherwise><span title="Due to poor quality of the article's photocopy, the text is unclear"><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
 

@@ -16,7 +16,7 @@
         </head>
         
         <body>
-            <xsl:comment>#include virtual="./top.html"</xsl:comment>
+            <xsl:comment>#include virtual="top.html"</xsl:comment>
             <h1>Nell Nelson's Distinct Vocabulary</h1>
             <h2><xsl:apply-templates select="//head//ref"/></h2>
             <h3><xsl:apply-templates select="//head//date"/></h3>
@@ -30,7 +30,7 @@
                 <xsl:apply-templates select="//seg"/>
             </table>
             </div>
-            <xsl:comment>#include virtual="./foot.html"</xsl:comment>
+            <xsl:comment>#include virtual="foot.html"</xsl:comment>
         </body>
         
     </html>

@@ -18,7 +18,7 @@
                 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
             </head>
 <body>
-    <xsl:comment>#include virtual="./top.html"</xsl:comment>
+    <xsl:comment>#include virtual="top.html"</xsl:comment>
                 <h1>List of Adjectives</h1> 
     <h2>Articles <a href="/articles/1888-07-30">7/30/1888</a>, <a  href="/articles/1888-08-02">8/2/1888</a>, <a  href="/articles/1888-08-04">8/4/1888</a> and <a  href="/articles/1888-08-09">8/9/1888</a></h2>
                 <div id="list">
@@ -41,7 +41,7 @@
     <div>
         <p></p>
     </div>
-    <xsl:comment>#include virtual="./foot.html"</xsl:comment>
+    <xsl:comment>#include virtual="foot.html"</xsl:comment>
 </body>
         </html>
     </xsl:template>
