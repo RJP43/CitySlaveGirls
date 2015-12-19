@@ -175,16 +175,16 @@
                             <xsl:when test="current() = $employerYMax">
                                 <xsl:value-of select="'#F2DA00'"/>
                             </xsl:when>
-                            <xsl:when test=". = $employeeYMax">
+                            <xsl:when test="current() = $employeeYMax">
                                 <xsl:value-of select="'#C695A6'"/>
                             </xsl:when>
-                            <xsl:when test=". = $benefactorYMax">
+                            <xsl:when test="current() = $benefactorYMax">
                                 <xsl:value-of select="'#29335C'"/>
                             </xsl:when>
-                            <xsl:when test=". = $messengerYMax">
+                            <xsl:when test="current() = $messengerYMax">
                                 <xsl:value-of select="'#00A6ED'"/>
                             </xsl:when>
-                            <xsl:when test=". = $unidentifiedYMax">
+                            <xsl:when test="current() = $unidentifiedYMax">
                                 <xsl:value-of select="'orange'"/>
                             </xsl:when>
                             
