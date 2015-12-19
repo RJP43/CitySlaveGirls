@@ -28,63 +28,6 @@
       <text x="303.75" y="-320" style="text-anchor: middle" font-size="18">Throughout Collection of Chicago
                     Times Articles</text>
       <text x="587.5" y="-250" font-size="20">Legend</text>
-      <line x1="587.5"
-            y1="-224"
-            x2="587.5"
-            y2="-240"
-            stroke="#A3C9A8"
-            stroke-width="20"/>
-      <text x="602.5" y="-224" font-size="16">Nell
-                    Nelson</text>
-      <line x1="587.5"
-            y1="-198"
-            x2="587.5"
-            y2="-214"
-            stroke="#FAF3DD"
-            stroke-width="20"/>
-      <text x="602.5" y="-198" font-size="16">Working Girl</text>
-      <line x1="587.5"
-            y1="-172"
-            x2="587.5"
-            y2="-188"
-            stroke="#725752"
-            stroke-width="20"/>
-      <text x="602.5" y="-172" font-size="16">Foreperson</text>
-      <line x1="587.5"
-            y1="-146"
-            x2="587.5"
-            y2="-162"
-            stroke="#F2DA00"
-            stroke-width="20"/>
-      <text x="602.5" y="-146" font-size="16">Employer</text>
-      <line x1="587.5"
-            y1="-120"
-            x2="587.5"
-            y2="-136"
-            stroke="#C695A6"
-            stroke-width="20"/>
-      <text x="602.5" y="-120" font-size="16">Employee</text>
-      <line x1="587.5"
-            y1="-94"
-            x2="587.5"
-            y2="-110"
-            stroke="#29335C"
-            stroke-width="20"/>
-      <text x="602.5" y="-94" font-size="16">Benefactor</text>
-      <line x1="587.5"
-            y1="-68"
-            x2="587.5"
-            y2="-84"
-            stroke="#00A6ED"
-            stroke-width="20"/>
-      <text x="602.5" y="-68" font-size="16">Messenger</text>
-      <line x1="587.5"
-            y1="-42"
-            x2="587.5"
-            y2="-58"
-            stroke="orange"
-            stroke-width="20"/>
-      <text x="602.5" y="-42" font-size="16">Unidentified</text>
       <line x1="90"
             x2="90"
             y1="0"
@@ -96,6 +39,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">39.552% </text>
+      <line x1="587.5"
+            y1="-224"
+            x2="587.5"
+            y2="-240"
+            stroke="#FAF3DD"
+            stroke-width="20"/>
+      <text x="602.5" y="-224" font-size="16">Working Girl</text>
       <line x1="150"
             x2="150"
             y1="0"
@@ -107,6 +57,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">20.241% </text>
+      <line x1="587.5"
+            y1="-198"
+            x2="587.5"
+            y2="-214"
+            stroke="#A3C9A8"
+            stroke-width="20"/>
+      <text x="602.5" y="-198" font-size="16">Nell Nelson</text>
       <line x1="210"
             x2="210"
             y1="0"
@@ -118,6 +75,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">12.482% </text>
+      <line x1="587.5"
+            y1="-172"
+            x2="587.5"
+            y2="-188"
+            stroke="#F2DA00"
+            stroke-width="20"/>
+      <text x="602.5" y="-172" font-size="16">Employer</text>
       <line x1="270"
             x2="270"
             y1="0"
@@ -129,6 +93,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">9.377% </text>
+      <line x1="587.5"
+            y1="-146"
+            x2="587.5"
+            y2="-162"
+            stroke="#725752"
+            stroke-width="20"/>
+      <text x="602.5" y="-146" font-size="16">Foreperson</text>
       <line x1="330"
             x2="330"
             y1="0"
@@ -140,6 +111,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">2.455% </text>
+      <line x1="587.5"
+            y1="-120"
+            x2="587.5"
+            y2="-136"
+            stroke="#29335C"
+            stroke-width="20"/>
+      <text x="602.5" y="-120" font-size="16">Benefactor</text>
       <line x1="390"
             x2="390"
             y1="0"
@@ -151,6 +129,13 @@
             font-size="12"
             fill="black"
             text-anchor="middle">1.761% </text>
+      <line x1="587.5"
+            y1="-94"
+            x2="587.5"
+            y2="-110"
+            stroke="#00A6ED"
+            stroke-width="20"/>
+      <text x="602.5" y="-94" font-size="16">Messenger</text>
       <line x1="450"
             x2="450"
             y1="0"
@@ -162,12 +147,12 @@
             font-size="12"
             fill="black"
             text-anchor="middle">.109% </text>
-      <line x1="60"
-            y1="-150"
-            x2="547.5"
-            y2="-150"
-            stroke="grey"
-            stroke-width="2"
-            stroke-dasharray="5, 5"/>
+      <line x1="587.5"
+            y1="-68"
+            x2="587.5"
+            y2="-84"
+            stroke="orange"
+            stroke-width="20"/>
+      <text x="602.5" y="-68" font-size="16">Unidentified</text>
    </g>
 </svg>

@@ -55,90 +55,13 @@
                 <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisEnd - 20}"
                     style="text-anchor: middle" font-size="18">Throughout Collection of Chicago
                     Times Articles</text>
-
-
-
-                <!-- ras: Legend -->
-
+                
+                <!-- ebb: Legend starting line-->
                 <text x="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}" y="{$yLegendStart}"
                     font-size="20">Legend</text>
-                <!-- ras:  Nelson  -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + $yLegendInterval}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="#A3C9A8"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart +$yLegendInterval}" font-size="{$legendFontSize}">Nell
-                    Nelson</text>
-                <!-- ras: Working Girl  -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 2)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 2) - $legendFontSize}" stroke="#FAF3DD"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 2)}" font-size="{$legendFontSize}"
-                    >Working Girl</text>
-                <!-- ras: Foreperson -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 3)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 3) - $legendFontSize}" stroke="#725752"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 3)}" font-size="{$legendFontSize}"
-                    >Foreperson</text>
-                <!-- ras: Employer -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 4)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 4) - $legendFontSize}" stroke="#F2DA00"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 4)}" font-size="{$legendFontSize}"
-                    >Employer</text>
-                <!-- ras: Employee -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 5)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 5) - $legendFontSize}" stroke="#C695A6"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 5)}" font-size="{$legendFontSize}"
-                    >Employee</text>
-                <!-- ras: Benefactor -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 6)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 6) - $legendFontSize}" stroke="#29335C"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 6)}" font-size="{$legendFontSize}"
-                    >Benefactor</text>
-                <!-- ras: Messenger -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 7)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 7) - $legendFontSize}" stroke="#00A6ED"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 7)}" font-size="{$legendFontSize}"
-                    >Messenger</text>
-                <!-- ras: Unidentified -->
-                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 8)}"
-                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 8) - $legendFontSize}" stroke="orange"
-                    stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 8)}" font-size="{$legendFontSize}"
-                    >Unidentified</text>
-
-
-
 
                 <!-- ras: Drawing Bar Graph -->
+                <!--ebb: and the Legend, too!-->
                 <xsl:variable name="maxYValue" select="sum($nelsonColl//said/string-length())"/>
                 <xsl:variable name="percentFontSize" select="12"/>
                 <xsl:variable name="nellYMax"
@@ -190,6 +113,7 @@
                             
                         </xsl:choose>    
                     </xsl:variable>
+                    
 
                     <!-- ras: Drawing Bar Graph -->
                     <line x1="{$Interval * position() + $xSpacing}"
@@ -200,7 +124,49 @@
                     <text x="{$Interval * position() + $xSpacing}" y="{. * $yAxis50 - 10}"
                         font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
                             select="format-number(. * 100, '##.###')"/>% </text>
-               
+                    
+                    <!--ebb: and now the Legend Bars. We can output these in the for-each because we're looping over
+                    each variable value anyway!-->
+    
+                    <xsl:variable name="legendNames">
+                        <xsl:choose>
+                            <xsl:when test="current() = $nellYMax">
+                                <xsl:value-of select="'Nell Nelson'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $wgYMax">
+                                <xsl:value-of select="'Working Girl'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $forepersonYMax">
+                                <xsl:value-of select="'Foreperson'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $employerYMax">
+                                <xsl:value-of select="'Employer'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $employeeYMax">
+                                <xsl:value-of select="'Employee'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $benefactorYMax">
+                                <xsl:value-of select="'Benefactor'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $messengerYMax">
+                                <xsl:value-of select="'Messenger'"/>
+                            </xsl:when>
+                            <xsl:when test="current() = $unidentifiedYMax">
+                                <xsl:value-of select="'Unidentified'"/>
+                            </xsl:when>
+                            
+                        </xsl:choose>    
+                    </xsl:variable>
+                    
+                    <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                        y1="{$yLegendStart + $yLegendInterval * position()}"
+                        x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                        y2="{$yLegendStart + ($yLegendInterval * position()) - $legendFontSize}" stroke="{$strokeColor}"
+                        stroke-width="{$legendBoxWidth}"/>
+                    <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
+                        y="{$yLegendStart +$yLegendInterval * position()}" font-size="{$legendFontSize}">
+                        <xsl:value-of select="$legendNames"/></text>
+     
                 </xsl:for-each>
   
             </g>
