@@ -14,19 +14,19 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>List of Adjectives over Articles 7/30/1888, 8/2/1888, and 8/9/1888</title>
+                <title>List of Adjectives over Collection of Articles</title>
                 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
             </head>
 <body>
     <xsl:comment>#include virtual="./top.html"</xsl:comment>
                 <h1>List of Adjectives</h1> 
-    <h2>Articles 7/30/1888, 8/2/1888, and 8/9/1888</h2>
+    <h2>Articles <a href="/articles/1888-07-30">7/30/1888</a>, <a  href="/articles/1888-08-02">8/2/1888</a>, <a  href="/articles/1888-08-04">8/4/1888</a> and <a  href="/articles/1888-08-09">8/9/1888</a></h2>
                 <div id="list">
                     <ul>
                     <xsl:for-each-group select="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/@ana" group-by="$nelsonColl//div[@type='articleBody']//w[@type = 'adj' and not(@subtype)]/string(@ana)">
                         <xsl:sort select="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()])" order="descending"/>
                         <xsl:for-each select="current-grouping-key()">
-                            <xsl:if test="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()]) &gt; 1">
+                            <xsl:if test="count($nelsonColl//div[@type='articleBody']//w[string(@ana) eq current-grouping-key()]) &gt; 2">
                             <li>
                                 <xsl:value-of select="current-grouping-key()"/>
                                 <xsl:text>[Count: </xsl:text>
@@ -38,7 +38,10 @@
                     </xsl:for-each-group>
                 </ul>
                 </div>
-    <xsl:comment>#include virtual="./foot.html"</xsl:comment>>
+    <div>
+        <p></p>
+    </div>
+    <xsl:comment>#include virtual="./foot.html"</xsl:comment>
 </body>
         </html>
     </xsl:template>
