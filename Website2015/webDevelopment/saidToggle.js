@@ -1,6 +1,7 @@
 var originalBackground;
 function toggleHighlight() {
     var pos = this.getAttribute('who');
+    var pos = this.getAttribute('ana');
     var color;
     switch (pos) {
         case 'nellNelson':
@@ -9,6 +10,12 @@ function toggleHighlight() {
         case 'workingGirl':
         color = 'pink';
         break;
+        case 'female':
+        color = 'red';
+        break;
+        case 'male':
+        color = 'blue';
+        break; 
     }
     var status = this.checked;
     // the status to which you've just changed the checkbox
