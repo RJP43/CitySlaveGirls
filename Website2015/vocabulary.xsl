@@ -8,7 +8,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
 
-    <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_CSG_XML')"/>
+    <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_XML_grammar')"/>
 
 
     <xsl:template match="/">
