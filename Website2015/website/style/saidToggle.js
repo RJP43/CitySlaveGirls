@@ -1,7 +1,6 @@
 var originalBackground;
 function toggleHighlight() {
-    var pos = this.getAttribute('who');
-    var pos = this.getAttribute('ana');
+    var pos = this.getAttribute('input');
     var color;
     switch (pos) {
         case 'nellNelson':
@@ -30,7 +29,7 @@ function toggleHighlight() {
 }
 function init() {
     originalBackground = document.body.style.backgroundColor;
-    var checkboxes = document.getElementsByTagName('said');
+    var checkboxes = document.getElementsByTagName('value');
     for (var i = 0; i < checkboxes.length; i++) {
         checkboxes[i].addEventListener('click', toggleHighlight, false);
     }
