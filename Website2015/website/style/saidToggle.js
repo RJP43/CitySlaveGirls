@@ -10,7 +10,7 @@ function toggleHighlight() {
         color = '#FAF3DD';
         break;
         case 'female':
-        color = '#FFC09F';
+        color = '#FFAAEA';
         break;
         case 'male':
         color = '#B9CDDA';

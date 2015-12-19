@@ -8,21 +8,22 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title></title>
+                <title>Article <xsl:apply-templates select="//teiHeader//title/@corresp"/></title>
                 <link rel="stylesheet" type="text/css" href="../style/style.css"/>
                 <script type="text/javascript" src="../style/saidToggle.js">***</script>
             </head>
             <body>
                 <xsl:comment>#include virtual="../top.html"</xsl:comment>
-                <h1>The Chicago Times</h1>
+                <div id="articleHead"><h1>The Chicago Times</h1>
                 <h2>"City Slave Girls"</h2>
-                <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
-                <ul>
-                <xsl:apply-templates select="//div[@type='headlines']"/>
-                </ul>
+                <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3></div>
+                <div id="headlinesText"><ul>
+                    <xsl:apply-templates select="//div[@type='headlines']"/>
+                </ul></div>
                 <hr/>
                 <div id="checkboxes">
-                    <h3>Click to Toggle Colored Dialogue Based on Speaker Attributes</h3>
+                    <h3>Click to Toggle Colored Dialogue</h3>
+                    <h4>Based on Speaker Attributes</h4>
                     <ul><xsl:if test="//said[@who='#nellNelson']">
                         <li><input type="checkbox" value="nellNelson"/><span class="nellNelson">Nell Nelson</span></li></xsl:if>
                         <xsl:if test="//said[@who='#workingGirl']">
@@ -33,7 +34,7 @@
                             <li><input type="checkbox" value="female"/><span class="female">Female</span></li></xsl:if>
                     </ul>
                 </div>
-                <xsl:apply-templates select="//div[@type='articleBody']"/>
+                <div id="articleText"><xsl:apply-templates select="//div[@type='articleBody']"/></div>
                 <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
@@ -60,11 +61,8 @@
     </xsl:template>
     <xsl:template match="unclear">
         <xsl:choose>
-        <xsl:when test="./supplied"><xsl:apply-templates/></xsl:when>
-        <xsl:otherwise><span title="Due to poor quality of the article's photocopy, the text is unclear"><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
+            <xsl:when test="./supplied"><xsl:apply-templates/></xsl:when>
+            <xsl:otherwise><span title="Due to poor quality of the article's photocopy, the text is unclear"><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
-
-    
 </xsl:stylesheet>
