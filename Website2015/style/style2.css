@@ -11,6 +11,7 @@ body{
     max-width: 1250px;
 }
 
+/*rjp: start styling for top and foot*/
 #header{
     padding:10px 20px 20px;
 	margin:10px auto;
@@ -48,7 +49,7 @@ body{
 		display: block;
 }
 #nav ul {
-	background: #AD8D77;  
+	background: #e7e2d7; 
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0 20px;
 	border-radius: 10px;  
@@ -68,9 +69,7 @@ body{
 		color: #96BDC6; text-decoration: none;
 }
 #nav ul ul {
-	   background: #AD8D77;
-	   border-radius: 0px;
-	   padding: 0;
+	   background: #e7e2d7;
 	   position: absolute; top: 100%;
 }
 #nav ul ul li {
@@ -93,6 +92,22 @@ body{
 	font-weight:normal;
 	color: #000000;
 }
+
+#footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    display: block;
+	clear: both;
+	background: #FFFFFF;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	text-align:center;
+}
+/*rjp: end styling for top and foot*/
+
 /*rjp: styling for article pages*/
 #articleLinks {
     width:75%;
@@ -147,3 +162,4 @@ line-height: 1;
     display:inline;
     padding:75px;
 }
+/*rjp: end styling for article pages*/

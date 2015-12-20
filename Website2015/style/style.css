@@ -11,6 +11,7 @@ body{
     max-width: 1250px;
 }
 
+/*rjp: start styling for top and foot*/
 #header{
     padding:10px 20px 20px;
 	margin:10px auto;
@@ -35,64 +36,23 @@ body{
     font-size:160%;
 	text-align:center;
 }
-#nav {
-    width: 100%;
+
+
+#footer{
+    position:relative;
+    bottom:0;
+    left:0;
+    display: block;
+	clear: both;
+	background: #FFFFFF;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
 	text-align:center;
-	display:block;
 }
-#nav ul ul {
-	display: none;
-}
+/*rjp: end styling for top and foot*/
 
-#nav ul li:hover > ul {
-		display: block;
-}
-#nav ul {
-	background: #AD8D77;  
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
-}
-#nav ul:after {
-		content: ""; clear: both; display: block;
-}
-#nav ul li {
-	   float: left;
-}
-	
-#nav ul li a {
-		display: block; padding: 25px 40px;
-		color: #96BDC6; text-decoration: none;
-}
-#nav ul ul {
-	   background: #AD8D77;
-	   border-radius: 0px;
-	   padding: 0;
-	   position: absolute; top: 100%;
-}
-#nav ul ul li {
-		float: none; 
-		border-top: 1px solid #6b727c;
-		border-bottom: 1px solid #575f6a;
-		position: relative;
-}
-#nav ul ul li a {
-		padding: 15px 40px;
-		color: #96BDC6;
-}
-
-#nav a:hover {
-    font-size:1.3em;
-	background-color: #8BB174;
-}
-#nav a:link, #nav a:visited {
-	font-size:1.1em;
-	font-weight:normal;
-	color: #000000;
-}
 /*rjp: styling for article pages*/
 #articleLinks {
     width:75%;
@@ -180,8 +140,7 @@ line-height: 1;
     border:3px dotted #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
-	border-radius:.8em;
-    
+	border-radius:.8em;    
 }
 #table br{
      display: block; 
@@ -200,4 +159,4 @@ line-height: 1;
     border: 2px solid black;
     text-align: center;
 }
-
+/*rjp: end styling for article pages*/
