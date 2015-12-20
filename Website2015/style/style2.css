@@ -3,6 +3,12 @@ html{
 }
 body{
     margin: 20px auto;
+    padding:5px;
+    display: block;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 1250px;
+    max-width: 1250px;
 }
 
 #header{
@@ -89,9 +95,18 @@ body{
 }
 /*rjp: styling for article pages*/
 #articleLinks {
-    width:100%
-    float:bottom;
+    width:75%;
+    margin: auto;
+    padding:5px;
     text-align:center;    
+    border:3px dotted #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+}
+#articleLinks p{
+font-size:16px;
+line-height: 1;
 }
 #articleHead {
     margin:10px;
@@ -111,7 +126,8 @@ body{
 }
 
 .articleText {
-    margin:10px;
+     margin:20px;
+    padding:5px;
 }
 /*rjp: toggle box for articles*/
 #checkboxes {

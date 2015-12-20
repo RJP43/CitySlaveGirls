@@ -42,6 +42,11 @@
                             <li><input type="checkbox" value="female"/><span class="female">Female</span></li></xsl:if>
                     </ul>
                 </div>
+                    <div id="articleLinks">
+                        <p>To view the XSLT used in generating this page, click <a href="https://github.com/RJP43/CitySlaveGirls-ChicagoDailyTimes1888/blob/master/Website2015/webDevelopment/articleXMLtoHTML.xsl">here</a>.</p>
+                        <p>To view the original TEI markup of this article, click <a href="../ChicagoTimes_XML_gender/{//teiHeader//title//@when}-ChTimes.xml">here</a>.</p>
+                        <p>The <i>italicized</i> segments in the article represent dialogue (marked up using &lt;said&gt; elements). The <b>bold-faced</b> words are the names of companies Nelson exposed. The <u>underlined</u> text is the addresses of those exposed companies.</p>
+                    </div>
                 <div class="articleText">
                     <xsl:apply-templates select="//div[@type='articleBody'][1]"/>
                 </div>
@@ -98,10 +103,7 @@
                     </table>
                 </div>
                 </xsl:if>
-                <div id="articleLinks">
-                    <p>To view the XSLT used in generating this page, click <a href="../webDevelopment/articleXMLtoHTML.xsl">here</a>.</p>
-                    <p>To view the original TEI markup of this article, click <a href="../ChicagoTimes_XML_gender/{//teiHeader//title//@when}-ChTimes.xml">here</a>.</p>
-                </div>
+                
                 <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
@@ -112,7 +114,7 @@
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <xsl:template match="orgName">
+    <xsl:template match="orgName[@type='exposedCompany']">
         <strong><xsl:apply-templates/></strong>
     </xsl:template>
     <xsl:template match="placeName[@type='address']">
