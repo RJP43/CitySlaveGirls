@@ -1,3 +1,29 @@
+/*begin styles to control links in general on every page of the website unless otherwise specified*/
+a:link {
+   font-size:smaller;
+   font-weight:bold;
+   color:#42033D;
+   text-decoration:underline;
+}
+
+a:visited {
+    font-size:smaller;
+    color: #42033D;
+    text-decoration:underline;
+}
+
+a:active {
+    color: #8A716A;
+    font-size:large;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #8E9AAF;
+    text-decoration:none;    
+}
+
+/* end styles to control links in general on every page of the website unless otherwise specified*/
 html{
     background-color: #f7b6a1;  
 }
@@ -13,7 +39,7 @@ body{
 
 /*rjp: start styling for top and foot*/
 #header{
-    padding:10px 20px 20px;
+    padding:10px;
 	margin:10px auto;
 	border:2px solid #e7e2d7;
 	border-radius:8px;
@@ -21,22 +47,79 @@ body{
 	border-radius:.8em;
 	background: #FFFFFF;
 	display:block;
-	position:inherit;
+	position:relative;
 	text-align:center;
 }
 #header h1 {
 	font-family: 'Yellowtail', cursive;
-	font-size:300%;
+	margin-top:-10px;
+	font-size:4.0em;
+	text-transform:none;
+	letter-spacing:0em;
 	text-align:center;
 }
 
 #header h2 {
-	margin:-10px 0px 20px;
+	margin-top: -40px;
 	font-family: 'Goudy Old Style';
-    font-size:160%;
+    font-size:2.0em;
 	text-align:center;
 }
-
+#nav{
+    margin: -20px;
+    width: 100%;
+    text-align:center;
+    display:block;
+}
+#nav ul {
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#nav ul ul {
+       background: #FFFFFF;
+	   border-radius: 0px;
+	   padding: 0;
+	   position: absolute;
+	   top: 100%;
+	   display: none;
+}
+#nav ul ul li a {
+		padding: 15px 40px;
+}
+#nav ul li:hover > ul {
+		display: block;
+}
+#nav ul ul li {
+		float: none; 
+		position: relative;
+}
+#nav ul:after {
+		content: "";
+		clear: both;
+		display: block;
+}
+#nav ul li a {
+		display: block;
+		padding: 25px 40px;
+}
+#nav ul li {
+	   float: left;
+}
+#nav li {
+	margin:0px 20px;
+	padding:10px;
+	list-style-type:none;
+	display:inline;
+}
+#nav a:hover {
+    font-size:1.3em;
+	background-color: #B9929F;
+	text-decoration: underline;
+}
 
 #footer{
     position:relative;
@@ -160,3 +243,22 @@ line-height: 1;
     text-align: center;
 }
 /*rjp: end styling for article pages*/
+/*rjp: start styling for article.html page*/
+#content_articles {
+    font-family: "Arial";
+	width: 600px;
+	float: right;
+	padding:10px 20px 10px;
+	text-align:center;
+	margin: 6px 1px 1px 1px;
+	border:3px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #6A6262;
+	color:#FFFFFF;
+	font-size: 16px;
+}
+#headlines1 img {
+	margin: 20px 20px 10px;
+}
