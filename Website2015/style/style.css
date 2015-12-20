@@ -246,11 +246,11 @@ line-height: 1;
 /*rjp: start styling for article.html page*/
 #content_articles {
     font-family: "Arial";
-	width: 600px;
+	width: 40%;
 	float: right;
-	padding:10px 20px 10px;
+	padding:10px;
 	text-align:center;
-	margin: 6px 1px 1px 1px;
+	margin: 1px;
 	border:3px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
@@ -262,3 +262,170 @@ line-height: 1;
 #headlines1 img {
 	margin: 20px 20px 10px;
 }
+#vocab {
+    width:55%;
+    float:left;
+    margin-bottom: 20px;
+}
+#vocabListText p {
+    margin:10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+#vocabList ul {
+	padding:20px;
+	list-style:none;
+	margin-top: -20px;
+	font-size:20px;
+}
+#vocabList li {
+    float: left;
+    clear: left;
+    margin:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+}
+#vocabList h1, h2 {
+    text-align:center;
+}
+#articleList {
+    width: 40%;
+	padding:10px;
+	text-align:center;
+	margin: 1px;
+	border:2px dotted #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+    float:right;
+}
+#articleList h2{
+	color:#000000;
+	padding:5px;
+	margin:10px;	
+	text-shadow:0 1px 0 #B9929F;
+	text-align: center;
+}
+#articleList p {
+    margin:auto;
+    text-align: center;
+    font-size: 20px;    
+}
+#articleList ul {
+	padding:5px;
+	list-style:none;
+	margin-top: -10px;
+	text-align:center;
+	font-size:20px;
+}
+#articleList li {
+    float: left;
+    clear: left;
+    margin:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+}
+#articleList li a{
+	width:auto;
+	padding:3px;
+	color: #000000;
+} 
+#articleList li a:hover {
+	background:#93748A;
+}
+/*rjp: end styling for article.html page*/
+/*rjp: start styling for SVGanalysis.html */
+#svg1 {
+    margin: -30px;
+    margin:5px;
+    padding:5px;
+}
+#svgVis1{
+    width:50%
+    float:left;
+}
+#svg1Text{
+    margin-top: -1150px;
+    width:50%;
+    float:right;
+}
+#svg2 {
+    margin:-20px;
+    padding:5px;
+    width:100%;
+}
+#svgVis2{
+    margin-top: -650px;
+    width:100%;
+}
+#svg2Text{
+    margin-top: -825px;
+    margin-bottom: -1000px;
+    width:100%;
+}
+/*rjp: end styling for SVGanalysis.html */
+/*rjp: start styling for about.html */
+#content_about h1, h2 {
+    text-align:center;
+}
+#futureDevelop h3{
+    text-align:center;
+}
+#content_about h3{
+	background:transparent;
+	color:#6A6262;
+	padding:5px;
+	margin:10px;
+}
+#content_about li {
+    clear: left;
+    margin:auto;
+	list-style:none;
+	display:block;
+}
+/*rjp: end styling for about.html */
+/*rjp: start styling for books.html*/
+#content_books {
+	border:3px dotted #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	text-align:center;
+}
+#content_books h1 {
+	margin:50px 0px 50px;
+	font-size:1.5em;
+	text-align:center;
+}
+#book1 a:link, #book1 a:visited, #book2 a:link, #book2 a:visited {
+	color: #FFFFFF;
+	background:#6A6262; 
+	text-align: left;
+	font-size: 1.3em;
+}
+#book1 a:hover, #book2 a:hover {
+	background:#93748A;
+}
+#book1 p, #book2 p {
+    width:50%
+	text-align: center;
+	color: #000000;
+	margin:5px;
+	padding:5px;
+}
+/*rjp: end styling for books.html*/
+
+/*rjp: start styling for book2_McEnnis.html*/
+h1 {
+    text-align: center;
+}
+#McEnnis_text h2 {
+    text-align: left;
+}
+#McEnnisImage {
+  text-align:center;
+}
+/*rjp: end styling for book2_McEnnis.html*/

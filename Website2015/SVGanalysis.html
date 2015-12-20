@@ -4,12 +4,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>The Restoration of Nell Nelson</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>        
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'/>       
     </head>
     <body>
         <!--#include virtual="top.html" -->
-        <div id="svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="125%" viewBox="0 0 1200 1200" preserveAspectRatio="xMinYMin meet" style="display: block">
+        <div id="svg1">
+            <div id="svgVis1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1250 1250" preserveAspectRatio="xMinYMin meet" style="display: block">
                 <g transform="translate(20,475)">
                     <line x1="70"
                         y1="2"
@@ -103,12 +105,14 @@
                 </g>
             </svg>
         </div>
-        <div>
-            <p>This bar graph represents the amount of dialogue associated with gender. The XSLT to create this SVG runs over our currently transcribed 1888 articles from the <i>Chicago Times</i>: 7/30, 7/31, 8/2, 8/3, 8/4, and 8/9. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @ana was added, representing the speaker as either male or female (unknown if speaker was undentified). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each gender, again using string-length. We excluded Nell Nelson's dialogue in our sum of female speakers (meaning our bars would no longer total 100%, but would better represent the female voice). When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each gender across our entire collection of articles. To view the XSLT of our work, click <a href="">here</a>.</p>
+        <div id="svg1Text">
+            <p>This bar graph represents the amount of dialogue associated with gender. The XSLT to create this SVG runs over our currently transcribed 1888 articles from the <i>Chicago Times</i>: <a href="articles/1888-07-30.html">7/30</a>, <a href="articles/1888-07-31.html">7/31</a>, <a href="articles/1888-08-02.html">8/2</a>, <a href="articles/1888-08-03.html">8/3</a>, <a href="articles/1888-08-04.html">8/4</a>, and <a href="articles/1888-08-09.html">8/9</a>. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @ana was added, representing the speaker as either male or female (unknown if speaker was undentified). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each gender, again using string-length. We excluded Nell Nelson's dialogue in our sum of female speakers (meaning our bars would no longer total 100%, but would better represent the female voice). When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each gender across our entire collection of articles. To view the XSLT of our work, click <a href="https://github.com/RJP43/CitySlaveGirls-ChicagoDailyTimes1888/blob/master/Website2015/webDevelopment/collectionSVG.xsl">here</a>.</p>
             <p>Our reseach question was: what gender has the most amount of dialogue represented within Nell Nelson's City Slave Girl Articles? Nelson's focus in writing the articles is the working woman, with an emphasis on women. Did Nelson choose to expose their plight most by giving them a direct voice, or by representing the male voice that might be an oppressing force? We found that the female voice was significantly more represented than the male voice. This is what we expected; Nelson tends to interview women of all classes and working conditions. When interviewing both a male and female in a similar working environment, her articles include significantly more dialogue from the women workers. Here, we can see that the female voice is represented nearly twice as much as the male voice.</p>
         </div>
+        </div>
         <div id="svg2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="125%" viewBox="0 0 1200 1200" preserveAspectRatio="xMinYMin meet" style="display: block">
+            <div id="svgVis2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1250 1250" style="display: block">
                 <g transform="translate(10,400)">
                     <line x1="60"
                         y1="2"
@@ -292,10 +296,11 @@
                 </g>
             </svg>
         </div>
-        <div>
-            <p>This bar graph represents the amount of dialogue associated with the archetype of the speaker. This runs over our currently transcribed 1888 articles from the <i>Chicago Times</i>: 7/30, 7/31, 8/2, 8/3, 8/4, and 8/9. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @who was added, representing the speaker as either Nell Nelson, the Working Girl, foreperson, employer, employee, benefactor, or messenger (unidentified if speaker was unknown). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each archetype, again using string-length. When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each archetype across our entire collection of articles.</p>
-            <p>We catalogued speakers mainly in relation to their employment (employee, employer, and foreperson). The working girl, because of the focus of the series, received her own tag. Nell Nelson, being the author, also received her own tag. Messenger was an otherwise unlabeled character who spoke on the behalf of another. The benefactor was a male who was the focus of a lengthy back and forth with Nell in <a href="">article 8/02</a>.</p>
+        <div id="svg2Text">
+            <p>This bar graph represents the amount of dialogue associated with the archetype of the speaker. This runs over our currently transcribed 1888 articles from the <i>Chicago Times</i>: <a href="articles/1888-07-30.html">7/30</a>, <a href="articles/1888-07-31.html">7/31</a>, <a href="articles/1888-08-02.html">8/2</a>, <a href="articles/1888-08-03.html">8/3</a>, <a href="articles/1888-08-04.html">8/4</a>, and <a href="articles/1888-08-09.html">8/9</a>. Within the underlying markup, we tagged every instance of spoken dialogue that appeared within quotations with the TEI element 'said'. For each tag, an attribute @who was added, representing the speaker as either Nell Nelson, the Working Girl, foreperson, employer, employee, benefactor, or messenger (unidentified if speaker was unknown). In order to find a total amount of speech, we calculated the total characters within each element 'said' using the function string-length. This became our y-axis for our graph. We then found the amount of characters within 'said' for each archetype, again using string-length. When dividing this number by our total amount of characters within all 'said' elements, we were then able to find the percent of speech characters represented for each archetype across our entire collection of articles. To view the XSLT of our work, click <a href="https://github.com/RJP43/CitySlaveGirls-ChicagoDailyTimes1888/blob/master/Website2015/webDevelopment/collectionSVGwho.xsl">here</a>.</p>
+            <p>We catalogued speakers mainly in relation to their employment (employee, employer, and foreperson). The working girl, because of the focus of the series, received her own tag. Nell Nelson, being the author, also received her own tag. Messenger was an otherwise unlabeled character who spoke on the behalf of another. The benefactor was a male who was the focus of a lengthy back and forth with Nell in <a href="articles/1888-08-02.html">article 8/02</a>.</p>
             <p>Our research question was: what archetype has the most amount of dialogue represented within Nell Nelson's City Slave Girl Articles? Nelson spoke with many differnt types of people in her expose. We found that overall, the working Girl was significantly had the most amount of dialgue. Even when compared against Nelson's own dialogue, the working girl is represented nearly twice as much as the author. This corresponds to our findings in the gender bar graph above; the female voice is most represented. Furthermore, the voice of the employee (when considered with the voice of the working girl, is equal to 53.6% of total dialogue) is significantly more represented than that of the employer (even when including the foreperson, totalling 21.9%). This is a difference of 31.7%.</p>
+        </div>
         </div>
     </body>
 </html>
