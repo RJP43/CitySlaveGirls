@@ -72,7 +72,7 @@
                     <p>"<said who="#employee" ana="male">Oh, yes; <persName>Martha Rhafferty</persName>,</said>" after hunting through a <seg><w type="adj" ana="long">long</w> <w type="noun">list</w></seg>.</p>
                     <p>"<said who="#employee" ana="male">Do you want more <w type="noun">work</w>?</said>"</p>
                     <p>"<said who="#workingGirl" ana="female">No, sir.</said>"</p>
-                    <p>"<said who="#employee" ana="male">There's <seg><w type="adj" ana="plenty">plenty</w> <w type="adj" ana="more">more</w></seg> if you want it.</said>"</p>
+                    <p>"<said who="#employee" ana="male">There's <w type="adj" ana="plenty">plenty</w> <w type="adj" ana="more">more</w> if you want it.</said>"</p>
                     <p>"<said who="#workingGirl" ana="female">No; <seg><w type="adj" subtype="poss" ana="#workingGirl">my</w> <w type="noun">mother</w></seg> don't want me to do any more crocheting.</said>"</p>
                     <p>"<said who="#employee" ana="male">Well, <persName>Mr. White</persName>
         isn't in now. Can't you come in again?</said>"</p>
@@ -146,7 +146,8 @@
                 <div type="headlines">
                     <list>
                         <item>CLOAKS, OVERALLS, AND SHIRTS</item>
-                        <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
+                        <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each</item>
+                        <item>Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
                     </list>
                 </div>
                 <div type="articleBody">
@@ -159,7 +160,7 @@
                     <p>It was enough and I left the <w type="noun" ana="#foreperson">creature</w> still anxious to solve the <seg><w type="adj" ana="widow">widow</w> <w type="noun">question</w></seg>.</p>
                     <p>By the time I reached <orgName ref="#Ludden" type="exposedCompany">Ludden's</orgName>, <placeName ref="#Ludden" type="address">122 Market street</placeName>, I was in a <seg><w type="adj" ana="reckless">reckless</w> <w type="noun">frame</w></seg> of <w type="noun">mind</w>.</p>
                     <p>"<said who="#nellNelson" ana="female">Is there any work for a <seg><w type="adj" ana="good">good</w> <w type="noun" ana="#workingGirl">sewer</w></seg>?</said>" I asked the <w type="noun" ana="#employee">girl</w> in the <w type="noun">office</w>.</p>
-                    <p>"<said who="#employee" ana="female">Yes, plenty. <persName>John</persName> give her some <w type="noun">pants</w>.</said></p> 
+                    <p>"<said who="#employee" ana="female">Yes, plenty.<persName>John</persName> give her some <w type="noun">pants</w>.</said></p> 
                     <p><persName>John</persName> had <w type="noun">eyes</w> the color of calico and a <w type="noun">complexion</w> like an <seg><w type="adj" ana="immature">immature</w> <w type="noun">tomato</w></seg>. He led the way to the <w type="noun">cottonades</w>, which were cut, trimmed, and tied up in bundles of a dozen <w type="noun">garments</w> each.</p>
                     <p>"<said who="#employee" ana="male">Here's a <w type="noun">sample</w></said>," holding up a pair of <w type="noun">overalls</w> of <seg><w type="adj" ana="brown">brown</w> <w type="noun">cottonade</w></seg>. "<said who="#employee" ana="male">The <w type="noun">work</w> is cut out, but you will have to do everything yourself. I want you to make the <seg><w type="noun">fly</w> <w type="adj" ana="extra">extra</w> <w type="adj" ana="extra">strong</w></seg> and press the <w type="noun">buttons</w>. We pay 75 cents a dozen and you find your own <w type="noun">thread</w>.</said>"</p>
                     <p>"<said who="#nellNelson" ana="female">Seventy-five cents for a dozen of these <w type="noun">pants</w> and find my own <w type="noun">thread</w>?</said>"</p>
@@ -205,9 +206,8 @@
                     <p><w type="noun">Work</w> begins at 7:30 a.m. and 12:30 p.m. Anyone five minutes late working on time is fined an hour's pay, and for the loss of an hour the pay of half a day is knocked off. <w type="noun" ana="#workingGirl">Piece-workers</w> who are late are kept idle form one to three hours. A <w type="noun" ana="#workingGirl">girl</w> who loses her <w type="noun">ticket</w> forfeits pay for the entire work, not withstanding the entry is on the <w type="noun">books</w> of the <w type="noun" ana="#NRJC">firm</w>.</p>
                 </div>
                 <div type="advertisement">
-                    <p>LIFE AMONG THE SLAVE GIRLS OF <placeName type="city">CHICAGO</placeName>.</p>
-                    <p>THE TIMES</p>
-                    <p>Will print tomorrow the second bath of facts concerning the workings of some of the factories of <placeName type="city">Chicago</placeName> where girls and women are employed. These articles are written by a young lady who passed through the common experiences of those unfortuantes of her own sex who are compelled to undergo the hardships and tortures of factory life in this city. She tells plainly what she saw ad what she heard; gives names and places whenever necessary, and backs up her statements with unquestionable proofs.</p>
+                    <head>LIFE AMONG THE SLAVE GIRLS OF <placeName type="city">CHICAGO</placeName>.</head>
+                    <p>THE TIMES Will print tomorrow the second bath of facts concerning the workings of some of the factories of <placeName type="city">Chicago</placeName> where girls and women are employed. These articles are written by a young lady who passed through the common experiences of those unfortuantes of her own sex who are compelled to undergo the hardships and tortures of factory life in this city. She tells plainly what she saw ad what she heard; gives names and places whenever necessary, and backs up her statements with unquestionable proofs.</p>
                     <p>These are revelations as unexpected as they are unpleasant. It was necessary that The Times should make them in order that the unthinking wealthy, well-to-do, and comfortable citizens of <placeName type="city">Chicago</placeName> should have their eyes opened.</p>
                     <p>If the condition of the working women and girls of this city is improved, even in a slight degree, by these exposures The Times will be fully repaid.</p>
                     <p>Read The Times every day this week. Two cents per copy. Delivered by carrier, 12 cents per week for daily and 15 cents per week for daily and Sunday. Order it by postal card, letter, or telephone 1362.</p>

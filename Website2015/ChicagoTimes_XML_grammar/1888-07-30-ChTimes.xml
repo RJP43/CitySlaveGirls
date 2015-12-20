@@ -72,7 +72,7 @@
                     <p>"<said who="#employee" ana="male">Oh, yes; <persName>Martha Rhafferty</persName>,</said>" after hunting through a <seg><w type="adj" ana="long">long</w> <w type="noun">list</w></seg>.</p>
                     <p>"<said who="#employee" ana="male">Do you want more <w type="noun">work</w>?</said>"</p>
                     <p>"<said who="#workingGirl" ana="female">No, sir.</said>"</p>
-                    <p>"<said who="#employee" ana="male">There's <seg><w type="adj" ana="plenty">plenty</w> <w type="adj" ana="more">more</w></seg> if you want it.</said>"</p>
+                    <p>"<said who="#employee" ana="male">There's <w type="adj" ana="plenty">plenty</w> <w type="adj" ana="more">more</w> if you want it.</said>"</p>
                     <p>"<said who="#workingGirl" ana="female">No; <seg><w type="adj" subtype="poss" ana="#workingGirl">my</w> <w type="noun">mother</w></seg> don't want me to do any more crocheting.</said>"</p>
                     <p>"<said who="#employee" ana="male">Well, <persName>Mr. White</persName>
         isn't in now. Can't you come in again?</said>"</p>
@@ -146,7 +146,8 @@
                 <div type="headlines">
                     <list>
                         <item>CLOAKS, OVERALLS, AND SHIRTS</item>
-                        <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
+                        <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each</item>
+                        <item>Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
                     </list>
                 </div>
                 <div type="articleBody">

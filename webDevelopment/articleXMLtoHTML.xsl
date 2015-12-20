@@ -14,12 +14,16 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="../top.html"</xsl:comment>
-                <div id="articleHead"><h1>The Chicago Times</h1>
-                <h2>"City Slave Girls"</h2>
-                <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3></div>
-                <div id="headlinesText"><ul>
-                    <xsl:apply-templates select="//div[@type='headlines']"/>
-                </ul></div>
+                <div id="articleHead">
+                    <h1>The Chicago Times</h1>
+                    <h2>"City Slave Girls"</h2>
+                    <h3><xsl:apply-templates select="//teiHeader//title/date"/></h3>
+                </div>
+                <div class="headlinesText">
+                    <ul>
+                        <xsl:apply-templates select="//div[@type='headlines'][1]//item"/>
+                    </ul>
+                </div>
                 <hr/>
                 <div id="checkboxes">
                     <h3>Click to Toggle Colored Dialogue</h3>
@@ -34,12 +38,52 @@
                             <li><input type="checkbox" value="female"/><span class="female">Female</span></li></xsl:if>
                     </ul>
                 </div>
-                <div id="articleText"><xsl:apply-templates select="//div[@type='articleBody']"/></div>
+                <div class="articleText">
+                    <xsl:apply-templates select="//div[@type='articleBody'][1]"/>
+                </div>
+                <xsl:if test="//div[@type='headlines'][2]">
+                    <hr />
+                    <br />
+                    <br />
+                    <div class="headlinesText">
+                        <ul>
+                            <xsl:apply-templates select="//div[@type='headlines'][2]//item"/>
+                        </ul> 
+                    </div>
+                    <br />
+                    <br />
+                    <hr />
+                        <div class="articleText">
+                            <xsl:apply-templates select="//div[@type='articleBody'][2]"/>
+                        </div> 
+                </xsl:if>
+                <xsl:if test="//div[@type='headlines'][3]">
+                    <hr />
+                    <br />
+                    <br />
+                    <div class="headlinesText">
+                        <ul>
+                        <xsl:apply-templates select="//div[@type='headlines'][3]//item"/>
+                        </ul>   
+                    </div>
+                    <br />
+                    <br />
+                    <hr />
+                    <div class="articleText">
+                        <xsl:apply-templates select="//div[@type='articleBody'][3]"/>
+                    </div>
+                   
+                </xsl:if>
+                <xsl:if test="//div[@type='advertisement']">
+                    <div id="advertisement">
+                        <xsl:apply-templates select="//div[@type='advertisement']"/>
+                    </div>
+                </xsl:if>
                 <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type='headlines']">
+    <xsl:template match="item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="p">

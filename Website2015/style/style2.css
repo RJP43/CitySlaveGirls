@@ -3,10 +3,6 @@ html{
 }
 body{
     margin: 20px auto;
-    border:2px dotted #42033D;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
 }
 
 #header{
@@ -92,19 +88,28 @@ body{
 	color: #000000;
 }
 /*rjp: styling for article pages*/
+#articleLinks {
+    width:100%
+    float:bottom;
+    text-align:center;    
+}
 #articleHead {
     margin:10px;
     padding: 5px;
     font-family: 'Goudy Old Style';
 	text-align:center;
-	width: 100%;
 }
 .headlinesText ul {
-    text-align: left;
     font-family: sans-serif;
-    list-style:double-circled-decimal;
-    margin:20px;
+    margin: 10px;
+    padding: 5px;
 }
+.headlinesText li {
+    text-align:center;
+    display:list-item;
+    padding: 5px;
+}
+
 .articleText {
     margin:10px;
 }
@@ -125,27 +130,4 @@ body{
     list-style-type:none;
     display:inline;
     padding:75px;
-}
-
-/*rjp: table styling*/
-table, th, td {
-   border: 1px solid black;
-}
-table {
-    width: 100%;
-}
-th {
-    height: 50px;
-    text-align: center;
-    background-color: #f7b6a1;
-    color: white;
-}
-td {
-    text-align:left;
-}
-h1, h2, h3, h4{
-    text-align: center;
-}
-h2.table{
-    text-align: left;
 }

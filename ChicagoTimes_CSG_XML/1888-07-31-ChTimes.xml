@@ -24,12 +24,12 @@
                 <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
                <respStmt>
                <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
-               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
             </respStmt>
             -->
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition>First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
@@ -50,7 +50,7 @@
             <div>
                 <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title></head>
                     <div type="headlines">
-<list><item>>Further Details of the Factory Investigation Conducted by "The Times'" Lady Reporter.</item>
+<list><item>Further Details of the Factory Investigation Conducted by "The Times'" Lady Reporter.</item>
 <item>A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of Lash.</item>
 <item>A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for Sixteen Cents.</item>
 <item>The Unfortunate Insulted and Abused by Their Employer and Humiliated by the Forewoman.</item>

@@ -193,6 +193,14 @@
                   <orgName>A. L. Singer &amp; Co.’s</orgName>
                   <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
                </org>
+               <org xml:id="BstSt">
+                  <orgName>the Boston Store</orgName>
+                  <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
+               </org>
+               <org xml:id="CaS">
+                  <orgName>Cooper &amp; Siegel's</orgName>
+                  <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
+               </org>
                   
                <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
             </listOrg>
