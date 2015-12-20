@@ -48,19 +48,22 @@ body{
 .img {
     display:block;
     margin-left:auto;
-    margin-right:auto; }
+    margin-right:auto;
+    padding: 5px;
+}
 
 #image1 {
     float:left;
     width:45%;
     margin:10px;
-    /*padding-top: 75px;*/
+    padding-top: 75px;
     text-align:center;
 }
 #image2 {
     float:right;
     width:45%;
     margin:10px;
+    padding:5px;
     text-align:center;
 }
 #image1_text {
@@ -84,6 +87,7 @@ body{
     padding:5px;
 	margin-left: auto;
 	margin-right:auto;
+	margin-bottom: 5px;
 	color: #FFFFFF;
 	background-color: #6A6262; 
 	border:1px solid #FFFFFF;
