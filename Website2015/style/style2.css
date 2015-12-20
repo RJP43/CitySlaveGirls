@@ -1,20 +1,17 @@
 /*begin styles to control links in general on every page of the website unless otherwise specified*/
 a:link {
-   font-size:smaller;
    font-weight:bold;
    color:#42033D;
    text-decoration:underline;
 }
 
 a:visited {
-    font-size:smaller;
     color: #42033D;
     text-decoration:underline;
 }
 
 a:active {
     color: #8A716A;
-    font-size:large;
     text-decoration: none;
 }
 
@@ -36,11 +33,80 @@ body{
     max-height: 1250px;
     max-width: 1250px;
 }
+/*rjp: start styling for index.html*/
+#content_text {
+    margin:20px;
+    padding: 5px;   
+	border:4px dotted #B9929F;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #6A6262;
+	color:#FFFFFF;
+	font-size: 1.2em;
+}
+.img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto; }
 
+#image1 {
+    float:left;
+    width:45%;
+    margin:10px;
+    /*padding-top: 75px;*/
+    text-align:center;
+}
+#image2 {
+    float:right;
+    width:45%;
+    margin:10px;
+    text-align:center;
+}
+#image1_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image2_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image1_text a{
+    color: #FFFFFF;
+}
+#image2_text a{
+    color: #FFFFFF;
+}
+
+/*rjp: end styling for index.html*/
 /*rjp: start styling for top and foot*/
 #header{
     padding:10px;
-	margin:10px auto;
+	margin: auto;
 	border:2px solid #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
@@ -103,6 +169,7 @@ body{
 		display: block;
 }
 #nav ul li a {
+        font-size:1.3em;
 		display: block;
 		padding: 25px 40px;
 }
@@ -116,15 +183,13 @@ body{
 	display:inline;
 }
 #nav a:hover {
-    font-size:1.3em;
 	background-color: #B9929F;
 	text-decoration: underline;
 }
 
 #footer{
-    position:relative;
-    bottom:0;
-    left:0;
+    padding:5px;
+    margin:10px;
     display: block;
 	clear: both;
 	background: #FFFFFF;
@@ -135,6 +200,7 @@ body{
 	text-align:center;
 }
 /*rjp: end styling for top and foot*/
+
 
 /*rjp: styling for article pages*/
 #articleLinks {
