@@ -10,14 +10,14 @@
             <head>
                 <title>Article <xsl:apply-templates select="//teiHeader//title/@corresp"/></title>
                 <xsl:choose>
-                    <xsl:when test="//w"><link rel="stylesheet" type="text/css" href="../style/style.css"/></xsl:when>
-                    <xsl:otherwise><link rel="stylesheet" type="text/css" href="../style/style2.css"/></xsl:otherwise>
+                    <xsl:when test="//w"><link rel="stylesheet" type="text/css" href="style/style.css"/></xsl:when>
+                    <xsl:otherwise><link rel="stylesheet" type="text/css" href="style/style2.css"/></xsl:otherwise>
                 </xsl:choose>
                 <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'/>
-                <script type="text/javascript" src="../style/saidToggle.js">***</script>
+                <script type="text/javascript" src="style/saidToggle.js">***</script>
             </head>
             <body>
-                <xsl:comment>#include virtual="../top.html"</xsl:comment>
+                <xsl:comment>#include virtual="top.html"</xsl:comment>
                 <div id="article">
                     <div id="articleHead">
                     <h1>The Chicago Times</h1>
@@ -105,7 +105,7 @@
                 </div>
                 </xsl:if>
                 
-                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
+                <xsl:comment>#include virtual="foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
