@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title corresp="#CT001"><date when="1888-08-01">Wednesday Morning, August 1, 1888</date></title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+            </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More information can be found in the corresponding Site Index.</p></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-01">Wednesday Morning, August 1, 1888</date></title></head>
+                <div type="headlines">
+                    <list>
+                        <item>Startling Experiences of "The Times'" Lady Reporter in the Factory of Julius Stein &amp; Co.</item>
+                        <item>Left in a Foul and Filthy Corner of the Workroom Until Outraged Nature Succumbs.</item>
+                        <item>After Hours of Drudgery the Bosses Refuse to Advance Car<damage agent="smudge" unit="chars" quantity="1"/><unclear><supplied resp="#nll">e</supplied></unclear> Fare to a Needy Serf.</item>
+                        <item>Vile Air, Brutality, and the Privileges of Earning Barely Enough to Keep Soul and Body Together.</item>
+                        <item>Eating Poor Crackers and Working for Two Months in Order to Get a Pair of Shoes.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>One of the chance acquaintances I made at the <orgName>never-rip jersey factory</orgName> worked three days for <orgName>Julius Stein &amp; Co.</orgName>, <placeName>132 Market street</placeName>, received 65 cents for her labors about ten days after leaving. One-third of 65 cents is 21<damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#nll">1/3</supplied></unclear> cents.</p>
+                    <p>That is the way <orgName>Stein &amp; Co.</orgName> solve the problem; but the question is one that capital, Christianity, and civilization are intvited to analyze.</p>
+                    <p>"<said>Don't never go to <orgName>Stein's</orgName><rs type="interruption">," the little girl said, "</rs>it's an awful place.</said>"</p>
+                    <p>On Saturday I tumbled out of bed at 6 a.m. and donned my factory clothes. On the way down-town the street-car met with an eight-minute obstruction in the shape of a load of bricks, and when I reached the manufacturing establishment of <orgName>Julius Stein &amp; Co.</orgName> it was 8:32 o'clock. The elevator took me up one story and I was told to "<said>get out.</said>" I told the boy at the rope that I wished to go up to the work room.</p>
+                    <p>"<said>You're too late,</said>" he said. "<said>Have to take the freight elevator down at the back of the store.</said>"</p>
+                    <p>Down I walked as directed past long tables that towered with ling cloaks, dolmans, ulsters, jackets, and short wraps; past two or three busy, unobserving clerks; past a pair of forbidding-looking men who glared at me from under their black hats and blacker brows; past an earthen-gray stringy crash towel that waved at half-mast above a dirty wash-basin; past a tier of closets that emitted a stifling odor, and on down to the packing-room. I wanted for a big, lusty packer to finish pummelling the mischievious little Swede who ran the elevator and was carried up to the top floor with a box of cloth. When the car landed I found myself at the extreme end of a room 50x180 feet, in an inclosure of wire-fence, packing-boxes, and cutting-boards&#8212;beyond and between which I could see perhaps two hundred persons, mostly women, bent over machines, and working as only slaves ever work. The thundering noise made by the machinery deadened every other sound, even that made by the cutters as they ran their heavy shears through the satin and muslin trimmings. Sixteen persons passed me&#8212;men in undershirts, trousers, and slippers, with work in their hands; men in business suits, with work in their brains; girls of 13 in rags and death-like pallor, with work in their arms; older and paler girls and still older and paler women, some with white hair and spectacles, carrying work to be pressed, examined, altered, or checked. Nobody noticing me, I asked a pretty little girl who was cutting a bolt of satin into cuff-lining to direct me to the forewoman and was told to go and sit down till she came. I had hardly arranged myself on an empty box when a playful young man capsized my throne and spilled me in a heap of unmade cloaks. My first impulse was for revenge, but remembering that I was a poor girl looking for work I contented myself by betting my damaged left knee and right elbow. While mentally photographing the miserable, little, bullet-headed sappling who caused my trouble, a young woman brought me a chair and placed it in a corner, which convenient spot happened to be off a narrow passage leading to the work-room proper. My nose was not long in the scenting a row of closets that alled the south side of the passageway. Overhead was a pasteboard sign with "No admission to the work-room" printed in large, black letters. There was no place beyond where I could sit or stand without being in the way unless I went back to the freight elevator, so I resolved to stick it out.</p>
+                    <p>For almost two hours I sat in the dark, filthy place with a handkerchief over my mouth and nose waiting for the forewoman to come and admit me to the shop. I watched the poor girls pass and repass, their broken shoes slipping up and down with every step, and their ragged skirts often catching new gaps from the nails of the packing boxes. Just as I was beginning to get myself in a state of passivity, as prescribed by <persName>Mrs. Eddy</persName>, and was combating the foul smell of the closets with the wholesome, healthy atmosphere of <placeName>South Park</placeName> something in my head seemed to give way and the whole factory turned into a colossal whirligig. The big goose of the presser and the little irons of the press girls began to play tag, and machines, operators, finishers, wire-forms, cutters, examiners, messengers, models, forewomen, teachers, and firm all joined the merry-go-round. To escape being knocked in the head by a two-story press-board I clutched a little stitcher who said: "<said>You an't sick, is you?</said>"</p>
+                    <p>I guessed I was. Bringing me a tin cup-full of water, she departed, saying: "<said>She'd be docked if she didn't go.</said>"</p>
+                    <p>An old man with grey hair and glasses showed me to the freight elevator and I was let down to the second story. When I reached the staircase I sat down on the top step to recover. A portly man with a straw hat, full beard, broad shoulders, and a suit of mixed goods, mistaking me for a tramp, came out from the stock and informed me that "<said>no peddlers are allowed on the premises. Move off.</said>"</p>
+                    <p>I moved off determined to return another day.</p>
+                </div>
+                <div type="headlines">
+                    <list>
+                        <item>STARVATION WAGES.</item>
+                        <item>At Stein's It Will Take You Two Weeks of Hard Labor to Earn $5, and the Bosses Will Treat You with Contumely and <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#nll">Derision</supplied></unclear>.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>"<said>Boy, don't you take her down! Don't go down!! do you hear? I'll discharge you if you let her escape.</said>"</p>
+                    <p>There I was in <placeName>Stein's</placeName> freight elevator with my day's work in my arms and the <pb n="2"/>wire screen separating me from the furies of <persName>Mrs. Julius Stein</persName>, her forewoman, the second assistant, and the bookkeeper.</p>
+                    <p>It was 5:30 o'clock Tuesday afternoon. I had made a big, black cloth cloak all but sewing on the buttons, had resigned my position as slave-stitcher, and had asked to be paid off. I had been refused by the quartet outside of the elevator screen, and so was on my way to the head of the firm, work in arms.</p>
+                    <p>It was a great day for <persName>Stein</persName> and me, particularly me.</p>
+                    <p>It was another verification of putting <said>"a beggar on horseback,"</said> of getting a <said>"nigger" to drive a "nigger."</said><!--2016-01-05 nll: I think these might just be sayings..not direct quotes from anyone.--></p>
+                    <p>At 7:40 o'clock in the morning I had rolled my hat in my factory jacket, and, stowing the bundle away in one of the holes designed for that purpose by <orgName>Julius Stein &amp; Co.</orgName>, presented myself at the office, a square of six feet near the center of the work-room inclosed in a wire fence, where the forewoman and an examiner were trying on two models the finished cloaks of the previous day. The models were tall, ratherfine-looking girls. They, I learned, received $8 a week and did nothing but "<said>try on and look at themselves in the glass,</said>" representing the highest class of factory girls. The forewoman, who jerked these tall, animate figures fore and aft to see the front of a beaver <!--2016-01-05 nll: I don't believe this should have a said tag either.-->"empress," or the back of a seal-plush, "mi-lady," was very nicely dressed in a black sateen figured with crosses of white. And, oh, how she talked! In dislocated English, in a shrill, rasping voice, compared to which the notes of a pea-hen would be melodious. My steady gaze annoyed her, and stopping at the hem of a long coat she was inspecting she asked:</p>
+                    <p>"<said>Why are you sitting there so much?</said>"</p>
+                    <p>I told her I wanted work. Bidding me "<said>come along</said>" she pushed me with anything but motherly tenderness toward the desk and told "<said>Rosy</said>" to give me "<said>von of them samples.</said>"</p>
+                    <p>I took a plae with nine others, who were waiting for "<persName>Rosy</persName>" to provide them with more work, and fell to studying my neighbors. "<persName>Rosy</persName>," the girl who kept the shop-book, gave out the work and trimmings, and properly checked it all, may have been 14 years old. She was short in stature, work having stunted her growth, and emaciated in face and figure. Her hands were black with dye from handling the bundles of work.</p>
+                    <p>"<said>I can't give any of you work till <persName>Mary</persName> comes back,</said>" she said. "<said>She's gone down to tell <persName>John</persName> to send up some.</said>"</p>
+                    <p>I placed a small box on the counter containing some graham wafers and a lemon, which, being pushed across the board, attracked <persName>Rosy</persName>'s attention. She uncovered the box.</p>
+                    <p>"<said>Look at the lunch,</said>" she said, and a bunch of heads came together to see.</p>
+                    <p>"<said>And a thimble,</said>" said a blonde.</p>
+                    <p>"<said>Yes, and scissors. Oh, and the little watch! And whose is it?</said>"</p>
+                    <p>"<said>Them's awful nice cakes,</said>" observed a little creature of about 13 years old.</p>
+                    <p>I offered the child a cracker, and when she refused I pressed it on her till a hungry little friend said: "<said>She dasn't. She'll be fired if she eats before the whistle.</said>"</p>
+                    <p>When <persName>Mary</persName> came up I was entered on <persName>Rosy</persName>'s book, given a number, and a "Homer."</p>
+                    <p>"<said>How much does a 'Homer' pay?</said>" I asked.</p>
+                    <p><persName>Rosy</persName> didn't know. Neither did <persName>Miss Seebert</persName>, the teacher. I went to the forewoman and was told to get out of her way. Persisting in knowing what revenue the "Homer" would bring, the attenuated, corset-cramped "forelady" asked me to go away and find out any particulars when Mrs. Stein returned. The teacher gave me a chair at a long, low table with fifteen girls on wither side, and asked me where I had worked before. I mentioned the <orgName>"Never Rip" factory</orgName>.</p>
+                    <p>"<said>Make cloaks?</said>" she asked.</p>
+                    <p>"<said>No. Jerseys.</said>"</p>
+                    <p>"<said>Did you never make a cloak?</said>"</p>
+                    <p>"<said>Never.</said>"</p>
+                    <p>"<said>Oh, you'll have a hard time!</said>"</p>
+                    <p>Thirty pairs of eyes looked at me.</p>
+                    <p>"<said>Can you sew?</said>" I was asked.</p>
+                    <p>"<said>You bet.</said>"</p>
+                    <p>This bit of slang captured the teacher and set me on a comfortable plane with my neighbors. Reversing the tactics of <persName>Ella Wheeler Wilcox</persName>, I began at the hardest task first and got the blonde-haired teacher to show me how to arrange the collar. It was a rolling affair that was attached to a cape and had to be double-faced with satin. The bands were cut on the bins, and novice-like I stretched the first one and had to rip it off. Three times I ripped it and sewed it, and when I showed it to a girl at my right she said: "<said>It ain't right. She'll pull it off.</said>"</p>
+                    <p>"<said>Would you tell me how to fix it?</said>" I asked.</p>
+                    <p>"<said>Oh, I can't. Go to <persName>Miss Seebert</persName>.</said>" She screamed to <persName>Miss Seebert</persName> to come. Despairing of her aid I made another attempt.</p>
+                    <p>"<said>I'd show you if I had time<rs type="interruption">," my neighbor explained, "</rs>but I've been on this cloak two and one-half days, and it's only 45 cents.</said>"</p>
+                    <p>There are chordsin a woman's heart which are struck by accident only&#8212;strange, varying strings which, remaining mute to most earnest and passionate appeals, respond at once to the slightest and most casual touch. I sympathized with the poor little woman who turned about and opened her heart to me.</p>
+                    <p>"<said>It's an awful hard place to work in<rs type="interruption">," she said. "</rs>Prices are going down all the time and the girls can hardly earn anything. Yesterday was payday. We're paid the 1st and <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#nll">15th</supplied></unclear>. I had only $6.10 coming to me for the two weeks. I have the toothache all the time and I am a month at the dentist's. He's filling my teeth with cement and I don't have anything coming to me when I pay him. All I keep out of my wages is 30 cents for car-fare. I live out on <placeName>Fifteenth and <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#nll">Robey</supplied></unclear> streets</placeName> and can't always walk in the morning and get here at 7:45. Sometimes I do but I never ride home. If I didn't live home I'd&#8212;I'd&#8212;I'd&#8212;I'd starve. I would. What'd prevent?</said>"</p>
+                    <p></p>
+                </div>
+                </div>
+        </body>
+    </text>
+</TEI>
