@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title corresp="#CT012"><date when="1888-08-10">Friday Morning, August 10, 1888</date></title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:-->
+                <!--<respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+            </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2016-01-07">2016-01-07</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More source information can be found in the corresponding Site Index.</p></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>Places Where Virtue Counts for Nothing and Is Not Tolerated by the Employer,</item>
+                        <item>Body and Soul Must Be Given Up to the Scoundrels or the <choice><sic>Employe</sic><reg resp="#bas">Employee</reg></choice> Loses Her Situation.</item>
+                        <item>Practicing the Arts of the Fiend In Order to Debauch Helpless Girlhood and Womanhood.</item>
+                        <item>In the Book-Binderies the Young Women by Hand and Incessant Toil Make from $4 to $8 a Week.</item>
+                        <item>Tailors' Serfs Who Are Running a Race <damage agent="smudge" unit="word" quantity="1"><unclear><supplied resp="#bas">for</supplied></unclear></damage> Life Neck and Neck with the Demon of Starvation.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>"<said>Do you want to visit a manufacturing establishment, generally held in high repute, where a girl's tenure of place depends upon the degrading concessions she may be induced to make to her employer.</said>"</p>
+                    <p>The question was put to a reporter of <orgName>The Times</orgName> by Inspector <persName>George Bodgers</persName> of the health department. They had just formed a temporary copartnership under the name and style of "we" to make a thorough examination of the hells and holes where human beings hive, delve, and thrive or die under the guise of "employees."</p><!-- BAS:These quotes aren't coversations, but just single words, I wasn't sure if they needed tagged. -->
+                    <p>"<said>Well, I'll tell you the story I know and I know it to be true and so does my wife. A girl of good development and modest demeanor had for some time been employed in a book-bindery and had become fairly well skilled. One afternoon she turned in, as the result of her day's work, four books. The foreman complained that the work was imperfect—in fact, that the books were spoiled, and told the girl she must pay for them. She asked for particulars but could get little satisfaction. She became indignant and was thrust aside. Remembering that other mouths than hers were awaiting the food her scanty earnings must purchase she pleaded first for justice and then for mercy.</said></p>
+                    <p>"<said>'<said>You quit work with the rest at 6 o'clock,</said>' said the foreman. '<said>Come back fifteen minutes later and perhaps I may straighten out your account so that you will lose nothing.</said>' The girl, hesitating between hope and fear, crossed the bridge as if to go homeward, and then returned to the office. The foreman was at the door, welcomed by her within, and turned the key. He assured her he had helped many of the girls in the employ of the firm to balance their accounts after business hours. Be that as it may, he had made a grave miscalculation in this case, and in less seconds than it takes to tell it he was glad he hadn't lost the key to the door. The girl came directly to my house, told her story, and never returned to the tiger's lair. Her case is but one of many, and if she adheres to her present decision it will be the particular one of the many before the firm and the foreman hear the last of it. Now come with me and we'll take a trip through the binderies and printing establishments, and before we get through I'll show you the fiend who endeavored to ruin this young girl.</said>"</p>
+                    <p>Our first visit of inspection was made to the five-story and basement building, <placeName>118 and 120 Monroe street</placeName>, occupied by the <orgName>John Morris company</orgName>, printers, binders, and lithographers. On the main floor the superintendent gave us two yellow tickets, each guaranteeing a single ride in a freight elevator at the rear to the fifth floor. "<said>You must walk down,</said>" he added, encouragingly. To the fifth floor we went, and to a<damage agent="blurred" unit="chars" quantity="2"><unclear><supplied resp="#bas">ll</supplied></unclear></damage> appearances arrived unannounced, as the foreman was frank. A girl acknowledged she was but 14 years old and worked ten hours a day, and the closets were in bad condition. Groping our way down a dark and narrow stairway to the second floor we learned that the foreman had been called to the office.</p>
+                    <p>"<said>How old are you?</said>" asked the inspector of a boy feeding a press.</p>
+                    <p>"<said>Seventeen,</said>" he replied, winking at a companion when the inspector's back was turned, as much as to say that he knew his business. Apparently he was about 1<damage agent="blurred" unit="chars" quantity="1"><unclear><supplied resp="#bas">3</supplied></unclear></damage>, and probably that was his age, as it was admitted that four boys and two girls under legal age were regularly employed.</p>
+                    <p>Save as to ill-kept closets on the three upper floors and a scarcity even of that undesireable kind the sanitary condition of the premises is fair, light and ventilation being abundant. Of the 305 <choice><sic>employes</sic><reg resp="#bas">employees</reg></choice> 220 are males and eighty-five are females. The wages of the latter range from $3 to $10 a week, averaging $5, and the male average is $12.50.</p>
+                    <p>"<said>Aren't you from <orgName>The Times</orgName>?</said>" asked one of the forewomen in a quizzical way.</p>
+                    <p>"<said>Do I look like a woman?</said>"</p>
+                    <p>"<said>You might be '<persName>Nell Nelson</persName>' disguised in pants for all I know. But I don't care if you are; I'll tell you all I know.</said>"</p>
+                    <p>"<said>Facilis descensus avemi</said>" doesn't apply to going down-stairs in this factory, because it isn't easy to get down, and the lower you get—that is to say, the nearer you approach the manager's desk—the more heavenly the situation. Ceilings rise in gradation and stairways expand until <persName>Mr. Morris</persName>' handsome office is reached.</p>
+                    <p>"<said>The health department claims that there should be one closet for every twenty <choice><sic>employes</sic><reg resp="#bas">employees</reg></choice>,</said>" said the inspector.</p>
+                    <p>"<said>But ours are only for use in case of emergency,</said>" replied <persName>Mr. Morris</persName>. "<said>We didn't put them in for the accommodation of our help, and they are not expected to visit them during working hours; their time belongs to us. It is work that we want from them.</said>"</p>
+                    <p>This was said partly in self-defense and partly in repartee, but even with apologetic explanation it grates harshly on the ear. By an expenditure of a few hundred dollars the health, safety, and comfort of three-hundred persons employed by a firm having hundreds of thousands of dollars invested could be assured. And at the same time it must be admitted that this is one of the very best regulated establishments of the kind in <placeName>Chicago</placeName>. The story told by the inspector did not relate to the <orgName>John Morris company</orgName>.</p>
+                </div>
+                <div type="advertisement">
+                    <p>At <orgName>Ettlinger's printing-house and bindery</orgName>, <placeName>180 and 182 Monroe street</placeName>, fourth floor, thirty-seven males and thirty females are employed. They have good light and air, the only objectionable feature from a sanitary standpoint being the filthy condition of the</p>
+                </div><!-- BAS: I'm pretty sure this was the advertisement, but it ends in the middle of a sentence.-->
+            </div>
+            
+        </body>
+    </text>
+</TEI>
