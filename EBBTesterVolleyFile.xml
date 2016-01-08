@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <date when="2016-01-07">January 1, 2016</date>
+    <s type="exclamatory">Now hear this!</s>
+    <s type="exclamatory">I am tired of that Becca Parker reverting my pull requests!</s>
+    <s>I wonder if she will consider this file worthy of her repository THIS time.</s>
     <s>Here's a file to test <activity type="GitHub">forking and branching</activity>.</s> 
     <s>We want to see if we can bounce this file from fork to fork to the origin! </s>
     <s type="exclamatory">It's WAY cooler to work on GitHub from <activity type="commandPrompt">command line</activity>!</s>
