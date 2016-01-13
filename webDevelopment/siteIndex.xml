@@ -95,6 +95,15 @@
                   </persName>
                   <note type="bio">Shane Daube is a graduate ('14) of the University of Pittsburgh at Greensburg. He is a Psychology major looking to pursue a master's degree in Clinical Psychology or a related field. Shane became a member of this project when he took Pitt-Greensburg's Digital Humanities Class in Fall of 2014. He worked to help Rebecca transcribe, markup, and XQuery the Nell Nelson articles from The Chicago Daily Times and also the chapters of the McEnnis text.</note>
                </person>
+               <person>
+                  <persName xml:id="nll">
+                     <surname>Nicole</surname>
+                     <forename>Lottig</forename>
+                     <roleName>2016 Editor</roleName>
+                     <!--<ptr target=""/>-->
+                  </persName>
+                  <!--<note type="bio"></note>-->
+               </person>
             </listPerson>
          </div>
          
