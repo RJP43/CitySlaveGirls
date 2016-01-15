@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <date when="2016-01-07">January 1, 2016</date>
-    <s>Here's a file to test <activity type="GitHub">forking and branching</activity>.</s> 
-    <s>We want to see if we can bounce this file from fork to fork to the origin! </s>
-    <s type="exclamatory">It's WAY cooler to work on GitHub from <activity type="commandPrompt">command line</activity>!</s>
-    
-</root>
