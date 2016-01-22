@@ -7,8 +7,8 @@
       <fileDesc>
          <titleStmt>
             
-            <title corresp=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the corresp is changed according to each article --><!-- RJP: each article has its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be corresp="#CT001" --><date when="1888-xx-xx">Monday Morning, Month Day, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
-            <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+            <title corresp=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the corresp is changed according to each article --><!-- RJP: each article has its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). Please check the site index for the article's identifier. For example: the first article in the series published in the Chicago Times will be corresp="#CT001" --><date when="1888-xx-xx">Monday Morning, Month Day, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+            <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">newtFire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
             <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>
             <principal>Rebecca Parker</principal>
@@ -23,7 +23,7 @@
             </respStmt>
             <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:-->
                <!--<respStmt>
-               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <resp>Date last checked: <date when="yyyy-mm-dd">yyyy-mm-dd</date>. Proofing and corrections by</resp>
                <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
             </respStmt>
             -->
@@ -51,7 +51,7 @@
          <div>
             <div type="headlines">
                <list>
-                  <item></item><!-- RJP: each headline gets its own <item> element -->
+                  <item></item><!-- RJP: each headline gets its own <item> element and we do not markup the content of headlines unless there is an issue with transcription and need to markup up with <damage> and <unclear> tags-->
                </list>
             </div>
             <div type="articleBody">
