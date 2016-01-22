@@ -1,20 +1,17 @@
 /*begin styles to control links in general on every page of the website unless otherwise specified*/
 a:link {
-   font-size:smaller;
    font-weight:bold;
    color:#42033D;
    text-decoration:underline;
 }
 
 a:visited {
-    font-size:smaller;
     color: #42033D;
     text-decoration:underline;
 }
 
 a:active {
     color: #8A716A;
-    font-size:large;
     text-decoration: none;
 }
 
@@ -24,133 +21,23 @@ a:hover {
 }
 
 /* end styles to control links in general on every page of the website unless otherwise specified*/
-/* begin styles to control the header and menu options that belong at the top of every page on the website*/
-
-#header {
-
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	background: #FFFFFF;
-	display:block;
-	position:inherit;
-	text-align:center;
+html{
+    background-color: #f7b6a1;  
 }
-
-#header h1 {
-	font-family: 'Goudy Old Style';
-	font-size:300%;
-	text-align:center;
+body{
+    margin: 20px auto;
+    padding:5px;
+    display: block;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 1250px;
+    max-width: 1250px;
 }
-
-#header h2 {
-    font-family: 'Goudy Old Style';
-    font-size:160%;
-	text-align:center;
-
-}
-
-#menu {
-    font-family: 'Goudy Old Style';
-	text-align:center;
-
-}
-
-#menu ul {
-	
-	list-style-type:none;
-    display:inline
-}
-
-#menu li {
-	list-style-type:none;
-    display:inline;
-    padding:8px
-}
-
-#menu a:link, #menu a:visited {
-	font-size:160%;
-	font-weight:normal;
-	color: #000000;
-}
-
-#menu a:hover {
-	background-color: #B9929F;
-	text-decoration: underline;
-}
-
-/* end styles to control the header and menu options that belong at the top of every page*/
-/* begin styles to control the body of every page*/
-
-body {
-    background:#f7b6a1 /*#ffb299*/ /*#f0c8e6*/ /*#E0D8DE*/;
-    margin: 1px;
-    padding: 1px;
-    border:2px dotted  #dd4513 /*#f39272*/  /*#a1e2f7*/ /*#42033D*/;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	
-}
-
-/* end styles to control the body of every page*/
-/*begin style to control the footer ... displayed only on home page, but posssible on any page*/
-
-#footer {
-	display: block;
-	clear: both;
-	background: #FFFFFF;
-
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	position: relative;
-	text-align:center;
-}
-
-/*end styles to control the footer*/
-/* begin styles to control the home page*/
-
-
-img {display:block; margin-left:auto; margin-right:auto  }
-
-#image {width:100%;
-   height:100%;
-   margin-left: auto;
-   margin-right:auto
-  
-}
-
-#image ul {
-   list-style-type:none; 
-   margin-left: auto;
-   margin-right:auto;
-}
-
-#image_text {display:block;
-	margin-left: auto;
-	margin-right:auto;
-	padding:2px;
-	color: #FFFFFF;
-	background-color: #6A6262; 
-	border:2px solid #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	width:560px;
-	text-align:center;
-	font-size:100%;
-	position:relative;
-}
-
+/*rjp: start styling for index.html*/
 #content_text {
-    
-	margin-left:auto;
-	margin-right:auto;
-	padding:6px;
-	border:2px dotted #B9929F;
+    margin:20px;
+    padding: 5px;   
+	border:4px dotted #B9929F;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
@@ -158,103 +45,418 @@ img {display:block; margin-left:auto; margin-right:auto  }
 	color:#FFFFFF;
 	font-size: 1.2em;
 }
-
-/*end styles to control the home page*/
-/*begin styles to control the about page*/
-
-/*#content_about h1 {
-	background:transparent;
-	color:#93748A;
-	padding:10px;
-	margin:20px;
-	text-align:center;
-	}*/
-
-#content_about h2{
-    font-family: 'Goudy Old Style';
-	background:transparent;
-	padding:5px;
-	margin:10px;
-	text-align:center;
+.img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
 }
 
-ul {
-    margin: 5px;
-    list-style-position: left;
+#image1 {
+    float:left;
+    width:45%;
+    margin:10px;
+    padding-top: 75px;
+    text-align:center;
 }
-
-#content_about {
-    font-family: "Arial";
-    padding: 10px;
+#image2 {
+    float:right;
+    width:45%;
+    margin:10px;
+    padding:5px;
+    text-align:center;
 }
-#Source {border:6px outset #FFFFFF;
+#image1_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
 	border-radius:8px;
-	padding:2px}
-	
-#Team {border:6px outset #FFFFFF;
-    border-radius:8px;
-    padding:2px}
-
-#section {border:2px dotted #FFFFFF;
-    border-radius:8px;
-    margin:6px 1px 1px 1px;
-	float:left;
-	width:300px;
-	text-align:left;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image2_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image1_text a{
+    color: #FFFFFF;
+}
+#image2_text a{
+    color: #FFFFFF;
 }
 
-#section h1{
-	color:#000000;
-	padding:10px 10px 10px 10px;
-	margin:13px -10px;	
-	text-shadow:0 1px 0 #B9929F;
-	text-align: center;
+/*rjp: end styling for index.html*/
+/*rjp: start styling for top and foot*/
+#header{
+    padding:10px;
+	margin: auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #FFFFFF;
+	display:block;
+	position:relative;
+	text-align:center;
 }
-
-#section ul {
-	padding:0px;
-	list-style:none;
-	margin:14px 0px;
+#header h1 {
+	font-family: 'Yellowtail', cursive;
+	margin-top:-10px;
+	font-size:4.0em;
+	text-transform:none;
+	letter-spacing:0em;
 	text-align:center;
 }
 
-#section li {
-	margin:0px;
-	padding:0px;
-	list-style:none;
+#header h2 {
+	margin-top: -40px;
+	font-family: 'Goudy Old Style';
+    font-size:2.0em;
+	text-align:center;
+}
+#nav{
+    margin: -20px;
+    width: 100%;
+    text-align:center;
+    display:block;
+}
+#nav ul {
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#nav ul ul {
+       background: #FFFFFF;
+	   border-radius: 0px;
+	   padding: 0;
+	   position: absolute;
+	   top: 100%;
+	   display: none;
+}
+#nav ul ul li a {
+		padding: 15px 40px;
+}
+#nav ul li:hover > ul {
+		display: block;
+}
+#nav ul ul li {
+		float: none; 
+		position: relative;
+}
+#nav ul:after {
+		content: "";
+		clear: both;
+		display: block;
+}
+#nav ul li a {
+        font-size:1.3em;
+		display: block;
+		padding: 25px 40px;
+}
+#nav ul li {
+	   float: left;
+}
+#nav li {
+	margin:0px 20px;
+	padding:10px;
+	list-style-type:none;
+	display:inline;
+}
+#nav a:hover {
+	background-color: #B9929F;
+	text-decoration: underline;
 }
 
-#section li a:link{
-	float:left;
-	width:96%;
-	padding:3px 1%;
-	color: #000000
-} 
+#footer{
+    padding:5px;
+    margin:10px;
+    display: block;
+	clear: both;
+	background: #FFFFFF;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	text-align:center;
+}
+/*rjp: end styling for top and foot*/
 
-#section li a:hover {
-	background:#93748A;
+/*rjp: styling for article pages*/
+#articleLinks {
+    width:75%;
+     margin: auto;
+    padding:5px;
+    text-align:center;    
+    border:3px dotted #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;   
+}
+#articleLinks p{
+font-size:16px;
+line-height: 1;
+}
+#article {
+    float:right;
+    width: 60%;
+}
+#articleHead {
+    margin:10px;
+    padding: 5px;
+    font-family: 'Goudy Old Style';
+	text-align:center;
+}
+.headlinesText ul {
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+.headlinesText li {
+    text-align:center;
+    display:list-item;
+    padding: 5px;
 }
 
+.articleText {
+    margin:20px;
+    padding:5px;
+}
+/*rjp: toggle box for articles*/
+#checkboxes {
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+    display: block;
+    background:  #D1BEB0;
+    border: 2px solid #E0D8DE;
+}
+#checkboxes h3, h4{
+    margin:0px;
+    padding:1px;
+}
+#checkboxes ul, li {
+    list-style-type:none;
+    display:inline;
+    padding:25px;
+}
+
+/*rjp: table section styling*/
+#table {
+    float:left;
+    width:40%;
+    display: block;
+}
+#table table, p.tableText {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:5px;
+    text-align: center;
+    border:3px dotted #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+}
+#tableTitle {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:5px;
+    text-align: center;
+    border:3px dotted #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;    
+}
+#table br{
+     display: block; 
+     content: ""; 
+     margin-top: 2px; 
+}
+#table tr {
+   outline: 2px solid black;
+   text-align: center;
+   padding: 10px;
+}
+#table th {
+    height: 40px;
+    background-color: #E0D8DE;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+}
+/*rjp: end styling for article pages*/
+/*rjp: start styling for article.html page*/
 #content_articles {
     font-family: "Arial";
-	width: 600px;
+	width: 40%;
 	float: right;
-	padding:10px 20px 10px;
+	padding:10px;
 	text-align:center;
-	margin: 6px 1px 1px 1px;
+	margin: 1px;
 	border:3px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
 	background: #6A6262;
 	color:#FFFFFF;
-	font-size: 1.3em;
+	font-size: 16px;
 }
-
 #headlines1 img {
 	margin: 20px 20px 10px;
 }
-
+#vocab {
+    width:55%;
+    float:left;
+    margin-bottom: 20px;
+}
+#vocabListText p {
+    margin:10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+#vocabList ul {
+	padding:20px;
+	list-style:none;
+	margin-top: -20px;
+	font-size:20px;
+}
+#vocabList li {
+    float: left;
+    clear: left;
+    margin:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+}
+#vocabList h1, h2 {
+    text-align:center;
+}
+#articleList {
+    width: 40%;
+	padding:10px;
+	text-align:center;
+	margin: 1px;
+	border:2px dotted #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+    float:right;
+}
+#articleList h2{
+	color:#000000;
+	padding:5px;
+	margin:10px;	
+	text-shadow:0 1px 0 #B9929F;
+	text-align: center;
+}
+#articleList p {
+    margin:auto;
+    text-align: center;
+    font-size: 20px;    
+}
+#articleList ul {
+	padding:5px;
+	list-style:none;
+	margin-top: -10px;
+	text-align:center;
+	font-size:20px;
+}
+#articleList li {
+    float: left;
+    clear: left;
+    margin:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+}
+#articleList li a{
+	width:auto;
+	padding:3px;
+	color: #000000;
+} 
+#articleList li a:hover {
+	background:#93748A;
+}
+/*rjp: end styling for article.html page*/
+/*rjp: start styling for SVGanalysis.html : this section needs work so it appears properly in all screen sizes */
+#svg1 {
+    margin: -30px;
+    margin:5px;
+    padding:5px;
+}
+#svgVis1{
+    width:50%
+    float:left;
+}
+#svg1Text{
+    margin-top: -1150px;
+    width:50%;
+    float:right;
+}
+#svg2 {
+    margin:-20px;
+    padding:5px;
+    width:100%;
+}
+#svgVis2{
+    margin-top: -650px;
+    width:100%;
+}
+#svg2Text{
+    margin-top: -800px;
+    margin-bottom: 300px;
+    width:100%;
+}
+/*rjp: end styling for SVGanalysis.html */
+/*rjp: start styling for about.html */
+#content_about h1, h2 {
+    text-align:center;
+}
+#futureDevelop h3{
+    text-align:center;
+}
+#content_about h3{
+	background:transparent;
+	color:#6A6262;
+	padding:5px;
+	margin:10px;
+}
+#content_about li {
+    clear: left;
+    margin:auto;
+	list-style:none;
+	display:block;
+}
+/*rjp: end styling for about.html */
+/*rjp: start styling for books.html*/
 #content_books {
 	border:3px dotted #FFFFFF;
 	border-radius:8px;
@@ -262,61 +464,48 @@ ul {
 	border-radius:.8em;
 	text-align:center;
 }
-
 #content_books h1 {
-	color: #000000;
-	text-shadow:0 1px 0 #B9929F;
 	margin:50px 0px 50px;
 	font-size:1.5em;
 	text-align:center;
 }
-
 #book1 a:link, #book1 a:visited, #book2 a:link, #book2 a:visited {
 	color: #FFFFFF;
 	background:#6A6262; 
 	text-align: left;
-	font-size: 150%;
+	font-size: 1.3em;
 }
-
 #book1 a:hover, #book2 a:hover {
 	background:#93748A;
 }
-
 #book1 p, #book2 p {
-	text-align: left;
+    width:50%
+	text-align: center;
 	color: #000000;
 	margin:5px;
 	padding:5px;
 }
+/*rjp: end styling for books.html*/
 
-#McEnnis_text h1, #McEnnis_text h2 {
+/*rjp: start styling for book2_McEnnis.html*/
+h1 {
     text-align: center;
 }
-
-#McEnnis_text ul {
-	padding:0px;
-	list-style-type:none;
+#McEnnis_text h2 {
+    text-align: left;
 }
-
-#McEnnis_text li {
-	margin:5px;
-	padding:10px;
-	list-style-type:none;
+#McEnnisImage {
+  text-align:center;
 }
-
-
-/*SD: This begins the css that controls the bars of the graph. It hides them and then the javascript switches their display to block*/
-g g {display: none;}
-
-g.sarcasmWit.on {display: block;}
-g.pity.on {display: block;}
-g.positive.on {display: block;}
-g.offended.on {display: block;}
-g.intimidated.on {display: block;}
-g.negative.on {display: block;}
-g.descriptionNeutral.on {display: block;}
-g.angry.on {display: block;}
-g.sexual.on {display: block;}
-g.woe.on {display: block;}
-g.prayer.on {display: block;}
-
+#tocContent li{
+    clear: left;
+    margin:auto;
+	list-style:none;
+	display:block;
+}
+span.conds.on {color:green}
+span.workers.on {color:blue}
+span.wages.on {color:red}
+span.laborLaws.on {color:lime}
+span.nelsonRef.on {color:aqua}
+/*rjp: end styling for book2_McEnnis.html*/
