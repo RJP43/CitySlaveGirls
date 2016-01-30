@@ -509,3 +509,17 @@ span.wages.on {color:red}
 span.laborLaws.on {color:lime}
 span.nelsonRef.on {color:aqua}
 /*rjp: end styling for book2_McEnnis.html*/
+/*SD: This begins the css that controls the bars of the OLD SVG graph. It hides them and then the JavaScript switches their display to block*/
+g g {display: none;}
+
+g.sarcasmWit.on {display: block;}
+g.pity.on {display: block;}
+g.positive.on {display: block;}
+g.offended.on {display: block;}
+g.intimidated.on {display: block;}
+g.negative.on {display: block;}
+g.descriptionNeutral.on {display: block;}
+g.angry.on {display: block;}
+g.sexual.on {display: block;}
+g.woe.on {display: block;}
+g.prayer.on {display: block;}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>The Restoration of Nell Nelson</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="style/OLD_SVGjavascript.js">//</script>
+    </head>
+    <body>
+        <!--#include virtual="top.html"-->
+        <div id="toggleBox">
+            <h2>Graphical Analysis of the Change in Voice Tags between the <i>Chicago Times</i> articles and the McEnnis book</h2>
+            <fieldset>
+                <legend>Click to Highlight:</legend>
+                <input type="radio" name="toggle" id="sarcasmWit"/>
+                <label for="sarcasmWit">sarcasmWit</label>
+                <input type="radio" name="toggle" id="prayer"/>
+                <label for="prayer">prayer</label>
+                <input type="radio" name="toggle" id="positive"/>
+                <label for="positive">positive</label>
+                <input type="radio" name="toggle" id="negative"/>
+                <label for="negative">negative</label>
+                <input type="radio" name="toggle" id="woe"/>
+                <label for="woe">woe</label>
+                <input type="radio" name="toggle" id="sexual"/>
+                <label for="sexual">sexual</label>
+                <input type="radio" name="toggle" id="descriptionNeutral"/>
+                <label for="descriptionNeutral">descriptionNeutral</label>
+                <input type="radio" name="toggle" id="intimidated"/>
+                <label for="intimidated">intimidated</label>
+                <input type="radio" name="toggle" id="offended"/>
+                <label for="offended">offended</label>
+                <input type="radio" name="toggle" id="angry"/>
+                <label for="angry">angry</label>
+                <input type="radio" name="toggle" id="pity"/>
+                <label for="pity">pity</label>
+            </fieldset>
+        </div>
+        <div id="graph">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" height="375" width="1000">
+                <g transform="translate(200,250)">
+                    <line x1="40"  y1="0"  x2="500"  y2="0"  stroke="black"  stroke-width="1"/>
+                    <line x1="40"  y1="0"  x2="40"  y2="-200"  stroke="black"  stroke-width="1"/>
+                    <line x1="40"  y1="-200"  x2="500"  y2="-200"  style=" stroke: black; stroke-dasharray: 10 10; stroke-width: 1; "/>
+                    <line x1="40"  y1="-100"  x2="500"  y2="-100"  style=" stroke: black; stroke-dasharray: 10 10; stroke-width: 1; "/>
+                    <text x="0"  y="-200"  text-anchor="middle">25</text>
+                    <text x="0"  y="-100"  text-anchor="middle">12.5</text>
+                    <text x="-100"  y="-200"  text-anchor="middle">Number of Occurrences</text>
+                    <text x="250"  y="100"  text-anchor="middle">Connotations</text>
+                    <text x="120"  y="50"  text-anchor="middle">(Book)</text>
+                    <text x="350"  y="50"  text-anchor="middle">(Articles)</text>
+                    <g class="positive">
+                        <text x="120"  y="25"  text-anchor="middle">positive</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">positive</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-16"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-16"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-16"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="intimidated">
+                        <text x="120"  y="25"  text-anchor="middle">intimidated</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-8"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-8"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">intimidated</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-8"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-8"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-8"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g  class="prayer">
+                        <text x="120"  y="25"  text-anchor="middle">prayer</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-8"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">prayer</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-32"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-8"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="pity">
+                        <text x="120"  y="25"  text-anchor="middle">pity</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-32"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">pity</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-56"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-0"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="descriptionNeutral">
+                        <text x="120"  y="25"  text-anchor="middle">descriptionNeutral</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-24"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">descriptionNeutral</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-8"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-16"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-8"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="negative">
+                        <text x="120"  y="25"  text-anchor="middle">negative</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-16"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-56"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-16"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">negative</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-24"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-112"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-48"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="sarcasmWit">
+                        <text x="120"  y="25"  text-anchor="middle">sarcasmWit</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-96"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">sarcasmWit</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-160"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-0"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="offended">
+                        <text x="120"  y="25"  text-anchor="middle">offended</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">offended</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-16"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-0"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="woe">
+                        <text x="120"  y="25"  text-anchor="middle">woe</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-8"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">woe</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-40"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="angry">
+                        <text x="120"  y="25"  text-anchor="middle">angry</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-56"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-56"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-0"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">angry</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-40"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-64"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-8"  stroke="red"  stroke-width="30"/>
+                    </g>
+                    <g class="sexual">
+                        <text x="120"  y="25"  text-anchor="middle">sexual</text>
+                        <line x1="100"  y1="0"  x2="100"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="130"  y1="0"  x2="130"  y2="-0"  stroke="blue"  stroke-width="30"/>
+                        <line x1="160"  y1="0"  x2="160"  y2="-8"  stroke="red"  stroke-width="30"/>
+                        <text x="350"  y="25"  text-anchor="middle">sexual</text>
+                        <line x1="320"  y1="0"  x2="320"  y2="-0"  stroke="green"  stroke-width="30"/>
+                        <line x1="350"  y1="0"  x2="350"  y2="-40"  stroke="blue"  stroke-width="30"/>
+                        <line x1="380"  y1="0"  x2="380"  y2="-0"  stroke="red"  stroke-width="30"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div id="legend">
+            <fieldset>
+                <legend>Color Key</legend>
+                <text style="color: red">Feminine Voice</text>
+                <text style="color: blue">Masculine Voice</text>
+                <text style="color: green">Nell Nelson's Voice</text>
+            </fieldset>
+        </div>
+        <!--#include virtual="foot.html"-->
+    </body>
+</html>
