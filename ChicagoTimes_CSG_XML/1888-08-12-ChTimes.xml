@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title corresp="#CT001"><date when="1888-08-01">Wednesday Morning, August 1, 1888</date></title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#nll">Nicole L. Lottig</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
+               <respStmt>
+               <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+            </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2015-01-03">2016-02-27</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More information can be found in the corresponding Site Index.</p></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-12">Sunday Morning, August 12, 1888</date></title></head>
+                <div type="headlines">
+                    <list>
+                        <item><persName>Nell Nelson</persName> Continues to Expose the Salve-Grinding Hell-Holes of <placeName>Chicago</placeName>.</item>
+                        <item>Graphic Account of Her Experiences in the Filthy "Slop Shops" of the West Side <!-- 2016-02-27: nll: Should 'West Side' be surrounded in a placeName tag?-->.</item>
+                        <item>No Rest for the Weary and Wretched Women and Children This Side of the Grave.</item>
+                        <item>A Day Among the Butcher-Shops and Canned-Meat Factories of the Stock Yards.</item>
+                        <item>How Messrs, Armour and Fairbanks <!-- 2016-02-27: nll: Are these persNames??-->Might Brighten the Lives of Their Employes.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>The birthright of an American girl may be a glorious attribute on the deck of a trans-atlantic steamship or the floor of a <placeName>London</placeName> ball-room, but it is not worth the flop of a brass farthing in the cloak factories of <placeName>Chicago</placeName>.</p>
+                    <p>It was high noon by the the <placeName>Jesuit college</placeName> clock when I got to the rear of <placeName>230 West Twelfth street</placeName>, where <persName>David Karasick</persName> has his shop. Nobody in but an old man. His face is seamed with wrinkles; he has a big nose the color and texture of a mushroom; his head and half his face is covered with hair of chinchilla shades; his back is humped at the shoulders and his clothes are filthy and worn. I ask for work and am told that no hands are needed. He has a pocket that hangs across his waist and into which he puts rags, pieces of thread, hooks and eyes, pins, buttons, and the empty spools that lie on the floor about the vacant machine-chairs. I watch the silent old man as he drags his loose slippers across the floor, and behold I have the key to wealth! But it doesn't profit me worth a copper. So I survey the premises.</p>
+                    <p>One room, windows on three sides, and all shut. From the north windows I get a view of a two-story hen-house. Filth inside and out. The outlook from the east side is a picture of poverty, squalor, and filth. The buildings have no paint. In some are human beings, in others dumb brutes. Half-washed clothes dangle from window-sills and clothes-lines in tatters and rags. In the yards are heaps of manure and the alleys are foul-smelling and filthy. Along the street move flannel-shirted, horny-handed, sooty-faced men to smoke, to rest, to quarrel, and to dinner. Passing and re-passing all day long and every day&#8212;Sunday and Saturday&#8212;are yound women and old women, youths, maidens, and children, with as many cloaks or coats or pants as they can carry. The garbage boxes are reeking with filth. Some one has thrown ashes or sweep-ings<!-- 2016-02-27: nll: Dash maintained because it goes onto a separate line in the article.--> in the box and neither the swill man nor the ash man will remove the contents. <persName>Mayor Roche</persName> and <persName>Dr. DeWolf</persName>, equally ignorant of the manner in which their subordinates discharge their duty, per-mit<!-- 2016-02-27: nll: Again, dash maintained because it goes onto a separate line in the article.--> this sort of thing to go on till the very neighborhood is polluted and the air poisoned by these reeking masses of corruption.</p>
+                    <p></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
