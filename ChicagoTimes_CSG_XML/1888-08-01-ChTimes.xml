@@ -14,7 +14,7 @@
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="#rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="#nll">Nicole L. Lottig</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
                 </respStmt>
                 <respStmt>
                     <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
@@ -29,7 +29,7 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-01-03">2016-01-03</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
@@ -61,7 +61,7 @@
                 </div>
                 <div type="articleBody">
                     <p>One of the chance acquaintances I made at the <orgName ref="">never-rip jersey factory</orgName> worked three days for <orgName>Julius Stein &amp; Co.</orgName>, <placeName type="address">132 Market street</placeName>, received 65 cents for her labors about ten days after leaving. One-third of 65 cents is 21<damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#nll"><!-- ras: I added her to the site index, but I can't solve this? Hvae to ask @rjp-->1/3</supplied></unclear> cents.</p>
-                    <p>That is the way <orgName>Stein &amp; Co.</orgName> solve the problem; but the question is one that capital, Christianity, and civilization are intvited to analyze.</p>
+                    <p>That is the way <orgName ref="">Stein &amp; Co.</orgName> solve the problem; but the question is one that capital, Christianity, and civilization are intvited to analyze.</p>
                     <p>"<said who="#workingGirl" ana="female">Don't never go to <orgName>Stein's</orgName><rs type="interruption">," the little girl said, "</rs>it's an awful place.</said>"</p>
                     <p>On Saturday I tumbled out of bed at 6 a.m. and donned my factory clothes. On the way down-town the street-car met with an eight-minute obstruction in the shape of a load of bricks, and when I reached the manufacturing establishment of <orgName>Julius Stein &amp; Co.</orgName> it was 8:32 o'clock. The elevator took me up one story and I was told to "<said who="#unidentified" ana="unknown">get out.</said>" I told the boy at the rope that I wished to go up to the work room.</p>
                     <p>"<said who="#employee" ana="male">You're too late,</said><rs type="interruption">" he said. "</rs><said who="#employee" ana="male">Have to take the freight elevator down at the back of the store.</said>"</p>
