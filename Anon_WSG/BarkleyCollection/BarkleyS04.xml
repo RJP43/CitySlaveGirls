@@ -6,18 +6,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:id="WSGC04">Section 4</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="a" xml:id="WSGC04">Section 4</title>
+                <!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter -->
+                <!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
                 <title level="m">The White Slave Girls of Chicago</title>
-                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire
+                        server</ref> at the <ref target="http://www.psc.edu">Pittsburgh
+                        Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+                    server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp -->
                 </respStmt>
                 <respStmt>
-                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <resp>with assistance from the Digital Humanities courses at the University of
+                        Pittsburgh at Greensburg from 2014-2016, from</resp>
                     <persName>Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
@@ -29,13 +36,22 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06"
+                        >2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->.
+                    This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s
+                    in-depth capstone paper and presentation for completion of a History based
+                    Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at
+                        Greensburg</placeName>. Work to create the digital aspects of the project
+                    begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
                 <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
                 <date>2014</date>
-                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
@@ -59,9 +75,16 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the source text.
+                    Representation of tables, graphs, signage, and contracts may be altered so as to
+                    make a clearer depiction for this digital version of the text; however, the
+                    information portrayed in the digital version will be consistent with the
+                    original. When the source text is unreadable due to the age or handling of the
+                    document we are using the elements damage, unclear, and supplied in combination
+                    to provide our best interpretation of the text.</p>
             </editorialDecl>
-            
+
         </encodingDesc>
     </teiHeader>
     <text>
@@ -69,188 +92,199 @@
             <div>
                 <div type="headlines">
                     <list>
-                        <item>A CLOAK CONCERN WHERE NOTHING BUT FEAR OF THE LAW SEEMS TO PREVENT THE USE OF THE LASH.</item>
-                        <item>EIGHTY CENTS A WEEK FOR LABORING FROM 7:30 IN THE MORNING UNTIL 5:30 IN THE EVENING.</item>
+                        <item>A CLOAK CONCERN WHERE NOTHING BUT FEAR OF THE LAW SEEMS TO PREVENT THE
+                            USE OF THE LASH.</item>
+                        <item>EIGHTY CENTS A WEEK FOR LABORING FROM 7:30 IN THE MORNING UNTIL 5:30
+                            IN THE EVENING.</item>
                     </list>
                 </div>
                 <div type="sectionBody">
                     <pb n="21"/>
-                    <p>I did not realize the ignominious position of respectable pov-
-                        erty till I went to E's cloak factory, where labor is bondage,
-                        the laboror a slave, and flesh and blood cheaper than needles
-                        and thread. Corporations are said to be without heart, but
-                        this concern is a commercial inquisition. It puts its help on
-                        the plane of slavery, and nothing but civil law prevents the use
-                        of the lash.
-                        The factory is on the third floor of the large brick building
-                        at the east end of Madison street bridge on the south side of
-                        the street.
-                        Elevator? Not much.
-                        An elevator is a luxury, and luxuries have no place at E's.
-                        You will be short of breath when you reach the top of the
-                        fourth flight, but in recovering you have time to take in the
-                        surroundings - a great barn of a place with a single charm of
-                        good light. There is plenty of vacant room, but the women
-                        are huddled together, elbows touching along the line of
-                        machines. Beneath the west windows flows the river; at the
-                        south end of the room, not ten feet from the crowded table, is
-                        a tier of closets, and on hot days the combined odor of the two
-                        is shocking. Nobody in his employ dare complain about
-                        smells, cold, heat, work, wages or rules. But whoever heard
-                        of martyrs complaining?
-                        <pb n="22"/>
-                        My experience began at 7:50 A.M. and lasted just three
-                        hours. When I climbed the dusty stairs I took a ten-minute
-                        rest at the top. Everybody was at work but a hungry-looking
-                        man about 27 years old, with skin the color of a Russia turnip
-                        and thin, peaked features. He was dressed in a pair of heel-
-                        less slippers, a white shirt, and a pair of shop pants that a
-                        clothing store pays 18 cents for making. Neither collar, vest,
-                        coat nor suspenders burdened his emaciated form. He moved
-                        among the workers with a cat-like tread, his shoulders drooping and his knees opening and shutting with a sort of accordion movement at every step. He passed me several times as I stood at the desk and eyed me so unpleasantly that I turned my back to him.
-                        After waiting at the desk for three-quarters of an hour, I
-                        asked the clerk, a sweet little girl of 16 years, with pretty red
-                        cheeks and dark eyelashes and hair, for work, and was told to
-                        wait till the-forelady came round. A dozen girls were waiting
-                        too, some with cloaks, others with check-books and tickets, and
-                        a few with hand-made fringe. The fringe-girl I spoke to. She
-                        told me she received 5 cents a yard for making an imitation of
-                        seal-ball fringe, such as winter cloaks are trimmed with. She
-                        had a piece three yards and a quarter long that had taken her
-                        all the previous day to make. Here was a child of 15 working
-                        nine and a half hours a day for a competence of 16 1/4 cents.
-                        Will the Prairie avenue woman, who, at the suggestion of Mrs.
-                        Ormison Chant, is trying to find one hundred girls who are
-                        earning less than 28 cents a day please enter "Maggie W--- on
-                        the list, and will the women of the P--- agency who want a
-                        new field of inquiry, call and see this slim, snake-gaited,
-                        jaundice-faced creature who has charge of this human mill.
-                        Maggie's fringe being measured and her book checked, she
-                        was given another box of material and went off to weave it
-                        into tassel-trimming. The girl who took her place would not
-                        be interviewed. She didn't know how much stitchers earned
-                        <pb n="23"/>
-                        and wouldn't tell how much a week she could make." She
-                        was, possibly, 25 years old, with a deathly pale face, and
-                        looked as if she hadn't eaten any breakfast. Her successor
-                        was less reticent. "I'm here since May, but I don't like it;
-                        the boss is a horrid thing. Him and the forelady watches us
-                        all the time, and they don't give us hardly any work. I can
-                        only make one cloak a day; some pays 30 cents, some 40 cents,
-                        and some 50. Yesterday I had only 60 cents coming to me
-                        for two days. Are you long here? Oh, you won't stay. They
-                        search your bag and your pocket when you go home nights to
-                        see if you have any thread or pieces about you."
-                        Before I had a chance to talk w'ith another unfortunate the
-                        little rosy-cheeked clerk told me "it's against the rules for new
-                        hands to stand here. You must go over by the stairs and wait
-                        till the forelady comes." I smiled at the pretty child and she
-                        rewarded me by bringing a chair to me a few minutes later.
-                        All means of cummunication<!-- RJP:10/20/15:retained spelling --> being cut off I amused myself making sketches of the shirted, slippered, sleuth-like creature as he passed.
-                        This pastime was interrupted by the appearance of a fat
-                        woman. She had on a black sateen suit that fitted her puffy
-                        figure like the raiment of a well boiled suet pudding. She
-                        carried herself like a drum major on a dress parade and by
-                        way of ornaments wore a gold watch with a double coil of gold
-                        chain at her belt, gold earrings, a gold breast pin, gold cuff-
-                        buttons and two gold rings. Bigger than bust or bustle was
-                        the woman's head I discovered when I asked :
-                        "Are you the forewoman?"
-                        "Forelady, yes. What do you want?"
-                        "Work."
-                        "What can you do ?"
-                        "Sew."
-                        "Wherehave you been working?"
-                        "N. R. Co."
-                        <pb n="24"/>
-                        "Want to stitch?"
-                        "No, I would rather finish."
-                        "Give your name to the clerk."
-                        I complied and was entered on his book as the resident of a
-                        vacant lot on Monroe street. The forewoman selected a bundle
-                        as big as a Kamschatka baby from a mountain of bundles and
-                        said:
-                        "Here, go over there and wait till I come." 
-                        "How much do you pay for this class of work?"
-                        "I don't know. It seems to me you're mighty particular."
-                        "If you don't know who does?" I asked.
-                        "You make me dizzy," she said, dropping the bundle and
-                        giving me a look of intense disgust. She took a small book
-                        from her pocket containing the price-list and asked me what
-                        number.
-                        "I don't know."
-                        "Look."
-                        "Where?"
-                        "You'll come down a peg or two before long," and with a
-                        groan she bent over the bundle at her feet, flushed apoplectically and said "360." Referring again to her price-list: 
-                        "Them's sixty-five cents," and left me.
-                        I raised that sixty-five cent ulster, and with my arms folded
-                        about the fuzzy, ill-smelling thing, moved "down there" as
-                        directed, and halted at the edge of a huge rag box. Here I
-                        stood for twenty minutes, when the forewoman came aft and
-                        bade me "this way." I pursued. There was a halt about
-                        the middle of the shop and I seized it for a "scoop."
-                        "How many girls have you here?"
-                        "Never counted them."
-                        "What can experienced cloak hands earn in a day?"
-                        "Never asked them."
-                        "How much of your salary is for politeness?"
-                        "You can sit here," pointing to a cane chair with half the
-                        <pb n="25"/>
-                        seat gone. "That girl with the black dress will do your
-                        stitching; the one at the end of the second table will bind the
-                        seams, and Annie down there in brown calico - she's fixing
-                        the machine now - will give you any help," and she was off.
-                        "I beg your pardon, did I understand you to say I would
-                        get sixty-five cents for making this cloak?" following her.
-                        "Now your're just a little bit too fresh. If you don't want
-                        the work, say so."
-                        "I do want the work but I want to know what it will pay
-                        first."
-                        "This is a sixty-five cent cloak. Do you get that through
-                        your head? The stitcher gets twenty cents, the binder gets
-                        fifteen cents, and you get thirty cents for finishing if the work
-                        is right. If it isn't, you get out."
-                        I thanked her and was alone. Here I thought lay my
-                        fortune. Thirty cents for making a long cloth cloak, after the
-                        seams were stitched. It had to be trimed down the back gores
-                        around the collar, cuffs, and pockets with mohair plush. The
-                        sleeves had to go in, eighteen buttons sewed on, eighteen holes
-                        worked, and all the seams and edges faced with black muslin.
-                        Thirty cents! To save my life I couldn't have finished the
-                        garment in ten hours. I was just reaching that conclusion
-                        when the forewoman appeared with a small book, two checks,
-                        and a piece of tailor's chalk as big as a dime.
-                        "Your number is 180; chalk it on all these pieces and if you
-                        lose any you will be fined."
-                        "How much?"
-                        "How much? You cheeky thing! The cost of the cloth
-                        and the cutter's time. That's how much. Give this check to
-                        the binder and that one to the stitcher."
-                        "Will you please tell me how this side gore goes?"
-                        "Go to Annie. I ain't here to learn you how to sew."
-                        "May I have a needle?"
-                        "Furnish your own needles."
-                        <pb n="26"/> 
-                        "May I have basting cotton?"
-                        "There aint any. You have to wait till it gets here." 
-                        I gave a girl a penny for a needle and stole some thread from an absentee's stock. Then I waited fifteen minutes while the finder got through and basted up the seams for the stitcher. That much done I got to work on the plush. The forewoman passed by and told me I "was not showing enough fur. Go over to the sample and look at the work." 
-                        She sneered when I asked her where the samples were, but a neighbor volunteered the information. There was no sample on the rack and I stepped over to inform the forewoman, who curtly told me it was none of her affair. 
-                        "Will you please tell me how wide to make this trimming?" 
-                        "Go to Annie." 
-                        Poor Annie was doctoring a machine and said "in a minute." On her way to me three stitchers implored her to look at their miserable implements and I waited patiently till I caught sight of the forewoman looking at her bangs in a handglass. Apologizing for the intrusion I asked her if the sample had come yet.
-                        "No."
-                        "I wish you would kindly show me how wide to make this trimming."
-                        "Go to Annie, I told you." 
-                        "Annie is too busy. She's mending machines." 
-                        "Well, I won't be bothered with you." 
-                        "What's the reason you won't?" 
-                        "Cause I won't" 
-                        "Well you will. Tell me how wide you want this plush or I will see Mr A---" 
-                        "See him. I don't care. There he is," pointing to a snaky, half-starved creature whose shanks I had been sketching and on whom I had scornfully turned my back. It was too much to ask of a free-born American woman to recognize the superi-
-                        <pb n="27"/> 
-                        ority of such a person. He came up to us in an instant. The forewoman was livid with rage and she began to talk as fast as her tongue could move. Some fifty or more girls heard the tirade breathlessly. Before the half-dressed proprietor had a chance to get over his astonishment I threw the front of the cloak at his face, the side body at the forewoman, and walked off to my disabled chair with Mr. A. for a bodyguard. He was the color of a sanitarium babe when we reached my work table. He had the two pieces of cloak in his hand, and when he raised his fist to strike me I worked up an Indian-club attitude and dared him.
-                        He escorted me to the toilet-room, where I went for my hat and jacket, and before slamming the door in his face by way of a hint as to the privacy of the place I threw my needle and thread at him. Mr. A. saw me across the shop and down the first flight of stairs. And there ended my first experience in a cloak factory.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                    <p>I did not realize the ignominious position of respectable pov- erty till I
+                        went to E's cloak factory, where labor is bondage, the laboror a slave, and
+                        flesh and blood cheaper than needles and thread. Corporations are said to be
+                        without heart, but this concern is a commercial inquisition. It puts its
+                        help on the plane of slavery, and nothing but civil law prevents the use of
+                        the lash.</p>
+                    <p>The factory is on the third floor of the large brick building at the east end
+                        of Madison street bridge on the south side of the street.</p>
+                    <p>Elevator? Not much.</p>
+                    <p>An elevator is a luxury, and luxuries have no place at E's. You will be short
+                        of breath when you reach the top of the fourth flight, but in recovering you
+                        have time to take in the surroundings - a great barn of a place with a
+                        single charm of good light. There is plenty of vacant room, but the women
+                        are huddled together, elbows touching along the line of machines. Beneath
+                        the west windows flows the river; at the south end of the room, not ten feet
+                        from the crowded table, is a tier of closets, and on hot days the combined
+                        odor of the two is shocking. Nobody in his employ dare complain about
+                        smells, cold, heat, work, wages or rules. But whoever heard of martyrs
+                        complaining?</p>
+                    <pb n="22"/>
+                    <p>My experience began at 7:50 A.M. and lasted just three hours. When I climbed
+                        the dusty stairs I took a ten-minute rest at the top. Everybody was at work
+                        but a hungry-looking man about 27 years old, with skin the color of a Russia
+                        turnip and thin, peaked features. He was dressed in a pair of heel- less
+                        slippers, a white shirt, and a pair of shop pants that a clothing store pays
+                        18 cents for making. Neither collar, vest, coat nor suspenders burdened his
+                        emaciated form. He moved among the workers with a cat-like tread, his
+                        shoulders drooping and his knees opening and shutting with a sort of
+                        accordion movement at every step. He passed me several times as I stood at
+                        the desk and eyed me so unpleasantly that I turned my back to him.</p>
+                    <p>After waiting at the desk for three-quarters of an hour, I asked the clerk, a
+                        sweet little girl of 16 years, with pretty red cheeks and dark eyelashes and
+                        hair, for work, and was told to wait till the-forelady came round. A dozen
+                        girls were waiting too, some with cloaks, others with check-books and
+                        tickets, and a few with hand-made fringe. The fringe-girl I spoke to. She
+                        told me she received 5 cents a yard for making an imitation of seal-ball
+                        fringe, such as winter cloaks are trimmed with. She had a piece three yards
+                        and a quarter long that had taken her all the previous day to make. Here was
+                        a child of 15 working nine and a half hours a day for a competence of 16 1/4
+                        cents. Will the Prairie avenue woman, who, at the suggestion of Mrs. Ormison
+                        Chant, is trying to find one hundred girls who are earning less than 28
+                        cents a day please enter "Maggie W--- on the list, and will the women of the
+                        P--- agency who want a new field of inquiry, call and see this slim,
+                        snake-gaited, jaundice-faced creature who has charge of this human mill.</p>
+                    <p>Maggie's fringe being measured and her book checked, she was given another
+                        box of material and went off to weave it into tassel-trimming. The girl who
+                        took her place would not be interviewed. She didn't know how much stitchers
+                        earned <pb n="23"/> and wouldn't tell how much a week she could make." She
+                        was, possibly, 25 years old, with a deathly pale face, and looked as if she
+                        hadn't eaten any breakfast. Her successor was less reticent. "I'm here since
+                        May, but I don't like it; the boss is a horrid thing. Him and the forelady
+                        watches us all the time, and they don't give us hardly any work. I can only
+                        make one cloak a day; some pays 30 cents, some 40 cents, and some 50.
+                        Yesterday I had only 60 cents coming to me for two days. Are you long here?
+                        Oh, you won't stay. They search your bag and your pocket when you go home
+                        nights to see if you have any thread or pieces about you."</p>
+                    <p>Before I had a chance to talk w'ith another unfortunate the little
+                        rosy-cheeked clerk told me "it's against the rules for new hands to stand
+                        here. You must go over by the stairs and wait till the forelady comes." I
+                        smiled at the pretty child and she rewarded me by bringing a chair to me a
+                        few minutes later. All means of
+                        cummunication<!-- RJP:10/20/15:retained spelling --> being cut off I amused
+                        myself making sketches of the shirted, slippered, sleuth-like creature as he
+                        passed.</p>
+                    <p>This pastime was interrupted by the appearance of a fat woman. She had on a
+                        black sateen suit that fitted her puffy figure like the raiment of a well
+                        boiled suet pudding. She carried herself like a drum major on a dress parade
+                        and by way of ornaments wore a gold watch with a double coil of gold chain
+                        at her belt, gold earrings, a gold breast pin, gold cuff- buttons and two
+                        gold rings. Bigger than bust or bustle was the woman's head I discovered
+                        when I asked :</p>
+                    <p>"Are you the forewoman?"</p>
+                    <p>"Forelady, yes. What do you want?"</p>
+                    <p>"Work."</p>
+                    <p>"What can you do ?"</p>
+                    <p>"Sew."</p>
+                    <p>"Where have you been working?"</p>
+                    <p>"N. R. Co."</p>
+                    <pb n="24"/>
+                    <p>"Want to stitch?"</p>
+                    <p>"No, I would rather finish."</p>
+                    <p>"Give your name to the clerk."</p>
+                    <p>I complied and was entered on his book as the resident of a vacant lot on
+                        Monroe street. The forewoman selected a bundle as big as a Kamschatka baby
+                        from a mountain of bundles and said:</p>
+                    <p>"Here, go over there and wait till I come."</p>
+                    <p>"How much do you pay for this class of work?"</p>
+                    <p>"I don't know. It seems to me you're mighty particular."</p>
+                    <p>"If you don't know who does?" I asked.</p>
+                    <p>"You make me dizzy," she said, dropping the bundle and giving me a look of
+                        intense disgust. She took a small book from her pocket containing the
+                        price-list and asked me what number.</p>
+                    <p>"I don't know."</p>
+                    <p>"Look."</p>
+                    <p>"Where?"</p>
+                    <p>"You'll come down a peg or two before long," and with a groan she bent over
+                        the bundle at her feet, flushed apoplectically and said "360." Referring
+                        again to her price-list: "Them's sixty-five cents," and left me.</p>
+                    <p>I raised that sixty-five cent ulster, and with my arms folded about the
+                        fuzzy, ill-smelling thing, moved "down there" as directed, and halted at the
+                        edge of a huge rag box. Here I stood for twenty minutes, when the forewoman
+                        came aft and bade me "this way." I pursued. There was a halt about the
+                        middle of the shop and I seized it for a "scoop."</p>
+                    <p>"How many girls have you here?"</p>
+                    <p>"Never counted them."</p>
+                    <p>"What can experienced cloak hands earn in a day?"</p>
+                    <p>"Never asked them."</p>
+                    <p>"How much of your salary is for politeness?"</p>
+                    <p>"You can sit here," pointing to a cane chair with half the <pb n="25"/> seat
+                        gone. "That girl with the black dress will do your stitching; the one at the
+                        end of the second table will bind the seams, and Annie down there in brown
+                        calico - she's fixing the machine now - will give you any help," and she was
+                        off.</p>
+                    <p>"I beg your pardon, did I understand you to say I would get sixty-five cents
+                        for making this cloak?" following her.</p>
+                    <p>"Now your're just a little bit too fresh. If you don't want the work, say
+                        so."</p>
+                    <p>"I do want the work but I want to know what it will pay first."</p>
+                    <p>"This is a sixty-five cent cloak. Do you get that through your head? The
+                        stitcher gets twenty cents, the binder gets fifteen cents, and you get
+                        thirty cents for finishing if the work is right. If it isn't, you get
+                        out."</p>
+                    <p>I thanked her and was alone. Here I thought lay my fortune. Thirty cents for
+                        making a long cloth cloak, after the seams were stitched. It had to be
+                        trimed down the back gores around the collar, cuffs, and pockets with mohair
+                        plush. The sleeves had to go in, eighteen buttons sewed on, eighteen holes
+                        worked, and all the seams and edges faced with black muslin. Thirty cents!
+                        To save my life I couldn't have finished the garment in ten hours. I was
+                        just reaching that conclusion when the forewoman appeared with a small book,
+                        two checks, and a piece of tailor's chalk as big as a dime.</p>
+                    <p>"Your number is 180; chalk it on all these pieces and if you lose any you
+                        will be fined."</p>
+                    <p>"How much?"</p>
+                    <p>"How much? You cheeky thing! The cost of the cloth and the cutter's time.
+                        That's how much. Give this check to the binder and that one to the
+                        stitcher."</p>
+                    <p>"Will you please tell me how this side gore goes?"</p>
+                    <p>"Go to Annie. I ain't here to learn you how to sew."</p>
+                    <p>"May I have a needle?"</p>
+                    <p>"Furnish your own needles."</p>
+                    <pb n="26"/>
+                    <p>"May I have basting cotton?"</p>
+                    <p>"There aint any. You have to wait till it gets here."</p>
+                    <p>I gave a girl a penny for a needle and stole some thread from an absentee's
+                        stock. Then I waited fifteen minutes while the finder got through and basted
+                        up the seams for the stitcher. That much done I got to work on the plush.
+                        The forewoman passed by and told me I "was not showing enough fur. Go over
+                        to the sample and look at the work."</p>
+                    <p>She sneered when I asked her where the samples were, but a neighbor
+                        volunteered the information. There was no sample on the rack and I stepped
+                        over to inform the forewoman, who curtly told me it was none of her
+                        affair.</p>
+                    <p>"Will you please tell me how wide to make this trimming?"</p>
+                    <p>"Go to Annie."</p>
+                    <p>Poor Annie was doctoring a machine and said "in a minute." On her way to me
+                        three stitchers implored her to look at their miserable implements and I
+                        waited patiently till I caught sight of the forewoman looking at her bangs
+                        in a handglass. Apologizing for the intrusion I asked her if the sample had
+                        come yet.</p>
+                    <p>"No."</p>
+                    <p>"I wish you would kindly show me how wide to make this trimming."</p>
+                    <p>"Go to Annie, I told you."</p>
+                    <p>"Annie is too busy. She's mending machines."</p>
+                    <p>"Well, I won't be bothered with you."</p>
+                    <p>"What's the reason you won't?"</p>
+                    <p>"Cause I won't"</p>
+                    <p>"Well you will. Tell me how wide you want this plush or I will see Mr
+                        A---"</p>
+                    <p>"See him. I don't care. There he is," pointing to a snaky, half-starved
+                        creature whose shanks I had been sketching and on whom I had scornfully
+                        turned my back. It was too much to ask of a free-born American woman to
+                        recognize the superi- <pb n="27"/> ority of such a person. He came up to us
+                        in an instant. The forewoman was livid with rage and she began to talk as
+                        fast as her tongue could move. Some fifty or more girls heard the tirade
+                        breathlessly. Before the half-dressed proprietor had a chance to get over
+                        his astonishment I threw the front of the cloak at his face, the side body
+                        at the forewoman, and walked off to my disabled chair with Mr. A. for a
+                        bodyguard. He was the color of a sanitarium babe when we reached my work
+                        table. He had the two pieces of cloak in his hand, and when he raised his
+                        fist to strike me I worked up an Indian-club attitude and dared him.</p>
+                    <p>He escorted me to the toilet-room, where I went for my hat and jacket, and
+                        before slamming the door in his face by way of a hint as to the privacy of
+                        the place I threw my needle and thread at him. Mr. A. saw me across the shop
+                        and down the first flight of stairs. And there ended my first experience in
+                        a cloak factory.</p>
                 </div>
             </div>
         </body>
