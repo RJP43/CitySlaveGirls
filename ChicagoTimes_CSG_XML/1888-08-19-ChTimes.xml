@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            <title corresp="#CT021"><date when="1888-08-19">Sunday Morning, August 19, 1888</date></title>
+            <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">newtFire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+            <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Rebecca Parker</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="rjp">Rebecca Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+               <persName>Elisa Beshero-Bondar</persName>
+               <persName>Gregory Bondar</persName>
+            </respStmt>
+            <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:-->
+               <!--<respStmt>
+               <resp>Date last checked: <date when="yyyy-mm-dd">yyyy-mm-dd</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+         </titleStmt>
+         <editionStmt>
+            <edition> First digital edition in TEI P5, date: <date when="2016-03-18">2016-03-18</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Rebecca J. Parker</authority>
+            <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+         </publicationStmt>
+         <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More source information can be found in the corresponding Site Index.</p></sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text.</p><p>Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original.</p><p>When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+           <p><!-- Make note that not holding capitalization in the headlines when edited to the Barkley text --></p>
+        </editorialDecl>
+        
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <div type="headlines">
+               <list>
+                  <item>A "Times" Reporter Gets Into a Paper-Box Manufacatory That Puzzles and Bewilders Him.</item>
+                  <item>He Finds Little Children Toiling Away for a Miserable Pittance of $2 or $3 a Week.</item>
+                  <item>The Employers Are Not Altogether to Blame for Having the Unfortunate Youngsters at Work.</item>
+                  <item>A Proposition of Marriage to a Pretty and Brainy Seamstress Is Taken Under Consideration.</item>
+                  <item>Correcting an Erroneous Impression that "Nell Nelson's" Articles Are Not Founded on Fact.</item>
+               </list>
+            </div>
+            <div type="articleBody">
+               <p>Nothing short of a Philadelphia lawyer, a Chicago health officer, a proprietor or a "devil-chaser" that hits the spot once in a thousand times could, without a guide, explore the labyrinth that is known as H. <app><rdg wit="">Schultz</rdg><rdg wit="#WSGC23">S.</rdg></app> &amp; Co.'s paper-box manufactory, on R--- street. It occupies only the three upper floors of a four-story building, but the stairways are so dark and narrow that one must grope his way from somewhere to a suppositious somewhere else, which resembles nowhere when he gets there, because the rooms are so overcrowded with material that one employe cannot in many instances see her nearest neighbor two yards away.</p>
+            </div>
+            <div type="advertisement">
+               <p></p>
+            </div><!-- RJP: some articles concluded with an advertisement refering to later publications of the series ... I created this <div> because we want to capture those ads but have them sitting separately from the text of the article itself. If the article you are transcribing does not have an advertisement simply delete or comment out this final div-->
+         </div>
+         
+      </body>
+  </text>
+</TEI>
