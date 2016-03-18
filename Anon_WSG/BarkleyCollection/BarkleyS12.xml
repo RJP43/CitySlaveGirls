@@ -6,18 +6,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:id="WSGC12">Section 12</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="a" xml:id="WSGC12">Section 12</title>
+                <!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter -->
+                <!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
                 <title level="m">The White Slave Girls of Chicago</title>
-                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire
+                        server</ref> at the <ref target="http://www.psc.edu">Pittsburgh
+                        Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+                    server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp -->
                 </respStmt>
                 <respStmt>
-                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <resp>with assistance from the Digital Humanities courses at the University of
+                        Pittsburgh at Greensburg from 2014-2016, from</resp>
                     <persName>Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
@@ -29,13 +36,22 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06"
+                        >2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->.
+                    This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s
+                    in-depth capstone paper and presentation for completion of a History based
+                    Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at
+                        Greensburg</placeName>. Work to create the digital aspects of the project
+                    begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
                 <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
                 <date>2014</date>
-                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
@@ -59,9 +75,16 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the source text.
+                    Representation of tables, graphs, signage, and contracts may be altered so as to
+                    make a clearer depiction for this digital version of the text; however, the
+                    information portrayed in the digital version will be consistent with the
+                    original. When the source text is unreadable due to the age or handling of the
+                    document we are using the elements damage, unclear, and supplied in combination
+                    to provide our best interpretation of the text.</p>
             </editorialDecl>
-            
+
         </encodingDesc>
     </teiHeader>
     <text>
@@ -70,98 +93,87 @@
                 <div type="headlines">
                     <list>
                         <item>NELL NELSON ENGAGES IN A FEATHER FACTORY.</item>
-                        <item>NONE OF THE FAIR WORKERS SEEMS ABLE TO EARN MORE THAN $7 A WEEK AT ANY OF THE CONCERNS.</item>
+                        <item>NONE OF THE FAIR WORKERS SEEMS ABLE TO EARN MORE THAN $7 A WEEK AT ANY
+                            OF THE CONCERNS.</item>
                     </list>
                 </div>
                 <div type="sectionBody">
                     <pb n="80"/>
-                    <p>"When we're late and get locked out we go to the dago
-                        shop. Were you ever in a dago's?"
-                        "No."
-                        "Well, you can always tell them by the 'Ladies Entrance.'
-                        Some of them are real nice, with beautiful carpets and lace
-                        curtains and mirrors on the wall. There's a place over on
-                        Madison street where you can get crackers and pop for a
-                        nickel. Some of the girls go down-town and shop, but when it
-                        rains the police let us wait in the tunnel."
-                        "How long?" I asked.
-                        "Till 9 o'clock. You have to be here at 7:30 o'clock, and
-                        if you're late the door is locked and you can't get in till 9."
-                        The above conversation took place in the D. F. D. Company's place on Canal street, where I applied for work Saturday
-                        morning. The building is a substantial brick and extends
-                        back to the river. The factory is on the third floor and reached
-                        by two long flights of stairs that needed sweeping and repairing. I suppose the surroundings were suitable for the business
-                        carried on, but they were far from comfortable and wholly uncharming. Overhead were the bare rafters, heavy with dust
-                        and festooned with cobwebs. In two of the four brick walls
-                        were six or more windows that admitted a fair quantity of
-                        light. The front half of the room contained the offices of the
-                        concern inclosed in glass partitions, about which were huge
-                        bins filled with feathers. There were plums from nearly all
-                        the bam-yard fowls and they towered almost to the gloomy
-                        <pb n="81"/>
-                        rafters. In the east half of the ware-room were the various
-                        work-tables built of scantling and boarded at the sides to keep
-                        the fluffy feathers from blowing about. In front of each
-                        "feather-board" was a chair or stool about which were three
-                        or more boxes or receptacles into which the wing, tail, body,
-                        and down feathers were placed by the girls as they sorted them.
-                        The machinery that furnished the power filled one corner,
-                        where the binders and sizers were at work.
-                        While there was nothing obnoxious about the material and
-                        no foulness in the atmosphere, the air was heavy with dust and
-                        dirt, and lint-specks from the feathers floated about in little
-                        clouds, making respiration painful to the uninitiated. A fore-
-                        man had charge of the factory, and his disciplin, while firm
-                        was just and reasonably kind. The girls worked by the piece,
-                        and no unpleasant or unmanly methods were resorted to.
-                        The only rule enforced was punctuality. The factory opens
-                        at 7:30 and closes at 5:40, allowing forty-five minutes at noon,
-                        and all hands are obliged to be prompt.
-                        No unusual provision has been made for the comfort of the
-                        girls. Their dressing rooms had nothing but privacy to
-                        recommend it, but as much cannot be said of the toilet closet.
-                        There was the regulation rust-covered sink, with its soggy
-                        wood-work and solitary faucet, and a two-yard crash towel,
-                        which the girls take turn in laundering. Owing to the
-                        extreme buoyancy of the feathers windows have to be kept
-                        closed and the impurities of the air are not often removed.
-                        I assorted feathers with a young girl named Annie. She
-                        was an interesting child, with exquisitely modeled arms and
-                        pretty little dimpled hands that worked into the pile of "skirt"
-                        feathers with almost imperceptable rapidity. She was dressed
-                        in an old blue bunting skirt that was ragged and her cotton
-                        waist was torn at the side and the sleeves worn to the elbow.
-                        Her shoes scarcely protected her feet from the dusty floor, but
-                        she said she wore them "to save the others."
-                        <pb n="82"/>
-                        She taught me to select the "bodies" and "downs," and
-                        after pointing out the difference in the "tails" and "wings"
-                        told me to "pick." I did so till I had feathers in my pockets
-                        and ears, in my hair and nostrils, and all over me. They
-                        stuck in my woolen waist, got between my teeth and into my
-                        my mouth and eyes till I could see nothing but flukes and
-                        stems, and could tell the "sides," "tails," and "breast" by
-                        the taste. It was all I could do to keep from suffocating.
-                        Annie said I would get used to the dirt in a little while and
-                        thought I ought to be able to pick five pounds a day in a few
-                        weeks.
-                        Annie had a good head for figures and some some pretty
-                        sound ideas regarding the condition of the working girls.
-                        "I get 7 cents a pound for sorting the quills and 10 cents for
-                        the down feathers. When I work hard I can pick ten pounds
-                        of the quills and three of the down. That makes $1 a day for
-                        five days. We close Saturday at noon and then I make 60
-                        cents or so. About $5.50 a week. It's hard to make any
-                        more this hot weather. In the winter any good hand can make
-                        $7 a week, but very few earn more. I have been at the business for about three years. When I commenced there were
-                        months that I didn't make more than enough to pay for my
-                        car-fare and lunches. The girls who size or measure the
-                        feathers get 1 1/4 cents a pound, but the machine moves slowly
-                        and they only earn about $4 a week. Girls who split and
-                        bunch feathers earn between $5 and $6, and those who sort the
-                        long tail and side feathers get 1 cent a pound. The best hand
-                        in the shop picks 80 pounds a day. Awful quick worker, but
-                        that's not $5 a week."</p><!-- each paragraph represented in the text will get its own <p> element -->
+                    <p>"When we're late and get locked out we go to the dago shop. Were you ever in
+                        a dago's?"</p>
+                    <p>"No."</p>
+                    <p>"Well, you can always tell them by the 'Ladies Entrance.' Some of them are
+                        real nice, with beautiful carpets and lace curtains and mirrors on the wall.
+                        There's a place over on Madison street where you can get crackers and pop
+                        for a nickel. Some of the girls go down-town and shop, but when it rains the
+                        police let us wait in the tunnel."</p>
+                    <p>"How long?" I asked.</p>
+                    <p>"Till 9 o'clock. You have to be here at 7:30 o'clock, and if you're late the
+                        door is locked and you can't get in till 9."</p>
+                    <p>The above conversation took place in the D. F. D. Company's place on Canal
+                        street, where I applied for work Saturday morning. The building is a
+                        substantial brick and extends back to the river. The factory is on the third
+                        floor and reached by two long flights of stairs that needed sweeping and
+                        repairing. I suppose the surroundings were suitable for the business carried
+                        on, but they were far from comfortable and wholly uncharming. Overhead were
+                        the bare rafters, heavy with dust and festooned with cobwebs. In two of the
+                        four brick walls were six or more windows that admitted a fair quantity of
+                        light. The front half of the room contained the offices of the concern
+                        inclosed in glass partitions, about which were huge bins filled with
+                        feathers. There were plums from nearly all the bam-yard fowls and they
+                        towered almost to the gloomy <pb n="81"/> rafters. In the east half of the
+                        ware-room were the various work-tables built of scantling and boarded at the
+                        sides to keep the fluffy feathers from blowing about. In front of each
+                        "feather-board" was a chair or stool about which were three or more boxes or
+                        receptacles into which the wing, tail, body, and down feathers were placed
+                        by the girls as they sorted them. The machinery that furnished the power
+                        filled one corner, where the binders and sizers were at work.</p>
+                    <p>While there was nothing obnoxious about the material and no foulness in the
+                        atmosphere, the air was heavy with dust and dirt, and lint-specks from the
+                        feathers floated about in little clouds, making respiration painful to the
+                        uninitiated. A fore- man had charge of the factory, and his disciplin, while
+                        firm was just and reasonably kind. The girls worked by the piece, and no
+                        unpleasant or unmanly methods were resorted to. The only rule enforced was
+                        punctuality. The factory opens at 7:30 and closes at 5:40, allowing
+                        forty-five minutes at noon, and all hands are obliged to be prompt.</p>
+                    <p>No unusual provision has been made for the comfort of the girls. Their
+                        dressing rooms had nothing but privacy to recommend it, but as much cannot
+                        be said of the toilet closet. There was the regulation rust-covered sink,
+                        with its soggy wood-work and solitary faucet, and a two-yard crash towel,
+                        which the girls take turn in laundering. Owing to the extreme buoyancy of
+                        the feathers windows have to be kept closed and the impurities of the air
+                        are not often removed.</p>
+                    <p>I assorted feathers with a young girl named Annie. She was an interesting
+                        child, with exquisitely modeled arms and pretty little dimpled hands that
+                        worked into the pile of "skirt" feathers with almost imperceptable rapidity.
+                        She was dressed in an old blue bunting skirt that was ragged and her cotton
+                        waist was torn at the side and the sleeves worn to the elbow. Her shoes
+                        scarcely protected her feet from the dusty floor, but she said she wore them
+                        "to save the others."</p>
+                    <pb n="82"/>
+                    <p>She taught me to select the "bodies" and "downs," and after pointing out the
+                        difference in the "tails" and "wings" told me to "pick." I did so till I had
+                        feathers in my pockets and ears, in my hair and nostrils, and all over me.
+                        They stuck in my woolen waist, got between my teeth and into my my mouth and
+                        eyes till I could see nothing but flukes and stems, and could tell the
+                        "sides," "tails," and "breast" by the taste. It was all I could do to keep
+                        from suffocating. Annie said I would get used to the dirt in a little while
+                        and thought I ought to be able to pick five pounds a day in a few weeks.</p>
+                    <p>Annie had a good head for figures and some some pretty sound ideas regarding
+                        the condition of the working girls.</p>
+                    <p>"I get 7 cents a pound for sorting the quills and 10 cents for the down
+                        feathers. When I work hard I can pick ten pounds of the quills and three of
+                        the down. That makes $1 a day for five days. We close Saturday at noon and
+                        then I make 60 cents or so. About $5.50 a week. It's hard to make any more
+                        this hot weather. In the winter any good hand can make $7 a week, but very
+                        few earn more. I have been at the business for about three years. When I
+                        commenced there were months that I didn't make more than enough to pay for
+                        my car-fare and lunches. The girls who size or measure the feathers get 1
+                        1/4 cents a pound, but the machine moves slowly and they only earn about $4
+                        a week. Girls who split and bunch feathers earn between $5 and $6, and those
+                        who sort the long tail and side feathers get 1 cent a pound. The best hand
+                        in the shop picks 80 pounds a day. Awful quick worker, but that's not $5 a
+                        week."</p>
                 </div>
             </div>
         </body>
