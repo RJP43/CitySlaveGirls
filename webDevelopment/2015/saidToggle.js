@@ -1,20 +1,19 @@
 var originalBackground;
 function toggleHighlight() {
-    var pos = this.getAttribute('who');
-    var pos = this.getAttribute('ana');
+    var pos = this.getAttribute('value');
     var color;
     switch (pos) {
         case 'nellNelson':
-        color = 'orange';
+        color = '#A3C9A8';
         break;
         case 'workingGirl':
-        color = 'pink';
+        color = '#FAF3DD';
         break;
         case 'female':
-        color = 'red';
+        color = '#FFAAEA';
         break;
         case 'male':
-        color = 'blue';
+        color = '#B9CDDA';
         break; 
     }
     var status = this.checked;
@@ -30,7 +29,7 @@ function toggleHighlight() {
 }
 function init() {
     originalBackground = document.body.style.backgroundColor;
-    var checkboxes = document.getElementsByTagName('said');
+    var checkboxes = document.getElementsByTagName('input');
     for (var i = 0; i < checkboxes.length; i++) {
         checkboxes[i].addEventListener('click', toggleHighlight, false);
     }

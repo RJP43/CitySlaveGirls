@@ -1,0 +1,263 @@
+/*begin styles to control links in general on every page of the website unless otherwise specified*/
+a:link {
+   font-weight:bold;
+   color:#42033D;
+   text-decoration:underline;
+}
+
+a:visited {
+    color: #42033D;
+    text-decoration:underline;
+}
+
+a:active {
+    color: #8A716A;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #8E9AAF;
+    text-decoration:none;    
+}
+
+/* end styles to control links in general on every page of the website unless otherwise specified*/
+html{
+    background-color: #EFD9CE;  
+}
+body{
+    margin: 20px auto;
+    padding:5px;
+    display: block;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 1250px;
+    max-width: 1250px;
+}
+/*rjp: start styling for index.html*/
+#content_text {
+    margin:20px;
+    padding: 5px;   
+	border:4px dotted #B9929F;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #6A6262;
+	color:#FFFFFF;
+	font-size: 1.2em;
+}
+.img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+}
+
+#image1 {
+    float:left;
+    width:45%;
+    margin:10px;
+    padding-top: 75px;
+    text-align:center;
+}
+#image2 {
+    float:right;
+    width:45%;
+    margin:10px;
+    padding:5px;
+    text-align:center;
+}
+#image1_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image2_text {
+    display:block;
+    padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+#image1_text a{
+    color: #FFFFFF;
+}
+#image2_text a{
+    color: #FFFFFF;
+}
+
+/*rjp: end styling for index.html*/
+/*rjp: start styling for top and foot*/
+#header{
+    padding:10px;
+	margin: auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #FFFFFF;
+	display:block;
+	position:relative;
+	text-align:center;
+}
+#header h1 {
+	font-family: 'Yellowtail', cursive;
+	margin-top:-10px;
+	font-size:4.0em;
+	text-transform:none;
+	letter-spacing:0em;
+	text-align:center;
+}
+
+#header h2 {
+	margin-top: -40px;
+	font-family: 'Goudy Old Style';
+    font-size:2.0em;
+	text-align:center;
+}
+#nav{
+    margin: -20px;
+    width: 100%;
+    text-align:center;
+    display:block;
+}
+#nav ul {
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#nav ul ul {
+       background: #FFFFFF;
+	   border-radius: 0px;
+	   padding: 0;
+	   position: absolute;
+	   top: 100%;
+	   display: none;
+}
+#nav ul ul li a {
+		padding: 15px 40px;
+}
+#nav ul li:hover > ul {
+		display: block;
+}
+#nav ul ul li {
+		float: none; 
+		position: relative;
+}
+#nav ul:after {
+		content: "";
+		clear: both;
+		display: block;
+}
+#nav ul li a {
+        font-size:1.3em;
+		display: block;
+		padding: 25px 40px;
+}
+#nav ul li {
+	   float: left;
+}
+#nav li {
+	margin:0px 20px;
+	padding:10px;
+	list-style-type:none;
+	display:inline;
+}
+#nav a:hover {
+	background-color: #B9929F;
+	text-decoration: underline;
+}
+
+#footer{
+    padding:5px;
+    margin:10px;
+    display: block;
+	clear: both;
+	background: #FFFFFF;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	text-align:center;
+}
+/*rjp: end styling for top and foot*/
+
+
+/*rjp: styling for article pages*/
+#articleLinks {
+    width:75%;
+    margin: auto;
+    padding:5px;
+    text-align:center;    
+    border:3px dotted #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+}
+#articleLinks p{
+font-size:16px;
+line-height: 1;
+}
+#articleHead {
+    margin:10px;
+    padding: 5px;
+    font-family: 'Goudy Old Style';
+	text-align:center;
+}
+.headlinesText ul {
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+.headlinesText li {
+    text-align:center;
+    display:list-item;
+    padding: 5px;
+}
+
+.articleText {
+     margin:20px;
+    padding:5px;
+}
+/*rjp: toggle box for articles*/
+#checkboxes {
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+    display: block;
+    background:  #D1BEB0;
+    border: 2px solid #E0D8DE;
+}
+#checkboxes h3, h4{
+    margin:0px;
+    padding:1px;
+}
+#checkboxes ul, li {
+    list-style-type:none;
+    display:inline;
+    padding:75px;
+}
+/*rjp: end styling for article pages*/
