@@ -97,6 +97,20 @@
                     <p>These girls are called "tough." Perhaps they are. Perhaps their language is not chaste nor their manners pleasing, but <persName>Mr. Armour</persName> and <persName>Mr. Fairbank</persName> know as well as need be known that their hearts are pure and their lives blameless. Considering their origin, their nature, their surroundings, and their associates they are too good to be put on the level they are.</p>
                     <p><persName>NELL NELSON.</persName></p>
                 </div>
+                <div type="headlines">
+                    <list>
+                        <item>SCHLESINGER'S SLOP-SHOP</item>
+                    </list>
+                </div>
+                <div type="subHeadline"><!-- 2016-03-30: nll: This section is bolded and isn't really part of the article body, so I made a new div element and named it subHeadline. It's just a placeholder, so someone can change it!!-->
+                    <list>
+                        <item>Working Nearly a Day On a Cloak to Earn Ten Cents&#8212;Girls Who Toll For Three Dollars a Week and Board Themselves.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p>Another day in a slop&#8212;a shop where I get a blinding headache and a dime.</p>
+                    <p>The place of servitude is at <placeName>1187 Milwaukee avenue</placeName> and the proprietors are <persName>Mr. and Mrs. Schlessinger and son</persName><!-- 2016-03-30: nll: How would I tag a group of people??-->.</p>
+                </div>
             </div>
         </body>
     </text>
