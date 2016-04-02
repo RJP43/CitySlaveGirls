@@ -50,7 +50,7 @@
             <sourceDesc>
                 <biblFull>
                     <titleStmt>
-                        <title level="s">"City Slave Girls"</title>
+                        <title level="s">City Slave Girls</title>
                         <author>Nelson, Nell</author>
                         <editor>Chapin, Charles</editor>
                     </titleStmt>
@@ -94,7 +94,7 @@
                     1888</date></title></head>
                 <div type="headlines">
                     <list>
-                        <item>"The Times" Lady Reporter, in the Guise of a Factory Bondwoman, Is
+                        <item><q type="double">The Times</q> Lady Reporter, in the Guise of a Factory Bondwoman, Is
                             Insulted by a Scoundrel.</item>
                         <item>Accosted by a Well-Dressed Brute Who Tries to Thrust His Blighting
                             Friendship on Her.</item>
@@ -128,9 +128,9 @@
                             <w type="noun">courtesy</w></seg> and told him if he would give me
                                 <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             <w type="noun">card</w></seg> I would send him the money he had so kindly paid.</p>
-                    <p>He smiled and said: "<said who="#benefactor" ana="male">A mere
+                    <p>He smiled and said: <said who="#benefactor" ana="male">A mere
                                 bagatelle
-                            miss, and not worth mentioning.</said>"</p>
+                            miss, and not worth mentioning.</said></p>
                     <p>At <placeName type="address">Eighteenth street</placeName> I left the car to go to a <seg><w type="adj" subtype="poss" ana="#employer">vestmaker's</w>
                             <w type="noun">place</w></seg> at <placeName type="address">2155 Archer
                             avenue</placeName>. I was crossing <placeName type="address">the three
@@ -140,71 +140,71 @@
                         raising <seg><w type="adj" subtype="poss">his</w>
                             <w type="noun">hat</w></seg> he jauntily cocked <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             left
-                            <w type="noun">eye</w></seg> and came so close to me that the sleeve of <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w> "never-rip" <w type="noun">jersey</w></seg> was pressed against
+                            <w type="noun">eye</w></seg> and came so close to me that the sleeve of <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w> <q type="double">never-rip</q> <w type="noun">jersey</w></seg> was pressed against
                         the waist-line of <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             light-gray
                             <w type="noun">suit</w></seg>.</p>
-                    <p>"<said who="#benefactor" ana="male">Aha, here we are
-                            again!</said>"</p>
+                    <p><said who="#benefactor" ana="male">Aha, here we are
+                            again!</said></p>
                     <p>Although I distinctly heard every
                             word of <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
-                            <w type="noun">remark</w></seg> I said: "<said who="#nellNelson" ana="female">I beg <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
-                                <w type="noun">pardon</w></seg></said>," with as much of the
+                            <w type="noun">remark</w></seg> I said: <said who="#nellNelson" ana="female">I beg <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
+                                <w type="noun">pardon</w></seg></said>, with as much of the
                                 <placeName type="locRef">Newport</placeName>
                             chill as I could affect.</p>
-                    <p>"<said who="#benefactor" ana="male">Come, come, now,</said>" he said with
+                    <p><said who="#benefactor" ana="male">Come, come, now,</said> he said with
                                 increased
                             gayety, moving <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             <w type="noun">waistband</w></seg> still closer to <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
                             <w type="noun">jersey</w></seg>.</p>
                     <!-- ras:proofread of w and seg elements stopped here -->
-                    <p>"<said who="#nellNelson" ana="female">Oh, you are the gentleman to whom I am indebted for car-fare. You want <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
+                    <p><said who="#nellNelson" ana="female">Oh, you are the gentleman to whom I am indebted for car-fare. You want <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
                                 <w type="noun">money</w></seg> I suppose; if you will give me
                                     <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
-                                <w type="noun">card</w></seg> I will write you an order.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Do you work in this neighborhood?</said>"</p>
-                    <p>"<said who="#nellNelson" ana="female">No sir.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Where, then?</said>"</p>
-                    <p>"<said who="#nellNelson" ana="female">No
-                            place.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Where are you going?</said>"</p>
-                    <p>"<said who="#nellNelson" ana="female">For work.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">What kind?</said>"</p>
-                    <p>"<said who="#nellNelson" ana="female">Any
+                                <w type="noun">card</w></seg> I will write you an order.</said></p>
+                    <p><said who="#benefactor" ana="male">Do you work in this neighborhood?</said></p>
+                    <p><said who="#nellNelson" ana="female">No sir.</said></p>
+                    <p><said who="#benefactor" ana="male">Where, then?</said></p>
+                    <p><said who="#nellNelson" ana="female">No
+                            place.</said></p>
+                    <p><said who="#benefactor" ana="male">Where are you going?</said></p>
+                    <p><said who="#nellNelson" ana="female">For work.</said></p>
+                    <p><said who="#benefactor" ana="male">What kind?</said></p>
+                    <p><said who="#nellNelson" ana="female">Any
                                 kind. May I have <seg><w type="adj" subtype="poss" ana="#benefactor">your</w>
                                 <w type="noun">card</w></seg>? I am in something
-                            of a hurry.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Mayn't I have yours?</said>" he
+                            of a hurry.</said></p>
+                    <p><said who="#benefactor" ana="male">Mayn't I have yours?</said> he
                         asked.</p>
-                    <p>"<said who="#nellNelson" ana="female">Certainly; I haven't <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
-                                <w type="noun">case</w></seg>, but if you will lend me a pencil I will write you one.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">With pleasure, <seg><w type="adj" subtype="poss" ana="#benefactor">my</w>
-                                <w type="noun">dear</w></seg>.</said>"</p>
-                    <p>"<said who="#nellNelson" ana="female">You are mistaken, sir. That is not
+                    <p><said who="#nellNelson" ana="female">Certainly; I haven't <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
+                                <w type="noun">case</w></seg>, but if you will lend me a pencil I will write you one.</said></p>
+                    <p><said who="#benefactor" ana="male">With pleasure, <seg><w type="adj" subtype="poss" ana="#benefactor">my</w>
+                                <w type="noun">dear</w></seg>.</said></p>
+                    <p><said who="#nellNelson" ana="female">You are mistaken, sir. That is not
                                     <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
-                                <w type="noun">name</w></seg>.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Ha, ha, ha! I see you are a little
+                                <w type="noun">name</w></seg>.</said></p>
+                    <p><said who="#benefactor" ana="male">Ha, ha, ha! I see you are a little
                             mischievous, but for all that you are <seg><w type="adj" subtype="poss" ana="#benefactor">my</w>
-                                <w type="noun">dear</w></seg></said>," producing three
+                                <w type="noun">dear</w></seg></said>, producing three
                             inches of Faber.</p>
-                    <p>"<said who="#nellNelson" ana="female">A card
-                            please?</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Bless me, I had forgotten</said>," and
+                    <p><said who="#nellNelson" ana="female">A card
+                            please?</said></p>
+                    <p><said who="#benefactor" ana="male">Bless me, I had forgotten</said>, and
                         the natty-sack-coat was ransacked for a suitable
                             card.</p>
-                    <p>"<said who="#benefactor" ana="male">Ah, here-this will do, I hope, in lieu of
+                    <p><said who="#benefactor" ana="male">Ah, here-this will do, I hope, in lieu of
                                     something
                                 more
-                        conventional</said>," carefully placing on <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
+                        conventional</said>, carefully placing on <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
                             <w type="noun">sewing-box</w></seg> a small
                             card with the address down.
                         I reversed the pasteboard and read on the back:</p>
                     <p><persName>DR. Charles Gilman Smith.</persName></p>
-                    <p>Office Hours _________</p>
+                    <p>Office Hours___________</p>
                     <p>Residence___________</p>
-                    <p>"<said who="#nellNelson" ana="female"><persName>Dr. Smith</persName>! I know
-                            him quite well.</said>"</p>
-                    <p>"<said who="#benefactor" ana="male">Oh, you do, eh?</said>" in a tone that
+                    <p><said who="#nellNelson" ana="female"><persName>Dr. Smith</persName>! I know
+                            him quite well.</said></p>
+                    <p><said who="#benefactor" ana="male">Oh, you do, eh?</said> in a tone that
                         left no doubt that his stock in me had dropped. I wrote:</p>
                     <p>Reporter.</p>
                     <p>The Times.</p>
@@ -217,8 +217,8 @@
                         <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             <w type="noun">right</w></seg> pulled out a splendid
                             gold
-                            watch, and with a most abrupt "<said who="#benefactor" ana="male">Didn't think it was
-                            so late, have an engagement at 9:45</said>," was off
+                            watch, and with a most abrupt <said who="#benefactor" ana="male">Didn't think it was
+                            so late, have an engagement at 9:45</said>, was off
                         with more alacrity than is conducive to grace. I looked after him, admiring
                         the cut of <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             <w type="noun">coat</w></seg>, the swing of <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
@@ -226,9 +226,9 @@
                                 <seg><w type="adj" subtype="poss" ana="#benefactor">his</w>
                             <w type="noun">shoes</w></seg>, and the magnificent
                             carriage of head and shoulders, and thought:</p>
-                    <p>"<said who="#nellNelson" ana="female">May the lord deliver
+                    <p><said who="#nellNelson" ana="female">May the lord deliver
                             us working
-                                girls.</said>" I also thought that I should
+                                girls.</said> I also thought that I should
                         like to meet <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
                             car
                             <w type="noun">friend</w></seg> when I had my suffocating
@@ -263,11 +263,11 @@
                             cigarmakers of <seg><w type="adj" subtype="poss" ana="#employer">his</w>
                             <w type="noun">nationality</w></seg>. I went to see <orgName type="exposedCompany" ref="#cigarFactory"><persName>F.
                             Garcia</persName></orgName> at <placeName type="address" ref="#cigarFactory">20th Clark street</placeName>. He asked me if I
-                        could "strip" and I told him I could. When he wanted to know where I had
+                        could <q type="double">strip</q> and I told him I could. When he wanted to know where I had
                         worked I owned up that I didn't know anything at all
-                        about the business but was anxious to learn and get work. He didn't know "<said who="#employer" ana="male">how a sewing
+                        about the business but was anxious to learn and get work. He didn't know <said who="#employer" ana="male">how a sewing
                                 girl would do at the ‘fillers' but you might go and talk with some
-                            of the help, for you may not be satisfied to try even.</said>"</p>
+                            of the help, for you may not be satisfied to try even.</said></p>
                     <p>He showed me the way across the hall to
                         an empty
                             room. The floor was littered
@@ -282,8 +282,8 @@
                             <w type="noun">pursuer</w></seg> had both screeching. The fun came to a stop the moment
                         I went in and the young
                             people gladly told me all I cared to know about
-                        the business. All they did was to "strip" – just pull the
-                            stem or mid-rib from the leaf and put it in a "book-filler." I
+                        the business. All they did was to <q type="double">strip</q> – just pull the
+                            stem or mid-rib from the leaf and put it in a <q type="double">book-filler</q>. I
                         could get $4 a week and steady
                             work and the next
                             year
@@ -295,10 +295,10 @@
                             years and earned $5.30 a week. She
                         told me she was the oldest
                             hand in the shop: that she
-                        could "strip" as fast as a man, and put the ribbon
+                        could <q type="double">strip</q> as fast as a man, and put the ribbon
                             bands about the cigars
                         before they were boxed.</p>
-                    <p>At 12:15 o'clock I went into the shop and was given a chair in front of a barrel filled with inches of tobacco called "hands" and lined with gunny-cloth.
+                    <p>At 12:15 o'clock I went into the shop and was given a chair in front of a barrel filled with inches of tobacco called <q type="double">hands</q> and lined with gunny-cloth.
                         There was a little
                             tin
                             pail of brown
@@ -309,8 +309,8 @@
                             board
                             three feet long and sixteen inches wide. When the tobacco
                             leaves were stripped and laid on the board it
-                        was thubbed a "book-filler" and carried off to the next room. In the shop
-                        with this were some eighteen men or more rolling the "fillers," putting on
+                        was thubbed a <q type="double">book-filler</q> and carried off to the next room. In the shop
+                        with this were some eighteen men or more rolling the <q type="double">fillers</q>, putting on
                         the wrappers, shaping the cigars with a broad
                             knife and seeming the ends.
                         Along the tables
@@ -335,12 +335,12 @@
                             girl who wore mourning. She
                         had brought back a dozen chemises for which the house paid $2, but the work was soiled in the making-machine oil having
                         wet the cotton – and the forewoman refused to take it.</p>
-                    <p>"<said who="#workingGirl" ana="female">What shall I do?</said>" She asked the woman, with a voice as sad as
+                    <p><said who="#workingGirl" ana="female">What shall I do?</said> She asked the woman, with a voice as sad as
                                 <seg><w type="adj" subtype="poss" ana="#workingGirl">her</w>
                             <w type="noun">face</w></seg>.</p>
-                    <p>"<said who="#foreperson" ana="female">What does anybody do
+                    <p><said who="#foreperson" ana="female">What does anybody do
                             with dirty things? You will have to pay for laundering the garments of the greasy sewing and clean the
-                                thread.</said>"</p>
+                                thread.</said></p>
                     <p>Then the girl was left alone by the manager, who went up to the other end of the counter to get trimmings for six dozen chemises that
                         a tall young Swede girl was waiting for.The forewoman wore a blue dress of plaid design with a Marseilles vest buttoned in it, and of seven rings on her left hand six were set with what
                         appeared to be diamonds. She had jewels at <seg><w type="adj" subtype="poss" ana="#foreperson">her</w>
@@ -351,7 +351,7 @@
                             <w type="noun">load</w></seg> to the pavement below.
                         The seamstress told me she lived at home and with the help of <seg><w type="adj" subtype="poss" ana="#workingGirl">her</w>
                             <w type="noun">mother</w></seg> made $12 a week.</p>
-                    <p>"<said who="#workingGirl" ana="female">It is very hard work though,<rs type="interruption">" she said "</rs>We sew day and night. I had rather do it
+                    <p><said who="#workingGirl" ana="female">It is very hard work though</said>, she said <said>We sew day and night. I had rather do it
                             than work down in a shop for I have more self-respect. All the girls are not good, and very few are in a position to go with respectable people. They go with bad company and <seg><w type="adj" subtype="poss" ana="#workingGirl">their</w>
                                 <w type="noun">language</w></seg> is bad. Sometimes in the winter they dance till daylight
                             and go from the hall to the shop.
@@ -369,15 +369,15 @@
                             there are the spiteful things the girls say about you and the cutting remarks of the forewoman that make you feel like fainting. The cashier may have a grudge and
                             if he doesn't hold <seg><w type="adj" subtype="poss" ana="#workingGirl">your</w>
                                 <w type="noun">wages</w></seg> back till all the other hands are paid hell will throw it
-                            at you, make you take ragged bills, or give – ‘you a
-                            week's pay in change.' A cashier in a <placeName type="address">Jackson street</placeName> cravat factory once rubbed <seg><w type="adj" subtype="poss" ana="#employee">his</w>
-                                <w type="noun">hand</w></seg> across <seg><w type="adj" subtype="poss" ana="#employee">my</w>
-                                <w type="noun">chin</w></seg> "to feel <seg><w type="adj" subtype="poss" ana="#employee">my</w>
-                                <w type="noun">whiskers</w></seg>," he said, and because I got angry
+                            at you, make you take ragged bills, or give – you a
+                            week's pay in change. A cashier in a <placeName type="address">Jackson street</placeName> cravat factory once rubbed <seg><w type="adj" subtype="poss" ana="#employee">his</w>
+                                <w type="noun">hand</w></seg> across <seg><w type="adj" subtype="poss" ana="#workingGirl">my</w>
+                                    <w type="noun">chin</w></seg> to feel <seg><w type="adj" subtype="poss" ana="#workingGirl">my</w>
+                                <w type="noun">whiskers</w></seg>, he said, and because I got angry
                             and said I would report him he saved up all the silver that had holes and plugs and made me take it. My salary was $3.25 that week, and some of the silver couldn't pass. I took it to a bank
                             and the cashier was kind enough to
                             give me good money for it. Plenty of times the forewoman has
-                            had me discharged for being "stuck up.</said>"</p>
+                            had me discharged for being <q type="double">stuck up</q>.</said></p>
                     <p>Prices here range from 20 cents to $2 a dozen. It depends on the material. Children's drawers pay 20
                             cents a dozen, but there are no
                         button holes to work. Some shirts are
@@ -390,13 +390,13 @@
                             cents for the use of the machine
                         and 25 cents for a spindle of thread. I told the forewoman I had left <seg><w type="adj" subtype="poss" ana="#nellNelson">my</w>
                             <w type="noun">purse</w></seg> at home, but she said
-                        it was "<said who="#foreperson" ana="female">alright you can have it taken
-                            out of your wages.</said>" I asked her what the machine cost, but she doesn't know, and when I ventured
+                        it was <said who="#foreperson" ana="female">alright you can have it taken
+                            out of your wages.</said> I asked her what the machine cost, but she doesn't know, and when I ventured
                         that the expiration of the patient had
                         reduced the old place
                         $15 to about $12 she told me she
-                            "<said who="#foreperson" ana="female">reckoned I didn't know what I was
-                            talking about.</said>" The room where we worked was
+                            <said who="#foreperson" ana="female">reckoned I didn't know what I was
+                            talking about.</said> The room where we worked was
                         about eighteen feet wide and ten feet
                         deep with toilet closets built out from the walls. The machines encircled the
                         three walls and in the middle of the
