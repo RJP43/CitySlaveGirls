@@ -50,7 +50,7 @@
             <div>
                 <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title></head>
                     <div type="headlines">
-                        <list><item>Further Details of the Factory Investigation Conducted by <q type="double">The Times'</q> Lady Reporter.</item>
+                        <list><item>Further Details of the Factory Investigation Conducted by <hi rend="double">The Times'</hi> Lady Reporter.</item>
 <item>A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of Lash.</item>
 <item>A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for Sixteen Cents.</item>
 <item>The Unfortunate Insulted and Abused by Their Employer and Humiliated by the Forewoman.</item>
@@ -87,7 +87,7 @@
     <p><said who="#foreperson" ana="female">Look.</said></p>
     <p><said who="#nellNelson" ana="female">Where?</said></p>
     <p><said who="#foreperson" ana="female">You'll come down a peg or two before long,</said> and with a groan she bent over the bundle at her feet, flushed apoplectically, and said <said who="#foreperson" ana="female">360.</said> Referring again to her price-list: <said who="#foreperson" ana="female">Them's 65 cents,</said> and left me.</p>
-                   <p>I raised that 65-cent  cluster and with my arms folded about the fuzzy, ill-smelling thing, moved <said who="#foreperson" ana="female">down there</said>, as directed, and halted at the edge of a huge rag-box. Here I stood for twenty minutes, when the forewoman came aft and bade me <said who="#foreperson" ana="female">this way.</said> I pursued. There was a halt about the middle of the shop and I seized it for a <q type="double">scoop</q>.</p>
+                   <p>I raised that 65-cent  cluster and with my arms folded about the fuzzy, ill-smelling thing, moved <said who="#foreperson" ana="female">down there</said>, as directed, and halted at the edge of a huge rag-box. Here I stood for twenty minutes, when the forewoman came aft and bade me <said who="#foreperson" ana="female">this way.</said> I pursued. There was a halt about the middle of the shop and I seized it for a <hi rend="double">scoop</hi>.</p>
     <p><said who="#nellNelson" ana="female">How many girls have you here?</said></p>
     <p><said who="#foreperson" ana="female">Never counted them.</said></p>
     <p><said who="#nellNelson" ana="female">What can experienced cloak hands earn a day?</said></p>
@@ -108,7 +108,7 @@
     <p><said who="#foreperson" ana="female">Furnish your own needles.</said></p>
     <p><said who="#nellNelson" ana="female">May I have basting cotton?</said></p>
     <p><said who="#foreperson" ana="female">There ain't any. You have to wait till it gets here.</said></p>
-                   <p>I gave a girl a penny for a needle and stole some thread from an absentee's stock. Then I waited fifteen minutes while the binder got through and basted up the seams for the stitcher. That much done I got to work on the plush. The forewoman passed by and told me I was not <q type="double">showing</q> enough fur. <said who="#foreperson" ana="female">Go over to the sample and look at the work.</said></p>
+                   <p>I gave a girl a penny for a needle and stole some thread from an absentee's stock. Then I waited fifteen minutes while the binder got through and basted up the seams for the stitcher. That much done I got to work on the plush. The forewoman passed by and told me I was not <hi rend="double">showing</hi> enough fur. <said who="#foreperson" ana="female">Go over to the sample and look at the work.</said></p>
     <p>She sneered when I asked where the samples were, but a neighnor volunteered the information. There was no sample on the rack and I stepped over to inform the forewoman, who curtly told me it was none of her affair.</p>
                    <p><said who="#nellNelson" ana="female">Will you please tell me how wide to make this trimming?</said></p>
     <p><said who="#foreperson" ana="female">Go to <persName>Annie</persName>.</said></p>
