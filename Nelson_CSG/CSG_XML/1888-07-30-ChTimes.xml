@@ -87,7 +87,7 @@
                     <p><said who="#messenger" ana="male">Yes.</said></p>
                     <p><said who="#employee" ana="male"><seg>Well, you must tell her to wash <phr><w type="adj" subtype="poss" ana="#workingGirl">her</w> <w type="noun">hands</w></phr>. These goods are all sweat.</seg> I'll have to charge her for spoiling the material if it occurs again. Did she tell you to ask for more work?</said></p>
                     <p><said who="#messenger" ana="male">No, sir.</said></p>
-                    <p>The poor boy is gone. <persName ref="#workingGirl">Martha</persName> sits in the back room the picture of <damage agent="smudge" unit="word" quantity="1"/><unclear><supplied resp="#rjp">suspense</supplied></unclear> and the entry being made I am approached. I look like a beggar and that is what I am taken for, as the pretty blonde secretary only scowls. He stands and looks down at me and I sit and look up at him waiting for the lines in the handsome brow to deepen, the edge of the soft, brown mustache to curl, and <pb n="2"/>the laconic, withering <said who="#employee" ana="male">well</said> to break the gaze. It comes.</p>
+                    <p>The poor boy is gone. <persName ref="#workingGirl">Martha</persName> sits in the back room the picture of <damage agent="smudge" unit="word" quantity="1"/><unclear><supplied resp="#rjp">suspense</supplied></unclear> and the entry being made I am approached. I look like a beggar and that is what I am taken for, as the pretty blonde secretary only scowls. He stands and looks down at me and I sit and look up at him waiting for the lines in the handsome brow to deepen, the edge of the soft, brown mustache to curl, and the laconic, withering <said who="#employee" ana="male">well</said> to break the gaze. It comes.</p>
                     <p><said who="#nellNelson" ana="female">Have you any work?</said> I ask.</p>
                     <p><said who="#employee" ana="male">Plenty. Do you want work?</said></p>
                     <p><said who="#nellNelson" ana="female">Yes.</said></p>
@@ -117,7 +117,7 @@
                     <p><said who="#employee" ana="male">It goes to us for instruction and samples.</said></p>
                     <p><said who="#nellNelson" ana="female">Will I have to make the samples?</said></p>
                     <p><said who="#employee" ana="male">Yes.</said></p>
-                    <p><said who="#nellNelson" ana="female">T<seg>hen there are thirteen in the <phr><w type="adj" subtype="poss" ana="#WLMC"><!--<orgName ref="#WLMC" type="exposedCompany">-->Western Lace Manufacturing company<!--</orgName>-->'s</w> <w type="noun">dozen</w></phr>?</seg></said></p>
+                    <p><said who="#nellNelson" ana="female">T<seg>hen there are thirteen in the <phr><orgName ref="#WLMC" type="exposedCompany">-->Western Lace Manufacturing company</orgName><w type="adj" subtype="poss" ana="#WLMC">'s</w> <w type="noun">dozen</w></phr>?</seg></said></p>
                     <p><said who="#employee" ana="male">If you can to put it that way, yes. But you get one of each set.</said></p>
                     <p><said who="#nellNelson" ana="female">But I don't want any. I have a supply. Tell me how much will you sell me a thirteenth of a dozen of this set for?</said></p>
                     <p><said who="#employee" ana="male">The price is on the tag.</said></p>
@@ -140,9 +140,13 @@
                     <p><seg>Poor <persName ref="#foreperson">Mr. Ford</persName> was so furious by this time that I thanked him for <phr><w type="adj" subtype="poss" ana="#foreperson">his</w> <w type="noun">attention</w></phr> and bade him good afternoon.</seg> <seg>At the foot of the stairs I waited to tie <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> <w type="noun">veil</w></phr> on and see how <persName ref="#workingGirl">Martha</persName> fared, but at the expiration of thirty minutes she was still waiting for <persName ref="#employer">Mr. White</persName> and <phr><w type="adj" subtype="poss" ana="#workingGirl">her</w> <w type="noun">$16</w></phr>.</seg></p>
                     <p>Of the five women<!-- do I ana this? --> I interrogated none were able to earn 20 cents a day. All expressed a liking for the work but complained bitterly of the way the <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">concern</supplied></unclear> gave out the work. For instance bedspreads paid $10 a dozen, but not more than three spreads were given to a hand and one of these was the sample. The little tablemats paid 50 cents per dozen, but before a girl was able to crochet enough to live on she was obliged to take collars made of line thread in such an intricate pattern that it was an utter impossibility to earn $1 a month.</p>
                     <p>No woman seen had earned $15 in less than six months, and one of the most skilled hands had been on a 60-cent lot since June 3. By inquiry I learned that many women paid $3 and gave up the work when they saw it was not possible to make the $15 necessary for the rebate.  This fact does not appear in the circulars, and it is <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">only</supplied></unclear> after the contract has been signed that the <damage agent="blurred" unit="word" quantity="1"/><unclear><supplied resp="#rjp">equivocal</supplied></unclear> tacties of the concern are understood. Several cases are on record at the <orgName ref="#WPA">Woman's Protective agency</orgName>, but no judgment has been obtained, as the agreement stands valid before the law. All that can be done in the matter is to warn the public against a concern legally incorporated to grind the life out of the women and girls unfortunate enough to patronize it.</p></div>
-                <div type="headlines">
+                <div type="headline">
                     <list>
                         <item>CLOAKS, OVERALLS, AND SHIRTS</item>
+                    </list>
+                </div>
+                <div type="headlines">
+                    <list>
                         <item>Put Through an Impudent Cross-Examination to Get to Sew Cloaks at 50 cents Each</item>
                         <item>Making Pants and Shirts at 75 Cents a Dozen and Find your Own Thread.</item>
                     </list>

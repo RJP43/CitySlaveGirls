@@ -10,7 +10,7 @@
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="#KMW">Kari Womack</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="#KMW">Kari Womack</persName>
                 </respStmt>
                 <respStmt>
                     <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>

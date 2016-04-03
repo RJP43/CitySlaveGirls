@@ -107,9 +107,13 @@
                <p><seg>It was the work of an hour, but no bull-dozing or pleading was used. The case was squarely discussed on <phr><w type="adj" subtype="poss">its</w> <w type="noun">merits</w></phr><!-- rjp: uh again what gets the ana -->, and if <persName ref="#workingGirl"><app><rdg wit="#CT021">Mary Kane</rdg><rdg wit="#WSGC23">Mary K.</rdg></app></persName>, whom all the neighbors, including <app><rdg wit="#CT021">Oleson</rdg><rdg wit="#WSGC23">O.</rdg></app> himself, say is a steady, industrious, and thoroughly deserving girl, walks into the shop today she can have <phr><w type="adj" subtype="poss" ana="#workingGirl">her</w> old <w type="noun">seat</w></phr><!-- rjp: ambiguity?? --> and at the same time the consciousness that she has not compromised herself or been compromised in the least.</seg> Both <persName ref="#employer"><app><rdg wit="#CT021">Oleson</rdg><rdg wit="#WSGC23">O.</rdg></app></persName> and <persName ref="#foreperson"><app><rdg wit="#CT021">Matson</rdg><rdg wit="#WSGC23">M.</rdg></app></persName> will be glad to welcome her back, which is much to <!-- should we ana the actual company or the employer ... hmmmm  --><phr><w type="adj" subtype="poss" ana="#KBO">their</w> <w type="noun">credit</w></phr>.</p>
                <!-- THIS IS THE END OF THE BARKLEY TEXT TRANSCRIPTION OF THIS ARTICLE! -->
             </div>
-            <div type="headlines">
+            <div type="headline">
                <list>
                   <item><app><rdg wit="#CT021">FACTS NOT FANCIES</rdg><rdg wit="#WSGC23"></rdg></app></item>
+               </list>
+            </div>
+            <div type="headlines">
+               <list>
                   <item><app><rdg wit="#CT021"><hi rend="double">The Times </hi>City Slave Girl Exposures Are Not Sensational</rdg><rdg wit="#WSGC23"></rdg></app></item>
                </list>
             </div>

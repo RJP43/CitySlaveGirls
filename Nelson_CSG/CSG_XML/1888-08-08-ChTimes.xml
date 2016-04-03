@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- UNFINISHED TRANSCRIPTION: this whole article is messed up and needs top to bottom review of what is here and finished transcription -->
-            <!--2015-12-19 ebb: I altered the xml:id attribute in the title element
-            below for consistency with the other files in this collection, so we could use its value
-            in calculating a variable for your XSLT to SVG.-->
-            <title level="a" corresp="#CT010"><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each article --><!-- RJP: each article will have its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). For example: the first article in the series published in the Chicago Times will be xml:id="CT001" --><date when="1888-08-08">Wednesday Morning, August 8, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
-            <title level="m">City Slave Girls</title>
+            <title corresp="#CT001"><date when="1888-07-30">Monday Morning, July 30, 1888</date></title>
             <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
             <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>
             <principal>Rebecca Parker</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="#CAK">Cody Karch</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+               <persName ref="#rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
                <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
-               <persName>Elisa Beshero-Bondar</persName>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
                <persName>Gregory Bondar</persName>
             </respStmt>
             <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:
                <respStmt>
                <resp>Date last checked: <date when="2016-01-01">2016-01-01</date>. Proofing and corrections by</resp>
-               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
             </respStmt>
             -->
          </titleStmt>
          <editionStmt>
-            <edition> First digital edition in TEI P5, date: <date when="2015-11-06">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            <edition> First digital edition in TEI P5, date: <date when="2015-11-04">2015-11-04</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Rebecca J. Parker</authority>
@@ -38,37 +33,16 @@
             <date>2014</date>
             <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
          </publicationStmt>
-         <sourceDesc>
-            <biblFull>
-                     <titleStmt>
-                        <title level="s">City Slave Girls</title>
-                        <author>Nelson, Nell</author><!-- RJP: note to self: make sure add Helen Cusack as an alternative name for Nell Nelson in the site index -->
-                        <editor>Chapin, Charles</editor><!-- RJP: note to self: check this information and spelling of last name!!-->
-                     </titleStmt>
-                     <editionStmt>
-                        <edition>Newspaper Print</edition>
-                     </editionStmt><!-- RJP: not entirely sure this is the correct way to represent this -->
-                     <extent>21-part series: Front-page placement</extent><!-- RJP: not entirely sure this is the correct way to represent this either -->
-                     <publicationStmt>
-                        <publisher>Chicago Times</publisher>
-                        <pubPlace>Chicago</pubPlace>
-                        <date>1888</date>
-                        <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
-                        <availability>
-                           <p><ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
-                           </p>
-                        </availability>
-                     </publicationStmt>
-            </biblFull>
-         </sourceDesc>
+         <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More information can be found in the corresponding Site Index.</p></sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <editorialDecl>
-           <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
-        </editorialDecl>
-        
-     </encodingDesc>
-  </teiHeader>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   <!-- RJP: THIS ARTICLE NEEDS TO BE FINISHED TRANSCRIBED AND REVIEWED FOR BAD TRANSCRIPTION!!! -->
   <text>
       <body>
          <div>
