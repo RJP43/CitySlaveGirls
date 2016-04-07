@@ -55,7 +55,7 @@
     
     <pattern>
         <rule context="tei:w">
-            <report test="@type='poss' and @subtype='refTo'">'@subtype' can only appear on '@type='noun.'</report>
+            <report test="@type='poss' and @subtype">'@subtype' can only appear on '@type='noun.'</report>
         </rule>
     </pattern>
     
