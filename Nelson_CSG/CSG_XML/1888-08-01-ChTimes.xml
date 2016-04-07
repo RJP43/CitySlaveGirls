@@ -49,7 +49,7 @@
     <text>
         <body>
             <div>
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-01">Wednesday Morning, August 1, 1888</date></title></head>
+                <head><title><name ref="#CT">Chicago Times</name> <date when="1888-08-01">Wednesday Morning, August 1, 1888</date></title></head>
                 <div type="headlines">
                     <list>
                         <item>Startling Experiences of <hi rend="double"><name ref="#CT">The Times</name>'</hi> Lady Reporter in the Factory of Julius Stein &amp; Co.</item>
@@ -83,7 +83,7 @@
                 </div>
                 <div type="articleBody">
                     <p><said who="#unidentified" ana="unknown">Boy, don't you take her down! Don't go down!! do you hear? I'll discharge you if you let her escape.</said></p>
-                    <p><seg>There I was in <phr><orgName ref="#Stein" type="exposedCompany">Stein</orgName><w type="adj" subtype="poss" ana="#Stein">'s</w> freight <w type="noun">elevator</w></phr> with <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> day's <w type="noun">work</w></phr> in <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> <w type="noun">arms</w></phr> and the wire screen separating me from the furies of <persName ref="#employer">Mrs. Julius Stein</persName>, <phr><w type="adj" subtype="poss" ana="#employer">her</w> <w type="noun" subtype="refTo" ana="#foreperson">forewoman</w></phr>, the second assistant, and the bookkeeper.</seg></p>
+                    <p><seg>There I was in <phr><orgName ref="#Stein" type="exposedCompany">Stein</orgName><w type="adj" subtype="poss" ana="#Stein">'s</w> freight <w type="noun">elevator</w></phr> with <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> day's <w type="noun">work</w></phr> in <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> <w type="noun">arms</w></phr> and the wire screen separating me from the furies of <persName ref="#employer">Mrs. Julius Stein</persName>, <phr><w type="adj" subtype="poss" ana="#employer">her</w> <w type="noun" ana="#foreperson">forewoman</w>, the second <w type="noun" ana="#employee">assistant</w>, and the <w type="noun" ana="#employee">bookkeeper</w></phr>.</seg></p>
                     <p>It was 5:30 o'clock Tuesday afternoon. <seg>I had made a big, black cloth cloak all but sewing on the buttons, had resigned <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> <w type="noun">position</w></phr> as slave-stitcher, and had asked to be paid off. I had been refused by the quartet outside of the elevator screen, and so was on <phr><w type="adj" subtype="poss" ana="#nellNelson">my</w> <w type="noun">way</w></phr> to the head of the firm, work in arms.</seg></p>
                     <p>It was a great day for <persName>Stein</persName> and me, particularly me.</p>
                     <p>It was another verification of putting <hi rend="double">a beggar on horseback</hi>, of getting a <hi rend="double">nigger to drive a nigger</hi>.</p>
