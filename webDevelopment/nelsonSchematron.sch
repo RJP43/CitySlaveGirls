@@ -5,8 +5,8 @@
     
     
     <pattern>
-        <rule context="tei:div[@type='articleBody']">
-            <report test="not(tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:rs or tei:seg or tei:w or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg)">Incorrect element. Your xml can only include: said, placeName, persName, orgName, rs, seg, w, damage, unclear, supplied, choice, sic, and reg.</report>
+        <rule context="tei:body">
+            <report test="not(tei:div or tei:head or tei:title or tei:list or tei:item or tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:name or tei:seg or tei:w or tei:phr or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg or tei:hi)">Incorrect element. Your xml can only include: div, head, title, list, item, p, said, placeName, persName, orgName, name, seg, w, phr, damage, unclear, supplied, choice, sic, reg and hi.</report>
         </rule>
     </pattern>
     
@@ -20,19 +20,11 @@
     
     <let name="si" value="doc('siteIndex.xml')//@xml:id"/>
     <pattern>
-        <rule context="@ref|@resp|@corresp|@who|tei:w[@type='noun']/@ana|tei:w[@subtype='poss']/@ana">
+        <rule context="@ref|@resp|@corresp|@who|tei:w[@type='noun']/@ana|tei:w[@type='poss']/@ana|tei:rdg/@wit">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
             <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
         </rule>
     </pattern>
-    
-    
-    <pattern>
-        <rule context="tei:w[@subtype='poss']">
-            <report test="not(@type='adj')">The possessive pronoun must be listed as @type='adj', not '@noun'</report>
-        </rule>
-    </pattern>
-    
     
     <!--2015-12-12 ebb: In addition to this, you need to add a tei: prefix to each element. NOTE: You don't need to add the tei: prefix to attributes, but only ahead of any and every element name!
     It's a TEI thing, and affects some programming differently from others. (We can handle the namespace in XSLT with just a line in the stylesheet rule at the top, but
@@ -62,6 +54,20 @@
     
     
     <pattern>
+        <rule context="tei:w">
+            <report test="@type='poss' and @subtype='refTo'">'@subtype' can only appear on '@type='noun.'</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:w">
+            <report test="@subtype='refTo' and not(@ana)">'@subtype' can only appear on nouns with '@ana' (the reference to a noun with an xml:id must be labelled with the xml:id being referenced)</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
         <rule context="tei:said">
             <assert test="@ana = ('male','female','unknown')">@ana may only be: male, female, or unknown.</assert>
         </rule>
@@ -83,17 +89,16 @@
     </pattern>
     
     
-<!--    <pattern>
+    <pattern>
         <rule context=" tei:text//tei:placeName">
-            <report test="if (@ref) then (@type='address') else (not(@ref))">Does this fire?</report>
+            <report test="@type='address' and not(@ref)">Addresses must have a corresponding @ref.</report>
         </rule>
-    </pattern>-->
-<!-- ras: greedy match and also unnecessary -->
+    </pattern>
     
     
-     <pattern>
-        <rule context="tei:rs">
-            <assert test="@type = 'interruption'">Element 'rs' must only be used for an interrupted sentence within element 'said'.</assert>
+    <pattern>
+        <rule context=" tei:text//tei:placeName">
+            <report test="not(@type='address') and @ref">Only addresses have a corresponding @ref.</report>
         </rule>
     </pattern>
     
@@ -106,22 +111,29 @@
     
     
     <pattern>
-        <rule context="tei:seg">
-            <assert test="count(.//tei:w) &gt; 1">Element seg' must contain more than one 'w' element.</assert>
+        <rule context="tei:phr">
+            <assert test="count(.//tei:w) &gt; 1">Element 'phr' must contain more than one 'w' element.</assert>
         </rule>
     </pattern>
     
     
     <pattern>
         <rule context="tei:w">
-            <assert test="@type=('adj','noun')">@type may only be: adj or noun</assert>
+            <assert test="@type=('poss','noun')">@type may only be: adj or noun</assert>
         </rule>
     </pattern>
     
     
     <pattern>
-        <rule context="tei:seg/*">
-            <assert test="matches (./name(), 'w') or matches (./name(), 'placeName') or matches (./name(), 'persName')">Element 'seg' can only contain element 'w' (or 'placeName' or 'persName' for proper nouns acting as adjectives).</assert>
+        <rule context="tei:phr/*">
+            <assert test="matches (./name(), 'w') or matches (./name(), 'placeName') or matches (./name(), 'persName') or matches (./name(), 'orgName') or matches (./name(), 'name')">Element 'phr' can only contain element 'w' (or 'placeName,' 'persName,' 'orgName,' or 'name' for proper nouns acting as possessive nouns).</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context='tei:seg'>
+            <assert test='count(.//tei:phr) &gt; 0'>Element 'seg' must contain one or more 'phr' elements.</assert>
         </rule>
     </pattern>
     
@@ -139,8 +151,60 @@
         </rule>
     </pattern>
     
-    <!-- rjp 2015-12-14: we need rules declaring the attributes for damage (found in codeBook) and we also need rules saying that the self closing damage element will always be followed by the unclear element which will always contain the supplied element and the supplied element has to have a resp attribute  -->
     
+    <pattern>
+        <rule context="tei:damage">
+            <assert test="following-sibling::tei:unclear">'damage' must be followed by 'unclear.'</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:supplied">
+            <assert test="parent::tei:unclear">Element 'supplied' must be contained within element 'unclear.'</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:supplied">
+            <report test="not(@resp)">Element 'supplied' must have attribute @resp containinng editor's xml:id.</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:hi">
+            <report test="not(@rend)">Elemnt 'hi' must contain attribute '@rend.'</report>
+        </rule>
+    </pattern>
+    
+    <pattern>
+        <rule context="tei:hi">
+            <assert test="@rend = ('single','double')">Attribute '@rend' can only be set to 'single' or 'double.'</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:name">
+            <report test="not(@ref)">Element 'name' must contain attribute @ref.</report>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:app">
+            <assert test="count(./tei:rdg) = 2">Every element 'app' must have 2 'rdg' elements.</assert>
+        </rule>
+    </pattern>
+    
+    
+    <pattern>
+        <rule context="tei:rdg">
+            <report test="not(@wit)">Element 'rdg' must have atribute @wit.</report>
+        </rule>
+    </pattern>
     
 <!--    <pattern>
         <rule context="">
