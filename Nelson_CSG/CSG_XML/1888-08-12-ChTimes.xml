@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../..//webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -52,7 +52,7 @@
                 <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-12">Sunday Morning, August 12, 1888</date></title></head>
                 <div type="headlines">
                     <list>
-                        <item><persName>Nell Nelson</persName> Continues to Expose the Salve-Grinding Hell-Holes of <placeName>Chicago</placeName>.</item>
+                        <item><persName>Nell Nelson</persName> Continues to Expose the Salve-Grinding Hell-Holes of <placeName type="city">Chicago</placeName>.</item>
                         <item>Graphic Account of Her Experiences in the Filthy <hi rend="double">Slop Shops</hi> of the West Side <!-- 2016-02-27: nll: Should 'West Side' be surrounded in a placeName tag?-->.</item>
                         <item>No Rest for the Weary and Wretched Women and Children This Side of the Grave.</item>
                         <item>A Day Among the Butcher-Shops and Canned-Meat Factories of the Stock Yards.</item>

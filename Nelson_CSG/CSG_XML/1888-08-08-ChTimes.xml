@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="../webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../..//webDevelopment/nelsonSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -58,7 +60,7 @@
             <div type="articleBody"><!-- CAK:There are business on line 111, 117(two), and 124? -->
                   <p>For dismal surroundings, economy of comforts, and heartless treatment, to <orgName type="exposedCompany" ref="#BstSt">the Boston store</orgName> belongs the palm.</p>
                   <p>I did not work in that establishment although I tried very hard to do so. I was in the store at 8 o'clock on Friday morning as arranged with <persName>Mr. Hillman</persName>, who had partially promised to hire me.
-                  <said who="#employer" ana="male">One of the girls in the hosiery department</said> he had said <said>is sick, and if she doesn't come back Friday morning I will try you.</said></p>
+                     <said who="#employer" ana="male">One of the girls in the hosiery department</said> he had said <said who="#employer" ana="male">is sick, and if she doesn't come back Friday morning I will try you.</said></p>
                   <p>I could not find the gentleman, although I hunted the main floor and the floors above and below. My plan of fluctuation was to take the elevator up one story and walk down, then ride up two and walk down the third flight, in that way I took in the entire store and a great part of the employes.
                   I began at the bottom and spent a full hour in the basement, where I saw so much and suffered so much that the upper floors had no surprises for me. In the first place the atmosphere was almost unendurable.</p>
                   <p>Hot! It must have been 100 degrees above!</p>

@@ -126,7 +126,7 @@
     
     <pattern>
         <rule context="tei:phr/*">
-            <assert test="matches (./name(), 'w') or matches (./name(), 'placeName') or matches (./name(), 'persName') or matches (./name(), 'orgName') or matches (./name(), 'name')">Element 'phr' can only contain element 'w' (or 'placeName,' 'persName,' 'orgName,' or 'name' for proper nouns acting as possessive nouns).</assert>
+            <assert test="matches (./name(), 'w') or matches (./name(), 'placeName') or matches (./name(), 'persName') or matches (./name(), 'orgName') or matches (./name(), 'name') or matches (./name(), 'hi') or matches (./name(), 'unclear') or matches (./name(), 'damage') or matches (./name(), 'supplied')or matches (./name(), 'choice') or matches (./name(), 'sic') or matches (./name(), 'reg')">Element 'phr' can only contain element 'w' (or 'placeName,' 'persName,' 'orgName,' or 'name' for proper nouns acting as possessive nouns) May also contain a word in quotation marks (represented with element 'hi') or any of the markup used for unclear text and idiosyncratic spelling.</assert>
         </rule>
     </pattern>
     
