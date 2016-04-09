@@ -118,31 +118,22 @@
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
-               <org xml:id="BS">
+               <org xml:id="Benson">
                   <orgName>Benson's Shop</orgName>
                   <desc>vest-maker</desc>
                   <location>
                      <placeName>Hobbie and Chatham streets</placeName>
                   </location>
-                  <bibl corresp="#CT011"/>
+                  <bibl corresp="#CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="BOT">
-                  <orgName></orgName>
+                  <orgName>The Board of Trade</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
                   </location>
                   <bibl corresp="#CT021"/>
-                  <note/>
-               </org>
-               <org xml:id="Benson">
-                  <orgName></orgName>
-                  <desc></desc>
-                  <location>
-                     <placeName></placeName>
-                  </location>
-                  <bibl corresp="#CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Berliner">
@@ -155,25 +146,25 @@
                   <note/>
                </org>
                <org xml:id="Brougham">
-                  <orgName></orgName>
+                  <orgName>Brougham's Packing-House</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>80 Jackson street</placeName>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="CCC">
-                  <orgName></orgName>
+                  <orgName>Chicago Carpet Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Market Street</placeName>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="CEB">
-                  <orgName></orgName>
+                  <orgName>The Corn Exchange Bank</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -182,25 +173,25 @@
                   <note/>
                </org>
                <org xml:id="CigarFactory1">
-                  <orgName></orgName>
+                  <orgName>A Cigar Factory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Randolph near Dearborn street</placeName>
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="CigarFactory2">
-                  <orgName></orgName>
+                  <orgName>Cigar Factory of <persName>F. Garcia</persName></orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>20th Clark street</placeName>
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="DAS">
-                  <orgName></orgName>
+                  <orgName>Decorative Art Society</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -209,43 +200,43 @@
                   <note/>
                </org>
                <org xml:id="Doremus">
-                  <orgName></orgName>
+                  <orgName>Doremus Laundry</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>269 and 271 South Paulina street</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="EAmorris">
-                  <orgName></orgName>
+                  <orgName>E.A. Morris's Confectionery Shop</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>81 West Jackson street</placeName>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="EUC">
-                  <orgName></orgName>
+                  <orgName>Excelsior Underwear Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>199 and 201 Fifth avenue</placeName>
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="Ellinger">
-                  <orgName></orgName>
+                  <orgName>Ellinger's Cloak Factory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>282  Madison street</placeName>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Fairbank">
-                  <orgName></orgName>
+                  <orgName>Fairbank Canning Company</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -254,7 +245,7 @@
                   <note/>
                </org>
                <org xml:id="GFS">
-                  <orgName></orgName>
+                  <orgName>Girls' Friendly Society</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -263,8 +254,8 @@
                   <note/>
                </org>
                <org xml:id="Goldsmith">
-                  <orgName></orgName>
-                  <desc></desc>
+                  <orgName><persName>JL Goldsmith</persName>'s Tailor-Shop</orgName>
+                  <desc>coat shop</desc>
                   <location>
                      <placeName></placeName>
                   </location>
@@ -272,7 +263,7 @@
                   <note/>
                </org>
                <org xml:id="GraceCh">
-                  <orgName></orgName>
+                  <orgName>Grace Church</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -281,25 +272,25 @@
                   <note/>
                </org>
                <org xml:id="HAM">
-                  <orgName></orgName>
-                  <desc></desc>
+                  <orgName>Messrs. Hart, Abt &amp; Marx</orgName>
+                  <desc>clothing manufacturer</desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>155 Market street</placeName>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="HSC">
-                  <orgName></orgName>
+                  <orgName>H. Schultz &amp; Company's Paper-Box Manufactory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>34 to 38 East Randolph</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Huber">
-                  <orgName></orgName>
+                  <orgName>Huber's</orgName>
                   <desc></desc>
                   <location>
                      <placeName>335 Cleveland avenue</placeName>
@@ -307,26 +298,17 @@
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
-               <org xml:id="KBO">
-                  <orgName></orgName>
-                  <desc></desc>
-                  <location>
-                     <placeName></placeName>
-                  </location>
-                  <bibl corresp="#CT021"/>
-                  <note/>
-               </org>
                <org xml:id="KNels">
-                  <orgName></orgName>
+                  <orgName>Knute Nelson's Retail Tailor-Shop</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>113 Chicago avenue</placeName>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="Karasick">
-                  <orgName></orgName>
+                  <orgName>David Karasick's shop</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -335,7 +317,7 @@
                   <note/>
                </org>
                <org xml:id="Klein">
-                  <orgName></orgName>
+                  <orgName>Klein's</orgName>
                   <desc></desc>
                   <location>
                      <placeName>323 Cleaveland avenue</placeName>
@@ -344,7 +326,7 @@
                   <note/>
                </org>
                <org xml:id="KnightsOL">
-                  <orgName></orgName>
+                  <orgName>Knights of Labor</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -353,16 +335,16 @@
                   <note/>
                </org>
                <org xml:id="Loomis">
-                  <orgName></orgName>
+                  <orgName>Loomis Laundry</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>193 and 195 West Monroe street</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Lorimer">
-                  <orgName></orgName>
+                  <orgName><persName>Dr. Lorimer</persName>'s</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -380,7 +362,7 @@
                   <note/>
                </org>
                <org xml:id="MarshF">
-                  <orgName></orgName>
+                  <orgName>Marshall Field's</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -389,10 +371,10 @@
                   <note/>
                </org>
                <org xml:id="Munger">
-                  <orgName></orgName>
+                  <orgName>Munger Laundry</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>520 West Madison street</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
@@ -401,13 +383,13 @@
                   <orgName>Never-Rip Jersey Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>133 West Washington street</placeName>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Newman">
-                  <orgName></orgName>
+                  <orgName>Newman's</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -416,7 +398,7 @@
                   <note/>
                </org>
                <org xml:id="Olsen">
-                  <orgName></orgName>
+                  <orgName>Olsen's</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -424,26 +406,26 @@
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
-               <org xml:id="Olson">
-                  <orgName></orgName>
+               <org xml:id="Oleson">
+                  <orgName><persName>K.B. Oleson</persName>'s Trouser Manufactory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Sedgwick street near Superior and Division</placeName>
                   </location>
-                  <bibl corresp="#CT011"/>
+                  <bibl corresp="#CT011 #CT021"/>
                   <note/>
                </org>
                <org xml:id="OrienLaun">
-                  <orgName></orgName>
+                  <orgName>Oriental laundry</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>West Madison street</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="PDArmour">
-                  <orgName></orgName>
+                  <orgName>P.D. Armour's Packing-House</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -452,7 +434,7 @@
                   <note/>
                </org>
                <org xml:id="PPcar">
-                  <orgName></orgName>
+                  <orgName>Pullman Palace Car</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -461,7 +443,7 @@
                   <note/>
                </org>
                <org xml:id="ProhibParty">
-                  <orgName></orgName>
+                  <orgName>Prohibition Party</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -469,8 +451,18 @@
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
-               <org xml:id="RCRB">
-                  <orgName></orgName>
+               <org xml:id="Rosenthal">
+                  <orgName>Rosenthal &amp; Company's</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001"/>
+                  <note/>
+               </org>
+               
+               <org xml:id="Rosenberg">
+                  <orgName>Rosenberg Brothers'</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -479,43 +471,43 @@
                   <note/>
                </org>
                <org xml:id="SN">
-                  <orgName></orgName>
+                  <orgName><persName>S. Nelson</persName>'s Custom Shop</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>he southwest corner of Wesson and Hobbie streets on the North side</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Schlessinger">
-                  <orgName></orgName>
+                  <orgName>Schlessingers'</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>1187 Milwaukee avenue</placeName>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Schmall">
-                  <orgName></orgName>
+                  <orgName>Schmallen's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>138 Mohawk street</placeName>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="Schmidt">
-                  <orgName></orgName>
+                  <orgName>Schmidt's slop-shop</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>314 Cleveland avenue</placeName>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="SecPresb">
-                  <orgName></orgName>
+                  <orgName>Second Presbyterian</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -524,25 +516,25 @@
                   <note/>
                </org>
                <org xml:id="Singer">
-                  <orgName></orgName>
+                  <orgName>A. L. Singer &amp; Company's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>178 Market street</placeName>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="SpitLand">
-                  <orgName></orgName>
+                  <orgName>Messrs. Spitz, Landaner &amp; Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Market Street</placeName>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="StJohn">
-                  <orgName></orgName>
+                  <orgName>St. John's</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -551,25 +543,25 @@
                   <note/>
                </org>
                <org xml:id="StLuke">
-                  <orgName></orgName>
+                  <orgName>St. Luke Boarding-House</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Illinois street</placeName>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Stein">
-                  <orgName></orgName>
+                  <orgName><persName>Julius Stein</persName> &amp; Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Market street</placeName>
                   </location>
                   <bibl corresp="#CT001 #CT003 #CT006 #CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Swing">
-                  <orgName></orgName>
+                  <orgName>Prof. Swing's</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -578,7 +570,7 @@
                   <note/>
                </org>
                <org xml:id="TailorShop1">
-                  <orgName></orgName>
+                  <orgName>A Tailor's Shop</orgName>
                   <desc></desc>
                   <location>
                      <placeName>the corner of Elm and Wesson streets</placeName>
@@ -587,7 +579,7 @@
                   <note/>
                </org>
                <org xml:id="TailorShop2">
-                  <orgName></orgName>
+                  <orgName>A Tailor's Shop</orgName>
                   <desc></desc>
                   <location>
                      <placeName>441 Taylor street</placeName>
@@ -596,16 +588,16 @@
                   <note/>
                </org>
                <org xml:id="VestMaker1">
-                  <orgName></orgName>
+                  <orgName>A Vestmaker's Place</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>2155 Archer avenue</placeName>
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="VestMaker2">
-                  <orgName></orgName>
+                  <orgName>A Vestmaker's Place</orgName>
                   <desc></desc>
                   <location>
                      <placeName>2155 Archer avenue</placeName>
@@ -614,7 +606,7 @@
                   <note/>
                </org>
                <org xml:id="WCTU">
-                  <orgName></orgName>
+                  <orgName>Woman's Christian Temperance Union</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -623,7 +615,7 @@
                   <note/>
                </org>
                <org xml:id="WDbros">
-                  <orgName></orgName>
+                  <orgName>W.D. Brothers' Cravat Department</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -635,13 +627,13 @@
                   <orgName>Western Lace Manufacturing Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>218 State street</placeName>
                   </location>
                   <bibl corresp="#CT001 #CT014"/>
                   <note/>
                </org>
                <org xml:id="WNL">
-                  <orgName></orgName>
+                  <orgName>Woman's National League</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -650,7 +642,7 @@
                   <note/>
                </org>
                <org xml:id="WPA">
-                  <orgName></orgName>
+                  <orgName>Women's Protective Agency</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -659,7 +651,7 @@
                   <note/>
                </org>
                <org xml:id="WSuff">
-                  <orgName></orgName>
+                  <orgName>Woman's Suffrage</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -668,8 +660,8 @@
                   <note/>
                </org>
                <org xml:id="WandW">
-                  <orgName></orgName>
-                  <desc></desc>
+                  <orgName>Wheeler &amp; Wilson</orgName>
+                  <desc>machine</desc>
                   <location>
                      <placeName></placeName>
                   </location>
@@ -677,16 +669,16 @@
                   <note/>
                </org>
                <org xml:id="Wetherell">
-                  <orgName></orgName>
+                  <orgName>Wetherell's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Wabash avenue</placeName>
                   </location>
                   <bibl corresp="#CT002"/>
                   <note/>
                </org>
                <org xml:id="Willong">
-                  <orgName></orgName>
+                  <orgName>Willonghby, Hill &amp; Co.</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -695,7 +687,7 @@
                   <note/>
                </org>
                <org xml:id="WoChrist">
-                  <orgName></orgName>
+                  <orgName>Woman's Christian Boarding-House</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -704,7 +696,7 @@
                   <note/>
                </org>
                <org xml:id="WoCo">
-                  <orgName></orgName>
+                  <orgName>Women's Council</orgName>
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -722,13 +714,13 @@
                   <note/>
                </org>
                <org xml:id="Zimmerman">
-                  <orgName></orgName>
+                  <orgName><persName>H. Zimmerman</persName>'s Cloak Factory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>233 Monroe street</placeName>
                   </location>
                   <bibl corresp="#CT005 #CT014"/>
-                  <note/>
+                  <note><persName>H. Zimmerman</persName> is also referred to as "the good jew".</note>
                </org>
                <!-- ADD MORE AS ARTICLES GET CODED, AND ORGANIZATIONS GET ASSIGNED XML:IDs. USE THE FOLLOWING TEMPLATE: -->
                   <!--<org xml:id="">

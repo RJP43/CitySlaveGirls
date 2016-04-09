@@ -153,7 +153,7 @@
                     </list>
                 </div>
                 <div type="articleBody">
-                    <p>At <orgName ref="#RCRB" type="exposedCompany">Rosenthal &amp; Co.'s and Rosenberg Bros</orgName>. I applied for work and was told to report in the morning to sew on cloaks.</p>
+                    <p>At <orgName ref="#Rosenthal" type="exposedCompany">Rosenthal &amp; Co.'s</orgName> and <orgName ref="#Rosenberg" type="exposedCompany">Rosenberg Bros</orgName>. I applied for work and was told to report in the morning to sew on cloaks.</p>
                     <p>The manager in <orgName ref="#Stein" type="exposedCompany">Stein's</orgName>, on <placeName ref="#Stein" type="address">Market street</placeName>, wanted bands and offered to engage me at once. <seg>I was most impudently catechized some seven inquires requiring as many false statements. What was <phr><w type="poss" ana="#nellNelson">my</w> <w type="noun">name</w></phr>, place of residence, last position, amount of wages received, state of <phr><w type="poss" ana="#nellNelson">my</w> <w type="noun">health</w></phr>, nativity, married or single</seg>-to which I answered <said who="#nellNelson" ana="female">neither.</said> Here was a dilemma. <said who="#foreperson" ana="unknown">Oh, yes, widow?</said> and an inordinate <said who="#foreperson" ana="unknown">ha! ha!</said></p>
                     <p><said who="#nellNelson" ana="female">Yes.</said></p>
                     <p><said who="#foreperson" ana="unknown">Grass widow, eh?</said> with a sneer.</p>

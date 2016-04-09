@@ -80,7 +80,7 @@
                         <p><said who="#employer" ana="male">I can't take any but experienced help.</said></p>
                         <p><said who="#nellNelson" ana="female">How much?</said></p>
                         <p><said who="#employer" ana="male">Where have you worked?</said></p>
-                        <p><said who="#nellNelson" ana="female">Oh, at <orgName type="exposedCompany" ref="#Goldsmith">Goldsmith's</orgName> and <orgName type="exposedCompany" ref="#Stein">Julins Stein's</orgName> and <orgName type="exposedCompany" ref="#Ellinger">Ellinger's</orgName> and--</said></p>
+                        <p><said who="#nellNelson" ana="female">Oh, at <orgName type="exposedCompany" ref="#Goldsmith">Goldsmith's</orgName> and <orgName type="exposedCompany" ref="#Stein">Julius Stein's</orgName> and <orgName type="exposedCompany" ref="#Ellinger">Ellinger's</orgName> and--</said></p>
                         <p><said who="#employer" ana="male">Have you done tailoring?</said></p>
                         <p><said who="#nellNelson" ana="female">Plenty.</said></p>
                         <p><said who="#employer" ana="male">Well, then, if you're experienced you ought to be worth considerable: Here, take that for a sample,</said> and he handed me a pair of No. 33 striped pantaloons with a roll of red and white waistbands and sent me up-stairs, where, between the stable smell and the evervating atmosphere, I became near collapsing.</p>
