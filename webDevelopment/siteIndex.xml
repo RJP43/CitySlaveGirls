@@ -109,109 +109,19 @@
          
          <div type="companies">
             <listOrg>
-               <org xml:id="Ellinger">
-                  <orgName>Ellinger's</orgName>
-                  <note resp="#rjp #KMW"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
+               <org xml:id="">
+                  <orgName></orgName>
+                  <trait></trait>
+                  <bibl corresp=""/>
+                  <note resp=""/>
                </org>
-               <org xml:id="WPA">
-                  <orgName>Woman's Protective Agency</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="WLMC">
-                  <orgName>Western Lace Manufacturing Co.</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="RCRB">
-                  <orgName>Rosenthal &amp; Co.'s and Rosenberg Bros</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Stein">
-                  <orgName>Stein's</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Ludden">
-                  <orgName>Ludden's</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="NRJC">
-                  <orgName>Never-Rip Jersey Company</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org>
-               <org xml:id="MarshF">
-                  <orgName>Marshall Field's</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT001">1888-07-30-ChTimes</bibl></note>
-               </org> 
-               <org xml:id="Willong">
-                  <orgName>Willonghby, Hill &amp; Co.</orgName>
-                  <note resp="#rjp"><bibl corresp="#CT002">1888-07-31-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Gold">
-                  <orgName>Goldsmith's</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Olson">
-                  <orgName>Olson's</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="KNels">
-                  <orgName>Knute Nelson's</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="BS">
-                  <orgName>Benson's Shop</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Schmall">
-                  <orgName>Schmallen's</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Schmidt">
-                  <orgName>Mr. Schmidt's slop-shop</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT011">1888-08-09-ChTimes</bibl></note>
-               </org>
-               <org xml:id="EUC">
-                  <orgName>Excelsior Underwear Company</orgName>
-                  <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl></note>
-               </org>
-               <org xml:id="cigarFactory">
-                  <orgName>Cigar Factory</orgName>
-                  <note resp="#ras"><bibl corresp="#CT004">1888-08-02-ChTimes</bibl>This company does not have an exact name referenced; however, Nelson consistently refers to it as the cigar factory and details the conditions in this factory.</note>
-               </org>
-               <org xml:id="Zimmerman">
-                  <orgName>Zimmerman Factory</orgName>
-                  <note resp="#ras"><bibl corresp="#CT005">1888-08-03-ChTimes</bibl></note>
-               </org>
-               <org xml:id="CCC">
-                  <orgName>Chicago Carpet company</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
-               </org>
-               <org xml:id="WDbros">
-                  <orgName>W.D Brothers' cravat department</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
-               </org>
-               
-               <org xml:id="HAM">
-                  <orgName>Messrs. Hart, Abt &amp; Marx</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
-               </org>
-               <org xml:id="SpitLand">
-                  <orgName>Messrs. Spitz, Landaner &amp; Co.</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
-               </org>
-               <org xml:id="Singer">
-                  <orgName>A. L. Singer &amp; Co.’s</orgName>
-                  <note resp="#KMW"><bibl corresp="#CT006">1888-08-04-ChTimes</bibl></note>
-               </org>
-               <org xml:id="BstSt">
-                  <orgName>the Boston Store</orgName>
-                  <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
-               </org>
-               <org xml:id="CaS">
-                  <orgName>Cooper &amp; Siegel's</orgName>
-                  <note resp="#CAK"><bibl corresp="#CT010">1888-08-08-ChTimes</bibl></note>
-               </org>
-                  
-               <!-- ADD MORE AS ARTICLES GET TRANSCRIBED, CODED, AND COMPANIES AND ORGANIZATIONS GET ASSIGNED XML:IDs -->
+               <!-- ADD MORE AS ARTICLES GET CODED, AND ORGANIZATIONS GET ASSIGNED XML:IDs. USE THE FOLLOWING TEMPLATE: -->
+                  <!--<org xml:id="">
+                     <orgName></orgName>
+                     <trait></trait>
+                     <bibl corresp=""/>
+                     <note resp=""/>
+                  </org>-->
             </listOrg>
          </div>
          
@@ -901,14 +811,49 @@
          
          <div type="cannonicalRef">
             <listNym>
-               <nym xml:id="nellNelson"/>
-               <nym xml:id="workingGirl"/>
-               <nym xml:id="foreperson"/>
-               <nym xml:id="employer"/>
-               <nym xml:id="employee"/>
-               <nym xml:id="benefactor"/>
-               <nym xml:id="messenger"/>
-               <nym xml:id="unidentified"/>
+               <nym xml:id="nellNelson">
+                  <re>Nell Nelson</re>
+                  <p>Nell Nelson: Helen Cusack-Carvalho used the pseudonym Nell Nelson when she wrote the "City Slave Girls" series in 1888. She was employed by <emph>The Chicago Times</emph> and then later, following the success of her series in Chicago, hired by New York's <emph>The World</emph>. The biographical information on Helen Cusack-Carvalho is considerably illusive and currently anything remotely close to a complete biography of her is nonexistent. The primary source of biographical information comes from a journal article by Eric W. Liguori published in 2012. In this article, Liguori alludes that Helen was born into the middle-class and that her career as a journalist allowed for her to maintain this status. Liguori reports that Helen married above her social class to a man named Solomon Solis Carvalho in 1895. After marriage, Helen's journalism career ceased to exist and she lived the remainder of her life raising their two daughters. According to an obituary found in a 1945 <emph>New York Times</emph>' publication Helen died in New Jersey. The obituary lacks any special recognition of her investigative series despite the popularity and influential effects it had on the labor reforms of the late nineteenth century.</p>
+               </nym>
+               <nym xml:id="workingGirl">
+                  <re>City Slave Girl</re>
+               </nym>
+               <nym xml:id="foreperson">
+                  <re>Foreperson</re>
+                  <p>Reference to any employee that is either recognized as a foreperson directly in the text or given rank over other employees in some way.</p>
+               </nym>
+               <nym xml:id="employer">
+                  <re>Employer</re>
+                  <p>Reference to owners of establishments, and their familial ties.</p>
+               </nym>
+               <nym xml:id="employee">
+                  <re>Employee</re>
+                  <p>Reference to any employee thar is not a woman or foreperson.</p>
+               </nym>
+               <nym xml:id="benefactor">
+                  <re>The Benefactor</re>
+                  <p>Reference to a specific archetype found in article <ref corresp="#CT004">1888-08-02</ref>.</p>
+               </nym>
+               <nym xml:id="messenger">
+                  <re></re>
+                  <p>Reference to an otherwise unlabeled character that speaks on the behalf of another person (typically family tie speaking on behalf of an employee/working girl).</p>
+               </nym>
+               <nym xml:id="unidentified">
+                  <re>Unidentified</re>
+                  <p>Identifier used when context is unclear for who/the archetype that is being referenced.</p>
+               </nym>
+               <nym xml:id="promMen">
+                  <re>Prominent Man</re>
+                  <p>Reference to a man that is either alluded to or directly referred to as a prominent Chicago figure.</p>
+               </nym>
+               <nym xml:id="promWomen">
+                  <re>Prominent Woman</re>
+                  <p>Reference to a woman that is either alluded to or directly referred to as a prominent Chicago figure.</p>
+               </nym>
+               <nym xml:id="reporter">
+                  <re>Reporter</re>
+                  <p>Identifier used when it is clear thar Nelson is not person responding in an investigation/interview, or if context for reported information is more generally unclear.</p>
+               </nym>
                <!-- ALL OF THESE NEED DEVELOPED NOTES AND WE NEED TO FIGURE OUT WHAT ELEMENTS ALLOWED IN NYM MAKE SENSE TO DOCUMENT INFORMATION ABOUT EACH -->
             </listNym>
          </div>

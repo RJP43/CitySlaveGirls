@@ -211,7 +211,7 @@ Use the `<name>` element to mark references to the newspaper (_The Chicago Times
 ####Explanation of Attributes:  
   
 `<persName>`  
-* `@ref` values:  **declaration of archetype's site index reference** (the following is a list of all of the person archetypes; however, the one marked with an asterisk should not be used in the particular context of `<persName>`)  
+* `@ref` values:  **declaration of archetype's site index reference** (the following is a list of all of the person archetypes; however, the one(s) marked with an asterisk should not be used in the particular context of `<persName>`)  
         resp="#workingGirl"  
         resp="#nellNelson"  
         resp="#employee" :arrow_right: **any employee that is not female**  
@@ -221,7 +221,8 @@ Use the `<name>` element to mark references to the newspaper (_The Chicago Times
         resp="#promMen" :arrow_right: **men mentioned prominent either directly in the text or alluded to**  
         resp="#promWomen" :arrow_right: **wommen mentioned prominent either directly in the text or alluded to**  
         resp="#reporter" :arrow_right: **used when Nelson is def. not reporting or if context for reported information is unclear**  
-        resp="#unidentified" :arrow_right: **men mentioned prominent either directly in the text or alluded to**  
+        resp="#messenger" :arrow_right: **used when an otherwise unlabeled character spoke on the behalf of another** (typically family member of an employee/working girl)  
+        /*resp="#unidentified" :arrow_right: **used when unclear who is being referenced**  
   
 `<name>`  
 * `@ref` values:  **declaration of site index reference**  
