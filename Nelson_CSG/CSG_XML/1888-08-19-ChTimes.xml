@@ -51,7 +51,7 @@
   <text>
       <body>
          <div>
-            <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-19">Sunday Morning, August 19, 1888</date></title></head>
+            <head><title><name ref="#CT">Chicago Times</name> <date when="1888-08-19">Sunday Morning, August 19, 1888</date></title></head>
             <div type="headlines">
                <list>
                   <item><app><rdg wit="#CT021">A <hi rend="double">Times</hi> Reporter Gets Into a Paper-Box Manufacatory That Puzzles and Bewilders Him.</rdg><rdg wit="#WSGC23"></rdg></app></item>
