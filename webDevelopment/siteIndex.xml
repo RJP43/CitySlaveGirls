@@ -109,11 +109,11 @@
          
          <div type="companies">
             <listOrg>
-               <org xml:id="">
+               <org xml:id="kj">
                   <orgName></orgName>
                   <trait></trait>
-                  <bibl corresp=""/>
-                  <note resp=""/>
+                  <!--<bibl corresp=""/>
+                  <note resp=""/>-->
                </org>
                <!-- ADD MORE AS ARTICLES GET CODED, AND ORGANIZATIONS GET ASSIGNED XML:IDs. USE THE FOLLOWING TEMPLATE: -->
                   <!--<org xml:id="">

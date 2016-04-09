@@ -133,7 +133,7 @@
                     <p>He smiled and said: <said who="#benefactor" ana="male">A mere
                                 bagatelle
                             miss, and not worth mentioning.</said></p>
-                    <p><seg>At <placeName type="locRef">Eighteenth street</placeName> I left the car to go to a <phr><orgName ref="#vestmaker1"><w type="poss" ana="#employer">vestmaker's</w>
+                    <p><seg>At <placeName type="locRef">Eighteenth street</placeName> I left the car to go to a <phr><orgName ref="#VestMaker1"><w type="poss" ana="#employer">vestmaker's</w>
                         <w type="noun">place</w></orgName></phr> at <placeName ref="#vestmaker1" type="address" >2155 Archer
                             avenue</placeName>.</seg> <seg>I was crossing <placeName type="locRef">the three
                             points where State and Nineteenth streets intersect</placeName> when who
@@ -252,7 +252,7 @@
                             elevator and I was too
                         hot and tired to go up five
                             flights of stairs to look
-                        for it. I chose a <orgName ref="#cigarFactory1" type="exposedCompany">cigar factory</orgName>
+                        for it. I chose a <orgName ref="#CigarFactory1" type="exposedCompany">cigar factory</orgName>
                         <placeName ref="#cigarFactory1" type="address">on Randolph near Dearborn street</placeName> with
                         but three
                             pairs of stairs to climb and
@@ -262,7 +262,7 @@
                             goodness of heart to give me
                         a chair and a letter to two
                             cigarmakers of <phr><w type="poss" ana="#employer">his</w>
-                            <w type="noun">nationality</w></phr>.</seg> I went to see <orgName type="exposedCompany" ref="#cigarFactory2"><persName ref="employer">F.
+                            <w type="noun">nationality</w></phr>.</seg> I went to see <orgName type="exposedCompany" ref="CigarFactory2"><persName ref="employer">F.
                             Garcia</persName></orgName> at <placeName type="address" ref="#cigarFactory2">20th Clark street</placeName>. He asked me if I
                         could <hi rend="double">strip</hi> and I told him I could. When he wanted to know where I had
                         worked I owned up that I didn't know anything at all
