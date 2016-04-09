@@ -49,7 +49,7 @@
     <text>
         <body>
             <div>
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-08-03">Friday Morning, August 3, 1888</date></title></head>
+                <head><title><name ref="#CT">Chicago Times</name> <date when="1888-08-03">Friday Morning, August 3, 1888</date></title></head>
             <div type="headlines">
                     <list>
                         <item>While Among Chicago's Weak Serfs <name ref="#CT">The Times</name>' Lady Reporter Finds Mr. Gross's <hi rend="double">Good Jew</hi>.</item>

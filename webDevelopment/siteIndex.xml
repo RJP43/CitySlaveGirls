@@ -109,11 +109,626 @@
          
          <div type="companies">
             <listOrg>
-               <org xml:id="kj">
+               <org xml:id="BB">
+                  <orgName>B'nai B'rith</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="BS">
+                  <orgName>Benson's Shop</orgName>
+                  <desc>vest-maker</desc>
+                  <location>
+                     <placeName>Hobbie and Chatham streets</placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="BOT">
                   <orgName></orgName>
-                  <trait></trait>
-                  <!--<bibl corresp=""/>
-                  <note resp=""/>-->
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Benson">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT011 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Berliner">
+                  <orgName><persName>Isaac Berliner</persName>'s Shop</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>147 Twelfth street</placeName>
+                  </location>
+                  <bibl corresp="#CT011 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Brougham">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="CCC">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="CEB">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="CigarFactory1">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="CigarFactory2">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="DAS">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Doremus">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="EAmorris">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="EUC">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="Ellinger">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001 #CT002 #CT003 #CT011 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Fairbank">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="GFS">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Goldsmith">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006 #CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="GraceCh">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="HAM">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="HSC">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Huber">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>335 Cleveland avenue</placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="KBO">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="KNels">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="Karasick">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Klein">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>323 Cleaveland avenue</placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="KnightsOL">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Loomis">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Lorimer">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Ludden">
+                  <orgName>Ludden's</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>122 Market street</placeName>
+                  </location>
+                  <bibl corresp="#CT001"/>
+                  <note/>
+               </org>
+               <org xml:id="MarshF">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001"/>
+                  <note/>
+               </org>
+               <org xml:id="Munger">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="NRJC">
+                  <orgName>Never-Rip Jersey Company</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001 #CT002 #CT003 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Newman">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Olsen">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Olson">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="OrienLaun">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="PDArmour">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="PPcar">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="ProhibParty">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="RCRB">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001"/>
+                  <note/>
+               </org>
+               <org xml:id="SN">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Schlessinger">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Schmall">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="Schmidt">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="SecPresb">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Singer">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="SpitLand">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="StJohn">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="StLuke">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Stein">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001 #CT003 #CT006 #CT011 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Swing">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="TailorShop1">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>the corner of Elm and Wesson streets</placeName>
+                  </location>
+                  <bibl corresp="#CT011"/>
+                  <note/>
+               </org>
+               <org xml:id="TailorShop2">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>441 Taylor street</placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="VestMaker1">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="VestMaker2">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>2155 Archer avenue</placeName>
+                  </location>
+                  <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="WCTU">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WDbros">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="WLMC">
+                  <orgName>Western Lace Manufacturing Company</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001 #CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WNL">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WPA">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT001 #CT002"/>
+                  <note/>
+               </org>
+               <org xml:id="WSuff">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WandW">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Wetherell">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT002"/>
+                  <note/>
+               </org>
+               <org xml:id="Willong">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT002"/>
+                  <note/>
+               </org>
+               <org xml:id="WoChrist">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WoCo">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="WoEx">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="Zimmerman">
+                  <orgName></orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT005 #CT014"/>
+                  <note/>
                </org>
                <!-- ADD MORE AS ARTICLES GET CODED, AND ORGANIZATIONS GET ASSIGNED XML:IDs. USE THE FOLLOWING TEMPLATE: -->
                   <!--<org xml:id="">
@@ -127,6 +742,21 @@
          
          <div type="sources">
             <listBibl type="CTarticles">
+               <bibl xml:id="CT">
+                  <title level="s">Chicago Times</title>
+                  <editor>Chapin, Charles</editor>
+                  <edition>Newspaper Print</edition>
+                  <publisher>Chicago Times</publisher>
+                  <pubPlace>Chicago</pubPlace>
+                  <date>1888</date>
+                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <availability>
+                     <p>
+                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                     </p>
+                  </availability>
+                  <note/>
+               </bibl>
                <bibl xml:id="CT001">
                   <title level="a">"City Slave Girls" <date when="1888-07-30"/></title>
                   <title level="s">Chicago Times</title>

@@ -48,7 +48,7 @@
     <text>
         <body>
             <div>
-                <head><title><ref type="newspaperSeries">Chicago Times</ref> <date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title></head>
+                <head><title><name ref="#CT">Chicago Times</name> <date when="1888-07-31">Tuesday Morning, July 31, 1888</date></title></head>
                     <div type="headlines">
                         <list>
                             <item>Further Details of the Factory Investigation Conducted by <hi rend="double"><name ref="#CT">The Times</name>'</hi> Lady Reporter.</item>
@@ -164,7 +164,7 @@
                     <p><said who="#employer" ana="male">Why, I guess so. What's been the matter?</said></p>
                     <p><seg><persName ref="#workingGirl">Annie</persName> rolled <phr><w type="poss" ana="#workingGirl">her</w> <w type="noun">finger</w></phr> up in black fringe, hung <phr><w type="poss" ana="#workingGirl">her</w> <w type="noun">head</w></phr>, and allowed the tears to stream down <phr><w type="poss" ana="#workingGirl">her</w> <w type="noun">cheeks</w></phr>.</seg></p>
                     <p><said who="#messenger" ana="female">Oh she's so sassy</said>, kindly volunteered the mother, <said who="#messenger" ana="female">and she comes home to me with a batch of stories every night about your cuttin' down the prices. Sure I can't believe a word she says.</said></p>
-                    <p><said who="#employer" ana="male">Well, you come in the morning, <persName ref="#workingGirl">Annie</persName>, and I'll see what we can do for you.</said> <seg>With this dismissal poor <persName ref="#workingGirl">Annie</persName> followed <phr><w type="poss" ana="#workingGirl">her</w> <w type="noun">mother</w></phr>, who doubtless felt that she had done <phr type="adj" subtype="poss" ana="#messenger">her <w type="noun" subtype="refTo" ana="#workingGirl">duty</w></phr> by the child.</seg></p>
+                    <p><said who="#employer" ana="male">Well, you come in the morning, <persName ref="#workingGirl">Annie</persName>, and I'll see what we can do for you.</said> <seg>With this dismissal poor <persName ref="#workingGirl">Annie</persName> followed <phr><w type="poss" ana="#workingGirl">her</w> <w type="noun">mother</w></phr>, who doubtless felt that she had done <phr><w type="poss" ana="#messenger">her</w> <w type="noun" subtype="refTo" ana="#workingGirl">duty</w></phr> by the child.</seg></p>
                     <p><seg>I recited <phr><w type="poss" ana="#nellNelson">my</w> <w type="noun">piece</w></phr> to the low-voiced gentleman, who said there was plenty of work in the bustle department, but he guessed it wouldn't be pleasant for me, as the girls were only sixteen or so.</seg> I tried to assure him that I didn't care about the company, that I only wanted a chance to make a living for myself.</p>
                     <p><said who="#employer" ana="male">Well, I don't think you could earn enough to support yourself at machine work. Come in about Monday and I think we can give you something at $3 or so.</said></p>
                     <p><said who="#nellNelson" ana="female">Three dollars a week?</said></p>
