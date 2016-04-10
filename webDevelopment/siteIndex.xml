@@ -596,15 +596,6 @@
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
-               <org xml:id="VestMaker2">
-                  <orgName>A Vestmaker's Place</orgName>
-                  <desc></desc>
-                  <location>
-                     <placeName>2155 Archer avenue</placeName>
-                  </location>
-                  <bibl corresp="#CT004"/>
-                  <note/>
-               </org>
                <org xml:id="WCTU">
                   <orgName>Woman's Christian Temperance Union</orgName>
                   <desc></desc>
