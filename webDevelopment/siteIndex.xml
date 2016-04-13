@@ -397,6 +397,15 @@
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
+               <org xml:id="Oleson">
+                  <orgName><persName>K.B. Oleson</persName>'s Trouser Manufactory</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>Sedgwick street near Division and Superior</placeName>
+                  </location>
+                  <bibl corresp="#CT011 #CT021"/>
+                  <note resp="#ras">A spelling error is printed in article CT011: the company is misspelled as "Olson"</note>
+               </org>
                <org xml:id="Olsen">
                   <orgName>Olsen's</orgName>
                   <desc></desc>
@@ -404,16 +413,7 @@
                      <placeName></placeName>
                   </location>
                   <bibl corresp="#CT014"/>
-                  <note/>
-               </org>
-               <org xml:id="Oleson">
-                  <orgName><persName>K.B. Oleson</persName>'s Trouser Manufactory</orgName>
-                  <desc></desc>
-                  <location>
-                     <placeName>Sedgwick street near Superior and Division</placeName>
-                  </location>
-                  <bibl corresp="#CT011 #CT021"/>
-                  <note/>
+                  <note resp="#ras">In article CT014, this company is only briefly mentioned in a list, and it is possible this is misspelled; it might be the same company as "#Oleson" in articles CT011 and CT021.</note>
                </org>
                <org xml:id="OrienLaun">
                   <orgName>Oriental laundry</orgName>
