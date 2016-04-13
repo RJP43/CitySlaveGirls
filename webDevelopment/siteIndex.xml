@@ -1448,7 +1448,7 @@
                   <p>Reference to a specific archetype found in article <ref corresp="#CT004">1888-08-02</ref>.</p>
                </nym>
                <nym xml:id="messenger">
-                  <re></re>
+                  <re>Messenger</re>
                   <p>Reference to an otherwise unlabeled character that speaks on the behalf of another person (typically family tie speaking on behalf of an employee/working girl).</p>
                </nym>
                <nym xml:id="unidentified">
