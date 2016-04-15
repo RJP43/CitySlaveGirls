@@ -6,18 +6,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:id="WSGC13">Section 13</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="a" xml:id="WSGC13">Section 13</title>
+                <!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter -->
+                <!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
                 <title level="m">The White Slave Girls of Chicago</title>
-                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire
+                        server</ref> at the <ref target="http://www.psc.edu">Pittsburgh
+                        Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+                    server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp -->
                 </respStmt>
                 <respStmt>
-                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <resp>with assistance from the Digital Humanities courses at the University of
+                        Pittsburgh at Greensburg from 2014-2016, from</resp>
                     <persName>Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
@@ -29,13 +36,22 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06"
+                        >2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->.
+                    This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s
+                    in-depth capstone paper and presentation for completion of a History based
+                    Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at
+                        Greensburg</placeName>. Work to create the digital aspects of the project
+                    begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
                 <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
                 <date>2014</date>
-                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
@@ -59,9 +75,16 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the source text.
+                    Representation of tables, graphs, signage, and contracts may be altered so as to
+                    make a clearer depiction for this digital version of the text; however, the
+                    information portrayed in the digital version will be consistent with the
+                    original. When the source text is unreadable due to the age or handling of the
+                    document we are using the elements damage, unclear, and supplied in combination
+                    to provide our best interpretation of the text.</p>
             </editorialDecl>
-            
+
         </encodingDesc>
     </teiHeader>
     <text>
@@ -69,319 +92,288 @@
             <div>
                 <div type="headlines">
                     <list>
-                        <item>A BASEMENT THAT ON A HOT DAY IS SO STIFLING IT REMINDS ONE OF THE "BLACK HOLE OF CALCUTTA."</item>
-                        <item>WORKING FROM 7:45 UNTIL 6:30 AND RECEIVING IN EXCHANGE FOR THE TERRIBLE DRUDGERY AND HARD LABOR A MISERLY $2 OR $3 A WEEK.</item>
+                        <item>A BASEMENT THAT ON A HOT DAY IS SO STIFLING IT REMINDS ONE OF THE
+                            "BLACK HOLE OF CALCUTTA."</item>
+                        <item>WORKING FROM 7:45 UNTIL 6:30 AND RECEIVING IN EXCHANGE FOR THE
+                            TERRIBLE DRUDGERY AND HARD LABOR A MISERLY $2 OR $3 A WEEK.</item>
                     </list>
                 </div>
                 <div type="sectionBody">
                     <pb n="83"/>
-                    <p>For dismal surroundings, economy of comforts, and heartless
-treatment, to the B. store belongs the palm.</p>
-<p>I did not work in that establishment, although I tried very
-hard to do so. I was in the store at 8 o'clock on Friday morning as arranged with Mr. H. who had partially promised to hire
-me. "One of the girls in the hosiery department" he had
-said "is sick, and if she doesn't come back Friday morning I
-will try you."</p>
-<p>I could not find the gentleman, although I hunted the main
-floor and the floors above and below. My plan of fluctuation
-was to take the elevator up one story and walk down, then ride
-up two and walk down the third flight. In that way I took in
-the entire store and a great part of the employes. I began at
-the bottom and spent a full hour in the basement, where I saw
-so much and suffered so much that the upper floors had no surprises for me. In the first place the atmosphere was almost
-unendurable.</p>
-<p>Hot! It must have been 100 degrees above!</p>
-<p>Out in the open air not a breeze was stirring and the heat
-was sizzling. Down where I was I could not see a single
-opening to admit the air, fiery as it was, except the open door
-<pb n="84"/>
-at the extreme southeast corner of the floor, leading up a short
-pair of steps to the sidewalk. About this doorway so many
-goods were piled and draped and hung that the passage of air
-was obstructed. There must have been forty, and there may
-have been eighty, clerks, cash boys, and girls on this floor and
-five times that number of customers surged in and out under
-the glaring rays of gas-jets and electric burners. Babies
-squirmed and cried under the suffocating heat; children
-screamed and fretted; men and women fanned and wiped their
-faces, but the little cash girls and the languid clerks endured
-their prison uncomplaining. Add to the heat from gas-jets,
-electric lights, and machinery, the exhalations from so many
-people, the moldy smell from damaged goods, the dampness of
-the freshly mopped floor, the fumes from a stray disinfectant,
-and the mildew that lurked in dark corners, and you have some
-idea of the quarters in which customers are invited to look for
-bargains, and where helpless, honest, freeborn American men
-and women, boys and girls are forced to work for clothes and
-bread.</p>
-<p>What about the soul? It's mockery to mention it to these
-slaves in such a dungeon.</p>
-<p>On a rude plank door painted black is the word "Ladies."
-The irony of it! "Serfs" would be less impertinent and
-"bond-women" or "drudges" better than either.</p>
-<p>The door yields to my touch and I enter the toilet and cloak
-room. The atmosphere is so intense and the effluvia so offensive that I am almost stifled. A window about eighteen inches
-square has been cut in the side of the staircase leading from the
-street, and here I stand, my face turned up to the clouds of
-dust that float in from the feet and skirts of the passing customers. By and by I get accustomed to the foulness and turn
-round to explore the place. The floor is black and wet from
-recent mopping; the janitor has swept all the previous day's
-rubbish in from the basement and it forms a big pile behind
-<pb n="85"/>
-the door. There is only one gas-jet in the room and I do not
-see the wet sweepings until I have stepped in them. On either
-side of the inclosure are the cloak-boxes, communication to
-which is afforded by a window a foot square. A young and
-very pretty colored woman is in one section and in the opposite window is a little boy possibly 13 years old. All the female
-help pass their hats, wraps and lunches through these windows,
-and they are put in a cubby-hole the number of which corresponds to the number of the clerk. The smell of mold forcibly
-assails the senses, and mingled with the foul odor of the adjoining closets the effect on the lunches must be left to the
-imagination. On the east side of the partition is the toilet
-inclosure, built like the rest under the pavement. But for the
-perforated coal-hole covers over head the place would be pitch
-dark. It is damp, dirty and smelly, the stone sidewalk forming a ceiling, and gray flagstones the floor. The closets, four
-or five in number, have not even the luxury of doors, and in a
-space at one end is a dirty little iron sink into which runs a
-stream of water. As only two girls can approach the narrow
-trough for water at a time it is not hard for the reader to understand how great a luxury this single stream of clear, cool water
-is to the slave-girls. At one time I counted twenty-eight girls
-in this filthy little hole, which is unfit for cattle and in which
-no man would water a faithful dog.</p>
-<p>When I had accustomed myself to the deadly smell that pervaded the place it was 9:30 o'clock and the girls were beginning to come in to wash their hands and clean up, after arranging their stock. About the little mirror were seven girls, some
-combing their hair, some dressing it, and all trying to get a
-peep at their wan faces. The closets were crowded, and while
-three young girls were washing at the sink five moved about
-with bits of soap in their hands, their arms and faces covered
-with lather. The soap may have been furnished by the house,
-but of the absence of towels I am positive. Most of the girls
-<pb n="86"/>
-had their own comb, soap and towel, and where do you suppose they carried them?</p>
-<p>In the bosom of their dresses.</p>
-<p>I cautioned a girl who had opened the front of her waist
-against putting the wet towel so near her breast, but she only
-laughed and said "nothin'll hurt me."</p>
-<p>"But it is wet and may cause a lung trouble."</p>
-<p>"Indeed it won't. I used to put it there all last winter, and
-it didn't hurt me. When it was awful cold I wore it home
-and I never even had a cold." As she spoke she folded the
-little towel, and laying it against her underwaist buttoned her
-dress and went to the hole in the north cloak box for a glass of
-lemonade. I told her I was very thirsty and asked for a drink.
-"Oh, you have to pay. It's 3 cents a glass."</p>
-<p>The colored girl and her little white slave had a bucket full
-of the beverage—a very excellent article, by the way which
-they retailed at the price stated. The ebony vender refused to
-sell to me till I convinced her that I expected to commence in
-the hosiery stock as soon as Mr. H. came down. The girl
-with the wet damask in her bosom drained her glass to the
-last drop, ate the slices of lemon rind and pulp, and with the
-help of her finger transferred every grain of undissolved sugar
-to her mouth. She lapped the mouth of the glass with her
-tongue and when the boy took it from the ledge it was as dry
-as could be. I could not get her to confide her salary, but she
-said: "It ain't nothing like $5. For two years I only got
-$3, but now I have more."</p>
-<p>I found a girl named Bessie in the closet-room lying against
-the wall, the very picture of death. Her face had no more
-color in it than a china cup, her lips were blue, dark lines
-increased the brilliancy of her blue eyes, and her hands were
-cold and clammy. She told me she was "awful sick," but her
-mother made her come because she didn't want her to lose
-her place.</p>
-<pb n="87"/>
-<p>"The floor-walker 'ud leave me go home if I ast him, but I
-havn't any car-fare and I don't want to walk. I lost my tea
-money and all cornin' down in the cars this morning. I was
-asleep." I offered to pay her car-fare.</p>
-<p>"No; if I ride in the air I'll be better before I get to the
-bridge."</p>
-<p>I bought her a glass of lemonade and gave her "tea pennies"
-for a week, after which we became quite confidential.</p>
-<p>"I get $2 a week here, and give it to my mother to buy
-meat. Sometimes I ride home, but them's the days that I
-don't buy tea, cause it costs too much for both. The tea is 3
-cents a cup and the car-fare, if you ride both ways, is 10 cents,
-and that's 13 cents."</p>
-<p>Seventy-eight cents subtracted from $2 would leave a
-precious small sum for meat.</p>
-<p>"The most I ever spend is 50 cents a week. That's how
-much mother lets me keep out. Oh, there kind of good to us.
-Last night when it rained Mr. H. gave nickles to the cash
-girls that didn't have car-fare nor gossamers. But I guess
-he'll keep it out of their wages pay-day. Some of the clerks
-don't be good to us. They pull us everywhere and push us
-when we don't go fast, and we never dast ride in the elevator.
-The clerks can, but the cash-girls has to walk. They don't
-fine us if we come late, though, and they do the clerks, some
-15 cents and some 25 cents, and if any of us is sick we lose the
-whole day out of our wages. The one I like most is Miss
-Gannon; she is awful good; she puts three lumps in the tea,
-and trusts the girls when they haven't any tea pennies."</p>
-<p>A larger girl, possibly nineteen, showed me her odd shoes.</p>
-<p>"I'm wearing this one with the tips to break it in. I have
-to stand all day and my feet are so sore I can hardly bear a
-new shoe. I got these new ones in June. Oh, they'll last till
-Christmas I guess. My salary is five dollars a week, but I
-don't save anything. My mother takes it all for the groceries.
-<pb n="88"/>
-I don't know what I'm going to do. Clerking is very hard
-but I can't sew or I'd go and work in a necktie factory where
-girls get ten dollars. Do house-work? No, I wouldn't like to
-live out. I can't cook anyway. I could mind the children,
-but nurse girls only get twelve dollars a month. Yes, I know
-they have their board. No, not their washing. If you don't
-help the kitchen girls whenever they tell you you have to do
-your own washing, and I'd rather than have them bossing
-me.</p>
-<p>A mite of a cash girl who wore broken slippers, said she had
-better shoes at home, but it was so hard running all day that
-she couldn't wear them.</p>
-<p>One of a cluster of girls from the grocery floor who were
-earning $3 and $3.50 a week said: "People talk bad about
-the B-store but it's as good as any of them. We needn't
-be at the store till eight in the morning and they never fine us
-if we're late. Lots of times when I have been sick the floor-
-walker has told me to go out and walk round and if I didn't
-feel better when I came back he let me go home. If it rains
-Mr. N. lends us car-fare. He never said to pay him back but
-I always did. We get 'p. ms.' too, and last week I made
-eighty cents extra. At noon we can take forty minutes and
-go where we like. We girls always go to Cooper &amp; Siegel's
-and eat in the basement. At the Fair they give you a dinner
-for twenty-five cents, and whenever we have a lot of 'p. ms.' 
-we eat there."</p>
-<p>"Why don't you eat up stairs in the lunch room?" I asked.</p>
-<p>"Well, 'cause the benches havn't any backs, and it's nicer
-to go out for a change."</p>
-Like "the wards of Jarndyce,"<!-- RJP:10/25/15: reference to Bleak House, a novel by Charles Dickens --> caged up in this place of
-abomination that the heavenly compassion of the proprietors
-have provided for their hapless "ladies," I met hope, youth,
-squalor, want, disease, despair, woe, cunning, innocence, rags,
-beauty, bravery and industry variously personified in all
-<pb n="89"/>
-stages of miserable girlhood and womanhood. Much of the
-talk I heard was coarse, indicative of ignorance and low
-breeding, but I saw no evidence of depravity or viciousness.
-One hears a great deal about the purchase of the shop-girl, but
-the insinuations are as false as they are base. The skeptic has
-only to look at the garb of these poor pale-faced, stoop-shouldered girls to admit their virtue. Vice is better dressed. I
-spent an hour or more on the main floor watching the swarming customers joggle one another and haggle with the young
-girls who waited on them. So many people in the densely-
-stocked, over-crowded, ill-ventilated room polluted the atmosphere, making the strong weak and the weak sick. Every
-available foot of space was utilized, some of the counters consisting of pine boxes on the side of which emaciated children
-measured fringes, trimmings, ribbons, and cheap stuffs. One
-of these troughs filled with Hamburg edging was placed
-between the two elevators, and the little girls in charge were
-knocked and pushed about by the hurrying crowd in a most
-unseemly manner. I did not see any girl sitting down nor any
-provision for a momentary rest. There was no mistaking the
-poverty of the homes from which these hapless young creatures
-came, for their garments were old and shabby and in many
-cases unclean, unkept, and unsuitable. Worse than their
-clothes was the unkept condition of the hair and person of
-some young girls. As in the adjoining establishment, I saw
-girls waiting on customers in their stocking feet. I saw the
-floor-walker push and drag the young girls about and the
-managers bully and drive both. One of these dignitaries, a
-tall, argus-eyed blonde, with stooped shoulders and a drooping
-head, was the right man in the right place. Everybody dispersed at his coming. His scowl was something terrorizing,
-and had I been a subordinate and given the choice of the
-lash and one of his glances of reproof, I should have taken the
-former. There was another head, a tall, compactly-built
-<pb n="90"/>
-brunette, almost as formidable, who had a pair of eyes that
-seemed to burn holes in everything and everybody contemplated.
-The same sweltering crowd harassed the clerks on the second, third and fourth floors, and on the fifth the sight of so
-many little drudges selling groceries or handling goods made
-one feel ashamed of the civilization that fostered such a condition of woman. The younger girls in many instances wore
-big check aprons to screen rather than save the worthless
-little dresses beneath. It was harrowing to see these children,
-boys of ten and twelve, and fragile girls of eleven, twelve,
-thirteen, and fourteen, carrying boxes of soap, starch, and
-candles, packages of buck-wheat, salt, and hominy, and cans
-filled with oils, sirups, vinegars, and the like. The men in
-charge had no hesitancy in commanding these transfers, calling
-Maggie and Mary as often as John or Dick to make the
-removal. I saw one little boy of slight build with a sweet but
-very sad face, dragging a bag of coffee that would have been a
-strain on the muscles of a strong man, and a little Swede girl
-who said she was thirteen in March, had a box of canned
-vegetables in her arms the weight of which made her black in
-the face.
-There is a ruin of youth and beauty which is more appalling
-than age, and into such ruin has the youthful grace, vigorous
-beauty and the charm of gladness and trust of these immature
-lives fallen. There was no inclination to frolic, no merry bantering, and no semblance of childish glee among the little serfs.
-A bridge of sighs spans the alley on the fifth floor, bringing
-the two stores of Messrs. C. W. &amp; E. P. into communication.
-Across this covered passage in the P. store proper, is a small
-room in the rear of the floor which is used as a cafe by the
-female help of the B. store. The furniture consists of two
-narrow tables and three long benches extending the length of
-the apartment. The benches had no rung or rest for the back,
-<pb n="91"/>
-and here the young women and check-girls sit at noon over
-their lunch. On the wall is an expansive sheet of ecru paper
-bearing this inscription:
-"Female clerks and check-girls: You are requested not to
-eat on the stairs or anywhere else. You will keep to the
-right coming up, and to the left going down. You will not
-talk on the way nor take hold of each other's hands, but walk
-by yourselves. Anyone breaking this rule will be discharged.
-Apropos of signs I forgot to say that in the basement where
-the cloak-room is designated this notice appeared in bold relief:
-The girl who took the silk umbrella
-Saturday is known. If it is not returned at once she will have to take
-the consequences.
-Another less conspicuously placed sign read:
-All female employes will be ready
-for work at 7:45 A.M., under penalty.
-Miss Gannon who has charge of the kitchen, is the good angel of the place. She is a plump, nice-looking person of splendid presence, with mild eyes, a firm face, sweet voice, and a
-heart brimful of motherly tenderness. She makes tea and lemonade, which, with fresh milk is retailed at 3 cents a glass.
-The tea has cream in it and the three lumps of sugar that go
-with each cup are a gastronomical treat to the little ones who
-drink the Japan first and save the sugar cubes for desert.
-When I found Mr. H. he called his assistant, the lowering
-brunette with the fiery eyes, who told me he had no opening—
-told it, too, with a degree of positiveness that left no room for.
-<pb n="92"/>
-argument. With this summary dismissal after waiting nearly
-two hours, I rode up to the top floor to see if I could not find
-an opening in the grocery store. Mr. S. was hung up in a side
-gallery midway between the ceiling and floor with a dozen or
-more perspiring clerks. It did not take me long to discover
-that I was being pursued, for I had not been engaged two minutes with the head of the mailing department, a most arbitrary,
-red-haired, narrow-chested creature of 30 or so, before Messrs.
-H. and N. sent him word to appear at once. Before leaving
-Mr. S. said he would hire me if I had references that would
-satisfy him as to my "honesty and respectability," but when
-he returned from the one-minute interview with the managers
-a great change had come over him.
-"No, I can't hire you until I know something about you.
-You are a stranger to me. I will want you to fill the country
-orders and there will be plenty of chances for a dishonest girl
-to steal gloves, handkerchiefs, jewelry, and other articles that
-can be secreted in the pocket. I must have a letter from some
-firm or corporation."
-I offered to furnish a letter from a minister but it was declined as "no good." On the promise that I should be engaged
-as soon as I produced the indorsement of a firm or corporation
-I withdrew and returned in an hour with the following:
-"Chicago, Aug. 3, 1888.—To whom it may concern: This is
-to certify that the bearer is a young lady who has worked in our costume
-department during the production of "The Crystal Slipper," and is thoroughly trustworthy and efficient and we can recommend her to any similar position.	Thomas W. Prior,
-Business Manager and Treasurer Chicago Opera House."
-After persuing it, Mr. S. called a little girl, and pinning my
-letter to a note of his own, sent it to Mr. H. The dignitary
-appeared, and in a very ambiguous style declined my services.
-I learned afterward that A. E., the cloak manufacturer, had
-<pb n="93"/>
-"warded" the B. store, and while I was off getting my letter
-that benevolent man had furnished a description.
-It is a little singular that while the B. store refused to give
-me a position as clerk, a most urgent invitation was sent to
-The Times requesting that a reporter be sent to examine the
-books and methods of the concern. By way of inducement a
-voluminous account accompanied the invitation relative to salaries, rules, etc.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                    <p>For dismal surroundings, economy of comforts, and heartless treatment, to the
+                        B. store belongs the palm.</p>
+                    <p>I did not work in that establishment, although I tried very hard to do so. I
+                        was in the store at 8 o'clock on Friday morning as arranged with Mr. H. who
+                        had partially promised to hire me. "One of the girls in the hosiery
+                        department" he had said "is sick, and if she doesn't come back Friday
+                        morning I will try you."</p>
+                    <p>I could not find the gentleman, although I hunted the main floor and the
+                        floors above and below. My plan of fluctuation was to take the elevator up
+                        one story and walk down, then ride up two and walk down the third flight. In
+                        that way I took in the entire store and a great part of the employes. I
+                        began at the bottom and spent a full hour in the basement, where I saw so
+                        much and suffered so much that the upper floors had no surprises for me. In
+                        the first place the atmosphere was almost unendurable.</p>
+                    <p>Hot! It must have been 100 degrees above!</p>
+                    <p>Out in the open air not a breeze was stirring and the heat was sizzling. Down
+                        where I was I could not see a single opening to admit the air, fiery as it
+                        was, except the open door <pb n="84"/> at the extreme southeast corner of
+                        the floor, leading up a short pair of steps to the sidewalk. About this
+                        doorway so many goods were piled and draped and hung that the passage of air
+                        was obstructed. There must have been forty, and there may have been eighty,
+                        clerks, cash boys, and girls on this floor and five times that number of
+                        customers surged in and out under the glaring rays of gas-jets and electric
+                        burners. Babies squirmed and cried under the suffocating heat; children
+                        screamed and fretted; men and women fanned and wiped their faces, but the
+                        little cash girls and the languid clerks endured their prison uncomplaining.
+                        Add to the heat from gas-jets, electric lights, and machinery, the
+                        exhalations from so many people, the moldy smell from damaged goods, the
+                        dampness of the freshly mopped floor, the fumes from a stray disinfectant,
+                        and the mildew that lurked in dark corners, and you have some idea of the
+                        quarters in which customers are invited to look for bargains, and where
+                        helpless, honest, freeborn American men and women, boys and girls are forced
+                        to work for clothes and bread.</p>
+                    <p>What about the soul? It's mockery to mention it to these slaves in such a
+                        dungeon.</p>
+                    <p>On a rude plank door painted black is the word "Ladies." The irony of it!
+                        "Serfs" would be less impertinent and "bond-women" or "drudges" better than
+                        either.</p>
+                    <p>The door yields to my touch and I enter the toilet and cloak room. The
+                        atmosphere is so intense and the effluvia so offensive that I am almost
+                        stifled. A window about eighteen inches square has been cut in the side of
+                        the staircase leading from the street, and here I stand, my face turned up
+                        to the clouds of dust that float in from the feet and skirts of the passing
+                        customers. By and by I get accustomed to the foulness and turn round to
+                        explore the place. The floor is black and wet from recent mopping; the
+                        janitor has swept all the previous day's rubbish in from the basement and it
+                        forms a big pile behind <pb n="85"/> the door. There is only one gas-jet in
+                        the room and I do not see the wet sweepings until I have stepped in them. On
+                        either side of the inclosure are the cloak-boxes, communication to which is
+                        afforded by a window a foot square. A young and very pretty colored woman is
+                        in one section and in the opposite window is a little boy possibly 13 years
+                        old. All the female help pass their hats, wraps and lunches through these
+                        windows, and they are put in a cubby-hole the number of which corresponds to
+                        the number of the clerk. The smell of mold forcibly assails the senses, and
+                        mingled with the foul odor of the adjoining closets the effect on the
+                        lunches must be left to the imagination. On the east side of the partition
+                        is the toilet inclosure, built like the rest under the pavement. But for the
+                        perforated coal-hole covers over head the place would be pitch dark. It is
+                        damp, dirty and smelly, the stone sidewalk forming a ceiling, and gray
+                        flagstones the floor. The closets, four or five in number, have not even the
+                        luxury of doors, and in a space at one end is a dirty little iron sink into
+                        which runs a stream of water. As only two girls can approach the narrow
+                        trough for water at a time it is not hard for the reader to understand how
+                        great a luxury this single stream of clear, cool water is to the
+                        slave-girls. At one time I counted twenty-eight girls in this filthy little
+                        hole, which is unfit for cattle and in which no man would water a faithful
+                        dog.</p>
+                    <p>When I had accustomed myself to the deadly smell that pervaded the place it
+                        was 9:30 o'clock and the girls were beginning to come in to wash their hands
+                        and clean up, after arranging their stock. About the little mirror were
+                        seven girls, some combing their hair, some dressing it, and all trying to
+                        get a peep at their wan faces. The closets were crowded, and while three
+                        young girls were washing at the sink five moved about with bits of soap in
+                        their hands, their arms and faces covered with lather. The soap may have
+                        been furnished by the house, but of the absence of towels I am positive.
+                        Most of the girls <pb n="86"/> had their own comb, soap and towel, and where
+                        do you suppose they carried them?</p>
+                    <p>In the bosom of their dresses.</p>
+                    <p>I cautioned a girl who had opened the front of her waist against putting the
+                        wet towel so near her breast, but she only laughed and said "nothin'll hurt
+                        me."</p>
+                    <p>"But it is wet and may cause a lung trouble."</p>
+                    <p>"Indeed it won't. I used to put it there all last winter, and it didn't hurt
+                        me. When it was awful cold I wore it home and I never even had a cold." As
+                        she spoke she folded the little towel, and laying it against her underwaist
+                        buttoned her dress and went to the hole in the north cloak box for a glass
+                        of lemonade. I told her I was very thirsty and asked for a drink. "Oh, you
+                        have to pay. It's 3 cents a glass."</p>
+                    <p>The colored girl and her little white slave had a bucket full of the
+                        beverage—a very excellent article, by the way which they retailed at the
+                        price stated. The ebony vender refused to sell to me till I convinced her
+                        that I expected to commence in the hosiery stock as soon as Mr. H. came
+                        down. The girl with the wet damask in her bosom drained her glass to the
+                        last drop, ate the slices of lemon rind and pulp, and with the help of her
+                        finger transferred every grain of undissolved sugar to her mouth. She lapped
+                        the mouth of the glass with her tongue and when the boy took it from the
+                        ledge it was as dry as could be. I could not get her to confide her salary,
+                        but she said: "It ain't nothing like $5. For two years I only got $3, but
+                        now I have more."</p>
+                    <p>I found a girl named Bessie in the closet-room lying against the wall, the
+                        very picture of death. Her face had no more color in it than a china cup,
+                        her lips were blue, dark lines increased the brilliancy of her blue eyes,
+                        and her hands were cold and clammy. She told me she was "awful sick," but
+                        her mother made her come because she didn't want her to lose her place.</p>
+                    <pb n="87"/>
+                    <p>"The floor-walker 'ud leave me go home if I ast him, but I havn't any
+                        car-fare and I don't want to walk. I lost my tea money and all cornin' down
+                        in the cars this morning. I was asleep." I offered to pay her car-fare.</p>
+                    <p>"No; if I ride in the air I'll be better before I get to the bridge."</p>
+                    <p>I bought her a glass of lemonade and gave her "tea pennies" for a week, after
+                        which we became quite confidential.</p>
+                    <p>"I get $2 a week here, and give it to my mother to buy meat. Sometimes I ride
+                        home, but them's the days that I don't buy tea, cause it costs too much for
+                        both. The tea is 3 cents a cup and the car-fare, if you ride both ways, is
+                        10 cents, and that's 13 cents."</p>
+                    <p>Seventy-eight cents subtracted from $2 would leave a precious small sum for
+                        meat.</p>
+                    <p>"The most I ever spend is 50 cents a week. That's how much mother lets me
+                        keep out. Oh, there kind of good to us. Last night when it rained Mr. H.
+                        gave nickles to the cash girls that didn't have car-fare nor gossamers. But
+                        I guess he'll keep it out of their wages pay-day. Some of the clerks don't
+                        be good to us. They pull us everywhere and push us when we don't go fast,
+                        and we never dast ride in the elevator. The clerks can, but the cash-girls
+                        has to walk. They don't fine us if we come late, though, and they do the
+                        clerks, some 15 cents and some 25 cents, and if any of us is sick we lose
+                        the whole day out of our wages. The one I like most is Miss Gannon; she is
+                        awful good; she puts three lumps in the tea, and trusts the girls when they
+                        haven't any tea pennies."</p>
+                    <p>A larger girl, possibly nineteen, showed me her odd shoes.</p>
+                    <p>"I'm wearing this one with the tips to break it in. I have to stand all day
+                        and my feet are so sore I can hardly bear a new shoe. I got these new ones
+                        in June. Oh, they'll last till Christmas I guess. My salary is five dollars
+                        a week, but I don't save anything. My mother takes it all for the groceries.
+                            <pb n="88"/> I don't know what I'm going to do. Clerking is very hard
+                        but I can't sew or I'd go and work in a necktie factory where girls get ten
+                        dollars. Do house-work? No, I wouldn't like to live out. I can't cook
+                        anyway. I could mind the children, but nurse girls only get twelve dollars a
+                        month. Yes, I know they have their board. No, not their washing. If you
+                        don't help the kitchen girls whenever they tell you you have to do your own
+                        washing, and I'd rather than have them bossing me.</p>
+                    <p>A mite of a cash girl who wore broken slippers, said she had better shoes at
+                        home, but it was so hard running all day that she couldn't wear them.</p>
+                    <p>One of a cluster of girls from the grocery floor who were earning $3 and
+                        $3.50 a week said: "People talk bad about the B-store but it's as good as
+                        any of them. We needn't be at the store till eight in the morning and they
+                        never fine us if we're late. Lots of times when I have been sick the floor-
+                        walker has told me to go out and walk round and if I didn't feel better when
+                        I came back he let me go home. If it rains Mr. N. lends us car-fare. He
+                        never said to pay him back but I always did. We get 'p. ms.' too, and last
+                        week I made eighty cents extra. At noon we can take forty minutes and go
+                        where we like. We girls always go to Cooper &amp; Siegel's and eat in the
+                        basement. At the Fair they give you a dinner for twenty-five cents, and
+                        whenever we have a lot of 'p. ms.' we eat there."</p>
+                    <p>"Why don't you eat up stairs in the lunch room?" I asked.</p>
+                    <p>"Well, 'cause the benches havn't any backs, and it's nicer to go out for a
+                        change."</p>
+                    <p>Like "the wards of
+                        Jarndyce,"<!-- RJP:10/25/15: reference to Bleak House, a novel by Charles Dickens -->
+                        caged up in this place of abomination that the heavenly compassion of the
+                        proprietors have provided for their hapless "ladies," I met hope, youth,
+                        squalor, want, disease, despair, woe, cunning, innocence, rags, beauty,
+                        bravery and industry variously personified in all <pb n="89"/> stages of
+                        miserable girlhood and womanhood. Much of the talk I heard was coarse,
+                        indicative of ignorance and low breeding, but I saw no evidence of depravity
+                        or viciousness. One hears a great deal about the purchase of the shop-girl,
+                        but the insinuations are as false as they are base. The skeptic has only to
+                        look at the garb of these poor pale-faced, stoop-shouldered girls to admit
+                        their virtue. Vice is better dressed. I spent an hour or more on the main
+                        floor watching the swarming customers joggle one another and haggle with the
+                        young girls who waited on them. So many people in the densely- stocked,
+                        over-crowded, ill-ventilated room polluted the atmosphere, making the strong
+                        weak and the weak sick. Every available foot of space was utilized, some of
+                        the counters consisting of pine boxes on the side of which emaciated
+                        children measured fringes, trimmings, ribbons, and cheap stuffs. One of
+                        these troughs filled with Hamburg edging was placed between the two
+                        elevators, and the little girls in charge were knocked and pushed about by
+                        the hurrying crowd in a most unseemly manner. I did not see any girl sitting
+                        down nor any provision for a momentary rest. There was no mistaking the
+                        poverty of the homes from which these hapless young creatures came, for
+                        their garments were old and shabby and in many cases unclean, unkept, and
+                        unsuitable. Worse than their clothes was the unkept condition of the hair
+                        and person of some young girls. As in the adjoining establishment, I saw
+                        girls waiting on customers in their stocking feet. I saw the floor-walker
+                        push and drag the young girls about and the managers bully and drive both.
+                        One of these dignitaries, a tall, argus-eyed blonde, with stooped shoulders
+                        and a drooping head, was the right man in the right place. Everybody
+                        dispersed at his coming. His scowl was something terrorizing, and had I been
+                        a subordinate and given the choice of the lash and one of his glances of
+                        reproof, I should have taken the former. There was another head, a tall,
+                        compactly-built <pb n="90"/> brunette, almost as formidable, who had a pair
+                        of eyes that seemed to burn holes in everything and everybody
+                        contemplated.</p>
+                    <p>The same sweltering crowd harassed the clerks on the second, third and fourth
+                        floors, and on the fifth the sight of so many little drudges selling
+                        groceries or handling goods made one feel ashamed of the civilization that
+                        fostered such a condition of woman. The younger girls in many instances wore
+                        big check aprons to screen rather than save the worthless little dresses
+                        beneath. It was harrowing to see these children, boys of ten and twelve, and
+                        fragile girls of eleven, twelve, thirteen, and fourteen, carrying boxes of
+                        soap, starch, and candles, packages of buck-wheat, salt, and hominy, and
+                        cans filled with oils, sirups, vinegars, and the like. The men in charge had
+                        no hesitancy in commanding these transfers, calling Maggie and Mary as often
+                        as John or Dick to make the removal. I saw one little boy of slight build
+                        with a sweet but very sad face, dragging a bag of coffee that would have
+                        been a strain on the muscles of a strong man, and a little Swede girl who
+                        said she was thirteen in March, had a box of canned vegetables in her arms
+                        the weight of which made her black in the face.</p>
+                    <p>There is a ruin of youth and beauty which is more appalling than age, and
+                        into such ruin has the youthful grace, vigorous beauty and the charm of
+                        gladness and trust of these immature lives fallen. There was no inclination
+                        to frolic, no merry bantering, and no semblance of childish glee among the
+                        little serfs. A bridge of sighs spans the alley on the fifth floor, bringing
+                        the two stores of Messrs. C. W. &amp; E. P. into communication. Across this
+                        covered passage in the P. store proper, is a small room in the rear of the
+                        floor which is used as a cafe by the female help of the B. store. The
+                        furniture consists of two narrow tables and three long benches extending the
+                        length of the apartment. The benches had no rung or rest for the back, <pb
+                            n="91"/> and here the young women and check-girls sit at noon over their
+                        lunch. On the wall is an expansive sheet of ecru paper bearing this
+                        inscription:</p>
+                    <p>"Female clerks and check-girls: You are requested not to eat on the stairs or
+                        anywhere else. You will keep to the right coming up, and to the left going
+                        down. You will not talk on the way nor take hold of each other's hands, but
+                        walk by yourselves. Anyone breaking this rule will be discharged. Apropos of
+                        signs I forgot to say that in the basement where the cloak-room is
+                        designated this notice appeared in bold relief:</p>
+                    <p>The girl who took the silk umbrella Saturday is known. If it is not returned
+                        at once she will have to take the consequences.</p>
+                    <p>Another less conspicuously placed sign read:</p>
+                    <p>All female employes will be ready for work at 7:45 A.M., under penalty.</p>
+                    <p>Miss Gannon who has charge of the kitchen, is the good angel of the place.
+                        She is a plump, nice-looking person of splendid presence, with mild eyes, a
+                        firm face, sweet voice, and a heart brimful of motherly tenderness. She
+                        makes tea and lemonade, which, with fresh milk is retailed at 3 cents a
+                        glass. The tea has cream in it and the three lumps of sugar that go with
+                        each cup are a gastronomical treat to the little ones who drink the Japan
+                        first and save the sugar cubes for desert.</p>
+                    <p>When I found Mr. H. he called his assistant, the lowering brunette with the
+                        fiery eyes, who told me he had no opening— told it, too, with a degree of
+                        positiveness that left no room for. <pb n="92"/> argument. With this summary
+                        dismissal after waiting nearly two hours, I rode up to the top floor to see
+                        if I could not find an opening in the grocery store. Mr. S. was hung up in a
+                        side gallery midway between the ceiling and floor with a dozen or more
+                        perspiring clerks. It did not take me long to discover that I was being
+                        pursued, for I had not been engaged two minutes with the head of the mailing
+                        department, a most arbitrary, red-haired, narrow-chested creature of 30 or
+                        so, before Messrs. H. and N. sent him word to appear at once. Before leaving
+                        Mr. S. said he would hire me if I had references that would satisfy him as
+                        to my "honesty and respectability," but when he returned from the one-minute
+                        interview with the managers a great change had come over him.</p>
+                    <p>"No, I can't hire you until I know something about you. You are a stranger to
+                        me. I will want you to fill the country orders and there will be plenty of
+                        chances for a dishonest girl to steal gloves, handkerchiefs, jewelry, and
+                        other articles that can be secreted in the pocket. I must have a letter from
+                        some firm or corporation."</p>
+                    <p>I offered to furnish a letter from a minister but it was declined as "no
+                        good." On the promise that I should be engaged as soon as I produced the
+                        indorsement of a firm or corporation I withdrew and returned in an hour with
+                        the following:</p>
+                    <p>"Chicago, Aug. 3, 1888.—To whom it may concern: This is to certify that the
+                        bearer is a young lady who has worked in our costume department during the
+                        production of "The Crystal Slipper," and is thoroughly trustworthy and
+                        efficient and we can recommend her to any similar position. Thomas W. Prior,
+                        Business Manager and Treasurer Chicago Opera House."</p>
+                    <p>After persuing it, Mr. S. called a little girl, and pinning my letter to a
+                        note of his own, sent it to Mr. H. The dignitary appeared, and in a very
+                        ambiguous style declined my services. I learned afterward that A. E., the
+                        cloak manufacturer, had <pb n="93"/> "warded" the B. store, and while I was
+                        off getting my letter that benevolent man had furnished a description.</p>
+                    <p>It is a little singular that while the B. store refused to give me a position
+                        as clerk, a most urgent invitation was sent to The Times requesting that a
+                        reporter be sent to examine the books and methods of the concern. By way of
+                        inducement a voluminous account accompanied the invitation relative to
+                        salaries, rules, etc.</p>
                 </div>
             </div>
         </body>

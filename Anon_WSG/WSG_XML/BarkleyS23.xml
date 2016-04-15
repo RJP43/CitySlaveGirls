@@ -6,18 +6,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:id="WSGC23">Section 23</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="a" xml:id="WSGC23">Section 23</title>
+                <!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter -->
+                <!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
                 <title level="m">The White Slave Girls of Chicago</title>
-                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire
+                        server</ref> at the <ref target="http://www.psc.edu">Pittsburgh
+                        Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+                    server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp -->
                 </respStmt>
                 <respStmt>
-                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <resp>with assistance from the Digital Humanities courses at the University of
+                        Pittsburgh at Greensburg from 2014-2016, from</resp>
                     <persName>Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
@@ -29,13 +36,22 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06"
+                        >2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->.
+                    This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s
+                    in-depth capstone paper and presentation for completion of a History based
+                    Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at
+                        Greensburg</placeName>. Work to create the digital aspects of the project
+                    begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
                 <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
                 <date>2014</date>
-                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
@@ -59,9 +75,16 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the source text.
+                    Representation of tables, graphs, signage, and contracts may be altered so as to
+                    make a clearer depiction for this digital version of the text; however, the
+                    information portrayed in the digital version will be consistent with the
+                    original. When the source text is unreadable due to the age or handling of the
+                    document we are using the elements damage, unclear, and supplied in combination
+                    to provide our best interpretation of the text.</p>
             </editorialDecl>
-            
+
         </encodingDesc>
     </teiHeader>
     <text>
@@ -69,171 +92,161 @@
             <div>
                 <div type="headlines">
                     <list>
-                        <item>A PROPOSITION OF MARRIAGE TO A PRETTY AND BRAINY SEAMSTRESS IS TAKEN UNDER CONSIDERATION.</item>
-                        <item>CORRECTING AN ERRONEOUS IMPRESSION THAT NELL NELSON'S ARTICLES ARE NOT FOUNDED ON FACT.</item>
+                        <item>A PROPOSITION OF MARRIAGE TO A PRETTY AND BRAINY SEAMSTRESS IS TAKEN
+                            UNDER CONSIDERATION.</item>
+                        <item>CORRECTING AN ERRONEOUS IMPRESSION THAT NELL NELSON'S ARTICLES ARE NOT
+                            FOUNDED ON FACT.</item>
                     </list>
                 </div>
                 <div type="sectionBody">
-                    <p>Nothing short of a Philadelphia lawyer, a Chicago health
-                        officer, a proprietor or a "devil-chaser" that hits the spot once
-                        in a thousand times could, without a guide, explore the labyrinth that is known as H. S. &amp; Co.'s paper-box manufactory,
-                        on R--- street. It occupies only the three upper floors of a
-                        four-story building, but the stairways are so dark and narrow
-                        that one must grope his way from somewhere to a suppositious somewhere else, which resembles nowhere when he gets
-                        there, because the rooms are so overcrowded with material that
-                        one employe cannot in many instances see her nearest neighbor
-                        two yards away.</p>
-                        <p>Of the 120 employes, ten are mere girls, who get from $2 to
-                        $3 a week, while the others receive from $5 to $7.50. Each
-                        girl keeps her own account-book, and at the request of the
-                        proprietor submitted it to inspection. It showed the exact
-                        amount the owner had been paid each week for many weeks.
-                        One advantage of working in this stuffy place is that there is
-                        work the year around.</p>
-                        <p>Mr. S. had the usual explanation to make as to the employment of young boys and girls and no doubt made it truthfully.</p>
-                        <p>Their parents needed their assistance and would sign any
-                        <pb n="135"/>
-                        sort of certificate as to age, and supplement it with personal
-                        solicitation asking employment as a charity. In extreme cases
-                        he negotiated a compromise with his judgment, as most manufacturers do, and gave the child employment.</p>
-                        <p>"What kind of work do you do?" A group of five boys
-                        was asked at the noon hour.</p>
-                        <p>"All but him binds packages; he glues."</p>
-                        <p>"How old are you?"</p>
-                        <p>"We's pretty old and gettin' older all de time."</p>
-                        <p>The closets are separate and fairly decent.</p>
-                        <p>The ventilation is bad.</p>
-                        <p>"I am a man of few words and you have no time to lose, so
-                        I will proceed direct to business. Do you want to get married?"</p>
-                        <p>The proposition was made by a Times reporter to an attractive young woman employed as a seamstress in a custom shop
-                        on the fourth floor of S. N's building on the southwest corner
-                        of W. and H. streets on the North side.</p>
-                        <p>The reporter had seen the young woman but once before,
-                        and after that meeting the following paragraph was printed in
-                        The Times on August 13:</p>
-                        <p>"An intelligent trio, evidently good friends, gathered in a
-                        corner, and between bites talked freely. One was a thorough
-                        American, lived on May street, and walked back and forth
-                        from her work, the round distance being fully three miles. Another, whose yellow hair bespoke an ancestry from the region
-                        of the midnight sun, walked about the same distance. Many an
-                        avenue belle would give half her inheritance, for the form, face
-                        and figure, to say nothing of the brains of this every-day sewing girl, wearing out her young life for $6 a week. But she
-                        made no complaints. Independence more than compensated
-                        her for the hardships of the weary day."</p>
-                        <p>Usually "popping the question" is a trying ordeal to a man,
-                        even when none but the two parties most interested are present.
-                        <pb n="136"/>
-                        What must it have been in this case when half a score of pairs
-                        of bright eyes were gazing in astonishment and as many ears
-                        were trained to catch every syllable? Usually, too, the woman
-                        addressed is very much embarrassed, or seems to be. This one
-                        was not. With a musical laugh followed by an interrogation
-                        point, she awaited further developments, Emma, the American
-                        girl, rallying her good-naturedly the while</p>
-                        <p>"You know you want to get married," said Emma. "Why
-                        don't you say yes?"</p>
-                        <p>Not wishing to prolong the agony beyond the proper limit
-                        the reporter produced the following letter:</p>
-                        <p>Chicago, Aug. 13. - To the Editor: One who reads your articles
-                        with more than passing interest, and who deeply sympathizes with the
-                        cause of honest labor, has sufficient romance in his "make-up" to perform his part in assisting the young lady of brains referred to, and if
-                        honesty of purpose, good bringing up, etc., accompany the brains, the
-                        lady can find at the head of an honest, temperate, working-man's home
-                        a peace and comfort not found in "wearing out her young life" in pursuit of a mere existence. This is in good faith, and any acknowledgment
-                        of it will call forth - confidentially, of course - the name and address of
-                        the writer.</p>
-                        <p>It was interesting to watch the play of the girl's features as
-                        she read the letter. At first curiosity was uppermost; then
-                        came an expression of sadness as the passages expressing sympathy for honest labor were reached, and finally a slight flush
-                        and a smile as she read the offering clause.</p>
-                        <p>"Will you accept?"</p>
-                        <p>"Don't you do it at once," said Emma, tantalizingly.</p>
-                        <p>"Keep him waiting for a while till he gets real anxious."</p>
-                        <p>"Who is the writer?" asked the girl to whom the letter referred. " He must live where girls are scarce."</p>
-                        <p>"The letter is dated and postmarked 'Chicago.'"</p>
-                        <p>"Well, I should like to see the writer. It takes something
-                        more than temperance and honesty to make a man. I shall
-                        not embrace the present opportunity to answer."</p>
-                        <pb n="137"/>
-                        <p>"Nor the man either?"</p>
-                        <p>"Nor the man either," she said with a merry laugh as she
-                        caught the gentler force of the play upon the words.</p>
-                        <p>"Will you answer the letter?"</p>
-                        <p>"I will take it under advisement, as politicians say"</p>
-                        <p>"If you don't accept turn the letter over to me," chimed in
-                        Emma. And then noticing the grounds in her coffee she
-                        added: "Can you tell fortunes?"</p>
-                        <p>Everybody on the Times tells fortunes, and of course the
-                        visitor could. "This man is a blonde, tall, somewhat portly,
-                        and a widower with three children," he began.</p>
-                        <p>"Can't you make it five? She just dotes on children. If
-                        she won't take him I'll be No. 2 and run the chance. Can't
-                        you induce him to call here? We are tailoresses here, but
-                        when we appear upon the street we are ---"</p>
-                        <p>"Well, what are we then?" asked the girl with the light
-                        hair.</p>
-                        <p>"Why, then - then we are ourselves. What time is it?"</p>
-                        <p>"Seventeen minutes to 1 o'clock."</p>
-                        <p>"Then we have just two minutes to live," and the trio
-                        began preparations for renewing their toil after the forty-five
-                        minutes allowed for lunch. The author of the letter might
-                        wait a long time before finding a brighter or better head for
-                        his household than this girl whose ancestors worshipped Thor
+                    <p>Nothing short of a Philadelphia lawyer, a Chicago health officer, a
+                        proprietor or a "devil-chaser" that hits the spot once in a thousand times
+                        could, without a guide, explore the labyrinth that is known as H. S. &amp;
+                        Co.'s paper-box manufactory, on R--- street. It occupies only the three
+                        upper floors of a four-story building, but the stairways are so dark and
+                        narrow that one must grope his way from somewhere to a suppositious
+                        somewhere else, which resembles nowhere when he gets there, because the
+                        rooms are so overcrowded with material that one employe cannot in many
+                        instances see her nearest neighbor two yards away.</p>
+                    <p>Of the 120 employes, ten are mere girls, who get from $2 to $3 a week, while
+                        the others receive from $5 to $7.50. Each girl keeps her own account-book,
+                        and at the request of the proprietor submitted it to inspection. It showed
+                        the exact amount the owner had been paid each week for many weeks. One
+                        advantage of working in this stuffy place is that there is work the year
+                        around.</p>
+                    <p>Mr. S. had the usual explanation to make as to the employment of young boys
+                        and girls and no doubt made it truthfully.</p>
+                    <p>Their parents needed their assistance and would sign any <pb n="135"/> sort
+                        of certificate as to age, and supplement it with personal solicitation
+                        asking employment as a charity. In extreme cases he negotiated a compromise
+                        with his judgment, as most manufacturers do, and gave the child
+                        employment.</p>
+                    <p>"What kind of work do you do?" A group of five boys was asked at the noon
+                        hour.</p>
+                    <p>"All but him binds packages; he glues."</p>
+                    <p>"How old are you?"</p>
+                    <p>"We's pretty old and gettin' older all de time."</p>
+                    <p>The closets are separate and fairly decent.</p>
+                    <p>The ventilation is bad.</p>
+                    <p>"I am a man of few words and you have no time to lose, so I will proceed
+                        direct to business. Do you want to get married?"</p>
+                    <p>The proposition was made by a Times reporter to an attractive young woman
+                        employed as a seamstress in a custom shop on the fourth floor of S. N's
+                        building on the southwest corner of W. and H. streets on the North side.</p>
+                    <p>The reporter had seen the young woman but once before, and after that meeting
+                        the following paragraph was printed in The Times on August 13:</p>
+                    <p>"An intelligent trio, evidently good friends, gathered in a corner, and
+                        between bites talked freely. One was a thorough American, lived on May
+                        street, and walked back and forth from her work, the round distance being
+                        fully three miles. Another, whose yellow hair bespoke an ancestry from the
+                        region of the midnight sun, walked about the same distance. Many an avenue
+                        belle would give half her inheritance, for the form, face and figure, to say
+                        nothing of the brains of this every-day sewing girl, wearing out her young
+                        life for $6 a week. But she made no complaints. Independence more than
+                        compensated her for the hardships of the weary day."</p>
+                    <p>Usually "popping the question" is a trying ordeal to a man, even when none
+                        but the two parties most interested are present. <pb n="136"/> What must it
+                        have been in this case when half a score of pairs of bright eyes were gazing
+                        in astonishment and as many ears were trained to catch every syllable?
+                        Usually, too, the woman addressed is very much embarrassed, or seems to be.
+                        This one was not. With a musical laugh followed by an interrogation point,
+                        she awaited further developments, Emma, the American girl, rallying her
+                        good-naturedly the while</p>
+                    <p>"You know you want to get married," said Emma. "Why don't you say yes?"</p>
+                    <p>Not wishing to prolong the agony beyond the proper limit the reporter
+                        produced the following letter:</p>
+                    <p>Chicago, Aug. 13. - To the Editor: One who reads your articles with more than
+                        passing interest, and who deeply sympathizes with the cause of honest labor,
+                        has sufficient romance in his "make-up" to perform his part in assisting the
+                        young lady of brains referred to, and if honesty of purpose, good bringing
+                        up, etc., accompany the brains, the lady can find at the head of an honest,
+                        temperate, working-man's home a peace and comfort not found in "wearing out
+                        her young life" in pursuit of a mere existence. This is in good faith, and
+                        any acknowledgment of it will call forth - confidentially, of course - the
+                        name and address of the writer.</p>
+                    <p>It was interesting to watch the play of the girl's features as she read the
+                        letter. At first curiosity was uppermost; then came an expression of sadness
+                        as the passages expressing sympathy for honest labor were reached, and
+                        finally a slight flush and a smile as she read the offering clause.</p>
+                    <p>"Will you accept?"</p>
+                    <p>"Don't you do it at once," said Emma, tantalizingly.</p>
+                    <p>"Keep him waiting for a while till he gets real anxious."</p>
+                    <p>"Who is the writer?" asked the girl to whom the letter referred. " He must
+                        live where girls are scarce."</p>
+                    <p>"The letter is dated and postmarked 'Chicago.'"</p>
+                    <p>"Well, I should like to see the writer. It takes something more than
+                        temperance and honesty to make a man. I shall not embrace the present
+                        opportunity to answer."</p>
+                    <pb n="137"/>
+                    <p>"Nor the man either?"</p>
+                    <p>"Nor the man either," she said with a merry laugh as she caught the gentler
+                        force of the play upon the words.</p>
+                    <p>"Will you answer the letter?"</p>
+                    <p>"I will take it under advisement, as politicians say"</p>
+                    <p>"If you don't accept turn the letter over to me," chimed in Emma. And then
+                        noticing the grounds in her coffee she added: "Can you tell fortunes?"</p>
+                    <p>Everybody on the Times tells fortunes, and of course the visitor could. "This
+                        man is a blonde, tall, somewhat portly, and a widower with three children,"
+                        he began.</p>
+                    <p>"Can't you make it five? She just dotes on children. If she won't take him
+                        I'll be No. 2 and run the chance. Can't you induce him to call here? We are
+                        tailoresses here, but when we appear upon the street we are ---"</p>
+                    <p>"Well, what are we then?" asked the girl with the light hair.</p>
+                    <p>"Why, then - then we are ourselves. What time is it?"</p>
+                    <p>"Seventeen minutes to 1 o'clock."</p>
+                    <p>"Then we have just two minutes to live," and the trio began preparations for
+                        renewing their toil after the forty-five minutes allowed for lunch. The
+                        author of the letter might wait a long time before finding a brighter or
+                        better head for his household than this girl whose ancestors worshipped Thor
                         and Woden.</p>
-                        <p>"Nell Nelson," in a recent article in the Times, described
-                        the trousers manufactory of K. B. O., on S. street near Division,
-                        as a two-story and basement frame, the stories being used for girls
-                        and the basement for horses. This is true as to the girls, and
-                        only the qualifying expression "in part" is needed to make it
-                        fit the basement, the rear portion of it being used for stabling,
-                        with all that the word implies. Miss Nelson, it will be remembered, worked an afternoon at this place, making a pair of
-                        trousers for 5 cents, and after relating her experience quoted
-                        <pb n="138"/>
-                        the words of a young woman who sat at the same table and
-                        who complained that the shop was cold.</p>
-                        <p>Of course the girl had no idea that her language was to
-                        appear in print and spoke carelessly. But Mr. O. was displeased
-                        and the girl was promptly discharged from his employ. The
-                        Knights of Labor were promptly notified and so was the Times.
-                        Yesterday a reporter was instructed to investigate the case and
-                        if the facts were as reported to assure the girl, whose name is
-                        Mary Kane, that the Times would secure for her another and
-                        better position.</p>
-                        <p>Mr. O. was found on the upper floor of his shop and pretty
-                        mad yet, though he had had a week to cool off in. But he
-                        soon quieted down, led the way to the office in the basement,
-                        and sent for Foreman M. Then the Times article was read
-                        and liberally commented on, M. doing most of the talking
-                        because he could turn sharp corners in English a trifle more
-                        skillfully than O.</p>
-                        <p>"Mary Kane has left, but she wasn't exactly discharged,"
-                        said O. "If the rooms are cold in winter why didn't she complain to me instead of 'Nell Nelson?' I know they are cold
-                        at times, but not for half a day. I frequently feel chilly myself in the early morning. I know the house is not a model;
-                        It was built directly after the fire and needs many improvements. Why didn't Mary Kane complain to me?"</p>
-                        <p>"She preferred no charges against you. In a casual way
-                        she stated to a table-mate that the shop was cold in winter as
-                        you now acknowledge. The situation is this: If you have
-                        discharged Mary Kane because of a chance word, The Times
-                        will see to it that she immediately secures a situation in some
-                        other shop."</p>
-                        <p>After a few moments Mr. O. said the girl was one of the best
-                        in his employ, that nothing could be said against her work or
-                        her character, and he would be willing to take her back.</p>
-                        <p>"You may tell Mary K. she may come back to work if she
-                        <pb n="139"/>
-                        wishes to. I don't want to do anybody any injustice. All I
-                        had against her in all the years she worked for me was that
-                        remark about my shop being cold."</p>
-                        <p>"But I may not see her, as she is away from home"</p>
-                        <p>"Well, just go over and tell her mother that it's all right
-                        and Mary can go to work when she likes."</p>
-                        <p>It was the work of an hour, but no bull-dozing or pleading was
-                        used. The case was squarely discussed on its merits, and if
-                        Mary K., whom all the neighbors, including O. himself, say is
-                        a steady, industrious, and thoroughly deserving girl, walks into
-                        the shop to-day she can have her old seat and at the same time
-                        the consciousness that she has not compromised herself or been
-                        compromised in the least. Both O. and M. will be glad to
+                    <p>"Nell Nelson," in a recent article in the Times, described the trousers
+                        manufactory of K. B. O., on S. street near Division, as a two-story and
+                        basement frame, the stories being used for girls and the basement for
+                        horses. This is true as to the girls, and only the qualifying expression "in
+                        part" is needed to make it fit the basement, the rear portion of it being
+                        used for stabling, with all that the word implies. Miss Nelson, it will be
+                        remembered, worked an afternoon at this place, making a pair of trousers for
+                        5 cents, and after relating her experience quoted <pb n="138"/> the words of
+                        a young woman who sat at the same table and who complained that the shop was
+                        cold.</p>
+                    <p>Of course the girl had no idea that her language was to appear in print and
+                        spoke carelessly. But Mr. O. was displeased and the girl was promptly
+                        discharged from his employ. The Knights of Labor were promptly notified and
+                        so was the Times. Yesterday a reporter was instructed to investigate the
+                        case and if the facts were as reported to assure the girl, whose name is
+                        Mary Kane, that the Times would secure for her another and better
+                        position.</p>
+                    <p>Mr. O. was found on the upper floor of his shop and pretty mad yet, though he
+                        had had a week to cool off in. But he soon quieted down, led the way to the
+                        office in the basement, and sent for Foreman M. Then the Times article was
+                        read and liberally commented on, M. doing most of the talking because he
+                        could turn sharp corners in English a trifle more skillfully than O.</p>
+                    <p>"Mary Kane has left, but she wasn't exactly discharged," said O. "If the
+                        rooms are cold in winter why didn't she complain to me instead of 'Nell
+                        Nelson?' I know they are cold at times, but not for half a day. I frequently
+                        feel chilly myself in the early morning. I know the house is not a model; It
+                        was built directly after the fire and needs many improvements. Why didn't
+                        Mary Kane complain to me?"</p>
+                    <p>"She preferred no charges against you. In a casual way she stated to a
+                        table-mate that the shop was cold in winter as you now acknowledge. The
+                        situation is this: If you have discharged Mary Kane because of a chance
+                        word, The Times will see to it that she immediately secures a situation in
+                        some other shop."</p>
+                    <p>After a few moments Mr. O. said the girl was one of the best in his employ,
+                        that nothing could be said against her work or her character, and he would
+                        be willing to take her back.</p>
+                    <p>"You may tell Mary K. she may come back to work if she <pb n="139"/> wishes
+                        to. I don't want to do anybody any injustice. All I had against her in all
+                        the years she worked for me was that remark about my shop being cold."</p>
+                    <p>"But I may not see her, as she is away from home"</p>
+                    <p>"Well, just go over and tell her mother that it's all right and Mary can go
+                        to work when she likes."</p>
+                    <p>It was the work of an hour, but no bull-dozing or pleading was used. The case
+                        was squarely discussed on its merits, and if Mary K., whom all the
+                        neighbors, including O. himself, say is a steady, industrious, and
+                        thoroughly deserving girl, walks into the shop to-day she can have her old
+                        seat and at the same time the consciousness that she has not compromised
+                        herself or been compromised in the least. Both O. and M. will be glad to
                         welcome her back, which is much to their credit.</p>
                 </div>
             </div>

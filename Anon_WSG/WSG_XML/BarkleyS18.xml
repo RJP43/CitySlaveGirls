@@ -6,18 +6,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:id="WSGC18">Section 18</title><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter --><!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
+                <title level="a" xml:id="WSGC18">Section 18</title>
+                <!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the xml:id is changed according to each book chapter -->
+                <!-- RJP: each section will have its own identifier and this is where it is being defined... the identifier should include the source and section number (add  a zero in front of early sections so we have consistent format with sections that will be double digits). For example: the first section in the Barkley text will be xml:id="WSGC01" -->
                 <title level="m">The White Slave Girls of Chicago</title>
-                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire
+                        server</ref> at the <ref target="http://www.psc.edu">Pittsburgh
+                        Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+                    server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="rjp">Rebecca J. Parker</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp -->
                 </respStmt>
                 <respStmt>
-                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <resp>with assistance from the Digital Humanities courses at the University of
+                        Pittsburgh at Greensburg from 2014-2016, from</resp>
                     <persName>Elisa Beshero-Bondar</persName>
                     <persName>Gregory Bondar</persName>
                 </respStmt>
@@ -29,13 +36,22 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="2015-11-06">2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2015-11-06"
+                        >2015-11-06</date><!--RJP: put the date for when the article was transcribed and/or encoded?-->.
+                    This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s
+                    in-depth capstone paper and presentation for completion of a History based
+                    Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at
+                        Greensburg</placeName>. Work to create the digital aspects of the project
+                    begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
                 <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
                 <date>2014</date>
-                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
@@ -59,9 +75,16 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the source text.
+                    Representation of tables, graphs, signage, and contracts may be altered so as to
+                    make a clearer depiction for this digital version of the text; however, the
+                    information portrayed in the digital version will be consistent with the
+                    original. When the source text is unreadable due to the age or handling of the
+                    document we are using the elements damage, unclear, and supplied in combination
+                    to provide our best interpretation of the text.</p>
             </editorialDecl>
-            
+
         </encodingDesc>
     </teiHeader>
     <text>
@@ -74,144 +97,123 @@
                     </list>
                 </div>
                 <div type="sectionBody">
-                    <p>Another day in a shop — a shop where I get a blinding
-                        headache and a dime. The place of servitude is at Milwaukee
-                        avenue, and the proprietors are Mr. and Mrs. S. It is nine
-                        o'clock when I enter what seems to be a store. On the right
-                        <pb n="113"/>
-                        is a small office containing a desk and a mountain of cloaks.
-                        Two yards back is a long cutting-board at which the father,
-                        mother and son are chalking or cutting out cloth. The old man
-                        has the everlasting frosts on his head, and in the wife's hair is
-                        more silver than jet. The son is still in the morning of his
-                        manhood. His manner is arrogant, his tone harsh, and his
-                        treatment of an old Christain who has come in with a letter,
-                        presumably from his wife or daughter soliciting work, is painful to contemplate. I feel like a vagabond when Mrs. S.
-                        demands an explanation for my presence.
-                        "I was here yesterday and you told me I might come to
-                        work today," I ventured to remark.
-                        "Oh, yes. You was the one that looked on yesterday and
-                        asked all about the wages, hey?"
-                        This is overwhelming and I tremble internally, expecting
-                        every moment to be seized by my jersey collar and Phyche
-                        knot and thrown out in the car-track. I bite my lips to keep
-                        my knees from knocking.
-                        When she says "Well, you may come this way," I am
-                        thankful for my safety and follow. Half-way down the store is
-                        a partition some five feet high, hung on both sides with cloaks
-                        and jackets, braided sacques and Dutch dresses, which contrivance screens the girls on the opposite side from view. A
-                        short distance back is a perfect embankment of work, fringe and
-                        inner trimmings. Passing these two fortifications we came
-                        into the presence of the "sweaters," all but six of whom are
-                        running machines at a tremendous speed.
-                        "Girls! Girls!" exclaimed Mrs. S.
-                        Some of the little engines stop.
-                        "Girls! Girls!" she says again.
-                        They all stop. And so does my breathing.
-                        "This girl has come to work here," Mrs. S. continues. "I
-                        aint got no time to learn her. You all help her if you got
-                        time."
-                        <pb n="114"/>
-                        With this unheard-of and unexpected introduction Mrs. S.
-                        leaves me. I find a dusty table near a dirty zinc to put my
-                        hat and ask for a machine.
-                        "Can you run a machine?" the head of the establishment
-                        asks.
-                        I tell her a falsehood which I defend by personally arguing
-                        that I can do anything that these untutored young foreigners
-                        can perform. Determined to try I drop into a chair before a
-                        big "Household," and agony begins. I endeavor to apply
-                        my knowledge of the Wheeler &amp; Wilson to the machine.
-                        Trouble follows. The wheel is not under the table and is not
-                        meant to turn forward. The thread breaks a dozen times in
-                        twenty-four minutes, the intervening time being spent in
-                        threading the needle, which, like an equestrianne, has a side
-                        seat. I hem and tuck rags to get the stitch. The bobbin
-                        gives out, and how to fill it again, thread the shuttle and lace
-                        the top cotton, gives me much trouble. A little German girl
-                        at my left throws an occasional hint of value to me. She has
-                        a frightful cold in her head which she frankly confesses she
-                        caught the night before in Wicker park. I offer to help her,
-                        agreeing to stitch all day if she will only tell me how to put
-                        the work together. It's a bargain. I bind the edges of the
-                        front, back and side gores, get the hood in shape, and stitch the
-                        pockets. Just as I am beginning to feel like a Household
-                        conqueror, Mrs. S. comes along and throws a bundled Dutch
-                        dress on my machine-table and tells me to make it. I protest
-                        that I had much rather help Annie, fearing I may not get the
-                        cloak right.
-                        "Just make it. When it aint right you rip it. That's the
-                        way we learn the girls."
-                        Of course the string and sleeves, cuffs, hood, pocket laps
-                        collar, fronts, side bodies, back gores, back straps, and three
-                        skirt breadths are spread out before me. I sieze a bunch of
-                        bias binding and I bind and rip and rip and bind till noon,
-                        <pb n="115"/>
-                        marveling all the time at the work that literally rolls out all
-                        about me. Poor Annie's eyes get red; so does her little nose;
-                        her face swells, her voice gets husky, and her handkerchief is
-                        as wet as a laundry. She has only made two garments working from seven to twelve. "I only made forty cents this
-                        morning," she said, "but it's this awful cold." I can make
-                        six when I work hard. I usually earn seven dollars a week.
-                        Sometimes it's more, but not often, and some times it's less.
-                        I must go home now."
-                        She folds up her work, covers her machine with her apron,
-                        has the two dresses entered in her book, and goes off to nurse
-                        her cold.
-                        A girl with a complexion like a peach and light blue eyes
-                        says she has been working four years. "I began at fourteen
-                        in Z's factory," she says. "There I got so I could make one
-                        dollar a day easily, but I had awful head aches and the doctor
-                        said I must only sew three days in the week. Then I went to
-                        the shop every other day for a year, but the pain didn't go
-                        and the doctor said it was the steam power and made me
-                        leave. Since I have worked by foot my head is all right.
-                        Yes, my parents are living and own a little cottage on Sedgwick street."
-                        The hand girls were all beginners. They were all ages
-                        from eleven to sixteen, earning one, two, and three dollars a
-                        week sewing on buttons, butting in bustles, and filling the
-                        inside linings. Most of them were Swedes and unable to
-                        speak a word of English. All the hands brought big lunches
-                        of bread, sausage, or ham, and fruit pancake. I was hungry
-                        enough to devour my worst enemy, and notwithstanding I
-                        interviewed a dozen or more of the diners not a morsel was
-                        offered me. There was an hour for noon, but most of the
-                        machines were thundering away at 12:30. The closets, two
-                        in number, were down in the cellar, and the foulness of the
-                        place was sickening. A kerosene lamp, hung four feet from
-                        <pb n="116"/>
-                        the floor partially lit the dark passage along which were
-                        coal-sheds and closets in suites for the several flats in the
-                        building.
-                        At 3 o'clock my cloak was not finished. I had pains in my
-                        head and back, my ankles ached, and my feet were scalded
-                        with heat and perspiration from the constant motion of the
-                        machine. No need of acting this time. I simply went to Mrs.
-                        S. and told her I had no dinner and was too faint to work
-                        another moment.
-                        "Didn't you have no lunch?" she asked. "Why didn't
-                        you tell me? I could have given you a cup of coffee."
-                        I thanked her for her good intention and asked to be paid.
-                        "Well, that Dutch dress is 20 cents. If you done half, you
-                        get half pay. That's right, ain't it? I tell you you can't
-                        make a living at this; It's too hard for a woman that ain't used
-                        to it. I would like to pay more, for when the girls make I
-                        make, don't you see?"
-                        For the sake of exit I acquiesced, took my dime and went
-                        out. At the door I met two little Polish children, Polly and
-                        Annie S., who told me they lived on George street, near Carpenter, and could not get work in the shop till they were
-                        "leven." Both had a basket of greasy, filthy victuals they
-                        had picked along the alleyways, and into Polly's hamper I
-                        dropped Mrs. S's bright dime for luck.
-                        Some day soon I shall use the money so kindly sent to the
-                        editor of The Times for a shop-girl's shoe and stocking party
-                        (and little Polly and her sister shall have a card.)
-                        You poor, dependent, neglected girl, who started out in real
-                        earnest, without education or training, to earn your own living,
-                        from the bottom of my heart I pity you. I have been thinking all day where I could send you for aid and instruction.</p><!-- each paragraph represented in the text will get its own <p> element -->
+                    <p>Another day in a shop — a shop where I get a blinding headache and a dime.
+                        The place of servitude is at Milwaukee avenue, and the proprietors are Mr.
+                        and Mrs. S. It is nine o'clock when I enter what seems to be a store. On the
+                        right <pb n="113"/> is a small office containing a desk and a mountain of
+                        cloaks. Two yards back is a long cutting-board at which the father, mother
+                        and son are chalking or cutting out cloth. The old man has the everlasting
+                        frosts on his head, and in the wife's hair is more silver than jet. The son
+                        is still in the morning of his manhood. His manner is arrogant, his tone
+                        harsh, and his treatment of an old Christain who has come in with a letter,
+                        presumably from his wife or daughter soliciting work, is painful to
+                        contemplate. I feel like a vagabond when Mrs. S. demands an explanation for
+                        my presence.</p>
+                    <p>"I was here yesterday and you told me I might come to work today," I ventured
+                        to remark.</p>
+                    <p>"Oh, yes. You was the one that looked on yesterday and asked all about the
+                        wages, hey?"</p>
+                    <p>This is overwhelming and I tremble internally, expecting every moment to be
+                        seized by my jersey collar and Phyche knot and thrown out in the car-track.
+                        I bite my lips to keep my knees from knocking.</p>
+                    <p>When she says "Well, you may come this way," I am thankful for my safety and
+                        follow. Half-way down the store is a partition some five feet high, hung on
+                        both sides with cloaks and jackets, braided sacques and Dutch dresses, which
+                        contrivance screens the girls on the opposite side from view. A short
+                        distance back is a perfect embankment of work, fringe and inner trimmings.
+                        Passing these two fortifications we came into the presence of the
+                        "sweaters," all but six of whom are running machines at a tremendous
+                        speed.</p>
+                    <p>"Girls! Girls!" exclaimed Mrs. S.</p>
+                    <p>Some of the little engines stop.</p>
+                    <p>"Girls! Girls!" she says again.</p>
+                    <p>They all stop. And so does my breathing.</p>
+                    <p>"This girl has come to work here," Mrs. S. continues. "I aint got no time to
+                        learn her. You all help her if you got time."</p>
+                    <pb n="114"/>
+                    <p>With this unheard-of and unexpected introduction Mrs. S. leaves me. I find a
+                        dusty table near a dirty zinc to put my hat and ask for a machine.</p>
+                    <p>"Can you run a machine?" the head of the establishment asks.</p>
+                    <p>I tell her a falsehood which I defend by personally arguing that I can do
+                        anything that these untutored young foreigners can perform. Determined to
+                        try I drop into a chair before a big "Household," and agony begins. I
+                        endeavor to apply my knowledge of the Wheeler &amp; Wilson to the machine.
+                        Trouble follows. The wheel is not under the table and is not meant to turn
+                        forward. The thread breaks a dozen times in twenty-four minutes, the
+                        intervening time being spent in threading the needle, which, like an
+                        equestrianne, has a side seat. I hem and tuck rags to get the stitch. The
+                        bobbin gives out, and how to fill it again, thread the shuttle and lace the
+                        top cotton, gives me much trouble. A little German girl at my left throws an
+                        occasional hint of value to me. She has a frightful cold in her head which
+                        she frankly confesses she caught the night before in Wicker park. I offer to
+                        help her, agreeing to stitch all day if she will only tell me how to put the
+                        work together. It's a bargain. I bind the edges of the front, back and side
+                        gores, get the hood in shape, and stitch the pockets. Just as I am beginning
+                        to feel like a Household conqueror, Mrs. S. comes along and throws a bundled
+                        Dutch dress on my machine-table and tells me to make it. I protest that I
+                        had much rather help Annie, fearing I may not get the cloak right.</p>
+                    <p>"Just make it. When it aint right you rip it. That's the way we learn the
+                        girls."</p>
+                    <p>Of course the string and sleeves, cuffs, hood, pocket laps collar, fronts,
+                        side bodies, back gores, back straps, and three skirt breadths are spread
+                        out before me. I sieze a bunch of bias binding and I bind and rip and rip
+                        and bind till noon, <pb n="115"/> marveling all the time at the work that
+                        literally rolls out all about me. Poor Annie's eyes get red; so does her
+                        little nose; her face swells, her voice gets husky, and her handkerchief is
+                        as wet as a laundry. She has only made two garments working from seven to
+                        twelve. "I only made forty cents this morning," she said, "but it's this
+                        awful cold." I can make six when I work hard. I usually earn seven dollars a
+                        week. Sometimes it's more, but not often, and some times it's less. I must
+                        go home now."</p>
+                    <p>She folds up her work, covers her machine with her apron, has the two dresses
+                        entered in her book, and goes off to nurse her cold.</p>
+                    <p>A girl with a complexion like a peach and light blue eyes says she has been
+                        working four years. "I began at fourteen in Z's factory," she says. "There I
+                        got so I could make one dollar a day easily, but I had awful head aches and
+                        the doctor said I must only sew three days in the week. Then I went to the
+                        shop every other day for a year, but the pain didn't go and the doctor said
+                        it was the steam power and made me leave. Since I have worked by foot my
+                        head is all right. Yes, my parents are living and own a little cottage on
+                        Sedgwick street."</p>
+                    <p>The hand girls were all beginners. They were all ages from eleven to sixteen,
+                        earning one, two, and three dollars a week sewing on buttons, butting in
+                        bustles, and filling the inside linings. Most of them were Swedes and unable
+                        to speak a word of English. All the hands brought big lunches of bread,
+                        sausage, or ham, and fruit pancake. I was hungry enough to devour my worst
+                        enemy, and notwithstanding I interviewed a dozen or more of the diners not a
+                        morsel was offered me. There was an hour for noon, but most of the machines
+                        were thundering away at 12:30. The closets, two in number, were down in the
+                        cellar, and the foulness of the place was sickening. A kerosene lamp, hung
+                        four feet from <pb n="116"/> the floor partially lit the dark passage along
+                        which were coal-sheds and closets in suites for the several flats in the
+                        building.</p>
+                    <p>At 3 o'clock my cloak was not finished. I had pains in my head and back, my
+                        ankles ached, and my feet were scalded with heat and perspiration from the
+                        constant motion of the machine. No need of acting this time. I simply went
+                        to Mrs. S. and told her I had no dinner and was too faint to work another
+                        moment.</p>
+                    <p>"Didn't you have no lunch?" she asked. "Why didn't you tell me? I could have
+                        given you a cup of coffee."</p>
+                    <p>I thanked her for her good intention and asked to be paid. "Well, that Dutch
+                        dress is 20 cents. If you done half, you get half pay. That's right, ain't
+                        it? I tell you you can't make a living at this; It's too hard for a woman
+                        that ain't used to it. I would like to pay more, for when the girls make I
+                        make, don't you see?"</p>
+                    <p>For the sake of exit I acquiesced, took my dime and went out. At the door I
+                        met two little Polish children, Polly and Annie S., who told me they lived
+                        on George street, near Carpenter, and could not get work in the shop till
+                        they were "leven." Both had a basket of greasy, filthy victuals they had
+                        picked along the alleyways, and into Polly's hamper I dropped Mrs. S's
+                        bright dime for luck.</p>
+                    <p>Some day soon I shall use the money so kindly sent to the editor of The Times
+                        for a shop-girl's shoe and stocking party (and little Polly and her sister
+                        shall have a card.)</p>
+                    <p>You poor, dependent, neglected girl, who started out in real earnest, without
+                        education or training, to earn your own living, from the bottom of my heart
+                        I pity you. I have been thinking all day where I could send you for aid and
+                        instruction.</p>
                 </div>
             </div>
         </body>
     </text>
 </TEI>
-
