@@ -413,7 +413,7 @@ line-height: 1;
     padding:5px;
 }
 #svgVis1{
-    width:50%
+    width:50%;
     float:left;
 }
 #svg1Text{
@@ -479,7 +479,7 @@ line-height: 1;
 	background:#93748A;
 }
 #book1 p, #book2 p {
-    width:50%
+    width:50%;
 	text-align: center;
 	color: #000000;
 	margin:5px;
