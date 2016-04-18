@@ -39,11 +39,12 @@
                     </div>
                     <xsl:if test="//div[@type = 'headlines'][2]">
                         <hr/>
-                        <div class="headlinesText">
+                        <div class="headlinesTitle">
                             <ul>
                                 <xsl:apply-templates select="//div[@type = 'headline'][1]//item"/>
                             </ul>
-                            <hr/>
+                        </div>
+                        <div class="headlinesText">
                             <ul>
                                 <xsl:apply-templates select="//div[@type = 'headlines'][2]//item"/>
                             </ul>
@@ -55,11 +56,12 @@
                     </xsl:if>
                     <xsl:if test="//div[@type = 'headlines'][3]">
                         <hr/>
-                        <div class="headlinesText">
+                        <div class="headlinesTitle">
                             <ul>
                                 <xsl:apply-templates select="//div[@type = 'headline'][2]//item"/>
                             </ul>
-                            <hr/>
+                        </div>
+                        <div class="headlinesText">
                             <ul>
                                 <xsl:apply-templates select="//div[@type = 'headlines'][3]//item"/>
                             </ul>
