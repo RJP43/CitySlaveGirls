@@ -13,7 +13,7 @@
     <xsl:variable name="xAxisEnd" select="((11 + 1) * $Interval) - ($barWidth div 2)"/>
     <!-- ras: Legend Variables -->
     <xsl:variable name="xLegend" select="$xAxisEnd + 30"/>
-    <xsl:variable name="yLegendStart" select="-250"/>
+    <xsl:variable name="yLegendStart" select="-300"/>
     <xsl:variable name="yLegendInterval" select="26"/>
     <xsl:variable name="legendFontSize" select="16"/>
     <xsl:variable name="legendBoxWidth" select="20"/>
@@ -28,11 +28,11 @@
 
 
                 <!-- ras: Y-Axis -->
-                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1.5}"
+                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1}"
                     x2="{$xAxisStart + $xSpacing}" y2="{$yAxisEnd}" stroke="black" stroke-width="1"/>
                 <!-- ras: X-Axis -->
-                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1}"
-                    x2="{$xAxisEnd + $xSpacing}" y2="{$yAxisStart + 1}" stroke="black"
+                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + .5}"
+                    x2="{$xAxisEnd + $xSpacing}" y2="{$yAxisStart + .5}" stroke="black"
                     stroke-width="1"/>
 
                 <!-- ras: Axis Labels -->
@@ -184,7 +184,14 @@
                     select="(sum($nelsonColl//said[@who = '#messenger']/string-length())) div $maxYValue"/>
                 <xsl:variable name="unidentifiedYMax"
                     select="(sum($nelsonColl//said[@who = '#unidentified']/string-length())) div $maxYValue"/>
+                <xsl:variable name="promMenYMax"
+                    select="(sum($nelsonColl//said[@who = '#promMen']/string-length())) div $maxYValue"/>
+                <xsl:variable name="promWomenYMax"
+                    select="(sum($nelsonColl//said[@who = '#promWomen']/string-length())) div $maxYValue"/>
+                <xsl:variable name="reporterYMax"
+                    select="(sum($nelsonColl//said[@who = '#reporter']/string-length())) div $maxYValue"/>
                 <xsl:variable name="yAxis50" select="$yAxisEnd * 2"/>
+                
 
 
                 <line x1="{$Interval * 2 + $xSpacing}" x2="{$Interval * 2 + $xSpacing}"
@@ -219,6 +226,18 @@
                     y1="{$yAxisStart}" y2="{$unidentifiedYMax * $yAxis50}" stroke="orange"
                     stroke-width="{$barWidth}"/>
 
+                <line x1="{$Interval * 9 + $xSpacing}" x2="{$Interval * 9 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$promMenYMax * $yAxis50}" stroke="blue"
+                    stroke-width="{$barWidth}"/>
+
+                <line x1="{$Interval * 10 + $xSpacing}" x2="{$Interval * 10 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$promWomenYMax * $yAxis50}" stroke="pink"
+                    stroke-width="{$barWidth}"/>
+
+                <line x1="{$Interval * 11 + $xSpacing}" x2="{$Interval * 11 + $xSpacing}"
+                    y1="{$yAxisStart}" y2="{$reporterYMax * $yAxis50}" stroke="green"
+                    stroke-width="{$barWidth}"/>
+
 
 
 
@@ -232,28 +251,37 @@
                 <!-- ras: Percent labels on bars -->
                 <text x="{$Interval * 2 + $xSpacing}" y="{$nellYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"
-                        ><xsl:value-of select="format-number($nellYMax * 100, '##.###')"/>% </text>
+                        ><xsl:value-of select="format-number($nellYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 1 + $xSpacing}" y="{$wgYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($wgYMax * 100, '##.###')"/>% </text>
+                        select="format-number($wgYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 5 + $xSpacing}" y="{$forepersonYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($forepersonYMax * 100, '##.###')"/>% </text>
+                        select="format-number($forepersonYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 4 + $xSpacing}" y="{$employerYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($employerYMax * 100, '##.###')"/>% </text>
+                        select="format-number($employerYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 3 + $xSpacing}" y="{$employeeYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($employeeYMax * 100, '##.###')"/>% </text>
+                        select="format-number($employeeYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 6 + $xSpacing}" y="{$benefactorYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($benefactorYMax * 100, '##.###')"/>% </text>
+                        select="format-number($benefactorYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 7 + $xSpacing}" y="{$messengerYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($messengerYMax * 100, '##.###')"/>% </text>
+                        select="format-number($messengerYMax * 100, '##.#')"/>% </text>
                 <text x="{$Interval * 8 + $xSpacing}" y="{$unidentifiedYMax * $yAxis50 - 10}"
                     font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
-                        select="format-number($unidentifiedYMax * 100, '##.###')"/>% </text>
+                        select="format-number($unidentifiedYMax * 100, '##.#')"/>% </text>
+                <text x="{$Interval * 9 + $xSpacing}" y="{$promMenYMax * $yAxis50 - 10}"
+                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
+                        select="format-number($promMenYMax * 100, '##.#')"/>% </text>
+                <text x="{$Interval * 10 + $xSpacing}" y="{$promWomenYMax * $yAxis50 - 10}"
+                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
+                        select="format-number($promWomenYMax * 100, '##.#')"/>% </text>
+                <text x="{$Interval * 11 + $xSpacing}" y="{$reporterYMax * $yAxis50 - 10}"
+                    font-size="{$percentFontSize}" fill="black" text-anchor="middle"><xsl:value-of
+                        select="format-number($reporterYMax * 100, '##.#')"/>% </text>
             </g>
         </svg>
     </xsl:template>
