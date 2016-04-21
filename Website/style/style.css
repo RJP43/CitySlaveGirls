@@ -108,7 +108,7 @@ body{
 
 /*rjp: end styling for index.html*/
 /*rjp: start styling for top and foot*/
-#header{
+.header{
     padding:10px;
 	margin: auto;
 	border:2px solid #e7e2d7;
@@ -120,7 +120,7 @@ body{
 	position:relative;
 	text-align:center;
 }
-#header h1 {
+.header h1 {
 	font-family: 'Yellowtail', cursive;
 	margin-top:-10px;
 	font-size:4.0em;
@@ -129,7 +129,7 @@ body{
 	text-align:center;
 }
 
-#header h2 {
+.header h2 {
 	margin-top: -40px;
 	font-family: 'Goudy Old Style';
     font-size:2.0em;
@@ -142,8 +142,8 @@ body{
     display:block;
 }
 #nav ul {
-    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;
+    /*box-shadow: 0px 0px 0px rgba(0,0,0,0.15);*/
+    margin: auto;
 	border-radius: 10px;  
 	list-style: none;
 	position: relative;
@@ -332,24 +332,22 @@ line-height: 1;
 	margin: 20px 20px 10px;
 }
 #vocab {
-    width:55%;
-    float:left;
     margin-bottom: 20px;
 }
 #vocabListText p {
     margin:10px;
     padding: 5px;
-    text-align: center;
     font-size: 18px;
 }
 #vocabList ul {
 	padding:20px;
 	list-style:none;
 	margin-top: -20px;
-	font-size:20px;
+	font-size:18px;
 }
+
 #vocabList li {
-    float: left;
+    text-align: left;
     clear: left;
     margin:0px;
 	padding:0px;
@@ -424,7 +422,7 @@ line-height: 1;
 }
 
 #svg1{
-text-align:center;
+text-align:left;
 }
 #svg2{
 text-align:center;
