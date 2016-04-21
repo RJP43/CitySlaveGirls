@@ -410,20 +410,29 @@ line-height: 1;
 
 #svg1Text{
     display:none;
-    width:100%;
+    width:50%;
+    text-align:left;
+    float: right;
+    padding-top: 65px
+    
 }
 
 #svg2Text{
     display:none;
     width:100%;
+    text-align:left;
 }
 
 #svg1{
 text-align:center;
 }
+#svg2{
+text-align:center;
+}
 
 /*ras: BUTTONS for the svg text toggle*/
 .svg1{
+text-align:center;
 }
 .svg2{
 }
