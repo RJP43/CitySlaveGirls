@@ -21,7 +21,7 @@
     <xsl:variable name="xSpacing" select="40"/>
 
     <!-- ras: Variable for collection -->
-    <xsl:variable name="nelsonColl" select="collection('../../Nelson_CSG/CSG_XML/XML_OnSite')"/>
+    <xsl:variable name="nelsonColl" select="collection('../Nelson_CSG/CSG_XML/XML_OnSite')"/>
 
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
@@ -66,20 +66,20 @@
                 <text x="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}" y="{$yLegendStart}" font-size="20">Legend</text>
                 <!-- ras: Male Voice  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + $yLegendInterval}"
+                    y1="{$yLegendStart + ($yLegendInterval * 2)}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="#B9CDDA"
+                    y2="{$yLegendStart + ($yLegendInterval * 2) - $legendFontSize}" stroke="blue"
                     stroke-width="{$legendBoxWidth}"/>
-                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}" y="{$yLegendStart +$yLegendInterval}"
+                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}" y="{$yLegendStart +($yLegendInterval * 2)}"
                     font-size="{$legendFontSize}">Male Voice</text>
                 <!-- ras: Female Voice  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y1="{$yLegendStart + ($yLegendInterval * 2)}"
+                    y1="{$yLegendStart + $yLegendInterval}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 2) - $legendFontSize}" stroke="#FFAAEA"
+                    y2="{$yLegendStart + $yLegendInterval - $legendFontSize}" stroke="red"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
-                    y="{$yLegendStart + ($yLegendInterval * 2)}" font-size="{$legendFontSize}"
+                    y="{$yLegendStart + $yLegendInterval}" font-size="{$legendFontSize}"
                     >Female Voice</text>
                 <!-- ras: Unknown -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
@@ -103,11 +103,11 @@
 
 
                 <line x1="{$Interval * 2 + $xSpacing}" x2="{$Interval * 2 + $xSpacing}" y1="{$yAxisStart}"
-                    y2="{$maleYMax * $yAxisEnd}" stroke="#B9CDDA" stroke-width="{$barWidth}"/>
+                    y2="{$maleYMax * $yAxisEnd}" stroke="blue" stroke-width="{$barWidth}"/>
 
 
                 <line x1="{($Interval) + $xSpacing}" x2="{($Interval) + $xSpacing}" y1="{$yAxisStart}"
-                    y2="{$femaleYMax * $yAxisEnd}" stroke="#FFAAEA" stroke-width="{$barWidth}"/>
+                    y2="{$femaleYMax * $yAxisEnd}" stroke="red" stroke-width="{$barWidth}"/>
 
 
                 <line x1="{($Interval * 3) + $xSpacing}" x2="{($Interval * 3) + $xSpacing}" y1="{$yAxisStart}"
