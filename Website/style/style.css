@@ -407,34 +407,27 @@ line-height: 1;
 }
 /*rjp: end styling for article.html page*/
 /*rjp: start styling for SVGanalysis.html : this section needs work so it appears properly in all screen sizes */
-#svg1 {
-    margin: -30px;
-    margin:5px;
-    padding:5px;
-}
-#svgVis1{
-    width:50%;
-    float:left;
-}
+
 #svg1Text{
-    margin-top: -1150px;
-    width:50%;
-    float:right;
-}
-#svg2 {
-    margin:-20px;
-    padding:5px;
+    display:none;
     width:100%;
 }
-#svgVis2{
-    margin-top: -650px;
-    width:100%;
-}
+
 #svg2Text{
-    margin-top: -800px;
-    margin-bottom: 300px;
+    display:none;
     width:100%;
 }
+
+#svg1{
+text-align:center;
+}
+
+/*ras: BUTTONS for the svg text toggle*/
+.svg1{
+}
+.svg2{
+}
+
 /*rjp: end styling for SVGanalysis.html */
 /*rjp: start styling for about.html */
 #content_about h1, h2 {
