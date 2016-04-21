@@ -21,7 +21,7 @@
     <xsl:variable name="xSpacing" select="40"/>
 
     <!-- ras: Variable for collection -->
-    <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_XML_gender')"/>
+    <xsl:variable name="nelsonColl" select="collection('../../Nelson_CSG/CSG_XML/XML_OnSite')"/>
 
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
@@ -30,7 +30,7 @@
 
 
                 <!-- ras: Y-Axis -->
-                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 2}"
+                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1.5}"
                     x2="{$xAxisStart + $xSpacing}" y2="{$yAxisDrawEnd}" stroke="black" stroke-width="1"/>
                 <!-- ras: X-Axis -->
                 <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1}" x2="{$xAxisEnd + $xSpacing}"

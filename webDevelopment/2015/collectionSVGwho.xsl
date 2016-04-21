@@ -10,7 +10,7 @@
     <xsl:variable name="yAxisStart" select="0"/>
     <xsl:variable name="yAxisEnd" select="-300"/>
     <xsl:variable name="xAxisStart" select="30"/>
-    <xsl:variable name="xAxisEnd" select="((8 + 1) * $Interval) - ($barWidth div 2)"/>
+    <xsl:variable name="xAxisEnd" select="((11 + 1) * $Interval) - ($barWidth div 2)"/>
     <!-- ras: Legend Variables -->
     <xsl:variable name="xLegend" select="$xAxisEnd + 30"/>
     <xsl:variable name="yLegendStart" select="-250"/>
@@ -19,7 +19,7 @@
     <xsl:variable name="legendBoxWidth" select="20"/>
     <xsl:variable name="xSpacing" select="30"/>
     <!-- ras: Variable for collection -->
-    <xsl:variable name="nelsonColl" select="collection('ChicagoTimes_XML_gender')"/>
+    <xsl:variable name="nelsonColl" select="collection('../../Nelson_CSG/CSG_XML/XML_OnSite')"/>
 
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
@@ -28,7 +28,7 @@
 
 
                 <!-- ras: Y-Axis -->
-                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 2}"
+                <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1.5}"
                     x2="{$xAxisStart + $xSpacing}" y2="{$yAxisEnd}" stroke="black" stroke-width="1"/>
                 <!-- ras: X-Axis -->
                 <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + 1}"
@@ -134,6 +134,33 @@
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
                     y="{$yLegendStart + ($yLegendInterval * 8)}" font-size="{$legendFontSize}"
                     >Unidentified</text>
+                <!-- ras: promMen -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y1="{$yLegendStart + ($yLegendInterval * 9)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y2="{$yLegendStart + ($yLegendInterval * 9) - $legendFontSize}" stroke="blue"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
+                    y="{$yLegendStart + ($yLegendInterval * 9)}" font-size="{$legendFontSize}"
+                    >Prominent Men</text>
+                <!-- ras: promWomen -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y1="{$yLegendStart + ($yLegendInterval * 10)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y2="{$yLegendStart + ($yLegendInterval * 10) - $legendFontSize}" stroke="pink"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
+                    y="{$yLegendStart + ($yLegendInterval * 10)}" font-size="{$legendFontSize}"
+                    >Prominent Women</text>
+                <!-- ras: Reporter -->
+                <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y1="{$yLegendStart + ($yLegendInterval * 11)}"
+                    x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
+                    y2="{$yLegendStart + ($yLegendInterval * 11) - $legendFontSize}" stroke="green"
+                    stroke-width="{$legendBoxWidth}"/>
+                <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
+                    y="{$yLegendStart + ($yLegendInterval * 11)}" font-size="{$legendFontSize}"
+                    >Reporter</text>
 
 
 
