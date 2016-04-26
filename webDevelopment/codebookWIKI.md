@@ -93,7 +93,7 @@ If you cannot read the text at all still provide the `<damage>` tag and follow i
 `Simply put <damage agent="blurred" unit="word" quantity="9"/><unclear><supplied resp="#rjp">your best guess here to what the text says</supplied></unclear>.`  
   
   
-###Rule #2 ODD Spelling
+###Rule #2 Odd Spelling
 >Coding idiosyncratic and standard spellings:   
   
 Use the `<choice>` element for when the author of the text uses an unfamiliar spelling of a word.  

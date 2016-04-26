@@ -16,7 +16,7 @@
                 <link rel="stylesheet" type="text/css" href="style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
                     type="text/css"/>
-                <script type="text/javascript" src="style/saidToggle.js">/**/</script>
+                
             </head>
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
@@ -41,7 +41,7 @@
                     <xsl:if test="//div[@type = 'headlines'][2]">
                         <hr/>
                         <div class="headlinesTitle">
-                                <xsl:apply-templates select="//div[@type = 'headline'][1]//item"/>
+                                <ul><xsl:apply-templates select="//div[@type = 'headline'][1]//item"/></ul>
                             
                         </div>
                         <div class="headlinesText">
@@ -57,7 +57,7 @@
                     <xsl:if test="//div[@type = 'headlines'][3]">
                         <hr/>
                         <div class="headlinesTitle">
-                                <xsl:apply-templates select="//div[@type = 'headline'][2]//item"/>
+                                <ul><xsl:apply-templates select="//div[@type = 'headline'][2]//item"/></ul>
                             
                         </div>
                         <div class="headlinesText">
@@ -87,7 +87,7 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type='headlines']//item">
+    <xsl:template match="item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="p">
@@ -95,7 +95,7 @@
     </xsl:template>
     <xsl:template match="said">
         <q class="dialogue"><xsl:apply-templates/></q>
-    </xsl:template>
+    </xsl:template><!-- rjp: This is the generic rule for dialogue when the dialogue is not the focus of the selected XSLT filter! -->
     <xsl:template match="rdg">
         <xsl:if test="@wit[contains(.,'#CT')]">
             <span class="CT"><xsl:apply-templates/></span>
@@ -118,10 +118,25 @@
             <xsl:otherwise><span title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed."><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="name">
-        <i><xsl:apply-templates></xsl:apply-templates></i>
+    <xsl:template match="name[@ref='#CT']">
+        <span class="chicTimes">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-    <xsl:template match="orgName[@type='exposedCompany']">
-        <strong><xsl:apply-templates/></strong>
+    <xsl:template match="orgName">
+        <xsl:choose>
+            <xsl:when test="@type='exposedCompany'"><span class="exposComp">
+                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span>
+            </span>
+            </xsl:when>
+            <xsl:otherwise><span class="org"><span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="placeName">
+        <xsl:choose>
+            <xsl:when test="@type='address'"><span class="address">
+                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:when>
+            <xsl:otherwise><span class="place"><xsl:apply-templates/></span></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
