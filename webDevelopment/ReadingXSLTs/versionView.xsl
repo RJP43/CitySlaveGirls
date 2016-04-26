@@ -11,7 +11,7 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//teiHeader//title/@corresp"/>
+                    <xsl:text>Version Comparison for Article </xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/>
                 </title>
                 <link rel="stylesheet" type="text/css" href="style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
@@ -20,7 +20,8 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
-                <div id="article">
+                <xsl:choose>
+                <xsl:when test="//app"><div id="article">
                     <div id="articleHead">
                         <h1>The Chicago Times</h1>
                         <h2>"City Slave Girls"</h2>
@@ -40,9 +41,8 @@
                     <xsl:if test="//div[@type = 'headlines'][2]">
                         <hr/>
                         <div class="headlinesTitle">
-                            <ul>
                                 <xsl:apply-templates select="//div[@type = 'headline'][1]//item"/>
-                            </ul>
+                            
                         </div>
                         <div class="headlinesText">
                             <ul>
@@ -57,9 +57,8 @@
                     <xsl:if test="//div[@type = 'headlines'][3]">
                         <hr/>
                         <div class="headlinesTitle">
-                            <ul>
                                 <xsl:apply-templates select="//div[@type = 'headline'][2]//item"/>
-                            </ul>
+                            
                         </div>
                         <div class="headlinesText">
                             <ul>
@@ -82,44 +81,47 @@
                             <xsl:apply-templates select="//div[@type = 'advertisement']//p"/>
                         </div>
                     </xsl:if>
-                </div>
+                </div></xsl:when>
+                <xsl:otherwise><div class="noVersion">The version comparison for this article is currently not available. Please select a different filter or try the version comparison filter on another article.</div></xsl:otherwise>
+                </xsl:choose>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="item">
+    <xsl:template match="div[@type='headlines']//item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="said">
-<xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text>
+        <q class="dialogue"><xsl:apply-templates/></q>
     </xsl:template>
     <xsl:template match="rdg">
         <xsl:if test="@wit[contains(.,'#CT')]">
             <span class="CT"><xsl:apply-templates/></span>
         </xsl:if>
-        <xsl:if test="@wit[contains(.,'#WSGC')]"><span class="WSGC"><xsl:apply-templates/></span></xsl:if>
+        <xsl:if test="@wit[contains(.,'#WSGC')]"><xsl:text>   *</xsl:text><span class="WSGC"><xsl:apply-templates/></span><xsl:text>*   </xsl:text></xsl:if>
     </xsl:template>
-    <!--<xsl:template match="said">
-        <xsl:choose> 
-            <xsl:when test="@who='#nellNelson'"><span class="nellNelson"><xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text></span></xsl:when>
-            <xsl:when test="@who='#workingGirl'"><span class="workingGirl"><xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text></span></xsl:when>
-            <xsl:when test="@ana='male'"><span class="male"><xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text></span></xsl:when>
-            <xsl:when test="@ana='female' and not(@who='#nellNelson')"><span class="female"><xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text></span></xsl:when> 
-            <xsl:otherwise>
-                <xsl:text>"</xsl:text><i><xsl:apply-templates/></i><xsl:text>"</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>-->
     <xsl:template match="hi">
         <xsl:choose>
             <xsl:when test="@rend='double'">
-                <xsl:text>"</xsl:text><xsl:apply-templates/><xsl:text>"</xsl:text>
+                <q class="double"><xsl:apply-templates/></q>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:text>'</xsl:text><xsl:apply-templates/><xsl:text>'</xsl:text>
+                <q class="single"><xsl:apply-templates/></q>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    <xsl:template match="unclear">
+        <xsl:choose>
+            <xsl:when test="./supplied"><xsl:apply-templates/></xsl:when>
+            <xsl:otherwise><span title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed."><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="name">
+        <i><xsl:apply-templates></xsl:apply-templates></i>
+    </xsl:template>
+    <xsl:template match="orgName[@type='exposedCompany']">
+        <strong><xsl:apply-templates/></strong>
     </xsl:template>
 </xsl:stylesheet>
