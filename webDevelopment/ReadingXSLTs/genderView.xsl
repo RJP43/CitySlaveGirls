@@ -101,8 +101,7 @@
         </xsl:when>
             <xsl:otherwise></xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-    <!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
+    </xsl:template><!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
     <xsl:template match="item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
@@ -135,6 +134,10 @@
             <xsl:otherwise><span title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed."><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="sic">
+        <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="reg"/>
     <xsl:template match="name[@ref='#CT']">
         <span class="chicTimes">
             <xsl:apply-templates/>
@@ -154,11 +157,6 @@
             <xsl:when test="@type='address'"><span class="address">
                 <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:when>
             <xsl:otherwise><span class="place"><xsl:apply-templates/></span></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="choice">
-        <xsl:choose>
-            <xsl:when test=""></xsl:when>
         </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

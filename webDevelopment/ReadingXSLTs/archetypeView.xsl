@@ -162,8 +162,7 @@
             </xsl:when>
             <xsl:otherwise></xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-    <!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
+    </xsl:template><!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
     <xsl:template match="item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
@@ -280,6 +279,10 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="sic">
+        <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="reg"/>
     <xsl:template match="name[@ref='#CT']">
         <span class="chicTimes">
             <xsl:apply-templates/>

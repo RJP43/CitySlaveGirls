@@ -118,6 +118,10 @@
             <xsl:otherwise><span title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed."><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="sic">
+        <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="reg"/>
     <xsl:template match="name[@ref='#CT']">
         <span class="chicTimes">
             <xsl:apply-templates/>

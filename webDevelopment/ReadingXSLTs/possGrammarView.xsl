@@ -7,16 +7,22 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     
+    
+    
+    <!-- rjp: STILL WORKING ON THIS! NEED TO FIGURE OUT A LOGICAL WAY TO HAVE READING VIEW THAT HIGHLIGHTS OUR GRAMMATICAL MARKUP?? -->
+    
+    
+    
+    
     <xsl:template match="/">
         <html>
             <head>
                 <title>
-                    <xsl:text>XML to HTML Plain Reading View for Article </xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/>
+                    <xsl:text>Relationships of Possession in Article </xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/>
                 </title>
                 <link rel="stylesheet" type="text/css" href="style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
                     type="text/css"/>
-                
             </head>
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
@@ -83,7 +89,7 @@
                     </div>
             </body>
         </html>
-    </xsl:template>
+    </xsl:template>    
     <xsl:template match="sic">
         <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
     </xsl:template>
