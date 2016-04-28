@@ -91,6 +91,7 @@
                             </div>
                         </xsl:if>
                     </div>
+                <xsl:comment>#include virtual="foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>

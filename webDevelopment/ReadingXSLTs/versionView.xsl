@@ -3,10 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
     exclude-result-prefixes="xs" version="2.0">
-
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-
     <xsl:template match="/">
         <html>
             <head>
@@ -21,7 +19,7 @@
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
                 <xsl:choose>
-                <xsl:when test="//app"><div id="article">
+                <xsl:when test="//app">
                     <div id="versionCheckboxes">
                         <h3>Click to Toggle Versioned Reading View</h3>
                         <ul>
@@ -29,6 +27,7 @@
                             <li><input type="checkbox" value="WSGC"/>The Barkley Publication</li>
                         </ul>
                     </div>
+                    <div id="article">
                     <div id="articleHead" class="CT">
                         <h1>The Chicago Times</h1>
                         <h2>"City Slave Girls"</h2>
@@ -88,9 +87,12 @@
                             <xsl:apply-templates select="//div[@type = 'advertisement']//p"/>
                         </div>
                     </xsl:if>
-                </div></xsl:when>
+                    </div>
+                </xsl:when>
                 <xsl:otherwise><div class="noVersion">The version comparison for this article is currently not available. Please select a different filter or try the version comparison filter on another article.</div></xsl:otherwise>
                 </xsl:choose>
+                
+                <xsl:comment>#include virtual="foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
