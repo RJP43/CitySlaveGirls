@@ -12,7 +12,7 @@
                 <title>
                     <xsl:apply-templates select="//teiHeader//title[@level='a']"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="style/style.css"/>
+                <link rel="stylesheet" type="text/css" href="../../Website/style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
                     type="text/css"/>
             </head>
