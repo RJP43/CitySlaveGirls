@@ -6,8 +6,8 @@ function toggleHighlight() {
         case 'nellNelson':
         color = '#A3C9A8';
         break;
-        case 'workingGirl':
-        color = '#EFD9CE';
+        case 'unknown':
+        color = 'orange';
         break;
         case 'female':
         color = '#FFAAEA';
@@ -15,6 +15,36 @@ function toggleHighlight() {
         case 'male':
         color = '#B9CDDA';
         break; 
+        case 'workingGirl':
+        color = 'pink';
+        break;
+        case 'employee':
+        color = '#C695A6'
+        break;
+        case 'employer':
+        color = '#F2DA00';
+        break;
+        case 'foreperson':
+        color = '#725752';
+        break;
+        case 'benefactor':
+        color = '#29335C';
+        break;
+        case 'messenger':
+        color = '#00A6ED';
+        break;
+        case 'promMen':
+        color = 'blue';
+        break;
+        case 'promWoman':
+        color = 'red';
+        break;
+        case 'reporter':
+        color = 'green';
+        break;
+        case 'unidentified':
+        color = 'orange'
+        break;
     }
     var status = this.checked;
     // the status to which you've just changed the checkbox
