@@ -7,7 +7,7 @@ function toggleHighlight() {
         color = '#A3C9A8';
         break;
         case 'workingGirl':
-        color = '#FAF3DD';
+        color = '#EFD9CE';
         break;
         case 'female':
         color = '#FFAAEA';

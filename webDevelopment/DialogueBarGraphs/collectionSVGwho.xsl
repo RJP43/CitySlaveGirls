@@ -19,7 +19,7 @@
     <xsl:variable name="legendBoxWidth" select="20"/>
     <xsl:variable name="xSpacing" select="30"/>
     <!-- ras: Variable for collection -->
-    <xsl:variable name="nelsonColl" select="collection('../Nelson_CSG/CSG_XML/XML_OnSite')"/>
+    <xsl:variable name="nelsonColl" select="collection('../../Nelson_CSG/CSG_XML/XML_OnSite')"/>
 
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
@@ -75,7 +75,7 @@
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
                     y1="{$yLegendStart + ($yLegendInterval * 1)}"
                     x2="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
-                    y2="{$yLegendStart + ($yLegendInterval * 1) - $legendFontSize}" stroke="#FAF3DD"
+                    y2="{$yLegendStart + ($yLegendInterval * 1) - $legendFontSize}" stroke="#EFD9CE"
                     stroke-width="{$legendBoxWidth}"/>
                 <text x="{$xLegend + $legendBoxWidth + 5 + $xSpacing}"
                     y="{$yLegendStart + ($yLegendInterval * 1)}" font-size="{$legendFontSize}"
@@ -199,7 +199,7 @@
                     stroke-width="{$barWidth}"/>
 
                 <line x1="{$Interval * 1 + $xSpacing}" x2="{$Interval * 1 + $xSpacing}"
-                    y1="{$yAxisStart}" y2="{$wgYMax * $yAxis50}" stroke="#FAF3DD"
+                    y1="{$yAxisStart}" y2="{$wgYMax * $yAxis50}" stroke="#EFD9CE"
                     stroke-width="{$barWidth}"/>
 
                 <line x1="{$Interval * 5 + $xSpacing}" x2="{$Interval * 5 + $xSpacing}"
