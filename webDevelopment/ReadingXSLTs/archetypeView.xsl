@@ -17,7 +17,7 @@
                 <link rel="stylesheet" type="text/css" href="../style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
                     type="text/css"/>
-                <script type="text/javascript" src="style/saidToggle.js">/**/</script>
+                <script type="text/javascript" src="../style/saidToggle.js">/**/</script>
             </head>
             <body>
                 <xsl:comment>#include virtual="../top.html"</xsl:comment>

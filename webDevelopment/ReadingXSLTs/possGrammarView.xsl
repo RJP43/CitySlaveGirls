@@ -6,11 +6,6 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    
-    
-    
-    <!-- rjp: STILL WORKING ON THIS! NEED TO FIGURE OUT A LOGICAL WAY TO HAVE READING VIEW THAT HIGHLIGHTS OUR GRAMMATICAL MARKUP?? -->
-    
      <xsl:template match="/">
         <html>
             <head>
