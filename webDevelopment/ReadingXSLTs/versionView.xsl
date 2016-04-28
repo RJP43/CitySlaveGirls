@@ -16,13 +16,20 @@
                 <link rel="stylesheet" type="text/css" href="style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
                     type="text/css"/>
-                
+                <script type="text/javascript" src="style/versionToggle.js">/**/</script>
             </head>
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
                 <xsl:choose>
                 <xsl:when test="//app"><div id="article">
-                    <div id="articleHead">
+                    <div id="versionCheckboxes">
+                        <h3>Click to Toggle Versioned Reading View</h3>
+                        <ul>
+                            <li><input type="checkbox" value="CT"/><i>The Chicago Times</i></li>
+                            <li><input type="checkbox" value="WSGC"/>The Barkley Publication</li>
+                        </ul>
+                    </div>
+                    <div id="articleHead" class="CT">
                         <h1>The Chicago Times</h1>
                         <h2>"City Slave Girls"</h2>
                         <h3>
@@ -100,7 +107,7 @@
         <xsl:if test="@wit[contains(.,'#CT')]">
             <span class="CT"><xsl:apply-templates/></span>
         </xsl:if>
-        <xsl:if test="@wit[contains(.,'#WSGC')]"><xsl:text>   *</xsl:text><span class="WSGC"><xsl:apply-templates/></span><xsl:text>*   </xsl:text></xsl:if>
+        <xsl:if test="@wit[contains(.,'#WSGC')]"><span class="WSGC"><xsl:apply-templates/></span></xsl:if>
     </xsl:template>
     <xsl:template match="hi">
         <xsl:choose>
