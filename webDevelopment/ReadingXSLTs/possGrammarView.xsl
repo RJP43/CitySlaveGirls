@@ -18,130 +18,53 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="../top.html"</xsl:comment>
-                <div id="svgContainer">
-                    <!--rjp: Want to call on the network for each article based on if the networks filename matches the date of the article so that the specific network for each article appears before the reading view. -->
+                <div id="networkSVG">
+                    
                 </div>
-                <div id="article">
-                        <div id="articleHead">
-                            <h1>The Chicago Times</h1>
-                            <h2>"City Slave Girls"</h2>
-                            <h3>
-                                <xsl:apply-templates select="//teiHeader//title/date"/>
-                            </h3>
-                        </div>
-                        <div class="headlinesText">
-                            <ul>
-                                <xsl:apply-templates select="//div[@type = 'headlines'][1]//item"/>
-                            </ul>
-                        </div>
-                        <hr/>
-                        <div class="articleText">
-                            <xsl:apply-templates select="//div[@type = 'articleBody'][1]"/>
-                        </div>
-                        <xsl:if test="//div[@type = 'headlines'][2]">
-                            <hr/>
-                            <div class="headlinesTitle">
-                                <ul><xsl:apply-templates select="//div[@type = 'headline'][1]//item"/></ul>
-                                
-                            </div>
-                            <div class="headlinesText">
-                                <ul>
-                                    <xsl:apply-templates select="//div[@type = 'headlines'][2]//item"/>
-                                </ul>
-                            </div>
-                            <hr/>
-                            <div class="articleText">
-                                <xsl:apply-templates select="//div[@type = 'articleBody'][2]"/>
-                            </div>
-                        </xsl:if>
-                        <xsl:if test="//div[@type = 'headlines'][3]">
-                            <hr/>
-                            <div class="headlinesTitle">
-                                <ul><xsl:apply-templates select="//div[@type = 'headline'][2]//item"/></ul>
-                                
-                            </div>
-                            <div class="headlinesText">
-                                <ul>
-                                    <xsl:apply-templates select="//div[@type = 'headlines'][3]//item"/>
-                                </ul>
-                            </div>
-                            <hr/>
-                            <div class="articleText">
-                                <xsl:apply-templates select="//div[@type = 'articleBody'][3]"/>
-                            </div>
-                        </xsl:if>
-                        <xsl:if test="//div[@type = 'advertisement']">
-                            <div id="advertisement">
-                                <h3>
-                                    <xsl:text>The following is an advertisement pertaining to the series that was featured at the end of this article.</xsl:text>
-                                </h3>
-                                <h2>
-                                    <xsl:apply-templates select="//div[@type = 'advertisement']/head"/>
-                                </h2>
-                                <xsl:apply-templates select="//div[@type = 'advertisement']//p"/>
-                            </div>
-                        </xsl:if>
+                <div id="table">
+                        <div id="tableTitle">
+                            <h2><xsl:text>Article: </xsl:text><xsl:apply-templates select="//title/@corresp"/><xsl:text> [</xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/><xsl:text>]</xsl:text></h2>
+                        </div>           
+                        <p class="tableText">The following table correlates with the above graph and highlights the possesive relationships seen in this article.</p>
+                        <table id="network">
+                            <tr>
+                                <th>Possessive Pronouns/Nouns</th>
+                                <th>Possessed Nouns</th>
+                                <th>Context</th>
+                            </tr>
+                            <xsl:apply-templates select="//seg"/>
+                        </table>
                     </div>
-                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
-    </xsl:template>    
-    <xsl:template match="sic">
-        <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
+     </xsl:template>
+    <xsl:template match="seg">
+        <tr>
+            <td>
+                <xsl:for-each select="//w[@type='poss']">
+                    <xsl:apply-templates/>
+                    <br/>
+                    <xsl:if test=".[@ana]">
+                    <xsl:text>(in reference to </xsl:text><xsl:apply-templates select="./@ana"/><xsl:text>)</xsl:text>
+                    </xsl:if>
+                    
+                </xsl:for-each>
+            </td>
+            <td>
+                <xsl:for-each select="//w[@type='noun']">
+                    <xsl:apply-templates/>
+                    <br/>
+                    <xsl:if test=".[@ana]">
+                        <xsl:text>(in reference to </xsl:text><xsl:apply-templates select="./@ana"/><xsl:text>)</xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </td>
+            <td>
+                <xsl:for-each select=".">
+                    <xsl:apply-templates/>
+                </xsl:for-each>
+            </td>
+        </tr>
     </xsl:template>
-    <xsl:template match="reg"/>
-    <xsl:template match="item">
-        <li><xsl:apply-templates/></li>
-    </xsl:template>
-    <xsl:template match="p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-    <xsl:template match="said">
-        <q class="dialogue"><xsl:apply-templates/></q>
-    </xsl:template><!-- rjp: This is the generic rule for dialogue when the dialogue is not the focus of the selected XSLT filter! -->
-    <xsl:template match="rdg">
-        <xsl:choose>
-            <xsl:when test="@wit[contains(., '#CT')]">
-                <xsl:apply-templates/>
-            </xsl:when>
-            <xsl:otherwise></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template><!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
-    <xsl:template match="hi">
-        <xsl:choose>
-            <xsl:when test="@rend='double'">
-                <q class="double"><xsl:apply-templates/></q>
-            </xsl:when>
-            <xsl:otherwise>
-                <q class="single"><xsl:apply-templates/></q>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="unclear">
-        <xsl:choose>
-            <xsl:when test="./supplied"><xsl:apply-templates/></xsl:when>
-            <xsl:otherwise><span title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed."><xsl:text>[MISSING TEXT]</xsl:text></span></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="name[@ref='#CT']">
-        <span class="chicTimes">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="orgName">
-        <xsl:choose>
-            <xsl:when test="@type='exposedCompany'"><span class="exposComp">
-                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span>
-            </span>
-            </xsl:when>
-            <xsl:otherwise><span class="org"><span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="placeName">
-        <xsl:choose>
-            <xsl:when test="@type='address'"><span class="address">
-                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:when>
-            <xsl:otherwise><span class="place"><xsl:apply-templates/></span></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+    <!--<xsl:template match="rdg[@wit[contains(.,'#WSGC')]]"/>-->
 </xsl:stylesheet>
