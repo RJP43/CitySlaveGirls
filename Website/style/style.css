@@ -109,7 +109,7 @@ body{
 /*rjp: end styling for index.html*/
 /*rjp: start styling for top and foot*/
 .header{
-    padding:10px;
+    padding:5px;
 	margin: auto;
 	border:2px solid #e7e2d7;
 	border-radius:8px;
@@ -212,24 +212,6 @@ body{
 /*rjp: end styling for top and foot*/
 
 /*rjp: styling for article pages*/
-#articleLinks {
-    width:75%;
-     margin: auto;
-    padding:5px;
-    text-align:center;    
-    border:3px dotted #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;   
-}
-#articleLinks p{
-font-size:16px;
-line-height: 1;
-}
-#article {
-    float:right;
-    width: 60%;
-}
 #articleHead {
     margin:10px;
     padding: 5px;
@@ -248,7 +230,7 @@ line-height: 1;
 }
 
 .articleText {
-    margin:20px;
+     margin:20px;
     padding:5px;
 }
 /*rjp: toggle box for articles*/
@@ -267,9 +249,8 @@ line-height: 1;
 #checkboxes ul, li {
     list-style-type:none;
     display:inline;
-    padding:25px;
+    padding:75px;
 }
-
 /*rjp: table section styling*/
 #table {
     float:left;
@@ -337,78 +318,7 @@ line-height: 1;
 #headlines1 img {
 	margin: 20px 20px 10px;
 }
-#vocab {
-    margin-bottom: 20px;
-}
-#vocabListText p {
-    margin:10px;
-    padding: 5px;
-    font-size: 18px;
-}
-#vocabList ul {
-	padding:20px;
-	list-style:none;
-	margin-top: -20px;
-	font-size:18px;
-}
 
-#vocabList li {
-    text-align: left;
-    clear: left;
-    margin:0px;
-	padding:0px;
-	list-style:none;
-	display:block;
-}
-#vocabList h1, h2 {
-    text-align:center;
-}
-#articleList {
-    width: 40%;
-	padding:10px;
-	text-align:center;
-	margin: 1px;
-	border:2px dotted #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-    float:right;
-}
-#articleList h2{
-	color:#000000;
-	padding:5px;
-	margin:10px;	
-	text-shadow:0 1px 0 #B9929F;
-	text-align: center;
-}
-#articleList p {
-    margin:auto;
-    text-align: center;
-    font-size: 20px;    
-}
-#articleList ul {
-	padding:5px;
-	list-style:none;
-	margin-top: -10px;
-	text-align:center;
-	font-size:20px;
-}
-#articleList li {
-    float: left;
-    clear: left;
-    margin:0px;
-	padding:0px;
-	list-style:none;
-	display:block;
-}
-#articleList li a{
-	width:auto;
-	padding:3px;
-	color: #000000;
-} 
-#articleList li a:hover {
-	background:#93748A;
-}
 /*rjp: end styling for article.html page*/
 /*rjp: start styling for SVGanalysis.html : this section needs work so it appears properly in all screen sizes */
 
