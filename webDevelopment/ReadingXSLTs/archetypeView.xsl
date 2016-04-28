@@ -20,7 +20,7 @@
                 <script type="text/javascript" src="style/saidToggle.js">/**/</script>
             </head>
             <body>
-                <xsl:comment>#include virtual="top.html"</xsl:comment>
+                <xsl:comment>#include virtual="../top.html"</xsl:comment>
                 <div id="checkboxes">
                     <h3>Click to Toggle Colored Dialogue</h3>
                     <h4>Based on Archetype of Speaker</h4>
@@ -152,7 +152,7 @@
                         </div>
                     </xsl:if>
                 </div>
-                <xsl:comment>#include virtual="foot.html"</xsl:comment>
+                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>

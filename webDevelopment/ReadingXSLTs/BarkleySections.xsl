@@ -17,7 +17,7 @@
                     type="text/css"/>
             </head>
             <body>
-                <xsl:comment>#include virtual="top.html"</xsl:comment>
+                <xsl:comment>#include virtual="../top.html"</xsl:comment>
                 <div id="articleSection">
                     <div id="sectionHead">
                         <h1>The White Slave Girls of Chicago</h1>
@@ -32,7 +32,7 @@
                         <xsl:apply-templates select="//div[@type = 'sectionBody']"/>
                     </div>
                 </div>
-                <xsl:comment>#include virtual="foot.html"</xsl:comment>
+                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
