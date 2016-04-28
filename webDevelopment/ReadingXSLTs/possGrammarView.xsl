@@ -11,10 +11,7 @@
     
     <!-- rjp: STILL WORKING ON THIS! NEED TO FIGURE OUT A LOGICAL WAY TO HAVE READING VIEW THAT HIGHLIGHTS OUR GRAMMATICAL MARKUP?? -->
     
-    
-    
-    
-    <xsl:template match="/">
+     <xsl:template match="/">
         <html>
             <head>
                 <title>
@@ -26,6 +23,9 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="top.html"</xsl:comment>
+                <div id="svgContainer">
+                    <!--rjp: Want to call on the network for each article based on if the networks filename matches the date of the article so that the specific network for each article appears before the reading view. -->
+                </div>
                 <div id="article">
                         <div id="articleHead">
                             <h1>The Chicago Times</h1>
