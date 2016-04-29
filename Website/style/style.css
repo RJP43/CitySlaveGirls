@@ -265,9 +265,30 @@ li{
     display:inline;
     padding:10px;
 }
+#versionCheckboxes{
+    margin:10px;
+    padding:5px;
+    text-align:center;
+    display:block;
+    background:#D1BEB0;
+    border:2px solid #E0D8DE;
+}
+#versionCheckboxes h3,
+h4{
+    margin:0px;
+    padding:1px;
+}
+#versionCheckboxes ul,
+li{
+    list-style-type:none;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:inline;
+    padding:10px;
+}
 
 /*rjp: table section styling*/
-#table{
+/*#table{
     width:100%;
     display:block;
 }
@@ -289,7 +310,7 @@ p.tableText{
     background-color:#E0D8DE;
     color:black;
     text-align:center;
-}
+}*/
 #networkSVG{
     text-align:center;
     width:100%;
