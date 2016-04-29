@@ -1,4 +1,17 @@
 /*begin styles to control links in general on every page of the website unless otherwise specified*/
+q {quotes:'“' '”' '‘' '’'; 
+}
+q {font-style:normal;}
+q {content:'“'; 
+}
+q {content:'”';
+}
+
+q.sub::before {content: '‘'}
+q.sub::after {content: '’'}
+q.sub::before {content: '‘'}
+q.sub::after {content: '’'}
+
 a:link{
     font-weight:bold;
     color:#42033D;
