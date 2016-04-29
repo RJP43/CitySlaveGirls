@@ -1,235 +1,235 @@
 /*begin styles to control links in general on every page of the website unless otherwise specified*/
-a:link {
-   font-weight:bold;
-   color:#42033D;
-   text-decoration:underline;
-}
-
-a:visited {
-    color: #42033D;
+a:link{
+    font-weight:bold;
+    color:#42033D;
     text-decoration:underline;
 }
 
-a:active {
-    color: #8A716A;
-    text-decoration: none;
+a:visited{
+    color:#42033D;
+    text-decoration:underline;
 }
 
-a:hover {
-    background-color: #8E9AAF;
-    text-decoration:none;    
+a:active{
+    color:#8A716A;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color:#8E9AAF;
+    text-decoration:none;
 }
 
 /* end styles to control links in general on every page of the website unless otherwise specified*/
 html{
-    background-color: #FAF3DD;  
+    background-color:#FAF3DD;
 }
 body{
-    margin: 20px auto;
+    margin:20px auto;
     padding:5px;
-    display: block;
-    min-height: 500px;
-    min-width: 500px;
-    max-height: 1250px;
-    max-width: 1250px;
+    display:block;
+    min-height:500px;
+    min-width:500px;
+    max-height:1250px;
+    max-width:1250px;
 }
 /*rjp: start styling for index.html*/
-#content_text {
+#content_text{
     margin:40px;
-    padding: 15px;   
-	border:4px dotted #B9929F;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	background: #6A6262;
-	color:#FFFFFF;
-	font-size: 1.2em;
+    padding:15px;
+    border:4px dotted #B9929F;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    background:#6A6262;
+    color:#FFFFFF;
+    font-size:1.2em;
 }
-.img {
+.img{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    padding: 5px;
+    padding:5px;
 }
 
-#image1 {
+#image1{
     float:left;
     width:45%;
     margin:10px;
-    padding-top: 75px;
+    padding-top:75px;
     text-align:center;
 }
-#image2 {
+#image2{
     float:right;
     width:45%;
     margin:10px;
     padding:5px;
     text-align:center;
 }
-#image1_text {
+#image1_text{
     display:block;
     padding:5px;
-	margin-left: auto;
-	margin-right:auto;
-	color: #FFFFFF;
-	background-color: #6A6262; 
-	border:1px solid #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	width:100%;
-	text-align:center;
-	font-size:90%;
-	position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    color:#FFFFFF;
+    background-color:#6A6262;
+    border:1px solid #FFFFFF;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    width:100%;
+    text-align:center;
+    font-size:90%;
+    position:relative;
 }
-#image2_text {
+#image2_text{
     display:block;
     padding:5px;
-	margin-left: auto;
-	margin-right:auto;
-	margin-bottom: 5px;
-	color: #FFFFFF;
-	background-color: #6A6262; 
-	border:1px solid #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	width:100%;
-	text-align:center;
-	font-size:90%;
-	position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5px;
+    color:#FFFFFF;
+    background-color:#6A6262;
+    border:1px solid #FFFFFF;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    width:100%;
+    text-align:center;
+    font-size:90%;
+    position:relative;
 }
 #image1_text a{
-    color: #FFFFFF;
+    color:#FFFFFF;
 }
 #image2_text a{
-    color: #FFFFFF;
+    color:#FFFFFF;
 }
 /*rjp: end styling for index.html*/
 /*rjp: start styling for top and foot*/
 .header{
     padding:5px;
-	/*margin: auto;*/
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	background: #FFFFFF;
-	display:block;
-	position:relative;
-	text-align:center;
+    /*margin: auto;*/
+    border:2px solid #e7e2d7;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    background:#FFFFFF;
+    display:block;
+    position:relative;
+    text-align:center;
 }
-.header h1 {
-	font-family: 'Yellowtail', cursive;
-	margin-top:-10px;
-	font-size:4.0em;
-	text-transform:none;
-	letter-spacing:0em;
-	text-align:center;
+.header h1{
+    font-family:'Yellowtail', cursive;
+    margin-top:-10px;
+    font-size:4.0em;
+    text-transform:none;
+    letter-spacing:0em;
+    text-align:center;
 }
 
-.header h2 {
-	margin-top: -40px;
-	font-family: 'Goudy Old Style';
+.header h2{
+    margin-top:-40px;
+    font-family:'Goudy Old Style';
     font-size:2.0em;
-	text-align:center;
+    text-align:center;
 }
 .header a{
-   font-weight:bold;
-   color:#42033D;
-   text-decoration:underline;
+    font-weight:bold;
+    color:#42033D;
+    text-decoration:underline;
 }
 #nav{
-    margin: -35px;
-    width: 100%;
+    margin:-35px;
+    width:100%;
     text-align:center;
     display:block;
 }
-#nav ul {
+#nav ul{
     /*box-shadow: 0px 0px 0px rgba(0,0,0,0.15);*/
-    margin: auto;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
+    margin:auto;
+    border-radius:10px;
+    list-style:none;
+    position:relative;
+    display:inline-table;
 }
-#nav ul ul {
-       background: #FFFFFF;
-	   border-radius: 0px;
-	   padding: 0;
-	   position: absolute;
-	   top: 100%;
-	   display: none;
+#nav ul ul{
+    background:#FFFFFF;
+    border-radius:0px;
+    padding:0;
+    position:absolute;
+    top:100%;
+    display:none;
 }
-#nav ul ul li a {
-		padding: 15px 40px;
+#nav ul ul li a{
+    padding:15px 40px;
 }
-#nav ul li:hover > ul {
-		display: block;
+#nav ul li:hover > ul{
+    display:block;
 }
-#nav ul ul li {
-		float: none; 
-		position: relative;
+#nav ul ul li{
+    float:none;
+    position:relative;
 }
-#nav ul:after {
-		content: "";
-		clear: both;
-		display: block;
+#nav ul:after{
+    content:"";
+    clear:both;
+    display:block;
 }
-#nav ul li a {
-        font-size:1.3em;
-		display: block;
-		padding: 25px 40px;
+#nav ul li a{
+    font-size:1.3em;
+    display:block;
+    padding:25px 40px;
 }
-#nav ul li {
-	   float: left;
+#nav ul li{
+    float:left;
 }
-#nav li {
-	margin:0px 20px;
-	padding:5px;
-	list-style-type:none;
-	display:inline;
+#nav li{
+    margin:0px 20px;
+    padding:5px;
+    list-style-type:none;
+    display:inline;
 }
-#nav a:hover {
-	background-color: #B9929F;
-	text-decoration: underline;
-	border-radius: 15px
+#nav a:hover{
+    background-color:#B9929F;
+    text-decoration:underline;
+    border-radius:15px
 }
 
 #footer{
     padding:5px;
     margin:10px;
-    display: block;
-	clear: both;
-	background: #FFFFFF;
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	text-align:center;
+    display:block;
+    clear:both;
+    background:#FFFFFF;
+    border:2px solid #e7e2d7;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    text-align:center;
 }
 /*rjp: end styling for top and foot*/
 
 /*rjp: styling for article pages*/
-#article {
+#article{
     color:black;
 }
-#articleHead {
+#articleHead{
     margin:10px;
-    padding: 5px;
-    font-family: 'Goudy Old Style';
-	text-align:center;
+    padding:5px;
+    font-family:'Goudy Old Style';
+    text-align:center;
 }
-.headlinesText ul {
-    font-family: sans-serif;
-    margin: 10px;
-    padding: 5px;
+.headlinesText ul{
+    font-family:sans-serif;
+    margin:10px;
+    padding:5px;
     color:black;
 }
-.headlinesText li {
+.headlinesText li{
     text-align:center;
     display:list-item;
-    padding: 5px;
+    padding:5px;
     color:black;
 }
 .headlinesTitle{
@@ -239,106 +239,115 @@ body{
     color:black;
     text-align:center;
 }
-.articleText {
+.articleText{
     margin:20px;
     padding:5px;
 }
 /*rjp: toggle box for articles*/
-#checkboxes {
-    margin: 10px;
+#checkboxes{
+    margin:10px;
     padding:5px;
-    text-align: center;
-    display: block;
-    background:  #D1BEB0;
-    border: 2px solid #E0D8DE;
+    text-align:center;
+    display:block;
+    background:#D1BEB0;
+    border:2px solid #E0D8DE;
 }
-#checkboxes h3, h4{
+#checkboxes h3,
+h4{
     margin:0px;
     padding:1px;
 }
-#checkboxes ul, li {
+#checkboxes ul,
+li{
     list-style-type:none;
-    color: #FFFFFF;
+    color:#FFFFFF;
     font-weight:bold;
     display:inline;
     padding:10px;
 }
 
 /*rjp: table section styling*/
-#table {
+#table{
     float:left;
     width:40%;
-    display: block;
+    display:block;
 }
-#table table, p.tableText {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+#table table,
+p.tableText{
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
     padding:5px;
-    text-align: center;
+    text-align:center;
     border:3px dotted #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
 }
-#tableTitle {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+#tableTitle{
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
     padding:5px;
-    text-align: center;
+    text-align:center;
     border:3px dotted #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;    
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
 }
 #table br{
-     display: block; 
-     content: ""; 
-     margin-top: 2px; 
+    display:block;
+    content:"";
+    margin-top:2px;
 }
-#table tr {
-   outline: 2px solid black;
-   text-align: center;
-   padding: 10px;
+#table tr{
+    outline:2px solid black;
+    text-align:center;
+    padding:10px;
 }
-#table th {
-    height: 40px;
-    background-color: #E0D8DE;
-    color: black;
-    border: 2px solid black;
-    text-align: center;
+#table th{
+    height:40px;
+    background-color:#E0D8DE;
+    color:black;
+    border:2px solid black;
+    text-align:center;
+}
+#networkSVG{
+    text-align:center;
+    width:100%;
+    margin:10px;
+    padding:5px;
 }
 /*rjp: end styling for article pages*/
 /*rjp: start styling for article.html page*/
-#content_articles {
-    font-family: "Arial";
-	width: 50%;
-	padding:10px;
-	text-align:center;
-	margin: auto;
-	border:3px solid #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	background: #6A6262;
-	color:#FFFFFF;
-	font-size: 16px;
+#content_articles{
+    font-family:"Arial";
+    width:50%;
+    padding:10px;
+    text-align:center;
+    margin:auto;
+    border:3px solid #FFFFFF;
+    border-radius:8px;
+    border-radius:.8em;
+    border-radius:.8em;
+    background:#6A6262;
+    color:#FFFFFF;
+    font-size:16px;
 }
 #content_articles a{
-   font-weight:bold;
-   color:#FFFFFF;
-   text-decoration:underline;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:underline;
 }
-#headlines1 img {
-	margin: 20px 20px 10px;
+#headlines1 img{
+    margin:20px 20px 10px;
 }
-#articleTOC {
+#articleTOC{
     margin:auto;
     width:100%;
-    padding: 20px
+    padding:20px
 }
 #articleTOC table{
     margin:auto;
@@ -346,18 +355,27 @@ body{
 }
 #articleTOC th{
     background-color:white;
-    border: 1px solid #6A6262;
+    border:1px solid #6A6262;
 }
 /*rjp: end styling for article.html page*/
-/*rjp: start styling for SVGanalysis.html : this section needs work so it appears properly in all screen sizes */
+/*rjp: start styling for GrammarNetworks.html */
+.networkSVG{
+    text-align:center;
+    width:100%;
+    margin:10px;
+    padding:5px;
+    
+}
+/*rjp: end styling for GrammarNetworks.html */
+/*rjp: start styling for SVGanalysis.html */
 
 #svg1Text{
     display:none;
     width:50%;
     text-align:left;
-    float: right;
-    padding-top: 65px
-    
+    float:right;
+    padding-top:65px
+
 }
 
 #svg2Text{
@@ -368,36 +386,37 @@ body{
 }
 
 #svg1{
-text-align:left;
+    text-align:left;
 }
 #svg2{
-text-align:center;
+    text-align:center;
 }
 
 /*ras: BUTTONS for the svg text toggle*/
 .svg1{
-text-align:center;
+    text-align:center;
 }
 .svg2{
 }
 
 /*rjp: end styling for SVGanalysis.html */
 /*rjp: start styling for about.html */
-#content_about h1, h2 {
+#content_about h1,
+h2{
     text-align:center;
 }
 #content_about h3{
-	background:transparent;
-	color:#6A6262;
-	padding:5px;
-	margin:10px;
-	text-align:center;
-}
-#content_about li {
-    clear: left;
+    background:transparent;
+    color:#6A6262;
     padding:5px;
-	display:block;
-	margin-top:5px
+    margin:10px;
+    text-align:center;
+}
+#content_about li{
+    clear:left;
+    padding:5px;
+    display:block;
+    margin-top:5px
 }
 #sourceInfo{
     width:75%;
@@ -414,55 +433,62 @@ text-align:center;
 }
 /*rjp: end styling for about.html */
 /*rjp: start styling for books.html*/
-#content_books {
-	border:3px dotted #FFFFFF;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	text-align:center;
+#content_books h1{
+    margin:25px;
+    font-size:1.5em;
+    text-align:center;
 }
-#content_books h1 {
-	margin:50px 0px 50px;
-	font-size:1.5em;
-	text-align:center;
+#book1 a:link,
+#book1 a:visited,
+#book2 a:link,
+#book2 a:visited{
+    color:#FFFFFF;
+    background:#6A6262;
+    text-align:left;
+    font-size:1.3em;
 }
-#book1 a:link, #book1 a:visited, #book2 a:link, #book2 a:visited {
-	color: #FFFFFF;
-	background:#6A6262; 
-	text-align: left;
-	font-size: 1.3em;
+#book1 a:hover,
+#book2 a:hover{
+    background:#93748A;
 }
-#book1 a:hover, #book2 a:hover {
-	background:#93748A;
-}
-#book1 p, #book2 p {
-    width:50%;
-	text-align: center;
-	color: #000000;
-	margin:5px;
-	padding:5px;
+#book1 p,
+#book2 p{
+    width:100%;
+    color:#000000;
+    margin:5px;
+    padding:5px;
 }
 /*rjp: end styling for books.html*/
 
 /*rjp: start styling for book2_McEnnis.html*/
-h1 {
-    text-align: center;
+h1{
+    text-align:center;
 }
-#McEnnis_text h2 {
-    text-align: left;
+#McEnnis_text h2{
+    text-align:left;
 }
-#McEnnisImage {
-  text-align:center;
+#McEnnisImage{
+    text-align:center;
 }
 #tocContent li{
-    clear: left;
+    clear:left;
     margin:auto;
-	list-style:none;
-	display:block;
+    list-style:none;
+    display:block;
 }
-span.conds.on {color:green}
-span.workers.on {color:blue}
-span.wages.on {color:red}
-span.laborLaws.on {color:lime}
-span.nelsonRef.on {color:aqua}
+span.conds.on{
+    color:green
+}
+span.workers.on{
+    color:blue
+}
+span.wages.on{
+    color:red
+}
+span.laborLaws.on{
+    color:lime
+}
+span.nelsonRef.on{
+    color:aqua
+}
 /*rjp: end styling for book2_McEnnis.html*/

@@ -115,7 +115,7 @@
             <xsl:when test="@ana='male'"><span class="male"><q class="dialogue"><xsl:apply-templates/></q></span></xsl:when>
             <xsl:when test="@ana='female' and not(@who='#nellNelson')"><span class="female"><q class="dialogue"><xsl:apply-templates/></q></span></xsl:when> 
             <xsl:otherwise>
-                <span class="unidentified"><q class="dialogue"><xsl:apply-templates/></q></span>
+                <span class="unknown"><q class="dialogue"><xsl:apply-templates/></q></span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

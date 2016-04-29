@@ -69,8 +69,8 @@
                         </xsl:if>
                         <xsl:if test="//said[@who = '#promMen']">
                             <li>
-                                <input type="checkbox" value="promMen"/>
-                                <span class="promMen">Prominant Man</span>
+                                <input type="checkbox" value="promMan"/>
+                                <span class="promMan">Prominant Man</span>
                             </li>
                         </xsl:if>
                         <xsl:if test="//said[@who = '#promWomen']">
@@ -196,49 +196,49 @@
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#foreperson'">
-                <span class="nellNelson">
+                <span class="foreperson">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#employee'">
-                <span class="workingGirl">
+                <span class="employee">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#benefactor'">
-                <span class="employer">
+                <span class="benefactor">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#messenger'">
-                <span class="nellNelson">
+                <span class="messenger">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#promMen'">
-                <span class="workingGirl">
+                <span class="promMan">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#promWomen'">
-                <span class="employer">
+                <span class="promWoman">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
                 </span>
             </xsl:when>
             <xsl:when test="@who = '#reporter'">
-                <span class="employer">
+                <span class="reporter">
                     <q class="dialogue">
                         <xsl:apply-templates/>
                     </q>
