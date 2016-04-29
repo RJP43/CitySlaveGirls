@@ -35,8 +35,8 @@ body{
 }
 /*rjp: start styling for index.html*/
 #content_text {
-    margin:20px;
-    padding: 5px;   
+    margin:40px;
+    padding: 15px;   
 	border:4px dotted #B9929F;
 	border-radius:8px;
 	border-radius:.8em;
@@ -105,12 +105,11 @@ body{
 #image2_text a{
     color: #FFFFFF;
 }
-
 /*rjp: end styling for index.html*/
 /*rjp: start styling for top and foot*/
 .header{
     padding:5px;
-	margin: auto;
+	/*margin: auto;*/
 	border:2px solid #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
@@ -141,7 +140,7 @@ body{
    text-decoration:underline;
 }
 #nav{
-    margin: -20px;
+    margin: -35px;
     width: 100%;
     text-align:center;
     display:block;
@@ -212,6 +211,9 @@ body{
 /*rjp: end styling for top and foot*/
 
 /*rjp: styling for article pages*/
+#article {
+    color:black;
+}
 #articleHead {
     margin:10px;
     padding: 5px;
@@ -222,15 +224,23 @@ body{
     font-family: sans-serif;
     margin: 10px;
     padding: 5px;
+    color:black;
 }
 .headlinesText li {
     text-align:center;
     display:list-item;
     padding: 5px;
+    color:black;
 }
-
+.headlinesTitle{
+    text-align:center;
+}
+.headlinesTitle ul li{
+    color:black;
+    text-align:center;
+}
 .articleText {
-     margin:20px;
+    margin:20px;
     padding:5px;
 }
 /*rjp: toggle box for articles*/
@@ -248,9 +258,12 @@ body{
 }
 #checkboxes ul, li {
     list-style-type:none;
+    color: #FFFFFF;
+    font-weight:bold;
     display:inline;
-    padding:75px;
+    padding:10px;
 }
+
 /*rjp: table section styling*/
 #table {
     float:left;
@@ -302,11 +315,10 @@ body{
 /*rjp: start styling for article.html page*/
 #content_articles {
     font-family: "Arial";
-	width: 40%;
-	float: right;
+	width: 50%;
 	padding:10px;
 	text-align:center;
-	margin: 1px;
+	margin: auto;
 	border:3px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
@@ -315,10 +327,27 @@ body{
 	color:#FFFFFF;
 	font-size: 16px;
 }
+#content_articles a{
+   font-weight:bold;
+   color:#FFFFFF;
+   text-decoration:underline;
+}
 #headlines1 img {
 	margin: 20px 20px 10px;
 }
-
+#articleTOC {
+    margin:auto;
+    width:100%;
+    padding: 20px
+}
+#articleTOC table{
+    margin:auto;
+    width:80%;
+}
+#articleTOC th{
+    background-color:white;
+    border: 1px solid #6A6262;
+}
 /*rjp: end styling for article.html page*/
 /*rjp: start styling for SVGanalysis.html : this section needs work so it appears properly in all screen sizes */
 
@@ -357,20 +386,31 @@ text-align:center;
 #content_about h1, h2 {
     text-align:center;
 }
-#futureDevelop h3{
-    text-align:center;
-}
 #content_about h3{
 	background:transparent;
 	color:#6A6262;
 	padding:5px;
 	margin:10px;
+	text-align:center;
 }
 #content_about li {
     clear: left;
-    margin:auto;
-	list-style:none;
+    padding:5px;
 	display:block;
+	margin-top:5px
+}
+#sourceInfo{
+    width:75%;
+    margin:auto
+}
+#year1{
+    display:none
+}
+#year2{
+    display:none
+}
+#year3{
+    display:none
 }
 /*rjp: end styling for about.html */
 /*rjp: start styling for books.html*/
