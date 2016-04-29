@@ -28,7 +28,7 @@ function toggleHighlight() {
         color = '#725752';
         break;
         case 'benefactor':
-        color = '#29335C';
+        color = '568EA3';
         break;
         case 'messenger':
         color = '#00A6ED';
