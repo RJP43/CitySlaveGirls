@@ -268,50 +268,26 @@ li{
 
 /*rjp: table section styling*/
 #table{
-    float:left;
-    width:40%;
+    width:100%;
     display:block;
 }
-#table table,
 p.tableText{
-    margin-top:5px;
-    margin-bottom:10px;
-    margin-right:10px;
-    margin-left:10px;
+    margin:auto;
     padding:5px;
-    text-align:center;
-    border:3px dotted #e7e2d7;
-    border-radius:8px;
-    border-radius:.8em;
-    border-radius:.8em;
 }
 #tableTitle{
-    margin-top:5px;
-    margin-bottom:10px;
-    margin-right:10px;
-    margin-left:10px;
+    margin:auto;
     padding:5px;
     text-align:center;
-    border:3px dotted #e7e2d7;
-    border-radius:8px;
-    border-radius:.8em;
-    border-radius:.8em;
-}
-#table br{
-    display:block;
-    content:"";
-    margin-top:2px;
 }
 #table tr{
     outline:2px solid black;
     text-align:center;
-    padding:10px;
 }
 #table th{
     height:40px;
     background-color:#E0D8DE;
     color:black;
-    border:2px solid black;
     text-align:center;
 }
 #networkSVG{
@@ -364,7 +340,7 @@ p.tableText{
     width:100%;
     margin:10px;
     padding:5px;
-    
+
 }
 /*rjp: end styling for GrammarNetworks.html */
 /*rjp: start styling for SVGanalysis.html */
