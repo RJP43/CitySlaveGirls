@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title corresp="#CT029"><date when="1888-08-30">Thursday Morning, August 30, 1888</date></title>
+                <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">newtFire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
+                <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Rebecca Parker</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#nll">Your Name</persName> 
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName>Gregory Bondar</persName>
+                </respStmt>
+                <!-- RJP: For each person that proofreads or edits the document we will add another <respStmt> with the <resp> containing the work of the editor and the date inside of a <date> element. For example:-->
+                <!--<respStmt>
+               <resp>Date last checked: <date when="yyyy-mm-dd">yyyy-mm-dd</date>. Proofing and corrections by</resp>
+               <persName ref=”#ebb”>Elisa Beshero-Bondar</persName>
+            </respStmt>
+            -->
+            </titleStmt>
+            <editionStmt>
+                <edition> First digital edition in TEI P5, date: <date when="2016-07-06">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Rebecca J. Parker</authority>
+                <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>These articles were transcribed using PDF images available from New York University Digital Library Technology Services (DLTS). More source information can be found in the corresponding Site Index.</p></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Nelson's spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the source text. Representation of tables, graphs, signage, and contracts may be altered so as to make a clearer depiction for this digital version of the text; however, the information portrayed in the digital version will be consistent with the original. When the source text is unreadable due to the age or handling of the document we are using the elements damage, unclear, and supplied in combination to provide our best interpretation of the text.</p>
+            </editorialDecl>
+            
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div type="headlines">
+                    <list>
+                        <item>Judge O. H. Horton's Views on the Best Way to Improve Their Condition.</item><!-- 2016-07-06: nll: Should the judge's name be in <persName> tags? I know your note said not, but I jsut want to check! -->
+                        <item>Legislation Will Have Litle Effect, While Education Will Accomplish the Desired End.</item>
+                        <item>The Many Disadvantages Arisng from Women Making Their Work of a Temperary Character.</item>
+                    </list>
+                </div>
+                <div type="articleBody">
+                    <p><persName>Judge O. H. Horton</persName> of the circuit court was on the point of starting for a fortnight's outing, with fishing accompaniment, at <placeName type="city">Alexandria</placeName>, <placeName type="state">Minn.</placeName>, when informed that <name ref="#CT">THE TIMES</name> would like to have his views on the working-girl question.</p>
+                    <p><!-- 2016-08-06: nll: Should there be an @rend somewhere here to reresent double quotes?? --><said who="#" ana="male"><!-- 2016-07-06: nll: I put a '#' in the @who because I wasn't sure who to tag the judge as! -->I shall never forget</said>, he began, <said who="#" ana="male">a remark made by Horatio Seymour in a memorable speech he made in Baltimore. Referring to house servants he said that while they were exposed to the greatest temptations almost invariably they had shown themselves to be honest. In most households where the services of a domestic are required there are always valuables in the form of jewelry, plate, or clothing that an inmate of the household could easily appropriate. Frequently the help are left in charge of the house during the vacation months, and yet it is a rare thing for a trusted house girl to take advantage of her opportunities to defraud. In my experience on the bench I do not remember to have had but one servant girl before me charged with theft, and I had to force the tears back from my eyes when she told her story. She said she was a married woman and had a young baby. Her husband had deserted her, stolen the child, and gone to St. Paul. She frankly admitted that she had stolen the jewelry and pawned it to secure money to follow her husband and recover her child. I managed to uphold the majesty of the law and at the same time did not interfere with her search for her child.</said><!-- 2016-07-06: nll: There is no closing quote here! --></p>
+                    <p><said who="#" ana="male">But I suppose <name ref="#CT">THE TIMES</name> has special reference to female labor in shops and factories. As to child labor, it is hard to say in a general way what should be done. As lawyers say: <!-- 2016-08-06: nll: Should there be an @rend somewhere here to reresent single quotes?? --><said who="#" ana="unknown">Hard cases make bad precedents.</said> Suppose a widow with no income has children from 12 to 15 years of age who could earn from $2 to $3 a week each. Should she be absolutely prohibited from utilizing their labor, when she would otherwise be forced to beg or starve? It is difficult to make a rule for all cases. Beyond question, children ought to be prohibited from doing any kind of labor, and in any places where the natural tendency is deleterious to health or morals; and, in addition, children ought to be educated. There shoudl be a sort of semi-compulsory system of education, something having a certain degree of elaasticity, which, when wisely enforced, would benefit the masses and at the same time relieve the few. I could make myself clearly understood if I had more time. As to the effect of immigration on home labor, and especially female labor, that is a big problem. I have often wondered why the various labor organizations have not taken means to protect themselves against what are known as the <hi rend="single">assisted</hi> classes paupers and criminals<!-- 2016-07-06: nll: As far as I can see, there are no separating punctuation marks between 'classes paupers and criminals'. Can someone doublecheck me? --> coming to our shores to demoralize labor. And, by the way, these labor organizations, by whatever name they may be called, have just as good a right to exist <damage unit="word" quantity="2" agent="blurred"/><unclear><supplied resp="#nll">as have</supplied></unclear> the railroad <damage unit="word" quantity="1" agent="blurred"/><unclear><supplied resp="#nll">pools</supplied></unclear>. The trouble is existence is not as easy for them. It is not a difficult matter for ten or a dozen railroad magnates to meet in a private office and take action that shall affect the commercial interests of the entire continent, and stick together to carry out their scheme, but it is next to impossible to hold a hundred thousand working men to the accomplishment of a certain object. I favor a tariff for the protection of American labor; capital can take care of itself. I have a strong leaning toward and a warm feeling for the working classes. I know what their life is, as I once shoved lumber over a vessel's side right here in <placeName type="city">Chicago</placeName>.</said><!-- 2016-07-06: nll: Again, there is no end quotes here because he is still speaking. --></p>
+                    <p><said who="#" ana="male">It is not an easy task to say what legislation can or should do, and I confess my inabilidty to devise a plan. This question of female and child labor, like many other social quesitons, I do not know how to compass except by educating the people to a higher standard. I see no sense in passing laws that can have no effect on the object aimed at, and are merely for buncombe, to help elect some fellow to the legislature. In fact, as regards all semi-moral questions, there is absolutely no use in passing aggressive laws any faster than the people are educated up to them. They will be of no earthly use. I am tempted to refer to prohibition legislation in this connection, but will not run off on that now.</said><!-- 2016-07-06: nll: Again, there is no end quotes here because he is still speaking. --></p>
+                    <p><said who="#" ana="male">You ask me <!-- 2016-07-06: nll: This next <said> is in single quotes... --><said who="#reporter" ana="unknown">what I know about girls.</said> In the present state of society nearly every girl who goes out to service, in home, shop, or factory, looks upon her employment as temporary, pending marriage, whereas a young man regards his employment as a lifework<!-- 2016-07-06: nll: In the article 'lifework' is hyphenated because of a linebreak, but I think it should still have the hyphen in it. Should it be hyphenated? -->. The house girl has this great incentive. She expects to continue in the same line, and for herself; while the others are almost invariably looking forward to housekeeping as a finality, but in most instances without having received any training to qualify them for its responsibilities. All this has to do with the wages of women. There are many social matters, seemingly of minor importance, that have much to do with this question of equality of wages. For instance, we will take a young man and a young woman who are employed in the same factory, and who are doing the same kind and the same amount of skilled work. Suppose they are good friends, with a possibility og becoming something more. If they ride home on the street-car together the man, of course, pays for both. If they go to the theater he buys the tickets, and in case of emergency hires a carriage. Ice-cream, or other expected and more costly delicacies, increase expenses. Now who has the advantage? The woman would get rich while the man was pauperizing himself. Our social system puts burdens on young men that it does not place on young women, and on the whole the system needs readjustment. As an abstract proposition is must be admitted that in any kind of labor there should be no distinction made as to whether it was performed by male or female, old or young, but the existing social state of affairs has, as I have said, demands on the young men that it does not have on the young women&#8212;<!-- 2016-07-06: nll: This is a dash character code!! -->demands that we are compelled to recognize as though they were statutory. This social compact must yield the one if it demands the other. I am speaking, of course, from a financial standpoint.</said></p><!-- 2016-07-06: nll: There is a huge black mark on the next line down from this. I am pretty sure it starts a new paragraph, but I can't be 100 oercent sure. Could someone look at this? -->
+                </div>
+                <div type="advertisement">
+                    <p></p>
+                </div><!-- RJP: some articles concluded with an advertisement refering to later publications of the series ... I created this <div> because we want to capture those ads but have them sitting separately from the text of the article itself. If the article you are transcribing does not have an advertisement simply delete or comment out this final div-->
+            </div>
+            
+        </body>
+    </text>
+</TEI>
