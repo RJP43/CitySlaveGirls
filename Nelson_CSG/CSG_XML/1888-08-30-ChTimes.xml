@@ -7,14 +7,14 @@
         <fileDesc>
             <titleStmt>
                 
-                <title corresp=""><!-- RJP: I am keeping these quotes empty here so that oXygen fires an error reminding editors to make sure the corresp is changed according to each article --><!-- RJP: each article has its own identifier and this is where it is being defined... the identifier should include the source and article number (add  2 zeros in front of early articles so we have consistent format with articles that will be double and even triple digits). Please check the site index for the article's identifier. For example: the first article in the series published in the Chicago Times will be corresp="#CT001" --><date when="1888-xx-xx">Monday Morning, Month Day, 1888<!-- RJP: this is the actual text of the title of each article: generally the date hence why it is surrounded by a date element --></date><!-- RJP: I put the xx notation here so that oXygen fires an error reminding editors to make sure the date is changed according to the date on each article  --></title>
+                <title corresp="#CT029"><date when="1888-08-30">Thursday Morning, August 30, 1888</date></title>
                 <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">newtFire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
                 <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
                 <principal>Rebecca Parker</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="">Your Name</persName><!--RJP: Each editor will have their own xml:id that will be linked here from the project's site index... the xsml:id will be represented by a hashtag and then the editors initals... for example my xml:id will be rjp so when I am referencing myself inside of the value of other attributes (like here in the @ref) I will put #rjp --> 
+                    <persName ref="#nll">Your Name</persName> 
                 </respStmt>
                 <respStmt>
                     <resp>with assistance from the Digital Humanities courses at the University of Pittsburgh at Greensburg from 2014-2016, from</resp>
@@ -29,7 +29,7 @@
             -->
             </titleStmt>
             <editionStmt>
-                <edition> First digital edition in TEI P5, date: <date when="yyyy-mm-dd">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+                <edition> First digital edition in TEI P5, date: <date when="2016-07-06">yyyy-mm-dd</date><!--RJP: put the date for when the article was transcribed and/or encoded-->. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor’s degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
             </editionStmt>
             <publicationStmt>
                 <authority>Rebecca J. Parker</authority>
@@ -51,11 +51,15 @@
             <div>
                 <div type="headlines">
                     <list>
-                        <item></item><!-- RJP: each headline gets its own <item> element and we do not markup the content of headlines unless there is an issue with transcription and need to markup up with <damage> and <unclear> tags-->
+                        <item>Judge O. H. Horton's Views on the Best Way to Improve Their Condition.</item><!-- 2016-07-06: nll: Should the judge's name be in <persName> tags? I know your note said not, but I jsut want to check! -->
+                        <item>Legislation Will Have Litle Effect, While Education Will Accomplish the Desired End.</item>
+                        <item>The Many Disadvantages Arisng from Women Making Their Work of a Temperary Character.</item>
                     </list>
                 </div>
                 <div type="articleBody">
-                    <p></p><!-- each paragraph represented in the text will get its own <p> element -->
+                    <p><persName>Judge O. H. Horton</persName> of the circuit court was on the point of starting for a fortnight's outing, with fishing accompaniment, at <placeName type="city">Alexandria</placeName>, <placeName type="state">Minn.</placeName>, when informed that <name ref="#CT">THE TIMES</name> would like to have his views on the working-girl question.</p>
+                    <p><said who="#" ana="male"><!-- 2016-07-06: nll: I put a '#' in the @who because I wasn't sure who to tag the judge as! -->I shall never forget</said>, he began, <said who="#" ana="male">a remark made by Horatio Seymour in a memorable speech he made in Baltimore. Referring to house servants he said that while they were exposed to the greatest temptations almost invariably they had shown themselves to be honest. In most households where the services of a domestic are required there are always valuables in the form of jewelry, plate, or clothing that an inmate of the household could easily appropriate. Frequently the help are left in charge of the house during the vacation months, and yet it is a rare thing for a trusted house girl to take advantage of her opportunities to defraud. In my experience on the bench I do not remember to have had but one servant girl before me charged with theft, and I had to force the tears back from my eyes when she told her story. She said she was a married woman and had a young baby. Her husband had deserted her, stolen the child, and gone to St. Paul. She frankly admitted that she had stolen the jewelry and pawned it to secure money to follow her husband and recover her child. I managed to uphold the majesty of the law and at the same time did not interfere with her search for her child.</said><!-- 2016-07-06: nll: There is no closing quote here! --></p>
+                    <p><said who="#" ana="male"></said></p>
                 </div>
                 <div type="advertisement">
                     <p></p>
