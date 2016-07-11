@@ -99,6 +99,15 @@
                   <persName xml:id="nll">
                      <surname>Nicole</surname>
                      <forename>Lottig</forename>
+                     <roleName>Transcription and Encoding</roleName>
+                     <!--<ptr target=""/>-->
+                  </persName>
+                  <!--<note type="bio"></note>-->
+               </person>
+               <person>
+                  <persName xml:id="bas">
+                     <surname>Brooke</surname>
+                     <forename>Stewart</forename>
                      <roleName>2016 Editor</roleName>
                      <!--<ptr target=""/>-->
                   </persName>
@@ -116,6 +125,15 @@
                      <placeName></placeName>
                   </location>
                   <bibl corresp="#CT006"/>
+                  <note/>
+               </org>
+               <org xml:id="Beifeld">
+                  <orgName>Joseph Beifeld &amp; Company</orgName>
+                  <desc>Jackets and Cloaks</desc>
+                  <location>
+                     <placeName>105 West Taylor street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Benson">
@@ -235,6 +253,15 @@
                   <bibl corresp="#CT001 #CT002 #CT003 #CT011 #CT014"/>
                   <note/>
                </org>
+               <org xml:id="Ettlinger">
+                  <orgName>Ettlinger's Printing-House and Bindery</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>180 and 182 Monroe street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note/>
+               </org>
                <org xml:id="Fairbank">
                   <orgName>Fairbank Canning Company</orgName>
                   <desc></desc>
@@ -261,6 +288,16 @@
                   </location>
                   <bibl corresp="#CT006 #CT011"/>
                   <note/>
+               </org>
+               <org xml:id="Goldstein">
+                  <orgName>David Goldstein's</orgName>
+                  <desc>Prince Albert Coats</desc>
+                  <location>
+                     <placeName>158 West Taylor Street</placeName>
+                     <placeName>484 South Halsted Street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note>The first address associated with this just said 158, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
                </org>
                <org xml:id="GraceCh">
                   <orgName>Grace Church</orgName>
@@ -298,6 +335,24 @@
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
+               <org xml:id="JMco">
+                  <orgName>John Morris company</orgName>
+                  <desc>Printers, binders, and lithographers</desc>
+                  <location>
+                     <placeName>118 and 120 Monroe street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note/>
+               </org>
+               <org xml:id="KNF">
+                  <orgName>Kuh, Nathan &amp; Fischer</orgName>
+                  <desc>Coats</desc>
+                  <location>
+                     <placeName>131 West Taylor street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note>The address associated with this just said 131, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+               </org>
                <org xml:id="KNels">
                   <orgName>Knute Nelson's Retail Tailor-Shop</orgName>
                   <desc></desc>
@@ -333,6 +388,24 @@
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
+               </org>
+               <org xml:id="Kuppen">
+                  <orgName>B. Kuppenheimer's Tailor-Shop</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>Canal and West Taylor streets</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note/>
+               </org>
+               <org xml:id="Loewenstein">
+                  <orgName>Louis Lowenstein &amp; Company</orgName>
+                  <desc>Coats</desc>
+                  <location>
+                     <placeName>144 West Taylor street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note>The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
                </org>
                <org xml:id="Loomis">
                   <orgName>Loomis Laundry</orgName>
@@ -379,6 +452,7 @@
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
+               
                <org xml:id="NRJC">
                   <orgName>Never-Rip Jersey Company</orgName>
                   <desc></desc>
@@ -513,6 +587,15 @@
                      <placeName></placeName>
                   </location>
                   <bibl corresp="#CT014"/>
+                  <note/>
+               </org>
+               <org xml:id="SheaSmith">
+                  <orgName>Shea Smith &amp; Company</orgName>
+                  <desc>blank-book establishment</desc>
+                  <location>
+                     <placeName>216 to 234 East Van Buren street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Singer">
@@ -1466,6 +1549,10 @@
                <nym xml:id="reporter">
                   <re>Reporter</re>
                   <p>Identifier used when it is clear thar Nelson is not person responding in an investigation/interview, or if context for reported information is more generally unclear.</p>
+               </nym>
+               <nym xml:id="inspector">
+                  <re>Inspector</re>
+                  <p>Identifier used for <persName>George Bodgers</persName> of the health department (was present in <bibl corresp="#CT012">1888-08-10 article</bibl> undercover with a <name ref="#CT">Times</name> reporter).</p>
                </nym>
                <!-- ALL OF THESE NEED DEVELOPED NOTES AND WE NEED TO FIGURE OUT WHAT ELEMENTS ALLOWED IN NYM MAKE SENSE TO DOCUMENT INFORMATION ABOUT EACH -->
             </listNym>
