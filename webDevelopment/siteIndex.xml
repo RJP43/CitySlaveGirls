@@ -132,9 +132,10 @@
                   <desc>Jackets and Cloaks</desc>
                   <location>
                      <placeName>105 West Taylor street</placeName>
+                     <placeName>163 West Taylor</placeName>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note/>
+                  <note>The multiple street addresses are for each place in the article that is commisioned to do the needlework of said company. The addresses are listed her in the order they appear in the article. The second address was listed in the article just as the number 163; however, it was in succession with an address on West Taylor so it was assumed to be same street.</note>
                </org>
                <org xml:id="Benson">
                   <orgName>Benson's Shop</orgName>
@@ -598,6 +599,15 @@
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
+               <org xml:id="Siam">
+                  <orgName>Siam's Twins</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT029"/>
+                  <note>Mentioned in article when Judge Horton is quoting Judge Arington's poem.</note>
+               </org>
                <org xml:id="Singer">
                   <orgName>A. L. Singer &amp; Company's</orgName>
                   <desc></desc>
@@ -669,6 +679,15 @@
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
+               </org>
+               <org xml:id="TailorShop3">
+                  <orgName>A Tailor's Shop</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>196 West Taylor street</placeName>
+                  </location>
+                  <bibl corresp="#CT012"/>
+                  <note>Tshe address associated with this just said 196, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
                </org>
                <org xml:id="VestMaker1">
                   <orgName>A Vestmaker's Place</orgName>
