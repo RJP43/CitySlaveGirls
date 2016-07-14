@@ -60,7 +60,10 @@
                </list>
             </div>
             <div type="articleBody">
-               <p></p><!-- each paragraph represented in the text will get its own <p> element -->
+               <p>For dismal surroundings, economy of comforts, and heartless treatment, to the <orgName ref="#BostonStore" type="exposedCompany">Boston store</orgName> belongs the palm.</p>
+               <p>I did not work in that establishment although I tried very hard to do so. I was in the store at 8 o'clock on Friday morning as arranged with <persName ref="#employer"><!-- 2016-07-14: nll: I did some research and Mr. Hillman was the manager of the Boston store for a while in 1888, does this mean he's the employer? -->Mr. Hillman</persName>, who had partially promised to hire me. <said who="#employer" ana="male">One of the girls in the hosiery department</said> he had said <said who="#employer" ana="male">is sick, and if she doesn't come back Friday morning I will try you.</said></p>
+               <p>I could not find the gentleman, although I hunted the main floor and the floors above and below. My plan of fluctuation was to take the elevator up one story and walk down, then ride up two and walk down the third flight, in that way I took in the entire store and a great part of the <choice><sic>employes</sic><reg resp="#nll">employees</reg></choice>. I began at the bottom and spent a full hour in the basement, where I saw so much and suffered so much that the upper floors had no surprises for me. In the first place the atmosphere was almost unendurable.</p>
+               <p>Hot! It must have been</p>
             </div>
             <div type="advertisement">
                <p></p>
