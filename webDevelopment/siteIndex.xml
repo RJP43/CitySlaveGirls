@@ -155,6 +155,15 @@
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
+               <org xml:id="BostonStore">
+                  <orgName>Boston Store</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
+                  <note/>
+               </org>
                <org xml:id="Berliner">
                   <orgName><persName>Isaac Berliner</persName>'s Shop</orgName>
                   <desc></desc>
