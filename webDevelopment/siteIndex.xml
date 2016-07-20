@@ -218,6 +218,15 @@
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
+               <org xml:id="CaS">
+                  <orgName>Cooper &amp; Siegel's</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
+                  <note/>
+               </org>
                <org xml:id="DAS">
                   <orgName>Decorative Art Society</orgName>
                   <desc></desc>
