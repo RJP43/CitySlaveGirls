@@ -517,6 +517,15 @@
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
+               <org xml:id="Pardridge">
+                  <orgName>Pardridge store</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>Next to the Boston store.</placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
+                  <note/>
+               </org>
                <org xml:id="PDArmour">
                   <orgName>P.D. Armour's Packing-House</orgName>
                   <desc></desc>
