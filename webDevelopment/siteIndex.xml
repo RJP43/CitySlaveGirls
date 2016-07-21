@@ -191,6 +191,15 @@
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
+               <org xml:id="COH">
+                  <orgName>Chicago Operahouse</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
+                  <note/>
+               </org>
                <org xml:id="CEB">
                   <orgName>The Corn Exchange Bank</orgName>
                   <desc></desc>
