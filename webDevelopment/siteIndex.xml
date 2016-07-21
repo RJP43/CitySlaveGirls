@@ -191,6 +191,15 @@
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
+               <org xml:id="COH">
+                  <orgName>Chicago Operahouse</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
+                  <note/>
+               </org>
                <org xml:id="CEB">
                   <orgName>The Corn Exchange Bank</orgName>
                   <desc></desc>
@@ -216,6 +225,15 @@
                      <placeName>20th Clark street</placeName>
                   </location>
                   <bibl corresp="#CT004"/>
+                  <note/>
+               </org>
+               <org xml:id="CaS">
+                  <orgName>Cooper &amp; Siegel's</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName></placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
                   <note/>
                </org>
                <org xml:id="DAS">
@@ -506,6 +524,15 @@
                      <placeName>West Madison street</placeName>
                   </location>
                   <bibl corresp="#CT021"/>
+                  <note/>
+               </org>
+               <org xml:id="Pardridge">
+                  <orgName>Pardridge store</orgName>
+                  <desc></desc>
+                  <location>
+                     <placeName>Next to the Boston store.</placeName>
+                  </location>
+                  <bibl corresp="#CT010"/>
                   <note/>
                </org>
                <org xml:id="PDArmour">
