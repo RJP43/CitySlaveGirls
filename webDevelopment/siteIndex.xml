@@ -225,6 +225,7 @@
                   <desc></desc>
                   <location>
                      <placeName>Randolph near Dearborn street</placeName>
+                     <geo>41.8838534,-87.6296869</geo><!-- 2016-07-26: nll: This is just a point at the intersection of the 2 streets, basically a guess... -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
