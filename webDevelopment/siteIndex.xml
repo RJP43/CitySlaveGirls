@@ -159,7 +159,8 @@
                   <orgName>Boston Store</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>2 North State Street at Madison</placeName>
+                     <geo>41.8821879,-87.6308633</geo>
                   </location>
                   <bibl corresp="#CT010"/>
                   <note/>
@@ -178,6 +179,7 @@
                   <desc></desc>
                   <location>
                      <placeName>80 Jackson street</placeName>
+                     <geo>41.8781459,-87.6310495</geo><!-- rjp:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -223,6 +225,7 @@
                   <desc></desc>
                   <location>
                      <placeName>20th Clark street</placeName>
+                     <geo>41.8822936,-87.6333677</geo><!-- RJP:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
@@ -259,6 +262,7 @@
                   <desc></desc>
                   <location>
                      <placeName>81 West Jackson street</placeName>
+                     <geo>41.8781447,-87.6326793</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -277,6 +281,7 @@
                   <desc></desc>
                   <location>
                      <placeName>282  Madison street</placeName>
+                     <geo>41.8819365,-87.6372308</geo>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT011 #CT014"/>
                   <note/>
@@ -286,6 +291,7 @@
                   <desc></desc>
                   <location>
                      <placeName>180 and 182 Monroe street</placeName>
+                     <geo>41.8806589,-87.6354784</geo><!-- RJP:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
@@ -486,6 +492,7 @@
                   <desc></desc>
                   <location>
                      <placeName>133 West Washington street</placeName>
+                     <geo>41.8832187,-87.6342033</geo>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT014"/>
                   <note/>
@@ -595,6 +602,7 @@
                   <desc></desc>
                   <location>
                      <placeName>1187 Milwaukee avenue</placeName>
+                     <geo>42.0756922,-87.8608628</geo><!-- RJP:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -730,6 +738,7 @@
                   <desc></desc>
                   <location>
                      <placeName>2155 Archer avenue</placeName>
+                     <geo>41.8532627,-87.6362097,</geo><!-- RJP:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
@@ -757,6 +766,7 @@
                   <desc></desc>
                   <location>
                      <placeName>218 State street</placeName>
+                     <geo>41.8786826,-87.6286687</geo>
                   </location>
                   <bibl corresp="#CT001 #CT014"/>
                   <note/>
