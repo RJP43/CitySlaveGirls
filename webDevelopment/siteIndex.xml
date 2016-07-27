@@ -320,7 +320,7 @@
                   <note/>
                </org>
                <org xml:id="Fairbank">
-                  <orgName>Fairbank Canning Company</orgName>
+                  <orgName>Fairbank Canning Company</orgName><!-- 2016-07-27: nll: I'm going to come back to this company. I can't find an exact street address, so I did some research and found that the company is around the Union Stock Yards, so there is more researching I need to do, but I want to try to get other geo coordinates first. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
