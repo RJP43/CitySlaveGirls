@@ -235,7 +235,7 @@
                   <desc></desc>
                   <location>
                      <placeName>20th Clark street</placeName>
-                     <geo>41.8822936,-87.6333677</geo><!-- RJP:2016-07-26: needs verified -->
+                     <geo>41.8822936,-87.6333677</geo><!-- 2016-07-26: nll: On Google Maps there is a 20th Clark Street and a 20 Clark Street. Based on the old map that we have, I'm going with my gut here that the geocoordinates for 20 Clark Street are the correct ones. -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
@@ -244,16 +244,24 @@
                   <orgName>Cooper &amp; Siegel's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Southeast Corner of Adams and State</placeName>
+                     <geo>41.8794052,-87.6297068</geo>
                   </location>
                   <bibl corresp="#CT010"/>
-                  <note/>
+                  <note resp="#rjp">
+                     <bibl>
+                        <title>Chicago By Day and Night: The Pleasure Seeker's Guide to the Paris of America</title>
+                        <author>Paul Durica</author>
+                        <author>Bill Savage</author>
+                        <!-- 2016-07-26: nll: The page number is 238, and the source is found on Google Books. There is a link to it on a GitHub issue. -->
+                     </bibl>
+                  </note>
                </org>
                <org xml:id="DAS">
                   <orgName>Decorative Art Society</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName></placeName><!-- 2016-07-26: nll: According to the links provided in the GitHub issue for ILiADS, the Decorative Art Society was created by Mrs. Scammon at Dr. Ralph Isham's home, which according to the 1880 Chicago Census was at 199 Dearborn Street. The Society was sold in March 1888 to Mrs. Pode, where we do not know where she held the society at. If you google the Society, it is now part of The Art Institute of Chicago, which has 3 different buildings, the main one being too far out for our 1888 Chicago. Due to not knowing more and not being able to find more resources, I am not sure at this time where exactly the Society was located in 1888. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -482,7 +490,7 @@
                   <orgName>Marshall Field's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>111 North State Street</placeName>
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
