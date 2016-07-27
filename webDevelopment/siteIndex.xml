@@ -125,32 +125,36 @@
                      <placeName></placeName>
                   </location>
                   <bibl corresp="#CT006"/>
-                  <note/>
+                  <note resp="#nll" corresp="http://www.bnaibrith.org/timeline.html"/>
                </org>
                <org xml:id="Beifeld">
                   <orgName>Joseph Beifeld &amp; Company</orgName>
                   <desc>Jackets and Cloaks</desc>
                   <location>
                      <placeName>105 West Taylor street</placeName>
+                     <geo>41.8684174,-87.6286052</geo><!-- 2016-07-26: nll: Taylor Street is a little different in modern times than it is in 1888. -->
                      <placeName>163 West Taylor</placeName>
+                     <geo>41.8690303,-87.633062</geo>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The multiple street addresses are for each place in the article that is commisioned to do the needlework of said company. The addresses are listed her in the order they appear in the article. The second address was listed in the article just as the number 163; however, it was in succession with an address on West Taylor so it was assumed to be same street.</note>
+                  <note>The multiple street addresses are for each place in the article that is commisioned to do the needlework of said company. The addresses are listed here in the order they appear in the article. The second address was listed in the article just as the number 163; however, it was in succession with an address on West Taylor so it was assumed to be same street.</note>
                </org>
                <org xml:id="Benson">
                   <orgName>Benson's Shop</orgName>
                   <desc>vest-maker</desc>
                   <location>
                      <placeName>Hobbie and Chatham streets</placeName>
+                     <geo>41.9013873,-87.6437283</geo>
                   </location>
                   <bibl corresp="#CT011 #CT014"/>
                   <note/>
                </org>
-               <org xml:id="BOT">
+               <org xml:id="BOT"><!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
                   <orgName>The Board of Trade</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>141 W Jackson Street</placeName>
+                     <geo>41.8776288,-87.6336351</geo>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
@@ -169,7 +173,8 @@
                   <orgName><persName>Isaac Berliner</persName>'s Shop</orgName>
                   <desc></desc>
                   <location>
-                     <placeName>147 Twelfth street</placeName>
+                     <placeName>147 Twelfth street</placeName><!-- 2016-07-26: nll: Twelfth Street is recently known as Roosevelt Road. -->
+                     <geo>41.8678563,-87.6326467</geo>
                   </location>
                   <bibl corresp="#CT011 #CT014"/>
                   <note/>
@@ -179,7 +184,7 @@
                   <desc></desc>
                   <location>
                      <placeName>80 Jackson street</placeName>
-                     <geo>41.8781459,-87.6310495</geo><!-- rjp:2016-07-26: needs verified -->
+                     <geo>41.8782887,-87.6259774</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -188,34 +193,39 @@
                   <orgName>Chicago Carpet Company</orgName>
                   <desc></desc>
                   <location>
-                     <placeName>Market Street</placeName>
+                     <placeName>Corner of Wabash and Monroe</placeName>
+                     <geo>41.8801988,-87.6281002</geo>
+                     <!--<placeName>Market Street</placeName>--><!-- rjp:2016-07-16: In the article Nelson states she "stepped from an Ogden Avenue car and walked down Market Street"; however, the reference to this company is made from a girl in passing explaining where she previously worked. Therefore, this address is likely referenced incorrectly to Market St. and will need fixed in the XML. -->
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="COH">
-                  <orgName>Chicago Operahouse</orgName>
+                  <orgName>Chicago Operahouse</orgName><!-- 2016-07-26: nll: Thomas W. Prior, who may or may not be the manager of COH. Nelson mentions his name in a letter used as an attempt for employment, which may/may not have been forged. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Corner of Clark Street and Washington Street</placeName><!-- 2016-07-26: nll: Across Washington Street from the court house. -->
+                     <geo>41.882038,-87.6311137</geo>
                   </location>
                   <bibl corresp="#CT010"/>
                   <note/>
                </org>
-               <org xml:id="CEB">
+               <org xml:id="CEB"><!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
                   <orgName>The Corn Exchange Bank</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Northwest Corner of Adams and La Salle</placeName>
+                     <geo>41.8795956,-87.6323018</geo>
                   </location>
                   <bibl corresp="#CT021"/>
-                  <note/>
+                  <note resp="#nll" corresp="http://www.ebay.com/itm/Chicago-3-Autograph-Corn-Exchange-National-Bank-Victor-Lawson-Chicago-Daily-News-/361602818441?hash=item5431352189:g:yHwAAOSwQTVV90Or"/>
                </org>
                <org xml:id="CigarFactory1">
                   <orgName>A Cigar Factory</orgName>
                   <desc></desc>
                   <location>
                      <placeName>Randolph near Dearborn street</placeName>
+                     <geo>41.8838534,-87.6296869</geo><!-- 2016-07-26: nll: This is just a point at the intersection of the 2 streets, basically a guess... -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
