@@ -271,6 +271,8 @@
                   <desc></desc>
                   <location>
                      <placeName>269 and 271 South Paulina street</placeName>
+                     <geo>41.8769304,-87.6708261</geo><!-- 2016-07-27: nll: This geo is for 269 South Paulina Street. -->
+                     <geo>41.8776642,-87.6692838</geo><!-- 2016-07-27: nll: This geo is for 271 South Paulina Street. I believe these two addresses are right across the street from each other. -->
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
@@ -280,7 +282,7 @@
                   <desc></desc>
                   <location>
                      <placeName>81 West Jackson street</placeName>
-                     <geo>41.8781447,-87.6326793</geo>
+                     <geo>41.8781348,-87.6310996</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -290,6 +292,8 @@
                   <desc></desc>
                   <location>
                      <placeName>199 and 201 Fifth avenue</placeName>
+                     <geo>41.895324,-87.6269127</geo><!-- 2016-07-27: nll: This geo is for 199 Fifth Avenue. -->
+                     <geo>41.895284,-87.6268007</geo><!-- 2016-07-27: nll: This geo is for 201 Fifth Avenue. -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
@@ -298,8 +302,8 @@
                   <orgName>Ellinger's Cloak Factory</orgName>
                   <desc></desc>
                   <location>
-                     <placeName>282  Madison street</placeName>
-                     <geo>41.8819365,-87.6372308</geo>
+                     <placeName>282 Madison street</placeName>
+                     <geo>441.8819359,-87.6368947</geo>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT011 #CT014"/>
                   <note/>
@@ -309,7 +313,8 @@
                   <desc></desc>
                   <location>
                      <placeName>180 and 182 Monroe street</placeName>
-                     <geo>41.8806589,-87.6354784</geo><!-- RJP:2016-07-26: needs verified -->
+                     <geo>41.8806589,-87.6354784</geo><!-- 2016-07-27: nll: This geo is for 180 Monroe Street. -->
+                     <geo>41.8806578,-87.6355342</geo><!-- 2016-07-27: nll: This geo is for 182 Monroe Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
