@@ -320,7 +320,7 @@
                   <note/>
                </org>
                <org xml:id="Fairbank">
-                  <orgName>Fairbank Canning Company</orgName>
+                  <orgName>Fairbank Canning Company</orgName><!-- 2016-07-27: nll: I'm going to come back to this company. I can't find an exact street address, so I did some research and found that the company is around the Union Stock Yards, so there is more researching I need to do, but I want to try to get other geo coordinates first. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -329,10 +329,11 @@
                   <note/>
                </org>
                <org xml:id="GFS">
-                  <orgName>Girls' Friendly Society</orgName>
-                  <desc></desc>
+                  <orgName>Girls' Friendly Society</orgName><!-- 2016-07-27: nll: After doing a lot of digging, I have finally found the address of the church where the Society was held in 1888! URLs on ILiADS issue! -->
+                  <desc>Meetings and such held in St. Stephen's church, which is the address below.</desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>923 West Ohio Street</placeName>
+                     <geo>41.8914116,-87.6527428</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -341,7 +342,8 @@
                   <orgName><persName>JL Goldsmith</persName>'s Tailor-Shop</orgName>
                   <desc>coat shop</desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>258 Rumsey Street</placeName><!-- 2016-07-27: nll: By matching up the streets on the old maps to the streets on the google map, I can get a general location for this, but there is not a Rumsey Street anymore, and where I would assume it would be now are just small streets that don't have names...to be continued.... -->
+                     <geo></geo>
                   </location>
                   <bibl corresp="#CT006 #CT011"/>
                   <note/>
@@ -351,7 +353,9 @@
                   <desc>Prince Albert Coats</desc>
                   <location>
                      <placeName>158 West Taylor Street</placeName>
+                     <geo>41.8689892,-87.6333215</geo>
                      <placeName>484 South Halsted Street</placeName>
+                     <geo>41.8754612,-87.6494236</geo>
                   </location>
                   <bibl corresp="#CT012"/>
                   <note>The first address associated with this just said 158, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
@@ -360,7 +364,8 @@
                   <orgName>Grace Church</orgName>
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>Corner of La Salle Avenue and Locust Street</placeName>
+                     <geo>41.8991596,-87.6337443</geo><!-- 2016-07-27: nll: There is not an intersection of these two streets anymore, but I have estimated where it would be located and got these coordinates. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -369,7 +374,8 @@
                   <orgName>Messrs. Hart, Abt &amp; Marx</orgName>
                   <desc>clothing manufacturer</desc>
                   <location>
-                     <placeName>155 Market street</placeName>
+                     <placeName>155 Market street</placeName><!-- 2016-07-27: nll: Market Street is now Wacker Drive. I found the organization on Becca's favorite map, and found out that it's on the corner of Market Street and Van Buren Street towards the river. -->
+                     <geo>41.8769612,-87.6390144</geo>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
@@ -379,6 +385,8 @@
                   <desc></desc>
                   <location>
                      <placeName>34 to 38 East Randolph</placeName>
+                     <geo>41.8845061,-87.6288119</geo><!-- 2016-07-27: nll: This is 34 East Randolf Street. -->
+                     <geo>41.884505,-87.6286589</geo><!-- 2016-07-27: nll: This is 38 East Randolf Street. -->
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
@@ -388,6 +396,7 @@
                   <desc></desc>
                   <location>
                      <placeName>335 Cleveland avenue</placeName>
+                     <geo>41.9124436,-87.6460282</geo>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
@@ -397,6 +406,8 @@
                   <desc>Printers, binders, and lithographers</desc>
                   <location>
                      <placeName>118 and 120 Monroe street</placeName>
+                     <geo>41.8808884,-87.6338911</geo><!-- 2016-07-27: nll: This is 118 Monroe Street. -->
+                     <geo>41.8808123,-87.6338869</geo><!-- 2016-07-27: nll: This is 120 Monroe Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
@@ -405,25 +416,32 @@
                   <orgName>Kuh, Nathan &amp; Fischer</orgName>
                   <desc>Coats</desc>
                   <location>
-                     <placeName>131 West Taylor street</placeName>
+                     <placeName>131</placeName><!-- T2016-07-27: nll: The address associated with this just said 131, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
+                     <placeName>244 to 252 Franklin cor. Jackson</placeName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                     <geo>41.8785435,-87.637433</geo><!-- 2016-07-27: nll: This is 244 Franklin. -->
+                     <geo>41.8784813,-87.6374315</geo><!-- 2016-07-27: nll: This is 252 Franklin. -->
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The address associated with this just said 131, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+                  <note/>
                </org>
                <org xml:id="KNels">
                   <orgName>Knute Nelson's Retail Tailor-Shop</orgName>
                   <desc></desc>
                   <location>
                      <placeName>113 Chicago avenue</placeName>
+                     <!-- 2016-07-27: nll: So there is now a 113 East Chicago Avenue and a 113 West Chicago Avenue. They are about 5-6 blocks apart. I'm going to put both of the geo coordinates down here and we can decide which may be more correct. -->
+                     <geo>41.8966416,-87.6305409</geo><!-- 2016-07-27: nll: This is 113 West Chicago avenue. -->
+                     <geo>41.8965215,-87.627216</geo><!-- 2016-07-27: nll: This is 113 East Chicago avenue. -->
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="Karasick">
-                  <orgName>David Karasick's shop</orgName>
+                  <orgName>David Karasick's shop</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>rear 230 W. 12th</placeName>
+                     <geo>41.8663289,-87.6488195</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -433,12 +451,13 @@
                   <desc></desc>
                   <location>
                      <placeName>323 Cleaveland avenue</placeName>
+                     <geo>41.9127982,-87.6416206</geo>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="KnightsOL">
-                  <orgName>Knights of Labor</orgName>
+                  <orgName>Knights of Labor</orgName><!-- 2016-07-27: According to business directory (there is a link on the ILiADS issue in GitHub), there are multiple Knights of Labor...soooo, I need to do more research here, but I want to get as many geo coordinates as I possibly can tonight. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -451,33 +470,47 @@
                   <desc></desc>
                   <location>
                      <placeName>Canal and West Taylor streets</placeName>
+                     <geo>41.8704524,-87.6414822</geo>
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <placeName>232 Monroe</placeName>
+                     <geo>41.8750092,-87.6411797</geo>
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Loewenstein">
-                  <orgName>Louis Lowenstein &amp; Company</orgName>
+                  <orgName>Louis Lowenstein &amp; Company</orgName><!-- 2016-07-27: nll: I believe this is spelled wrong. I think it's supposed to be like how it is in the xml:id: Loewenstein. -->
                   <desc>Coats</desc>
                   <location>
-                     <placeName>144 West Taylor street</placeName>
+                     <placeName>144 West Taylor street</placeName><!-- 2016-07-27: nll: The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
+                     <geo>41.8675776,-87.6349918</geo>
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <placeName>193 Adams</placeName>
+                     <geo>41.8794282,-87.6360107</geo>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+                  <note/>
                </org>
                <org xml:id="Loomis">
                   <orgName>Loomis Laundry</orgName>
                   <desc></desc>
                   <location>
                      <placeName>193 and 195 West Monroe street</placeName>
+                     <geo>41.8806514,-87.6358643</geo><!-- 2016-07-27: nll: This is 193 West Monroe Street. -->
+                     <geo>41.8806507,-87.6359031</geo><!-- 2016-07-27: nll: This is 195 West Monroe Street. -->
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <placeName>206 W. Monroe</placeName>
+                     <geo>41.8806412,-87.6364917</geo>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Lorimer">
-                  <orgName><persName>Dr. Lorimer</persName>'s</orgName>
+                  <orgName><persName>Dr. Lorimer</persName>'s</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>5 Wabash Avenue</placeName>
+                     <geo>41.8818676,-87.627907</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -486,7 +519,11 @@
                   <orgName>Ludden's</orgName>
                   <desc></desc>
                   <location>
-                     <placeName>122 Market street</placeName>
+                     <placeName>122 Market street</placeName><!-- 2016-07-27: nll: Again, Market Street is now Wacker Drive, so I imput 122 Waker Drive instead. Same for the address below. -->
+                     <geo>41.8791014,-87.6359691</geo>
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <placeName>124 Market Street</placeName>
+                     <geo>41.8794269,-87.6391661</geo>
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
@@ -496,6 +533,10 @@
                   <desc></desc>
                   <location>
                      <placeName>111 North State Street</placeName>
+                     <geo>41.8838946,-87.629753</geo>
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <placeName>State Northeast Corner Washington</placeName>
+                     <geo>41.8838946,-87.629753</geo>
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
@@ -505,6 +546,7 @@
                   <desc></desc>
                   <location>
                      <placeName>520 West Madison street</placeName>
+                     <geo>41.8818556,-87.6435204</geo>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
@@ -516,12 +558,15 @@
                   <location>
                      <placeName>133 West Washington street</placeName>
                      <geo>41.8832187,-87.6342033</geo>
+                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is an addition to the address given in the article -->
+                     <placeName>131 W. Washington Street</placeName>
+                     <geo>41.8832183,-87.6341409</geo>
                   </location>
                   <bibl corresp="#CT001 #CT002 #CT003 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Newman">
-                  <orgName>Newman's</orgName>
+                  <orgName>Newman's</orgName><!-- 2016-07-17: nll: There are several address for this many different Newman's from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. I will research this later and see what I can do. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -534,6 +579,7 @@
                   <desc></desc>
                   <location>
                      <placeName>Sedgwick street near Division and Superior</placeName>
+                     <geo>41.8955733,-87.6404714</geo><!-- 2016-07-27: nll: This is on the corner of Sedgwick and Superior. -->
                   </location>
                   <bibl corresp="#CT011 #CT021"/>
                   <note resp="#ras">A spelling error is printed in article CT011: the company is misspelled as "Olson"</note>
@@ -557,10 +603,11 @@
                   <note/>
                </org>
                <org xml:id="Pardridge">
-                  <orgName>Pardridge store</orgName>
+                  <orgName>Pardridge store</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
-                     <placeName>Next to the Boston store.</placeName>
+                     <placeName>118 State Street. Next to the Boston store.</placeName>
+                     <geo>41.8840007,-87.6289711</geo>
                   </location>
                   <bibl corresp="#CT010"/>
                   <note/>
