@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+            <meta charset="utf-8"/>
+                <title>Ground Overlays</title>
+                <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script>
+      // This example uses a GroundOverlay to place an image on the map
+      // showing an antique map of Newark, NJ.
+
+      var historicalOverlay;
+
+      function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: {
+      lat: 41.8534151,
+      lng: -87.6698314
+    }
+  });
+
+  var imageBounds = {
+    north: 41.937699,
+    south: 41.764651,
+    east: -87.5679811,
+    west: -87.7225901
+  };
+
+  historicalOverlay = new google.maps.GroundOverlay(
+    'http://newtfire.org/~lottig/ChicagoMaps/Chicago_1886b.jpg',
+    imageBounds);
+  historicalOverlay.setMap(map);
+}
+    </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC99c1un-KEzt3tRxotFBaMIrNuu_p4H0Y&callback=initMap"/>
+    
+    </body>
+</html>
