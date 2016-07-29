@@ -603,7 +603,7 @@
                   <note/>
                </org>
                <org xml:id="Pardridge">
-                  <orgName>Pardridge store</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <orgName>Pardridge store</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
                      <placeName>118 State Street. Next to the Boston store.</placeName>
@@ -613,10 +613,11 @@
                   <note/>
                </org>
                <org xml:id="PDArmour">
-                  <orgName>P.D. Armour's Packing-House</orgName>
+                  <orgName>P.D. Armour's Packing-House</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. It also states that there is more of the company at the stockyards...pg 127 under Armour & Co. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>205 Lasalle</placeName>
+                     <geo>41.8854352,-87.6321394</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
