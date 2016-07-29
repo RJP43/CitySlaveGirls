@@ -437,7 +437,7 @@
                   <note/>
                </org>
                <org xml:id="Karasick">
-                  <orgName>David Karasick's shop</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <orgName>David Karasick's shop</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
                      <placeName>rear 230 W. 12th</placeName>
@@ -471,7 +471,7 @@
                   <location>
                      <placeName>Canal and West Taylor streets</placeName>
                      <geo>41.8704524,-87.6414822</geo>
-                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>232 Monroe</placeName>
                      <geo>41.8750092,-87.6411797</geo>
                   </location>
@@ -484,7 +484,7 @@
                   <location>
                      <placeName>144 West Taylor street</placeName><!-- 2016-07-27: nll: The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
                      <geo>41.8675776,-87.6349918</geo>
-                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>193 Adams</placeName>
                      <geo>41.8794282,-87.6360107</geo>
                   </location>
@@ -498,7 +498,7 @@
                      <placeName>193 and 195 West Monroe street</placeName>
                      <geo>41.8806514,-87.6358643</geo><!-- 2016-07-27: nll: This is 193 West Monroe Street. -->
                      <geo>41.8806507,-87.6359031</geo><!-- 2016-07-27: nll: This is 195 West Monroe Street. -->
-                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>206 W. Monroe</placeName>
                      <geo>41.8806412,-87.6364917</geo>
                   </location>
@@ -506,7 +506,7 @@
                   <note/>
                </org>
                <org xml:id="Lorimer">
-                  <orgName><persName>Dr. Lorimer</persName>'s</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <orgName><persName>Dr. Lorimer</persName>'s</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
                      <placeName>5 Wabash Avenue</placeName>
@@ -534,7 +534,7 @@
                   <location>
                      <placeName>111 North State Street</placeName>
                      <geo>41.8838946,-87.629753</geo>
-                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
+                     <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>State Northeast Corner Washington</placeName>
                      <geo>41.8838946,-87.629753</geo>
                   </location>
@@ -558,7 +558,7 @@
                   <location>
                      <placeName>133 West Washington street</placeName>
                      <geo>41.8832187,-87.6342033</geo>
-                     <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is an addition to the address given in the article -->
+                     <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is an addition to the address given in the article -->
                      <placeName>131 W. Washington Street</placeName>
                      <geo>41.8832183,-87.6341409</geo>
                   </location>
@@ -566,7 +566,7 @@
                   <note/>
                </org>
                <org xml:id="Newman">
-                  <orgName>Newman's</orgName><!-- 2016-07-17: nll: There are several address for this many different Newman's from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. I will research this later and see what I can do. -->
+                  <orgName>Newman's</orgName><!-- 2016-07-27: nll: There are several address for this many different Newman's from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. I will research this later and see what I can do. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -603,7 +603,7 @@
                   <note/>
                </org>
                <org xml:id="Pardridge">
-                  <orgName>Pardridge store</orgName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <orgName>Pardridge store</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
                      <placeName>118 State Street. Next to the Boston store.</placeName>
@@ -613,47 +613,53 @@
                   <note/>
                </org>
                <org xml:id="PDArmour">
-                  <orgName>P.D. Armour's Packing-House</orgName>
+                  <orgName>P.D. Armour's Packing-House</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. It also states that there is more of the company at the stockyards...pg 127 under Armour & Co. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>205 Lasalle</placeName>
+                     <geo>41.8854352,-87.6321394</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="PPcar">
-                  <orgName>Pullman Palace Car</orgName>
+                  <orgName>Pullman Palace Car</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 371. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>201 Pullman Building; Corner of Adams and Michigan</placeName><!-- 2016-07-28: nll: My knowledge of the Pullman building being on the corner of Adams and Michigan is from the source that's in the note @corresp below. -->
+                     <geo>41.879539, -87.624527</geo>
                   </location>
                   <bibl corresp="#CT021"/>
-                  <note/>
+                  <note resp="#nll" corresp="http://www.pullman-museum.org/theCompany/pullmanBuilding.html"/>
                </org>
                <org xml:id="ProhibParty">
-                  <orgName>Prohibition Party</orgName>
+                  <orgName>Prohibition Party</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. It is actually the address for the Prohibition State and County Headquarters. The geo coordinate references this placeName. pg 370. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>20, 95 Dearborn</placeName>
+                     <geo>41.881777,-87.6316006</geo><!-- 2016-07-28: nll: geo for 20 Dearborn. -->
+                     <geo>41.8808249,-87.6315744</geo><!-- 2016-07-28: nll: geo for 95 Dearborn. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Rosenthal">
-                  <orgName>Rosenthal &amp; Company's</orgName>
+                  <orgName>Rosenthal &amp; Company's</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 385. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>131 Wabash Avenue</placeName>
+                     <geo>41.8841778,-87.6284225</geo>
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
                </org>
                
                <org xml:id="Rosenberg">
-                  <orgName>Rosenberg Brothers'</orgName>
+                  <orgName>Rosenberg Brothers'</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The address is actually for Rosenberg Morris, tailor. I picked this one because in regards to the article it's in, it has to be relatively close to Rosenthal and Co., which is also on Wabash Avenue. The geo coordinate references this placeName. pg 384. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>1618 Wabash Avenue</placeName>
+                     <geo>41.8837295,-87.6288125</geo><!-- 2016-07-28: nll: This is the coordinate for 1618 N Wabash Avenue, which is on the same block as Rosenthal and Co. -->
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
@@ -663,25 +669,27 @@
                   <desc></desc>
                   <location>
                      <placeName>the southwest corner of Wesson and Hobbie streets on the North side</placeName>
+                     <geo>41.901466, -87.642200</geo>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Schlessinger">
-                  <orgName>Schlessingers'</orgName>
+                  <orgName>Schlessingers'</orgName><!-- 2016-07-28: nll: I believe the correct spelling for this is 'SCHLESINGER'S' because it's how it's spelled in the headline and also in the following source. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
                   <desc></desc>
                   <location>
                      <placeName>1187 Milwaukee avenue</placeName>
-                     <geo>42.0756922,-87.8608628</geo><!-- RJP:2016-07-26: needs verified -->
+                     <geo>41.9032128,-87.6684181</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Schmall">
-                  <orgName>Schmallen's</orgName>
+                  <orgName>Schmallen's</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
                   <desc></desc>
                   <location>
                      <placeName>138 Mohawk street</placeName>
+                     <geo>41.9047765,-87.6483418</geo>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
@@ -691,15 +699,20 @@
                   <desc></desc>
                   <location>
                      <placeName>314 Cleveland avenue</placeName>
+                     <geo>41.9128422,-87.6432714</geo>
+                     <!-- 2016-07-28: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article. This is also under Jacob Schmidt, a shoemaker, so I can't be sure that this is correct. Google maps gives the same coordinates for both the above and below addresses!! pg 395. -->
+                     <placeName>281 Cleveland Avenue</placeName>
+                     <geo>41.9128422,-87.6432714</geo>
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="SecPresb">
-                  <orgName>Second Presbyterian</orgName>
+                  <orgName>Second Presbyterian</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. The geo coordinate references this placeName. -->
                   <desc></desc>
                   <location>
-                     <placeName></placeName>
+                     <placeName>1936 S Michigan Ave</placeName>
+                     <geo>41.8557335,-87.6265575</geo>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -709,12 +722,18 @@
                   <desc>blank-book establishment</desc>
                   <location>
                      <placeName>216 to 234 East Van Buren street</placeName>
+                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 216 East Van Buren Street. -->
+                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 234 East Van Buren Street. -->
+                     <!-- 2016-07-28: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is slightly different than the address given in the article. pg 411. Ironically these are all the same coordinates. -->
+                     <placeName>222 to 234 Vanburen</placeName>
+                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 222 Vanburen Street. -->
+                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 234 Vanburen Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Siam">
-                  <orgName>Siam's Twins</orgName>
+                  <orgName>Siam's Twins</orgName><!-- 2016-07-28: nll: Siam's Twins is not in Chicago, so I'm going to wait to do this one. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -727,21 +746,26 @@
                   <desc></desc>
                   <location>
                      <placeName>178 Market street</placeName>
+                     <geo>41.886945,-87.6356143</geo>
+                     <!-- 2016-07-28: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I have esitmated and will come back and research more about this later. The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is slightly different than the address given in the article. pg 408. -->
+                     <placeName>132 Market</placeName>
+                     <geo>41.8869461,-87.6342603</geo>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="SpitLand">
-                  <orgName>Messrs. Spitz, Landaner &amp; Company</orgName>
+                  <orgName>Messrs. Spitz, Landaner &amp; Company</orgName><!-- 2016-07-28: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I have esitmated and will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 414. -->
                   <desc></desc>
                   <location>
-                     <placeName>Market Street</placeName>
+                     <placeName>152 Market Street</placeName>
+                     <geo>41.8869482,-87.6349287</geo>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="StJohn">
-                  <orgName>St. John's</orgName>
+                  <orgName>St. John's</orgName><!-- 2016-07-28: nll: I need to do some more extensive research on St. John's, so I'm going to wait to do this one. -->
                   <desc></desc>
                   <location>
                      <placeName></placeName>
@@ -750,10 +774,13 @@
                   <note/>
                </org>
                <org xml:id="StLuke">
-                  <orgName>St. Luke Boarding-House</orgName>
+                  <orgName>St. Luke Boarding-House</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. It says St. Luke's Free Hospital here. The geo coordinate references this placeName. pg. 389. -->
                   <desc></desc>
                   <location>
-                     <placeName>Illinois street</placeName>
+                     <placeName>Illinois street</placeName><!-- 2016-07-28: nll: Illinois street is right above the where the river divides, but Indiana avenue is clear down in the south of the city. There is, however, an illinois avenue that is also south...I'm going with avenue below because that is what it is in the above reference. -->
+                     <placeName>1420 to 1434 Indiana Avenue</placeName>
+                     <geo>41.6649188,-87.6196422</geo><!-- 2016-07-28: nll: geo for 1420 Indiana Avenue. -->
+                     <geo>41.6649188,-87.6196422</geo><!-- 2016-07-28: nll: geo for 1434 Indiana Avenue. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
