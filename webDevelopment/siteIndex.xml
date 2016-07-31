@@ -786,17 +786,18 @@
                   <note/>
                </org>
                <org xml:id="Stein">
-                  <orgName><persName>Julius Stein</persName> &amp; Company</orgName>
+                  <orgName><persName>Julius Stein</persName> &amp; Company</orgName><!-- 2016-07-29: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. I could go more indepth with the street number. The geo coordinate references this placeName. pg. 417. -->
                   <desc></desc>
                   <location>
-                     <placeName>Market street</placeName>
+                     <placeName>166 Market street</placeName>
+                     <geo></geo>
                   </location>
                   <bibl corresp="#CT001 #CT003 #CT006 #CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Swing">
                   <orgName>Prof. Swing's</orgName>
-                  <desc></desc>
+                  <desc>Head of a church, name unknown.</desc>
                   <location>
                      <placeName></placeName>
                   </location>
@@ -828,7 +829,7 @@
                      <placeName>196 West Taylor street</placeName>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>Tshe address associated with this just said 196, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+                  <note>The address associated with this just said 196, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
                </org>
                <org xml:id="VestMaker1">
                   <orgName>A Vestmaker's Place</orgName>
