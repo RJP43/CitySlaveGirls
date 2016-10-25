@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- RJP:2016-10-25: This is the version of the text used in the UPG DHClass XSLT Exercise 3: http://newtfire.org/dh/XSLTExercise3.html -->
+<!-- RJP:2016-10-25: This is the version of the text used in the UPG DHClass XSLT Exercise 3: http://newtfire.org/dh/XSLTExercise3.html This file needs reworked to add Mielnicki numbering data and the html presentations needs to consider some of the expanded data -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
