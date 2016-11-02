@@ -11,7 +11,7 @@
         <html>
             <head>
                 <title>
-                    <xsl:text>XML to HTML Plain Reading View for Article </xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/>
+                    <xsl:text>Article </xsl:text><xsl:apply-templates select="//teiHeader//title//@when"/>
                 </title>
                 <link rel="stylesheet" type="text/css" href="style/style.css"/>
                 <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"

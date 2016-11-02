@@ -6,11 +6,21 @@
     
     <pattern>
         <rule context="tei:body">
-            <report test="not(tei:div or tei:head or tei:title or tei:list or tei:item or tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:name or tei:seg or tei:w or tei:phr or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg or tei:hi)">Incorrect element. Your xml can only include: div, head, title, list, item, p, said, placeName, persName, orgName, name, seg, w, phr, damage, unclear, supplied, choice, sic, reg and hi.</report>
+            <report test="not(tei:div or tei:head or tei:title or tei:list or tei:item or tei:p or tei:said or tei:placeName or tei:persName or tei:orgName or tei:name or tei:w or tei:phr or tei:seg or tei:damage or tei:unclear or tei:supplied or tei:choice or tei:sic or tei:reg or tei:hi)">Incorrect element. Your xml can only include: div, head, title, list, item, p, said, placeName, persName, orgName, name, w, phr, seg, damage, unclear, supplied, choice, sic, reg and hi.</report>
         </rule>
     </pattern>
-    
-    
+    <!-- RJP:2016-11-01: This is not working, but need a rule that calls for systematic whitespace inclusion/exclusion -->
+    <!--<pattern>
+        <rule context="*[ancestor::body]">
+            <report
+                test="not(matches(parent::*/preceding-sibling::text()[1], '[ “—]|&quot;$')) and matches(., '^[A-z]')">
+                Add a white space before the element. 
+            </report>
+            <report test="matches(., '^\s') and matches(parent::*/preceding-sibling::text()[1], '\S\s$')">
+                There's an extra white space either in the element or before the element.
+            </report>
+        </rule>
+    </pattern>-->
     <pattern>
         <rule context="tei:said">
             <report test="not(@ana and @who)">Element 'said' must contain both @who and @ana.</report>
