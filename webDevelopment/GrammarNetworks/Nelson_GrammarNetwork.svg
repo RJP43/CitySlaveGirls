@@ -1,17 +1,7 @@
 <?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="685px"
+  height="384px">
 
-<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:ev="http://www.w3.org/2001/xml-events"
-     x="0px"
-     y="0px"
-     width="932px"
-     height="384px"
-     viewBox="0 0 932 384"
-     >
 <title></title>
 <desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Tuesday, November 1, 2016 3:59:00 PM EDT</desc>
 <g stroke-linejoin="miter" stroke-dashoffset="0" stroke-dasharray="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="square">
