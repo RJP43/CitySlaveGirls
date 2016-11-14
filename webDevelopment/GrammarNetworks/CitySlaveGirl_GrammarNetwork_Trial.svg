@@ -1,18 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="650px"
   height="344px">
-<!--<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:ev="http://www.w3.org/2001/xml-events"
-     x="0px"
-     y="0px"
-     width="1014px"
-     height="344px"
-     viewBox="0 0 1014 344"
-     >-->
 <title></title>
 <desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Tuesday, November 1, 2016 5:04:12 PM EDT</desc>
   <g transform="translate(10, 0)">
@@ -4320,10 +4308,5 @@
 </g> <!-- transform -->
 </g> <!-- default stroke -->
 </g>
-    <g id="legend">
-      <circle cx="500" cy="-197" r="10" fill="#66FF66" stroke="#000000"/>
-      <circle cx="500" cy="-172" r="10" fill="#FF6666" stroke="#000000"/>
-      <circle cx="500" cy="-147" r="10" fill="#CCCCCC" stroke="#000000"/>
-    </g>
   </g>
 </svg> <!-- bounding box -->
