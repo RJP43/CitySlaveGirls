@@ -382,7 +382,9 @@
                </org>
                <org xml:id="HSC">
                   <orgName>H. Schultz &amp; Company's Paper-Box Manufactory</orgName>
-                  <desc></desc>
+                  <desc>
+                     Henry Schultz, C. F. Wolff, and Edward Schultz
+                  </desc><!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 398. -->
                   <location>
                      <placeName>34 to 38 East Randolph</placeName>
                      <geo>41.8845061,-87.6288119</geo><!-- 2016-07-27: nll: This is 34 East Randolf Street. -->
@@ -530,7 +532,14 @@
                </org>
                <org xml:id="MarshF">
                   <orgName>Marshall Field's</orgName>
-                  <desc></desc>
+                  <desc>
+                     Marshall Field, Lorenzo G. Woodhouse, Harlow N. Higinbotham, Joseph N. Field, and John G. McWilliams
+                     retail store
+                     <!-- 2016-11-25: nll: More info at: https://chicagology.com/business/marshall-field/ -->
+                  </desc>
+                  <!-- 2016-11-26: nll: 
+                     IMAGES: 
+                     https://chicagology.com/wp-content/themes/revolution-20/PreFire/leiterbldg.jpg    http://1.bp.blogspot.com/-6dhaNI2OdwU/UImSptiZsHI/AAAAAAAA1mY/-8WJ2MsJqGA/s1600/POSTCARD+-+CHICAGO+-+STATE+STREET+-+WASHINGTON+-+HUGE+CROWDS+-+TROLLEYS+-+WAGONS+-+MARSHALL+FIELD+CLOCK+-+ANOTHER+CLOCK+ON+CORNER+-+1912.jpg -->
                   <location>
                      <placeName>111 North State Street</placeName>
                      <geo>41.8838946,-87.629753</geo>
@@ -866,7 +875,10 @@
                </org>
                <org xml:id="WLMC">
                   <orgName>Western Lace Manufacturing Company</orgName>
-                  <desc></desc>
+                  <desc>
+                     President: Nathaniel H. White
+                     Secretary: S. Ford
+                  </desc><!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 451. -->
                   <location>
                      <placeName>218 State street</placeName>
                      <geo>41.8790401,-87.6303505</geo>
