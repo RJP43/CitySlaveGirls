@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="975" height="500">
+   <g transform="translate(10,400)">
+      <line x1="60"
+            y1="1"
+            x2="60"
+            y2="-300"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="60"
+            y1="0.5"
+            x2="787.5"
+            y2="0.5"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="30" y="50">* These archetypes speak so little that the percentage values appear as zero even though they speak on rare occasion.</text>
+      <text x="20"
+            y="-150"
+            transform="rotate(-90 20,-150)"
+            style="text-anchor: middle"
+            font-size="14">% of Total Dialogue (String Length of
+                    &lt;said&gt;)</text>
+      <text x="423.75" y="20" style="text-anchor: middle" font-size="14">Speaker (&lt;said
+                    @who="*"&gt;)</text>
+      <text x="30" y="-150" font-size="14"> 25% </text>
+      <text x="30" y="-300" font-size="14"> 50% </text>
+      <text x="423.75" y="-340" style="text-anchor: middle" font-size="18">Percent of Total Dialogue Spoken per
+                    Archetype of Speaker </text>
+      <text x="423.75" y="-320" style="text-anchor: middle" font-size="18">Throughout Collection of Chicago
+                    Times Articles</text>
+      <text x="842.5" y="-300" font-size="20">Legend</text>
+      <line x1="827.5"
+            y1="-196"
+            x2="827.5"
+            y2="-212"
+            stroke="#A3C9A8"
+            stroke-width="20"/>
+      <text x="842.5" y="-196" font-size="16">Nell
+                    Nelson</text>
+      <line x1="827.5"
+            y1="-274"
+            x2="827.5"
+            y2="-290"
+            stroke="pink"
+            stroke-width="20"/>
+      <text x="842.5" y="-274" font-size="16">Working Girl</text>
+      <line x1="827.5"
+            y1="-170"
+            x2="827.5"
+            y2="-186"
+            stroke="#725752"
+            stroke-width="20"/>
+      <text x="842.5" y="-170" font-size="16">Foreperson</text>
+      <line x1="827.5"
+            y1="-248"
+            x2="827.5"
+            y2="-264"
+            stroke="#F2DA00"
+            stroke-width="20"/>
+      <text x="842.5" y="-248" font-size="16">Employer</text>
+      <line x1="827.5"
+            y1="-144"
+            x2="827.5"
+            y2="-160"
+            stroke="#C695A6"
+            stroke-width="20"/>
+      <text x="842.5" y="-144" font-size="16">Employee</text>
+      <line x1="827.5"
+            y1="-92"
+            x2="827.5"
+            y2="-108"
+            stroke="#29335C"
+            stroke-width="20"/>
+      <text x="842.5" y="-92" font-size="16">Benefactor</text>
+      <line x1="827.5"
+            y1="-66"
+            x2="827.5"
+            y2="-82"
+            stroke="#00A6ED"
+            stroke-width="20"/>
+      <text x="842.5" y="-66" font-size="16">Messenger</text>
+      <line x1="827.5"
+            y1="-40"
+            x2="827.5"
+            y2="-56"
+            stroke="orange"
+            stroke-width="20"/>
+      <text x="842.5" y="-40" font-size="16">Unidentified</text>
+      <line x1="827.5"
+            y1="-222"
+            x2="827.5"
+            y2="-238"
+            stroke="blue"
+            stroke-width="20"/>
+      <text x="842.5" y="-222" font-size="16">Prominent Men</text>
+      <line x1="827.5"
+            y1="-14"
+            x2="827.5"
+            y2="-30"
+            stroke="red"
+            stroke-width="20"/>
+      <text x="842.5" y="-14" font-size="16">Prominent Women</text>
+      <line x1="827.5"
+            y1="-118"
+            x2="827.5"
+            y2="-134"
+            stroke="green"
+            stroke-width="20"/>
+      <text x="842.5" y="-118" font-size="16">Reporter</text>
+      <line x1="827.5"
+            y1="12"
+            x2="827.5"
+            y2="-4"
+            stroke="#07F957"
+            stroke-width="20"/>
+      <text x="842.5" y="12" font-size="16">Inspector</text>
+      <line x1="270"
+            x2="270"
+            y1="0"
+            y2="-62.877866477963778"
+            stroke="#A3C9A8"
+            stroke-width="45"/>
+      <line x1="90"
+            x2="90"
+            y1="0"
+            y2="-196.1566528825103382"
+            stroke="pink"
+            stroke-width="45"/>
+      <line x1="330"
+            x2="330"
+            y1="0"
+            y2="-39.632029366887066"
+            stroke="#725752"
+            stroke-width="45"/>
+      <line x1="150"
+            x2="150"
+            y1="0"
+            y2="-118.9226244443953032"
+            stroke="#F2DA00"
+            stroke-width="45"/>
+      <line x1="390"
+            x2="390"
+            y1="0"
+            y2="-38.9951571172685256"
+            stroke="#C695A6"
+            stroke-width="45"/>
+      <line x1="510"
+            x2="510"
+            y1="0"
+            y2="-5.8247274496362312"
+            stroke="#29335C"
+            stroke-width="45"/>
+      <line x1="570"
+            x2="570"
+            y1="0"
+            y2="-4.6040556378673626"
+            stroke="#00A6ED"
+            stroke-width="45"/>
+      <line x1="630"
+            x2="630"
+            y1="0"
+            y2="-2.8261206076822716"
+            stroke="orange"
+            stroke-width="45"/>
+      <line x1="210"
+            x2="210"
+            y1="0"
+            y2="-112.3814157139382148"
+            stroke="blue"
+            stroke-width="45"/>
+      <line x1="690"
+            x2="690"
+            y1="0"
+            y2="0"
+            stroke="red"
+            stroke-width="45"/>
+      <line x1="450"
+            x2="450"
+            y1="0"
+            y2="-17.77935030185091"
+            stroke="green"
+            stroke-width="45"/>
+      <line x1="750"
+            x2="750"
+            y1="0"
+            y2="0"
+            stroke="#07F957"
+            stroke-width="45"/>
+      <line x1="60"
+            y1="-150"
+            x2="787.5"
+            y2="-150"
+            stroke="grey"
+            stroke-width="2"
+            stroke-dasharray="5, 5"/>
+      <text x="270"
+            y="-72.877866477963778"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">10.5% </text>
+      <text x="90"
+            y="-206.1566528825103382"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">32.7% </text>
+      <text x="330"
+            y="-49.632029366887066"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">6.6% </text>
+      <text x="150"
+            y="-128.9226244443953032"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">19.8% </text>
+      <text x="390"
+            y="-48.9951571172685256"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">6.5% </text>
+      <text x="510"
+            y="-15.8247274496362312"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">1% </text>
+      <text x="570"
+            y="-14.6040556378673626"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">.77% </text>
+      <text x="630"
+            y="-12.8261206076822716"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">.47% </text>
+      <text x="210"
+            y="-122.3814157139382148"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">18.7% </text>
+      <text x="690"
+            y="-10"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">* 0% </text>
+      <text x="450"
+            y="-27.77935030185091"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">3% </text>
+      <text x="750"
+            y="-10"
+            font-size="12"
+            fill="black"
+            text-anchor="middle">* 0% </text>
+   </g>
+</svg>

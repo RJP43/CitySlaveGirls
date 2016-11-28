@@ -21,11 +21,11 @@
     <xsl:variable name="xSpacing" select="40"/>
 
     <!-- ras: Variable for collection -->
-    <xsl:variable name="nelsonColl" select="collection('../Nelson_CSG/CSG_XML/XML_OnSite')"/>
+    <xsl:variable name="nelsonColl" select="collection('../../Nelson_CSG/CSG_XML/XML_OnSite')"/>
 
     <!-- ras: Template Match for Document Output -->
     <xsl:template match="/">
-        <svg width="100%" height="125%">
+        <svg width="430" height="555">
             <g transform="translate(20,475)">
 
 
@@ -63,7 +63,7 @@
 
 
                 <!-- ras: Legend -->
-                <text x="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}" y="{$yLegendStart}" font-size="20">Legend</text>
+                <text x="{$xLegend + ($legendBoxWidth div 2) + $xSpacing + 15}" y="{$yLegendStart}" font-size="20">Legend</text>
                 <!-- ras: Male Voice  -->
                 <line x1="{$xLegend + ($legendBoxWidth div 2) + $xSpacing}"
                     y1="{$yLegendStart + ($yLegendInterval * 2)}"
