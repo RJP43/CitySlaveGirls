@@ -1,9 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 
-<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg" width="575px" height="440px">
+<svg xmlns="http://www.w3.org/2000/svg" width="575px" height="440px">
 <title></title>
 <desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Friday, April 22, 2016 6:46:38 AM EDT</desc>
 <g transform="translate(-175, 10)">
