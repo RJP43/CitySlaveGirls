@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="115">
+    <g transform="translate(10, 10)">
+        <g id="legend">
+            <circle cx="10" cy="10" r="12" fill="#CCCCCC" stroke="#000000" stroke-width="5"/>
+            <text x="30" y="15" text-anchor="start" font-size="18px" font-family="Tahoma, Geneva, sans-serif" fill="black">&#10230; References to Objects Owned</text>
+            <circle cx="10" cy="46" r="12" fill="#FF6666" stroke="#000000" stroke-width="5"/>
+            <text x="30" y="51" text-anchor="start" font-size="18px" font-family="Tahoma, Geneva, sans-serif" fill="black">&#10230; References to Body/Self</text>
+            <circle cx="10" cy="82" r="12" fill="#66FF66" stroke="#000000" stroke-width="5"/>
+            <text x="30" y="87" text-anchor="start" font-size="18px" font-family="Tahoma, Geneva, sans-serif" fill="black">&#10230; References to People/Relationships</text>
+        </g>
+    </g>
+</svg>
