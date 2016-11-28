@@ -1,20 +1,10 @@
 <?xml version="1.0" standalone="no"?>
 
-<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:ev="http://www.w3.org/2001/xml-events"
-     x="0px"
-     y="0px"
-     width="946px"
-     height="429px"
-     viewBox="0 0 946 429"
-     >
+<svg xmlns="http://www.w3.org/2000/svg" width="625px" height="450px">
 <title></title>
 <desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Friday, April 22, 2016 6:42:15 AM EDT</desc>
-<g stroke-linejoin="miter" stroke-dashoffset="0" stroke-dasharray="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="square">
+  <g  transform="translate(-140, 10)">
+  <g stroke-linejoin="miter" stroke-dashoffset="0" stroke-dasharray="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="square">
 <g fill-opacity="1" fill-rule="nonzero" stroke="none" fill="#ffffff">
   <path d="M 0 0 L 946 0 L 946 429 L 0 429 L 0 0 z"/>
 </g> <!-- drawing style -->
@@ -2342,5 +2332,5 @@
 </g> <!-- transform -->
 </g> <!-- clip1 -->
 </g> <!-- transform -->
-</g> <!-- default stroke -->
+</g> <!-- default stroke --></g>
 </svg> <!-- bounding box -->
