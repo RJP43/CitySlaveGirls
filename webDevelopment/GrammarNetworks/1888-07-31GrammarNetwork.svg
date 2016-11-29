@@ -1,19 +1,7 @@
 <?xml version="1.0" standalone="no"?>
-
-<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     x="0px"
-     y="0px"
-     width="946px"
-     height="429px"
-     viewBox="0 0 946 429"
-     >
-<title></title>
-<desc>Creator: FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Revision Source:  Date: Friday, April 22, 2016 6:46:13 AM EDT</desc>
-<g stroke-linejoin="miter" stroke-dashoffset="0" stroke-dasharray="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="square">
+<svg xmlns="http://www.w3.org/2000/svg" height="445px" width="475px">
+  <g transform="translate(-215, 10)">
+    <g stroke-linejoin="miter" stroke-dashoffset="0" stroke-dasharray="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="square">
 <g fill-opacity="1" fill-rule="nonzero" stroke="none" fill="#ffffff">
   <path d="M 0 0 L 946 0 L 946 429 L 0 429 L 0 0 z"/>
 </g> <!-- drawing style -->
@@ -1888,8 +1876,8 @@
 <g clip-path="url(#clip1)">
 <g transform="matrix(1, 0, 0, 1, 0, 21)">
 <text fill-opacity="1" font-style="italic" font-family="Eras Bold ITC" font-weight="normal" stroke="none" fill="#000000" font-size="24.45566177368164" x="0" y="0">Article 7-31-1888</text>
-</g> <!-- transform -->
-</g> <!-- clip1 -->
-</g> <!-- transform -->
-</g> <!-- default stroke -->
-</svg> <!-- bounding box -->
+</g>
+</g>
+</g>
+</g></g>
+</svg>
