@@ -11,19 +11,20 @@
         <html>
             <head>
                 <title>
-                    <xsl:text>Project Archetypes Represented in Dialogue for Article </xsl:text>
+                    <xsl:text>Article </xsl:text>
                     <xsl:apply-templates select="//teiHeader//title//@when"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="../style/style.css"/>
-                <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"
-                    type="text/css"/>
-                <script type="text/javascript" src="../style/saidToggle.js">/**/</script>
+                <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+                <link rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+                <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"/>
+                <script type="text/javascript" src="js/saidToggle.js">/**/</script>
             </head>
             <body>
-                <xsl:comment>#include virtual="../top.html"</xsl:comment>
-                <div id="checkboxes">
-                    <h3>Click to Toggle Colored Dialogue</h3>
-                    <h4>Based on Archetype of Speaker</h4>
+                <xsl:comment>#include virtual="top.html"</xsl:comment>
+                <div id="checkboxes" class="col-xs-3">
+                    <h3 class="text-center">Toggle Dialogue by Archetype</h3>
+
                     <ul>
                         <xsl:if test="//said[@who = '#nellNelson']">
                             <li>
@@ -85,6 +86,12 @@
                                 <span class="reporter">Reporter</span>
                             </li>
                         </xsl:if>
+                        <xsl:if test="//said[@who = '#inspector']">
+                            <li>
+                                <input type="checkbox" value="inspector"/>
+                                <span class="inspector">Inspector</span>
+                            </li>
+                        </xsl:if>
                         <xsl:if test="//said[@who = '#unidentified']">
                             <li>
                                 <input type="checkbox" value="unidentified"/>
@@ -92,80 +99,111 @@
                             </li>
                         </xsl:if>
                     </ul>
+                    <a class="text-center" href="#top">Back to Beginning of Article</a>
                 </div>
-                <div id="article">
-                    <div id="articleHead">
-                        <h1>The Chicago Times</h1>
-                        <h2>"City Slave Girls"</h2>
-                        <h3>
-                            <xsl:apply-templates select="//teiHeader//title/date"/>
-                        </h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 article" id="top">
+                            <div class="articleHead">
+                                <h1 class="paperTitle">The Chicago Times</h1>
+                                <h2 class="seriesTitle">"City Slave Girls"</h2>
+                                <h3 class="dateline" title="{//teiHeader//title/date/@when}">
+                                    <xsl:apply-templates select="//teiHeader//title/date"/>
+                                </h3>
+                            </div>
+                            <div class="headlinesText">
+                                <ul>
+                                    <xsl:apply-templates
+                                        select="//div[@type = 'headlines'][1]//item"/>
+                                </ul>
+                            </div>
+                            <hr/>
+                            <div class="articleText">
+                                <xsl:apply-templates select="//div[@type = 'articleBody'][1]"/>
+                            </div>
+                            <xsl:if test="//div[@type = 'headlines'][2]">
+                                <hr/>
+                                <div class="headlinesTitle">
+                                    <ul>
+                                        <xsl:apply-templates
+                                            select="//div[@type = 'headline'][1]//item"/>
+                                    </ul>
+                                </div>
+                                <div class="headlinesText">
+                                    <ul>
+                                        <xsl:apply-templates
+                                            select="//div[@type = 'headlines'][2]//item"/>
+                                    </ul>
+                                </div>
+                                <hr/>
+                                <div class="articleText">
+                                    <xsl:apply-templates select="//div[@type = 'articleBody'][2]"/>
+                                </div>
+                            </xsl:if>
+                            <xsl:if test="//div[@type = 'headlines'][3]">
+                                <hr/>
+                                <div class="headlinesTitle">
+                                    <ul>
+                                        <xsl:apply-templates
+                                            select="//div[@type = 'headline'][2]//item"/>
+                                    </ul>
+                                </div>
+                                <div class="headlinesText">
+                                    <ul>
+                                        <xsl:apply-templates
+                                            select="//div[@type = 'headlines'][3]//item"/>
+                                    </ul>
+                                </div>
+                                <hr/>
+                                <div class="articleText">
+                                    <xsl:apply-templates select="//div[@type = 'articleBody'][3]"/>
+                                </div>
+                            </xsl:if>
+                            <xsl:if test="//div[@type = 'advertisement']">
+                                <div class="advertisement">
+                                    <h4 class="text-center">
+                                        <xsl:text>Series' Advertisement Printed on </xsl:text>
+                                        <xsl:apply-templates select="//teiHeader//title/date"/>
+                                    </h4>
+                                    <h2 class="text-center">
+                                        <xsl:apply-templates
+                                            select="//div[@type = 'advertisement']/head"/>
+                                    </h2>
+                                    <xsl:apply-templates select="//div[@type = 'advertisement']//p"
+                                    />
+                                </div>
+                            </xsl:if>
+                        </div>
                     </div>
-                    <div class="headlinesText">
-                        <ul>
-                            <xsl:apply-templates select="//div[@type = 'headlines'][1]//item"/>
-                        </ul>
-                    </div>
+
                     <hr/>
-                    <div class="articleText">
-                        <xsl:apply-templates select="//div[@type = 'articleBody'][1]"/>
-                    </div>
-                    <xsl:if test="//div[@type = 'headlines'][2]">
-                        <hr/>
-                        <div class="headlinesTitle">
-                            <ul><xsl:apply-templates select="//div[@type = 'headline'][1]//item"/></ul>                                
-                        </div>
-                        <div class="headlinesText">
-                            <ul>
-                                <xsl:apply-templates select="//div[@type = 'headlines'][2]//item"/>
-                            </ul>
-                        </div>
-                        <hr/>
-                        <div class="articleText">
-                            <xsl:apply-templates select="//div[@type = 'articleBody'][2]"/>
-                        </div>
-                    </xsl:if>
-                    <xsl:if test="//div[@type = 'headlines'][3]">
-                        <hr/>
-                        <div class="headlinesTitle">
-                            <ul><xsl:apply-templates select="//div[@type = 'headline'][2]//item"/></ul>                                
-                        </div>
-                        <div class="headlinesText">
-                            <ul>
-                                <xsl:apply-templates select="//div[@type = 'headlines'][3]//item"/>
-                            </ul>
-                        </div>
-                        <hr/>
-                        <div class="articleText">
-                            <xsl:apply-templates select="//div[@type = 'articleBody'][3]"/>
-                        </div>
-                    </xsl:if>
-                    <xsl:if test="//div[@type = 'advertisement']">
-                        <div id="advertisement">
-                            <h3>
-                                <xsl:text>The following is an advertisement pertaining to the series that was featured at the end of this article.</xsl:text>
-                            </h3>
-                            <h2>
-                                <xsl:apply-templates select="//div[@type = 'advertisement']/head"/>
-                            </h2>
-                            <xsl:apply-templates select="//div[@type = 'advertisement']//p"/>
-                        </div>
-                    </xsl:if>
+                    <xsl:comment>#include virtual="foot.html"</xsl:comment>
                 </div>
-                <xsl:comment>#include virtual="../foot.html"</xsl:comment>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="rdg">
         <xsl:choose>
-            <xsl:when test="@wit[contains(., '#CT')]">
-                <xsl:apply-templates/>
+            <xsl:when test="following-sibling::rdg[@wit[contains(., '#WSGC')]]">
+                <xsl:if test="following-sibling::rdg[@wit[contains(., '#WSGC')]] != ''">
+                    <span class="var"
+                        title="Altered in Barkley Publication: {following-sibling::rdg[@wit[contains(., '#WSGC')]]}">
+                        <xsl:apply-templates/>
+                    </span>
+                </xsl:if>
+                <xsl:if test="following-sibling::rdg[@wit[contains(., '#WSGC')]] = ''">
+                    <span class="var" title="Excluded in Barkley Publication">
+                        <xsl:apply-templates/>
+                    </span>
+                </xsl:if>
             </xsl:when>
-            <xsl:otherwise></xsl:otherwise>
+            <xsl:otherwise/>
         </xsl:choose>
-    </xsl:template><!-- rjp: For filters that are not focused on version comparison, this rule selects the reading of the original article as the only one that appears. -->
+    </xsl:template>
     <xsl:template match="item">
-        <li><xsl:apply-templates/></li>
+        <li>
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
     <xsl:template match="p">
         <p>
@@ -244,6 +282,13 @@
                     </q>
                 </span>
             </xsl:when>
+            <xsl:when test="@who = '#inspector'">
+                <span class="inspector">
+                    <q class="dialogue">
+                        <xsl:apply-templates/>
+                    </q>
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <span class="unknown">
                     <q class="dialogue">
@@ -270,39 +315,58 @@
     <xsl:template match="unclear">
         <xsl:choose>
             <xsl:when test="./supplied">
-                <xsl:apply-templates/>
+                <span class="unclear"
+                    title="The text provided here was interpreted by a project editor because the transcription source was unclear.">
+                    <xsl:apply-templates/>
+                </span>
             </xsl:when>
             <xsl:otherwise>
-                <span
-                    title="Due to the poor quality of this article's photocopy, the text is unclear and could not be transcribed.">
-                    <xsl:text>[MISSING TEXT]</xsl:text>
+                <span class="unclear" title="The text is unclear and could not be transcribed.">
+                    <xsl:text> [MISSING TEXT] </xsl:text>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="sic">
-        <span title="Spelling retained from original article: {following-sibling::*}"><xsl:apply-templates/></span>
+        <span title="Spelling retained from original article: {following-sibling::*}">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="reg"/>
-    <xsl:template match="name[@ref='#CT']">
+    <xsl:template match="name[@ref = '#CT']">
         <span class="chicTimes">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="orgName">
         <xsl:choose>
-            <xsl:when test="@type='exposedCompany'"><span class="exposComp">
-                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span>
-            </span>
+            <xsl:when test="@type = 'exposedCompany'">
+                <span class="exposComp {@ref/substring-after(.,'#')}">
+                    <xsl:apply-templates/>
+                </span>
+
             </xsl:when>
-            <xsl:otherwise><span class="org"><span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:otherwise>
+            <xsl:otherwise>
+                <span class="org">
+                    <span class="{@ref/substring-after(.,'#')}">
+                        <xsl:apply-templates/>
+                    </span>
+                </span>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="placeName">
         <xsl:choose>
-            <xsl:when test="@type='address'"><span class="address">
-                <span class="{@ref/substring-after(.,'#')}"><xsl:apply-templates/></span></span></xsl:when>
-            <xsl:otherwise><span class="place"><xsl:apply-templates/></span></xsl:otherwise>
+            <xsl:when test="@type = 'address'">
+                <span class="address {@ref/substring-after(.,'#')}">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="place">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
