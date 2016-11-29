@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8" />
-        <!--
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>-->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="NellNelson_CitySlaveGirls" />
         <meta name="author" content="RebeccaParker" />
@@ -13,39 +9,29 @@
         <title>Nell Nelson: City Slave Girls</title>
 
         <!-- Bootstrap Core CSS -->
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet"/>-->
         <link rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-        <!--integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-            crossorigin="anonymous"-->
+
         <!-- Custom CSS -->
         <link href="css/custom.css" rel="stylesheet" />
         <link href="http://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet" />
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     </head>
 
     <body>
         <!-- Navigation -->
         <!--#include virtual="top.html" -->
         <!-- Page Content -->
-        <!--<div class="container">
-            <div class="row top-space">-->
         <div class="imageMap">
             <figure>
                 <img class="center-block" src="images/1898_LOC_BusinessDistrictChicago.jpg"
                     alt="1898 Drawn Picture of Chicago Business District" usemap="#Map" />
                 <map name="Map" id="Map">
-                    <area alt="The Chicago Times Headquarters" title="The Chicago Times Headquarters"
-                        href="#Map" shape="rect" coords="928,358,944,377" />
-                    <area alt="Marshall Field's &amp; Company" title="Marshall Field's &amp; Company"
-                        href="#Map" shape="rect" coords="952,651,984,673" />
+                    <area alt="The Chicago Times Headquarters"
+                        title="The Chicago Times Headquarters" data-toggle="modal" href="#CT" shape="rect"
+                        coords="928,358,944,377" />
+                    <area alt="Marshall Field's &amp; Company"
+                        title="Marshall Field's &amp; Company" data-toggle="modal" href="#MarshF"
+                        shape="rect" coords="952,651,984,673" />
                 </map>
                 <figcaption class="text-center figure-caption map-caption">Poole Brothers.
                         <em>Bird's-Eye-View of the Business District of Chicago</em>. Chicago, 1898.
@@ -53,11 +39,49 @@
                         the Library of Congress</a>.</figcaption>
             </figure>
         </div>
+        <div class="modal fade" id="MarshF" tabindex="-1" role="dialog" aria-labelledby="MarshF">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                ><span aria-hidden="true">X</span></button>
+                        <h4 class="modal-title popupH" id="myModalLabel">Marshall Field &amp;
+                            Co.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="center-block" src="images/MarshF.jpg"
+                            alt="1880s Photograph of Marshall Field's"
+                            title="Source: https://chicagology.com/business/marshall-field/" />
+                        <p class="popupP top-space text-center">Mentioned in <a href="1888-07-30.html">July 30, 1888</a> article.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="CT" tabindex="-1" role="dialog" aria-labelledby="CT">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                            ><span aria-hidden="true">X</span></button>
+                        <h4 class="modal-title popupH" id="myModalLabel"><em>The Chicago Times</em> Headquarters</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="center-block" src="images/A_1888-08-06.jpg"
+                            alt="Snippet printed on 1888-08-06"/>
+                        <p class="popupP top-space text-center">Read Nell Nelson's <a href="readingView.html">"City Slave Girls" series</a>.</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--<img class="img-center" src="images/wireframe_mapping.jpg"
                         alt="Wireframe of Map Page Expectations" />--><!-- RJP:2016-08-03:Uncomment this to see the Wireframe Expectations of this page -->
-        <!--</div>
-        </div>-->
         <!-- Footer -->
         <!--#include virtual="foot.html" -->
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/8a3ee4eb37.js"></script>
     </body>
 </html>
