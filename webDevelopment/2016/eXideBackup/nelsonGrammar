@@ -1,0 +1,62 @@
+xquery version "3.0";
+declare default element namespace "http://www.tei-c.org/ns/1.0";
+declare variable $ThisFileContent := 
+string-join(
+let $nellColl := collection('/db/Nelson/CSG_XML')
+let $nellFile := $nellColl/*
+let $SiteIndex := doc('/db/Nelson/siteIndex.xml')/*
+let $distSIarchs := distinct-values($SiteIndex//nym//re)
+let $fileDates := $nellFile//teiHeader//fileDesc//title//date/@when/string()
+let $fileNums := $nellFile//teiHeader//fileDesc//title/@corresp/substring-after(.,'CT0')
+let $phrases := $nellFile//phr (:First used to get initial count of phrases in all the files = 691:)
+let $words := $phrases//w
+let $posses := $words[@type='poss'] (:First used to get initial count of possessive words in all the files = 694:)
+(: let $nouns := $words[@type='noun'] :)(:Used to get initial count of nouns in all the files = 722:)
+for $poss in $posses
+let $parentPhrOth :=  $poss/ancestor::phr
+let $parentPhr := $poss/ancestor::phr/normalize-space()
+
+let $possValue := 
+if ($poss[@ana[substring-after(.,'#') = $SiteIndex//nym/@xml:id/string()]]) then ($SiteIndex//nym[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//re/string())
+else if ($poss[@ana[substring-after(.,'#') = $SiteIndex//org/@xml:id/string()]]) then ($SiteIndex//org[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//orgName/string())
+else if ($poss[@ana[substring-after(.,'#') = $SiteIndex//bibl/@xml:id/string()]]) then ($SiteIndex//bibl[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//title[@level='s']/string())
+else $poss/string()
+
+let $possAtt := 'poss'
+
+let $correspNoun := 
+if ($poss/parent::phr/w[@type="noun"][@ana[substring-after(.,'#') = $SiteIndex//nym/@xml:id/string()]]) then ($SiteIndex//nym[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//re/string())
+else if ($poss/parent::phr/w[@type="noun"][@ana[substring-after(.,'#') = $SiteIndex//org/@xml:id/string()]]) then ($SiteIndex//org[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//orgName/string())
+else if ($poss/parent::phr/w[@type="noun"][@ana[substring-after(.,'#') = $SiteIndex//bibl/@xml:id/string()]]) then ($SiteIndex//bibl[@xml:id/string() = ($poss/@ana/substring-after(.,'#'))]//title[@level='s']/string())
+else $poss/parent::phr/w[@type="noun"]/string()
+
+let $nounAtt := 
+if ($poss/parent::phr/w[@type="noun"][@ana][@subtype='refTo']) then ("refNoun")
+else if ($poss/parent::phr/w[@type="noun"][@ana][not(@subtype)]) then ("dirNoun")
+else ("noun")
+
+for $n in $correspNoun
+
+
+let $phraseFile := $parentPhrOth/ancestor::TEI//teiHeader//fileDesc//title/@corresp/substring-after(.,'CT0')
+
+order by $possValue
+
+return concat($possValue, "&#x9;", $possAtt, "&#x9;", $parentPhr, "&#x9;", $phraseFile, "&#x9;", $n, "&#x9;", $nounAtt), "&#10;");
+
+let $filename := "nelsonGrammarOutput.tsv"
+let $doc-db-uri := xmldb:store("/db/Nelson", $filename, $ThisFileContent, "text/plain")
+return $doc-db-uri
+(:output = http://dxcvm05.psc.edu:8080/exist/rest/db/Nelson/nelsonGrammarOutput.tsv:)
+
+
+
+
+
+
+
+
+
+
+
+

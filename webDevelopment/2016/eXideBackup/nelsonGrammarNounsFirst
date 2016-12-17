@@ -1,0 +1,36 @@
+xquery version "3.0";
+declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+let $nellColl := collection('/db/Nelson/CSG_XML')
+let $nellFile := $nellColl/*
+let $SiteIndex := doc('/db/Nelson/siteIndex.xml')/*
+let $distSIarchs := distinct-values($SiteIndex//nym//re)
+let $fileDates := $nellFile//teiHeader//fileDesc//title//date/@when/string()
+let $fileNums := $nellFile//teiHeader//fileDesc//title/@corresp/substring-after(.,'CT0')
+let $phrases := $nellFile//phr
+let $words := $phrases//w
+let $nouns := $words[@type='noun']
+
+for $noun in $nouns
+let $parentPhr := $noun/ancestor::phr
+
+let $nounValue := 
+if ($noun[@ana[substring-after(.,'#') = $SiteIndex//nym/@xml:id/string()]]) then ($SiteIndex//nym[@xml:id/string() = ($noun/@ana/substring-after(.,'#'))]//re/string())
+else if ($noun[@ana[substring-after(.,'#') = $SiteIndex//org/@xml:id/string()]]) then ($SiteIndex//org[@xml:id/string() = ($noun/@ana/substring-after(.,'#'))]//orgName/string())
+else $noun/string()
+
+
+let $correspPoss := 
+if ($noun/parent::phr/w[@type="poss"][@ana[substring-after(.,'#') = $SiteIndex//nym/@xml:id/string()]]) then ($SiteIndex//nym[@xml:id/string() = ($noun/@ana/substring-after(.,'#'))]//re/string())
+else if ($noun/parent::phr/w[@type="poss"][@ana[substring-after(.,'#') = $SiteIndex//org/@xml:id/string()]]) then ($SiteIndex//org[@xml:id/string() = ($noun/@ana/substring-after(.,'#'))]//orgName/string())
+else $noun/parent::phr/w[@type="poss"]/string()
+
+let $nounAtt := 'noun'
+let $possAtt := 'poss'
+
+for $p in $correspPoss
+
+return $p
+
+
+BROKEN

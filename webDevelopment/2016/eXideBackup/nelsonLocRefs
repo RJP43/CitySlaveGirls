@@ -1,0 +1,20 @@
+xquery version "3.0";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+let $ThisFileContent:=
+string-join(
+    let $nellColl := collection('/db/Nelson/CSG_XML')
+    let $nellFiles := $nellColl/*
+    let $SiteIndex := doc('/db/Nelson/siteIndex.xml')/*
+
+    let $locPlaces := $nellFiles//tei:placeName[@type="locRef"]/normalize-space()
+    let $distLocPlaces := distinct-values($locPlaces)
+    
+    return $distLocPlaces, "&#10;")
+
+let $filename := "NellLocalPlaces.text"
+let $doc-db-uri := xmldb:store("/db/Nelson", $filename, $ThisFileContent, "text/plain")
+return $doc-db-uri
+
+(: output at: http://dxcvm05.psc.edu:8080/exist/rest/db/Nelson/NellLocalPlaces.tsv  :)
+
+

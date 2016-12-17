@@ -1,0 +1,37 @@
+xquery version "3.0";
+declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+declare variable $ThisFileContent:=
+
+string-join(
+let $nellColl := collection('/db/Nelson/CSG_XML')
+let $nellArts := $nellColl/*
+let$placeNamesAll := $nellArts//text//placeName
+let $placeNames := distinct-values($nellArts//text//placeName)
+
+
+for $placeName in $placeNames
+
+let $places :=
+if ($placeNamesAll[. = $placeName]/@type='locRef') then distinct-values($placeNamesAll[. = $placeName]/ancestor::body//placeName[@type='locRef' and not(. = $placeName)])
+else if ($placeNamesAll[. = $placeName]/@type='address') then distinct-values($placeNamesAll[. = $placeName]/ancestor::body//placeName[@type='address' and not(. = $placeName)])
+else 'other'
+
+let $placeRefEdgeType :=
+if ($placeNamesAll[. = $placeName]/@type='locRef') then 'locRef'
+else if ($placeNamesAll[. = $placeName]/@type='address') then 'address'
+else 'something_else'
+
+let $placeCountEdgeWeight :=
+if ($placeNamesAll[. = $placeName]/@type='locRef') then count($placeNamesAll[. = $placeName]/ancestor::body//placeName[@type='locRef' and not(. = $placeName)])
+else if ($placeNamesAll[. = $placeName]/@type='address') then count($placeNamesAll[. = $placeName]/ancestor::body//placeName[@type='address' and not(. = $placeName)])
+else '0'
+
+for $place in $places
+
+return concat($placeName, "&#x9;", $placeRefEdgeType, "&#x9;", $placeCountEdgeWeight, "&#x9;", $place), "&#10;");
+
+let $filename := "myOutput.tsv"
+let $doc-db-uri := xmldb:store("/db/queries/op", $filename, $ThisFileContent, "text/plain")
+return $doc-db-uri
+(: output at :http://dxcvm05.psc.edu:8080/exist/rest/db/myOutput/MyNetworkData.tsv ) :)
