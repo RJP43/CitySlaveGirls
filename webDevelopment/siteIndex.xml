@@ -3,12 +3,15 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Site Index of the Nell Nelson Restoration Project</title>
-            <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref> at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing Center</ref></sponsor>
-            <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref> server</sponsor>
+            <sponsor>Elisa Beshero-Bondar: <ref target="http://newtfire.org">Newtfire server</ref>
+               at the <ref target="http://www.psc.edu">Pittsburgh Supercomputing
+               Center</ref></sponsor>
+            <sponsor>David J. Birnbaum: <ref target="http://obdurodon.org">Obdurodon</ref>
+               server</sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>
             <principal>Rebecca Parker</principal>
             <respStmt>
@@ -16,27 +19,37 @@
                <persName ref="#rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
-               <resp>with assistance from the Digital Mitford Project and the Digital Humanities courses at the <placeName>University of Pittsburgh at Greensburg</placeName> from 2014-2016, from</resp>
+               <resp>with assistance from the Digital Mitford Project and the Digital Humanities
+                  courses at the <placeName>University of Pittsburgh at Greensburg</placeName> from
+                  2014-2016, from</resp>
                <persName>Elisa Beshero-Bondar</persName>
                <persName>Gregory Bondar</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI P5, date: <date when="2015-12-12">2015-12-12</date>. This digital archive began as <persName ref="#rjp">Rebecca Parker</persName>'s in-depth capstone paper and presentation for completion of a History based Social Sciences Bachelor's degree at the <placeName>University of Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the project begain in the Fall of <date when="2014">2014</date>.</edition>
+            <edition>First digital edition in TEI P5, date: <date when="2015-12-12"
+                  >2015-12-12</date>. This digital archive began as <persName ref="#rjp">Rebecca
+                  Parker</persName>'s in-depth capstone paper and presentation for completion of a
+               History based Social Sciences Bachelor's degree at the <placeName>University of
+                  Pittsburgh at Greensburg</placeName>. Work to create the digital aspects of the
+               project begain in the Fall of <date when="2014">2014</date>.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Rebecca J. Parker</authority>
             <pubPlace>Greensburg and Pittsburgh, PA, USA</pubPlace>
             <date>2014</date>
-            <availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence></availability>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information on named entities in this file have been extracted from files in the
-               Nell Nelson Restoration Project and the corresponding GitHub page.</p>
+            <p>Information on named entities in this file have been extracted from files in the Nell
+               Nelson Restoration Project and the corresponding GitHub page.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div type="editors">
             <listPerson type="editors">
@@ -48,7 +61,15 @@
                      <roleName>Founding Editor</roleName>
                      <ptr target="http://newtfire.org/~rjp43/"/>
                   </persName>
-                  <note type="bio">Rebecca Parker is a senior at the University of Pittsburgh at Greensburg. She is a double major of English Literature and Social Sciences. Rebecca's area of focus within the Social Sciences is History and she is on track to receive the Digital Studies Certificate. The Restoration of Nell Nelson is a project Rebecca began research for during the Spring 2014 Semester, for her history capstone. Rebecca's interest in Digital Humanities stemmed from her involvement on the Digital Mitford Project working as Dr. Beshero-Bondar's Green Scholar. Rebecca is an active member of Sigma Tau Delta, Pi Gamma Mu and Phi Kappa Phi.</note>
+                  <note type="bio">Rebecca Parker is a senior at the University of Pittsburgh at
+                     Greensburg. She is a double major of English Literature and Social Sciences.
+                     Rebecca's area of focus within the Social Sciences is History and she is on
+                     track to receive the Digital Studies Certificate. The Restoration of Nell
+                     Nelson is a project Rebecca began research for during the Spring 2014 Semester,
+                     for her history capstone. Rebecca's interest in Digital Humanities stemmed from
+                     her involvement on the Digital Mitford Project working as Dr. Beshero-Bondar's
+                     Green Scholar. Rebecca is an active member of Sigma Tau Delta, Pi Gamma Mu and
+                     Phi Kappa Phi.</note>
                </person>
                <person>
                   <persName xml:id="ebb">
@@ -57,7 +78,16 @@
                      <roleName>Advising Editor</roleName>
                      <ptr target="http://www.pitt.edu/~ebb8/"/>
                   </persName>
-                  <note type="bio">Elisa Beshero-Bondar is Associate Professor of English at the University of Pittsburgh at Greensburg, where she has enjoyed working since 2004. She regularly teaches 19th-century British Literature, Early American Literature, Social Literature, and Science Fiction, as well as an interdisciplinary course on text encoding in the Digital Humanities. She is a member of the University of Pittsburgh's Digital Humanities Research Group (DHRX) and the Indo-Pacific Council (INPAC). She is also the lead Faculty Advisor for the Pitt-Greensburg Alpha Alpha Delta Chapter of Sigma Tau Delta, the International English Honor Society. A lifelong student, she is very much a work in progress.</note>
+                  <note type="bio">Elisa Beshero-Bondar is Associate Professor of English at the
+                     University of Pittsburgh at Greensburg, where she has enjoyed working since
+                     2004. She regularly teaches 19th-century British Literature, Early American
+                     Literature, Social Literature, and Science Fiction, as well as an
+                     interdisciplinary course on text encoding in the Digital Humanities. She is a
+                     member of the University of Pittsburgh's Digital Humanities Research Group
+                     (DHRX) and the Indo-Pacific Council (INPAC). She is also the lead Faculty
+                     Advisor for the Pitt-Greensburg Alpha Alpha Delta Chapter of Sigma Tau Delta,
+                     the International English Honor Society. A lifelong student, she is very much a
+                     work in progress.</note>
                </person>
                <person>
                   <persName xml:id="ras">
@@ -66,7 +96,9 @@
                      <roleName>2015 Editor</roleName>
                      <!--<ptr target=""/>-->
                   </persName>
-                  <note type="bio">Rob Spadafore is a Creative and Professional Writing Major at the University of Pittsburgh at Greensburg. He is also editor-in-chief of the school newspaper, The Insider.</note>
+                  <note type="bio">Rob Spadafore is a Creative and Professional Writing Major at the
+                     University of Pittsburgh at Greensburg. He is also editor-in-chief of the
+                     school newspaper, The Insider.</note>
                </person>
                <person>
                   <persName xml:id="CAK">
@@ -75,7 +107,12 @@
                      <roleName>2015 Editor</roleName>
                      <!--<ptr target=""/>-->
                   </persName>
-                  <note type="bio">Cody Karch is a student at the University of Pittsburgh at Greensburg, with plans to transfer to the main campus. His major is English Writing, but will be going into a duel-major in that and Philosophy eventually. Pitt-Greensburg's Digital Humanities Class is what got him involved with this project. He is helping to transcribe, and support the formation of Nell Nelson project alongside others.</note>
+                  <note type="bio">Cody Karch is a student at the University of Pittsburgh at
+                     Greensburg, with plans to transfer to the main campus. His major is English
+                     Writing, but will be going into a duel-major in that and Philosophy eventually.
+                     Pitt-Greensburg's Digital Humanities Class is what got him involved with this
+                     project. He is helping to transcribe, and support the formation of Nell Nelson
+                     project alongside others.</note>
                </person>
                <person>
                   <persName xml:id="KMW">
@@ -84,7 +121,13 @@
                      <roleName>2015 Editor</roleName>
                      <!--<ptr target=""/>-->
                   </persName>
-                  <note type="bio">Kari Womack is a student at the University of Pittsburgh at Greensburg. She is a Sophomore VAPA (Visual and Performing Arts) major with a concentration in Theatre and is currently the Props Master for the campus 2015 Fall production of Middletown. She is an inductee of the Delta Psi Omega Theatre Honor Society and has previously held the positions of Stage Manager, Assistant Scenic Designer, Assistant Technical Director, and Backstage Manager.</note>
+                  <note type="bio">Kari Womack is a student at the University of Pittsburgh at
+                     Greensburg. She is a Sophomore VAPA (Visual and Performing Arts) major with a
+                     concentration in Theatre and is currently the Props Master for the campus 2015
+                     Fall production of Middletown. She is an inductee of the Delta Psi Omega
+                     Theatre Honor Society and has previously held the positions of Stage Manager,
+                     Assistant Scenic Designer, Assistant Technical Director, and Backstage
+                     Manager.</note>
                </person>
                <person>
                   <persName xml:id="sd">
@@ -93,7 +136,12 @@
                      <roleName>2014 Editor</roleName>
                      <!--<ptr target=""/>-->
                   </persName>
-                  <note type="bio">Shane Daube is a graduate ('14) of the University of Pittsburgh at Greensburg. He is a Psychology major looking to pursue a master's degree in Clinical Psychology or a related field. Shane became a member of this project when he took Pitt-Greensburg's Digital Humanities Class in Fall of 2014. He worked to help Rebecca transcribe, markup, and XQuery the Nell Nelson articles from The Chicago Daily Times and also the chapters of the McEnnis text.</note>
+                  <note type="bio">Shane Daube is a graduate ('14) of the University of Pittsburgh
+                     at Greensburg. He is a Psychology major looking to pursue a master's degree in
+                     Clinical Psychology or a related field. Shane became a member of this project
+                     when he took Pitt-Greensburg's Digital Humanities Class in Fall of 2014. He
+                     worked to help Rebecca transcribe, markup, and XQuery the Nell Nelson articles
+                     from The Chicago Daily Times and also the chapters of the McEnnis text.</note>
                </person>
                <person>
                   <persName xml:id="nll">
@@ -115,14 +163,14 @@
                </person>
             </listPerson>
          </div>
-         
+
          <div type="companies">
             <listOrg>
                <org xml:id="BB">
                   <orgName>B'nai B'rith</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note resp="#nll" corresp="http://www.bnaibrith.org/timeline.html"/>
@@ -132,12 +180,17 @@
                   <desc>Jackets and Cloaks</desc>
                   <location>
                      <placeName>105 West Taylor street</placeName>
-                     <geo>41.8684174,-87.6286052</geo><!-- 2016-07-26: nll: Taylor Street is a little different in modern times than it is in 1888. -->
+                     <geo>41.8684174,-87.6286052</geo>
+                     <!-- 2016-07-26: nll: Taylor Street is a little different in modern times than it is in 1888. -->
                      <placeName>163 West Taylor</placeName>
                      <geo>41.8690303,-87.633062</geo>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The multiple street addresses are for each place in the article that is commissioned to do the needlework of said company. The addresses are listed here in the order they appear in the article. The second address was listed in the article just as the number 163; however, it was in succession with an address on West Taylor so it was assumed to be same street.</note>
+                  <note>The multiple street addresses are for each place in the article that is
+                     commissioned to do the needlework of said company. The addresses are listed
+                     here in the order they appear in the article. The second address was listed in
+                     the article just as the number 163; however, it was in succession with an
+                     address on West Taylor so it was assumed to be same street.</note>
                </org>
                <org xml:id="Benson">
                   <orgName>Benson's Shop</orgName>
@@ -149,9 +202,10 @@
                   <bibl corresp="#CT011 #CT014"/>
                   <note/>
                </org>
-               <org xml:id="BOT"><!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
+               <org xml:id="BOT">
+                  <!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
                   <orgName>The Board of Trade</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>141 W Jackson Street</placeName>
                      <geo>41.8776288,-87.6336351</geo>
@@ -161,7 +215,7 @@
                </org>
                <org xml:id="BostonStore">
                   <orgName>Boston Store</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>2 North State Street at Madison</placeName>
                      <geo>41.8821879,-87.6308633</geo>
@@ -171,9 +225,10 @@
                </org>
                <org xml:id="Berliner">
                   <orgName><persName>Isaac Berliner</persName>'s Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName>147 Twelfth street</placeName><!-- 2016-07-26: nll: Twelfth Street is recently known as Roosevelt Road. -->
+                     <placeName>147 Twelfth street</placeName>
+                     <!-- 2016-07-26: nll: Twelfth Street is recently known as Roosevelt Road. -->
                      <geo>41.8678563,-87.6326467</geo>
                   </location>
                   <bibl corresp="#CT011 #CT014"/>
@@ -181,7 +236,7 @@
                </org>
                <org xml:id="Brougham">
                   <orgName>Brougham's Packing-House</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>80 Jackson street</placeName>
                      <geo>41.8782887,-87.6259774</geo>
@@ -191,58 +246,66 @@
                </org>
                <org xml:id="CCC">
                   <orgName>Chicago Carpet Company</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Corner of Wabash and Monroe</placeName>
                      <geo>41.8801988,-87.6281002</geo>
-                     <!--<placeName>Market Street</placeName>--><!-- rjp:2016-07-16: In the article Nelson states she "stepped from an Ogden Avenue car and walked down Market Street"; however, the reference to this company is made from a girl in passing explaining where she previously worked. Therefore, this address is likely referenced incorrectly to Market St. and will need fixed in the XML. -->
+                     <!--<placeName>Market Street</placeName>-->
+                     <!-- rjp:2016-07-16: In the article Nelson states she "stepped from an Ogden Avenue car and walked down Market Street"; however, the reference to this company is made from a girl in passing explaining where she previously worked. Therefore, this address is likely referenced incorrectly to Market St. and will need fixed in the XML. -->
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="COH">
-                  <orgName>Chicago Operahouse</orgName><!-- 2016-07-26: nll: Thomas W. Prior, who may or may not be the manager of COH. Nelson mentions his name in a letter used as an attempt for employment, which may/may not have been forged. -->
-                  <desc></desc>
+                  <orgName>Chicago Operahouse</orgName>
+                  <!-- 2016-07-26: nll: Thomas W. Prior, who may or may not be the manager of COH. Nelson mentions his name in a letter used as an attempt for employment, which may/may not have been forged. -->
+                  <desc/>
                   <location>
-                     <placeName>Corner of Clark Street and Washington Street</placeName><!-- 2016-07-26: nll: Across Washington Street from the court house. -->
+                     <placeName>Corner of Clark Street and Washington Street</placeName>
+                     <!-- 2016-07-26: nll: Across Washington Street from the court house. -->
                      <geo>41.882038,-87.6311137</geo>
                   </location>
                   <bibl corresp="#CT010"/>
                   <note/>
                </org>
-               <org xml:id="CEB"><!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
+               <org xml:id="CEB">
+                  <!-- 2016-07-26: nll: Charles L. Hutchinson, pres of BOT and CEB. -->
                   <orgName>The Corn Exchange Bank</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Northwest Corner of Adams and La Salle</placeName>
                      <geo>41.8795956,-87.6323018</geo>
                   </location>
                   <bibl corresp="#CT021"/>
-                  <note resp="#nll" corresp="http://www.ebay.com/itm/Chicago-3-Autograph-Corn-Exchange-National-Bank-Victor-Lawson-Chicago-Daily-News-/361602818441?hash=item5431352189:g:yHwAAOSwQTVV90Or"/>
+                  <note resp="#nll"
+                     corresp="http://www.ebay.com/itm/Chicago-3-Autograph-Corn-Exchange-National-Bank-Victor-Lawson-Chicago-Daily-News-/361602818441?hash=item5431352189:g:yHwAAOSwQTVV90Or"
+                  />
                </org>
                <org xml:id="CigarFactory1">
                   <orgName>A Cigar Factory</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Randolph near Dearborn street</placeName>
-                     <geo>41.8838534,-87.6296869</geo><!-- 2016-07-26: nll: This is just a point at the intersection of the 2 streets, basically a guess... -->
+                     <geo>41.8838534,-87.6296869</geo>
+                     <!-- 2016-07-26: nll: This is just a point at the intersection of the 2 streets, basically a guess... -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="CigarFactory2">
                   <orgName>Cigar Factory of <persName>F. Garcia</persName></orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>20th Clark street</placeName>
-                     <geo>41.8822936,-87.6333677</geo><!-- 2016-07-26: nll: On Google Maps there is a 20th Clark Street and a 20 Clark Street. Based on the old map that we have, I'm going with my gut here that the geocoordinates for 20 Clark Street are the correct ones. -->
+                     <geo>41.8822936,-87.6333677</geo>
+                     <!-- 2016-07-26: nll: On Google Maps there is a 20th Clark Street and a 20 Clark Street. Based on the old map that we have, I'm going with my gut here that the geocoordinates for 20 Clark Street are the correct ones. -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="CaS">
                   <orgName>Cooper &amp; Siegel's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Southeast Corner of Adams and State</placeName>
                      <geo>41.8794052,-87.6297068</geo>
@@ -250,7 +313,8 @@
                   <bibl corresp="#CT010"/>
                   <note resp="#rjp">
                      <bibl>
-                        <title>Chicago By Day and Night: The Pleasure Seeker's Guide to the Paris of America</title>
+                        <title>Chicago By Day and Night: The Pleasure Seeker's Guide to the Paris of
+                           America</title>
                         <author>Paul Durica</author>
                         <author>Bill Savage</author>
                         <!-- 2016-07-26: nll: The page number is 238, and the source is found on Google Books. There is a link to it on a GitHub issue. -->
@@ -259,27 +323,30 @@
                </org>
                <org xml:id="DAS">
                   <orgName>Decorative Art Society</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName></placeName><!-- 2016-07-26: nll: According to the links provided in the GitHub issue for ILiADS, the Decorative Art Society was created by Mrs. Scammon at Dr. Ralph Isham's home, which according to the 1880 Chicago Census was at 199 Dearborn Street. The Society was sold in March 1888 to Mrs. Pode, where we do not know where she held the society at. If you google the Society, it is now part of The Art Institute of Chicago, which has 3 different buildings, the main one being too far out for our 1888 Chicago. Due to not knowing more and not being able to find more resources, I am not sure at this time where exactly the Society was located in 1888. -->
+                     <placeName/>
+                     <!-- 2016-07-26: nll: According to the links provided in the GitHub issue for ILiADS, the Decorative Art Society was created by Mrs. Scammon at Dr. Ralph Isham's home, which according to the 1880 Chicago Census was at 199 Dearborn Street. The Society was sold in March 1888 to Mrs. Pode, where we do not know where she held the society at. If you google the Society, it is now part of The Art Institute of Chicago, which has 3 different buildings, the main one being too far out for our 1888 Chicago. Due to not knowing more and not being able to find more resources, I am not sure at this time where exactly the Society was located in 1888. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Doremus">
                   <orgName>Doremus Laundry</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>269 and 271 South Paulina street</placeName>
-                     <geo>41.8769304,-87.6708261</geo><!-- 2016-07-27: nll: This geo is for 269 South Paulina Street. -->
-                     <geo>41.8776642,-87.6692838</geo><!-- 2016-07-27: nll: This geo is for 271 South Paulina Street. I believe these two addresses are right across the street from each other. -->
+                     <geo>41.8769304,-87.6708261</geo>
+                     <!-- 2016-07-27: nll: This geo is for 269 South Paulina Street. -->
+                     <geo>41.8776642,-87.6692838</geo>
+                     <!-- 2016-07-27: nll: This geo is for 271 South Paulina Street. I believe these two addresses are right across the street from each other. -->
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="EAmorris">
                   <orgName>E.A. Morris's Confectionery Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>81 West Jackson street</placeName>
                      <geo>41.8781348,-87.6310996</geo>
@@ -289,18 +356,20 @@
                </org>
                <org xml:id="EUC">
                   <orgName>Excelsior Underwear Company</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>199 and 201 Fifth avenue</placeName>
-                     <geo>41.895324,-87.6269127</geo><!-- 2016-07-27: nll: This geo is for 199 Fifth Avenue. -->
-                     <geo>41.895284,-87.6268007</geo><!-- 2016-07-27: nll: This geo is for 201 Fifth Avenue. -->
+                     <geo>41.895324,-87.6269127</geo>
+                     <!-- 2016-07-27: nll: This geo is for 199 Fifth Avenue. -->
+                     <geo>41.895284,-87.6268007</geo>
+                     <!-- 2016-07-27: nll: This geo is for 201 Fifth Avenue. -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="Ellinger">
                   <orgName>Ellinger's Cloak Factory</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>282 Madison street</placeName>
                      <geo>441.8819359,-87.6368947</geo>
@@ -310,27 +379,32 @@
                </org>
                <org xml:id="Ettlinger">
                   <orgName>Ettlinger's Printing-House and Bindery</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>180 and 182 Monroe street</placeName>
-                     <geo>41.8806589,-87.6354784</geo><!-- 2016-07-27: nll: This geo is for 180 Monroe Street. -->
-                     <geo>41.8806578,-87.6355342</geo><!-- 2016-07-27: nll: This geo is for 182 Monroe Street. -->
+                     <geo>41.8806589,-87.6354784</geo>
+                     <!-- 2016-07-27: nll: This geo is for 180 Monroe Street. -->
+                     <geo>41.8806578,-87.6355342</geo>
+                     <!-- 2016-07-27: nll: This geo is for 182 Monroe Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Fairbank">
-                  <orgName>Fairbank Canning Company</orgName><!-- 2016-07-27: nll: I'm going to come back to this company. I can't find an exact street address, so I did some research and found that the company is around the Union Stock Yards, so there is more researching I need to do, but I want to try to get other geo coordinates first. -->
-                  <desc></desc>
+                  <orgName>Fairbank Canning Company</orgName>
+                  <!-- 2016-07-27: nll: I'm going to come back to this company. I can't find an exact street address, so I did some research and found that the company is around the Union Stock Yards, so there is more researching I need to do, but I want to try to get other geo coordinates first. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="GFS">
-                  <orgName>Girls' Friendly Society</orgName><!-- 2016-07-27: nll: After doing a lot of digging, I have finally found the address of the church where the Society was held in 1888! URLs on ILiADS issue! -->
-                  <desc>Meetings and such held in St. Stephen's church, which is the address below.</desc>
+                  <orgName>Girls' Friendly Society</orgName>
+                  <!-- 2016-07-27: nll: After doing a lot of digging, I have finally found the address of the church where the Society was held in 1888! URLs on ILiADS issue! -->
+                  <desc>Meetings and such held in St. Stephen's church, which is the address
+                     below.</desc>
                   <location>
                      <placeName>923 West Ohio Street</placeName>
                      <geo>41.8914116,-87.6527428</geo>
@@ -342,8 +416,9 @@
                   <orgName><persName>JL Goldsmith</persName>'s Tailor-Shop</orgName>
                   <desc>coat shop</desc>
                   <location>
-                     <placeName>258 Rumsey Street</placeName><!-- 2016-07-27: nll: By matching up the streets on the old maps to the streets on the google map, I can get a general location for this, but there is not a Rumsey Street anymore, and where I would assume it would be now are just small streets that don't have names...to be continued.... -->
-                     <geo></geo>
+                     <placeName>258 Rumsey Street</placeName>
+                     <!-- 2016-07-27: nll: By matching up the streets on the old maps to the streets on the google map, I can get a general location for this, but there is not a Rumsey Street anymore, and where I would assume it would be now are just small streets that don't have names...to be continued.... -->
+                     
                   </location>
                   <bibl corresp="#CT006 #CT011"/>
                   <note/>
@@ -358,14 +433,17 @@
                      <geo>41.8754612,-87.6494236</geo>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The first address associated with this just said 158, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+                  <note>The first address associated with this just said 158, but was following a
+                     company being exposed on West Taylor street; therefore, the street name
+                     associated here was inferred.</note>
                </org>
                <org xml:id="GraceCh">
                   <orgName>Grace Church</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Corner of La Salle Avenue and Locust Street</placeName>
-                     <geo>41.8991596,-87.6337443</geo><!-- 2016-07-27: nll: There is not an intersection of these two streets anymore, but I have estimated where it would be located and got these coordinates. -->
+                     <geo>41.8991596,-87.6337443</geo>
+                     <!-- 2016-07-27: nll: There is not an intersection of these two streets anymore, but I have estimated where it would be located and got these coordinates. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
@@ -374,7 +452,8 @@
                   <orgName>Messrs. Hart, Abt &amp; Marx</orgName>
                   <desc>clothing manufacturer</desc>
                   <location>
-                     <placeName>155 Market street</placeName><!-- 2016-07-27: nll: Market Street is now Wacker Drive. I found the organization on Becca's favorite map, and found out that it's on the corner of Market Street and Van Buren Street towards the river. -->
+                     <placeName>155 Market street</placeName>
+                     <!-- 2016-07-27: nll: Market Street is now Wacker Drive. I found the organization on Becca's favorite map, and found out that it's on the corner of Market Street and Van Buren Street towards the river. -->
                      <geo>41.8769612,-87.6390144</geo>
                   </location>
                   <bibl corresp="#CT006"/>
@@ -382,20 +461,21 @@
                </org>
                <org xml:id="HSC">
                   <orgName>H. Schultz &amp; Company's Paper-Box Manufactory</orgName>
-                  <desc>
-                     Henry Schultz, C. F. Wolff, and Edward Schultz
-                  </desc><!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 398. -->
+                  <desc> Henry Schultz, C. F. Wolff, and Edward Schultz </desc>
+                  <!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 398. -->
                   <location>
                      <placeName>34 to 38 East Randolph</placeName>
-                     <geo>41.8845061,-87.6288119</geo><!-- 2016-07-27: nll: This is 34 East Randolf Street. -->
-                     <geo>41.884505,-87.6286589</geo><!-- 2016-07-27: nll: This is 38 East Randolf Street. -->
+                     <geo>41.8845061,-87.6288119</geo>
+                     <!-- 2016-07-27: nll: This is 34 East Randolf Street. -->
+                     <geo>41.884505,-87.6286589</geo>
+                     <!-- 2016-07-27: nll: This is 38 East Randolf Street. -->
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Huber">
                   <orgName>Huber's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>335 Cleveland avenue</placeName>
                      <geo>41.9124436,-87.6460282</geo>
@@ -408,8 +488,10 @@
                   <desc>Printers, binders, and lithographers</desc>
                   <location>
                      <placeName>118 and 120 Monroe street</placeName>
-                     <geo>41.8808884,-87.6338911</geo><!-- 2016-07-27: nll: This is 118 Monroe Street. -->
-                     <geo>41.8808123,-87.6338869</geo><!-- 2016-07-27: nll: This is 120 Monroe Street. -->
+                     <geo>41.8808884,-87.6338911</geo>
+                     <!-- 2016-07-27: nll: This is 118 Monroe Street. -->
+                     <geo>41.8808123,-87.6338869</geo>
+                     <!-- 2016-07-27: nll: This is 120 Monroe Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
@@ -418,29 +500,36 @@
                   <orgName>Kuh, Nathan &amp; Fischer</orgName>
                   <desc>Coats</desc>
                   <location>
-                     <placeName>131</placeName><!-- T2016-07-27: nll: The address associated with this just said 131, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
-                     <placeName>244 to 252 Franklin cor. Jackson</placeName><!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
-                     <geo>41.8785435,-87.637433</geo><!-- 2016-07-27: nll: This is 244 Franklin. -->
-                     <geo>41.8784813,-87.6374315</geo><!-- 2016-07-27: nll: This is 252 Franklin. -->
+                     <placeName>131</placeName>
+                     <!-- T2016-07-27: nll: The address associated with this just said 131, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
+                     <placeName>244 to 252 Franklin cor. Jackson</placeName>
+                     <!-- 2016-07-17: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                     <geo>41.8785435,-87.637433</geo>
+                     <!-- 2016-07-27: nll: This is 244 Franklin. -->
+                     <geo>41.8784813,-87.6374315</geo>
+                     <!-- 2016-07-27: nll: This is 252 Franklin. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="KNels">
                   <orgName>Knute Nelson's Retail Tailor-Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>113 Chicago avenue</placeName>
                      <!-- 2016-07-27: nll: So there is now a 113 East Chicago Avenue and a 113 West Chicago Avenue. They are about 5-6 blocks apart. I'm going to put both of the geo coordinates down here and we can decide which may be more correct. -->
-                     <geo>41.8966416,-87.6305409</geo><!-- 2016-07-27: nll: This is 113 West Chicago avenue. -->
-                     <geo>41.8965215,-87.627216</geo><!-- 2016-07-27: nll: This is 113 East Chicago avenue. -->
+                     <geo>41.8966416,-87.6305409</geo>
+                     <!-- 2016-07-27: nll: This is 113 West Chicago avenue. -->
+                     <geo>41.8965215,-87.627216</geo>
+                     <!-- 2016-07-27: nll: This is 113 East Chicago avenue. -->
                   </location>
                   <bibl corresp="#CT011"/>
                   <note/>
                </org>
                <org xml:id="Karasick">
-                  <orgName>David Karasick's shop</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
-                  <desc></desc>
+                  <orgName>David Karasick's shop</orgName>
+                  <!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <desc/>
                   <location>
                      <placeName>rear 230 W. 12th</placeName>
                      <geo>41.8663289,-87.6488195</geo>
@@ -450,7 +539,7 @@
                </org>
                <org xml:id="Klein">
                   <orgName>Klein's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>323 Cleaveland avenue</placeName>
                      <geo>41.9127982,-87.6416206</geo>
@@ -459,17 +548,18 @@
                   <note/>
                </org>
                <org xml:id="KnightsOL">
-                  <orgName>Knights of Labor</orgName><!-- 2016-07-27: According to business directory (there is a link on the ILiADS issue in GitHub), there are multiple Knights of Labor...soooo, I need to do more research here, but I want to get as many geo coordinates as I possibly can tonight. -->
-                  <desc></desc>
+                  <orgName>Knights of Labor</orgName>
+                  <!-- 2016-07-27: According to business directory (there is a link on the ILiADS issue in GitHub), there are multiple Knights of Labor...soooo, I need to do more research here, but I want to get as many geo coordinates as I possibly can tonight. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Kuppen">
                   <orgName>B. Kuppenheimer's Tailor-Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Canal and West Taylor streets</placeName>
                      <geo>41.8704524,-87.6414822</geo>
@@ -481,10 +571,12 @@
                   <note/>
                </org>
                <org xml:id="Loewenstein">
-                  <orgName>Louis Lowenstein &amp; Company</orgName><!-- 2016-07-27: nll: I believe this is spelled wrong. I think it's supposed to be like how it is in the xml:id: Loewenstein. -->
+                  <orgName>Louis Lowenstein &amp; Company</orgName>
+                  <!-- 2016-07-27: nll: I believe this is spelled wrong. I think it's supposed to be like how it is in the xml:id: Loewenstein. -->
                   <desc>Coats</desc>
                   <location>
-                     <placeName>144 West Taylor street</placeName><!-- 2016-07-27: nll: The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
+                     <placeName>144 West Taylor street</placeName>
+                     <!-- 2016-07-27: nll: The address associated with this just said 144, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred. -->
                      <geo>41.8675776,-87.6349918</geo>
                      <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>193 Adams</placeName>
@@ -495,11 +587,13 @@
                </org>
                <org xml:id="Loomis">
                   <orgName>Loomis Laundry</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>193 and 195 West Monroe street</placeName>
-                     <geo>41.8806514,-87.6358643</geo><!-- 2016-07-27: nll: This is 193 West Monroe Street. -->
-                     <geo>41.8806507,-87.6359031</geo><!-- 2016-07-27: nll: This is 195 West Monroe Street. -->
+                     <geo>41.8806514,-87.6358643</geo>
+                     <!-- 2016-07-27: nll: This is 193 West Monroe Street. -->
+                     <geo>41.8806507,-87.6359031</geo>
+                     <!-- 2016-07-27: nll: This is 195 West Monroe Street. -->
                      <!-- 2016-07-27: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>206 W. Monroe</placeName>
                      <geo>41.8806412,-87.6364917</geo>
@@ -508,8 +602,9 @@
                   <note/>
                </org>
                <org xml:id="Lorimer">
-                  <orgName><persName>Dr. Lorimer</persName>'s</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
-                  <desc></desc>
+                  <orgName><persName>Dr. Lorimer</persName>'s</orgName>
+                  <!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <desc/>
                   <location>
                      <placeName>5 Wabash Avenue</placeName>
                      <geo>41.8818676,-87.627907</geo>
@@ -519,9 +614,10 @@
                </org>
                <org xml:id="Ludden">
                   <orgName>Ludden's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName>122 Market street</placeName><!-- 2016-07-27: nll: Again, Market Street is now Wacker Drive, so I imput 122 Waker Drive instead. Same for the address below. -->
+                     <placeName>122 Market street</placeName>
+                     <!-- 2016-07-27: nll: Again, Market Street is now Wacker Drive, so I imput 122 Waker Drive instead. Same for the address below. -->
                      <geo>41.8791014,-87.6359691</geo>
                      <!-- 2016-07-17: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is different than the address given in the article -->
                      <placeName>124 Market Street</placeName>
@@ -532,9 +628,8 @@
                </org>
                <org xml:id="MarshF">
                   <orgName>Marshall Field's</orgName>
-                  <desc>
-                     Marshall Field, Lorenzo G. Woodhouse, Harlow N. Higinbotham, Joseph N. Field, and John G. McWilliams
-                     retail store
+                  <desc> Marshall Field, Lorenzo G. Woodhouse, Harlow N. Higinbotham, Joseph N.
+                     Field, and John G. McWilliams retail store
                      <!-- 2016-11-25: nll: More info at: https://chicagology.com/business/marshall-field/ -->
                   </desc>
                   <!-- 2016-11-26: nll: 
@@ -552,7 +647,7 @@
                </org>
                <org xml:id="Munger">
                   <orgName>Munger Laundry</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>520 West Madison street</placeName>
                      <geo>41.8818556,-87.6435204</geo>
@@ -560,10 +655,10 @@
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
-               
+
                <org xml:id="NRJC">
                   <orgName>Never-Rip Jersey Company</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>133 West Washington street</placeName>
                      <geo>41.8832187,-87.6342033</geo>
@@ -575,36 +670,41 @@
                   <note/>
                </org>
                <org xml:id="Newman">
-                  <orgName>Newman's</orgName><!-- 2016-07-27: nll: There are several address for this many different Newman's from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. I will research this later and see what I can do. -->
-                  <desc></desc>
+                  <orgName>Newman's</orgName>
+                  <!-- 2016-07-27: nll: There are several address for this many different Newman's from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. I will research this later and see what I can do. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Oleson">
                   <orgName><persName>K.B. Oleson</persName>'s Trouser Manufactory</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>Sedgwick street near Division and Superior</placeName>
-                     <geo>41.8955733,-87.6404714</geo><!-- 2016-07-27: nll: This is on the corner of Sedgwick and Superior. -->
+                     <geo>41.8955733,-87.6404714</geo>
+                     <!-- 2016-07-27: nll: This is on the corner of Sedgwick and Superior. -->
                   </location>
                   <bibl corresp="#CT011 #CT021"/>
-                  <note resp="#ras">A spelling error is printed in article CT011: the company is misspelled as "Olson"</note>
+                  <note resp="#ras">A spelling error is printed in article CT011: the company is
+                     misspelled as "Olson"</note>
                </org>
                <org xml:id="Olsen">
                   <orgName>Olsen's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
-                  <note resp="#ras">In article CT014, this company is only briefly mentioned in a list, and it is possible this is misspelled; it might be the same company as "#Oleson" in articles CT011 and CT021.</note>
+                  <note resp="#ras">In article CT014, this company is only briefly mentioned in a
+                     list, and it is possible this is misspelled; it might be the same company as
+                     "#Oleson" in articles CT011 and CT021.</note>
                </org>
                <org xml:id="OrienLaun">
                   <orgName>Oriental laundry</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>West Madison street</placeName>
                   </location>
@@ -612,8 +712,9 @@
                   <note/>
                </org>
                <org xml:id="Pardridge">
-                  <orgName>Pardridge store</orgName><!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
-                  <desc></desc>
+                  <orgName>Pardridge store</orgName>
+                  <!-- 2016-07-27: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. -->
+                  <desc/>
                   <location>
                      <placeName>118 State Street. Next to the Boston store.</placeName>
                      <geo>41.8840007,-87.6289711</geo>
@@ -622,8 +723,9 @@
                   <note/>
                </org>
                <org xml:id="PDArmour">
-                  <orgName>P.D. Armour's Packing-House</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. It also states that there is more of the company at the stockyards...pg 127 under Armour & Co. -->
-                  <desc></desc>
+                  <orgName>P.D. Armour's Packing-House</orgName>
+                  <!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. It also states that there is more of the company at the stockyards...pg 127 under Armour & Co. -->
+                  <desc/>
                   <location>
                      <placeName>205 Lasalle</placeName>
                      <geo>41.8854352,-87.6321394</geo>
@@ -632,29 +734,36 @@
                   <note/>
                </org>
                <org xml:id="PPcar">
-                  <orgName>Pullman Palace Car</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 371. -->
-                  <desc></desc>
+                  <orgName>Pullman Palace Car</orgName>
+                  <!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 371. -->
+                  <desc/>
                   <location>
-                     <placeName>201 Pullman Building; Corner of Adams and Michigan</placeName><!-- 2016-07-28: nll: My knowledge of the Pullman building being on the corner of Adams and Michigan is from the source that's in the note @corresp below. -->
+                     <placeName>201 Pullman Building; Corner of Adams and Michigan</placeName>
+                     <!-- 2016-07-28: nll: My knowledge of the Pullman building being on the corner of Adams and Michigan is from the source that's in the note @corresp below. -->
                      <geo>41.879539, -87.624527</geo>
                   </location>
                   <bibl corresp="#CT021"/>
-                  <note resp="#nll" corresp="http://www.pullman-museum.org/theCompany/pullmanBuilding.html"/>
+                  <note resp="#nll"
+                     corresp="http://www.pullman-museum.org/theCompany/pullmanBuilding.html"/>
                </org>
                <org xml:id="ProhibParty">
-                  <orgName>Prohibition Party</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. It is actually the address for the Prohibition State and County Headquarters. The geo coordinate references this placeName. pg 370. -->
-                  <desc></desc>
+                  <orgName>Prohibition Party</orgName>
+                  <!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. It is actually the address for the Prohibition State and County Headquarters. The geo coordinate references this placeName. pg 370. -->
+                  <desc/>
                   <location>
                      <placeName>20, 95 Dearborn</placeName>
-                     <geo>41.881777,-87.6316006</geo><!-- 2016-07-28: nll: geo for 20 Dearborn. -->
-                     <geo>41.8808249,-87.6315744</geo><!-- 2016-07-28: nll: geo for 95 Dearborn. -->
+                     <geo>41.881777,-87.6316006</geo>
+                     <!-- 2016-07-28: nll: geo for 20 Dearborn. -->
+                     <geo>41.8808249,-87.6315744</geo>
+                     <!-- 2016-07-28: nll: geo for 95 Dearborn. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Rosenthal">
-                  <orgName>Rosenthal &amp; Company's</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 385. -->
-                  <desc></desc>
+                  <orgName>Rosenthal &amp; Company's</orgName>
+                  <!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 385. -->
+                  <desc/>
                   <location>
                      <placeName>131 Wabash Avenue</placeName>
                      <geo>41.8841778,-87.6284225</geo>
@@ -662,30 +771,34 @@
                   <bibl corresp="#CT001"/>
                   <note/>
                </org>
-               
+
                <org xml:id="Rosenberg">
-                  <orgName>Rosenberg Brothers'</orgName><!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The address is actually for Rosenberg Morris, tailor. I picked this one because in regards to the article it's in, it has to be relatively close to Rosenthal and Co., which is also on Wabash Avenue. The geo coordinate references this placeName. pg 384. -->
-                  <desc></desc>
+                  <orgName>Rosenberg Brothers'</orgName>
+                  <!-- 2016-07-28: nll: This address is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The address is actually for Rosenberg Morris, tailor. I picked this one because in regards to the article it's in, it has to be relatively close to Rosenthal and Co., which is also on Wabash Avenue. The geo coordinate references this placeName. pg 384. -->
+                  <desc/>
                   <location>
                      <placeName>1618 Wabash Avenue</placeName>
-                     <geo>41.8837295,-87.6288125</geo><!-- 2016-07-28: nll: This is the coordinate for 1618 N Wabash Avenue, which is on the same block as Rosenthal and Co. -->
+                     <geo>41.8837295,-87.6288125</geo>
+                     <!-- 2016-07-28: nll: This is the coordinate for 1618 N Wabash Avenue, which is on the same block as Rosenthal and Co. -->
                   </location>
                   <bibl corresp="#CT001"/>
                   <note/>
                </org>
                <org xml:id="SN">
                   <orgName><persName>S. Nelson</persName>'s Custom Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
-                     <placeName>the southwest corner of Wesson and Hobbie streets on the North side</placeName>
+                     <placeName>the southwest corner of Wesson and Hobbie streets on the North
+                        side</placeName>
                      <geo>41.901466, -87.642200</geo>
                   </location>
                   <bibl corresp="#CT021"/>
                   <note/>
                </org>
                <org xml:id="Schlessinger">
-                  <orgName>Schlessingers'</orgName><!-- 2016-07-28: nll: I believe the correct spelling for this is 'SCHLESINGER'S' because it's how it's spelled in the headline and also in the following source. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
-                  <desc></desc>
+                  <orgName>Schlessingers'</orgName>
+                  <!-- 2016-07-28: nll: I believe the correct spelling for this is 'SCHLESINGER'S' because it's how it's spelled in the headline and also in the following source. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
+                  <desc/>
                   <location>
                      <placeName>1187 Milwaukee avenue</placeName>
                      <geo>41.9032128,-87.6684181</geo>
@@ -694,8 +807,9 @@
                   <note/>
                </org>
                <org xml:id="Schmall">
-                  <orgName>Schmallen's</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
-                  <desc></desc>
+                  <orgName>Schmallen's</orgName>
+                  <!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 395. -->
+                  <desc/>
                   <location>
                      <placeName>138 Mohawk street</placeName>
                      <geo>41.9047765,-87.6483418</geo>
@@ -705,7 +819,7 @@
                </org>
                <org xml:id="Schmidt">
                   <orgName>Schmidt's slop-shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>314 Cleveland avenue</placeName>
                      <geo>41.9128422,-87.6432714</geo>
@@ -717,8 +831,9 @@
                   <note/>
                </org>
                <org xml:id="SecPresb">
-                  <orgName>Second Presbyterian</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. The geo coordinate references this placeName. -->
-                  <desc></desc>
+                  <orgName>Second Presbyterian</orgName>
+                  <!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. The geo coordinate references this placeName. -->
+                  <desc/>
                   <location>
                      <placeName>1936 S Michigan Ave</placeName>
                      <geo>41.8557335,-87.6265575</geo>
@@ -731,28 +846,34 @@
                   <desc>blank-book establishment</desc>
                   <location>
                      <placeName>216 to 234 East Van Buren street</placeName>
-                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 216 East Van Buren Street. -->
-                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 234 East Van Buren Street. -->
+                     <geo>41.8770087,-87.6265739</geo>
+                     <!-- 2016-07-28: nll: geo for 216 East Van Buren Street. -->
+                     <geo>41.8770087,-87.6265739</geo>
+                     <!-- 2016-07-28: nll: geo for 234 East Van Buren Street. -->
                      <!-- 2016-07-28: nll: The address below is from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. This is slightly different than the address given in the article. pg 411. Ironically these are all the same coordinates. -->
                      <placeName>222 to 234 Vanburen</placeName>
-                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 222 Vanburen Street. -->
-                     <geo>41.8770087,-87.6265739</geo><!-- 2016-07-28: nll: geo for 234 Vanburen Street. -->
+                     <geo>41.8770087,-87.6265739</geo>
+                     <!-- 2016-07-28: nll: geo for 222 Vanburen Street. -->
+                     <geo>41.8770087,-87.6265739</geo>
+                     <!-- 2016-07-28: nll: geo for 234 Vanburen Street. -->
                   </location>
                   <bibl corresp="#CT012"/>
                   <note/>
                </org>
                <org xml:id="Siam">
-                  <orgName>Siam's Twins</orgName><!-- 2016-07-28: nll: Siam's Twins is not in Chicago, so I'm going to wait to do this one. -->
-                  <desc></desc>
+                  <orgName>Siam's Twins</orgName>
+                  <!-- 2016-07-28: nll: Siam's Twins is not in Chicago, so I'm going to wait to do this one. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT029"/>
-                  <note>Mentioned in article when Judge Horton is quoting Judge Arington's poem.</note>
+                  <note>Mentioned in article when Judge Horton is quoting Judge Arington's
+                     poem.</note>
                </org>
                <org xml:id="Singer">
                   <orgName>A. L. Singer &amp; Company's</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>178 Market street</placeName>
                      <geo>41.886945,-87.6356143</geo>
@@ -764,8 +885,9 @@
                   <note/>
                </org>
                <org xml:id="SpitLand">
-                  <orgName>Messrs. Spitz, Landaner &amp; Company</orgName><!-- 2016-07-28: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I have esitmated and will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 414. -->
-                  <desc></desc>
+                  <orgName>Messrs. Spitz, Landaner &amp; Company</orgName>
+                  <!-- 2016-07-28: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I have esitmated and will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the business directory of Chicago for 1888. The geo coordinate references this placeName. pg 414. -->
+                  <desc/>
                   <location>
                      <placeName>152 Market Street</placeName>
                      <geo>41.8869482,-87.6349287</geo>
@@ -774,39 +896,46 @@
                   <note/>
                </org>
                <org xml:id="StJohn">
-                  <orgName>St. John's</orgName><!-- 2016-07-28: nll: I need to do some more extensive research on St. John's, so I'm going to wait to do this one. -->
-                  <desc></desc>
+                  <orgName>St. John's</orgName>
+                  <!-- 2016-07-28: nll: I need to do some more extensive research on St. John's, so I'm going to wait to do this one. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="StLuke">
-                  <orgName>St. Luke Boarding-House</orgName><!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. It says St. Luke's Free Hospital here. The geo coordinate references this placeName. pg. 389. -->
-                  <desc></desc>
+                  <orgName>St. Luke Boarding-House</orgName>
+                  <!-- 2016-07-28: nll: This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. It says St. Luke's Free Hospital here. The geo coordinate references this placeName. pg. 389. -->
+                  <desc/>
                   <location>
-                     <placeName>Illinois street</placeName><!-- 2016-07-28: nll: Illinois street is right above the where the river divides, but Indiana avenue is clear down in the south of the city. There is, however, an illinois avenue that is also south...I'm going with avenue below because that is what it is in the above reference. -->
+                     <placeName>Illinois street</placeName>
+                     <!-- 2016-07-28: nll: Illinois street is right above the where the river divides, but Indiana avenue is clear down in the south of the city. There is, however, an illinois avenue that is also south...I'm going with avenue below because that is what it is in the above reference. -->
                      <placeName>1420 to 1434 Indiana Avenue</placeName>
-                     <geo>41.6649188,-87.6196422</geo><!-- 2016-07-28: nll: geo for 1420 Indiana Avenue. -->
-                     <geo>41.6649188,-87.6196422</geo><!-- 2016-07-28: nll: geo for 1434 Indiana Avenue. -->
+                     <geo>41.6649188,-87.6196422</geo>
+                     <!-- 2016-07-28: nll: geo for 1420 Indiana Avenue. -->
+                     <geo>41.6649188,-87.6196422</geo>
+                     <!-- 2016-07-28: nll: geo for 1434 Indiana Avenue. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Stein">
-                  <orgName><persName>Julius Stein</persName> &amp; Company</orgName><!-- 2016-07-29: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. I could go more indepth with the street number. The geo coordinate references this placeName. pg. 417. -->
-                  <desc></desc>
+                  <orgName><persName>Julius Stein</persName> &amp; Company</orgName>
+                  <!-- 2016-07-29: nll: I'm not really sure where this would be located now that the street name has changed to Wacker Drive. I will come back and research more about this later. This address is verified from the site in the ILiADS issue on GitHub, which is the actual website for the church that is in the same place as it was in 1888. I could go more indepth with the street number. The geo coordinate references this placeName. pg. 417. -->
+                  <desc/>
                   <location>
                      <placeName>166 Market street</placeName>
-                     <geo></geo>
+                     
                   </location>
                   <bibl corresp="#CT001 #CT003 #CT006 #CT011 #CT014"/>
                   <note/>
                </org>
                <org xml:id="Swing">
                   <orgName>Prof. Swing's</orgName>
-                  <desc>Head of a church, name unknown.</desc><!-- 2016-08-18: nll: I believe I found his name!! I think it's David Swing! More info in the ILiADS issue! I also found that the last place he worked at was the Central Church in Chicago, which he founded. below is the address of Central Church.  -->
+                  <desc>Head of a church, name unknown.</desc>
+                  <!-- 2016-08-18: nll: I believe I found his name!! I think it's David Swing! More info in the ILiADS issue! I also found that the last place he worked at was the Central Church in Chicago, which he founded. below is the address of Central Church.  -->
                   <location>
                      <placeName>16 S Michigan Ave</placeName>
                      <geo>41.8815706,-87.6266452</geo>
@@ -816,7 +945,7 @@
                </org>
                <org xml:id="TailorShop1">
                   <orgName>A Tailor's Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>the corner of Elm and Wesson streets</placeName>
                      <geo>41.902665, -87.642191</geo>
@@ -826,7 +955,7 @@
                </org>
                <org xml:id="TailorShop2">
                   <orgName>A Tailor's Shop</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>441 Taylor street</placeName>
                      <geo>41.8697732,-87.6424877</geo>
@@ -842,21 +971,25 @@
                      <geo>41.8690329,-87.6328073</geo>
                   </location>
                   <bibl corresp="#CT012"/>
-                  <note>The address associated with this just said 196, but was following a company being exposed on West Taylor street; therefore, the street name associated here was inferred.</note>
+                  <note>The address associated with this just said 196, but was following a company
+                     being exposed on West Taylor street; therefore, the street name associated here
+                     was inferred.</note>
                </org>
                <org xml:id="VestMaker1">
                   <orgName>A Vestmaker's Place</orgName>
-                  <desc></desc>
+                  <desc/>
                   <location>
                      <placeName>2155 Archer avenue</placeName>
-                     <geo>41.8532627,-87.6362097</geo><!-- RJP:2016-07-26: needs verified -->
+                     <geo>41.8532627,-87.6362097</geo>
+                     <!-- RJP:2016-07-26: needs verified -->
                   </location>
                   <bibl corresp="#CT004"/>
                   <note/>
                </org>
                <org xml:id="WCTU">
-                  <orgName>Woman's Christian Temperance Union</orgName><!-- 2016-08-18: nll: More info on where is was in in the ILiADS issue! -->
-                  <desc></desc>
+                  <orgName>Woman's Christian Temperance Union</orgName>
+                  <!-- 2016-08-18: nll: More info on where is was in in the ILiADS issue! -->
+                  <desc/>
                   <location>
                      <placeName>SW Corner of Monroe and LaSale</placeName>
                      <geo>41.880606, -87.632417</geo>
@@ -865,20 +998,19 @@
                   <note/>
                </org>
                <org xml:id="WDbros">
-                  <orgName>W.D. Brothers' Cravat Department</orgName><!-- 2016-08-18: nll: I cannot find W.D. Brothers anywhere..I'll try to keep doing research on them, but it'll have to wait until I'm finished finding coordinates for the rest! -->
-                  <desc></desc>
+                  <orgName>W.D. Brothers' Cravat Department</orgName>
+                  <!-- 2016-08-18: nll: I cannot find W.D. Brothers anywhere..I'll try to keep doing research on them, but it'll have to wait until I'm finished finding coordinates for the rest! -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT006"/>
                   <note/>
                </org>
                <org xml:id="WLMC">
                   <orgName>Western Lace Manufacturing Company</orgName>
-                  <desc>
-                     President: Nathaniel H. White
-                     Secretary: S. Ford
-                  </desc><!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 451. -->
+                  <desc> President: Nathaniel H. White Secretary: S. Ford </desc>
+                  <!-- 2016-11-26: nll: Found the pres and sec on site in the ILiADS issue on GitHub, pg. 451. -->
                   <location>
                      <placeName>218 State street</placeName>
                      <geo>41.8790401,-87.6303505</geo>
@@ -887,58 +1019,68 @@
                   <note/>
                </org>
                <org xml:id="WNL">
-                  <orgName>Woman's National League</orgName><!-- 2016-08-18: nll: I can't find anything at the moment, but I'll look later. -->
-                  <desc></desc>
+                  <orgName>Woman's National League</orgName>
+                  <!-- 2016-08-18: nll: I can't find anything at the moment, but I'll look later. -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="WPA">
-                  <orgName>Women's Protective Agency</orgName><!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
-                  <desc></desc>
+                  <orgName>Women's Protective Agency</orgName>
+                  <!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT001 #CT002"/>
                   <note/>
                </org>
                <org xml:id="WSuff">
-                  <orgName>Woman's Suffrage</orgName><!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
-                  <desc></desc>
+                  <orgName>Woman's Suffrage</orgName>
+                  <!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="WandW">
-                  <orgName>Wheeler &amp; Wilson</orgName><!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 452. I'm just not sure if it was on North or South Wabash Avenue..But after looking at the old map, I believe it is the north!! -->
+                  <orgName>Wheeler &amp; Wilson</orgName>
+                  <!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 452. I'm just not sure if it was on North or South Wabash Avenue..But after looking at the old map, I believe it is the north!! -->
                   <desc>sewing machines, manager: John L. Flannery</desc>
                   <location>
                      <placeName>185 Wabash Avenue</placeName>
-                     <geo>41.8854537,-87.6282187</geo><!-- 2016-08-18: nll: This is is the geo corrdinates for 185 North Wabash Avenue. -->
-                     <!--<geo>41.8797242,-87.628319</geo>--><!-- 2016-08-18: nll: This is is the geo corrdinates for 185 South Wabash Avenue. -->
+                     <geo>41.8854537,-87.6282187</geo>
+                     <!-- 2016-08-18: nll: This is is the geo corrdinates for 185 North Wabash Avenue. -->
+                     <!--<geo>41.8797242,-87.628319</geo>-->
+                     <!-- 2016-08-18: nll: This is is the geo corrdinates for 185 South Wabash Avenue. -->
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Wetherell">
-                  <orgName>Wetherell's</orgName><!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 452. -->
+                  <orgName>Wetherell's</orgName>
+                  <!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 452. -->
                   <desc>cloaks</desc>
                   <location>
-                     <placeName>185 Wabash avenue</placeName><!-- 2016-08-18: nll: This must be right beside Wheeler & Wilson!!! -->
+                     <placeName>185 Wabash avenue</placeName>
+                     <!-- 2016-08-18: nll: This must be right beside Wheeler & Wilson!!! -->
                      <geo>41.8854537,-87.6282187</geo>
                   </location>
                   <bibl corresp="#CT002"/>
                   <note/>
                </org>
                <org xml:id="Willong">
-                  <orgName>Willonghby, Hill &amp; Co.</orgName><!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 457. However, it is spelled: Willoughby, Hill, & Co., there are also two locations listed.-->
+                  <orgName>Willonghby, Hill &amp; Co.</orgName>
+                  <!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 457. However, it is spelled: Willoughby, Hill, & Co., there are also two locations listed.-->
                   <desc>clothing, Charles L. Willoughby and David K. Hill</desc>
                   <location>
-                     <placeName>141 Clark</placeName><!-- 2016-08-18: nll: I believe this is the correct location that would be from the article. -->
+                     <placeName>141 Clark</placeName>
+                     <!-- 2016-08-18: nll: I believe this is the correct location that would be from the article. -->
                      <geo>41.8843558,-87.6331332</geo>
                      <placeName>240 Blue Island Avenue</placeName>
                      <geo>41.855165,-87.6712255</geo>
@@ -947,44 +1089,50 @@
                   <note/>
                </org>
                <org xml:id="WoChrist">
-                  <orgName>Woman's Christian Boarding-House</orgName><!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
-                  <desc></desc>
+                  <orgName>Woman's Christian Boarding-House</orgName>
+                  <!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="WoCo">
-                  <orgName>Women's Council</orgName><!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
-                  <desc></desc>
+                  <orgName>Women's Council</orgName>
+                  <!-- 2016-08-18: nll: Again, I can't find anything at the moment, but I'll look later. All of these Women's agency's will take some time to research! -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="WoEx">
-                  <orgName></orgName><!-- 2016-08-18: nll: What is this??? -->
-                  <desc></desc>
+                  <orgName/>
+                  <!-- 2016-08-18: nll: What is this??? -->
+                  <desc/>
                   <location>
-                     <placeName></placeName>
+                     <placeName/>
                   </location>
                   <bibl corresp="#CT014"/>
                   <note/>
                </org>
                <org xml:id="Zimmerman">
-                  <orgName><persName>H. Zimmerman</persName>'s Cloak Factory</orgName><!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 465. However, it is spelled: Zimmerman H. & Co., there are also two locations listed.-->
+                  <orgName><persName>H. Zimmerman</persName>'s Cloak Factory</orgName>
+                  <!-- 2016-08-18: nll: This address is verified from the site in the ILiADS issue on GitHub, pg. 465. However, it is spelled: Zimmerman H. & Co., there are also two locations listed.-->
                   <desc>cloaks, Harold Zimmerman and Charles H. Bloch</desc>
                   <location>
                      <placeName>233 Monroe street</placeName>
-                     <geo>41.8815489,-87.6275128</geo><!-- 2016-08-18: nll: This is super close to where the water would have been in 1888, but it's possible that it's the building on the cool map. I'll do some more digging later! -->
+                     <geo>41.8815489,-87.6275128</geo>
+                     <!-- 2016-08-18: nll: This is super close to where the water would have been in 1888, but it's possible that it's the building on the cool map. I'll do some more digging later! -->
                   </location>
                   <bibl corresp="#CT005 #CT014"/>
-                  <note><persName>H. Zimmerman</persName> is also referred to as "the good jew".</note>
+                  <note><persName>H. Zimmerman</persName> is also referred to as "the good
+                     jew".</note>
                </org>
                <!-- ADD MORE AS ARTICLES GET CODED, AND ORGANIZATIONS GET ASSIGNED XML:IDs. USE THE FOLLOWING TEMPLATE: -->
-                  <!--<org xml:id="">
+               <!--<org xml:id="">
                      <orgName></orgName>
                      <trait></trait>
                      <bibl corresp=""/>
@@ -992,7 +1140,7 @@
                   </org>-->
             </listOrg>
          </div>
-         
+
          <div type="sources">
             <listBibl type="CTarticles">
                <bibl xml:id="CT">
@@ -1000,12 +1148,16 @@
                   <editor>Chapin, Charles</editor>
                   <edition>Newspaper Print</edition>
                   <publisher>West, James J.</publisher>
-                  <pubPlace>Northwest corner of Fifth Avenue and Washington Street, Chicago, Illinois</pubPlace>
+                  <pubPlace>Northwest corner of Fifth Avenue and Washington Street, Chicago,
+                     Illinois</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1020,10 +1172,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1038,10 +1193,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1056,10 +1214,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1067,7 +1228,6 @@
                <bibl xml:id="CT004">
                   <title level="a">"City Slave Girls" <date when="1888-08-02"/></title>
                   <title level="s">Chicago Times</title>
-                  
                   <author>Nell Nelson</author>
                   <editor>Chapin, Charles</editor>
                   <edition>Newspaper Print</edition>
@@ -1075,10 +1235,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1093,10 +1256,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1117,10 +1283,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1135,10 +1304,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1153,10 +1325,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1171,10 +1346,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1189,10 +1367,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1207,10 +1388,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1225,10 +1409,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1243,10 +1430,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Butcher Shops and Canned Meat Factories</note>
@@ -1261,10 +1451,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1279,10 +1472,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1297,10 +1493,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1315,10 +1514,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1333,10 +1535,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1357,10 +1562,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1375,10 +1583,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">J. McGregor Adams and "Prominent Men" Commentary</note>
@@ -1393,10 +1604,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Charles L. Hutchinson Commentary</note>
@@ -1411,10 +1625,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Dr. Charles Gilman Smith Commentary</note>
@@ -1429,13 +1646,17 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
-                  <note resp="#rjp">Firm of <orgName ref="#MarshF">Marshall Field</orgName> Commentary</note>
+                  <note resp="#rjp">Firm of <orgName ref="#MarshF">Marshall Field</orgName>
+                     Commentary</note>
                </bibl>
                <bibl xml:id="CT026">
                   <title level="a">"City Slave Girls" <date when="1888-08-26"/></title>
@@ -1447,10 +1668,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1465,10 +1689,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note/>
@@ -1483,10 +1710,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Milton George and Charles H. Ham Commentary</note>
@@ -1501,10 +1731,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Judge O.H. Horton Commentary</note>
@@ -1519,10 +1752,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Col. Abner Taylor Commentary</note>
@@ -1537,10 +1773,13 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">Lyman J. Cage Commentary</note>
@@ -1555,16 +1794,19 @@
                   <publisher>Chicago Times</publisher>
                   <pubPlace>Chicago</pubPlace>
                   <date>1888</date>
-                  <publisher>New York University Digital Library Technology Services (DLTS)</publisher>
+                  <publisher>New York University Digital Library Technology Services
+                     (DLTS)</publisher>
                   <availability>
                      <p>
-                        <ref target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world">www.dlib.nyu.edu</ref>
+                        <ref
+                           target="http://dlib.nyu.edu/undercover/city-slave-girls-nell-nelson-chicago-times-aka-white-slave-girls-new-york-world"
+                           >www.dlib.nyu.edu</ref>
                      </p>
                   </availability>
                   <note resp="#rjp">George M. Sloan Commentary</note>
                </bibl>
             </listBibl>
-            
+
             <listBibl type="Barkley">
                <bibl xml:id="WSGC01">
                   <title level="m">The White Slave Girls of Chicago</title>
@@ -1621,11 +1863,11 @@
                   <author>NELSON, Nell [pseud.]</author>
                   <note resp="#rjp"><bibl corresp="#CTOO7"/></note>
                </bibl>
-            <bibl xml:id="WSGC12">
-               <title level="m">The White Slave Girls of Chicago</title>
-               <author>NELSON, Nell [pseud.]</author>
-               <note resp="#rjp"><bibl corresp="#CTOO9"/></note>
-            </bibl>
+               <bibl xml:id="WSGC12">
+                  <title level="m">The White Slave Girls of Chicago</title>
+                  <author>NELSON, Nell [pseud.]</author>
+                  <note resp="#rjp"><bibl corresp="#CTOO9"/></note>
+               </bibl>
                <bibl xml:id="WSGC13">
                   <title level="m">The White Slave Girls of Chicago</title>
                   <author>NELSON, Nell [pseud.]</author>
@@ -1682,7 +1924,7 @@
                   <note resp="#rjp"><bibl corresp="#CTO21"/></note>
                </bibl>
             </listBibl>
-            
+
             <!--<listBibl type="McEnnis">
                <bibl>
                   
@@ -1691,19 +1933,36 @@
             </listBibl>-->
             <!--NEED TO ADD ALL THE CHAPTERS FOR THE MCENNIS TEXT!!!-->
          </div>
-         
+
          <div type="cannonicalRef">
             <listNym>
                <nym xml:id="nellNelson">
                   <re>Nell Nelson</re>
-                  <p>Nell Nelson: Helen Cusack-Carvalho used the pseudonym Nell Nelson when she wrote the "City Slave Girls" series in 1888. She was employed by <emph>The Chicago Times</emph> and then later, following the success of her series in Chicago, hired by New York's <emph>The World</emph>. The biographical information on Helen Cusack-Carvalho is considerably illusive and currently anything remotely close to a complete biography of her is nonexistent. The primary source of biographical information comes from a journal article by Eric W. Liguori published in 2012. In this article, Liguori alludes that Helen was born into the middle-class and that her career as a journalist allowed for her to maintain this status. Liguori reports that Helen married above her social class to a man named Solomon Solis Carvalho in 1895. After marriage, Helen's journalism career ceased to exist and she lived the remainder of her life raising their two daughters. According to an obituary found in a 1945 <emph>New York Times</emph>' publication Helen died in New Jersey. The obituary lacks any special recognition of her investigative series despite the popularity and influential effects it had on the labor reforms of the late nineteenth century.</p>
+                  <p>Nell Nelson: Helen Cusack-Carvalho used the pseudonym Nell Nelson when she
+                     wrote the "City Slave Girls" series in 1888. She was employed by <emph>The
+                        Chicago Times</emph> and then later, following the success of her series in
+                     Chicago, hired by New York's <emph>The World</emph>. The biographical
+                     information on Helen Cusack-Carvalho is considerably illusive and currently
+                     anything remotely close to a complete biography of her is nonexistent. The
+                     primary source of biographical information comes from a journal article by Eric
+                     W. Liguori published in 2012. In this article, Liguori alludes that Helen was
+                     born into the middle-class and that her career as a journalist allowed for her
+                     to maintain this status. Liguori reports that Helen married above her social
+                     class to a man named Solomon Solis Carvalho in 1895. After marriage, Helen's
+                     journalism career ceased to exist and she lived the remainder of her life
+                     raising their two daughters. According to an obituary found in a 1945 <emph>New
+                        York Times</emph>' publication Helen died in New Jersey. The obituary lacks
+                     any special recognition of her investigative series despite the popularity and
+                     influential effects it had on the labor reforms of the late nineteenth
+                     century.</p>
                </nym>
                <nym xml:id="workingGirl">
                   <re>City Slave Girl</re>
                </nym>
                <nym xml:id="foreperson">
                   <re>Foreperson</re>
-                  <p>Reference to any employee that is either recognized as a foreperson directly in the text or given rank over other employees in some way.</p>
+                  <p>Reference to any employee that is either recognized as a foreperson directly in
+                     the text or given rank over other employees in some way.</p>
                </nym>
                <nym xml:id="employer">
                   <re>Employer</re>
@@ -1715,35 +1974,45 @@
                </nym>
                <nym xml:id="benefactor">
                   <re>The Benefactor</re>
-                  <p>Reference to a specific archetype found in article <ref corresp="#CT004">1888-08-02</ref>.</p>
+                  <p>Reference to a specific archetype found in article <ref corresp="#CT004"
+                        >1888-08-02</ref>.</p>
                </nym>
                <nym xml:id="messenger">
                   <re>Messenger</re>
-                  <p>Reference to an otherwise unlabeled character that speaks on the behalf of another person (typically family tie speaking on behalf of an employee/working girl).</p>
+                  <p>Reference to an otherwise unlabeled character that speaks on the behalf of
+                     another person (typically family tie speaking on behalf of an employee/working
+                     girl).</p>
                </nym>
                <nym xml:id="unidentified">
                   <re>Unidentified</re>
-                  <p>Identifier used when context is unclear for who/the archetype that is being referenced.</p>
+                  <p>Identifier used when context is unclear for who/the archetype that is being
+                     referenced.</p>
                </nym>
                <nym xml:id="promMen">
                   <re>Prominent Man</re>
-                  <p>Reference to a man that is either alluded to or directly referred to as a prominent Chicago figure.</p>
+                  <p>Reference to a man that is either alluded to or directly referred to as a
+                     prominent Chicago figure.</p>
                </nym>
                <nym xml:id="promWomen">
                   <re>Prominent Woman</re>
-                  <p>Reference to a woman that is either alluded to or directly referred to as a prominent Chicago figure.</p>
+                  <p>Reference to a woman that is either alluded to or directly referred to as a
+                     prominent Chicago figure.</p>
                </nym>
                <nym xml:id="reporter">
                   <re>Reporter</re>
-                  <p>Identifier used when it is clear thar Nelson is not person responding in an investigation/interview, or if context for reported information is more generally unclear.</p>
+                  <p>Identifier used when it is clear thar Nelson is not person responding in an
+                     investigation/interview, or if context for reported information is more
+                     generally unclear.</p>
                </nym>
                <nym xml:id="inspector">
                   <re>Inspector</re>
-                  <p>Identifier used for <persName>George Bodgers</persName> of the health department (was present in <bibl corresp="#CT012">1888-08-10 article</bibl> undercover with a <name ref="#CT">Times</name> reporter).</p>
+                  <p>Identifier used for <persName>George Bodgers</persName> of the health
+                     department (was present in <bibl corresp="#CT012">1888-08-10 article</bibl>
+                     undercover with a <name ref="#CT">Times</name> reporter).</p>
                </nym>
                <!-- ALL OF THESE NEED DEVELOPED NOTES AND WE NEED TO FIGURE OUT WHAT ELEMENTS ALLOWED IN NYM MAKE SENSE TO DOCUMENT INFORMATION ABOUT EACH -->
             </listNym>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

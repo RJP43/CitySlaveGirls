@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+   <Document>
+
+      <Placemark>
+         <name>Joseph Beifeld &amp; Company</name>
+         <description>Jackets and Cloaks 
+ Alternate coordinates: 41.8690303,-87.633062</description>
+         <Point>
+            <coordinates>-87.6286052,41.8684174</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Benson's Shop</name>
+         <description>vest-maker</description>
+         <Point>
+            <coordinates>-87.6437283,41.9013873</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>The Board of Trade</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6336351,41.8776288</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Boston Store</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6308633,41.8821879</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Isaac Berliner's Shop</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6326467,41.8678563</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Brougham's Packing-House</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6259774,41.8782887</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Chicago Carpet Company</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6281002,41.8801988</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Chicago Operahouse</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6311137,41.882038</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>The Corn Exchange Bank</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6323018,41.8795956</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>A Cigar Factory</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6296869,41.8838534</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Cigar Factory of F. Garcia</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6333677,41.8822936</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Cooper &amp; Siegel's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6297068,41.8794052</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Doremus Laundry</name>
+         <description> 
+ Alternate coordinates: 41.8776642,-87.6692838</description>
+         <Point>
+            <coordinates>-87.6708261,41.8769304</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>E.A. Morris's Confectionery Shop</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6310996,41.8781348</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Excelsior Underwear Company</name>
+         <description> 
+ Alternate coordinates: 41.895284,-87.6268007</description>
+         <Point>
+            <coordinates>-87.6269127,41.895324</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Ellinger's Cloak Factory</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6368947,441.8819359</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Ettlinger's Printing-House and Bindery</name>
+         <description> 
+ Alternate coordinates: 41.8806578,-87.6355342</description>
+         <Point>
+            <coordinates>-87.6354784,41.8806589</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Girls' Friendly Society</name>
+         <description>Meetings and such held in St. Stephen's church, which is the address
+                     below.</description>
+         <Point>
+            <coordinates>-87.6527428,41.8914116</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>David Goldstein's</name>
+         <description>Prince Albert Coats 
+ Alternate coordinates: 41.8754612,-87.6494236</description>
+         <Point>
+            <coordinates>-87.6333215,41.8689892</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Grace Church</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6337443,41.8991596</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Messrs. Hart, Abt &amp; Marx</name>
+         <description>clothing manufacturer</description>
+         <Point>
+            <coordinates>-87.6390144,41.8769612</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>H. Schultz &amp; Company's Paper-Box Manufactory</name>
+         <description> Henry Schultz, C. F. Wolff, and Edward Schultz  
+ Alternate coordinates: 41.884505,-87.6286589</description>
+         <Point>
+            <coordinates>-87.6288119,41.8845061</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Huber's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6460282,41.9124436</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>John Morris company</name>
+         <description>Printers, binders, and lithographers 
+ Alternate coordinates: 41.8808123,-87.6338869</description>
+         <Point>
+            <coordinates>-87.6338911,41.8808884</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Kuh, Nathan &amp; Fischer</name>
+         <description>Coats 
+ Alternate coordinates: 41.8784813,-87.6374315</description>
+         <Point>
+            <coordinates>-87.637433,41.8785435</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Knute Nelson's Retail Tailor-Shop</name>
+         <description> 
+ Alternate coordinates: 41.8965215,-87.627216</description>
+         <Point>
+            <coordinates>-87.6305409,41.8966416</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>David Karasick's shop</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6488195,41.8663289</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Klein's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6416206,41.9127982</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>B. Kuppenheimer's Tailor-Shop</name>
+         <description> 
+ Alternate coordinates: 41.8750092,-87.6411797</description>
+         <Point>
+            <coordinates>-87.6414822,41.8704524</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Louis Lowenstein &amp; Company</name>
+         <description>Coats 
+ Alternate coordinates: 41.8794282,-87.6360107</description>
+         <Point>
+            <coordinates>-87.6349918,41.8675776</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Loomis Laundry</name>
+         <description> 
+ Alternate coordinates: 41.8806507,-87.6359031</description>
+         <Point>
+            <coordinates>-87.6358643,41.8806514</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Dr. Lorimer's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.627907,41.8818676</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Ludden's</name>
+         <description> 
+ Alternate coordinates: 41.8794269,-87.6391661</description>
+         <Point>
+            <coordinates>-87.6359691,41.8791014</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Marshall Field's</name>
+         <description> Marshall Field, Lorenzo G. Woodhouse, Harlow N. Higinbotham, Joseph N.
+                     Field, and John G. McWilliams retail store
+                     
+                   
+ Alternate coordinates: 41.8838946,-87.629753</description>
+         <Point>
+            <coordinates>-87.629753,41.8838946</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Munger Laundry</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6435204,41.8818556</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Never-Rip Jersey Company</name>
+         <description> 
+ Alternate coordinates: 41.8832183,-87.6341409</description>
+         <Point>
+            <coordinates>-87.6342033,41.8832187</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>K.B. Oleson's Trouser Manufactory</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6404714,41.8955733</coordinates>
+         </Point>
+      </Placemark>
+
+
+      <Placemark>
+         <name>Pardridge store</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6289711,41.8840007</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>P.D. Armour's Packing-House</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6321394,41.8854352</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Pullman Palace Car</name>
+         <description/>
+         <Point>
+            <coordinates> -87.624527,41.879539</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Prohibition Party</name>
+         <description> 
+ Alternate coordinates: 41.8808249,-87.6315744</description>
+         <Point>
+            <coordinates>-87.6316006,41.881777</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Rosenthal &amp; Company's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6284225,41.8841778</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Rosenberg Brothers'</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6288125,41.8837295</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>S. Nelson's Custom Shop</name>
+         <description/>
+         <Point>
+            <coordinates> -87.642200,41.901466</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Schlessingers'</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6684181,41.9032128</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Schmallen's</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6483418,41.9047765</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Schmidt's slop-shop</name>
+         <description> 
+ Alternate coordinates: 41.9128422,-87.6432714</description>
+         <Point>
+            <coordinates>-87.6432714,41.9128422</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Second Presbyterian</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6265575,41.8557335</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Shea Smith &amp; Company</name>
+         <description>blank-book establishment 
+ Alternate coordinates: 41.8770087,-87.6265739</description>
+         <Point>
+            <coordinates>-87.6265739,41.8770087</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>A. L. Singer &amp; Company's</name>
+         <description> 
+ Alternate coordinates: 41.8869461,-87.6342603</description>
+         <Point>
+            <coordinates>-87.6356143,41.886945</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Messrs. Spitz, Landaner &amp; Company</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6349287,41.8869482</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>St. Luke Boarding-House</name>
+         <description> 
+ Alternate coordinates: 41.6649188,-87.6196422</description>
+         <Point>
+            <coordinates>-87.6196422,41.6649188</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Prof. Swing's</name>
+         <description>Head of a church, name unknown.</description>
+         <Point>
+            <coordinates>-87.6266452,41.8815706</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>A Tailor's Shop</name>
+         <description/>
+         <Point>
+            <coordinates> -87.642191,41.902665</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>A Tailor's Shop</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6424877,41.8697732</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>A Tailor's Shop</name>
+         <description>Prince Albert coats</description>
+         <Point>
+            <coordinates>-87.6328073,41.8690329</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>A Vestmaker's Place</name>
+         <description/>
+         <Point>
+            <coordinates>-87.6362097,41.8532627</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Woman's Christian Temperance Union</name>
+         <description/>
+         <Point>
+            <coordinates> -87.632417,41.880606</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Western Lace Manufacturing Company</name>
+         <description> President: Nathaniel H. White Secretary: S. Ford </description>
+         <Point>
+            <coordinates>-87.6303505,41.8790401</coordinates>
+         </Point>
+      </Placemark>
+
+
+
+      <Placemark>
+         <name>Wheeler &amp; Wilson</name>
+         <description>sewing machines, manager: John L. Flannery</description>
+         <Point>
+            <coordinates>-87.6282187,41.8854537</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Wetherell's</name>
+         <description>cloaks</description>
+         <Point>
+            <coordinates>-87.6282187,41.8854537</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Willonghby, Hill &amp; Co.</name>
+         <description>clothing, Charles L. Willoughby and David K. Hill 
+ Alternate coordinates: 41.855165,-87.6712255</description>
+         <Point>
+            <coordinates>-87.6331332,41.8843558</coordinates>
+         </Point>
+      </Placemark>
+
+
+
+      <Placemark>
+         <name>H. Zimmerman's Cloak Factory</name>
+         <description>cloaks, Harold Zimmerman and Charles H. Bloch</description>
+         <Point>
+            <coordinates>-87.6275128,41.8815489</coordinates>
+         </Point>
+      </Placemark>
+
+
+   </Document>
+</kml>
