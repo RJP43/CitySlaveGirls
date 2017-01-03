@@ -12,7 +12,7 @@
     <xsl:variable name="xAxisStart" select="30"/>
     <xsl:variable name="xAxisEnd" select="((12 + 1) * $Interval) - ($barWidth div 2)"/>
     <!-- ras: Legend Variables -->
-    <xsl:variable name="xLegend" select="$xAxisEnd + 30"/>
+    <xsl:variable name="xLegend" select="$xAxisEnd + 5"/>
     <xsl:variable name="yLegendStart" select="-300"/>
     <xsl:variable name="yLegendInterval" select="26"/>
     <xsl:variable name="legendFontSize" select="16"/>
@@ -34,7 +34,7 @@
                 <line x1="{$xAxisStart + $xSpacing}" y1="{$yAxisStart + .5}"
                     x2="{$xAxisEnd + $xSpacing}" y2="{$yAxisStart + .5}" stroke="black"
                     stroke-width="1"/>
-                <text x="{$xAxisStart}" y="{$yAxisStart + 50}">* These archetypes speak so little that the percentage values appear as zero even though they speak on rare occasion.</text>
+                <text x="{$xAxisStart}" y="{$yAxisStart + 50}">* indicates archetype speaks so little, in the series overall, that the percentage value appears as zero</text>
 
                 <!-- ras: Axis Labels -->
                 <text x="{$xAxisStart + $xSpacing - 40}" y="{($yAxisEnd + $yAxisStart) div 2}"
@@ -52,10 +52,9 @@
                 <!-- ras: Title -->
                 <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisEnd - 40}"
                     style="text-anchor: middle" font-size="18">Percent of Total Dialogue Spoken per
-                    Archetype of Speaker </text>
+                    Archetype</text>
                 <text x="{(($xAxisStart + $xAxisEnd) div 2) + $xSpacing}" y="{$yAxisEnd - 20}"
-                    style="text-anchor: middle" font-size="18">Throughout Collection of Chicago
-                    Times Articles</text>
+                    style="text-anchor: middle" font-size="18">Throughout Collection of Articles</text>
 
 
 
