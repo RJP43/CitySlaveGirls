@@ -1,10 +1,5 @@
 # The Restoration of Nell Nelson
 
-## Primary Sources: 
-### Chicago Times - 1888 - Nell Nelson
-### White Slave Girls of America - 1888 - McEnnis
-### Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication  
-
 If you are new to the project please refer to our [Project Basics Wiki](https://github.com/RJP43/CitySlaveGirls/wiki/Project-Basics)!   
 
 This is a public work space for experimenting with the coding and digitization of the "City Slave Girls" series printed in the _Chicago Times_, 1888.  
@@ -21,5 +16,10 @@ After the original newspaper publication there were two books published within t
     3. Biographical research on the series' author, other publications of the series, and the exposed organizations
     
     4. Data Analysis of text(s)
+
+## Primary Sources: 
+Chicago Times - 1888 - Nell Nelson  
+White Slave Girls of America - 1888 - McEnnis  
+Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication   
 
 
