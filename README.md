@@ -1,6 +1,6 @@
 # The Restoration of Nell Nelson
 
-If you are new to the project please refer to our [Project Basics Wiki](https://github.com/RJP43/CitySlaveGirls/wiki/Project-Basics) and our [codebook](https://github.com/RJP43/CitySlaveGirls/wiki/Checkout-our-Codebook!))!  
+If you are new to the project please refer to our [Project Basics Wiki](https://github.com/RJP43/CitySlaveGirls/wiki/Project-Basics) and our [Codebook](https://github.com/RJP43/CitySlaveGirls/wiki/Checkout-our-Codebook!))!  
 
 This is a public work space for experimenting with the coding and digitization of the "City Slave Girls" series printed in the _Chicago Times_, 1888.  
 
