@@ -20,6 +20,10 @@ After the original newspaper publication there were two books published within t
 ## Primary Sources: 
 Chicago Times - 1888 - Nell Nelson  
 White Slave Girls of America - 1888 - McEnnis  
-Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication   
+Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication  
+
+## Website:  
+Website URL: http://nelson.newtfire.org/ and http://nell.obdurodon.org/
+GitHub repo. for website development: https://github.com/RJP43/CitySlaveGirls_bootstrap
 
 
