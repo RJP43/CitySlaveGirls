@@ -1,0 +1,232 @@
+City Slave Girl	poss	nonSelf	her kid	6	kid	noun
+City Slave Girl	poss	nonSelf	her letters	6	letters	noun
+City Slave Girl	poss	nonSelf	each other's hair	6	hair	noun
+City Slave Girl	poss	nonSelf	their mothers' fault	6	fault	noun
+City Slave Girl	poss	nonSelf	their strength	6	strength	noun
+City Slave Girl	poss	self	my dear	6	City Slave Girl	refNoun
+City Slave Girl	poss	self	my room	6	room	noun
+City Slave Girl	poss	self	my eyes	6	eyes	noun
+City Slave Girl	poss	nonSelf	her tea kettle	6	tea kettle	noun
+City Slave Girl	poss	nonSelf	her pale face	6	face	noun
+City Slave Girl	poss	nonSelf	her thin little hands	6	hands	noun
+City Slave Girl	poss	nonSelf	their cheeks	6	cheeks	noun
+City Slave Girl	poss	nonSelf	her pocket	6	pocket	noun
+City Slave Girl	poss	self	my mother	6	mother	noun
+City Slave Girl	poss	nonSelf	her father	6	father	noun
+City Slave Girl	poss	self	my mother and brother	6	mother	noun
+City Slave Girl	poss	self	my mother and brother	6	brother	noun
+City Slave Girl	poss	self	my family	6	family	noun
+City Slave Girl	poss	self	my mother	6	mother	noun
+City Slave Girl	poss	nonSelf	owner's clothes	6	clothes	noun
+City Slave Girl	poss	nonSelf	her elbow	6	elbow	noun
+City Slave Girl	poss	nonSelf	poverty's respectable rags	5	rags	refNoun
+City Slave Girl	poss	nonSelf	her needle	5	needle	noun
+City Slave Girl	poss	nonSelf	her cloak	5	cloak	noun
+City Slave Girl	poss	nonSelf	her neck	5	neck	noun
+City Slave Girl	poss	nonSelf	her collar	5	collar	noun
+City Slave Girl	poss	nonSelf	her jersey	5	jersey	noun
+City Slave Girl	poss	nonSelf	her shoes	5	shoes	noun
+City Slave Girl	poss	nonSelf	her folks	5	folks	noun
+City Slave Girl	poss	nonSelf	her hands and knees	5	hands	noun
+City Slave Girl	poss	nonSelf	her hands and knees	5	knees	noun
+City Slave Girl	poss	nonSelf	her needle	5	needle	noun
+City Slave Girl	poss	nonSelf	her mouth	5	mouth	noun
+City Slave Girl	poss	nonSelf	her dress	5	dress	noun
+City Slave Girl	poss	nonSelf	her mother	5	mother	noun
+City Slave Girl	poss	nonSelf	her brother	5	brother	noun
+City Slave Girl	poss	nonSelf	their dresses	5	dresses	noun
+City Slave Girl	poss	nonSelf	her arms and neck	5	arms	noun
+City Slave Girl	poss	nonSelf	her arms and neck	5	neck	noun
+City Slave Girl	poss	nonSelf	her hands	5	hands	noun
+City Slave Girl	poss	nonSelf	her dress waist	5	dress waist	noun
+City Slave Girl	poss	nonSelf	her hands	5	hands	noun
+City Slave Girl	poss	nonSelf	her underclothing	5	underclothing	noun
+City Slave Girl	poss	self	our eyes	5	eyes	noun
+City Slave Girl	poss	self	our neighbors	5	City Slave Girl	refNoun
+City Slave Girl	poss	nonSelf	her little head	5	head	noun
+City Slave Girl	poss	nonSelf	her arm	5	arm	noun
+City Slave Girl	poss	nonSelf	their finger-nails	5	finger-nails	noun
+City Slave Girl	poss	nonSelf	their pursuer	4	pursuer	noun
+City Slave Girl	poss	nonSelf	her face	4	face	noun
+City Slave Girl	poss	nonSelf	her mother	4	mother	noun
+City Slave Girl	poss	nonSelf	their language	4	language	noun
+City Slave Girl	poss	nonSelf	her needle	4	needle	noun
+City Slave Girl	poss	self	my machine	4	machine	noun
+City Slave Girl	poss	self	my sewing	4	sewing	noun
+City Slave Girl	poss	nonSelf	your wages	4	wages	noun
+City Slave Girl	poss	self	my chin	4	chin	noun
+City Slave Girl	poss	self	my whiskers	4	whiskers	noun
+City Slave Girl	poss	nonSelf	her labors	3	labors	noun
+City Slave Girl	poss	nonSelf	their arms	3	arms	noun
+City Slave Girl	poss	nonSelf	their broken shoes	3	shoes	noun
+City Slave Girl	poss	nonSelf	their ragged skirts	3	skirts	noun
+City Slave Girl	poss	nonSelf	her growth	3	growth	noun
+City Slave Girl	poss	nonSelf	her hands	3	hands	noun
+City Slave Girl	poss	nonSelf	Rosy's attention	3	attention	noun
+City Slave Girl	poss	nonSelf	Rosy's book	3	book	noun
+City Slave Girl	poss	nonSelf	her aid	3	aid	noun
+City Slave Girl	poss	nonSelf	her heart	3	heart	noun
+City Slave Girl	poss	self	my teeth	3	teeth	noun
+City Slave Girl	poss	self	my wages	3	wages	noun
+City Slave Girl	poss	nonSelf	your work	3	work	noun
+City Slave Girl	poss	nonSelf	her cloak	3	cloak	noun
+City Slave Girl	poss	nonSelf	her box	3	box	noun
+City Slave Girl	poss	self	our table	3	table	noun
+City Slave Girl	poss	nonSelf	her hand	3	hand	noun
+City Slave Girl	poss	nonSelf	their arms, neck, and faces	3	arms	noun
+City Slave Girl	poss	nonSelf	their arms, neck, and faces	3	neck	noun
+City Slave Girl	poss	nonSelf	their arms, neck, and faces	3	faces	noun
+City Slave Girl	poss	nonSelf	their teacups	3	teacups	noun
+City Slave Girl	poss	nonSelf	their hair	3	hair	noun
+City Slave Girl	poss	nonSelf	their needles	3	needles	noun
+City Slave Girl	poss	nonSelf	their lunch box	3	box	noun
+City Slave Girl	poss	self	my money	3	money	noun
+City Slave Girl	poss	nonSelf	their dresses	3	dresses	noun
+City Slave Girl	poss	nonSelf	Maggie's fringe	2	fringe	noun
+City Slave Girl	poss	nonSelf	her book	2	book	noun
+City Slave Girl	poss	nonSelf	her place	2	place	noun
+City Slave Girl	poss	nonSelf	your bag	2	bag	noun
+City Slave Girl	poss	nonSelf	your pocket	2	pocket	noun
+City Slave Girl	poss	nonSelf	cutter's time	2	time	noun
+City Slave Girl	poss	nonSelf	absentee's stock	2	stock	noun
+City Slave Girl	poss	nonSelf	her way	2	way	noun
+City Slave Girl	poss	nonSelf	their miserable implements	2	implements	noun
+City Slave Girl	poss	nonSelf	her grub	2	grub	noun
+City Slave Girl	poss	nonSelf	her account	2	account	noun
+City Slave Girl	poss	self	my lunch	2	lunch	noun
+City Slave Girl	poss	nonSelf	girl's calculations	2	calculations	noun
+City Slave Girl	poss	nonSelf	her parents	2	parents	noun
+City Slave Girl	poss	nonSelf	her little black shawl	2	shawl	noun
+City Slave Girl	poss	nonSelf	Annie's mother	2	mother	noun
+City Slave Girl	poss	nonSelf	her finger	2	finger	noun
+City Slave Girl	poss	nonSelf	her head	2	head	noun
+City Slave Girl	poss	nonSelf	her cheeks	2	cheeks	noun
+City Slave Girl	poss	nonSelf	her mother	2	mother	noun
+City Slave Girl	poss	nonSelf	your name	1	name	noun
+City Slave Girl	poss	self	my mother	1	mother	noun
+City Slave Girl	poss	nonSelf	her contract	1	contract	noun
+City Slave Girl	poss	nonSelf	her mother	1	mother	noun
+City Slave Girl	poss	nonSelf	her hands	1	hands	noun
+City Slave Girl	poss	nonSelf	your letter	1	letter	noun
+City Slave Girl	poss	nonSelf	their homes	1	homes	noun
+City Slave Girl	poss	nonSelf	your ability	1	ability	noun
+City Slave Girl	poss	nonSelf	your command	1	command	noun
+City Slave Girl	poss	nonSelf	your name	1	name	noun
+City Slave Girl	poss	nonSelf	your money	1	money	noun
+City Slave Girl	poss	nonSelf	your risk	1	risk	noun
+City Slave Girl	poss	self	my hands	1	hands	noun
+City Slave Girl	poss	nonSelf	her $16	1	$16 	noun
+City Slave Girl	poss	nonSelf	your own thread	1	thread	noun
+City Slave Girl	poss	nonSelf	their hats and wraps, dresses and collars	1	hats	noun
+City Slave Girl	poss	nonSelf	their hats and wraps, dresses and collars	1	wraps	noun
+City Slave Girl	poss	nonSelf	their hats and wraps, dresses and collars	1	dresses	noun
+City Slave Girl	poss	nonSelf	their hats and wraps, dresses and collars	1	collars	noun
+City Slave Girl	poss	nonSelf	her dress and waist	1	dress	noun
+City Slave Girl	poss	nonSelf	her dress and waist	1	waist	noun
+City Slave Girl	poss	nonSelf	their corsets	1	corsets	noun
+City Slave Girl	poss	nonSelf	their shoes	1	shoes	noun
+City Slave Girl	poss	nonSelf	her front hair	1	hair	noun
+City Slave Girl	poss	nonSelf	her own cup	1	cup	noun
+City Slave Girl	poss	nonSelf	her tea	1	tea	noun
+City Slave Girl	poss	nonSelf	her bit of soap and grimy cotton towel	1	soap	noun
+City Slave Girl	poss	nonSelf	her bit of soap and grimy cotton towel	1	towel	noun
+City Slave Girl	poss	nonSelf	her scissors	1	scissors	noun
+City Slave Girl	poss	nonSelf	their machines	1	machines	noun
+City Slave Girl	poss	nonSelf	her mouth	1	mouth	noun
+City Slave Girl	poss	nonSelf	her head	1	head	noun
+City Slave Girl	poss	nonSelf	her temples	1	temples	noun
+City Slave Girl	poss	nonSelf	her hands	1	hands	noun
+City Slave Girl	poss	nonSelf	her head	1	head	noun
+City Slave Girl	poss	nonSelf	her story	1	story	noun
+City Slave Girl	poss	self	our brother	1	brother	noun
+City Slave Girl	poss	self	our money	1	money	noun
+City Slave Girl	poss	self	our names	1	names	noun
+City Slave Girl	poss	nonSelf	her name	1	name	noun
+City Slave Girl	poss	nonSelf	her place	1	place	noun
+City Slave Girl	poss	nonSelf	her basket and check	1	basket	noun
+City Slave Girl	poss	nonSelf	her basket and check	1	check	noun
+City Slave Girl	poss	nonSelf	her ticket	1	ticket	noun
+City Slave Girl	poss	nonSelf	her nearest neighbor	21	City Slave Girl	dirNoun
+City Slave Girl	poss	nonSelf	her own account-book	21	account-book	noun
+City Slave Girl	poss	nonSelf	her work	21	work	noun
+City Slave Girl	poss	nonSelf	her inheritance	21	inheritance	noun
+City Slave Girl	poss	nonSelf	her young life	21	life	noun
+City Slave Girl	poss	nonSelf	girl's features	21	features	noun
+City Slave Girl	poss	nonSelf	her coffee	21	coffee	noun
+City Slave Girl	poss	nonSelf	their toil	21	toil	noun
+City Slave Girl	poss	nonSelf	her language	21	language	noun
+City Slave Girl	poss	nonSelf	her another and better position	21	position	noun
+City Slave Girl	poss	nonSelf	her work	21	work	noun
+City Slave Girl	poss	nonSelf	hercharacter	21	character	noun
+City Slave Girl	poss	nonSelf	her mother	21	mother	noun
+City Slave Girl	poss	nonSelf	her old seat	21	seat	noun
+City Slave Girl	poss	nonSelf	their street clothes	21	clothes	noun
+City Slave Girl	poss	nonSelf	their wages	21	wages	noun
+City Slave Girl	poss	nonSelf	theirprime	21	prime	noun
+City Slave Girl	poss	nonSelf	her way	21	way	noun
+City Slave Girl	poss	nonSelf	their machines	14	machines	noun
+City Slave Girl	poss	nonSelf	their hands	14	hands	noun
+City Slave Girl	poss	nonSelf	their dresses	14	dresses	noun
+City Slave Girl	poss	nonSelf	their wages	14	wages	noun
+City Slave Girl	poss	nonSelf	their wrists	14	wrists	noun
+City Slave Girl	poss	nonSelf	their dungeon slavery	14	dungeon slavery	noun
+City Slave Girl	poss	nonSelf	their feet	14	feet	noun
+City Slave Girl	poss	nonSelf	their skill	14	skill	noun
+City Slave Girl	poss	nonSelf	their lunch	14	lunch	noun
+City Slave Girl	poss	nonSelf	their thirst	14	thirst	noun
+City Slave Girl	poss	nonSelf	their smells	14	smells	noun
+City Slave Girl	poss	nonSelf	their language	14	language	noun
+City Slave Girl	poss	nonSelf	their manners	14	manners	noun
+City Slave Girl	poss	nonSelf	her head	14	head	noun
+City Slave Girl	poss	nonSelf	Annie's eyes	14	eyes	noun
+City Slave Girl	poss	nonSelf	her little nose	14	nose	noun
+City Slave Girl	poss	nonSelf	her face	14	face	noun
+City Slave Girl	poss	nonSelf	her voice	14	voice	noun
+City Slave Girl	poss	nonSelf	her handkerchief	14	handkerchief	noun
+City Slave Girl	poss	nonSelf	her work	14	work	noun
+City Slave Girl	poss	nonSelf	her machine	14	machine	noun
+City Slave Girl	poss	nonSelf	her apron	14	apron	noun
+City Slave Girl	poss	nonSelf	her book	14	book	noun
+City Slave Girl	poss	nonSelf	her cold	14	cold	noun
+City Slave Girl	poss	self	my head	14	head	noun
+City Slave Girl	poss	self	my parents	14	parents	noun
+City Slave Girl	poss	nonSelf	Polly's hamper	14	hamper	noun
+City Slave Girl	poss	nonSelf	shop-girls' shoe	14	shoe	noun
+City Slave Girl	poss	nonSelf	her sister	14	sister	noun
+City Slave Girl	poss	nonSelf	your own living	14	living	noun
+City Slave Girl	poss	nonSelf	your errand	14	errand	noun
+City Slave Girl	poss	nonSelf	your hand	14	hand	noun
+City Slave Girl	poss	nonSelf	Girls' Friendly society	14	society	noun
+City Slave Girl	poss	nonSelf	your case	14	case	noun
+City Slave Girl	poss	nonSelf	their husband's meals	14	husband	noun
+City Slave Girl	poss	nonSelf	her family	14	family	noun
+City Slave Girl	poss	nonSelf	your clothes	14	clothes	noun
+City Slave Girl	poss	nonSelf	your work-table	14	work-table	noun
+City Slave Girl	poss	nonSelf	your health	14	health	noun
+City Slave Girl	poss	nonSelf	your vital energy	14	energy	noun
+City Slave Girl	poss	nonSelf	your womanhood	14	womanhood	noun
+City Slave Girl	poss	nonSelf	their choice	14	choice	noun
+City Slave Girl	poss	nonSelf	their endeavor to find respectable employment	14	endeavor	noun
+City Slave Girl	poss	nonSelf	her own employer	14	City Slave Girl	dirNoun
+City Slave Girl	poss	nonSelf	their revenge	14	revenge	noun
+City Slave Girl	poss	nonSelf	their children and wards	14	children	noun
+City Slave Girl	poss	nonSelf	their children and wards	14	wards	noun
+City Slave Girl	poss	nonSelf	their lot	14	lot	noun
+City Slave Girl	poss	nonSelf	their way	14	way	noun
+City Slave Girl	poss	nonSelf	their employers	14	City Slave Girl	dirNoun
+City Slave Girl	poss	nonSelf	their lot	14	lot	noun
+City Slave Girl	poss	nonSelf	their employers	14	City Slave Girl	dirNoun
+City Slave Girl	poss	nonSelf	their friends	14	City Slave Girl	refNoun
+City Slave Girl	poss	nonSelf	their heads and shoulders	11	heads	noun
+City Slave Girl	poss	nonSelf	their heads and shoulders	11	shoulders	noun
+City Slave Girl	poss	nonSelf	their seats	11	seats	noun
+City Slave Girl	poss	nonSelf	their shears and little scissors	11	shears	noun
+City Slave Girl	poss	nonSelf	their shears and little scissors	11	scissors	noun
+City Slave Girl	poss	nonSelf	her machine	11	machine	noun
+City Slave Girl	poss	nonSelf	their enduring quality	11	quality	noun
+City Slave Girl	poss	nonSelf	their work	11	work	noun
+City Slave Girl	poss	nonSelf	their eyes	11	eyes	noun
+City Slave Girl	poss	nonSelf	her neck	11	neck	noun
+City Slave Girl	poss	nonSelf	their arms and faces	11	arms	noun
+City Slave Girl	poss	nonSelf	their arms and faces	11	faces	noun
+City Slave Girl	poss	self	my overshoes	11	overshoes	noun
