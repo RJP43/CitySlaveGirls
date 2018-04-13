@@ -21,8 +21,33 @@
             </head>
             <body>
                 <!--<xsl:comment>#include virtual="top.html"</xsl:comment>--><!-- RJP: If later decide to incorporate this into the Nelson project site, uncomment for top navigation. -->
+            <xsl:apply-templates select="descendant::div[@type='article']"/>
             </body>
         </html>
     </xsl:template>
-
+    <xsl:template match="wit[(contains(@id,'WSFA_01'))]">
+        <span class="WSFA1">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="wit[(contains(@id,'WSG_04'))]">
+        <span class="WSG4">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="wit[(contains(@id,'WSG_05'))]">
+        <span class="WSG5">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="wit[(contains(@id,'CT_02'))]">
+        <span class="CT2">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="wit[(contains(@id,'CT_01'))]">
+        <span class="CT1">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 </xsl:stylesheet>

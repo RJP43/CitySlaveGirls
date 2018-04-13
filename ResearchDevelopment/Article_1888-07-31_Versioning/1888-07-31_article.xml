@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div>
     <div type="article">
-        <app>
+        <head>
             <wit id="CT_02">
                 <pb n="1" id="CT_02"/>
                 <headline type="main">The Chicago Times <date when="1888-07-31">Tuesday Morning,
@@ -54,7 +54,7 @@
                         rend="italics">nom de plume</hi> of the writer, “Nell Nelson," forever dear
                     to all toiling womankind:</p>
             </wit>
-        </app>
+        </head>
         <p>
             <app>
                 <wit id="CT_02"/>
@@ -148,14 +148,14 @@
                 <wit id="CT_02 WSG_04 WSFA_01"> heard of martyrs complaining?</wit>
             </app>
         </p>
-        <pb n="22" id="WSG_04"/>
+        
         <p>
             <app>
                 <wit id="CT_02 WSG_04 WSFA_01">My experience began at 7:50 </wit>
             </app>
             <app>
                 <wit id="CT_02">a.m.</wit>
-                <wit id="WSG_04">A. M.</wit>
+                <wit id="WSG_04"><pb n="22" id="WSG_04"/>A. M.</wit>
                 <wit id="WSFA_01">a.m.</wit>
             </app>
             <app>
@@ -299,10 +299,10 @@
                 <wit id="WSFA_01"/>
             </app>
         </p>
-        <pb n="242" id="WSG_04"/>
+        
         <p>
             <app>
-                <wit id="CT_02 WSG_04">“Want to stitch?”</wit>
+                <wit id="CT_02 WSG_04"><pb n="242" id="WSG_04"/>“Want to stitch?”</wit>
                 <wit id="WSFA_01"/>
             </app>
         </p>
@@ -541,10 +541,10 @@
                 <wit id="WSFA_01"/>
             </app>
         </p>
-        <pb n="26" id="WSG_04"/>
+        
         <p>
             <app>
-                <wit id="CT_02 WSG_04">“May I have basting cotton?”</wit>
+                <wit id="CT_02 WSG_04"><pb n="26" id="WSG_04"/>“May I have basting cotton?”</wit>
                 <wit id="WSFA_01"/>
             </app>
         </p>
@@ -710,7 +710,7 @@
             </app>
         </p>
 
-        <app>
+        <head><app>
             <wit id="CT_02">
                 <list>
                     <item>SIXTY CENTS A WEEK.</item>
@@ -724,7 +724,7 @@
                     EVENING.</list>
             </wit>
             <wit id="WSFA_01"/>
-        </app>
+        </app></head>
 
         <p>
             <app>
@@ -770,10 +770,9 @@
                 <wit id="WSFA_01"/>
             </app>
         </p>
-        <pb n="28" id="WSG_05"/>
         <p>
             <app>
-                <wit id="CT_02 WSG_05">“Very much.</wit>
+                <wit id="CT_02 WSG_05"><pb n="28" id="WSG_05"/>“Very much.</wit>
                 <wit id="WSFA_01"/>
             </app>
         </p>
@@ -1065,19 +1064,19 @@
             </app>
         </p>
     </div>
-    <app>
-        <wit id="CT_02">
-            <div type="advertisement">
+    <div type="advertisement">
+        <app>
+            <wit id="CT_02">
                 <p>The White Factory Slaves --</p>
                 <p>Read THE TIMES</p>
-            </div>
-        </wit>
-        <wit id="WSG_05"/>
-        <wit id="WSFA_01"/>
-    </app>
-    <app>
-        <wit id="CT_02">
-            <div type="lettersToEditor">
+            </wit>
+            <wit id="WSG_05"/>
+            <wit id="WSFA_01"/>
+        </app>
+    </div>
+    <div type="lettersToEditor">
+        <app>
+            <wit id="CT_02">
                 <pb n="4" id="CT_02"/>
                 <head>“SLAVE GIRLS OF CHICAGO”</head>
                 <div id="CT002_LE1">
@@ -1116,14 +1115,15 @@
                         effectual attention to it.</p>
                     <p type="signed">J.W.B.</p>
                 </div>
-            </div>
-        </wit>
-        <wit id="WSG_05"/>
-        <wit id="WSFA_01"/>
-    </app>
-    <app>
-        <wit id="CT_02">
-            <div type="advertisement">
+
+            </wit>
+            <wit id="WSG_05"/>
+            <wit id="WSFA_01"/>
+        </app>
+    </div>
+    <div type="advertisement">
+        <app>
+            <wit id="CT_02">
                 <pb n="8" id="CT_02"/>
                 <head type="main">The Chicago Times <date when="1888-07-31">Tuesday, July 31,
                         1888.</date></head>
@@ -1143,10 +1143,9 @@
                 <p>Read the second chapter today, the third chapter tomorrow, and every chapter till
                     the story is told.</p>
                 <head>Read The Times.</head>
-            </div>
-
-        </wit>
-        <wit id="WSG_05"/>
-        <wit id="WSFA_01"/>
-    </app>
+            </wit>
+            <wit id="WSG_05"/>
+            <wit id="WSFA_01"/>
+        </app>
+    </div>
 </div>
