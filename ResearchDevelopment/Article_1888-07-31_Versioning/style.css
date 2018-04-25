@@ -134,6 +134,7 @@ li.chooseItem{
     text-decoration: underline;
     text-decoration-color: green;
     font-weight: bold;
+    font-size: 7pt;
 }
 .correct{
     text-decoration: underline;
@@ -141,7 +142,7 @@ li.chooseItem{
 }
 .othersChange{
     background-color: #DCDCDC;
-    text-decoration: green;
+    text-decoration: underline;
     text-decoration-color: green;
     font-weight: bold;
 }
