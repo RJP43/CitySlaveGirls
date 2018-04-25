@@ -1,0 +1,166 @@
+.navbar-xs{
+    min-height: 28px;
+    height: 28px;
+}
+.navbar-xs .navbar-brand{
+    padding: 0px 12px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.navbar-xs .navbar-nav > li > a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 28px;
+}
+span.more{
+    font-family: cursive;
+    font-size: 10px;
+}
+a.more{
+    text-decoration: underline;
+    font-weight: bold;
+    color: highlight;
+}
+p > a{
+    color: black;
+    text-decoration: underline
+}
+p > a:hover{
+    color: #3F729B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+br{
+    line-height: 50%;
+}
+.padding{
+    padding: 10px;
+    margin: 5px;
+}
+.entries{
+    font-family: sans-serif;
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+#supDiv > h3, h4{
+    text-align:center;
+}
+.panels{
+    width:100%;
+}
+.panel1, panel2, panel3, panel4 { width:25%; }
+
+.entry{
+    margin: 10px;
+}
+.entries::-webkit-scrollbar{
+    width: 15px;
+} /* this targets the default scrollbar (compulsory) */
+.entries::-webkit-scrollbar-track{
+    background-color: #4B515D;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+.entries::-webkit-scrollbar-thumb{
+    background-color: #99B3CC;
+} /* this will style the thumb, ignoring the track */
+
+.entries::-webkit-scrollbar-button{
+    background-color: #99B3CC;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+.entries::-webkit-scrollbar-corner{
+    background-color: #4B515D;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+.buttons{
+    margin: 0px;
+    padding: 0px;
+}
+.btn-info,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus{
+    border-color: #4B515D;
+    color: #4B515D;
+}
+.btn-info:hover{
+    background-color: #4B515D;
+    color: #FFFFFF;
+    border-color: white
+}
+h2{
+    font-size: 16px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+/*.choose{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+li.chooseItem{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}*/
+.change{
+    background-color: #DCDCDC;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: bold;
+}
+.omission{
+    color: red;
+    font-size: 7pt;
+    font-weight: bold;
+}
+.addition{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: green;
+    font-weight: bold;
+}
+.correct{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.othersChange{
+    background-color: #DCDCDC;
+    text-decoration: green;
+    text-decoration-color: green;
+    font-weight: bold;
+}
+.othersOmit{
+    color: green;
+    font-weight: bold;
+}
+.headlines ul{
+    font-family: sans-serif;
+    color: black;
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+.headlines li{
+    font-size: 9pt;
+    text-align: center;
+    display: list-item;
+    list-style-type: none;
+}
+#CSGtext p{
+    margin: 10px;
+    font-size: 10pt;
+}

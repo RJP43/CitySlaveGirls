@@ -665,8 +665,8 @@
                 <wit id="WSFA_01"/>
             </app>
             <app>
-                <wit>superiority</wit>
-                <wit>superi<pb n="27" id="WSG_04"/>-ority</wit>
+                <wit id="CT_02">su-periority</wit>
+                <wit id="WSG_04">superi<pb n="27" id="WSG_04"/>-ority</wit>
                 <wit id="WSFA_01"/>
             </app>
             <app>
