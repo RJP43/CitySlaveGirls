@@ -40,8 +40,10 @@ br{
 }
 .entries{
     font-family: sans-serif;
+    margin:auto;
+    padding:inherit;
     width: auto;
-    height: 500px;
+    height: 450px;
     overflow: scroll;
     overflow-y: scroll;
 }
@@ -51,13 +53,13 @@ br{
 .panels{
     width:100%;
 }
-.panel1, panel2, panel3, panel4 { width:25%; }
+.panel1, .panel2, .panel3, .panel4 { width:25%; }
 
 .entry{
     margin: 10px;
 }
 .entries::-webkit-scrollbar{
-    width: 15px;
+    width: 10px;
 } /* this targets the default scrollbar (compulsory) */
 .entries::-webkit-scrollbar-track{
     background-color: #4B515D;
