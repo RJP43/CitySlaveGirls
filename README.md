@@ -15,5 +15,7 @@ Whites Slave Girls - 1888 - Unknown Editor / Barkley Publication
 ## Website:  
 Website URL: http://nelson.newtfire.org/ and http://nell.obdurodon.org/  
 GitHub repo. for website development: https://github.com/RJP43/CitySlaveGirls_bootstrap
+Quick Link to Version Reading View Example -  http://nelson.newtfire.org/version/readingView_CSGversions.html
 
+ 
 
